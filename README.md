@@ -4,11 +4,11 @@ The tree is developped with information source mainly from the Steam/Japanese an
 
 [Use the simulator released on Github Pages](https://eden333.github.io/swskillsimu/).
 
-# Milestones
+# Priorities
 - Updating to the latest patch and keeping everything up to date.
-  - Adding Version Selection 
-  - Adding Translations
-    -  cleaning up in general
+  - Cleaning Code up
+    - Adding Version Selection 
+    - Adding Translations
 
 # Customize
 - You can translate most of UI-related strings at [docs/assets/Localization.js](docs/assets/Localization.js).
