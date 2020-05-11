@@ -4,12 +4,12 @@
   "MaxLevel": 68,
   "AvailableClass": {
     "0": {
-      "Name": "一般",
-      "Cover": "../assets/images/bg_G_Chii.png"
+      "Name": "Base",
+      "Cover": "../assets/images/Chii_Base.png"
     },
     "1": {
-      "Name": "晉升",
-      "Cover": "../assets/images/bg_G_Chii_ADV.png",
+      "Name": "Advancement",
+      "Cover": "../assets/images/Chii_ADV.png",
       "RequiredLevel": 57
     }
   },
@@ -21,7 +21,7 @@
       "Icon": "../assets/SkillIcons/Chii/Skill01_BudoCat.png.png",
       "Levels": {
         "0": {
-          "Description": "You swing the Daito and attack opponents in\nfront of you with multiple blade attacks.\nOn the last additional attack, you absorb some\nof the HP of nearby opponents.",
+          "Description": "You swing the Daito and attack opponents in front of you with multiple blade attacks. On the last additional attack, you absorb some of the HP of nearby opponents.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
