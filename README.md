@@ -4,9 +4,13 @@ The tree is developped with information source mainly from the Steam/Japanese an
 
 [Use the simulator released on Github Pages](https://eden333.github.io/swskillsimu/).
 
-# Priorities
+# Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
+  - Adding Chii
+    - Adding Ephnel
+    - Adding Level 68
   - Cleaning Code up
+    - Preperations for Future Updates (enable when it comes)
     - Adding Version Selection 
     - Adding Translations
 
