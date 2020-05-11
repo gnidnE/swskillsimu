@@ -166,8 +166,8 @@
         }
       },
       "Extensions": [
-        "OverturnGround-DarkBlood",
-        "OverturnGround-LifeDrain"
+        "FandangoMortale-DarkBlood",
+        "FandangoMortale-Drain"
       ]
     },
     "FandangoMortale-DarkBlood": {
@@ -177,7 +177,7 @@
       "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
-          "Description": "朝浮空的敵人進行連續射擊。",
+          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from thits with SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -202,14 +202,14 @@
         }
       }
     },
-    "OverturnGround-LifeDrain": {
+    "FandangoMortale-Drain": {
       "Visible": false,
       "Name": "Drain",
       "ID": 6,
       "Icon": "../assets/SkillIcons/Chii/G_1-2_OverturnGround_B.png",
       "Levels": {
         "0": {
-          "Description": "朝浮空的敵人進行連續射擊。",
+          "Description": "On the first hit, the damage is dealt to the same extent as Drain. The second attack slows down the opponents it hits.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -234,14 +234,14 @@
         }
       }
     },
-    "ThrustArrow": {
-      "Name": "貓刀一式 - 狩獵開始",
+    "Budo1_The_Hunt_Begins": {
+      "Name": Budo1: The Hunt Begins",
       "DefaultLevel": 1,
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Chii/G_1-3_ThrustArrow.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill03_Budo1_The_Hunt_Begins.png",
       "Levels": {
         "0": {
-          "Description": "衝向前方，使用高速迴旋斬攻擊前方的敵人。\n根據蓄力時間增加衝刺移動的距離。\n攻擊後會吸收少量生命。",
+          "Description": "You charge forwads and carry out multiple agile blade attacks on enemies around you. The range of movement is extended depending on the charging time. After the move, you absorb some HP from nearby opponents.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
