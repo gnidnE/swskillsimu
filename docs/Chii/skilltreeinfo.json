@@ -279,13 +279,13 @@
         "ThrustArrow-Explosion"
       ]
     },
-    "AllegroSweep": {
-      "Name": "貓刀二式 - 探爪",
+    "Budo2_Claws_Out": {
+      "Name": "Budo2: Claws Out",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Chii/G_2-1_AllegroSweep.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out.png",
       "Levels": {
         "0": {
-          "Description": "用居合斬一掃前方的敵人。\n點擊滑鼠左鍵可以立刻攻擊，但會減少20%Damage。",
+          "Description": "You draw your Daito and carry out a blade attack on enemies in front of you. You draw your Daito Fatale immediatley by left-clicking. Damage is reduced by 20% on immediate activation",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -320,17 +320,17 @@
         }
       },
       "Extensions": [
-        "AllegroSweep-Charge"
+        "Budo2_Claws_Out-Charge"
       ]
     },
-    "AllegroSweep-Charge": {
+    "Budo2_Claws_Out-Charge": {
       "Visible": false,
-      "Name": "蓄力",
+      "Name": "Charge",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Chii/G_2-1_AllegroSweep_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out_A.png",
       "Levels": {
         "0": {
-          "Description": "在使用技能的位置生成氣體煙霧，使煙幕區域內的敵人減速。",
+          "Description": "You increase your attack damage by charging up. The number of strikes and damage increase by max 3.2x the immediate attack damage depending on the charging level.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -355,13 +355,13 @@
         }
       }
     },
-    "SoulChange": {
-      "Name": "血戰姿態",
+    "Md.Sw_A_Taste_of_Blood": {
+      "Name": "Md.Sw.: A Taste of Blood",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Chii/G_2-2_SoulChange.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill05_Md.Sw._A_Taste_of_Blood.png",
       "Levels": {
         "0": {
-          "Description": "以消耗HP為代價，一定時間內強化戰鬥力。\n同隊伍成員（含自己）提升暴擊傷害，自身則額外提高敵人防禦力貫穿。",
+          "Description": "You consume HP to increase your combat strengh for a short time",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -396,13 +396,13 @@
         }
       }
     },
-    "SeizeField": {
-      "Name": "捕食者的渴望",
+    "KittyKendo": {
+      "Name": "Kitty Kendo",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Chii/G_2-3_SeizeField.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill06_Kitty_Kendo.png",
       "Levels": {
         "0": {
-          "Description": "召喚靈魂暗影之力的怪物爪，將周圍的敵人拉到身旁。",
+          "Description": "You summon monster claws made of SoulDreg energy that pull nearby opponents towards you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -437,13 +437,13 @@
         }
       },
       "Extensions": [
-        "SeizeField-DarkBlood",
-        "SeizeField-Fang"
+        "KittyKendo-DarkBlood",
+        "KittyKendo-Canine"
       ]
     },
-    "SeizeField-DarkBlood": {
+    "KittyKendo-DarkBlood": {
       "Visible": false,
-      "Name": "Sw.Bld:[捕食者的渴望]",
+      "Name": "Sw.Bld:[Kitty Kendo]",
       "ID": 12,
       "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
@@ -473,14 +473,14 @@
         }
       }
     },
-    "SeizeField-Fang": {
+    "KittyKendo-Canine": {
       "Visible": false,
-      "Name": "貓牙",
+      "Name": "Canine",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Chii/G_2-3_SeizeField_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill06_Kitty_Kendo_B.png",
       "Levels": {
         "0": {
-          "Description": "射擊結束時發射充滿強烈能量的一擊，並以能量爆炸地點為基準，吸引周遭的所有敵人。",
+          "Description": "You penetrate the enemiy's defense for 5 sec. and perform a central additional attack against a group of gathered opponents. Summoned canines also come in handy as a predator. You also receive SF.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
