@@ -79,18 +79,21 @@
                 url: "Iris",
                 selectImage: "assets/images/IrisSelect.png"
             },
-            "Someone": {
+			"Chii Aruel": {
                 url: "Chii",
-                selectImage: "assets/images/ChiiSelect.png",
-                //enabled: false,
-                //reason: "The cat isn't ready yet~"
-			//"Ephnel Bombingspear": {
-                //url: "Ephnel",
-                //selectImage: "assets/images/SomeoneSelect.png",
-                //enabled: false,
-                //reason: "Your Waifu isn't ready yet~"
-            }
-        };
+                selectImage: "assets/images/ChiiSelect.png"	
+			},
+            /*
+				enabled: false,
+                reason: "The cat isn't ready yet~"
+			"Ephnel Bombingspear": {
+                url: "Ephnel",
+                selectImage: "assets/images/SomeoneSelect.png",
+                enabled: false,
+                reason: "Your Waifu isn't ready yet~"
+			},
+			*/
+            };
 
     // Debug purpose. Don't modify unless you know what're you doing or testing something
     let debug_data = {
