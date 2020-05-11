@@ -2,7 +2,7 @@
     'use strict'
     // modify the data here to your liking
     let app_data = {
-            "github-repo": "Leayal/swskillsimu", // Set to null to let auto-detect from Github Page default URL, unreliable though
+            "github-repo": "Eden333/swskillsimu", // Set to null to let auto-detect from Github Page default URL, unreliable though
             maxCharacterLevel: 65 // Default max level will be used if the value cannot be found in a character's JSON data
         },
         // SP table.
@@ -56,34 +56,39 @@
                                          reason: The reason when not enabled
             */
             "Haru Estia": {
-                url: "haru",
+                url: "Haru",
                 selectImage: "assets/images/HaruSelect.png"
             },
             "Erwin Arclight": {
-                url: "erwin",
+                url: "Erwin",
                 selectImage: "assets/images/ErwinSelect.png"
             },
             "Lily Bloomerchen": {
-                url: "lily",
+                url: "Lily",
                 selectImage: "assets/images/LilySelect.png"
             },
             "Stella Unibell": {
-                url: "stella",
+                url: "Stella",
                 selectImage: "assets/images/StellaSelect.png"
             },
             "Jin Seipatsu": {
-                url: "jin",
+                url: "Jin",
                 selectImage: "assets/images/JinSelect.png"
             },
             "Iris Yuma": {
-                url: "iris",
+                url: "Iris",
                 selectImage: "assets/images/IrisSelect.png"
             },
-            "Someone": {
-                url: "someone",
-                selectImage: "assets/images/SomeoneSelect.png",
+            "Chii Aruel": {
+                url: "Chii",
+                selectImage: "assets/images/ChiiSelect.png",
                 enabled: false,
-                reason: "Your waifu is not here"
+                reason: "The cat isn't ready yet~"
+			//"Ephnel Bombingspear": {
+                //url: "Ephnel",
+                //selectImage: "assets/images/SomeoneSelect.png",
+                //enabled: false,
+                //reason: "Your Waifu isn't ready yet~"
             }
         };
 
