@@ -82,8 +82,8 @@
             "Chii Aruel": {
                 url: "Chii",
                 selectImage: "assets/images/ChiiSelect.png",
-                enabled: false,
-                reason: "The cat isn't ready yet~"
+                //enabled: false,
+                //reason: "The cat isn't ready yet~"
 			//"Ephnel Bombingspear": {
                 //url: "Ephnel",
                 //selectImage: "assets/images/SomeoneSelect.png",
@@ -152,7 +152,7 @@
     if (typeof (w.appdata) !== "object") {
         Object.defineProperty(w, "appdata", {
             value: Object.freeze(Object.assign({
-                "github-repo": "Leayal/swskillsimu",
+                "github-repo": "Eden333/swskillsimu",
                 maxCharacterLevel: 75,
                 use_h264: null,
                 use_vp9: null,
