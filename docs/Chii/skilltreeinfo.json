@@ -18,7 +18,7 @@
       "Name": "Budo Cat",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Chii/Skill01_BudoCat.png.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill01_BudoCat.png",
       "Levels": {
         "0": {
           "Description": "You swing the Daito and attack opponents in front of you with multiple blade attacks. On the last additional attack, you absorb some of the HP of nearby opponents.",
@@ -30,41 +30,41 @@
           }
         },
         "1": {
-          "Effect": "[基本攻擊]\n傷害量：[64%]\n霸體破壞量：[44%]\n[額外攻擊]\n傷害量：[64%], [192%]\n霸體破壞量：[44%], [132%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "Effect": "[Basic Attack]\nDamage：[64%]\nSA Break：[44%]\n[Additional Attack]\nDamage：[64%], [192%]\nSA Break：[44%], [132%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：[70%]\n霸體破壞量：[48%]\n[額外攻擊]\n傷害量：[70%], [211%]\n霸體破壞量：[48%], [145%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "Effect": "[Basic Attack]\nDamage：[70%]\nSA Break：[48%]\n[Additional Attack]\nDamage：[70%], [211%]\nSA Break：[48%], [145%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：[79%]\n霸體破壞量：[54%]\n[額外攻擊]\n傷害量：[79%], [237%]\n霸體破壞量：[54%], [163%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "Effect": "[Basic Attack]\nDamage：[79%]\nSA Break：[54%]\n[Additional Attack]\nDamage：[79%], [237%]\nSA Break：[54%], [163%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
           "RequiredLevel": 6,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[基本攻擊]\n傷害量：[90%]\n霸體破壞量：[62%]\n[額外攻擊]\n[額外攻擊]\n傷害量：[90%], [270%]\n霸體破壞量：[62%], [185%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "Effect": "[Basic Attack]\nDamage：[90%]\nSA Break：[62%]\n[Additional Attack]\n[Additional Attack]\nDamage：[90%], [270%]\nSA Break：[62%], [185%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[基本攻擊]\n傷害量：[106%]\n霸體破壞量：[73%]\n[額外攻擊]\n[額外攻擊]\n傷害量：[106%], [319%]\n霸體破壞量：[73%], [219%]\n最後一擊增益效果：HP恢復[3%]\n\n靈魂值消耗量：[35]\n冷卻時間：[7秒]",
+          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "ScareClow-DarkBlood",
-        "ScareClow-Bleeding"
+        "BudoCat-DarkBlood",
+        "BudoCat-Bleeding"
       ]
     },
-    "ScareClow-DarkBlood": {
+    "BudoCat-DarkBlood": {
       "Visible": false,
-      "Name": "黑血 [創痕一斬]",
+      "Name": "Sw.Bld:[創痕一斬]",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Chii/G_X-X_DarkBlood_A.png",
+      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "消耗生命為代價，強化靈魂暗影之力。\n遭受最後一擊的敵人將會賦予狩獵標記，並於使用特殊攻擊時爆炸。",
@@ -76,27 +76,27 @@
           }
         },
         "1": {
-          "Effect": "[基本攻擊]\n傷害量：[159%]\n霸體破壞量：[109%]\n[額外攻擊]\n傷害量：[159%], [478%]\n霸體破壞量：[109%], [328%]\n\n[通用]\n增益效果：攻擊速度 [+5%]\n增益持續時間：[15秒]（可堆疊3次）\n敵人減益效果：狩獵標記 [15秒]\n生命消耗量：[7%] 當前生命\n冷卻時間：[10秒]",
+          "Effect": "[Basic Attack]\nDamage：[159%]\nSA Break：[109%]\n[Additional Attack]\nDamage：[159%], [478%]\nSA Break：[109%], [328%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 Seconds]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 Seconds]\n生命消耗量：[7%] 當前生命\nCooldown：[10 Seconds]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：[174%]\n霸體破壞量：[119%]\n[額外攻擊]\n傷害量：[174%], [521%]\n霸體破壞量：[119%], [358%]\n\n[通用]\n增益效果：攻擊速度 [+5%]\n增益持續時間：[15秒]（可堆疊3次）\n敵人減益效果：狩獵標記 [15秒]\n生命消耗量：[7%] 當前生命\n冷卻時間：[10秒]",
+          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[119%]\n[Additional Attack]\nDamage：[174%], [521%]\nSA Break：[119%], [358%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 Seconds]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 Seconds]\n生命消耗量：[7%] 當前生命\nCooldown：[10 Seconds]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：[189%]\n霸體破壞量：[137%]\n[額外攻擊]\n傷害量：[189%], [568%]\n霸體破壞量：[137%], [412%]\n\n[通用]\n增益效果：攻擊速度 [+5%]\n增益持續時間：[15秒]（可堆疊3次）\n敵人減益效果：狩獵標記 [15秒]\n生命消耗量：[7%] 當前生命\n冷卻時間：[10秒]",
+          "Effect": "[Basic Attack]\nDamage：[189%]\nSA Break：[137%]\n[Additional Attack]\nDamage：[189%], [568%]\nSA Break：[137%], [412%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 Seconds]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 Seconds]\n生命消耗量：[7%] 當前生命\nCooldown：[10 Seconds]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
-    "ScareClow-Bleeding": {
+    "BudoCat-Bleeding": {
       "Visible": false,
-      "Name": "流血",
+      "Name": "Bleeding",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Chii/G_1-1_ScareClow_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill01_BudoCat_B.png",
       "Levels": {
         "0": {
           "Description": "於最後攻擊時給予流血效果。\n每次攻擊命中時可恢復靈魂值。",
@@ -108,30 +108,30 @@
           }
         },
         "1": {
-          "Effect": "[基本攻擊]\n傷害量：[106%]\n霸體破壞量：[73%]\n[額外攻擊]\n傷害量：[106%], [319%]\n霸體破壞量：[73%], [219%]\n\n[通用]\n命中時恢復靈魂值：[12]\n敵人減益效果：流血（每秒減少 [2%] HP）\n敵人減益持續時間：[5秒]",
+          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\n\n[General]\n命中時恢復靈魂值：[12]\n敵人減益效果：流血（每 Seconds減少 [2%] HP）\n敵人減益持續時間：[5 Seconds]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：[116%]\n霸體破壞量：[80%]\n[額外攻擊]\n傷害量：[116%], [347%]\n霸體破壞量：[80%], [239%]\n\n[通用]\n命中時恢復靈魂值：[18]\n敵人減益效果：流血（每秒減少 [3%] HP）\n敵人減益持續時間：[5秒]",
+          "Effect": "[Basic Attack]\nDamage：[116%]\nSA Break：[80%]\n[Additional Attack]\nDamage：[116%], [347%]\nSA Break：[80%], [239%]\n\n[General]\n命中時恢復靈魂值：[18]\n敵人減益效果：流血（每 Seconds減少 [3%] HP）\n敵人減益持續時間：[5 Seconds]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：[133%]\n霸體破壞量：[92%]\n[額外攻擊]\n傷害量：[133%], [399%]\n霸體破壞量：[92%], [275%]\n\n[通用]\n命中時恢復靈魂值：[25]\n敵人減益效果：流血（每秒減少 [4%] HP）\n敵人減益持續時間：[5秒]",
+          "Effect": "[Basic Attack]\nDamage：[133%]\nSA Break：[92%]\n[Additional Attack]\nDamage：[133%], [399%]\nSA Break：[92%], [275%]\n\n[General]\n命中時恢復靈魂值：[25]\n敵人減益效果：流血（每 Seconds減少 [4%] HP）\n敵人減益持續時間：[5 Seconds]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
-    "OverturnGround": {
-      "Name": "破竹之勢",
+    "FandangoMortale": {
+      "Name": "Fandango Mortale",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Chii/G_1-2_OverturnGround.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill02_Fandango_Mortale.png",
       "Levels": {
         "0": {
-          "Description": "武器在收刀狀態下猛力砸向地面，使敵人浮空。點擊滑鼠左鍵可以追加攻擊浮空的敵人。\n追加攻擊時會吸收少量的生命",
+          "Description": "You ram the Says into the ground forcefully to hurl opponents ahead of you into the air. You then hit opponents in the air with blade attacks. On an additional attack, you absorb some of the HP of nearby opponents.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -140,27 +140,27 @@
           }
         },
         "1": {
-          "Effect": "[基本攻擊]\n傷害量：[158%]\n霸體破壞量：[128%]\n[額外攻擊]\n傷害量：[237%]\n霸體破壞量：[192%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "Effect": "[Basic Attack]\nDamage：[158%]\nSA Break：[128%]\n[Additional Attack]\nDamage：[237%]\nSA Break：[192%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：[174%]\n霸體破壞量：[141%]\n[額外攻擊]\n傷害量：[261%]\n霸體破壞量：[211%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[141%]\n[Additional Attack]\nDamage：[261%]\nSA Break：[211%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：[195%]\n霸體破壞量：[158%]\n[額外攻擊]\n傷害量：[292%]\n霸體破壞量：[237%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "Effect": "[Basic Attack]\nDamage：[195%]\nSA Break：[158%]\n[Additional Attack]\nDamage：[292%]\nSA Break：[237%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[基本攻擊]\n傷害量：[222%]\n霸體破壞量：[180%]\n[額外攻擊]\n傷害量：[333%]\n霸體破壞量：[270%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "Effect": "[Basic Attack]\nDamage：[222%]\nSA Break：[180%]\n[Additional Attack]\nDamage：[333%]\nSA Break：[270%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[基本攻擊]\n傷害量：[262%]\n霸體破壞量：[212%]\n[額外攻擊]\n傷害量：[393%]\n霸體破壞量：[319%]\n增益效果：HP恢復[3%]\n\n靈魂值消耗量：[30]\n冷卻時間：[12秒]",
+          "Effect": "[Basic Attack]\nDamage：[262%]\nSA Break：[212%]\n[Additional Attack]\nDamage：[393%]\nSA Break：[319%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -170,11 +170,11 @@
         "OverturnGround-LifeDrain"
       ]
     },
-    "OverturnGround-DarkBlood": {
+    "FandangoMortale-DarkBlood": {
       "Visible": false,
-      "Name": "黑血 [破竹之勢]",
+      "Name": "Sw.Bld:[Fandango Mortale]",
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Chii/G_X-X_DarkBlood_A.png",
+      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "朝浮空的敵人進行連續射擊。",
@@ -186,17 +186,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[0.55秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[1.10秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：攻擊1回 [53%]\n霸體破壞量：攻擊1回 [68%]\n最大攻擊時間：[1.65秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
@@ -204,7 +204,7 @@
     },
     "OverturnGround-LifeDrain": {
       "Visible": false,
-      "Name": "吸血",
+      "Name": "Drain",
       "ID": 6,
       "Icon": "../assets/SkillIcons/Chii/G_1-2_OverturnGround_B.png",
       "Levels": {
@@ -218,17 +218,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[0.55秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：攻擊1回 [35%]\n霸體破壞量：攻擊1回 [45%]\n最大攻擊時間：[1.10秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：攻擊1回 [53%]\n霸體破壞量：攻擊1回 [68%]\n最大攻擊時間：[1.65秒]\n終結攻擊傷害量：[88%]\n終結攻擊霸體破壞量：[112%]",
+          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
@@ -250,27 +250,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：攻擊1回 [61%]\n霸體破壞量：攻擊1回 [30%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "Effect": "Damage：攻擊1回 [61%]\nSA Break：攻擊1回 [30%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "傷害量：攻擊1回 [68%]\n霸體破壞量：攻擊1回 [33%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "Effect": "Damage：攻擊1回 [68%]\nSA Break：攻擊1回 [33%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：攻擊1回 [76%]\n霸體破壞量：攻擊1回 [37%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "Effect": "Damage：攻擊1回 [76%]\nSA Break：攻擊1回 [37%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：攻擊1回 [86%]\n霸體破壞量：攻擊1回 [42%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "Effect": "Damage：攻擊1回 [86%]\nSA Break：攻擊1回 [42%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：攻擊1回 [102%]\n霸體破壞量：攻擊1回 [50%]\n增益效果：HP恢復 [3%]\n靈魂值消耗量：[15]\n冷卻時間：[7秒]",
+          "Effect": "Damage：攻擊1回 [102%]\nSA Break：攻擊1回 [50%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
@@ -285,7 +285,7 @@
       "Icon": "../assets/SkillIcons/Chii/G_2-1_AllegroSweep.png",
       "Levels": {
         "0": {
-          "Description": "用居合斬一掃前方的敵人。\n點擊滑鼠左鍵可以立刻攻擊，但會減少20%傷害量。",
+          "Description": "用居合斬一掃前方的敵人。\n點擊滑鼠左鍵可以立刻攻擊，但會減少20%Damage。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -294,27 +294,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[403%]\n霸體破壞量：[500%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[403%]\nSA Break：[500%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[444%]\n霸體破壞量：[550%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[444%]\nSA Break：[550%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[497%]\n霸體破壞量：[616%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[497%]\nSA Break：[616%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[565%]\n霸體破壞量：[703%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[565%]\nSA Break：[703%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[668%]\n霸體破壞量：[829%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[668%]\nSA Break：[829%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
@@ -339,17 +339,17 @@
           }
         },
         "1": {
-          "Effect": "減益效果：移動速度降低 [30%]\n減益持續時間：[1秒]\n減益區域持續時間：[6秒]",
+          "Effect": "減益效果：移動速度降低 [30%]\n減益持續時間：[1 Seconds]\n減益區域持續時間：[6 Seconds]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "減益效果：移動速度降低 [45%]\n減益持續時間：[2秒]\n減益區域持續時間：[8秒]",
+          "Effect": "減益效果：移動速度降低 [45%]\n減益持續時間：[2 Seconds]\n減益區域持續時間：[8 Seconds]",
           "RequiredLevel": 25,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "減益效果：移動速度降低 [75%]\n減益持續時間：[3秒]\n減益區域持續時間：[10秒]",
+          "Effect": "減益效果：移動速度降低 [75%]\n減益持續時間：[3 Seconds]\n減益區域持續時間：[10 Seconds]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -370,27 +370,27 @@
           }
         },
         "1": {
-          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+150%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+5%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+150%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+170%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+5%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+170%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+10%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+200%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+10%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[隊伍成員]\n增益效果：暴擊傷害量 [+200%]\n增益持續時間：[25秒]\n[自身]\n增益效果：敵人防禦力貫穿 [+15%]\n增益持續時間：[25秒]\n當前生命值消耗量：[15%]\n冷卻時間：[35秒]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+15%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
@@ -411,27 +411,27 @@
           }
         },
         "1": {
-          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [48%]/[58%]\n霸體破壞量：攻擊1回 [53%]/[63%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [48%]/[58%]\nSA Break：攻擊1回 [53%]/[63%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [53%]/[63%]\n霸體破壞量：攻擊1回 [58%]/[69%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [53%]/[63%]\nSA Break：攻擊1回 [58%]/[69%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [59%]/[71%]\n霸體破壞量：攻擊1回 [65%]/[78%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [59%]/[71%]\nSA Break：攻擊1回 [65%]/[78%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [68%]/[81%]\n霸體破壞量：攻擊1回 [74%]/[89%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [68%]/[81%]\nSA Break：攻擊1回 [74%]/[89%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[推開/吸引]\n傷害量：攻擊1回 [80%]/[96%]\n霸體破壞量：攻擊1回 [87%]/[105%]\n靈魂值消耗量：[45]\n冷卻時間：[15秒]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [80%]/[96%]\nSA Break：攻擊1回 [87%]/[105%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
@@ -443,9 +443,9 @@
     },
     "SeizeField-DarkBlood": {
       "Visible": false,
-      "Name": "黑血 [捕食者的渴望]",
+      "Name": "Sw.Bld:[捕食者的渴望]",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Chii/G_X-X_DarkBlood_A.png",
+      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "射擊結束時發射充滿強烈能量的一擊，並在命中敵人時生成麻痹區域。",
@@ -457,17 +457,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[105%]\n霸體破壞量：[60%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[3秒]",
+          "Effect": "Damage：[105%]\nSA Break：[60%]\n減益效果：麻痹 [1 Seconds]\n減益區域持續時間：[3 Seconds]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[120%]\n霸體破壞量：[69%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[4秒]",
+          "Effect": "Damage：[120%]\nSA Break：[69%]\n減益效果：麻痹 [1 Seconds]\n減益區域持續時間：[4 Seconds]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[152%]\n霸體破壞量：[87%]\n減益效果：麻痹 [1秒]\n減益區域持續時間：[5秒]",
+          "Effect": "Damage：[152%]\nSA Break：[87%]\n減益效果：麻痹 [1 Seconds]\n減益區域持續時間：[5 Seconds]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -489,17 +489,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[105%]\n霸體破壞量：[60%]\n將範圍[4]米內的敵人吸引至中心點",
+          "Effect": "Damage：[105%]\nSA Break：[60%]\n將範圍[4]米內的敵人吸引至中心點",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[120%]\n霸體破壞量：[69%]\n將範圍[6]米內的敵人吸引至中心點",
+          "Effect": "Damage：[120%]\nSA Break：[69%]\n將範圍[6]米內的敵人吸引至中心點",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[152%]\n霸體破壞量：[87%]\n將範圍[8]米內的敵人吸引至中心點",
+          "Effect": "Damage：[152%]\nSA Break：[87%]\n將範圍[8]米內的敵人吸引至中心點",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -520,27 +520,27 @@
           }
         },
         "1": {
-          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [245%]/[31%]\n霸體破壞量：攻擊1回 [137%]/[17%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [245%]/[31%]\nSA Break：攻擊1回 [137%]/[17%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [270%]/[34%]\n霸體破壞量：攻擊1回 [151%]/[19%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [270%]/[34%]\nSA Break：攻擊1回 [151%]/[19%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [302%]/[38%]\n霸體破壞量：攻擊1回 [169%]/[21%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [302%]/[38%]\nSA Break：攻擊1回 [169%]/[21%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [344%]/[43%]\n霸體破壞量：攻擊1回 [192%]/[14%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [344%]/[43%]\nSA Break：攻擊1回 [192%]/[14%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[丟出/收回]\n傷害量：攻擊1回 [406%]/[51%]\n霸體破壞量：攻擊1回 [227%]/[18%]\n靈魂值消耗量：[45]\n冷卻時間：[17秒]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [406%]/[51%]\nSA Break：攻擊1回 [227%]/[18%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -564,27 +564,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[348%]\n霸體破壞量：[387%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：[348%]\nSA Break：[387%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[369%]\n霸體破壞量：[406%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：[369%]\nSA Break：[406%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[409%]\n霸體破壞量：[454%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：[409%]\nSA Break：[454%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[453%]\n霸體破壞量：[502%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：[453%]\nSA Break：[502%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[522%]\n霸體破壞量：[580%]\n最大蓄力階段：[3]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：[522%]\nSA Break：[580%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
@@ -610,17 +610,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[548%]\n霸體破壞量：[+1338%]\n無視敵人防禦：[10%]",
+          "Effect": "Damage：[548%]\nSA Break：[+1338%]\n無視敵人防禦：[10%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[575%]\n霸體破壞量：[+1405%]\n無視敵人防禦：[20%]",
+          "Effect": "Damage：[575%]\nSA Break：[+1405%]\n無視敵人防禦：[20%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[643%]\n霸體破壞量：[+1572%]\n無視敵人防禦：[40%]",
+          "Effect": "Damage：[643%]\nSA Break：[+1572%]\n無視敵人防禦：[40%]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
@@ -642,17 +642,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[548%]\n霸體破壞量：[+1338%]\n無視敵人防禦：[10%]",
+          "Effect": "Damage：[548%]\nSA Break：[+1338%]\n無視敵人防禦：[10%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[575%]\n霸體破壞量：[+1405%]\n無視敵人防禦：[20%]",
+          "Effect": "Damage：[575%]\nSA Break：[+1405%]\n無視敵人防禦：[20%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[643%]\n霸體破壞量：[+1572%]\n無視敵人防禦：[40%]",
+          "Effect": "Damage：[643%]\nSA Break：[+1572%]\n無視敵人防禦：[40%]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
@@ -674,27 +674,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[743%]\n霸體破壞量：[185%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[743%]\nSA Break：[185%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[780%]\n霸體破壞量：[194%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[780%]\nSA Break：[194%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[873%]\n霸體破壞量：[217%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[873%]\nSA Break：[217%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[965%]\n霸體破壞量：[240%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[965%]\nSA Break：[240%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[1114%]\n霸體破壞量：[277%]\n靈魂值消耗量：[3]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[1114%]\nSA Break：[277%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
@@ -715,27 +715,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[154%]\n霸體破壞量：[1882%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[154%]\nSA Break：[1882%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[162%]\n霸體破壞量：[1976%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[162%]\nSA Break：[1976%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[181%]\n霸體破壞量：[2211%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[181%]\nSA Break：[2211%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[200%]\n霸體破壞量：[2447%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[200%]\nSA Break：[2447%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[231%]\n霸體破壞量：[2823%]\n減益效果：燒傷（每秒減少 [1%] HP）\n靈魂值消耗量：[4]\n冷卻時間：[20秒]",
+          "Effect": "Damage：[231%]\nSA Break：[2823%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
@@ -746,9 +746,9 @@
     },
     "AccelearateGrinder-DarkBlood": {
       "Visible": false,
-      "Name": "黑血 [魂之輓歌]",
+      "Name": "Sw.Bld:[魂之輓歌]",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Chii/G_X-X_DarkBlood_A.png",
+      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "命中敵人時，在一定程度上無視防禦。",
@@ -760,17 +760,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[548%]\n霸體破壞量：[+1338%]\n無視敵人防禦：[10%]",
+          "Effect": "Damage：[548%]\nSA Break：[+1338%]\n無視敵人防禦：[10%]",
           "RequiredLevel": 41,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[575%]\n霸體破壞量：[+1405%]\n無視敵人防禦：[20%]",
+          "Effect": "Damage：[575%]\nSA Break：[+1405%]\n無視敵人防禦：[20%]",
           "RequiredLevel": 46,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[643%]\n霸體破壞量：[+1572%]\n無視敵人防禦：[40%]",
+          "Effect": "Damage：[643%]\nSA Break：[+1572%]\n無視敵人防禦：[40%]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         }
@@ -791,27 +791,27 @@
           }
         },
         "1": {
-          "Effect": "增益效果：移動速度 [+10%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "Buffs：移動速度 [+10%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "增益效果：移動速度 [+11%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "Buffs：移動速度 [+11%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "增益效果：移動速度 [+13%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "Buffs：移動速度 [+13%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "增益效果：移動速度[+16%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "Buffs：移動速度[+16%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "增益效果：移動速度[+20%]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "Buffs：移動速度[+20%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
@@ -836,17 +836,17 @@
           }
         },
         "1": {
-          "Effect": "增益效果：每秒恢復靈魂值 [2%]\n增益持續時間：[20秒]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 Seconds]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "增益效果：每秒恢復靈魂值 [3%]\n增益持續時間：[20秒]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 Seconds]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "增益效果：每秒恢復靈魂值 [5%]\n增益持續時間：[20秒]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 Seconds]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
@@ -867,27 +867,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[10秒]\n靈魂值消耗量：[5]\n冷卻時間：[60秒]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[10 Seconds]\nSF Consumption：[5]\nCooldown：[60 Seconds]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[11秒]\n靈魂值消耗量：[5]\n冷卻時間：[55秒]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[11 Seconds]\nSF Consumption：[5]\nCooldown：[55 Seconds]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[13秒]\n靈魂值消耗量：[4]\n冷卻時間：[55秒]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[13 Seconds]\nSF Consumption：[4]\nCooldown：[55 Seconds]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[15秒]\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[15 Seconds]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n增益效果：無敵 [1秒]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[20秒]\n靈魂值消耗量：[3]\n冷卻時間：[35秒]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[20 Seconds]\nSF Consumption：[3]\nCooldown：[35 Seconds]",
           "RequiredLevel": 46,
           "RequiredSP": 3
         }
@@ -898,9 +898,9 @@
     },
     "Thunderbolt-DarkBlood": {
       "Visible": false,
-      "Name": "黑血 [捕食者之怒]",
+      "Name": "Sw.Bld:[捕食者之怒]",
       "ID": 24,
-      "Icon": "../assets/SkillIcons/Chii/G_X-X_DarkBlood_A.png",
+      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "額外發動恢復靈魂值的增益，對一定範圍內的隊友也有效。",
@@ -912,17 +912,17 @@
           }
         },
         "1": {
-          "Effect": "增益效果：每秒恢復靈魂值 [2%]\n增益持續時間：[20秒]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 Seconds]",
           "RequiredLevel": 46,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "增益效果：每秒恢復靈魂值 [3%]\n增益持續時間：[20秒]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 Seconds]",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "增益效果：每秒恢復靈魂值 [5%]\n增益持續時間：[20秒]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 Seconds]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
@@ -943,27 +943,27 @@
           }
         },
         "1": {
-          "Effect": "[前切攻擊]傷害量：[531%]\n霸體破壞量：[390%]\n[爆炸攻擊]傷害量：[1680%]\n霸體破壞量：[1234%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "[前切攻擊]Damage：[531%]\nSA Break：[390%]\n[爆炸攻擊]Damage：[1680%]\nSA Break：[1234%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[前切攻擊]傷害量：[584%]\n霸體破壞量：[429%]\n[爆炸攻擊]傷害量：[1849%]\n霸體破壞量：[1358%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "[前切攻擊]Damage：[584%]\nSA Break：[429%]\n[爆炸攻擊]Damage：[1849%]\nSA Break：[1358%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[前切攻擊]傷害量：[654%]\n霸體破壞量：[480%]\n[爆炸攻擊]傷害量：[2070%]\n霸體破壞量：[1521%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "[前切攻擊]Damage：[654%]\nSA Break：[480%]\n[爆炸攻擊]Damage：[2070%]\nSA Break：[1521%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[前切攻擊]傷害量：[745%]\n霸體破壞量：[547%]\n[爆炸攻擊]傷害量：[2361%]\n霸體破壞量：[1734%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "[前切攻擊]Damage：[745%]\nSA Break：[547%]\n[爆炸攻擊]Damage：[2361%]\nSA Break：[1734%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
           "RequiredLevel": 52,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[前切攻擊]傷害量：[880%]\n霸體破壞量：[646%]\n[爆炸攻擊]傷害量：[2785%]\n霸體破壞量：[2046%]\n\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "[前切攻擊]Damage：[880%]\nSA Break：[646%]\n[爆炸攻擊]Damage：[2785%]\nSA Break：[2046%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
           "RequiredLevel": 55,
           "RequiredSP": 3
         }
@@ -1025,17 +1025,17 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[1215%]\n霸體破壞量：[303%]\n\n[召喚物資訊]\n召喚物：無人機\n傷害量及霸體破壞量：攻擊1回 [100%]\n自爆攻擊傷害量及霸體破壞量：[200%]",
+          "Effect": "Damage：[1215%]\nSA Break：[303%]\n\n[召喚物資訊]\n召喚物：無人機\nDamage及SA Break：攻擊1回 [100%]\n自爆攻擊Damage及SA Break：[200%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[1275%]\n霸體破壞量：[318%]\n\n[召喚物資訊]\n召喚物：偵察機\n傷害量及霸體破壞量：攻擊1回 [100%]\n自爆攻擊傷害量及霸體破壞量：[300%]",
+          "Effect": "Damage：[1275%]\nSA Break：[318%]\n\n[召喚物資訊]\n召喚物：偵察機\nDamage及SA Break：攻擊1回 [100%]\n自爆攻擊Damage及SA Break：[300%]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[1426%]\n霸體破壞量：[355%]\n\n[召喚物資訊]\n召喚物：機械浣熊\n傷害量及霸體破壞量：攻擊1回[100%]\n自爆攻擊傷害量及霸體破壞量：[500%]",
+          "Effect": "Damage：[1426%]\nSA Break：[355%]\n\n[召喚物資訊]\n召喚物：機械浣熊\nDamage及SA Break：攻擊1回[100%]\n自爆攻擊Damage及SA Break：[500%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -1061,27 +1061,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：攻擊1回 [220%]\n霸體破壞量：攻擊1回 [112%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：攻擊1回 [220%]\nSA Break：攻擊1回 [112%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：攻擊1回 [231%]\n霸體破壞量：攻擊1回 [118%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：攻擊1回 [231%]\nSA Break：攻擊1回 [118%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：攻擊1回 [258%]\n霸體破壞量：攻擊1回 [132%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：攻擊1回 [258%]\nSA Break：攻擊1回 [132%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：攻擊1回 [286%]\n霸體破壞量：攻擊1回 [145%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：攻擊1回 [286%]\nSA Break：攻擊1回 [145%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：攻擊1回 [330%]\n霸體破壞量：攻擊1回 [168%]\n靈魂值消耗量：[3]\n冷卻時間：[25秒]",
+          "Effect": "Damage：攻擊1回 [330%]\nSA Break：攻擊1回 [168%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1106,27 +1106,27 @@
           }
         },
         "1": {
-          "Effect": "傷害量：攻擊1回 [944%]\n霸體破壞量：攻擊1回 [1065%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "Effect": "Damage：攻擊1回 [944%]\nSA Break：攻擊1回 [1065%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：攻擊1回 [991%]\n霸體破壞量：攻擊1回 [1118%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "Effect": "Damage：攻擊1回 [991%]\nSA Break：攻擊1回 [1118%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：攻擊1回 [1109%]\n霸體破壞量：攻擊1回 [1251%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "Effect": "Damage：攻擊1回 [1109%]\nSA Break：攻擊1回 [1251%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：攻擊1回 [1226%]\n霸體破壞量：攻擊1回 [1383%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "Effect": "Damage：攻擊1回 [1226%]\nSA Break：攻擊1回 [1383%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：攻擊1回 [1415%]\n霸體破壞量：攻擊1回 [1596%]\n靈魂值消耗量：[4]\n冷卻時間：[30秒]",
+          "Effect": "Damage：攻擊1回 [1415%]\nSA Break：攻擊1回 [1596%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1147,17 +1147,17 @@
           }
         },
         "1": {
-          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [155%]\n霸體破壞量：攻擊1回 [169%]\n[終結攻擊]\n傷害量：[389%]\n霸體破壞量：[424%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "[Basic Attack]\nDamage：攻擊1回 [155%]\nSA Break：攻擊1回 [169%]\n[終結攻擊]\nDamage：[389%]\nSA Break：[424%]\n\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [171%]\n霸體破壞量：攻擊1回 [186%]\n[終結攻擊]\n傷害量：[428%]\n霸體破壞量：[466%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "[Basic Attack]\nDamage：攻擊1回 [171%]\nSA Break：攻擊1回 [186%]\n[終結攻擊]\nDamage：[428%]\nSA Break：[466%]\n\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：攻擊1回 [171%]\n霸體破壞量：攻擊1回 [186%]\n[終結攻擊]\n傷害量：[428%]\n霸體破壞量：[466%]\n\n靈魂值消耗量：[4]\n冷卻時間：[45秒]",
+          "Effect": "[Basic Attack]\nDamage：攻擊1回 [171%]\nSA Break：攻擊1回 [186%]\n[終結攻擊]\nDamage：[428%]\nSA Break：[466%]\n\nSF Consumption：[4]\nCooldown：[45 Seconds]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         }
@@ -1165,7 +1165,7 @@
     },
     "BasicAttackMastery": {
       "Passive": true,
-      "Name": "基本攻擊精通",
+      "Name": "Basic Attack精通",
       "ID": 1002,
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
@@ -1177,7 +1177,7 @@
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "[地面]\n基本攻擊：滑鼠：左鍵x4\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "[地面]\nBasic Attack：滑鼠：左鍵x4\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
@@ -1185,7 +1185,7 @@
           }
         },
         "2": {
-          "Effect": "靈魂值獲得量：[+20%]\n可使用分支攻擊A\n[地面]\n[1]基本攻擊：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "靈魂值獲得量：[+20%]\n可使用分支攻擊A\n[地面]\n[1]Basic Attack：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
@@ -1193,7 +1193,7 @@
           }
         },
         "3": {
-          "Effect": "靈魂值獲得量：[+70%]\n可使用分支攻擊B\n[地面]\n[1]基本攻擊：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "靈魂值獲得量：[+70%]\n可使用分支攻擊B\n[地面]\n[1]Basic Attack：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
@@ -1201,7 +1201,7 @@
           }
         },
         "4": {
-          "Effect": "靈魂值獲得量：[+120%]\n可使用基本攻擊和空中攻擊的追加攻擊\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
+          "Effect": "靈魂值獲得量：[+120%]\n可使用Basic Attack和空中攻擊的追加攻擊\n[地面]\n[1]Basic Attack：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
@@ -1209,7 +1209,7 @@
           }
         },
         "5": {
-          "Effect": "靈魂值獲得量：[+200%]\n可使用分支攻擊C\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n[4]分支攻擊C：滑鼠：左鍵x4-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
+          "Effect": "靈魂值獲得量：[+200%]\n可使用分支攻擊C\n[地面]\n[1]Basic Attack：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n[4]分支攻擊C：滑鼠：左鍵x4-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
@@ -1235,17 +1235,17 @@
           }
         },
         "1": {
-          "Effect": "[地面]\n傷害量：[175%]\n霸體破壞量：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：傷害量 [350%]\n每層標記：霸體破壞量 [280%]\n\n[空中]\n傷害量：[229%]\n霸體破壞量：[170%]\n\n[通用]\n冷卻時間：[10秒]",
+          "Effect": "[地面]\nDamage：[175%]\nSA Break：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：Damage [350%]\n每層標記：SA Break [280%]\n\n[空中]\nDamage：[229%]\nSA Break：[170%]\n\n[General]\nCooldown：[10 Seconds]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[地面]\n傷害量：[192%]\n霸體破壞量：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：傷害量 [384%]\n每層標記：霸體破壞量 [308%]\n\n[空中]\n傷害量：[241%]\n霸體破壞量：[178%]\n\n[通用]\n冷卻時間：[10秒]",
+          "Effect": "[地面]\nDamage：[192%]\nSA Break：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：Damage [384%]\n每層標記：SA Break [308%]\n\n[空中]\nDamage：[241%]\nSA Break：[178%]\n\n[General]\nCooldown：[10 Seconds]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[地面]\n傷害量：[211%]\n霸體破壞量：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：傷害量 [422%]\n每層標記：霸體破壞量 [338%]\n\n[空中]\n傷害量：[270%]\n霸體破壞量：[200%]\n\n[通用]\n冷卻時間：[10秒]",
+          "Effect": "[地面]\nDamage：[211%]\nSA Break：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：Damage [422%]\n每層標記：SA Break [338%]\n\n[空中]\nDamage：[270%]\nSA Break：[200%]\n\n[General]\nCooldown：[10 Seconds]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1352,17 +1352,17 @@
           }
         },
         "1": {
-          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
+          "Effect": "回擊Damage：[100%]\n耐力消耗量：[30]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
+          "Effect": "回擊Damage：[100%]\n耐力消耗量：[20]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
+          "Effect": "回擊Damage：[100%]\n耐力消耗量：[20]\n無敵時間：[5 Seconds]\nCooldown：[15 Seconds]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1385,7 +1385,7 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[122%]\n霸體破壞量：[41%]",
+          "Effect": "Damage：[122%]\nSA Break：[41%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1407,17 +1407,17 @@
           }
         },
         "1": {
-          "Effect": "耐力消耗量：[40]\n冷卻時間：[30秒]",
+          "Effect": "耐力消耗量：[40]\nCooldown：[30 Seconds]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "耐力消耗量：[40]\n冷卻時間：[25秒]",
+          "Effect": "耐力消耗量：[40]\nCooldown：[25 Seconds]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "耐力消耗量：[40]\n冷卻時間：[20秒]",
+          "Effect": "耐力消耗量：[40]\nCooldown：[20 Seconds]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1439,7 +1439,7 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[241%]\n霸體破壞量：[111%]\n冷卻時間：[5秒]",
+          "Effect": "Damage：[241%]\nSA Break：[111%]\nCooldown：[5 Seconds]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1495,23 +1495,23 @@
       "Icon": "../assets/SkillIcons/Chii/G_ADV_Passive_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "每使用帶有「黑血」特性的技能後，於5秒內再使用其他帶有相同特性的技能滿3次時，10秒內增加霸體破壞量、暴擊率。\n效果發動期間無法再次計數。",
+          "Description": "每使用帶有「黑血」特性的技能後，於5 Seconds內再使用其他帶有相同特性的技能滿3次時，10 Seconds內增加SA Break、暴擊率。\n效果發動期間無法再次計數。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "[效果發動時]\n霸體破壞量、暴擊率：[+5%]",
+          "Effect": "[效果發動時]\nSA Break、暴擊率：[+5%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[效果發動時]\n霸體破壞量、暴擊率：[+7%]",
+          "Effect": "[效果發動時]\nSA Break、暴擊率：[+7%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[效果發動時]\n霸體破壞量、暴擊率：[+10%]",
+          "Effect": "[效果發動時]\nSA Break、暴擊率：[+10%]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1562,7 +1562,7 @@
       "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n使用特定技能特性的時候，會回復靈魂值。",
+          "Description": "Basic Attack成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n使用特定技能特性的時候，會回復靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
@@ -1596,7 +1596,7 @@
           }
         },
         "1": {
-          "Effect": "傷害量：[2740%]\n霸體破壞量：[2430%]",
+          "Effect": "Damage：[2740%]\nSA Break：[2430%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
