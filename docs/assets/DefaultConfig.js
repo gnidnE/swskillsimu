@@ -79,7 +79,7 @@
                 url: "Iris",
                 selectImage: "assets/images/IrisSelect.png"
             },
-            "Chii Aruel": {
+            "Someone": {
                 url: "Chii",
                 selectImage: "assets/images/ChiiSelect.png",
                 //enabled: false,
