@@ -1,15 +1,15 @@
 {
   "CharacterName": "Chii Aruel",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Chii_Aruel",
-  "MaxLevel": 60,
+  "MaxLevel": 65,
   "AvailableClass": {
     "0": {
       "Name": "Base",
-      "Cover": "../assets/images/bg-chii.png"
+      "Cover": "../assets/images/bg-chii1.png"
     },
     "1": {
       "Name": "Upgraded",
-      "Cover": "../assets/images/bg-chii.png",
+      "Cover": "../assets/images/bg-chii2.png",
       "RequiredLevel": 57
     }
   },
