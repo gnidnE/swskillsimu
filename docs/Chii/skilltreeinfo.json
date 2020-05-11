@@ -67,7 +67,7 @@
       "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
-          "Description": "消耗生命為代價，強化靈魂暗影之力。\n遭受最後一擊的敵人將會賦予狩獵標記，並於使用特殊攻擊時爆炸。",
+          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
