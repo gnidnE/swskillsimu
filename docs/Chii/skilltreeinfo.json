@@ -62,7 +62,7 @@
     },
     "BudoCat-DarkBlood": {
       "Visible": false,
-      "Name": "Sw.Bld:[創痕一斬]",
+      "Name": "Sw.Bld:[Budo Cat]",
       "ID": 2,
       "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
@@ -99,7 +99,7 @@
       "Icon": "../assets/SkillIcons/Chii/Skill01_BudoCat_B.png",
       "Levels": {
         "0": {
-          "Description": "於最後攻擊時給予流血效果。\n每次攻擊命中時可恢復靈魂值。",
+          "Description": "A successful final hit inflicts the opponents with Bleeding. You also receive SF.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -206,7 +206,7 @@
       "Visible": false,
       "Name": "Drain",
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Chii/G_1-2_OverturnGround_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill02_Fandango_Mortale_B.png",
       "Levels": {
         "0": {
           "Description": "On the first hit, the damage is dealt to the same extent as Drain. The second attack slows down the opponents it hits.",
@@ -234,7 +234,7 @@
         }
       }
     },
-    "Budo1_The_Hunt_Begins": {
+    "Budo1TheHuntBegins": {
       "Name": Budo1: The Hunt Begins",
       "DefaultLevel": 1,
       "ID": 7,
@@ -279,7 +279,7 @@
         "ThrustArrow-Explosion"
       ]
     },
-    "Budo2_Claws_Out": {
+    "Budo2ClawsOut": {
       "Name": "Budo2: Claws Out",
       "ID": 8,
       "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out.png",
@@ -323,7 +323,7 @@
         "Budo2_Claws_Out-Charge"
       ]
     },
-    "Budo2_Claws_Out-Charge": {
+    "Budo2ClawsOut-Charge": {
       "Visible": false,
       "Name": "Charge",
       "ID": 9,
@@ -355,7 +355,7 @@
         }
       }
     },
-    "Md.Sw_A_Taste_of_Blood": {
+    "MdSwATasteofBlood": {
       "Name": "Md.Sw.: A Taste of Blood",
       "ID": 10,
       "Icon": "../assets/SkillIcons/Chii/Skill05_Md.Sw._A_Taste_of_Blood.png",
