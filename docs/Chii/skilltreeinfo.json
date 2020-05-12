@@ -276,7 +276,7 @@
         }
       },
       "Extensions": [
-        "ThrustArrow-Explosion"
+        "Budo1_TheHuntBegins-Explosion"
       ]
     },
     "Budo2_ClawsOut": {
@@ -546,7 +546,7 @@
         }
       },
       "Extensions": [
-        "PeregrineFalcon-Sync"
+        "Budo3_PreySighted-Sync"
       ]
     },
     "Budo4_MoonStep": {
@@ -596,12 +596,12 @@
     },
     "Budo4_MoonStep-Waylay": {
       "Visible": false,
-      "Name": "精確打擊",
+      "Name": "Waylay",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Chii/G_3-2_MoonStep_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_Budo4_Moonset_A.png",
       "Levels": {
         "0": {
-          "Description": "命中敵人時，在一定程度上無視防禦。",
+          "Description": "Additional hits double the damage",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -628,12 +628,12 @@
     },
     "Budo4_MoonStep-Snapped": {
       "Visible": false,
-      "Name": "雷擊",
+      "Name": "Snapped",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Chii/G_3-2_MoonStep_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_Budo4_Moonset_B.png",
       "Levels": {
         "0": {
-          "Description": "命中敵人時，在一定程度上無視防禦。",
+          "Description": "Lighting strikes all along the path of the additional hits and nearby opponents are hit with paralysis.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -658,14 +658,14 @@
         }
       }
     },
-    "GrownCrevasse": {
-      "Name": "貓刀五式 - 落刃強襲",
+    "Budo5_CatbyNight": {
+      "Name": "Budo5: Cat by Night",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Chii/G_3-3_GrownCrevasse.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill09_Budo5_Cat_by_Night.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在空中的狀態下，向地面擲出武器，之後朝向武器落下的焦點進行重踏攻擊。處於武器投擲點的敵人會受到額外傷害。",
+          "Description": "You sling your weapon towards the ground whilst in the air. You then perform a mighty Kinetic Kick towards the point where the weapon is lodged in the ground. Opponents near the weapon suffer additional hits.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -700,13 +700,13 @@
         }
       }
     },
-    "AccelearateGrinder": {
-      "Name": "貓刀六式 - 魂之輓歌",
+    "Budoka6_DanceofDeath": {
+      "Name": "Budoka 6: Dance of Death",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Chii/G_4-1_AccelerateGrinder.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill010_Budoka6_Dance_of_Death.png",
       "Levels": {
         "0": {
-          "Description": "一邊左右移動一邊對敵人進行高速斬擊，並在一定時間後，向前方高速斬擊作為終結一擊。點擊滑鼠右鍵可以提前使出終結攻擊。",
+          "Description": "You dance nimbly from side to side and strike swiftly with your blade. Your attack ends after a short time with a destructive strike like lighting. You can unleash the destructive blow immediately by right-clicking.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -741,17 +741,17 @@
         }
       },
       "Extensions": [
-        "AccelearateGrinder-DarkBlood"
+        "Budoka6_DanceofDeath-DarkBlood"
       ]
     },
-    "AccelearateGrinder-DarkBlood": {
+    "Budoka6_DanceofDeath-DarkBlood": {
       "Visible": false,
-      "Name": "Sw.Bld:[魂之輓歌]",
+      "Name": "Sw.Bld:[Dance of Death]",
       "ID": 20,
       "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
-          "Description": "命中敵人時，在一定程度上無視防禦。",
+          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -776,13 +776,13 @@
         }
       }
     },
-    "AssasinateParty": {
-      "Name": "貓刀零式 - 刀刃風暴",
+    "Budo0_PreyEliminated": {
+      "Name": "Budo0: Prey Eliminated",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Chii/G_4-2_AssassinateParty.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill011_Budo0_Prey_Eliminated.png",
       "Levels": {
         "0": {
-          "Description": "對前方的敵人進行斬擊，並使敵人僵直後，通過光速斬擊對範圍內的敵人進行連續打擊造成傷害。",
+          "Description": "You knock your enemy back with a sharp slice and then attack them multiple with quick blows over a wide area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -817,17 +817,17 @@
         }
       },
       "Extensions": [
-        "AssasinateParty-MultiHits"
+        "Budo0_PreyEliminated-MultiHits"
       ]
     },
-    "AssasinateParty-MultiHits": {
+    "Budo0_PreyEliminated-StrikeStorm": {
       "Visible": false,
-      "Name": "攻擊次數增加",
+      "Name": "Strike Storm",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Chii/G_4-2_AssassinateParty_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill011_Budo0_Prey_Eliminated_A.png",
       "Levels": {
         "0": {
-          "Description": "額外發動恢復靈魂值的增益，對一定範圍內的隊友也有效。",
+          "Description": "The number of attacks by Prey Eliminated increases.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -852,13 +852,13 @@
         }
       }
     },
-    "Thunderbolt": {
-      "Name": "捕食者之怒",
+    "KashasCarriage": {
+      "Name": "Kasha's Carriage",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Chii/G_4-3_Thunderbolt.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill012_Kashas_Carriage.png",
       "Levels": {
         "0": {
-          "Description": "凝聚靈魂暗影之力於右手，往前方進行爆發性的連續吸引攻擊。",
+          "Description": "You transform your hand into that of a SoulDreg, using it to gather SoulDreg energy and then thrust the hand with the energy sphere forwards. The sphere rises until it explodes. The longer you charge it, the more damage it does. If you end the skill early the sphere immediately explodes.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -893,17 +893,17 @@
         }
       },
       "Extensions": [
-        "Thunderbolt-DarkBlood"
+        "KashasCarriage-DarkBlood"
       ]
     },
-    "Thunderbolt-DarkBlood": {
+    "KashasCarriage-DarkBlood": {
       "Visible": false,
-      "Name": "Sw.Bld:[捕食者之怒]",
+      "Name": "Sw.Bld:[Kasha's Carriage]",
       "ID": 24,
       "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
-          "Description": "額外發動恢復靈魂值的增益，對一定範圍內的隊友也有效。",
+          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -928,13 +928,13 @@
         }
       }
     },
-    "GiantKatana": {
-      "Name": "捕食者的終焉",
+    "BakenekosCurse": {
+      "Name": "Bakeneko's Curse",
       "ID": 25,
-      "Icon": "../assets/SkillIcons/Chii/G_5-1_GiantKatana.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill013_Bakenekos_Curse.png",
       "Levels": {
         "0": {
-          "Description": "凝聚靈魂暗影之力於右手，將武器與手部融為暗影巨劍，猛力向上劈擊前方後重擊地面，並產生追加爆炸攻擊。",
+          "Description": "You transform your hand into that of a SoulDreg and use it to gather SoulDreg energy within your weapon. After a mighty upward slice, you ram your weapon into the ground and unleash an explosion over a huge area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -969,15 +969,15 @@
         }
       }
     },
-    "ThrustArrow-Explosion": {
+    "Budo1_TheHuntBegins-Explosion": {
       "Visible": false,
-      "Name": "爆裂箭",
+      "Name": "Explosion",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/G_ADV_1-3_ThrustArrow_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill03_Budo1_The_Hunt_Begins_A.png",
       "Levels": {
         "0": {
           "Description": "在發動最後攻擊之前點擊滑鼠右鍵，可再進行一次強大的近距離零式射擊。",
@@ -1005,15 +1005,15 @@
         }
       }
     },
-    "PeregrineFalcon-Sync": {
+    "Budo3_PreySighted-Sync": {
       "Visible": false,
-      "Name": "萬箭齊發",
+      "Name": "Sync",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/G_ADV_3-1_PeregrineFalcon_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill07_Budo3_Prey_Sighted_A.png",
       "Levels": {
         "0": {
           "Description": "在脈衝炸彈的引爆地點設置機械膠囊，並從中召喚出機器人幫助攻擊。",
@@ -1042,13 +1042,13 @@
       }
     },
     "GaleArrow": {
-      "Name": "貓刀一式・改 - 狂風箭",
+      "Name": "Gale Arrow",
       "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/G_ADV_5-2_GaleArrow.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill015_Gale_Arrow.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1088,13 +1088,13 @@
       }
     },
     "RedVine": {
-      "Name": "貓刀二式・改 - 紅玉花",
+      "Name": "Red Vine",
       "ID": 29,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/G_ADV_5-3_RedVine.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill016_RedVine.png",
       "Levels": {
         "0": {
           "Description": "用滑鼠指定區域目標，以雷射光束進行精準射擊。",
@@ -1132,10 +1132,10 @@
         }
       }
     },
-    "DevilsToy": {
-      "Name": "掠食者的音調",
+    "KashasCarriage2": {
+      "Name": "Kasha's Carriage",
       "ID": 30,
-      "Icon": "../assets/SkillIcons/Chii/G_6-1_DevilsToy.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill014_Kashas_Carriage.png",
       "Levels": {
         "0": {
           "Description": "朝前方射出特殊子彈，在固定區域內多次彈射並貫穿敵人。",
