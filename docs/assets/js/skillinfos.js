@@ -208,6 +208,7 @@ SkillInfo.prototype.GetExtensions = function () {
             if (!exteItem) {
                 console.log(extName);
                }
+               //for debugging
             exteItem.SetParent(this);
             this._extensions[extName] = exteItem;
         }
