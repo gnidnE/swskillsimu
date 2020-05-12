@@ -355,7 +355,7 @@
         }
       }
     },
-    "MdSwATasteofBlood": {
+    "MdSw_ATasteofBlood": {
       "Name": "Md.Sw.: A Taste of Blood",
       "ID": 10,
       "Icon": "../assets/SkillIcons/Chii/Skill05_Md.Sw._A_Taste_of_Blood.png",
@@ -505,13 +505,13 @@
         }
       }
     },
-    "PeregrineFalcon": {
-      "Name": "貓刀三式 - 鷹之奇襲",
+    "Budo3_PreySighted": {
+      "Name": "Budo 3: Prey Sighted",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Chii/G_3-1_PeregrineFalcon.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill07_Budo3_Prey_Sighted.png",
       "Levels": {
         "0": {
-          "Description": "快速斬擊前方的敵人後，將武器迴旋式的向前擲出。一段時間後武器將會自動回歸。\n點擊滑鼠左鍵可立刻將武器收回。",
+          "Description": "You unleash blade attacks on enemies ahead of you and then hurl the Daito spinning forwards. It deals damage along its path and then returns to you. You can call your weapon back immediately by left-clicking.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -549,13 +549,13 @@
         "PeregrineFalcon-Sync"
       ]
     },
-    "MoonStep": {
-      "Name": "貓刀四式 - 月影之躍",
+    "Budo4_MoonStep": {
+      "Name": "Budo 4: Moonset",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Chii/G_3-2_MoonStep.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_Budo4_Moonset.png",
       "Levels": {
         "0": {
-          "Description": "向空中跳躍，然後進行360度旋轉的踢擊。\n在浮空狀態下點擊滑鼠左鍵，可以對敵人進行敲打。",
+          "Description": "You leap into the air and execute a 360° skywards strike. If you activate it again in the air, your attack finishes with you ramming your weapon into the ground in an elegant arc.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -590,11 +590,11 @@
         }
       },
       "Extensions": [
-        "MoonStep-PrecisionStrikes",
-        "MoonStep-Thunderbolt"
+        "Budo4_MoonStep-Waylay",
+        "Budo4_MoonStep-Snapped"
       ]
     },
-    "MoonStep-PrecisionStrikes": {
+    "Budo4_MoonStep-Waylay": {
       "Visible": false,
       "Name": "精確打擊",
       "ID": 16,
@@ -626,7 +626,7 @@
         }
       }
     },
-    "MoonStep-Thunderbolt": {
+    "Budo4_MoonStep-Snapped": {
       "Visible": false,
       "Name": "雷擊",
       "ID": 17,
