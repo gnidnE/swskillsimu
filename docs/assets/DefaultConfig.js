@@ -159,7 +159,7 @@
         Object.defineProperty(w, "appdata", {
             value: Object.freeze(Object.assign({
                 "github-repo": "Eden333/swskillsimu",
-                maxCharacterLevel: 1,
+                maxCharacterLevel: 75,
                 use_h264: null,
                 use_vp9: null,
                 videoPreviewPanelHeight: "170px"
