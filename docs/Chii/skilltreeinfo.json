@@ -1,5 +1,5 @@
 {
-  "CharacterName": "琪・阿露爾",
+  "CharacterName": "Chii Aruel",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Chii_Aruel",
   "MaxLevel": 68,
   "AvailableClass": {
@@ -177,7 +177,7 @@
       "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
       "Levels": {
         "0": {
-          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from thits with SoulStrike.",
+          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from this with SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -241,7 +241,7 @@
       "Icon": "../assets/SkillIcons/Chii/Skill03_Budo1_The_Hunt_Begins.png",
       "Levels": {
         "0": {
-          "Description": "You charge forwads and carry out multiple agile blade attacks on enemies around you. The range of movement is extended depending on the charging time. After the move, you absorb some HP from nearby opponents.",
+          "Description": "You charge forwards and carry out multiple agile blade attacks on enemies around you. The range of movement is extended depending on the charging time. After the move, you absorb some HP from nearby opponents.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -285,7 +285,7 @@
       "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out.png",
       "Levels": {
         "0": {
-          "Description": "You draw your Daito and carry out a blade attack on enemies in front of you. You draw your Daito Fatale immediatley by left-clicking. Damage is reduced by 20% on immediate activation",
+          "Description": "You draw your Daito and carry out a blade attack on enemies in front of you. You draw your Daito Fatale immediately by left-clicking. Damage is reduced by 20% on immediate activation",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -361,7 +361,7 @@
       "Icon": "../assets/SkillIcons/Chii/Skill05_Md.Sw._A_Taste_of_Blood.png",
       "Levels": {
         "0": {
-          "Description": "You consume HP to increase your combat strengh for a short time",
+          "Description": "You consume HP to increase your combat strength for a short time",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -480,7 +480,7 @@
       "Icon": "../assets/SkillIcons/Chii/Skill06_Kitty_Kendo_B.png",
       "Levels": {
         "0": {
-          "Description": "You penetrate the enemiy's defense for 5 sec. and perform a central additional attack against a group of gathered opponents. Summoned canines also come in handy as a predator. You also receive SF.",
+          "Description": "You penetrate the enemy's defense for 5 sec. and perform a central additional attack against a group of gathered opponents. Summoned canines also come in handy as a predator. You also receive SF.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
