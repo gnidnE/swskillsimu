@@ -25,7 +25,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Skill_FirstBlade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_FirstBlade.{{auto}}"
           }
         },
         "1": {
@@ -70,7 +70,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_First Blade_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_First Blade_A.{{auto}}"
           }
         },
         "1": {
@@ -102,7 +102,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step.{{auto}}"
           }
         },
         "1": {
@@ -148,7 +148,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step_Attack01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack01.{{auto}}"
           }
         },
         "1": {
@@ -161,7 +161,7 @@
           "RequiredLevel": 26,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step_Attack02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack02.{{auto}}"
           }
         }
       }
@@ -178,7 +178,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Pierce Step_Attack_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack_B.{{auto}}"
           }
         },
         "1": {
@@ -199,7 +199,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Spin Cutter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter.{{auto}}"
           }
         },
         "1": {
@@ -243,7 +243,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blow Up.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blow Up.{{auto}}"
           }
         },
         "1": {
@@ -284,7 +284,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Quake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake.{{auto}}"
           }
         },
         "1": {
@@ -329,7 +329,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Quake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake_A.{{auto}}"
           }
         },
         "1": {
@@ -360,7 +360,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Wall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Wall.{{auto}}"
           }
         },
         "1": {
@@ -401,7 +401,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Power Slash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Power Slash.{{auto}}"
           }
         },
         "1": {
@@ -442,7 +442,7 @@
           "RequiredLevel": 13,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Leap Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack.{{auto}}"
           }
         },
         "1": {
@@ -488,7 +488,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Leap Attack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_A.{{auto}}"
           }
         },
         "1": {
@@ -520,7 +520,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Leap Attack_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_B.{{auto}}"
           }
         },
         "1": {
@@ -551,7 +551,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Arena Rush.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Arena Rush.{{auto}}"
           }
         },
         "1": {
@@ -626,7 +626,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Skill_ArenaRush_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_ArenaRush_B.{{auto}}"
           }
         },
         "1": {
@@ -657,7 +657,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Flash Step.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step.{{auto}}"
           }
         },
         "1": {
@@ -702,7 +702,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Cross Strike.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike.{{auto}}"
           }
         },
         "1": {
@@ -747,7 +747,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Cross Strike_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike_A.{{auto}}"
           }
         },
         "1": {
@@ -778,7 +778,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Wind Break.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break.{{auto}}"
           }
         },
         "1": {
@@ -823,7 +823,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Wind Break_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_02.{{auto}}"
           }
         },
         "1": {
@@ -836,7 +836,7 @@
           "RequiredLevel": 55,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
           }
         }
       }
@@ -852,7 +852,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Blade Shower.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Shower.{{auto}}"
           }
         },
         "1": {
@@ -898,7 +898,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Spin Cutter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter_A.{{auto}}"
           }
         },
         "1": {
@@ -934,7 +934,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Flash Step_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step_A.{{auto}}"
           }
         },
         "1": {
@@ -970,7 +970,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_SwardFall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_SwardFall.{{auto}}"
           }
         },
         "1": {
@@ -1015,7 +1015,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Skill_Slashing Warfare.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Slashing Warfare.{{auto}}"
           }
         },
         "1": {
@@ -1058,7 +1058,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_01.{{auto}}"
           }
         },
         "1": {
@@ -1071,7 +1071,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_02.{{auto}}"
           }
         },
         "3": {
@@ -1079,7 +1079,7 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_03.{{auto}}"
           }
         },
         "4": {
@@ -1087,7 +1087,7 @@
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_04.{{auto}}"
           }
         },
         "5": {
@@ -1095,7 +1095,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1113,7 +1113,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N.{{auto}}"
           }
         },
         "1": {
@@ -1146,7 +1146,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1169,7 +1169,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Roll_F.{{auto}}"
           }
         },
         "1": {
@@ -1202,7 +1202,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1230,7 +1230,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
@@ -1263,7 +1263,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1285,7 +1285,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1317,7 +1317,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/haru/PC_A_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {

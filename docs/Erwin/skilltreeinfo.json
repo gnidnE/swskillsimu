@@ -25,7 +25,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SkyHigh.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SkyHigh.{{auto}}"
           }
         },
         "1": {
@@ -71,7 +71,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SkyHigh_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SkyHigh_A.{{auto}}"
           }
         },
         "1": {
@@ -93,7 +93,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SkyHigh_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SkyHigh_B.{{auto}}"
           }
         },
         "1": {
@@ -125,7 +125,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_RapidFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_RapidFire.{{auto}}"
           }
         },
         "1": {
@@ -167,7 +167,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GunCombination.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GunCombination.{{auto}}"
           }
         },
         "1": {
@@ -212,7 +212,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GunCombination_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GunCombination_A.{{auto}}"
           }
         },
         "1": {
@@ -243,7 +243,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SlidingStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SlidingStep.{{auto}}"
           }
         },
         "1": {
@@ -289,7 +289,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SlidingStep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SlidingStep_A.{{auto}}"
           }
         },
         "1": {
@@ -321,7 +321,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SlidingStep_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SlidingStep_B.{{auto}}"
           }
         },
         "1": {
@@ -352,7 +352,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_TakeAim.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_TakeAim.{{auto}}"
           }
         },
         "1": {
@@ -393,7 +393,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_FocusShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_FocusShot.{{auto}}"
           }
         },
         "1": {
@@ -439,7 +439,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_FocusShot_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_FocusShot_A.{{auto}}"
           }
         },
         "1": {
@@ -471,7 +471,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_FocusShot_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_FocusShot_B.{{auto}}"
           }
         },
         "1": {
@@ -502,7 +502,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_CombatMaster.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_CombatMaster.{{auto}}"
           }
         },
         "1": {
@@ -546,7 +546,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GuidedShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GuidedShot.{{auto}}"
           }
         },
         "1": {
@@ -591,7 +591,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_GuidedShot_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GuidedShot_A.{{auto}}"
           }
         },
         "1": {
@@ -622,7 +622,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot.{{auto}}"
           }
         },
         "1": {
@@ -667,7 +667,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_NapalmBomb.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_NapalmBomb.{{auto}}"
           }
         },
         "1": {
@@ -708,7 +708,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_Sprinter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_Sprinter.{{auto}}"
           }
         },
         "1": {
@@ -753,7 +753,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_Sprinter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_Sprinter_A.{{auto}}"
           }
         },
         "1": {
@@ -784,7 +784,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_HideAndSeek.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_HideAndSeek.{{auto}}"
           }
         },
         "1": {
@@ -825,7 +825,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_SoulLauncher.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulLauncher.{{auto}}"
           }
         },
         "1": {
@@ -871,7 +871,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_CombatMaster_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_CombatMaster_A.{{auto}}"
           }
         },
         "1": {
@@ -907,7 +907,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot_A_01.{{auto}}"
           }
         },
         "1": {
@@ -920,7 +920,7 @@
           "RequiredLevel": 59,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot_A_02.{{auto}}"
           }
         },
         "3": {
@@ -928,7 +928,7 @@
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_ElectricShot_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot_A_03.{{auto}}"
           }
         }
       }
@@ -949,7 +949,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_BlazeHover.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_BlazeHover.{{auto}}"
           }
         },
         "1": {
@@ -994,7 +994,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Skill_MissionCall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_MissionCall.{{auto}}"
           }
         },
         "1": {
@@ -1042,7 +1042,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Attack_01.{{auto}}"
           }
         },
         "2": {
@@ -1050,7 +1050,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Attack_02.{{auto}}"
           }
         },
         "3": {
@@ -1058,7 +1058,7 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Attack_03.{{auto}}"
           }
         },
         "4": {
@@ -1066,7 +1066,7 @@
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Attack_04.{{auto}}"
           }
         },
         "5": {
@@ -1075,8 +1075,8 @@
           "RequiredSP": 2,
           "Preview": {
             "Video": {
-              "vp9": "../assets/skillpreviews/erwin/B_Attack_05.webm",
-              "h264": "../assets/skillpreviews/erwin/B_Attack_05.mp4"
+              "vp9": "../assets/SkillPreviews/Erwin/B_Attack_05.webm",
+              "h264": "../assets/SkillPreviews/Erwin/B_Attack_05.mp4"
             }
           }
         }
@@ -1095,7 +1095,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
@@ -1128,7 +1128,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1151,7 +1151,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Roll_F.{{auto}}"
           }
         },
         "1": {
@@ -1184,7 +1184,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1212,7 +1212,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
@@ -1245,7 +1245,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1267,7 +1267,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1299,7 +1299,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/erwin/B_S_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_S_Attack_Dash.{{auto}}"
           }
         },
         "1": {

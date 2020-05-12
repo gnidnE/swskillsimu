@@ -4,11 +4,11 @@
   "AvailableClass": {
     "0": {
       "Name": "Base",
-      "Cover": "../assets/images/bg-stella1.png"
+      "Cover": "../assets/images/Stella_Base.png"
     },
     "1": {
       "Name": "Upgraded",
-      "Cover": "../assets/images/bg-stella2.png",
+      "Cover": "../assets/images/Stella_ADV.png",
       "RequiredLevel": 57
     }
   },
@@ -17,7 +17,7 @@
       "Name": "Whirl Dance",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_WhirlDance.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WhirlDance.png",
       "Levels": {
         "0": {
           "Description": "Possess the guitar with ghosts, and swing it around to deal damage. The final slam launches enemies to the air.",
@@ -25,7 +25,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_WheelDance.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_WheelDance.{{auto}}"
           }
         },
         "1": {
@@ -62,7 +62,7 @@
       "Name": "Phantom Release",
       "DefaultLevel": 1,
       "ID": 2,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_PhantomRelease.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_PhantomRelease.png",
       "Levels": {
         "0": {
           "Description": "Release ghosts by playing the guitar at the current location.",
@@ -70,7 +70,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_PhantomRelease.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_PhantomRelease.{{auto}}"
           }
         },
         "1": {
@@ -107,7 +107,7 @@
       "Visible": false,
       "ID": 3,
       "Name": "ExtraAttack",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_PhantomRelease_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_PhantomRelease_A.png",
       "Levels": {
         "0": {
           "Description": "Number of attacks increase.",
@@ -115,7 +115,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_PhantomRelease_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_PhantomRelease_A.{{auto}}"
           }
         },
         "1": {
@@ -129,14 +129,14 @@
       "Name": "Trouble Pass",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TroublePass.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass.png",
       "Levels": {
         "0": {
           "Description": "Release guiding-type ghosts to damage enemies. While in support mode, ghosts will heal allies.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_Trouble Pass.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass.{{auto}}"
           }
         },
         "1": {
@@ -174,7 +174,7 @@
       "Visible": false,
       "ID": 5,
       "Name": "Range Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TroublePass_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass_A.png",
       "Levels": {
         "0": {
           "Description": "Increase the range of exploding ghosts.",
@@ -203,7 +203,7 @@
       "Visible": false,
       "ID": 6,
       "Name": "Strengthen",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TroublePass_B.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass_B.png",
       "Levels": {
         "0": {
           "Description": "Ghosts will grant a defense-boosting buff.",
@@ -231,14 +231,14 @@
     "HystericalShock": {
       "Name": "Hysterical Shock",
       "ID": 7,
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_HystericShock-.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_HystericShock-.png",
       "Levels": {
         "0": {
           "Description": "Create cracks on the ground by playing the guitar, and then cause an explosion.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_HystericShock.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_HystericShock.{{auto}}"
           }
         },
         "1": {
@@ -275,7 +275,7 @@
       "Visible": false,
       "ID": 8,
       "Name": "Extra Attack",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_HystericShock_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_HystericShock_A.png",
       "Levels": {
         "0": {
           "Description": "Number of attacks increase.",
@@ -283,7 +283,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_HystericShock_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_HystericShock_A.{{auto}}"
           }
         },
         "1": {
@@ -301,14 +301,14 @@
     "BeastParade": {
       "ID": 9,
       "Name": "Beast Parade",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeastParade.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeastParade.png",
       "Levels": {
         "0": {
           "Description": "Summon the ghosts and charge forward by riding on their backs.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeastParade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeastParade.{{auto}}"
           }
         },
         "1": {
@@ -341,7 +341,7 @@
     "BeadsPlay": {
       "ID": 10,
       "Name": "Beads Play",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeadsPlay.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay.png",
       "Levels": {
         "0": {
           "Description": "Creates beads which will explode when hitting enemies. In support mode, the beads will restore HP and increase attack.\nCharging will increase number of beads. Push away enemies when charging completes.",
@@ -349,7 +349,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeadsPlay_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_N.{{auto}}"
           }
         },
         "1": {
@@ -387,7 +387,7 @@
       "ID": 11,
       "Visible": false,
       "Name": "Paralyze",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeadsPlay_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_A.png",
       "Levels": {
         "0": {
           "Description": "Beads go through enemies and paralyze them.",
@@ -395,7 +395,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeadsPlay_N_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_N_A.{{auto}}"
           }
         },
         "1": {
@@ -419,7 +419,7 @@
       "ID": 12,
       "Visible": false,
       "Name": "Strengthen",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeadsPlay_B.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_B.png",
       "Levels": {
         "0": {
           "Description": "The beads effect is strengthened.",
@@ -427,7 +427,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeadsPlay_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_B.{{auto}}"
           }
         },
         "1": {
@@ -450,7 +450,7 @@
     "DecadePulse": {
       "ID": 13,
       "Name": "Decade Pulse",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_DecadePulse.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_DecadePulse.png",
       "Levels": {
         "0": {
           "Description": "Using the guitar, you release a pulse that attacks enemies. When switching modes, it paralyzes enemies and steals HP.\nThe lifesteal effect(100% lifesteal) is applied to a maximum of 3 targets.",
@@ -458,7 +458,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_DecadePulse.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_DecadePulse.{{auto}}"
           }
         },
         "1": {
@@ -496,7 +496,7 @@
       "ID": 14,
       "Visible": false,
       "Name": "Duration Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_DecadePulse_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_DecadePulse_A.png",
       "Levels": {
         "0": {
           "Description": "Increases the duration of pulse.",
@@ -525,7 +525,7 @@
       "ID": 15,
       "Visible": false,
       "Name": "Radius Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_DecadePulse_B.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_DecadePulse_B.png",
       "Levels": {
         "0": {
           "Description": "Pulse range increase to allow more target to be hit.",
@@ -533,7 +533,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_DecadePulse_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_DecadePulse_B.{{auto}}"
           }
         },
         "1": {
@@ -556,7 +556,7 @@
     "SoulScream": {
       "ID": 16,
       "Name": "Soul Scream",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SoulScream.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SoulScream.png",
       "Levels": {
         "0": {
           "Description": "Make souls go rampant, creating a barrier around the caster. Invincibility will be granted on skill cast. The barrier will damage and paralyze all nearby enemies.",
@@ -564,7 +564,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_SoulScream.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulScream.{{auto}}"
           }
         },
         "1": {
@@ -600,7 +600,7 @@
     "TwistPull": {
       "ID": 17,
       "Name": "Twist Pull",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TwistPull.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TwistPull.png",
       "Levels": {
         "0": {
           "Description": "Create a black hole formed by ghosts, which pulls in enemies and then explodes.",
@@ -608,7 +608,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_TwistPull.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_TwistPull.{{auto}}"
           }
         },
         "1": {
@@ -645,7 +645,7 @@
       "ID": 18,
       "Visible": false,
       "Name": "Range Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_TwistPull_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TwistPull_A.png",
       "Levels": {
         "0": {
           "Description": "Increases the Attack Range by ghosts.",
@@ -653,7 +653,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_TwistPull_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_TwistPull_A.{{auto}}"
           }
         },
         "1": {
@@ -671,7 +671,7 @@
     "BeastParty": {
       "ID": 19,
       "Name": "Beast Party",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BeastParty.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeastParty.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -680,7 +680,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BeastParty.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeastParty.{{auto}}"
           }
         },
         "1": {
@@ -713,7 +713,7 @@
     "BlackMorass": {
       "ID": 20,
       "Name": "Black Morass",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BlackMorass.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BlackMorass.png",
       "Levels": {
         "0": {
           "Description": "Create a marsh of ghosts by playing the guitar. The final attack differs depending on which input is made at the end.\n( LMB = Pull enemies in the center / RMB = Launch the enemies in the air )",
@@ -721,7 +721,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BlackMorass.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BlackMorass.{{auto}}"
           }
         },
         "1": {
@@ -758,7 +758,7 @@
       "ID": 21,
       "Visible": false,
       "Name": "Duration Increase",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BlackMorass_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BlackMorass_A.png",
       "Levels": {
         "0": {
           "Description": " Increase the maximum attack duration.",
@@ -766,7 +766,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BlackMorass_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BlackMorass_A.{{auto}}"
           }
         },
         "1": {
@@ -789,7 +789,7 @@
     "BestTempo": {
       "ID": 22,
       "Name": "Best Tempo",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BestTempo.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BestTempo.png",
       "Levels": {
         "0": {
           "Description": "Playing the guitar inspires your allies. In support mode, it restores the HP of allies instantly.",
@@ -797,7 +797,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BestTempo.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BestTempo.{{auto}}"
           }
         },
         "1": {
@@ -830,7 +830,7 @@
     "BassAttack": {
       "ID": 23,
       "Name": "Bass Attack",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_BassAttack.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BassAttack.png",
       "Levels": {
         "0": {
           "Description": "Summon Stella's speakers and create a stage. Speakers violently shake to attack the enemies within its range.",
@@ -838,7 +838,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_BassAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BassAttack.{{auto}}"
           }
         },
         "1": {
@@ -876,7 +876,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_WhirlDance_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WhirlDance_A.png",
       "Levels": {
         "0": {
           "Description": "Enables moving while performing Whirl Dance.\nIn addition, Stella will be in invulnerable state when a revolution attack is made. (Some special attacks are not covered)",
@@ -884,7 +884,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_WheelDance_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_WheelDance_A.{{auto}}"
           }
         },
         "1": {
@@ -912,7 +912,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SoulScream_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SoulScream_A.png",
       "Levels": {
         "0": {
           "Description": "??",
@@ -920,7 +920,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_SoulScream_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulScream_A.{{auto}}"
           }
         },
         "1": {
@@ -947,7 +947,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_recklessPrincess.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_recklessPrincess.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -956,7 +956,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_RecklessPrincess.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_RecklessPrincess.{{auto}}"
           }
         },
         "1": {
@@ -993,7 +993,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_WolvesShowtime.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WolvesShowtime.png",
       "Levels": {
         "0": {
           "Description": "Summons a Wolf knight.",
@@ -1001,7 +1001,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Skill_WolvesShowtime.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_WolvesShowtime.{{auto}}"
           }
         },
         "1": {
@@ -1044,7 +1044,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Attack_01.{{auto}}"
           }
         },
         "1": {
@@ -1057,7 +1057,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Attack_02.{{auto}}"
           }
         },
         "3": {
@@ -1065,7 +1065,7 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Attack_03.{{auto}}"
           }
         },
         "4": {
@@ -1073,7 +1073,7 @@
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Attack_04.{{auto}}"
           }
         },
         "5": {
@@ -1081,7 +1081,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1091,7 +1091,7 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_OwnAbility.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_OwnAbility.png",
       "Levels": {
         "0": {
           "Description": "[Ground]\nChanges modes and the effects of your skills. Activates Sorrowful Note.\n[Air]\nDo a musical performance on your special guitar to change your mode. Using this skill in the air will make your ghost attack with a fist and pushes you backwards.",
@@ -1099,7 +1099,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
@@ -1132,7 +1132,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1155,7 +1155,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Roll_F.{{auto}}"
           }
         },
         "1": {
@@ -1188,7 +1188,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1216,7 +1216,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
@@ -1249,7 +1249,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1271,7 +1271,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1303,7 +1303,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/stella/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1360,7 +1360,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "??",
@@ -1393,7 +1393,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive.png",
       "Levels": {
         "0": {
           "Description": "Maximum SG increase",

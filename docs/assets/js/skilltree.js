@@ -159,6 +159,9 @@ SkillTreeCore.prototype.inner_gettotalspex = function (a) {
         case 62:
         case 63:
         case 64:
+        case 66:
+        case 67:
+        case 68:
             return 1;
         case 5:
         case 65:
