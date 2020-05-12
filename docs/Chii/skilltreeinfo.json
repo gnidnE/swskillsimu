@@ -234,7 +234,7 @@
         }
       }
     },
-    "Budo1_TheHuntBegins": {
+    "BudoTheHuntBegins": {
       "Name": "Budo1: The Hunt Begins",
       "DefaultLevel": 1,
       "ID": 7,
@@ -279,7 +279,7 @@
         "ThrustArrow-Explosion"
       ]
     },
-    "Budo2_ClawsOut": {
+    "BudoClawsOut": {
       "Name": "Budo2: Claws Out",
       "ID": 8,
       "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out.png",
@@ -320,10 +320,10 @@
         }
       },
       "Extensions": [
-        "Budo2_ClawsOut-Charge"
+        "BudoClawsOut-Charge"
       ]
     },
-    "Budo2_ClawsOut-Charge": {
+    "BudoClawsOut-Charge": {
       "Visible": false,
       "Name": "Charge",
       "ID": 9,
