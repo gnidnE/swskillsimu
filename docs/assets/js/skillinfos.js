@@ -205,6 +205,9 @@ SkillInfo.prototype.GetExtensions = function () {
         for (var extIndex in this._string_extensions) {
             extName = this._string_extensions[extIndex];
             exteItem = this.SkillCore.GetSkill(extName);
+            if (!exteItem) {
+                console.log(extName);
+               }
             exteItem.SetParent(this);
             this._extensions[extName] = exteItem;
         }
