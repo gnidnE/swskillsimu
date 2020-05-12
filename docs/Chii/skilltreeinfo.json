@@ -1223,7 +1223,7 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "特殊能力精通",
-      "Icon": "../assets/SkillIcons/Chii/G_SpecialAttack_OwnAbility.png",
+      "Icon": "../assets/SkillIcons/Chii/PSkill_SoulStrike.png",
       "Levels": {
         "0": {
           "Description": "釋放靈魂能量攻擊附近的敵人。\n如果範圍內敵人身上帶有「狩獵標記」，則會賦予額外的爆炸傷害。\n標記最多可以疊加3層。\n依據傷害回復自身一定比例的生命（此效果只適用於1個敵人）。\n在空中使用時，迅速以武器向前方進行下落攻擊。\n攻擊時可以獲得靈魂值。",
@@ -1492,7 +1492,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/G_ADV_Passive_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Chii/PSkill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "每使用帶有「黑血」特性的技能後，於5 Seconds內再使用其他帶有相同特性的技能滿3次時，10 Seconds內增加SA Break、暴擊率。\n效果發動期間無法再次計數。",
@@ -1517,15 +1517,15 @@
         }
       }
     },
-    "CatSwiftness": {
+    "FelinaFatale": {
       "Passive": true,
-      "Name": "貓的韌性",
+      "Name": "Felina Fatale",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/G_Passive_SGPassive1.png",
+      "Icon": "../assets/SkillIcons/Chii/PSkill_Felina_Fatale.png",
       "Levels": {
         "0": {
           "Description": "最大耐力永久增加。",
@@ -1583,7 +1583,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/G_ADV_SV_EX_DestructionBlade.png",
+      "Icon": "../assets/SkillIcons/Chii/NSkill3_Exitus.png",
       "Assignable": false,
       "Levels": {
         "0": {
