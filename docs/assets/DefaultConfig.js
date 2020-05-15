@@ -91,7 +91,7 @@
                 selectImage: "assets/images/Ephnel_Select.png",
                 enabled: false,
                 reason: "Ephnel isn't ready yet~"
-			}
+			},
 			
             };
 
