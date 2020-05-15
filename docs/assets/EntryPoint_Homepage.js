@@ -59,7 +59,7 @@
                 }
 
                 let theDiv = d.createElement("div");
-                theDiv.classList.add("col-md-2");
+                theDiv.classList.add("col-md-1");
                 theDiv.appendChild(elementHyperlink);
                 domCharacterList.appendChild(theDiv);
             }
@@ -77,7 +77,7 @@ $(function () {
     var theTarget = $(".scrolling-wrapper-flexbox"),
         curDown = false,
         // curYPos = 0,
-        curXPos = 0,
+         curXPos = 0,
         mouseOutFunc = function () {
             curDown = false;
         };

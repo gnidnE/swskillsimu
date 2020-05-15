@@ -7,6 +7,17 @@ body {
     background-position: center center
 }
 
+.col-md-1
+{
+ padding-right: 220px;
+ 
+}
+.col-md-2
+{
+    padding-right: 0%;
+    padding-left: 0%;
+
+}
 .text-feature-supported {
     color: rgb(24, 145, 8);
 }
@@ -18,7 +29,7 @@ body {
 .scrolling-wrapper-flexbox {
     display: flex;
     flex-wrap: nowrap;
-    overflow-x: visible;
+    overflow-x: hidden;
     overflow-y: hidden;
 
     transform: rotateX(180deg);
@@ -31,6 +42,7 @@ body {
 .scrolling-wrapper-flexbox .row {
     min-width: 1280px;
     flex-wrap: nowrap;
+
 }
 
 .scrolling-wrapper-flexbox>.content {
@@ -56,12 +68,13 @@ body {
 }
 
 .characterimage {
-    max-width: 100%;
-    max-height: 100%;
-    opacity: 0.7;
-    transition: all .2s ease-in-out;
-}
 
+    width: auto;
+    height: 110%;
+    opacity: 0.8;
+    transition: all .2s ease-in-out;
+
+}
 
 .hideaway {
     display: none;
