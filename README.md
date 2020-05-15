@@ -1,17 +1,18 @@
 # SoulWorker Skill Simulator
 This is the skill tree simulator for SoulWorker game which is developed by Lion Games.
-The tree is developped with information source mainly from the Steam/Japanese and Korean Version of SoulWorker. Feel free to fork and edit it (and redistribute/republish) for other regions.
+The tree is developed with information source mainly from the Steam/Japanese and Korean Version of SoulWorker. Feel free to fork and edit it (and redistribute/republish) for other regions.
 
 [Use the simulator released on Github Pages](https://eden333.github.io/swskillsimu/).
 
 # Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
-  ~~- Adding Chii~~
+  - Adding Chii
       - Adding Ephnel
-    ~~- Adding Level 68~~
-    - Changing the looks
+      - Adding Level 68
+  - Changing the looks
+  - Adding seperate mobile version
   - Cleaning Code up
-    - Preperations for Future Updates (enable when it comes)
+    - Preparations for Future Updates (enable when it comes)
     - Adding Version Selection 
     - Adding Translations
 
