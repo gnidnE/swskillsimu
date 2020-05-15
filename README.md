@@ -6,9 +6,9 @@ The tree is developped with information source mainly from the Steam/Japanese an
 
 # Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
-  ~~- Adding Chii
-    - Adding Ephnel
-    ~~- Adding Level 68
+  ~~- Adding Chii~~
+      - Adding Ephnel
+    ~~- Adding Level 68~~
     - Changing the looks
   - Cleaning Code up
     - Preperations for Future Updates (enable when it comes)
