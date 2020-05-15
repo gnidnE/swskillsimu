@@ -1182,7 +1182,7 @@
           }
         },
         "1": {
-          "Effect": "耐力消耗量：[20]",
+          "Effect": "Stamina consumption：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1205,17 +1205,17 @@
           }
         },
         "1": {
-          "Effect": "耐力消耗量：[25]",
+          "Effect": "Stamina consumption：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "耐力消耗量：[15]",
+          "Effect": "Stamina consumption：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "耐力消耗量：[15]\n翻滾的更快",
+          "Effect": "Stamina consumption：[15]\n翻滾的更快",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1266,17 +1266,17 @@
           }
         },
         "1": {
-          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
+          "Effect": "回擊傷害量：[100%]\nStamina consumption：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
+          "Effect": "回擊傷害量：[100%]\nStamina consumption：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "回擊傷害量：[100%]\n耐力消耗量：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
+          "Effect": "回擊傷害量：[100%]\nStamina consumption：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1321,17 +1321,17 @@
           }
         },
         "1": {
-          "Effect": "耐力消耗量：[40]\n冷卻時間：[30秒]",
+          "Effect": "Stamina consumption：[40]\n冷卻時間：[30秒]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "耐力消耗量：[40]\n冷卻時間：[25秒]",
+          "Effect": "Stamina consumption：[40]\n冷卻時間：[25秒]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "耐力消耗量：[40]\n冷卻時間：[20秒]",
+          "Effect": "Stamina consumption：[40]\n冷卻時間：[20秒]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }

@@ -7,20 +7,20 @@
       "Cover": "../assets/images/Stella_Base.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "Advancement",
       "Cover": "../assets/images/Stella_ADV.png",
       "RequiredLevel": 57
     }
   },
   "Skills": {
     "WhirlDance": {
-      "Name": "Whirl Dance",
+      "Name": "Whirlwind",
       "DefaultLevel": 1,
       "ID": 1,
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WhirlDance.png",
       "Levels": {
         "0": {
-          "Description": "Possess the guitar with ghosts, and swing it around to deal damage. The final slam launches enemies to the air.",
+          "Description": "Howlers hold the Howling Guitar for you whilst you attack enemies in spins. Finally, you send the enemies into the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -59,13 +59,13 @@
       ]
     },
     "PhantomRelease": {
-      "Name": "Phantom Release",
+      "Name": "Howling Hunt",
       "DefaultLevel": 1,
       "ID": 2,
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_PhantomRelease.png",
       "Levels": {
         "0": {
-          "Description": "Release ghosts by playing the guitar at the current location.",
+          "Description": "You play the Howling Guitar and release the Howlers.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -106,11 +106,11 @@
     "PhantomRelease-ExtraAttack": {
       "Visible": false,
       "ID": 3,
-      "Name": "ExtraAttack",
+      "Name": "Strike Storm",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_PhantomRelease_A.png",
       "Levels": {
         "0": {
-          "Description": "Number of attacks increase.",
+          "Description": "You manage more hits and extend the attack area for Drag.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -126,13 +126,13 @@
       }
     },
     "TroublePass": {
-      "Name": "Trouble Pass",
+      "Name": "Phantom Trail",
       "DefaultLevel": 1,
       "ID": 4,
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass.png",
       "Levels": {
         "0": {
-          "Description": "Release guiding-type ghosts to damage enemies. While in support mode, ghosts will heal allies.",
+          "Description": "You unleash Howlers, who pursue the enemy and inflict damage on them.\nA mode switch will cause the Howlers to immediately regenerate the HP of your allies.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
@@ -173,14 +173,17 @@
     "TroublePass-RangeIncrease": {
       "Visible": false,
       "ID": 5,
-      "Name": "Range Increase",
+      "Name": "Attack Measure",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass_A.png",
       "Levels": {
         "0": {
-          "Description": "Increase the range of exploding ghosts.",
+          "Description": "If the Howler explodes, the attack area is expanded vastly.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass_A.{{auto}}"
+          }
         },
         "1": {
           "Effect": "",
@@ -202,14 +205,17 @@
     "TroublePass-Strengthen": {
       "Visible": false,
       "ID": 6,
-      "Name": "Strengthen",
+      "Name": "Upgrade",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass_B.png",
       "Levels": {
         "0": {
-          "Description": "Ghosts will grant a defense-boosting buff.",
+          "Description": "Increased number of projectiles: 1 (+1)\n\nIncreases the number and speed of projectiles.\nThe Howler is also given a buff that increases move speed.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass_B.{{auto}}"
+          }
         },
         "1": {
           "Effect": "",
@@ -870,7 +876,7 @@
     },
     "WhirlDance-PerformanceIncrease": {
       "Visible": false,
-      "Name": "Performance Increase",
+      "Name": "Full Power",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
@@ -879,7 +885,7 @@
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WhirlDance_A.png",
       "Levels": {
         "0": {
-          "Description": "Enables moving while performing Whirl Dance.\nIn addition, Stella will be in invulnerable state when a revolution attack is made. (Some special attacks are not covered)",
+          "Description": "Enables movement during Whirlwind. All damage received during Whirlwind will be counted as a MISS.\n(except some SoulStrikes)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1036,7 +1042,7 @@
       "Name": "Basic Attack Mastery",
       "ID": 1002,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
       "Levels": {
         "0": {
           "Description": "Attack with your weapons.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",

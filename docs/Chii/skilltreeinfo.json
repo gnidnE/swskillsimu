@@ -1052,7 +1052,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在空中狀態下，使用懸浮板邊向前移動邊進行散射攻擊。\n對於浮空狀態下的敵人會給予額外傷害。",
+          "Description": "在Air Controls狀態下，使用懸浮板邊向前移動邊進行散射攻擊。\n對於浮空狀態下的敵人會給予額外傷害。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1165,19 +1165,19 @@
     },
     "BasicAttackMastery": {
       "Passive": true,
-      "Name": "Basic Attack精通",
+      "Name": "Basic Attack",
       "ID": 1002,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
       "Levels": {
         "0": {
-          "Description": "揮刀攻擊敵人。攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。\n技能等級越高，可使用的分支攻擊越多。",
+          "Description": "You swing the Daito Fatale to attack. Chain attacks change depending on the skill level. Damage increases.\nHits generate SF.\nYou receive more SF with higher chain levels and/or higher monster rank.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "[地面]\nBasic Attack：滑鼠：左鍵x4\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "[Ground Controls]\nBasic Attack：Mouse:4x left-click\n\n[Air Controls]\nMouse: 2x left-click when jumping",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
@@ -1185,7 +1185,7 @@
           }
         },
         "2": {
-          "Effect": "靈魂值獲得量：[+20%]\n可使用分支攻擊A\n[地面]\n[1]Basic Attack：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "20% more SF.\nUnlocks SoulStrike A.\n[Ground Controls]\n[1]Basic Attack：Mouse:4x left-click\n[2]Mouse: 2x left-click - multiple right-click\n\n[Air Controls]\nMouse: 2x left-click when jumping",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
@@ -1193,7 +1193,7 @@
           }
         },
         "3": {
-          "Effect": "靈魂值獲得量：[+70%]\n可使用分支攻擊B\n[地面]\n[1]Basic Attack：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "70% more SF.\nUnlocks SoulStrike B.\n[Ground Controls]\n[1]Basic Attack：Mouse:4x left-click\n[2]Mouse: 2x left-click - multiple right-click\n[3]SoulStrike B：Mouse:左鍵x3-右鍵\n\n[Air Controls]\nMouse: 2x left-click when jumping",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
@@ -1201,7 +1201,7 @@
           }
         },
         "4": {
-          "Effect": "靈魂值獲得量：[+120%]\n可使用Basic Attack和空中攻擊的追加攻擊\n[地面]\n[1]Basic Attack：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
+          "Effect": "120% more SF.\n可使用Basic Attack和Air Controls攻擊的追加攻擊\n[Ground Controls]\n[1]Basic Attack：Mouse:左鍵x5\n[2]Mouse: 2x left-click - multiple right-click\n[3]SoulStrike B：Mouse:左鍵x3-右鍵\n\n[Air Controls]\nMouse:跳躍後，左鍵x3",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
@@ -1209,7 +1209,7 @@
           }
         },
         "5": {
-          "Effect": "靈魂值獲得量：[+200%]\n可使用分支攻擊C\n[地面]\n[1]Basic Attack：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵連續點擊\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵\n[4]分支攻擊C：滑鼠：左鍵x4-右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
+          "Effect": "200% more SF.\nUnlocks SoulStrike C.\n[Ground Controls]\n[1]Basic Attack：Mouse:左鍵x5\n[2]Mouse: 2x left-click - multiple right-click\n[3]SoulStrike B：Mouse:左鍵x3-右鍵\n[4]SoulStrike C：Mouse:4x left-click-右鍵\n\n[Air Controls]\nMouse:跳躍後，左鍵x3",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
@@ -1222,11 +1222,11 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "特殊能力精通",
+      "Name": "SoulStrike",
       "Icon": "../assets/SkillIcons/Chii/PSkill_SoulStrike.png",
       "Levels": {
         "0": {
-          "Description": "釋放靈魂能量攻擊附近的敵人。\n如果範圍內敵人身上帶有「狩獵標記」，則會賦予額外的爆炸傷害。\n標記最多可以疊加3層。\n依據傷害回復自身一定比例的生命（此效果只適用於1個敵人）。\n在空中使用時，迅速以武器向前方進行下落攻擊。\n攻擊時可以獲得靈魂值。",
+          "Description": "釋放靈魂能量攻擊附近的敵人。\n如果範圍內敵人身上帶有「狩獵標記」，則會賦予額外的爆炸傷害。\n標記最多可以疊加3層。\n依據傷害回復自身一定比例的生命（此效果只適用於1個敵人）。\n在Air Controls使用時，迅速以武器向前方進行下落攻擊。\n攻擊時可以獲得靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1235,17 +1235,17 @@
           }
         },
         "1": {
-          "Effect": "[地面]\nDamage：[175%]\nSA Break：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：Damage [350%]\n每層標記：SA Break [280%]\n\n[空中]\nDamage：[229%]\nSA Break：[170%]\n\n[General]\nCooldown：[10 Seconds]",
+          "Effect": "[Ground Controls]\nDamage：[175%]\nSA Break：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：Damage [350%]\n每層標記：SA Break [280%]\n\n[Air Controls]\nDamage：[229%]\nSA Break：[170%]\n\n[General]\nCooldown：[10 Seconds]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[地面]\nDamage：[192%]\nSA Break：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：Damage [384%]\n每層標記：SA Break [308%]\n\n[空中]\nDamage：[241%]\nSA Break：[178%]\n\n[General]\nCooldown：[10 Seconds]",
+          "Effect": "[Ground Controls]\nDamage：[192%]\nSA Break：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：Damage [384%]\n每層標記：SA Break [308%]\n\n[Air Controls]\nDamage：[241%]\nSA Break：[178%]\n\n[General]\nCooldown：[10 Seconds]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[地面]\nDamage：[211%]\nSA Break：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：Damage [422%]\n每層標記：SA Break [338%]\n\n[空中]\nDamage：[270%]\nSA Break：[200%]\n\n[General]\nCooldown：[10 Seconds]",
+          "Effect": "[Ground Controls]\nDamage：[211%]\nSA Break：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：Damage [422%]\n每層標記：SA Break [338%]\n\n[Air Controls]\nDamage：[270%]\nSA Break：[200%]\n\n[General]\nCooldown：[10 Seconds]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1253,13 +1253,13 @@
     },
     "Dodge": {
       "Passive": true,
-      "Name": "緊急迴避",
+      "Name": "Escape Route",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Dodge.png",
+      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
       "Levels": {
         "0": {
-          "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
+          "Description": "You move with lightning speed in the desired direction.\nDuring the movement you block all attacks.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1268,7 +1268,7 @@
           }
         },
         "1": {
-          "Effect": "耐力消耗量：[20]",
+          "Effect": "Stamina consumption：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1276,13 +1276,13 @@
     },
     "RisingRoll": {
       "Passive": true,
-      "Name": "翻滾",
+      "Name": "Shadow Roll",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/RisingRoll.png",
+      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
       "Levels": {
         "0": {
-          "Description": "受到攻擊而倒地時，朝指定的方向快速翻滾後起身。\n翻滾時不會受到任何傷害。",
+          "Description": "You quickly roll in the desired direction and are no longer knocked down. During the movement all attacks are blocked.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1291,17 +1291,17 @@
           }
         },
         "1": {
-          "Effect": "耐力消耗量：[25]",
+          "Effect": "Stamina consumption：[25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "耐力消耗量：[15]",
+          "Effect": "Stamina consumption：[15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "耐力消耗量：[15]\n翻滾的更快",
+          "Effect": "Stamina consumption：[15]\nSpeed increases.",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1309,13 +1309,13 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "衝刺",
+      "Name": "Sprint",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/SkillIcons/Common/Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Sprint.png",
       "Levels": {
         "0": {
-          "Description": "向前快速奔馳。",
+          "Description": "You charge forward",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1329,7 +1329,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "衝刺速度加快",
+          "Effect": "Speed increases.",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1352,17 +1352,17 @@
           }
         },
         "1": {
-          "Effect": "回擊Damage：[100%]\n耐力消耗量：[30]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
+          "Effect": "回擊Damage：[100%]\nStamina consumption：[30]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "回擊Damage：[100%]\n耐力消耗量：[20]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
+          "Effect": "回擊Damage：[100%]\nStamina consumption：[20]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "回擊Damage：[100%]\n耐力消耗量：[20]\n無敵時間：[5 Seconds]\nCooldown：[15 Seconds]",
+          "Effect": "回擊Damage：[100%]\nStamina consumption：[20]\n無敵時間：[5 Seconds]\nCooldown：[15 Seconds]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1407,17 +1407,17 @@
           }
         },
         "1": {
-          "Effect": "耐力消耗量：[40]\nCooldown：[30 Seconds]",
+          "Effect": "Stamina consumption：[40]\nCooldown：[30 Seconds]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "耐力消耗量：[40]\nCooldown：[25 Seconds]",
+          "Effect": "Stamina consumption：[40]\nCooldown：[25 Seconds]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "耐力消耗量：[40]\nCooldown：[20 Seconds]",
+          "Effect": "Stamina consumption：[40]\nCooldown：[20 Seconds]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1430,7 +1430,7 @@
       "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "衝刺時，拔刀施展迴旋挑斬，使敵人浮空。\n攻擊時可以獲得靈魂值。\n角色等級和怪物等級越高，靈魂值獲得量越多。",
+          "Description": "衝刺時，拔刀施展迴旋挑斬，使敵人浮空。\n攻擊時可以獲得靈魂值。\n角色等級和怪物等級越高，more SF.越多。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,

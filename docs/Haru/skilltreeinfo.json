@@ -1050,7 +1050,7 @@
       "Name": "Basic Attack Mastery",
       "ID": 1002,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
       "Levels": {
         "0": {
           "Description": "Attack enemies with the sword.\nYou can unlock new combo attacks as the skill level increases.",
