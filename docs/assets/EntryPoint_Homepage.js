@@ -59,7 +59,7 @@
                 }
 
                 let theDiv = d.createElement("div");
-                theDiv.classList.add("col-md-2");
+                //theDiv.classList.add("col-md-2");
                 theDiv.appendChild(elementHyperlink);
                 domCharacterList.appendChild(theDiv);
             }
