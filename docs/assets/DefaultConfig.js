@@ -60,42 +60,39 @@
             */
             "Haru Estia": {
                 url: "Haru",
-                selectImage: "assets/images/HaruSelect.png"
+                selectImage: "assets/images/Haru_Select.png"
             },
             "Erwin Arclight": {
                 url: "Erwin",
-                selectImage: "assets/images/ErwinSelect.png"
+                selectImage: "assets/images/Erwin_Select.png"
             },
             "Lily Bloomerchen": {
                 url: "Lily",
-                selectImage: "assets/images/LilySelect.png"
+                selectImage: "assets/images/Lily_Select.png"
             },
             "Stella Unibell": {
                 url: "Stella",
-                selectImage: "assets/images/StellaSelect.png"
+                selectImage: "assets/images/Stella_Select.png"
             },
             "Jin Seipatsu": {
                 url: "Jin",
-                selectImage: "assets/images/JinSelect.png"
+                selectImage: "assets/images/Jin_Select.png"
             },
             "Iris Yuma": {
                 url: "Iris",
-                selectImage: "assets/images/IrisSelect.png"
+                selectImage: "assets/images/Iris_Select.png"
             },
 			"Chii Aruel": {
                 url: "Chii",
-                selectImage: "assets/images/ChiiSelect.png"	
+                selectImage: "assets/images/Chii_Select.png"	
 			},
-            /*
-				enabled: false,
-                reason: "The cat isn't ready yet~"
 			"Ephnel Bombingspear": {
                 url: "Ephnel",
-                selectImage: "assets/images/SomeoneSelect.png",
+                selectImage: "assets/images/Ephnel_Select.png",
                 enabled: false,
-                reason: "Your Waifu isn't ready yet~"
-			},
-			*/
+                reason: "Ephnel isn't ready yet~"
+			}
+			
             };
 
     // Debug purpose. Don't modify unless you know what're you doing or testing something
