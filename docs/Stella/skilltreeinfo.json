@@ -1037,6 +1037,32 @@
         }
       }
     },
+    "Banshee Hunt": {
+      "Name": "Banshee Hunt",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_GhostyHunt.png",
+      "Levels": {
+        "0": {
+          "Description": "You conjure up a mystical friend who fells opponents in front of you with fire breath.\nAlternatively attacks with laser breath after switching modes.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_GhostyHunt.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage: 362% per hit\nSA Damage: 385% per hit\nSG Cost: 40\nCooldown: 40 seconds",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "Damage: 398% per hit\nSA Damage: 423% per hit\nSG Cost: 40\nCooldown: 40 seconds",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",

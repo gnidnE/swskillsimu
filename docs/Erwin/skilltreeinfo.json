@@ -1024,6 +1024,34 @@
         }
       }
     },
+    
+    "Deadline": {
+      "Name": "Deadline",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_Deadline.png",
+      "Levels": {
+        "0": {
+          "Description": "?",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Erwin/B_6-1_Deadline.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
+
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",

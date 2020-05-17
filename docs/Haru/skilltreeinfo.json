@@ -1045,6 +1045,34 @@
         }
       }
     },
+    
+    "Trollsverd": {
+      "Name": "Trollsverd",
+      "ID": 28,
+      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_Trollsverd.png",
+      "Levels": {
+        "0": {
+          "Description": "?",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/A_6-1_Trollsverd.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
+
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
