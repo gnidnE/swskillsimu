@@ -1138,7 +1138,7 @@
       "Name": "Evasion",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
       "Levels": {
         "0": {
           "Description": "Swiftly dodge to a specified direction.\nDamage is negated during evasion.",
@@ -1161,7 +1161,7 @@
       "Name": "Roll",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
       "Levels": {
         "0": {
           "Description": "When downed, get up by swiftly rolling in a specified direction.\nDamage is negated during roll.",
@@ -1194,7 +1194,7 @@
       "Name": "Dash",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Sprint.png",
       "Levels": {
         "0": {
           "Description": "Swiftly dash forward.",
@@ -1222,7 +1222,7 @@
       "Name": "Rising Attack",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
       "Levels": {
         "0": {
           "Description": "When downed, get up while attacking nearby enemies.",
@@ -1255,7 +1255,7 @@
       "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
       "Levels": {
         "0": {
           "Description": "Push enemies back with a large swing while dashing.",
@@ -1275,9 +1275,9 @@
     },
     "SpecialEvasion": {
       "Passive": true,
-      "Name": "Special Evasion",
+      "Name": "Elusion",
       "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Elusion.png",
       "Levels": {
         "0": {
           "Description": "Swiftly dodge to a specific direction while being attacked by an enemy.\nDamage is negated during special evasion.",
@@ -1307,9 +1307,9 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "Whirl Jump",
       "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
       "Levels": {
         "0": {
           "Description": "Do a spinning jump attack during dash.",
@@ -1331,7 +1331,7 @@
       "Passive": true,
       "Name": "Stamina Mastery",
       "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/Endure.png",
       "Levels": {
         "0": {
           "Description": "Increases stamina recovery.",
@@ -1438,7 +1438,7 @@
       "DefaultLevel": 1,
       "ID": 1012,
       "RowSpan": 2,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
         "0": {
           "Description": "Gain SG on hit using normal attacks.\nAutomatically gain SG on fixed intervals.",

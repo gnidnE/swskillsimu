@@ -1373,7 +1373,7 @@
       "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/SkillIcons/Common/DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
       "Levels": {
         "0": {
           "Description": "衝刺時，拔刀往前攻擊敵人。",

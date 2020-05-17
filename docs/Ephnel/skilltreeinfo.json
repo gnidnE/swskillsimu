@@ -1287,7 +1287,7 @@
       "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/SkillIcons/Common/DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
       "Levels": {
         "0": {
           "Description": "衝刺時，用力揮劍擊退敵人。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",

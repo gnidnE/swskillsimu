@@ -1120,7 +1120,7 @@
       "Name": "Emergency Dodge",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
+      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
       "Levels": {
         "0": {
           "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
@@ -1143,7 +1143,7 @@
       "Name": "Rising Roll",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
+      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
       "Levels": {
         "0": {
           "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
@@ -1176,7 +1176,7 @@
       "Name": "Dash",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Sprint.png",
       "Levels": {
         "0": {
           "Description": "Swiftly dash forward",
@@ -1204,7 +1204,7 @@
       "Name": "Rising Attack",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
       "Levels": {
         "0": {
           "Description": "While downed, get up while damaging surrounding enemies",
@@ -1237,7 +1237,7 @@
       "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
       "Levels": {
         "0": {
           "Description": "Perform an attack while dashing. Different character does different attacks. ",
@@ -1259,7 +1259,7 @@
       "Passive": true,
       "Name": "Special Dodge",
       "ID": 1007,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Elusion.png",
       "Levels": {
         "0": {
           "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
@@ -1289,9 +1289,9 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "Whirl Jump",
       "ID": 1010,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
       "Levels": {
         "0": {
           "Description": "Performs a special attack while dashing. Different characters do different special attacks",
@@ -1313,7 +1313,7 @@
       "Passive": true,
       "Name": "Stamina Mastery",
       "ID": 1009,
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/Endure.png",
       "Levels": {
         "0": {
           "Description": "Increases stamina recovery rate",
@@ -1420,7 +1420,7 @@
       "ID": 1012,
       "RowSpan": 2,
       "Name": "Bullet of Pleasure",
-      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
         "0": {
           "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Using a different skills within 5 seconds will grant 1 stack. Gain 3 SG upon reaching 3 stacks",
