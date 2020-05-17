@@ -49,7 +49,7 @@
             /*
             Should be as format below, putting anything else at your own risk.
             The format is: `[string] Character Name: [object] character property`
-            + Character Name: Full name prefered, but can be anything.
+            + Character Name: Full name preferred, but can be anything.
             + Character property object contains 4 properties: ("enabled" can be omitted, "reason" can be omitted)
                                          url: The relative URL to the character's skill tree simulator page.
                                          selectImage: The big image of character selection on skill simulator's homepage.
@@ -84,7 +84,7 @@
             },
 			"Chii Aruel": {
                 url: "Chii",
-                selectImage: "assets/images/Chii_Select.png"	
+                selectImage: "assets/images/Chii_Select.png"
 			},
 			"Ephnel Bombingspear": {
                 url: "Ephnel",

@@ -235,7 +235,7 @@
       }
     },
     "Budo1_TheHuntBegins": {
-      "Name": "Budo1: The Hunt Begins",
+      "Name": "Budo 1: The Hunt Begins",
       "DefaultLevel": 1,
       "ID": 7,
       "Icon": "../assets/SkillIcons/Chii/Skill03_Budo1_The_Hunt_Begins.png",
@@ -280,7 +280,7 @@
       ]
     },
     "Budo2_ClawsOut": {
-      "Name": "Budo2: Claws Out",
+      "Name": "Budo 2: Claws Out",
       "ID": 8,
       "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out.png",
       "Levels": {
@@ -659,7 +659,7 @@
       }
     },
     "Budo5_CatbyNight": {
-      "Name": "Budo5: Cat by Night",
+      "Name": "Budo 5: Cat by Night",
       "ID": 18,
       "Icon": "../assets/SkillIcons/Chii/Skill09_Budo5_Cat_by_Night.png",
       "Assignable": false,
@@ -777,7 +777,7 @@
       }
     },
     "Budo0_PreyEliminated": {
-      "Name": "Budo0: Prey Eliminated",
+      "Name": "Budo 0: Prey Eliminated",
       "ID": 21,
       "Icon": "../assets/SkillIcons/Chii/Skill011_Budo0_Prey_Eliminated.png",
       "Levels": {
@@ -1340,7 +1340,7 @@
       "Name": "起身回擊",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
       "Levels": {
         "0": {
           "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",

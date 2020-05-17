@@ -4,11 +4,11 @@
   "AvailableClass": {
     "0": {
       "Name": "Base",
-      "Cover": "../assets/images/bg-iris1.png"
+      "Cover": "../assets/images/Iris_Base.png"
     },
     "1": {
       "Name": "Upgraded",
-      "Cover": "../assets/images/bg-iris2.png",
+      "Cover": "../assets/images/Iris_ADV.png",
       "RequiredLevel": 57
     }
   },
@@ -17,7 +17,7 @@
       "Name": "Hammer Crash",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash.png",
       "Levels": {
         "0": {
           "Description": "Swings the hammer to attack",
@@ -25,7 +25,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash.{{auto}}"
           }
         },
         "1": {
@@ -63,7 +63,7 @@
       "Visible": false,
       "Name": "Continuous Explosion",
       "ID": 2,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash_A.png",
       "Levels": {
         "0": {
           "Description": "Adds an additional explosion on the ground",
@@ -71,7 +71,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash_A.{{auto}}"
           }
         },
         "1": {
@@ -95,7 +95,7 @@
       "Visible": false,
       "Name": "Full Swing",
       "ID": 3,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_HammerCrash_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash_B.png",
       "Levels": {
         "0": {
           "Description": "Launch an additional attack after the last attack",
@@ -103,7 +103,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_HammerCrash_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash_B.{{auto}}"
           }
         },
         "1": {
@@ -127,7 +127,7 @@
       "Name": "Camel Spin",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_CamelSpin.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_CamelSpin.png",
       "Levels": {
         "0": {
           "Description": "Take a short leap forward and then strike with a 360° rotation",
@@ -135,7 +135,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_CamelSpin.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_CamelSpin.{{auto}}"
           }
         },
         "1": {
@@ -172,7 +172,7 @@
       "Name": "Assault Dive",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive.png",
       "Levels": {
         "0": {
           "Description": "Quickly leap forward and push with your weapon, 2 additional rapid-fire explosion attacks",
@@ -180,7 +180,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive.{{auto}}"
           }
         },
         "1": {
@@ -218,7 +218,7 @@
       "Visible": false,
       "Name": "Shatter",
       "ID": 6,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive_A.png",
       "Levels": {
         "0": {
           "Description": "Replaces the additional attack with an additional consecutive attack",
@@ -226,7 +226,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive_A.{{auto}}"
           }
         },
         "1": {
@@ -250,7 +250,7 @@
       "Visible": false,
       "Name": "Emission",
       "ID": 7,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_AssaultDive_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive_B.png",
       "Levels": {
         "0": {
           "Description": "Increases the range of the last attack",
@@ -258,7 +258,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_AssaultDive_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive_B.{{auto}}"
           }
         },
         "1": {
@@ -281,7 +281,7 @@
     "FireSomersault": {
       "Name": "Fire Somersault",
       "ID": 8,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FireSomersault.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FireSomersault.png",
       "Levels": {
         "0": {
           "Description": "Fires towards the ground and does a backwards somersault, quickly retreating using the recoil from the rotation",
@@ -289,7 +289,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FireSomersault.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FireSomersault.{{auto}}"
           }
         },
         "1": {
@@ -326,7 +326,7 @@
       "Visible": false,
       "Name": "Hell Fire",
       "ID": 9,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FireSomersault_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FireSomersault_A.png",
       "Levels": {
         "0": {
           "Description": "Adds attack zones in front of the base one",
@@ -334,7 +334,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FireSomersault_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FireSomersault_A.{{auto}}"
           }
         },
         "1": {
@@ -357,7 +357,7 @@
     "SpiralPierce": {
       "Name": "Spiral Pierce",
       "ID": 10,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SpiralPierce.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce.png",
       "Levels": {
         "0": {
           "Description": "Projects a drill which continuously attacks at gun point. Shock waves are released at the end",
@@ -365,7 +365,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_SpiralPierce.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce.{{auto}}"
           }
         },
         "1": {
@@ -402,7 +402,7 @@
       "Visible": false,
       "Name": "Gale",
       "ID": 11,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SpiralPierce_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce_A.png",
       "Levels": {
         "0": {
           "Description": "A whirlwind with a pulling effect is added",
@@ -410,7 +410,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_SpiralPierce_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce_A.{{auto}}"
           }
         },
         "1": {
@@ -433,7 +433,7 @@
     "PulseFire": {
       "Name": "Pulse Fire",
       "ID": 12,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire.png",
       "Levels": {
         "0": {
           "Description": "Take a firing stance and launch very powerful energy spheres for a fixed amount of time or attacks",
@@ -441,7 +441,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire.{{auto}}"
           }
         },
         "1": {
@@ -479,7 +479,7 @@
       "Visible": false,
       "Name": "Rapid Shot",
       "ID": 13,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire_A.png",
       "Levels": {
         "0": {
           "Description": "Increases the number of shots",
@@ -487,7 +487,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire_A.{{auto}}"
           }
         },
         "1": {
@@ -511,7 +511,7 @@
       "Visible": false,
       "Name": "Power Shot",
       "ID": 14,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_PulseFire_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire_B.png",
       "Levels": {
         "0": {
           "Description": "Fire long-range bullets",
@@ -519,7 +519,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulseFire_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire_B.{{auto}}"
           }
         },
         "1": {
@@ -542,7 +542,7 @@
     "LimitBreak": {
       "Name": "Limit Break",
       "ID": 15,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_LimitBrake.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_LimitBrake.png",
       "Levels": {
         "0": {
           "Description": "Releases soul energy within the body to amplify the damage of the next attack",
@@ -550,7 +550,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_LimitBrake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_LimitBrake.{{auto}}"
           }
         },
         "1": {
@@ -583,7 +583,7 @@
     "BulletStorm": {
       "Name": "Bullet Storm",
       "ID": 16,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm.png",
       "Levels": {
         "0": {
           "Description": "Shoots a powerful shell upwards. The fired shells separates mid-air into several small shells that will explode when reaching the ground",
@@ -591,7 +591,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm.{{auto}}"
           }
         },
         "1": {
@@ -629,7 +629,7 @@
       "Visible": false,
       "Name": "Range Increase",
       "ID": 17,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm_A.png",
       "Levels": {
         "0": {
           "Description": "Extends the attack range",
@@ -637,7 +637,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm_A.{{auto}}"
           }
         },
         "1": {
@@ -661,7 +661,7 @@
       "Visible": false,
       "Name": "Meteor Fall",
       "ID": 18,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_BulletStorm_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm_B.png",
       "Levels": {
         "0": {
           "Description": "Attack with series of exploding meteorites . Deals continuous damage in the area",
@@ -669,7 +669,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_BulletStorm_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm_B.{{auto}}"
           }
         },
         "1": {
@@ -692,7 +692,7 @@
     "FullBurst": {
       "Name": "Full Burst",
       "ID": 19,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_FullBurst.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FullBurst.png",
       "Levels": {
         "0": {
           "Description": "Hold the weapon with both hands and swing it like a laser beam sword and attack the enemies",
@@ -700,7 +700,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FullBurst.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst.{{auto}}"
           }
         },
         "1": {
@@ -736,7 +736,7 @@
     "EternalAbyss": {
       "Name": "Eternal Abyss",
       "ID": 20,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_EternalAbyss.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_EternalAbyss.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -745,7 +745,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_EternalAbyss.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_EternalAbyss.{{auto}}"
           }
         },
         "1": {
@@ -778,7 +778,7 @@
     "Earthquake": {
       "Name": "Earthquake",
       "ID": 21,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake.png",
       "Levels": {
         "0": {
           "Description": "Insert the weapon into the ground then shoot towards the ground to create several shock waves",
@@ -786,7 +786,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake.{{auto}}"
           }
         },
         "1": {
@@ -824,7 +824,7 @@
       "Visible": false,
       "Name": "Volcano",
       "ID": 22,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake_A.png",
       "Levels": {
         "0": {
           "Description": "Generates a volcano after the last attack",
@@ -832,7 +832,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake_A.{{auto}}"
           }
         },
         "1": {
@@ -856,7 +856,7 @@
       "Visible": false,
       "Name": "Fire Pillar",
       "ID": 23,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Earthquake_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake_B.png",
       "Levels": {
         "0": {
           "Description": "Generates a volcano after the last attack",
@@ -864,7 +864,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Earthquake_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake_B.{{auto}}"
           }
         },
         "1": {
@@ -887,7 +887,7 @@
     "ElectricCannon": {
       "Name": "Electric Cannon",
       "ID": 24,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_ElectricCannon.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ElectricCannon.png",
       "Levels": {
         "0": {
           "Description": "Make the weapons float and ride on it facing forwards. Afterwards, fire a laser beam forwards. Can move while the skill is in use",
@@ -895,7 +895,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_ElectricCannon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_ElectricCannon.{{auto}}"
           }
         },
         "1": {
@@ -928,7 +928,7 @@
     "ExceedDriver": {
       "Name": "Exceed Driver",
       "ID": 25,
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_ExceedDriver.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ExceedDriver.png",
       "Levels": {
         "0": {
           "Description": "Disassemble the soul weapon and absorbs it in your hand. Afterwards, countless energy portals appear firing powerful energy simultaneously",
@@ -936,7 +936,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_ExceedDriver.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_ExceedDriver.{{auto}}"
           }
         },
         "1": {
@@ -974,7 +974,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_CamelSpin_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_CamelSpin_A.png",
       "Levels": {
         "0": {
           "Description": "???",
@@ -982,7 +982,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_CamelSpin_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_CamelSpin_A.{{auto}}"
           }
         },
         "1": {
@@ -1010,7 +1010,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_FullBurst_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FullBurst_A.png",
       "Levels": {
         "0": {
           "Description": "???",
@@ -1018,7 +1018,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_FullBurst_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst_A.{{auto}}"
           }
         },
         "1": {
@@ -1045,7 +1045,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_RhinoHeadButt.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_RhinoHeadButt.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1054,7 +1054,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_PulverizeHeadButt.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulverizeHeadButt.{{auto}}"
           }
         },
         "1": {
@@ -1091,7 +1091,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_CombatFalcons.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_CombatFalcons.png",
       "Levels": {
         "0": {
           "Description": "???",
@@ -1099,7 +1099,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Skill_Operation Ashes.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Operation Ashes.{{auto}}"
           }
         },
         "1": {
@@ -1142,7 +1142,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_01.{{auto}}"
           }
         },
         "1": {
@@ -1155,7 +1155,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_02.{{auto}}"
           }
         },
         "3": {
@@ -1163,7 +1163,7 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_04_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_04_02.{{auto}}"
           }
         },
         "4": {
@@ -1176,7 +1176,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Attack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1186,7 +1186,7 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_OwnAbility.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_OwnAbility.png",
       "Levels": {
         "0": {
           "Description": "[Ground]\nInstantly recovers SG and acquire a fire buff.\n[Air]\nHit the hammer on the ground. Gain SG on hit. SG gain varies on attack and monster-type.",
@@ -1194,7 +1194,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
@@ -1227,7 +1227,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1250,7 +1250,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Roll_F.{{auto}}"
           }
         },
         "1": {
@@ -1283,7 +1283,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Run_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1311,7 +1311,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
@@ -1344,7 +1344,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1366,7 +1366,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1398,7 +1398,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1455,7 +1455,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_HamerStoll_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "Provides the ability to gain invulnerable state when using special attack.",
@@ -1463,7 +1463,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/skillpreviews/iris/Contributor_iris_ExtremeRush.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Contributor_iris_ExtremeRush.{{auto}}"
           }
         },
         "1": {
@@ -1491,7 +1491,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SGPassive.png",
       "Levels": {
         "0": {
           "Description": "Reduces SG Cost of skills",

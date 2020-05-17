@@ -4,11 +4,11 @@
   "AvailableClass": {
     "0": {
       "Name": "Base",
-      "Cover": "../assets/images/bg-jin1.png"
+      "Cover": "../assets/images/Jin_Base.png"
     },
     "1": {
       "Name": "Upgraded",
-      "Cover": "../assets/images/bg-jin2.png",
+      "Cover": "../assets/images/Jin_ADV.png",
       "RequiredLevel": 57
     }
   },
@@ -17,7 +17,7 @@
       "Name": "Glory Upper",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_GloryUpper.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GloryUpper.png",
       "Levels": {
         "0": {
           "Description": "Approach and knock-up enemies with an upper attack. Afterwards, launches additional consecutive attacks. When this skill is strengthen , it increases the performance by 1.5x",
@@ -63,7 +63,7 @@
       "Visible": false,
       "Name": "Knockdown",
       "ID": 2,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_GloryUpper_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GloryUpper_A.png",
       "Levels": {
         "0": {
           "Description": "Activated after Glory Upper's additional attack. Follow up with a powerful blow on the enemy",
@@ -95,7 +95,7 @@
       "Visible": false,
       "Name": "Upper",
       "ID": 3,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_GloryUpper_B.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GloryUpper_B.png",
       "Levels": {
         "0": {
           "Description": "Activated after Glory Upper's additional attack. Attacks facing enemies with tremendous power",
@@ -127,7 +127,7 @@
       "Name": "Perfect Combination",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_PerfectCombination.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_PerfectCombination.png",
       "Levels": {
         "0": {
           "Description": "Quickly rush and tackle the enemy. Afterwards, launches additional consecutive attacks",
@@ -171,7 +171,7 @@
       "Name": "Hammer Kick",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_HammerKick.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_HammerKick.png",
       "Levels": {
         "0": {
           "Description": " After jumping forwards, spin your body in the air and launch a kick. Attack enemies are knocked up. When this skill is strengthen increases the performance by 1.5x",
@@ -212,7 +212,7 @@
     "CounterAttack": {
       "Name": "Counter Attack",
       "ID": 6,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_CounterAttack.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterAttack.png",
       "Levels": {
         "0": {
           "Description": "Can only counter short-ranged attacks, if it's successful, a part of the skill will be strengthened for 5 seconds",
@@ -258,7 +258,7 @@
       "Name": "Knock Out",
       "ID": 7,
       "Visible": false,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_CounterAttack_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterAttack_A.png",
       "Levels": {
         "0": {
           "Description": "Stuns attacked enemies",
@@ -289,7 +289,7 @@
       "Visible": false,
       "Name": "SA Destruction",
       "ID": 8,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_CounterAttack_B.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterAttack_B.png",
       "Levels": {
         "0": {
           "Description": "Increases SA Destruction",
@@ -317,7 +317,7 @@
     "SpiritSurge": {
       "Name": "Spirit Surge",
       "ID": 9,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SpiritSurge.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritSurge.png",
       "Levels": {
         "0": {
           "Description": "After releasing tremendous power, intimidate enemies while protecting allies",
@@ -361,7 +361,7 @@
       "Name": "Strengthen",
       "ID": 10,
       "Visible": false,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SpiritSurge_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritSurge_A.png",
       "Levels": {
         "0": {
           "Description": "Taunted enemies become excited causing their evasion to decrease",
@@ -392,7 +392,7 @@
     "GravityTwister": {
       "Name": "Gravity Twister",
       "ID": 11,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_GravityTwister.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GravityTwister.png",
       "Levels": {
         "0": {
           "Description": "Unleash tremendous power before the enemy. When the skill is strengthen increases the pulling range performance by 1.5x",
@@ -437,7 +437,7 @@
       "Visible": false,
       "Name": "Shock Waves",
       "ID": 12,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_GravityTwister_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GravityTwister_A.png",
       "Levels": {
         "0": {
           "Description": "Existing skill is changed into a multi-hit shock wave",
@@ -468,7 +468,7 @@
     "SpiritExplosion": {
       "Name": "Spirit Explosion",
       "ID": 13,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SpiritExplosion.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritExplosion.png",
       "Levels": {
         "0": {
           "Description": "Store energy in the gauntlet, unleash a powerful blow forwards. While charging , it increases the performance by 1.4x, up to 2.0x.\nWhen the skill is strengthen , a 3-stage charge attack will be unleashed immediately without charging",
@@ -514,7 +514,7 @@
       "Visible": false,
       "Name": "Impact Bullets",
       "ID": 14,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SpiritExplosion_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritExplosion_A.png",
       "Levels": {
         "0": {
           "Description": "Removes existing skill effect , charges energy and fires it forwards",
@@ -546,7 +546,7 @@
       "Visible": false,
       "Name": "Range Increase",
       "ID": 15,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SpiritExplosion_B.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritExplosion_B.png",
       "Levels": {
         "0": {
           "Description": "Charge energy to create a big wave to attack the enemies",
@@ -577,7 +577,7 @@
     "SpiritShooter": {
       "Name": "Spirit Shooter",
       "ID": 16,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SpiritShooter.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritShooter.png",
       "Levels": {
         "0": {
           "Description": " Generates a shockwave that instantly paralyzes enemies. Retreats using the recoil",
@@ -621,7 +621,7 @@
     "QuadraBlow": {
       "Name": "Quadra Blow",
       "ID": 17,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_QuadraBlow.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_QuadraBlow.png",
       "Levels": {
         "0": {
           "Description": "Fire a powerful sphere at the enemy. The fired sphere explodes , damaging its surroundings. When the skill is strengthen, it increases the performance by 1.5x",
@@ -666,7 +666,7 @@
       "Visible": false,
       "Name": "Quantity Increase",
       "ID": 18,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_QuadraBlow_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_QuadraBlow_A.png",
       "Levels": {
         "0": {
           "Description": "Fires additional tiny spheres",
@@ -697,7 +697,7 @@
     "HeavyDrop": {
       "Name": "Heavy Drop",
       "ID": 19,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_HeavyDrop.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_HeavyDrop.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -743,7 +743,7 @@
       "Visible": false,
       "Name": "Extra Attack",
       "ID": 20,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_HeavyDrop_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_HeavyDrop_A.png",
       "Levels": {
         "0": {
           "Description": "Sphere speed will decrease, becomes continuous attack, grants debuff",
@@ -774,7 +774,7 @@
     "FusionArmor": {
       "Name": "Fusion Armor",
       "ID": 21,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_FusionArmor.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_FusionArmor.png",
       "Levels": {
         "0": {
           "Description": "Collect Soul Energy to grant a barrier to allies",
@@ -815,7 +815,7 @@
     "RapidPuncher": {
       "Name": "Rapid Puncher",
       "ID": 22,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_RapidPuncher.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_RapidPuncher.png",
       "Levels": {
         "0": {
           "Description": "Pushes the Gauntlets to their maximum output power to strike with the fists left and right alternatively. Afterwards adds a powerful finishing attack at any time",
@@ -856,7 +856,7 @@
     "FinalFist": {
       "Name": "Final Fist",
       "ID": 23,
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_FinalFist.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_FinalFist.png",
       "Levels": {
         "0": {
           "Description": "Pushes the Gauntlets to their maximum output power to hit the ground. Causes a wide explosion every time it hits the ground",
@@ -902,7 +902,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_PerfectCombination_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_PerfectCombination_A.png",
       "Levels": {
         "0": {
           "Description": "The final blow changes to an Upper(cut), with the Boost Shield hitting the vicinity. When right-clicking halfway of the Upper(cut), Jin supplements it with a thrust down to the ground.",
@@ -938,7 +938,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SpiritShooter_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritShooter_A.png",
       "Levels": {
         "0": {
           "Description": "Debuffs the enemies with a Defense Reduction effect, then rise backwards in mid-air.",
@@ -973,7 +973,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_DrasticLanding.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_DrasticLanding.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1019,7 +1019,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_CounterStream.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterStream.png",
       "Levels": {
         "0": {
           "Description": "Takes a stance, and use a maximum of 3 counter attacks. When counterattacking, Jin will deal more damage depending on the number of times that counter is activated.",
@@ -1117,7 +1117,7 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "Special Ability Mastery",
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_OwnAbility.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_OwnAbility.png",
       "Levels": {
         "0": {
           "Description": "[Ground]\nSmash the ground with your foot, inflict status effect to nearby enemies.\n[Air]\nSwing the fist towards the ground.",
@@ -1386,7 +1386,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "If Jin or his allies defeats 5 enemies in succession within 5 seconds, received damage will decrease and attack will increase for 10 seconds.",
@@ -1419,7 +1419,7 @@
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/skillicons/SpritArms/Icon_Sprit_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SGPassive.png",
       "Levels": {
         "0": {
           "Description": "Reduces the damage taken by enemies",

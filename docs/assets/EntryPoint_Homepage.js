@@ -26,10 +26,10 @@
             domCharacterList = d.getElementById("character_select");
 
         let characterNames = Object.keys(characterTable);
-
         for (let i = 0; i < characterNames.length; i++) {
             let characterData = characterTable[characterNames[i]];
             if (typeof (characterData) === "object" && characterData.hasOwnProperty("url")) {
+                //$('charName').src(`assets/images/('url')_Select.png`);
                 let elementImg = d.createElement("img"),
                     elementHyperlink = d.createElement("a");
                 elementImg.draggable = false;
