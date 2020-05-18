@@ -1049,7 +1049,7 @@
     "Trollsverd": {
       "Name": "Trollsverd",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_Trollsverd.png",
+      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Trollsverd.png",
       "Levels": {
         "0": {
           "Description": "?",
