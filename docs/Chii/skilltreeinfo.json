@@ -1348,7 +1348,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/G_Rise_Attack.{{auto}}"
           }
         },
         "1": {
@@ -1381,7 +1381,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_N_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/G_Attack_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1403,7 +1403,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/G_SpecialDodge.{{auto}}"
           }
         },
         "1": {
@@ -1435,7 +1435,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/G_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
