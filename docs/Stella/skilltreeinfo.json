@@ -237,7 +237,7 @@
     "HystericalShock": {
       "Name": "Hysterical Shock",
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_HystericShock-.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_HystericShock.png",
       "Levels": {
         "0": {
           "Description": "Create cracks on the ground by playing the guitar, and then cause an explosion.",
@@ -1467,6 +1467,34 @@
         "1": {
           "Effect": "Special ability Mastery I: 10% SG recovery.\nSpecial ability Mastery II: 15% SG recovery.\nSpecial ability Mastery III: 20% SG recovery",
           "RequiredLevel": 10,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "StellasSymphony": {
+      "Passive": true,
+      "Name": "Stella's Symphony",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Stella/NSkill3_Exitus.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Can only be used in the Supernova state.\nUsing this ends Supernova.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_StellaSymphony.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[3400%]\nSA Break：[2800%]\n\nYou call for all your friends to attend the concert and carry out a one-off attack.",
+          "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }

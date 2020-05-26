@@ -1337,32 +1337,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "起身回擊",
+      "Name": "Rising Attack",
       "ID": 1005,
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/Retaliation.png",
       "Levels": {
         "0": {
-          "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",
+          "Description": "While downed, get up while damaging surrounding enemies",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_RiseAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "回擊Damage：[100%]\nStamina consumption：[30]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
+          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "回擊Damage：[100%]\nStamina consumption：[20]\n無敵時間：[3 Seconds]\nCooldown：[15 Seconds]",
+          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "回擊Damage：[100%]\nStamina consumption：[20]\n無敵時間：[5 Seconds]\nCooldown：[15 Seconds]",
+          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1370,22 +1370,22 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "衝擊",
+      "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1008,
       "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
       "Levels": {
         "0": {
-          "Description": "衝刺時，拔刀往前攻擊敵人。",
+          "Description": "Perform an attack while dashing. Different character does different attacks. ",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_DashAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[122%]\nSA Break：[41%]",
+          "Effect": "Damage: 115%\nSA Damage: 38%",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1393,31 +1393,31 @@
     },
     "SpecialDodge": {
       "Passive": true,
-      "Name": "受身迴避",
+      "Name": "Special Dodge",
       "ID": 1007,
-      "Icon": "../assets/SkillIcons/Common/SpecialDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Elusion.png",
       "Levels": {
         "0": {
-          "Description": "受到攻撃且無法控制時，朝指定方向進行受身迴避。\n在受身迴避的狀態下不會受到傷害。",
+          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_SpecialDodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina consumption：[40]\nCooldown：[30 Seconds]",
+          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina consumption：[40]\nCooldown：[25 Seconds]",
+          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina consumption：[40]\nCooldown：[20 Seconds]",
+          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1425,21 +1425,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "特殊衝擊",
+      "Name": "Whirl Jump",
       "ID": 1010,
-      "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
       "Levels": {
         "0": {
-          "Description": "衝刺時，拔刀施展迴旋挑斬，使敵人浮空。\n攻擊時可以獲得靈魂值。\n角色等級和怪物等級越高，more SF.越多。",
+          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_SpecialDashAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[241%]\nSA Break：[111%]\nCooldown：[5 Seconds]",
+          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1447,38 +1447,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "耐力精通",
+      "Name": "Stamina Mastery",
       "ID": 1009,
-      "Icon": "../assets/SkillIcons/Common/StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/Endure.png",
       "Levels": {
         "0": {
-          "Description": "耐力恢復量永久增加。",
+          "Description": "Increases stamina recovery rate",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "耐力恢復量：[+10%]",
+          "Effect": "Stamina Recovery Rate: +10%",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "耐力恢復量：[+20%]",
+          "Effect": "Stamina Recovery Rate: +20%",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "耐力恢復量：[+30%]",
+          "Effect": "Stamina Recovery Rate: +30%",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "耐力恢復量：[+40%]",
+          "Effect": "Stamina Recovery Rate: +40%",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "耐力恢復量：[+50%]",
+          "Effect": "Stamina Recovery Rate: +50%",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1528,48 +1528,45 @@
       "Icon": "../assets/SkillIcons/Chii/PSkill_Felina_Fatale.png",
       "Levels": {
         "0": {
-          "Description": "最大耐力永久增加。",
+          "Description": "Passive effect: max stamina increased",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "最大耐力：[+10]",
+          "Effect": "Passive effect: max stamina increased by 10",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "最大耐力：[+20]",
+          "Effect": "Passive effect: max stamina increased by 20",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "最大耐力：[+30]",
+          "Effect": "Passive effect: max stamina increased by 30",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "SoulOfAspiration": {
-      "Passive": true,
-      "Name": "渴望的刀身",
-      "DefaultLevel": 1,
+    "Death Roar": {
       "ID": 1012,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
+      "Passive": true,
+      "DefaultLevel": 1,
+      "RowSpan": 2,
+      "Name": "Death Roar",
+      "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
         "0": {
-          "Description": "Basic Attack成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。\n使用特定技能特性的時候，會回復靈魂值。",
+          "Description": "Recover an amount of your max SG according to the level of skill [Special Ability Mastery]",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "",
-          "RequiredLevel": 1,
+          "Effect": "Special ability Mastery I: 10% SG recovery.\nSpecial ability Mastery II: 15% SG recovery.\nSpecial ability Mastery III: 20% SG recovery",
+          "RequiredLevel": 10,
           "RequiredSP": 0
         }
       }

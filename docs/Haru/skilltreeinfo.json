@@ -7,7 +7,7 @@
       "Cover": "../assets/images/Haru_Base.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "Advancement",
       "Cover": "../assets/images/Haru_ADV.png",
       "RequiredLevel": 57
     }
