@@ -1348,7 +1348,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/G_RiseAttack.{{auto}}"
           }
         },
         "1": {
@@ -1381,7 +1381,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_Attack_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/G_SpecialDashAttack.{{auto}}"
           }
         },
         "1": {
