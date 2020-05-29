@@ -13,7 +13,8 @@
     },
     "2": {
         "Name": "Desire",
-        "Cover": "../assets/images/Loading_Desire_PC_E.png"
+        "Cover": "../assets/images/Stella_Desire.png",
+        "RequiredLevel": 65
     }
   },
   "Skills": {
