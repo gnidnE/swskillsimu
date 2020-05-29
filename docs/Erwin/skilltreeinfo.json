@@ -1024,11 +1024,10 @@
         }
       }
     },
-    
     "Deadline": {
       "Name": "Deadline",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_Deadline.png",
+      "Icon": "../assets/SkillIcons/Erwin/Deadline.png",
       "Levels": {
         "0": {
           "Description": "?",
@@ -1051,7 +1050,6 @@
         }
       }
     },
-
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
