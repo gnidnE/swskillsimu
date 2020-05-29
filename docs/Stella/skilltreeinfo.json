@@ -10,6 +10,10 @@
       "Name": "Advancement",
       "Cover": "../assets/images/Stella_ADV.png",
       "RequiredLevel": 57
+    },
+    "2": {
+        "Name": "Desire",
+        "Cover": "../assets/images/Loading_Desire_PC_E.png"
     }
   },
   "Skills": {
@@ -1494,6 +1498,34 @@
         },
         "1": {
           "Effect": "Damage：[3400%]\nSA Break：[2800%]\n\nYou call for all your friends to attend the concert and carry out a one-off attack.",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "StellasDesire": {
+      "Passive": true,
+      "Name": "Stella's Desire",
+      "DefaultLevel": 1,
+      "ID": 1100,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "?",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

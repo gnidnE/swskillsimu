@@ -1493,6 +1493,34 @@
           "RequiredSP": 0
         }
       }
+    },
+    "ActivityOverCharge": {
+      "Passive": true,
+      "Name": "Activity OverCharge",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_ActivityOverCharge.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Can only be used in the Supernova state.\nUsing this ends Supernova.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Jin/B_Skill_ActivityOverCharge.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n?.",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
     }
   }
 }

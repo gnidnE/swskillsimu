@@ -979,8 +979,8 @@
         }
       }
     },
-    "MissonCall": {
-      "Name": "Misson Call",
+    "MissionCall": {
+      "Name": "Mission Call",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
@@ -1028,7 +1028,7 @@
     "Deadline": {
       "Name": "Deadline",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_Deadline.png",
+      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_Deadline.png",
       "Levels": {
         "0": {
           "Description": "?",
@@ -1459,6 +1459,34 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 10,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "GeometryPlatoon": {
+      "Passive": true,
+      "Name": "Geometry Platoon",
+      "DefaultLevel": 1,
+      "ID": 1099,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_BreakZenith.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Can only be used in the Supernova state.\nUsing this ends Supernova.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_GeometryPlatoon.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n?.",
+          "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }
