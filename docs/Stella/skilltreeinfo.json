@@ -430,7 +430,7 @@
       "ID": 12,
       "Visible": false,
       "Name": "Strengthen",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_N_B.png",
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_B.png",
       "Levels": {
         "0": {
           "Description": "The beads effect is strengthened.",
@@ -438,7 +438,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_N_B.{{auto}}"
           }
         },
         "1": {
