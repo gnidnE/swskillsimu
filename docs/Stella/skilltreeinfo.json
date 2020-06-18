@@ -737,27 +737,27 @@
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 17,
+          "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 22,
+          "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 27,
+          "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 32,
+          "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 37,
+          "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
@@ -782,17 +782,17 @@
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 37,
+          "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 42,
+          "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 47,
+          "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
@@ -1065,11 +1065,6 @@
           "Effect": "Damage: 398% per hit\nSA Damage: 423% per hit\nSG Cost: 40\nCooldown: 40 seconds",
           "RequiredLevel": 65,
           "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "Damage: 536% per hit\nSA Damage: 570% per hit\nSG Cost: 40\nCooldown: 40 seconds",
-          "RequiredLevel": 68,
-          "RequiredSP": 2
         }
       }
     },
