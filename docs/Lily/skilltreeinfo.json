@@ -10,7 +10,12 @@
       "Name": "Advancement",
       "Cover": "../assets/images/Lily_ADV.png",
       "RequiredLevel": 57
-    }
+    },
+    "2": {
+      "Name": "Desire",
+      "Cover": "../assets/images/Lily_Desire.png",
+      "RequiredLevel": 65
+  }
   },
   "Skills": {
     "EvilSlash": {
@@ -856,8 +861,43 @@
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
+      },
+    "Extensions": [
+      "DeathGuillotine-Execution"
+    ]
+  },
+  "DeathGuillotine-Execution": {
+    "Visible": false,
+    "Name": "Execution",
+    "ID": 29,
+    "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGuillotine_A.png",
+    "Levels": {
+      "0": {
+        "Description": "An additional attack is added that bypasses enemy defense.",
+        "Effect": "",
+        "RequiredLevel": 0,
+        "RequiredSP": 0,
+        "Preview": {
+          "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGuillotine_A.{{auto}}"
+        }
+      },
+      "1": {
+        "Effect": "[Attribute Information: Direct Hit]\nDamage [3480%]\nSuper Armor Break [2286%]\n[Attribute Information: AOE Hit]\nDamage [1392%]\nSuper Armor Break [914%]\n[Attribute Information]\nPenetration [+100%]",
+        "RequiredLevel": 68,
+        "RequiredSP": 2
+      },
+      "2": {
+        "Effect": "[Attribute Information: Direct Hit]\nDamage [3828%]\nSuper Armor Break [2515%]\n[Attribute Information: AOE Hit]\nDamage [1531%]\nSuper Armor Break [1006%]\n[Attribute Information]\nPenetration [+100%]",
+        "RequiredLevel": 70,
+        "RequiredSP": 3
+      },
+      "3": {
+        "Effect": "[Attribute Information: Direct Hit]\nDamage [4402%]\nSuper Armor Break [2892%]\n[Attribute Information: AOE Hit]\nDamage [1761%]\nSuper Armor Break [1157%]\n[Attribute Information]\nPenetration [+100%]",
+        "RequiredLevel": 72,
+        "RequiredSP": 4
       }
-    },
+    }
+  },
     "EvilSlash-Kusarigama": {
       "Visible": false,
       "Name": "Sickle and Chain",
@@ -1045,6 +1085,16 @@
           "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
           "RequiredLevel": 65,
           "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },        
+        "4": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 71,
+          "RequiredSP": 0
         }
       }
     },
@@ -1480,6 +1530,34 @@
         },
         "1": {
           "Effect": "Damage：[?%]\nSA Break：[?%]\n\n?.",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "LilysDesire": {
+      "Passive": true,
+      "Name": "Lily's Desire",
+      "DefaultLevel": 1,
+      "ID": 1100,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "?",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

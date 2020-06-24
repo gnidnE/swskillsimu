@@ -6,11 +6,10 @@ The tree is developed with information source mainly from the Steam/Japanese and
 
 # Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
-  - Adding Chii
-      - Adding Ephnel
-      - Adding Level 68
+    - Adding Level 72 (SP per lvl, how much SP per skill needed!)
+      - Adding Ephnel (SP per skill, Level requirements needed!)
   - Changing the looks
-  - Adding seperate mobile version
+  - Adding separate mobile version
   - Cleaning Code up
     - Preparations for Future Updates (enable when it comes)
     - Adding Version Selection 

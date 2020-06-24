@@ -882,8 +882,44 @@
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
+      },
+      "Extensions": [
+        "BassAttack-CheeringSquad"
+      ]
+    },
+    "BassAttack-CheeringSquad": {
+      "Visible": false,
+      "Name": "Cheering Squad",
+      "ID": 29,
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BassAttack_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Interval between hits is shortened and attack range is increased. Recovers allies around you and increases attack speed",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_BassAttack_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attribute Information: Beat Keeper] \nAttack Speed [+3%] (stacks up to 5 times)\n[Attribute Information: Party]\nLeft-click:HP recovery [3%]\nRight-click:SG recovery [3%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "[Attribute Information: Beat Keeper] \nAttack Speed [+4%] (stacks up to 5 times)\n[Attribute Information: Party]\nLeft-click:HP recovery [4%]\nRight-click:SG recovery [4%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "[Attribute Information: Beat Keeper] \nAttack Speed [+5%] (stacks up to 5 times)\n[Attribute Information: Party]\nLeft-click:HP recovery [5%]\nRight-click:SG recovery [5%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
       }
     },
+
     "WhirlDance-PerformanceIncrease": {
       "Visible": false,
       "Name": "Full Power",
@@ -1075,6 +1111,11 @@
           "Effect": "Damage: 536% per hit\nSA Damage: 570% per hit\nSG Cost: 40\nCooldown: 40 seconds",
           "RequiredLevel": 68,
           "RequiredSP": 2
+        },        
+        "4": {
+          "Effect": "Damage: 611% per hit\nSA Damage: 649% per hit\nSG Cost: 40\nCooldown: 40 seconds",
+          "RequiredLevel": 71,
+          "RequiredSP": 0
         }
       }
     },

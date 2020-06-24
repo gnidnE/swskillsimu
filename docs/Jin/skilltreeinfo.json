@@ -10,7 +10,12 @@
       "Name": "Advancement",
       "Cover": "../assets/images/Jin_ADV.png",
       "RequiredLevel": 57
-    }
+    },
+    "2": {
+      "Name": "Desire",
+      "Cover": "../assets/images/Jin_Desire.png",
+      "RequiredLevel": 65
+  }
   },
   "Skills": {
     "GloryUpper": {
@@ -892,8 +897,43 @@
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
+      },
+    "Extensions": [
+      "FinalFist-KwonKwon"
+    ]
+  },
+  "FinalFist-KwonKwon": {
+    "Visible": false,
+    "Name": "Kwon Kwon",
+    "ID": 29,
+    "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_FinalFist_A.png",
+    "Levels": {
+      "0": {
+        "Description": "Continuous attack range increased, and a flame attack is added to the final blow.",
+        "Effect": "",
+        "RequiredLevel": 0,
+        "RequiredSP": 0,
+        "Preview": {
+          "Video": "../assets/SkillPreviews/Jin/B_SKill_FinalFist_A.{{auto}}"
+        }
+      },
+      "1": {
+        "Effect": "[Attribute Information: Continuous Strike]\nDamage per hit [449%]\nSuper Armor Break per hit[478%]\n[Attribute Information: Finishing Blow]\nTotal Damage [2097%]\nTotal Super Armor Break [2230%]",
+        "RequiredLevel": 68,
+        "RequiredSP": 2
+      },
+      "2": {
+        "Effect": "[Attribute Information: Continuous Strike]\nDamage per hit [494%]\nSuper Armor Break per hit[526%]\n[Attribute Information: Finishing Blow]\nTotal Damage [2307%]\nTotal Super Armor Break [2454%]",
+        "RequiredLevel": 70,
+        "RequiredSP": 3
+      },
+      "3": {
+        "Effect": "[Attribute Information: Continuous Strike]\nDamage per hit [569%]\nSuper Armor Break per hit[605%]\n[Attribute Information: Finishing Blow]\nTotal Damage [2653%]\nTotal Super Armor Break [2822%]",
+        "RequiredLevel": 72,
+        "RequiredSP": 4
       }
-    },
+    }
+  },
     "PerfectCombination-RisingUpper": {
       "Visible": false,
       "Name": "Rising Upper",
@@ -1081,6 +1121,16 @@
           "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
           "RequiredLevel": 65,
           "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },        
+        "4": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 71,
+          "RequiredSP": 0
         }
       }
     },
@@ -1517,6 +1567,34 @@
         },
         "1": {
           "Effect": "Damage：[?%]\nSA Break：[?%]\n\n?.",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "JinsDesire": {
+      "Passive": true,
+      "Name": "Jin's Desire",
+      "DefaultLevel": 1,
+      "ID": 1100,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "?",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Jin/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

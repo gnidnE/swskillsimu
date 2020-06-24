@@ -10,7 +10,12 @@
       "Name": "Advancement",
       "Cover": "../assets/images/Erwin_ADV.png",
       "RequiredLevel": 57
-    }
+    },
+    "2": {
+      "Name": "Desire",
+      "Cover": "../assets/images/Erwin_Desire.png",
+      "RequiredLevel": 65
+  }
   },
   "Skills": {
     "SkyHigh": {
@@ -853,6 +858,41 @@
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
+      },
+      "Extensions": [
+        "SoulLauncher-ConcentratedSaturation"
+      ]
+    },
+    "SoulLauncher-ConcentratedSaturation": {
+      "Visible": false,
+      "Name": "Concentrated Saturation",
+      "ID": 29,
+      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SoulLauncher_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Left-click to focus on a narrow range.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulLauncher_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [212%]\nSuper Armor Break per hit[188%]\n[Attribute Information: Focusing]\nTotal Damage [4240%]\nTotal Super Armor Break [3760%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [233%]\nSuper Armor Break per hit[207%]\n[Attribute Information: Focusing]\nTotal Damage [4660%]\nTotal Super Armor Break [4140%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [268%]\nSuper Armor Break per hit[238%]\n[Attribute Information: Focusing]\nTotal Damage [5360%]\nTotal Super Armor Break [4760%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
       }
     },
     "CombatMaster-WesternFinish": {
@@ -1047,6 +1087,16 @@
           "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
           "RequiredLevel": 65,
           "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },        
+        "4": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 71,
+          "RequiredSP": 0
         }
       }
     },
@@ -1484,6 +1534,34 @@
         },
         "1": {
           "Effect": "Damage：[?%]\nSA Break：[?%]\n\n?.",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "ErwinsDesire": {
+      "Passive": true,
+      "Name": "Erwin's Desire",
+      "DefaultLevel": 1,
+      "ID": 1100,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "?",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

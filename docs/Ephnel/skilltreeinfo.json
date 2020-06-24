@@ -4,14 +4,19 @@
   "MaxLevel": 68,
   "AvailableClass": {
     "0": {
-      "Name": "一般",
-      "Cover": "../assets/images/bg_Ephnel.png"
+      "Name": "Base",
+      "Cover": "../assets/images/Ephnel.png"
     },
     "1": {
-      "Name": "晉升",
-      "Cover": "../assets/images/bg_Ephnel_ADV.png",
+      "Name": "Advancement",
+      "Cover": "../assets/images/Ephnel_ADV.png",
       "RequiredLevel": 57
-    }
+    },
+    "2": {
+      "Name": "Desire",
+      "Cover": "../assets/images/Ephnel_Desire.png",
+      "RequiredLevel": 65
+  }
   },
   "Skills": {
     "FirstStrike": {

@@ -10,7 +10,12 @@
       "Name": "Advancement",
       "Cover": "../assets/images/Iris_ADV.png",
       "RequiredLevel": 57
-    }
+    },
+    "2": {
+      "Name": "Desire",
+      "Cover": "../assets/images/Iris_Desire.png",
+      "RequiredLevel": 65
+  }
   },
   "Skills": {
     "HammerCrash": {
@@ -964,6 +969,41 @@
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
+      },   
+      "Extensions": [
+        "ExceedDriver-Manual"
+      ]
+    },
+    "ExceedDriver-Manual": {
+      "Visible": false,
+      "Name": "Manual",
+      "ID": 30,
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ExceedDriver_A.png",
+      "Levels": {
+        "0": {
+          "Description": "The character can rotate until the final attack.\nAfter skill use, you can attack without SG consumption for an amount of time.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_ExceedDriver_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attribute Information: Tracking Attack]\nDamage [1291%]\nSuper Armor Break [884%]\n[Attribute Information: Final Attack]\nDamage [4356%]\nSuper Armor Break [2984%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "[Attribute Information: Tracking Attack]\nDamage [1420%]\nSuper Armor Break [972%]\n[Attribute Information: Final Attack]\nDamage [4793%]\nSuper Armor Break [3282%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "[Attribute Information: Tracking Attack]\nDamage [1633%]\nSuper Armor Break [1118%]\n[Attribute Information: Final Attack]\nDamage [5512%]\nSuper Armor Break [3775%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
       }
     },
     "CamelSpin-BladeWings": {
@@ -1153,6 +1193,16 @@
           "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
           "RequiredLevel": 65,
           "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },        
+        "4": {
+          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "RequiredLevel": 71,
+          "RequiredSP": 0
         }
       }
     },
@@ -1588,6 +1638,34 @@
         },
         "1": {
           "Effect": "Damage：[?%]\nSA Break：[?%]\n\n?.",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "IrissDesire": {
+      "Passive": true,
+      "Name": "Iris's Desire",
+      "DefaultLevel": 1,
+      "ID": 1100,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "?",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
