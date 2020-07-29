@@ -1,10 +1,10 @@
 {
-  "CharacterName": "Ephnel",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Ephnel",
+  "CharacterName": "Ephnel Bombingspear",
+  "CharacterWikiURL": "https://soulworker-sw.fandom.com/wiki/Ephnel_Bombingspear",
   "AvailableClass": {
     "0": {
       "Name": "Base",
-      "Cover": "../assets/images/Ephnel.png"
+      "Cover": "../assets/images/Ephnel_Base.png"
     },
     "1": {
       "Name": "Advancement",
@@ -18,1120 +18,1172 @@
   }
   },
   "Skills": {
-    "FirstStrike": {
-      "Name": "迅極劍技",
+    "AirBurst": {
+      "Name": "Air Burst",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/A_Haru/A_1-1_FirstBlade.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill01_AirBurst.png",
       "Levels": {
         "0": {
-          "Description": "一邊前進一邊快速揮劍攻擊敵人。\n於技能結束前點擊右鍵，可施展額外攻擊向上揮劍。",
+          "Description": "A strong blow down the front to launch nearby enemies. For additional input, grab the spear and roll back to attack additionally. If you have a bullet buff or an unlock weapon buff, an additional explosion will occur when you right click after the attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_1-1_FirstBlade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[基本攻擊]\n傷害量：[415%]\n霸體破壞量：[223%]\n[額外攻擊]\n傷害量：[259%]\n霸體破壞量：[139%]\n\n靈魂值消耗量：[35]\n冷卻時間：[10秒]",
+          "Effect": "[Hit Down]\nDamage: 150%\nSuper Armor Break: 44%\n[Return in Air]\nDamage: 225%\nSuper Armor Break: 66%\n[Additional Explosion]\nDamage: 37%\nSuper Armor Break: 11%\nSG Cost: 35\nCooldown: 8 seconds",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：[436%]\n霸體破壞量：[233%]\n[額外攻擊]\n傷害量：[273%]\n霸體破壞量：[146%]\n\n靈魂值消耗量：[35]\n冷卻時間：[10秒]",
+          "Effect": "[Hit Down]\nDamage: 165%\nSuper Armor Break: 48%\n[Return in Air]\nDamage: 248%\nSuper Armor Break: 72%\n[Additional Explosion]\nDamage: 41%\nSuper Armor Break: 12%\nSG Cost: 35\nCooldown: 8 seconds",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：[488%]\n霸體破壞量：[262%]\n[額外攻擊]\n傷害量：[305%]\n霸體破壞量：[163%]\n\n靈魂值消耗量：[35]\n冷卻時間：[10秒]",
+          "Effect": "[Hit Down]\nDamage: 185%\nSuper Armor Break: 54%\n[Return in Air]\nDamage: 278%\nSuper Armor Break: 81%\n[Additional Explosion]\nDamage: 46%\nSuper Armor Break: 13%\nSG Cost: 35\nCooldown: 8 seconds",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[基本攻擊]\n傷害量：[540%]\n霸體破壞量：[290%]\n[額外攻擊]\n傷害量：[338%]\n霸體破壞量：[180%]\n\n靈魂值消耗量：[35]\n冷卻時間：[10秒]",
+          "Effect": "[Hit Down]\nDamage: 211%\nSuper Armor Break: 62%\n[Return in Air]\nDamage: 317%\nSuper Armor Break: 93%\n[Additional Explosion]\nDamage: 52%\nSuper Armor Break: 15%\nSG Cost: 35\nCooldown: 8 seconds",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[基本攻擊]\n傷害量：[623%]\n霸體破壞量：[334%]\n[額外攻擊]\n傷害量：[390%]\n霸體破壞量：[208%]\n\n靈魂值消耗量：[35]\n冷卻時間：[10秒]",
+          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%\nSG Cost: 35\nCooldown: 8 seconds",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FirstStrike-RangeIncrease"
+        "AirBurst-A",
+        "AirBurst-B"
       ]
     },
-    "FirstStrike-RangeIncrease": {
+    "AirBurst-A": {
       "Visible": false,
-      "Name": "範圍增加",
+      "Name": "Additional Attack",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/A_Haru/A_1-1_FirstBlade_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill01_AirBurst_A.png",
       "Levels": {
         "0": {
-          "Description": "在劍身中注入異能，增加額外攻擊的範圍。",
+          "Description": "After an air-back kick, additional input ends the kick. An additional attack will occur when you right click twice after the attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_1-1_FirstBlade_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[額外攻擊]\n增加額外攻擊的範圍",
+          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Kick]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：[+101%]\n霸體破壞量：[+54%]\n[額外攻擊]\n增加額外攻擊的範圍",
+          "Effect": "[Hit Down]\nDamage: 286%\nSuper Armor Break: 84%\n[Return in Air]\nDamage: 430%\nSuper Armor Break: 126%\n[Kick]\nDamage: 430%\nSuper Armor Break: 126%\n[Additional Explosion]\nDamage: 71%\nSuper Armor Break: 21%",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：[+302%]\n霸體破壞量：[+109%]\n[額外攻擊]\n增加額外攻擊的範圍",
+          "Effect": "[Hit Down]\nDamage: 361%\nSuper Armor Break: 106%\n[Return in Air]\nDamage: 542%\nSuper Armor Break: 159%\n[Kick]\nDamage: 542%\nSuper Armor Break: 159%\n[Additional Explosion]\nDamage: 90%\nSuper Armor Break: 26%",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
-    "PierceStep": {
-      "Name": "神速",
-      "DefaultLevel": 1,
+    "AirBurst-B": {
+      "Visible": false,
+      "Name": "Additional Blows",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/A_Haru/A_1-2_PierceStep.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill01_AirBurst_B.png",
       "Levels": {
         "0": {
-          "Description": "向前方快速突進，擊退敵人。",
+          "Description": "When hitting down, it will inflict additional damage to nearby enemies for 1.5 seconds. Also adds a motion to reload weapons after kickback.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_1-2_PierceStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[83%]\n霸體破壞量：[380%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]",
+          "Effect": "[Continuous Strike]\nDamage: 436%\nSuper Armor Break: 255%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 219%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 36%",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Continuous Strike]\nDamage: 501%\nSuper Armor Break: 294%\n[Return in Air]\nDamage: 430%\nSuper Armor Break: 252%\n[Additional Explosion]\nDamage: 71%\nSuper Armor Break: 42%",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Continuous Strike]\nDamage: 632%\nSuper Armor Break: 370%\n[Return in Air]\nDamage: 542%\nSuper Armor Break: 317%\n[Additional Explosion]\nDamage: 90%\nSuper Armor Break: 52%",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SonicBoom": {
+      "Name": "Sonic Boom",
+      "DefaultLevel": 1,
+      "ID": 3,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill02_SonicBoom.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SonicBoom.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "傷害量：[87%]\n霸體破壞量：[399%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]",
+          "Effect": "",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[97%]\n霸體破壞量：[446%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]",
+          "Effect": "",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[108%]\n霸體破壞量：[493%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]",
+          "Effect": "",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[124%]\n霸體破壞量：[569%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]",
+          "Effect": "",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "PierceStep-SpinningSlash",
-        "PierceStep-RisingSlash"
+        "SonicBoom-A"
       ]
     },
-    "PierceStep-SpinningSlash": {
-      "Visible": false,
-      "Name": "迴旋斬",
-      "ID": 4,
-      "Icon": "../assets/SkillIcons/A_Haru/A_1-2_PierceStep_A.png",
-      "Levels": {
-        "0": {
-          "Description": "施展神速之後點擊右鍵，用迴旋斬擊退敵人。",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_1-2_PierceStep_A_01.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "[基本攻擊]\n傷害量：[+92%]\n霸體破壞量：[-438%]\n[額外攻擊]\n傷害量：[65%]\n霸體破壞量：[39%]\n額外攻擊次數：[1]",
-          "RequiredLevel": 21,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "[基本攻擊]\n傷害量：[+92%]\n霸體破壞量：[-438%]\n[額外攻擊]\n傷害量：[216%]\n霸體破壞量：[131%]\n額外攻擊次數：[2]",
-          "RequiredLevel": 26,
-          "RequiredSP": 1,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_1-2_PierceStep_A_02.{{auto}}"
-          }
-        }
-      }
-    },
-    "PierceStep-RisingSlash": {
-      "Visible": false,
-      "Name": "升龍斬",
-      "ID": 5,
-      "Icon": "../assets/SkillIcons/A_Haru/A_1-2_PierceStep_B.png",
-      "Levels": {
-        "0": {
-          "Description": "施展神速之後點擊右鍵，用迴旋斬使敵人浮空。",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_1-2_PierceStep_B.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "傷害量：[74%]\n霸體破壞量：[341%]",
-          "RequiredLevel": 21,
-          "RequiredSP": 1
-        }
-      }
-    },
-    "SpinCutter": {
-      "Name": "盤旋劍",
+    "LightningRod": {
+      "Name": "Lightning Rod",
       "DefaultLevel": 1,
-      "ID": 6,
-      "Icon": "../assets/SkillIcons/A_Haru/A_1-3_SpinCutter.png",
+      "ID": 4,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill03_LightningRod.png",
       "Levels": {
         "0": {
-          "Description": "向前躍起，施展連續旋轉攻擊，擊退敵人。",
+          "Description": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_1-3_SpinCutter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_LightningRod.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[178%]\n霸體破壞量：[92%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "傷害量：[187%]\n霸體破壞量：[96%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]",
+          "Effect": "",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[209%]\n霸體破壞量：[108%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]",
+          "Effect": "",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[231%]\n霸體破壞量：[119%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]",
+          "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[267%]\n霸體破壞量：[138%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]",
+          "Effect": "",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "SpinCutter-ExtraAttack"
+        "LightningRod-A"
       ]
     },
-    "BlowUp": {
-      "Name": "能量增益",
-      "ID": 7,
-      "Icon": "../assets/SkillIcons/A_Haru/A_2-1_BlowUp.png",
+    "LightningRod-A": {
+      "Visible": false,
+      "Name": "Additional Installation",
+      "ID": 5,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill03_LightningRod_A.png",
       "Levels": {
         "0": {
-          "Description": "利用異能之力強化獲得靈魂值的能力，使所有攻擊在命中時，會獲得額外的靈魂值。\n怪物等級越高，靈魂值獲得量越多。該效果只對5個目標有效。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_2-1_BlowUp.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_LightningRod_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "增益效果：霸體破壞量 [+4%]\n增益效果：命中時獲得靈魂值 [1.0%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]",
+          "Effect": "Stun Duration: 3 Seconds",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "Stun Duration: 4 Seconds",
+          "RequiredLevel": 27,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Stun Duration: 5 Seconds",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SwiftStab": {
+      "Name": "Swift Stab",
+      "ID": 6,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Buff effect: 1.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "增益效果：霸體破壞量 [+8%]\n增益效果：命中時獲得靈魂值 [1.2%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]",
+          "Effect": "Buff effect: 1.2% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "增益效果：霸體破壞量 [+12%]\n增益效果：命中時獲得靈魂值 [1.6%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]",
+          "Effect": "Buff effect: 1.6% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "增益效果：霸體破壞量 [+16%]\n增益效果：命中時獲得靈魂值 [2.0%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]",
+          "Effect": "Buff effect: 2.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "增益效果：霸體破壞量 [+20%]\n增益效果：命中時獲得靈魂值 [3.0%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]",
+          "Effect": "Buff effect: 3.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
       }
     },
-    "BladeQuake": {
-      "Name": "顫慄碎片",
-      "ID": 8,
-      "Icon": "../assets/SkillIcons/A_Haru/A_2-2_BladeQuake.png",
+    "FieldOctagon": {
+      "Name": "Field Octagon",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon.png",
       "Levels": {
         "0": {
-          "Description": "將劍插入地下，召喚異能之劍，施展連續攻擊。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_2-2_BladeQuake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_FieldOctagon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[424%]\n霸體破壞量：[532%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]",
+          "Effect": "",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[445%]\n霸體破壞量：[559%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]",
+          "Effect": "",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[497%]\n霸體破壞量：[626%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]",
+          "Effect": "",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[552%]\n霸體破壞量：[692%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]",
+          "Effect": "",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[636%]\n霸體破壞量：[799%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]",
+          "Effect": "",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "BladeQuake-KnockOut"
+        "FieldOctagon-A"
       ]
     },
-    "BladeQuake-KnockOut": {
+    "FieldOctagon-A": {
       "Visible": false,
-      "Name": "暈眩",
-      "ID": 9,
-      "Icon": "../assets/SkillIcons/A_Haru/A_2-2_BladeQuake_A.png",
+      "Name": "Increased Efficiency",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon_A.png",
       "Levels": {
         "0": {
-          "Description": "給命中的敵人造成眩暈效果。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_2-2_BladeQuake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_FieldOctagon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[+763%]\n霸體破壞量：[+958%]\n減益效果：暈眩 [3秒]",
+          "Effect": "",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[+914%]\n霸體破壞量：[+1150%]\n減益效果：暈眩 [3秒]",
+          "Effect": "",
           "RequiredLevel": 27,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[+1096%]\n霸體破壞量：[+1379%]\n減益效果：暈眩 [3秒]",
+          "Effect": "",
           "RequiredLevel": 32,
           "RequiredSP": 2
         }
       }
     },
-    "BladeWall": {
-      "Name": "劍之圍籬",
-      "ID": 10,
-      "Icon": "../assets/SkillIcons/A_Haru/A_2-3_BladeWall.png",
+    "SpearDance": {
+      "Name": "Spear Dance",
+      "ID": 9,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance.png",
       "Levels": {
         "0": {
-          "Description": "召喚巨大的異能之劍，將敵人拉到施展者面前。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_2-3_BladeWall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SpearDance.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[149%]\n霸體破壞量：[310%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]",
+          "Effect": "",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[157%]\n霸體破壞量：[326%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]",
+          "Effect": "",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[175%]\n霸體破壞量：[364%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]",
+          "Effect": "",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[194%]\n霸體破壞量：[403%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]",
+          "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[224%]\n霸體破壞量：[465%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]",
+          "Effect": "",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "SpearDance-A"
+      ]  
     },
-    "PowerSlash": {
-      "Name": "淬火猛撃",
-      "ID": 11,
-      "Icon": "../assets/SkillIcons/A_Haru/A_3-1_PowerSlash.png",
+    "SpearDance-A": {
+      "Visible": false,
+      "Name": "Increased Efficiency",
+      "ID": 10,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance_A.png",
       "Levels": {
         "0": {
-          "Description": "對前方施展強力的一擊。\n位於正前方的敵人給予2倍傷害。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_3-1_PowerSlash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SpearDance_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[455%]\n霸體破壞量：[393%]\n靈魂值消耗量：[50]\n冷卻時間：[15秒]",
+          "Effect": "",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 27,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "ViciousWoodpecker": {
+      "Name": "Vicious Woodpecker",
+      "ID": 11,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill07_ViciousWoodpecker.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_ViciousWoodpecker.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[478%]\n霸體破壞量：[414%]\n靈魂值消耗量：[50]\n冷卻時間：[15秒]",
+          "Effect": "",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[535%]\n霸體破壞量：[462%]\n靈魂值消耗量：[50]\n冷卻時間：[15秒]",
+          "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[592%]\n霸體破壞量：[512%]\n靈魂值消耗量：[50]\n冷卻時間：[15秒]",
+          "Effect": "",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[683%]\n霸體破壞量：[591%]\n靈魂值消耗量：[50]\n冷卻時間：[15秒]",
+          "Effect": "",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
-      }
+      },
+      "Extensions": [
+        "ViciousWoodpecker-A"
+      ]
     },
-    "LeapAttack": {
-      "Name": "地崩山摧",
+    "AngelicStep": {
+      "Name": "Angelic Step",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/A_Haru/A_3-2_LeapAttack.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill08_AngelicStep.png",
       "Levels": {
         "0": {
-          "Description": "向前方跳躍後落地，朝地面重擊使敵人浮空。\n蓄力時間越長，跳躍距離越遠。\n對著地位置上的敵人給予額外 100% 傷害量。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_3-2_LeapAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AngelicStep.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[392%]\n霸體破壞量：[629%]\n靈魂值消耗量：[45]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[411%]\n霸體破壞量：[660%]\n靈魂值消耗量：[45]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[460%]\n霸體破壞量：[739%]\n靈魂值消耗量：[45]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[509%]\n霸體破壞量：[817%]\n靈魂值消耗量：[45]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[588%]\n霸體破壞量：[943%]\n靈魂值消耗量：[45]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
-      },
-      "Extensions": [
-        "LeapAttack-ExtraAttack",
-        "LeapAttack-RangeIncrease"
-      ]
+      }
     },
-    "LeapAttack-ExtraAttack": {
-      "Visible": false,
-      "Name": "攻擊次數增加",
+    "Amazones": {
+      "Name": "Amazones",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/A_Haru/A_3-2_LeapAttack_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones.png",
       "Levels": {
         "0": {
-          "Description": "攻擊判定次數增加。\n對著地位置上的敵人給予額外 150% 傷害量。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_3-2_LeapAttack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[+102%]\n霸體破壞量：[+172%]",
-          "RequiredLevel": 33,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "傷害量：[+171%]\n霸體破壞量：[+283%]",
-          "RequiredLevel": 38,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "傷害量：[+285%]\n霸體破壞量：[+470%]",
-          "RequiredLevel": 43,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "LeapAttack-RangeIncrease": {
-      "Visible": false,
-      "Name": "範圍增加",
-      "ID": 14,
-      "Icon": "../assets/SkillIcons/A_Haru/A_3-2_LeapAttack_B.png",
-      "Levels": {
-        "0": {
-          "Description": "奮力擊打地面，增加攻擊範圍。\n整體攻擊範圍增加 75% ，整體傷害量乘以 125%。\n對著地位置上的敵人給予額外 100% 傷害量。",
           "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_3-2_LeapAttack_B.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "增加攻擊範圍。",
-          "RequiredLevel": 33,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "傷害量：[+58%]\n霸體破壞量：[+95%]\n增加攻擊範圍。",
-          "RequiredLevel": 38,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "傷害量：[+176%]\n霸體破壞量：[+183%]\n增加攻擊範圍。",
-          "RequiredLevel": 43,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "ArenaRush": {
-      "Name": "戰神降臨",
-      "ID": 15,
-      "Icon": "../assets/SkillIcons/A_Haru/A_3-3_ArenaRush.png",
-      "Levels": {
-        "0": {
-          "Description": "召喚異能之劍從空中落下，生成一個能提高自己和隊友攻擊力的靈氣區域。",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_3-3_ArenaRush.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n[增益區域]\n增益效果：攻擊力 [+7%]\n施展者的傷害量 [+5%]\n增益持續時間：[20秒]\n增益區域持續時間：[10秒]\n靈魂值消耗量：[50]\n冷卻時間：[45秒]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n[增益區域]\n增益效果：攻擊力 [+9%]\n施展者的傷害量 [+7%]\n增益持續時間：[20秒]\n增益區域持續時間：[10秒]\n靈魂值消耗量：[50]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n[增益區域]\n增益效果：攻擊力 [+12%]\n施展者的傷害量 [+9%]\n增益持續時間：[20秒]\n增益區域持續時間：[10秒]\n靈魂值消耗量：[50]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n[增益區域]\n增益效果：攻擊力 [+15%]\n施展者的傷害量 [+12%]\n增益持續時間：[20秒]\n增益區域持續時間：[10秒]\n靈魂值消耗量：[50]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[100%]\n霸體破壞量：[100%]\n[增益區域]\n增益效果：攻擊力 [+20%]\n施展者的傷害量 [+15%]\n增益持續時間：[20秒]\n增益區域持續時間：[10秒]\n靈魂值消耗量：[50]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "ArenaRush-DurationIncrease",
-        "ArenaRush-KnockOut"
+        "Amazones-A",
+        "Amazones-B"
       ]
     },
-    "ArenaRush-DurationIncrease": {
+    "Amazones-A": {
       "Visible": false,
-      "Name": "時間增加",
-      "ID": 16,
-      "Icon": "../assets/SkillIcons/A_Haru/A_3-3_ArenaRush_A.png",
+      "Name": "Add Projectiles",
+      "ID": 14,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_A.png",
       "Levels": {
         "0": {
-          "Description": "靈氣持續時間增加。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones_A.{{auto}}"
+          }
         },
         "1": {
-          "Effect": "增益區域持續時間：[+4秒]",
+          "Effect": "",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "增益區域持續時間：[+6秒]",
+          "Effect": "",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "增益區域持續時間：[+9秒]",
+          "Effect": "",
           "RequiredLevel": 47,
           "RequiredSP": 2
         }
       }
     },
-    "ArenaRush-KnockOut": {
+    "Amazones-B": {
       "Visible": false,
-      "Name": "暈眩",
-      "ID": 17,
-      "Icon": "../assets/SkillIcons/A_Haru/A_3-3_ArenaRush_B.png",
+      "Name": "Sniping",
+      "ID": 15,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_B.png",
       "Levels": {
         "0": {
-          "Description": "給命中的敵人造成眩暈效果。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_3-3_ArenaRush_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "減益效果：暈眩 [1秒]",
+          "Effect": "",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "減益效果：暈眩 [2秒]",
+          "Effect": "",
           "RequiredLevel": 43,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "減益效果：暈眩 [3秒]",
+          "Effect": "",
           "RequiredLevel": 47,
           "RequiredSP": 2
         }
       }
     },
-    "FlashStep": {
-      "Name": "閃光律動",
-      "ID": 18,
-      "Icon": "../assets/SkillIcons/A_Haru/A_4-1_FlashStep.png",
+    "SupportCall": {
+      "Name": "Support Call",
+      "ID": 16,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill010_SupportCall.png",
       "Levels": {
         "0": {
-          "Description": "瞬間向後迴避，同時在劍中注入異能並向前射出。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_4-1_FlashStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SupportCall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[468%]\n霸體破壞量：[605%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[491%]\n霸體破壞量：[635%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[550%]\n霸體破壞量：[710%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[608%]\n霸體破壞量：[768%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[702%]\n霸體破壞量：[907%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
-      },
-      "Extensions": [
-        "FlashStep-HeavyAttack"
-      ]
+      }
     },
-    "CrossStrike": {
-      "Name": "灼熱焚斬",
-      "ID": 19,
-      "Icon": "../assets/SkillIcons/A_Haru/A_4-2_CrossStrike.png",
+    "MambasCoil": {
+      "Name": "Mambas Coil",
+      "ID": 17,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在空中的狀態下，連劃X型射出強而有力的劍氣。劍氣碰到地面後將會爆炸產生額外傷害。\n每道劍氣的射出方向可以改變。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_4-2_CrossStrike.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：攻擊1回 [98%]\n霸體破壞量：攻擊1回 [74%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：攻擊1回 [102%]\n霸體破壞量：攻擊1回 [77%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：攻擊1回 [114%]\n霸體破壞量：攻擊1回 [86%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：攻擊1回 [126%]\n霸體破壞量：攻擊1回 [96%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：攻擊1回 [146%]\n霸體破壞量：攻擊1回 [110%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "CrossStrike-Blaze"
+        "MambasCoil-A",
+        "MambasCoil-B"
       ]
     },
-    "CrossStrike-Blaze": {
+    "MambasCoil-A": {
       "Visible": false,
-      "Name": "火焰",
-      "ID": 20,
-      "Icon": "../assets/SkillIcons/A_Haru/A_4-2_CrossStrike_A.png",
+      "Name": "Lightning Field",
+      "ID": 18,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_A.png",
       "Levels": {
         "0": {
-          "Description": "在劍氣接觸的爆炸地區生成3秒的燃燒地帶。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_4-2_CrossStrike_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：攻擊1回 [-28%]\n霸體破壞量：攻擊1回 [-21%]\n[燃燒地帶]\n傷害量：[45%]\n霸體破壞量：[34%]",
+          "Effect": "",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：攻擊1回 [-13%]\n霸體破壞量：攻擊1回 [-10%]\n[燃燒地帶]\n傷害量：[50%]\n霸體破壞量：[38%]",
+          "Effect": "",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：攻擊1回 [+23%]\n霸體破壞量：攻擊1回 [+17%]\n[燃燒地帶]\n傷害量：[62%]\n霸體破壞量：[47%]",
+          "Effect": "",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
-    "WindBreak": {
-      "Name": "破空拔刀斬",
-      "ID": 21,
-      "Icon": "../assets/SkillIcons/A_Haru/A_4-3_WindBreak.png",
+    "MambasCoil-B": {
+      "Visible": false,
+      "Name": "Increased hits",
+      "ID": 19,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_B.png",
       "Levels": {
         "0": {
-          "Description": "向後收劍蓄力，於拔劍時朝前方發射劍氣。\n劍氣將會直線飛行並穿透路上的敵人。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_4-3_WindBreak.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[466%]\n霸體破壞量：[444%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]",
+          "Effect": "",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "AscendingTornado": {
+      "Name": "Ascending Tornado",
+      "ID": 20,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AscendingTornado.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[489%]\n霸體破壞量：[466%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[548%]\n霸體破壞量：[522%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[606%]\n霸體破壞量：[577%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[699%]\n霸體破壞量：[666%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]",
+          "Effect": "",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "WindBreak-Charge"
+        "AscendingTornado-A"
       ]
     },
-    "WindBreak-Charge": {
+    "AscendingTornado-A": {
       "Visible": false,
-      "Name": "蓄力",
-      "ID": 22,
-      "Icon": "../assets/SkillIcons/A_Haru/A_4-3_WindBreak_A.png",
+      "Name": "Move",
+      "ID": 21,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado_A.png",
       "Levels": {
         "0": {
-          "Description": "透過蓄力可射出額外的劍氣。每道額外劍氣的威力為原來的0.7倍。\n每道劍氣的射出方向可以改變。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_4-3_WindBreak_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AscendingTornado_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "最大蓄力階段：[2]\n蓄滿時可發射2次",
+          "Effect": "",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "最大蓄力階段：[3]\n蓄滿時可發射3次",
+          "Effect": "",
           "RequiredLevel": 55,
-          "RequiredSP": 1,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_4-3_WindBreak_A_03.{{auto}}"
+          "RequiredSP": 1
           }
         }
-      }
     },
-    "BladeShower": {
-      "Name": "劍雨",
-      "ID": 23,
-      "Icon": "../assets/SkillIcons/A_Haru/A_5-1_BladeShower.png",
+    "SuperNova": {
+      "Name": "Super Nova",
+      "ID": 22,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova.png",
       "Levels": {
         "0": {
-          "Description": "將劍擲向前方的空中，生成劍雨風暴，往地面落下無數劍雨，在大範圍內發動強力攻擊。\n最後降落的巨劍給予位在正中央的敵人額外 20% 傷害。",
+          "Description": ".",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_5-1_BladeShower.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[2098%]\n霸體破壞量：[2237%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[2201%]\n霸體破壞量：[2350%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[2464%]\n霸體破壞量：[2630%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[2726%]\n霸體破壞量：[2909%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 51,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[3145%]\n霸體破壞量：[3357%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]",
+          "Effect": "",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
+      },
+      "Extensions": [
+        "SuperNova-A"
+      ]
+    },
+    "SuperNova-A": {
+      "Visible": false,
+      "Name": "Overcharge",
+      "ID": 29,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova_A.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
       }
     },
-    "SpinCutter-ExtraAttack": {
+    "SonicBoom-A": {
       "Visible": false,
-      "Name": "追擊",
+      "Name": "Rapid linkage",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/A_ADV_1-3_SpinCutter_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill02_Sonic-Boom_A.png",
       "Levels": {
         "0": {
-          "Description": "施展盤旋劍後，點擊右鍵可追加額外攻擊。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_ADV_1-3_SpinCutter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SonicBoom_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[354%]\n霸體破壞量：[552%]",
+          "Effect": "Damage: 267%\nSA Damage: 138%",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[407%]\n霸體破壞量：[635%]",
+          "Effect": "Damage: 294%\nSA Damage: 152%",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[513%]\n霸體破壞量：[801%]",
+          "Effect": "Damage: 347%\nSA Damage: 179%",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "FlashStep-HeavyAttack": {
+    "ViciousWoodpecker-A": {
       "Visible": false,
-      "Name": "重量化",
+      "Name": "The last shelling",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/A_ADV_4-1_FlashStep_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill07_Vicious-Woodpecker_A.png",
       "Levels": {
         "0": {
-          "Description": "將長劍與大劍結合後再向前投擲，大量增加傷害，並賦予暈眩效果。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_ADV_4-1_FlashStep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_ViciousWoodpecker_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[1394%]\n霸體破壞量：[975%]\n減益效果：暈眩 [1.8秒]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[1603%]\n霸體破壞量：[1122%]\n減益效果：暈眩 [2.4秒]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[2021%]\n霸體破壞量：[1414%]\n減益效果：暈眩 [3.2秒]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "SwordsFall": {
-      "Name": "墜落之劍",
+    "Debris": {
+      "Name": "Debris",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/A_ADV_5-2_Swordsfall.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill015_Debris.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在空中的狀態下，朝前方地面的敵人進行下落攻擊，同時召喚小型長劍攻擊自身周遭。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_ADV_5-2_Swordsfall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Debris.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[684%]\n霸體破壞量：[960%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[720%]\n霸體破壞量：[1008%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[786%]\n霸體破壞量：[1104%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[888%]\n霸體破壞量：[1248%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[1026%]\n霸體破壞量：[1440%]\n靈魂值消耗量：[45]\n冷卻時間：[30秒]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "SlashingWarfare": {
-      "Name": "猛烈之戰",
+    "CloudSix": {
+      "Name": "Cloud-Six",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/A_ADV_5-3_Warfare.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill016_Cloud-Six.png",
       "Levels": {
         "0": {
-          "Description": "X型劈砍後，向前突進攻擊，在迴身斬時後退並聚集敵人。\n突進時的傷害量為整體的 80%，後退為 20%。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_ADV_5-3_Warfare.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_CloudSix.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[1837%]\n霸體破壞量：[956%]\n靈魂值消耗量：[30]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害量：[2161%]\n霸體破壞量：[1003%]\n靈魂值消耗量：[30]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害量：[2419%]\n霸體破壞量：[1122%]\n靈魂值消耗量：[30]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "傷害量：[2674%]\n霸體破壞量：[1241%]\n靈魂值消耗量：[30]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "傷害量：[3087%]\n霸體破壞量：[1433%]\n靈魂值消耗量：[30]\n冷卻時間：[20秒]",
+          "Effect": "",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "Trollsverd": {
-      "Name": "巨魔之劍",
-      "ID": 28,
-      "Icon": "../assets/SkillIcons/A_Haru/A_6-1_Trollsverd.png",
+    "TitansFinger": {
+      "Name": "Titans Finger",
+      "ID": 23,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill014_TitansFinger.png",
       "Levels": {
         "0": {
-          "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺，並在攻擊線上產生追加的爆炸攻擊。",
+          "Description": "?",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_6-1_Trollsverd.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_TitansFinger.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[基本攻擊]\n傷害量：[1656%]\n霸體破壞量：[1827%]\n[爆炸攻擊]\n傷害量：攻擊1回 [165%]\n霸體破壞量：攻擊1回 [182%]\n\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "Effect": "",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[基本攻擊]\n傷害量：[1823%]\n霸體破壞量：[2010%]\n[爆炸攻擊]\n傷害量：攻擊1回 [182%]\n霸體破壞量：攻擊1回 [201%]\n\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "Effect": "",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[基本攻擊]\n傷害量：[2042%]\n霸體破壞量：[2252%]\n[爆炸攻擊]\n傷害量：攻擊1回 [204%]\n霸體破壞量：攻擊1回 [225%]\n\n靈魂值消耗量：[50]\n冷卻時間：[40秒]",
+          "Effect": "",
           "RequiredLevel": 68,
           "RequiredSP": 2
+        },        
+        "4": {
+          "Effect": "",
+          "RequiredLevel": 71,
+          "RequiredSP": 0
         }
       }
     },
     "BasicAttackMastery": {
       "Passive": true,
-      "Name": "基本攻擊精通",
+      "Name": "Basic Attack Mastery",
       "ID": 1002,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/DefaultAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
       "Levels": {
         "0": {
-          "Description": "揮動長劍，攻擊敵人。攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。\n技能等級越高，可使用的分支攻擊越多。",
+          "Description": "Attack enemies with the sword.\nYou can unlock new combo attacks as the skill level increases.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_DefaultAttack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[地面]\n基本攻擊：滑鼠：左鍵x4\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "靈魂值獲得量：[+20%]\n可使用分支攻擊A\n[地面]\n[1]基本攻擊：滑鼠：左鍵x4\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "SG Gain + 20%.\nUnlock alternative attack “A”.",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_DefaultAttack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "靈魂值獲得量：[+70%]\n可使用基本攻擊的追加攻擊\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n\n[空中]\n滑鼠：跳躍後，左鍵x2",
+          "Effect": "SG Gain: + 70%.\nUnlock additional basic attack.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_DefaultAttack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "靈魂值獲得量：[+120%]\n可使用分支攻擊B\n可使用空中攻擊的追加攻擊\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵x3\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
+          "Effect": "SG Gain: + 120%\nUnlock alternative attack “B”.\nUnlock additional aerial attack.",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_DefaultAttack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "靈魂值獲得量：[+200%]\n可使用分支攻擊C\n[地面]\n[1]基本攻擊：滑鼠：左鍵x5\n[2]分支攻擊A：滑鼠：左鍵x2-右鍵x2\n[3]分支攻擊B：滑鼠：左鍵x3-右鍵x3\n[4]分支攻擊C：滑鼠：左鍵x2-右鍵-按緊右鍵\n\n[空中]\n滑鼠：跳躍後，左鍵x3",
+          "Effect": "SG Gain: + 200%\nUnlock alternative attack “C”.",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_DefaultAttack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1140,86 +1192,86 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "特殊能力精通",
-      "Icon": "../assets/SkillIcons/A_Haru/A_SpecialAttack_OwnAbility.png",
+      "Name": "Special Ability Mastery",
+      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SoulStrike.png",
       "Levels": {
         "0": {
-          "Description": "利用異能攻擊前方，使一定範圍內的敵人浮空並減速。\n在空中使用時，將會發動踢腿攻擊快速落下。\n攻擊時可以獲得靈魂值。\n怪物等級越高，靈魂值獲得量越多。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_SpecialAttack_OwnAbility.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[地面]\n傷害量：[175%]\n霸體破壞量：[140%]\n\n[空中]\n傷害量：[229%]\n霸體破壞量：[170%]\n\n[通用]\n冷卻時間：[10秒]",
+          "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[地面]\n傷害量：[184%]\n霸體破壞量：[147%]\n\n[空中]\n傷害量：[241%]\n霸體破壞量：[178%]\n\n[通用]\n冷卻時間：[10秒]\n靈魂值獲得量：[+20%]",
+          "Effect": "",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[地面]\n傷害量：[206%]\n霸體破壞量：[165%]\n\n[空中]\n傷害量：[270%]\n霸體破壞量：[200%]\n\n[通用]\n冷卻時間：[10秒]\n靈魂值獲得量：[+70%]",
+          "Effect": "",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "Dodge": {
+    "Evasion": {
       "Passive": true,
-      "Name": "緊急迴避",
+      "Name": "Evasion",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Dodge.png",
+      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
       "Levels": {
         "0": {
-          "Description": "向指定的方向快速迴避。\n在緊急迴避的狀態下不會受到任何攻擊。",
+          "Description": "Swiftly dodge to a specified direction.\nDamage is negated during evasion.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_Dodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina consumption：[20]",
+          "Effect": "Stamina Cost: 20",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "RisingRoll": {
+    "Roll": {
       "Passive": true,
-      "Name": "翻滾",
+      "Name": "Roll",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/RisingRoll.png",
+      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
       "Levels": {
         "0": {
-          "Description": "受到攻擊而倒地時，朝指定的方向快速翻滾後起身。\n翻滾時不會受到任何傷害。",
+          "Description": "When downed, get up by swiftly rolling in a specified direction.\nDamage is negated during roll.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_RisingRoll.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Roll_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina consumption：[25]",
+          "Effect": "Stamina Cost: 25",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina consumption：[15]",
+          "Effect": "Stamina Cost: 15",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina consumption：[15]\n翻滾的更快",
+          "Effect": "Stamina Cost: 15\nFaster rolling speed.",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1227,18 +1279,18 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "衝刺",
+      "Name": "Dash",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/SkillIcons/Common/Dash.png",
+      "Icon": "../assets/SkillIcons/Common/Sprint.png",
       "Levels": {
         "0": {
-          "Description": "向前快速奔馳。",
+          "Description": "Swiftly dash forward.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1247,7 +1299,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "衝刺速度加快",
+          "Effect": "Faster dashing Speed",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1255,32 +1307,32 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "起身回擊",
+      "Name": "Rising Attack",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/RiseAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
       "Levels": {
         "0": {
-          "Description": "受到攻擊而倒地時，瞬間起身並攻擊周遭敵人。\n使用後在一定時間內處於無敵狀態。",
+          "Description": "When downed, get up while attacking nearby enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_RiseAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "回擊傷害量：[100%]\nStamina consumption：[30]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
+          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 second",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "回擊傷害量：[100%]\nStamina consumption：[20]\n無敵時間：[3秒]\n冷卻時間：[15秒]",
+          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 second",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "回擊傷害量：[100%]\nStamina consumption：[20]\n無敵時間：[5秒]\n冷卻時間：[15秒]",
+          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1288,54 +1340,54 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "衝擊",
+      "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1008,
       "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
       "Levels": {
         "0": {
-          "Description": "衝刺時，用力揮劍擊退敵人。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
+          "Description": "Push enemies back with a large swing while dashing.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_DashAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[116%]\n霸體破壞量：[46%]",
+          "Effect": "Damage: 116%\nSA Damage: 46%",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "SpecialDodge": {
+    "SpecialEvasion": {
       "Passive": true,
-      "Name": "受身迴避",
+      "Name": "Elusion",
       "ID": 1007,
-      "Icon": "../assets/SkillIcons/Common/SpecialDodge.png",
+      "Icon": "../assets/SkillIcons/Common/Elusion.png",
       "Levels": {
         "0": {
-          "Description": "受到攻撃且無法控制時，朝指定方向進行受身迴避。\n在受身迴避的狀態下不會受到傷害。",
+          "Description": "Swiftly dodge to a specific direction while being attacked by an enemy.\nDamage is negated during special evasion.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_SpecialDodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina consumption：[40]\n冷卻時間：[30秒]",
+          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina consumption：[40]\n冷卻時間：[25秒]",
+          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina consumption：[40]\n冷卻時間：[20秒]",
+          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1343,21 +1395,21 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "特殊衝擊",
+      "Name": "Whirl Jump",
       "ID": 1010,
-      "Icon": "../assets/SkillIcons/Common/SpecialDashAttack.png",
+      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
       "Levels": {
         "0": {
-          "Description": "衝刺時，向前方跳躍施展連續迴旋斬。\n攻擊時可以獲得靈魂值。\n連續攻擊次數和怪物等級越高，靈魂值獲得量越多。",
+          "Description": "Do a spinning jump attack during dash.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_SpecialDashAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[206%]\n霸體破壞量：[92%]",
+          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1365,155 +1417,181 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "耐力精通",
+      "Name": "Stamina Mastery",
       "ID": 1009,
-      "Icon": "../assets/SkillIcons/Common/StaminaMastery.png",
+      "Icon": "../assets/SkillIcons/Common/Endure.png",
       "Levels": {
         "0": {
-          "Description": "耐力恢復量永久增加。",
+          "Description": "Increases stamina recovery.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "耐力恢復量：[+10%]",
+          "Effect": "Stamina Recovery: + 10%",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "耐力恢復量：[+20%]",
+          "Effect": "Stamina Recovery: + 20%",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "耐力恢復量：[+30%]",
+          "Effect": "Stamina Recovery: + 30%",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "耐力恢復量：[+40%]",
+          "Effect": "Stamina Recovery: + 40%",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "耐力恢復量：[+50%]",
+          "Effect": "Stamina Recovery: + 50%",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       }
     },
-    "EternalCombination": {
+    "OutputAggravation": {
       "Passive": true,
-      "Name": "持續鬥爭",
+      "Name": "Output Aggravation",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/A_ADV_Passive_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "每當達成20連擊時，20秒內增加攻擊力。\n（最多疊加5次）",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "每次疊加時：攻擊力[+150]",
+          "Effect": "",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "每次疊加時：攻擊力[+300]",
+          "Effect": "",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "每次疊加時：攻擊力[+500]",
+          "Effect": "",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
       }
     },
-    "EndlessStruggle": {
+    "PowerEnhancement": {
       "Passive": true,
-      "Name": "無盡鬥爭",
+      "Name": "Power Enhancement",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
         "1": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/A_Passive_SGPassive1.png",
+      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SGPassive.png",
       "Levels": {
         "0": {
-          "Description": "永久增加攻擊力、敵人防禦力貫穿。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "攻擊力：[+5%]\n敵人防禦力貫穿：[+2%]",
+          "Effect": "",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "攻擊力：[+10%]\n敵人防禦力貫穿：[+4%]",
+          "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "攻擊力：[+15%]\n敵人防禦力貫穿：[+6%]",
+          "Effect": "",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "SwordofRevenge": {
+    "Mourning": {
       "Passive": true,
-      "Name": "復仇之劍",
+      "Name": "Mourning",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Icon": "../assets/SkillIcons/Common/SoulMastery.png",
+      "RowSpan": 2,
+      "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
         "0": {
-          "Description": "基本攻擊成功時，恢復靈魂值。\n每隔一定時間自動恢復靈魂值。",
+          "Description": "Gain SG on hit using normal attacks.\nAutomatically gain SG on fixed intervals.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 1,
+          "RequiredLevel": 10,
           "RequiredSP": 0
         }
       }
     },
-    "ExtinctionPrelude": {
+    "RegionsBombing": {
       "Passive": true,
-      "Name": "心爆氣流斬",
+      "Name": "Regions Bombing",
       "DefaultLevel": 1,
       "ID": 1099,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/A_Haru/A_ADV_SV_EX_Prelude.png",
+      "Icon": "../assets/SkillIcons/Ephnel/NSkill3_Exitus.png",
+      "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n使用雙劍，對前方施展多方位的快速連斬，最後重擊地面。\n使用條件：處於覺醒狀態。",
+          "Description": "Can only be used in the Supernova state.\nUsing this ends Supernova.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/A_Haru/A_ADV_SV_EX_Prelude.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_RegionsBombing.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害量：[2250%]\n霸體破壞量：[2950%]",
+          "Effect": "Damage：[3000%]\nSA Break：[2700%]\n\n?.",
+          "RequiredLevel": 57,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "EphnelsDesire": {
+      "Passive": true,
+      "Name": "Ephnel's Desire",
+      "DefaultLevel": 1,
+      "ID": 1100,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 2
+      },
+      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Desire awakened for 60 seconds",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_03.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

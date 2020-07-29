@@ -43,10 +43,10 @@
                 66: 1,
                 67: 1,
                 68: 1,
-                69: 0,
-                70: 0,
-                71: 0,
-                72: 0
+                69: 1,
+                70: 3,
+                71: 1,
+                72: 1
             }
         },
         table_Character = {
@@ -93,8 +93,6 @@
 			"Ephnel Bombingspear": {
                 url: "Ephnel",
                 selectImage: "assets/images/Ephnel_Select.png",
-                enabled: false,
-                reason: "Ephnel isn't ready yet~"
 			},
 			
             };

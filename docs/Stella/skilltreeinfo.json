@@ -1,6 +1,6 @@
 {
   "CharacterName": "Stella Unibell",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Stella_Unibell",
+  "CharacterWikiURL": "https://soulworker-sw.fandom.com/wiki/Stella_Unibell",
   "AvailableClass": {
     "0": {
       "Name": "Base",
@@ -1568,7 +1568,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Desire awakened for 60 seconds.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1577,7 +1577,7 @@
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
+          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

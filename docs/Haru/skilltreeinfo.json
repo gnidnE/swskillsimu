@@ -1,6 +1,6 @@
 {
   "CharacterName": "Haru Estia",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Haru_Estia",
+  "CharacterWikiURL": "https://soulworker-sw.fandom.com/wiki/Haru_Estia",
   "AvailableClass": {
     "0": {
       "Name": "Base",
@@ -1559,7 +1559,7 @@
     },
     "HarusDesire": {
       "Passive": true,
-      "Name": "Iris's Desire",
+      "Name": "Haru's Desire",
       "DefaultLevel": 1,
       "ID": 1100,
       "RequireClass": {
@@ -1570,7 +1570,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Desire awakened for 60 seconds.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1579,7 +1579,7 @@
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
+          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

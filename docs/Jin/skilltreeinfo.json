@@ -1,6 +1,6 @@
 {
   "CharacterName": "Jin Seipatsu",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Jin_Seipatsu",
+  "CharacterWikiURL": "https://soulworker-sw.fandom.com/wiki/Jin_Seipatsu",
   "AvailableClass": {
     "0": {
       "Name": "Base",
@@ -1097,7 +1097,6 @@
         }
       }
     },
-
     "BarrettStraight": {
       "Name": "Barrett Straight",
       "ID": 28,
@@ -1134,8 +1133,6 @@
         }
       }
     },
-
-
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
@@ -1585,7 +1582,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Desire awakened for 60 seconds.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1594,7 +1591,7 @@
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
+          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

@@ -1,6 +1,6 @@
 {
   "CharacterName": "Erwin Arclight",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Erwin_Arclight",
+  "CharacterWikiURL": "https://soulworker-sw.fandom.com/wiki/Erwin_Arclight",
   "AvailableClass": {
     "0": {
       "Name": "Base",
@@ -1150,10 +1150,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": {
-              "vp9": "../assets/SkillPreviews/Erwin/B_Attack_05.webm",
-              "h264": "../assets/SkillPreviews/Erwin/B_Attack_05.mp4"
-            }
+            "Video": "../assets/SkillPreviews/Erwin/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1552,7 +1549,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Desire awakened for 60 seconds.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1561,7 +1558,7 @@
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
+          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }

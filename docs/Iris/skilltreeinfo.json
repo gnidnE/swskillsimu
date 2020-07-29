@@ -1,6 +1,6 @@
 {
   "CharacterName": "Iris Yuma",
-  "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Iris_Yuma",
+  "CharacterWikiURL": "https://soulworker-sw.fandom.com/wiki/Iris_Yuma",
   "AvailableClass": {
     "0": {
       "Name": "Base",
@@ -1169,7 +1169,6 @@
         }
       }
     },
-
     "Exocalypse": {
       "Name": "Exocalypse",
       "ID": 30,
@@ -1206,7 +1205,6 @@
         }
       }
     },
-
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
@@ -1656,7 +1654,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Desire awakened for 60 seconds.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1665,7 +1663,7 @@
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n´?",
+          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
