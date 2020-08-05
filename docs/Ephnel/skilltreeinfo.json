@@ -233,18 +233,18 @@
           }
         },
         "1": {
-          "Effect": "Stun Duration: 3 Seconds",
+          "Effect": "",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stun Duration: 4 Seconds",
-          "RequiredLevel": 27,
+          "Effect": "",
+          "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stun Duration: 5 Seconds",
-          "RequiredLevel": 32,
+          "Effect": "",
+          "RequiredLevel": 27,
           "RequiredSP": 2
         }
       }
@@ -264,35 +264,103 @@
           }
         },
         "1": {
-          "Effect": "Buff effect: 1.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buff effect: 1.2% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buff effect: 1.6% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Buff effect: 2.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Buff effect: 3.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "SwiftStab-A",
+        "SwiftStab-B"
+      ]
+    },
+    "SwiftStab-A": {
+      "Visible": false,
+      "Name": "Damage increase",
+      "ID": 7,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab_A.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "SwiftStab-B": {
+      "Visible": false,
+      "Name": "Float",
+      "ID": 8,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab_B.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
         }
       }
     },
     "FieldOctagon": {
       "Name": "Field Octagon",
-      "ID": 7,
+      "ID": 9,
       "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon.png",
       "Levels": {
         "0": {
@@ -337,7 +405,7 @@
     "FieldOctagon-A": {
       "Visible": false,
       "Name": "Increased Efficiency",
-      "ID": 8,
+      "ID": 10,
       "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon_A.png",
       "Levels": {
         "0": {
@@ -368,7 +436,7 @@
     },
     "SpearDance": {
       "Name": "Spear Dance",
-      "ID": 9,
+      "ID": 11,
       "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance.png",
       "Levels": {
         "0": {
@@ -413,7 +481,7 @@
     "SpearDance-A": {
       "Visible": false,
       "Name": "Increased Efficiency",
-      "ID": 10,
+      "ID": 12,
       "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance_A.png",
       "Levels": {
         "0": {
@@ -432,19 +500,19 @@
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 27,
+          "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 32,
+          "RequiredLevel": 34,
           "RequiredSP": 2
         }
       }
     },
     "ViciousWoodpecker": {
       "Name": "Vicious Woodpecker",
-      "ID": 11,
+      "ID": 13,
       "Icon": "../assets/SkillIcons/Ephnel/Skill07_ViciousWoodpecker.png",
       "Levels": {
         "0": {
@@ -488,7 +556,7 @@
     },
     "AngelicStep": {
       "Name": "Angelic Step",
-      "ID": 12,
+      "ID": 14,
       "Icon": "../assets/SkillIcons/Ephnel/Skill08_AngelicStep.png",
       "Levels": {
         "0": {
@@ -529,7 +597,7 @@
     },
     "Amazones": {
       "Name": "Amazones",
-      "ID": 13,
+      "ID": 15,
       "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones.png",
       "Levels": {
         "0": {
@@ -575,7 +643,7 @@
     "Amazones-A": {
       "Visible": false,
       "Name": "Add Projectiles",
-      "ID": 14,
+      "ID": 16,
       "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_A.png",
       "Levels": {
         "0": {
@@ -607,7 +675,7 @@
     "Amazones-B": {
       "Visible": false,
       "Name": "Sniping",
-      "ID": 15,
+      "ID": 17,
       "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_B.png",
       "Levels": {
         "0": {
@@ -638,7 +706,7 @@
     },
     "SupportCall": {
       "Name": "Support Call",
-      "ID": 16,
+      "ID": 18,
       "Icon": "../assets/SkillIcons/Ephnel/Skill010_SupportCall.png",
       "Levels": {
         "0": {
@@ -679,7 +747,7 @@
     },
     "MambasCoil": {
       "Name": "Mambas Coil",
-      "ID": 17,
+      "ID": 19,
       "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil.png",
       "Assignable": false,
       "Levels": {
@@ -726,7 +794,7 @@
     "MambasCoil-A": {
       "Visible": false,
       "Name": "Lightning Field",
-      "ID": 18,
+      "ID": 20,
       "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_A.png",
       "Levels": {
         "0": {
@@ -758,7 +826,7 @@
     "MambasCoil-B": {
       "Visible": false,
       "Name": "Increased hits",
-      "ID": 19,
+      "ID": 21,
       "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_B.png",
       "Levels": {
         "0": {
@@ -789,7 +857,7 @@
     },
     "AscendingTornado": {
       "Name": "Ascending Tornado",
-      "ID": 20,
+      "ID": 22,
       "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado.png",
       "Levels": {
         "0": {
@@ -808,22 +876,22 @@
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 38,
+          "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "3": {
           "Effect": "",
-          "RequiredLevel": 42,
+          "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 46,
+          "RequiredLevel": 43,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 50,
+          "RequiredLevel": 46,
           "RequiredSP": 3
         }
       },
@@ -834,7 +902,7 @@
     "AscendingTornado-A": {
       "Visible": false,
       "Name": "Move",
-      "ID": 21,
+      "ID": 23,
       "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado_A.png",
       "Levels": {
         "0": {
@@ -848,19 +916,24 @@
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 50,
+          "RequiredLevel": 46,
           "RequiredSP": 1
         },
         "2": {
           "Effect": "",
-          "RequiredLevel": 55,
+          "RequiredLevel": 50,
           "RequiredSP": 1
+          },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
           }
         }
     },
     "SuperNova": {
       "Name": "Super Nova",
-      "ID": 22,
+      "ID": 24,
       "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova.png",
       "Levels": {
         "0": {
@@ -889,12 +962,12 @@
         },
         "4": {
           "Effect": "",
-          "RequiredLevel": 51,
+          "RequiredLevel": 52,
           "RequiredSP": 2
         },
         "5": {
           "Effect": "",
-          "RequiredLevel": 54,
+          "RequiredLevel": 55,
           "RequiredSP": 3
         }
       },
@@ -937,7 +1010,7 @@
     "SonicBoom-A": {
       "Visible": false,
       "Name": "Rapid linkage",
-      "ID": 24,
+      "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -973,7 +1046,7 @@
     "ViciousWoodpecker-A": {
       "Visible": false,
       "Name": "The last shelling",
-      "ID": 25,
+      "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1008,7 +1081,7 @@
     },
     "Debris": {
       "Name": "Debris",
-      "ID": 26,
+      "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1099,7 +1172,7 @@
     },
     "TitansFinger": {
       "Name": "Titans Finger",
-      "ID": 23,
+      "ID": 25,
       "Icon": "../assets/SkillIcons/Ephnel/Skill014_TitansFinger.png",
       "Levels": {
         "0": {
@@ -1129,7 +1202,7 @@
         "4": {
           "Effect": "",
           "RequiredLevel": 71,
-          "RequiredSP": 0
+          "RequiredSP": 3
         }
       }
     },
@@ -1520,23 +1593,23 @@
         }
       }
     },
-    "Mourning": {
-      "Passive": true,
-      "Name": "Mourning",
-      "DefaultLevel": 1,
+    "IndomitableSpear": {
       "ID": 1012,
+      "Passive": true,
+      "DefaultLevel": 1,
       "RowSpan": 2,
-      "Icon": "../assets/SkillIcons/Common/Mourning.png",
+      "Name": "Indomitable Spear",
+      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG on hit using normal attacks.\nAutomatically gain SG on fixed intervals.",
+          "Description": "When the basic attack is successful, SG is restored.\nAutomatically recovers SG every certain time.\nSG is restored when special attacks and unlock motions are triggered.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
           "Effect": "",
-          "RequiredLevel": 10,
+          "RequiredLevel": 1,
           "RequiredSP": 0
         }
       }
