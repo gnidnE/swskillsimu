@@ -1094,7 +1094,7 @@
         "4": {
           "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
           "RequiredLevel": 71,
-          "RequiredSP": 0
+          "RequiredSP": 3
         }
       }
     },
