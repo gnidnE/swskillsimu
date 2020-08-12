@@ -6,14 +6,15 @@ The tree is developed with information source mainly from the Steam/Japanese and
 
 # Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
-    - Adding Level 72 (SP per lvl, how much SP per skill needed!) 95% done
-      - Adding Ephnel (SP per skill, Level requirements needed!) 80% done
+    - ~~Adding Level 72~~ done!
+      - ~~Adding Ephnel~~ done!
   - Changing the looks
   - Adding separate mobile version
   - Cleaning Code up
     - Preparations for Future Updates (enable when it comes)
     - Adding Version Selection 
     - Adding Translations
+  - **Secret Idea**
 
 # Customize
 - You can translate most of UI-related strings at [docs/assets/Localization.js](docs/assets/Localization.js).
