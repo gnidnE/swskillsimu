@@ -1115,7 +1115,7 @@
         "4": {
           "Effect": "Damage: 611% per hit\nSA Damage: 649% per hit\nSG Cost: 40\nCooldown: 40 seconds",
           "RequiredLevel": 71,
-          "RequiredSP": 0
+          "RequiredSP": 3
         }
       }
     },
