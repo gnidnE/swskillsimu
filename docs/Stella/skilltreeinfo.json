@@ -187,7 +187,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass_B.{{auto}}"
           }
         },
         "1": {
@@ -351,7 +351,7 @@
     },
     "BeadsPlay": {
       "ID": 10,
-      "Name": "Beads Play",
+      "Name": "Orb Song",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay.png",
       "Levels": {
         "0": {
@@ -513,7 +513,10 @@
           "Description": "Increases the duration of pulse.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_DecadePulse_A.{{auto}}"
+          }
         },
         "1": {
           "Effect": "",
@@ -845,7 +848,7 @@
     },
     "BassAttack": {
       "ID": 23,
-      "Name": "Bass Attack",
+      "Name": "Bass Wave",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BassAttack.png",
       "Levels": {
         "0": {
@@ -919,7 +922,6 @@
         }
       }
     },
-
     "WhirlDance-PerformanceIncrease": {
       "Visible": false,
       "Name": "Full Power",
@@ -1094,7 +1096,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_GhostyHunt.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_GhostHunt.{{auto}}"
           }
         },
         "1": {
@@ -1451,18 +1453,18 @@
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "??",
+          "Description": "Passive effect: Use of the regeneration skill shortens skill\ncooldown for 5 sec.\nPassive cooldown: 50 sec\n\nApplies to use if Phantom Trail, Orb Song or Best Tempo in support mode.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Cooldown reduction: ?%",
+          "Effect": "Cooldown reduction: 7%",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Cooldown reduction: ?%",
+          "Effect": "Cooldown reduction: 11%",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
@@ -1477,10 +1479,6 @@
       "Passive": true,
       "Name": "Sound Wave",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1510,7 +1508,6 @@
       "ID": 1012,
       "Passive": true,
       "DefaultLevel": 1,
-      "RowSpan": 2,
       "Name": "Sorrowful Note",
       "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
@@ -1531,12 +1528,12 @@
       "Passive": true,
       "Name": "Stella's Symphony",
       "DefaultLevel": 1,
-      "ID": 1099,
+      "ID": 2003,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/NSkill3_Exitus.png",
+      "Icon": "../assets/SkillIcons/Stella/NSkill3_StellaSymphony.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1555,11 +1552,63 @@
         }
       }
     },
+    "Hysteria": {
+      "Passive": true,
+      "Name": "Hysteria",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "Awakening",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
     "StellasDesire": {
       "Passive": true,
       "Name": "Stella's Desire",
       "DefaultLevel": 1,
-      "ID": 1100,
+      "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1568,7 +1617,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Desire awakened for 60 seconds.",
+          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1577,8 +1626,8 @@
           }
         },
         "1": {
-          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
-          "RequiredLevel": 57,
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Bass Wave (lvl 42 Skill)\n-Banshee Hunt (lvl 62 Skill)\n-Stella's Symphony (EX Skill)",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

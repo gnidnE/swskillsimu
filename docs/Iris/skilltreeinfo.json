@@ -1180,7 +1180,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/F_6-1_Expocalypse.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_RapidVulcan.{{auto}}"
           }
         },
         "1": {
@@ -1563,10 +1563,6 @@
       "Passive": true,
       "Name": "Rapid Attack",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1596,7 +1592,6 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
       "Name": "Fury Strike",
       "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
@@ -1617,7 +1612,7 @@
       "Passive": true,
       "Name": "Spiral of Infinity",
       "DefaultLevel": 1,
-      "ID": 1099,
+      "ID": 2003,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1641,11 +1636,63 @@
         }
       }
     },
+    "Hysteria": {
+      "Passive": true,
+      "Name": "Hysteria",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "Awakening",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
     "IrissDesire": {
       "Passive": true,
       "Name": "Iris's Desire",
       "DefaultLevel": 1,
-      "ID": 1100,
+      "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1654,7 +1701,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Desire awakened for 60 seconds.",
+          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1663,8 +1710,8 @@
           }
         },
         "1": {
-          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
-          "RequiredLevel": 57,
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Exceed Driver (lvl 42 Skill)\n-Exocalypse (lvl 62 Skill)\n-Spiral of Infinity (EX Skill)",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

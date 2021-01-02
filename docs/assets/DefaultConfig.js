@@ -92,7 +92,11 @@
 			},
 			"Ephnel Bombingspear": {
                 url: "Ephnel",
-                selectImage: "assets/images/Ephnel_Select.png",
+                selectImage: "assets/images/Ephnel_Select.png"
+			},
+			"Lee Nabi": {
+                url: "Nabi",
+                selectImage: "assets/images/Nabi_Select.png"
 			},
 			
             };

@@ -1,8 +1,22 @@
-29.July.2020 - Added Ephnel (SP and level requirements might be incorrect for now, until I have all correct values)
+02.January.2021 - Added Lee Nabi (thanks to Myleia for the amazing Banner and everyone who provided me with the correct stats.)
+                 - Fixed Ephnel's "Mamba's Coil & Debris" skills to being assignable now (thanks to Asher)
+                 - Re-added/updated all Skill preview video's with better quality (Lily rework)
+                 - Changed Lily's "Fear Chain" skill Extension from "Range" to "Stun"
+                    (if any other skills are incorrect, please let me know)
+                 - Revamped the Character selection to look a bit more fancy
+                 - Cleaned out several files that weren't used
+                 - Changed site preview imagine and favicon
+
+29.July.2020 - Added Ephnel
+
 24.June.2020 - Increased Max Level to 72
-                Added New Ultimate Extensions
-                Added Desire Selection
+             - Added New Ultimate Extensions (level 42 skills)
+             - Added Desire Selection
+
 17.May.2020 - Added Level 62 Skills
+
 15.May.2020 - Switched to New Character Selection (Added Ephnel to the selection screen)
+
 13.May.2020 - Added Chii (not fully translated yet since GF doesn't have her Advancement yet)
+
 10.May.2020 - forked from Leayal (Base)

@@ -22,7 +22,7 @@
       "Name": "First Strike",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FirstBlade.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill01_FirstBlade.png",
       "Levels": {
         "0": {
           "Description": "Perform a series of slashes while advancing forward. An additional strike can be used [Right-click] at the end of the skill.",
@@ -67,7 +67,7 @@
       "Visible": false,
       "Name": "Range Increase",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FirstBlade_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill01_FirstBlade_A.png",
       "Levels": {
         "0": {
           "Description": "The Extension strike radius becomes bigger.",
@@ -99,7 +99,7 @@
       "Name": "Pierce Step",
       "DefaultLevel": 1,
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill02_PierceStep.png",
       "Levels": {
         "0": {
           "Description": "Perform a series of slashes while advancing forward. An additional strike can be used with an additional input.",
@@ -143,9 +143,9 @@
     },
     "PierceStep-SpinningSlash": {
       "Visible": false,
-      "Name": "Pierce Step - Spinning Slash",
+      "Name": "Spinning Slash",
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill02_PierceStep_A.png",
       "Levels": {
         "0": {
           "Description": "Push away the enemies with a spinning slash after Pierce Step.",
@@ -173,9 +173,9 @@
     },
     "PierceStep-RisingSlash": {
       "Visible": false,
-      "Name": "Pierce Step - Rising Slash",
+      "Name": "Rising Slash",
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PierceStep_B.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill02_PierceStep_B.png",
       "Levels": {
         "0": {
           "Description": "Launch the enemies to the air after Pierce Step with a rising slash.",
@@ -197,7 +197,7 @@
       "Name": "Spin Cutter",
       "DefaultLevel": 1,
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_SpinCutter.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill03_SpinCutter.png",
       "Levels": {
         "0": {
           "Description": "Push enemies away by performing a spinning slash.",
@@ -240,7 +240,7 @@
     "BlowUp": {
       "Name": "Blow Up",
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BlowUp.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill04_BlowUp.png",
       "Levels": {
         "0": {
           "Description": "Use your special power to enhance your SG acquisition rate. All attacks that hit will be able to give additional SG.\nThe amount of SG gained will increase with monster grade/rank and the effect is applicable on up to 5 hits.",
@@ -281,7 +281,7 @@
     "BladeQuake": {
       "Name": "Blade Quake",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeQuake.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill05_BladeQuake.png",
       "Levels": {
         "0": {
           "Description": "Push the sword through the ground, summoning multiple swords to deal damage.",
@@ -326,7 +326,7 @@
       "Visible": false,
       "Name": "Knock Out",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeQuake_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill05_BladeQuake_A.png",
       "Levels": {
         "0": {
           "Description": "All enemies hit by the skill will be stunned.",
@@ -357,7 +357,7 @@
     "BladeWall": {
       "Name": "Blade Wall",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeWall.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill06_BladeWall.png",
       "Levels": {
         "0": {
           "Description": "Summoned swords will damage enemies and pull them towards the player.",
@@ -398,7 +398,7 @@
     "PowerSlash": {
       "Name": "Power Slash",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_PowerSlash.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill07_PowerSlash.png",
       "Levels": {
         "0": {
           "Description": "Slashes frontward with great power.",
@@ -439,7 +439,7 @@
     "LeapAttack": {
       "Name": "Leap Attack",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill08_LeapAttack.png",
       "Levels": {
         "0": {
           "Description": "Leap forward and slam the ground, launching the enemies into the air. Hold the skill button to charge the skill and leap further.",
@@ -485,7 +485,7 @@
       "Visible": false,
       "Name": "Extra Attack",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill08_LeapAttack_A.png",
       "Levels": {
         "0": {
           "Description": "There will be more attacks, increasing hitcount.",
@@ -517,7 +517,7 @@
       "Visible": false,
       "Name": "Range Increase",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_LeapAttack_B.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill08_LeapAttack_B.png",
       "Levels": {
         "0": {
           "Description": "Attack range is increased. Slam impact attack range increased.",
@@ -548,7 +548,7 @@
     "ArenaRush": {
       "Name": "Arena Rush",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill09_ArenaRush.png",
       "Levels": {
         "0": {
           "Description": "Create an enhancing field in a set radius. All party members within the area will have increased damage.",
@@ -594,7 +594,7 @@
       "Visible": false,
       "Name": "Duration Increase",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill09_ArenaRush_A.png",
       "Levels": {
         "0": {
           "Description": "Area duration increased.",
@@ -623,7 +623,7 @@
       "Visible": false,
       "Name": "Knock Out",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_ArenaRush_B.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill09_ArenaRush_B.png",
       "Levels": {
         "0": {
           "Description": "All hit enemies will be stunned for a brief moment.",
@@ -654,7 +654,7 @@
     "FlashStep": {
       "Name": "Flash Step",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_FlashStep.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill010_FlashStep.png",
       "Levels": {
         "0": {
           "Description": "Swiftly leap backwards, summoning a sword imbued with supernatural powers and firing it frontward.",
@@ -698,7 +698,7 @@
     "CrossStrike": {
       "Name": "Cross Strike",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_CrossStrike.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill011_CrossStrike.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -744,7 +744,7 @@
       "Visible": false,
       "Name": "Blaze",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_CrossStrike_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill011_CrossStrike_A.png",
       "Levels": {
         "0": {
           "Description": "A burning zone will appear when the sword energy explodes on the ground.",
@@ -775,7 +775,7 @@
     "WindBreak": {
       "Name": "Wind Break",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_WindBreak.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill012_WindBreak.png",
       "Levels": {
         "0": {
           "Description": "Charge your sword with energy behind your back , then release it. The sword energy flies in a straight line while penetrating enemies.",
@@ -783,7 +783,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
           }
         },
         "1": {
@@ -813,22 +813,22 @@
         }
       },
       "Extensions": [
-        "WindBreak-Charge"
+        "WindBreak-Rush"
       ]
     },
-    "WindBreak-Charge": {
+    "WindBreak-Rush": {
       "Visible": false,
-      "Name": "Charge",
+      "Name": "Rush",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_WindBreak_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill012_WindBreak_A.png",
       "Levels": {
         "0": {
-          "Description": "Fires multiple charged energy waves. Fires 2 waves with 0.7x the power of an original slash.",
+          "Description": "Fires sword waves for a certain period of time.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_A.{{auto}}"
           }
         },
         "1": {
@@ -841,7 +841,7 @@
           "RequiredLevel": 55,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_A.{{auto}}"
           }
         }
       }
@@ -849,7 +849,7 @@
     "BladeShower": {
       "Name": "Blade Shower",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BladeShower.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill013_BladeShower.png",
       "Levels": {
         "0": {
           "Description": "Throw your sword upwards, summoning a torrential rain of energy swords. Very large AoE.",
@@ -894,7 +894,7 @@
       "Visible": false,
       "Name": "Quickening",
       "ID": 29,
-      "Icon": "../assets/SkillIcons/Haru/BladeShower_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill013_BladeShower_A.png",
       "Levels": {
         "0": {
           "Description": "The number of hits increases according to attack speed.",
@@ -930,7 +930,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_SpinAttack_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill03_SpinAttack_A.png",
       "Levels": {
         "0": {
           "Description": "Chase enemies after the spin cutter.",
@@ -966,7 +966,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_FlashStep_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill010_FlashStep_A.png",
       "Levels": {
         "0": {
           "Description": "Attach the small sword to the big one and then throw it.",
@@ -1001,7 +1001,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Swordsfall.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill015_Swordsfall.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1047,7 +1047,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Warfare.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill016_Warfare.png",
       "Levels": {
         "0": {
           "Description": "After rushing to make two swords cross and attacking rushing, add a rotational attack towards the back and draw enemies.",
@@ -1088,7 +1088,7 @@
     "Trollsverd": {
       "Name": "Trollsverd",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_Trollsverd.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill014_Trollsverd.png",
       "Levels": {
         "0": {
           "Description": "?",
@@ -1096,7 +1096,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/A_6-1_Trollsverd.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_Trollsverd.{{auto}}"
           }
         },
         "1": {
@@ -1181,7 +1181,7 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "Special Ability Mastery",
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_OwnAbility.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill_OwnAbility.png",
       "Levels": {
         "0": {
           "Description": "Launch enemies within a certain range in midair.\nWhen used midair, unleash a fast dive kick.",
@@ -1450,7 +1450,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Icon_Ssword_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "For every 20th combo, increases Attack for 20 seconds.\n(Max Stack: 5)",
@@ -1479,11 +1479,7 @@
       "Passive": true,
       "Name": "Endless Struggle",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill_SGPassive.png",
       "Levels": {
         "0": {
           "Description": "Permanently increases Attack and Penetration.",
@@ -1513,7 +1509,6 @@
       "Name": "Sword of Revenge",
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
       "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
         "0": {
@@ -1533,12 +1528,12 @@
       "Passive": true,
       "Name": "Prelude",
       "DefaultLevel": 1,
-      "ID": 1099,
+      "ID": 2003,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Icon_SSword_Skill_BreakZenith.png",
+      "Icon": "../assets/SkillIcons/Haru/NSkill_Prelude.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1557,11 +1552,63 @@
         }
       }
     },
+    "Hysteria": {
+      "Passive": true,
+      "Name": "Hysteria",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Haru/NSkill_Hysteria.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "Awakening",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/NSkill_Supernova.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
     "HarusDesire": {
       "Passive": true,
       "Name": "Haru's Desire",
       "DefaultLevel": 1,
-      "ID": 1100,
+      "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1570,7 +1617,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Desire awakened for 60 seconds.",
+          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1579,8 +1626,8 @@
           }
         },
         "1": {
-          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
-          "RequiredLevel": 57,
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Blade Shower (lvl 42 Skill)\n-Trollsverd (lvl 62 Skill)\n-Prelude (EX Skill)",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

@@ -22,7 +22,7 @@
       "Name": "Sky High",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SkyHigh.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill01_SkyHigh.png",
       "Levels": {
         "0": {
           "Description": "Kick the enemies ahead of you, launching them to the air.",
@@ -68,7 +68,7 @@
       "Visible": false,
       "Name": "Impact Bullets",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SkyHigh_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill01_SkyHigh_A.png",
       "Levels": {
         "0": {
           "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
@@ -90,7 +90,7 @@
       "Visible": false,
       "Name": "Aerial Shots",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SkyHigh_B.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill01_SkyHigh_B.png",
       "Levels": {
         "0": {
           "Description": "Shoot continuously at enemies knocked into the air.",
@@ -122,7 +122,7 @@
       "Name": "Rapid Fire",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_RapidFire.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill02_RapidFire.png",
       "Levels": {
         "0": {
           "Description": "Quickly fire with both guns. Can move while using this skill.",
@@ -164,7 +164,7 @@
       "Name": "Gun Combination",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_GunCombination.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill03_GunCombination.png",
       "Levels": {
         "0": {
           "Description": "Approach the enemies with great speed, and then fire at enemies close range.",
@@ -209,7 +209,7 @@
       "Visible": false,
       "Name": "Penetration",
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_GunCombination_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill03_GunCombination_A.png",
       "Levels": {
         "0": {
           "Description": "Attacks done by the guns go through enemies.",
@@ -240,7 +240,7 @@
     "SlideStep": {
       "Name": "Slide Step",
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SlideStep.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlideStep.png",
       "Levels": {
         "0": {
           "Description": "Rapidly slide back and avoid incoming attacks.",
@@ -286,7 +286,7 @@
       "Visible": false,
       "Name": "Smoke Grenade",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SlideStep_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlideStep_A.png",
       "Levels": {
         "0": {
           "Description": "Throws a smoke screen in an area. Enemies in the smoke will be slowed.",
@@ -318,7 +318,7 @@
       "Visible": false,
       "Name": "Poison Gas Grenade",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SlideStep_B.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlideStep_B.png",
       "Levels": {
         "0": {
           "Description": "Throws a poisonous gas grenade in an area. Enemies in the smoke will be poisoned.",
@@ -349,7 +349,7 @@
     "TakeAim": {
       "Name": "Take Aim",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_TakeAim.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill05_TakeAim.png",
       "Levels": {
         "0": {
           "Description": "Improve concentration to aim at the enemy's weak points.",
@@ -390,7 +390,7 @@
     "FocusShot": {
       "Name": "Focus Shot",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_FocusShot.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill06_FocusShot.png",
       "Levels": {
         "0": {
           "Description": "Convert the guns into a machine gun, firing rapidly at enemies. The fire duration increases as the skill level increases.",
@@ -436,7 +436,7 @@
       "Visible": false,
       "Name": "Paralyzing Shot",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_FocusShot_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill06_FocusShot_A.png",
       "Levels": {
         "0": {
           "Description": "Fires a powerful energy at the end of the attack. Inflicts paralysis at the affected area.",
@@ -468,7 +468,7 @@
       "Visible": false,
       "Name": "Black Hole",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_FocusShot_B.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill06_FocusShot_B.png",
       "Levels": {
         "0": {
           "Description": "Fires a powerful energy at the end of the attack. Enemies will be pulled to the center of the affected area.",
@@ -499,7 +499,7 @@
     "CombatMaster": {
       "Name": "Combat Master",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_CombatMaster.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill07_CombatMaster.png",
       "Levels": {
         "0": {
           "Description": "Fastly move forward and fire at enemies close range.",
@@ -543,7 +543,7 @@
     "GuidedShot": {
       "Name": "Guided Shot",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_GuidedShot.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill08_GuidedShot.png",
       "Levels": {
         "0": {
           "Description": "Convert the guns into a sniper rifle, shooting a powerful shot that penetrates through enemies in a straight line.",
@@ -588,7 +588,7 @@
       "Visible": false,
       "Name": "Defense Penetration",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_GuidedShot_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill08_GuidedShot_A.png",
       "Levels": {
         "0": {
           "Description": "Attacks done to the enemy ignore enemy's defense.",
@@ -619,7 +619,7 @@
     "ElectricShot": {
       "Name": "Electric Shot",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_ElectricShot.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill09_ElectricShot.png",
       "Levels": {
         "0": {
           "Description": "Convert the guns into a grenade launcher, which fires a powerful grenade that explodes and deal damage to the enemies.",
@@ -663,7 +663,7 @@
     "NapalmBomb": {
       "Name": "Napalm Bomb",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_NapalmBomb.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill010_NapalmBomb.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -705,7 +705,7 @@
     "Sprinter": {
       "Name": "Sprinter",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_Splinter.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill011_Splinter.png",
       "Levels": {
         "0": {
           "Description": "Fire a bullet in the air that temporarily increases movement speed of all party members.",
@@ -750,7 +750,7 @@
       "Visible": false,
       "Name": "SG Recovery",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_Splinter_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill011_Splinter_A.png",
       "Levels": {
         "0": {
           "Description": "Gives a buff that recovers allies SG.",
@@ -781,7 +781,7 @@
     "HideAndSeek": {
       "Name": "Hide & Seek",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_Hide.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill012_Hide.png",
       "Levels": {
         "0": {
           "Description": "Charge up a barrier, while charging you are invincible. After the barrier actives, you will gain Super Armor and all damage will be avoided.",
@@ -822,7 +822,7 @@
     "SoulLauncher": {
       "Name": "Soul Launcher",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SoulLauncher.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill013_SoulLauncher.png",
       "Levels": {
         "0": {
           "Description": "By turning guns into grenade launchers, fire a barrage of artillery up to 10 meters. Hit enemies will be pushed back.",
@@ -867,7 +867,7 @@
       "Visible": false,
       "Name": "Concentrated Saturation",
       "ID": 29,
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SoulLauncher_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill013_SoulLauncher_A.png",
       "Levels": {
         "0": {
           "Description": "Left-click to focus on a narrow range.",
@@ -903,7 +903,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_CombatMaster_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill07_CombatMaster_A.png",
       "Levels": {
         "0": {
           "Description": "After attacking with combat master, performs an additional powerful attack.",
@@ -939,7 +939,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_ElectricShot_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill09_ElectricShot_A.png",
       "Levels": {
         "0": {
           "Description": "Fire a capsule, and summons a robot from the bombing site.",
@@ -980,7 +980,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_BlazeHover.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill015_BlazeHover.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1026,7 +1026,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_MissionCall.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill016_MissionCall.png",
       "Levels": {
         "0": {
           "Description": "Attack the specified area with a laser.",
@@ -1064,10 +1064,10 @@
         }
       }
     },
-    "Deadline": {
-      "Name": "Deadline",
+    "SwallowBullet": {
+      "Name": "Swallow Bullet",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Erwin/Deadline.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill014_Deadline.png",
       "Levels": {
         "0": {
           "Description": "?",
@@ -1075,7 +1075,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_6-1_Deadline.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SwallowBullet.{{auto}}"
           }
         },
         "1": {
@@ -1160,7 +1160,7 @@
       "DefaultLevel": 1,
       "ID": 1001,
       "Name": "Special Ability Mastery",
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_OwnAbility.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill_OwnAbility.png",
       "Levels": {
         "0": {
           "Description": "[Ground]\nThrow a slowing trap forward.\n[Air]\nShoot an electric wave at the ground to inflict paralysis. Two mines can be placed. Gain SG on hit. SG gain varies by monster-type.",
@@ -1429,7 +1429,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Icon_Gjazz_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill_SGPassive2.png",
       "Levels": {
         "0": {
           "Description": "When a skill that consumes 3 souls (beads) is used, attack power and defense penetration increase for a definite period of time.",
@@ -1458,11 +1458,7 @@
       "Passive": true,
       "Name": "Unexpected Luck",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill_SGPassive.png",
       "Levels": {
         "0": {
           "Description": "Increases your evasion",
@@ -1491,7 +1487,6 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
       "Name": "Bullet of Pleasure",
       "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
@@ -1512,12 +1507,12 @@
       "Passive": true,
       "Name": "Geometry Platoon",
       "DefaultLevel": 1,
-      "ID": 1099,
+      "ID": 2003,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Icon_GJazz_Skill_BreakZenith.png",
+      "Icon": "../assets/SkillIcons/Erwin/NSkill_GeometryPlatoon.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1536,11 +1531,63 @@
         }
       }
     },
+    "Hysteria": {
+      "Passive": true,
+      "Name": "Hysteria",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Erwin/NSkill_Hysteria.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "Awakening",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Erwin/NSkill_Supernova.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
     "ErwinsDesire": {
       "Passive": true,
       "Name": "Erwin's Desire",
       "DefaultLevel": 1,
-      "ID": 1100,
+      "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1549,7 +1596,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Desire awakened for 60 seconds.",
+          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1558,8 +1605,8 @@
           }
         },
         "1": {
-          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
-          "RequiredLevel": 57,
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Soul Launcher (lvl 42 Skill)\n-Deadline (lvl 62 Skill)\n-Geometry Platoon (EX Skill)",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

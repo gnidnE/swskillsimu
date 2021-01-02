@@ -256,52 +256,52 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "Damage: [65%]\nSA Break: [433%]\nSG Cost:[30]\nCooldown:[16s]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "Damage: [69%]\nSA Break: [454%]\nSG Cost:[30]\nCooldown:[16s]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "Damage: [77%]\nSA Break: [508%]\nSG Cost:[30]\nCooldown:[16s]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "Damage: [85%]\nSA Break: [562%]\nSG Cost:[30]\nCooldown:[16s]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "Damage: [98%]\nSA Break: [649%]\nSG Cost:[30]\nCooldown:[16s]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FearChain-RangeIncrease"
+        "FearChain-Stun"
       ]
     },
-    "FearChain-RangeIncrease": {
+    "FearChain-Stun": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "Stun",
       "ID": 8,
       "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_FearChain_A.PNG",
       "Levels": {
         "0": {
-          "Description": "Increase the attack range.",
+          "Description": "On hit, stuns enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain_A.{{auto}}"
           }
         },
         "1": {
@@ -312,18 +312,12 @@
         "2": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 1,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain_A_02.{{auto}}"
-          }
+          "RequiredSP": 1
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 32,
-          "RequiredSP": 2,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain_A_03.{{auto}}"
-          }
+          "RequiredSP": 2
         }
       }
     },
@@ -865,8 +859,8 @@
     "Extensions": [
       "DeathGuillotine-Execution"
     ]
-  },
-  "DeathGuillotine-Execution": {
+    },
+    "DeathGuillotine-Execution": {
     "Visible": false,
     "Name": "Execution",
     "ID": 29,
@@ -897,7 +891,7 @@
         "RequiredSP": 4
       }
     }
-  },
+    },
     "EvilSlash-Kusarigama": {
       "Visible": false,
       "Name": "Sickle and Chain",
@@ -986,7 +980,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FallingPetals.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_BloodyBlossom.{{auto}}"
           }
         },
         "1": {
@@ -1061,7 +1055,6 @@
         }
       }
     },
-
     "LeashedBeast": {
       "Name": "Leashed Beast",
       "ID": 27,
@@ -1073,7 +1066,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/C_6-1_LeashedBeast.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_LeashedBest.{{auto}}"
           }
         },
         "1": {
@@ -1098,7 +1091,6 @@
         }
       }
     },
-
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
@@ -1107,7 +1099,7 @@
       "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "Attack with your scythe.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1457,10 +1449,6 @@
       "Passive": true,
       "Name": "Intensifying Madness",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1490,7 +1478,6 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1012,
-      "RowSpan": 2,
       "Name": "Mad Scythe",
       "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
@@ -1511,7 +1498,7 @@
       "Passive": true,
       "Name": "Asmodeus",
       "DefaultLevel": 1,
-      "ID": 1099,
+      "ID": 2003,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1535,11 +1522,63 @@
         }
       }
     },
+    "Hysteria": {
+      "Passive": true,
+      "Name": "Hysteria",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_BreakErode.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "Awakening",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_BreakWakeup.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
     "LilysDesire": {
       "Passive": true,
       "Name": "Lily's Desire",
       "DefaultLevel": 1,
-      "ID": 1100,
+      "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1548,7 +1587,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Desire awakened for 60 seconds.",
+          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1557,8 +1596,8 @@
           }
         },
         "1": {
-          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
-          "RequiredLevel": 57,
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Death Guillotine (lvl 42 Skill)\n-Leashed Beast (lvl 62 Skill)\n-Asmodeus (EX Skill)",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

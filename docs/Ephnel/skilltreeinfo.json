@@ -749,7 +749,7 @@
       "Name": "Mambas Coil",
       "ID": 19,
       "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil.png",
-      "Assignable": false,
+      "Assignable": true,
       "Levels": {
         "0": {
           "Description": "",
@@ -1087,7 +1087,7 @@
         "ClassIndex": 1
       },
       "Icon": "../assets/SkillIcons/Ephnel/Skill015_Debris.png",
-      "Assignable": false,
+      "Assignable": true,
       "Levels": {
         "0": {
           "Description": "",
@@ -1564,10 +1564,6 @@
       "Passive": true,
       "Name": "Power Enhancement",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
       "Icon": "../assets/SkillIcons/Ephnel/PSkill_SGPassive.png",
       "Levels": {
         "0": {
@@ -1597,7 +1593,6 @@
       "ID": 1012,
       "Passive": true,
       "DefaultLevel": 1,
-      "RowSpan": 2,
       "Name": "Indomitable Spear",
       "Icon": "../assets/SkillIcons/Ephnel/PSkill_SoulMastery.png",
       "Levels": {
@@ -1618,12 +1613,12 @@
       "Passive": true,
       "Name": "Regions Bombing",
       "DefaultLevel": 1,
-      "ID": 1099,
+      "ID": 2003,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Ephnel/NSkill3_Exitus.png",
+      "Icon": "../assets/SkillIcons/Ephnel/NSkill3_Regions-Bombing.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1642,11 +1637,63 @@
         }
       }
     },
+    "Hysteria": {
+      "Passive": true,
+      "Name": "Hysteria",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Ephnel/NSkill1_Hysteria.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "Awakening",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/NSkill2_Supernova.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
     "EphnelsDesire": {
       "Passive": true,
       "Name": "Ephnel's Desire",
       "DefaultLevel": 1,
-      "ID": 1100,
+      "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1655,7 +1702,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Desire awakened for 60 seconds",
+          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1664,8 +1711,8 @@
           }
         },
         "1": {
-          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
-          "RequiredLevel": 57,
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Super Nova (lvl 42 Skill)\n-Titans Finger (lvl 62 Skill)\n-Regions-Bombing (EX Skill)",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }

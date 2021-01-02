@@ -18,11 +18,11 @@
     }
   },
   "Skills": {
-    "BudoCat": {
-      "Name": "Budo Cat",
+    "ScareClow": {
+      "Name": "Scare Clow",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Chii/Skill01_BudoCat.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill01_ScareClow.png",
       "Levels": {
         "0": {
           "Description": "You swing the Daito and attack opponents in front of you with multiple blade attacks. On the last additional attack, you absorb some of the HP of nearby opponents.",
@@ -30,7 +30,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_1-1_ScareClow.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_ScareClow.{{auto}}"
           }
         },
         "1": {
@@ -60,15 +60,15 @@
         }
       },
       "Extensions": [
-        "BudoCat-DarkBlood",
-        "BudoCat-Bleeding"
+        "ScareClow-A",
+        "ScareClow-B"
       ]
     },
-    "BudoCat-DarkBlood": {
+    "ScareClow-A": {
       "Visible": false,
-      "Name": "Sw.Bld:[Budo Cat]",
+      "Name": "Scare Clow-A",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
@@ -76,7 +76,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_1-1_ScareClow_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_ScareClow_A.{{auto}}"
           }
         },
         "1": {
@@ -96,11 +96,11 @@
         }
       }
     },
-    "BudoCat-Bleeding": {
+    "ScareClow-B": {
       "Visible": false,
-      "Name": "Bleeding",
+      "Name": "Scare Clow-B",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Chii/Skill01_BudoCat_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill01_ScareClow_B.png",
       "Levels": {
         "0": {
           "Description": "A successful final hit inflicts the opponents with Bleeding. You also receive SF.",
@@ -108,7 +108,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_1-1_ScareClow_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_ScareClow_B.{{auto}}"
           }
         },
         "1": {
@@ -128,11 +128,11 @@
         }
       }
     },
-    "FandangoMortale": {
-      "Name": "Fandango Mortale",
+    "OverturnGround": {
+      "Name": "Overturn Ground",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Chii/Skill02_Fandango_Mortale.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill02_OverturnGround.png",
       "Levels": {
         "0": {
           "Description": "You ram the Says into the ground forcefully to hurl opponents ahead of you into the air. You then hit opponents in the air with blade attacks. On an additional attack, you absorb some of the HP of nearby opponents.",
@@ -140,7 +140,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_1-2_OverturnGround.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_OverturnGround.{{auto}}"
           }
         },
         "1": {
@@ -170,15 +170,15 @@
         }
       },
       "Extensions": [
-        "FandangoMortale-DarkBlood",
-        "FandangoMortale-Drain"
+        "OverturnGround-A",
+        "OverturnGround-B"
       ]
     },
-    "FandangoMortale-DarkBlood": {
+    "OverturnGround-A": {
       "Visible": false,
-      "Name": "Sw.Bld:[Fandango Mortale]",
+      "Name": "Overturn Ground-A",
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from this with SoulStrike.",
@@ -186,7 +186,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_1-2_OverturnGround_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_OverturnGround_A.{{auto}}"
           }
         },
         "1": {
@@ -206,11 +206,11 @@
         }
       }
     },
-    "FandangoMortale-Drain": {
+    "OverturnGround-B": {
       "Visible": false,
-      "Name": "Drain",
+      "Name": "Overturn Ground-B",
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Chii/Skill02_Fandango_Mortale_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill02_OverturnGround_B.png",
       "Levels": {
         "0": {
           "Description": "On the first hit, the damage is dealt to the same extent as Drain. The second attack slows down the opponents it hits.",
@@ -218,7 +218,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_1-2_OverturnGround_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_OverturnGround_B.{{auto}}"
           }
         },
         "1": {
@@ -238,11 +238,11 @@
         }
       }
     },
-    "Budo1_TheHuntBegins": {
-      "Name": "Budo 1: The Hunt Begins",
+    "ThrustArrow": {
+      "Name": "Thrust Arrow",
       "DefaultLevel": 1,
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Chii/Skill03_Budo1_The_Hunt_Begins.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill03_ThrustArrow.png",
       "Levels": {
         "0": {
           "Description": "You charge forwards and carry out multiple agile blade attacks on enemies around you. The range of movement is extended depending on the charging time. After the move, you absorb some HP from nearby opponents.",
@@ -250,7 +250,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_1-3_ThrustArrow.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_ThrustArrow.{{auto}}"
           }
         },
         "1": {
@@ -280,13 +280,13 @@
         }
       },
       "Extensions": [
-        "Budo1_TheHuntBegins-Explosion"
+        "ThrustArrow-A"
       ]
     },
-    "Budo2_ClawsOut": {
-      "Name": "Budo 2: Claws Out",
+    "AllegroSweep": {
+      "Name": "Allegro Sweep",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill04_AllegroSweep.png",
       "Levels": {
         "0": {
           "Description": "You draw your Daito and carry out a blade attack on enemies in front of you. You draw your Daito Fatale immediately by left-clicking. Damage is reduced by 20% on immediate activation",
@@ -294,7 +294,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_2-1_AllegroSweep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_AllegroSweep.{{auto}}"
           }
         },
         "1": {
@@ -324,14 +324,14 @@
         }
       },
       "Extensions": [
-        "Budo2_ClawsOut-Charge"
+        "AllegroSweep-A"
       ]
     },
-    "Budo2_ClawsOut-Charge": {
+    "AllegroSweep-A": {
       "Visible": false,
       "Name": "Charge",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Chii/Skill04_Budo2_Claws_Out_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill04_AllegroSweep_A.png",
       "Levels": {
         "0": {
           "Description": "You increase your attack damage by charging up. The number of strikes and damage increase by max 3.2x the immediate attack damage depending on the charging level.",
@@ -339,7 +339,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_2-1_AllegroSweep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_AllegroSweep_A.{{auto}}"
           }
         },
         "1": {
@@ -359,10 +359,10 @@
         }
       }
     },
-    "MdSw_ATasteofBlood": {
-      "Name": "Md.Sw.: A Taste of Blood",
+    "SoulChange": {
+      "Name": "Soul Change",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Chii/Skill05_Md.Sw._A_Taste_of_Blood.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill05_SoulChange.png",
       "Levels": {
         "0": {
           "Description": "You consume HP to increase your combat strength for a short time",
@@ -370,7 +370,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_2-2_SoulChange.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_SoulChange.{{auto}}"
           }
         },
         "1": {
@@ -400,10 +400,10 @@
         }
       }
     },
-    "KittyKendo": {
-      "Name": "Kitty Kendo",
+    "SeizeField": {
+      "Name": "Seize Field",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Chii/Skill06_Kitty_Kendo.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill06_SeizeField.png",
       "Levels": {
         "0": {
           "Description": "You summon monster claws made of SoulDreg energy that pull nearby opponents towards you.",
@@ -411,7 +411,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_2-3_SeizeField.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_SeizeField.{{auto}}"
           }
         },
         "1": {
@@ -441,15 +441,15 @@
         }
       },
       "Extensions": [
-        "KittyKendo-DarkBlood",
-        "KittyKendo-Canine"
+        "SeizeField-A",
+        "SeizeField-B"
       ]
     },
-    "KittyKendo-DarkBlood": {
+    "SeizeField-A": {
       "Visible": false,
-      "Name": "Sw.Bld:[Kitty Kendo]",
+      "Name": "Seize Field-A",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "射擊結束時發射充滿強烈能量的一擊，並在命中敵人時生成麻痹區域。",
@@ -457,7 +457,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_2-3_SeizeField_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_SeizeField_A.{{auto}}"
           }
         },
         "1": {
@@ -477,11 +477,11 @@
         }
       }
     },
-    "KittyKendo-Canine": {
+    "SeizeField-B": {
       "Visible": false,
-      "Name": "Canine",
+      "Name": "Seize Field-B",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Chii/Skill06_Kitty_Kendo_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill06_SeizeField_B.png",
       "Levels": {
         "0": {
           "Description": "You penetrate the enemy's defense for 5 sec. and perform a central additional attack against a group of gathered opponents. Summoned canines also come in handy as a predator. You also receive SF.",
@@ -489,7 +489,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_2-3_SeizeField_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_SeizeField_B.{{auto}}"
           }
         },
         "1": {
@@ -509,10 +509,10 @@
         }
       }
     },
-    "Budo3_PreySighted": {
-      "Name": "Budo 3: Prey Sighted",
+    "PeregrineFalcon": {
+      "Name": "Peregrine Falcon",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Chii/Skill07_Budo3_Prey_Sighted.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill07_PeregrineFalcon.png",
       "Levels": {
         "0": {
           "Description": "You unleash blade attacks on enemies ahead of you and then hurl the Daito spinning forwards. It deals damage along its path and then returns to you. You can call your weapon back immediately by left-clicking.",
@@ -520,7 +520,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_3-1_PeregrineFalcon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_PeregrineFalcon.{{auto}}"
           }
         },
         "1": {
@@ -550,13 +550,13 @@
         }
       },
       "Extensions": [
-        "Budo3_PreySighted-Sync"
+        "PeregrineFalcon-A"
       ]
     },
-    "Budo4_MoonStep": {
-      "Name": "Budo 4: Moonset",
+    "MoonStep": {
+      "Name": "Moon Step",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Chii/Skill08_Budo4_Moonset.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_MoonStep.png",
       "Levels": {
         "0": {
           "Description": "You leap into the air and execute a 360° skywards strike. If you activate it again in the air, your attack finishes with you ramming your weapon into the ground in an elegant arc.",
@@ -564,7 +564,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_3-2_MoonStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_MoonStep.{{auto}}"
           }
         },
         "1": {
@@ -594,15 +594,15 @@
         }
       },
       "Extensions": [
-        "Budo4_MoonStep-Waylay",
-        "Budo4_MoonStep-Snapped"
+        "MoonStep-A",
+        "MoonStep-B"
       ]
     },
-    "Budo4_MoonStep-Waylay": {
+    "MoonStep-A": {
       "Visible": false,
-      "Name": "Waylay",
+      "Name": "Moon Step-A",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Chii/Skill08_Budo4_Moonset_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_MoonStep_A.png",
       "Levels": {
         "0": {
           "Description": "Additional hits double the damage",
@@ -610,7 +610,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_3-2_MoonStep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_MoonStep_A.{{auto}}"
           }
         },
         "1": {
@@ -630,11 +630,11 @@
         }
       }
     },
-    "Budo4_MoonStep-Snapped": {
+    "MoonStep-B": {
       "Visible": false,
-      "Name": "Snapped",
+      "Name": "MoonStep-B",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Chii/Skill08_Budo4_Moonset_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_MoonStep_B.png",
       "Levels": {
         "0": {
           "Description": "Lighting strikes all along the path of the additional hits and nearby opponents are hit with paralysis.",
@@ -642,7 +642,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_3-2_MoonStep_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_MoonStep_B.{{auto}}"
           }
         },
         "1": {
@@ -662,10 +662,10 @@
         }
       }
     },
-    "Budo5_CatbyNight": {
-      "Name": "Budo 5: Cat by Night",
+    "GrownCrevasse": {
+      "Name": "Grown Crevasse",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Chii/Skill09_Budo5_Cat_by_Night.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill09_GrownCrevasse.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -674,7 +674,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_3-3_GrownCrevasse.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_GrownCrevasse.{{auto}}"
           }
         },
         "1": {
@@ -704,10 +704,10 @@
         }
       }
     },
-    "Budoka6_DanceofDeath": {
-      "Name": "Budoka 6: Dance of Death",
+    "AccelerateGrinder": {
+      "Name": "Accelerate Grinder",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Chii/Skill010_Budoka6_Dance_of_Death.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill010_AccelerateGrinder.png",
       "Levels": {
         "0": {
           "Description": "You dance nimbly from side to side and strike swiftly with your blade. Your attack ends after a short time with a destructive strike like lighting. You can unleash the destructive blow immediately by right-clicking.",
@@ -715,7 +715,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_4-1_AccelerateGrinder.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_AccelearateGrinder.{{auto}}"
           }
         },
         "1": {
@@ -745,14 +745,14 @@
         }
       },
       "Extensions": [
-        "Budoka6_DanceofDeath-DarkBlood"
+        "AccelerateGrinder-A"
       ]
     },
-    "Budoka6_DanceofDeath-DarkBlood": {
+    "AccelerateGrinder-A": {
       "Visible": false,
-      "Name": "Sw.Bld:[Dance of Death]",
+      "Name": "Accelerate Grinder-A",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
@@ -760,7 +760,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_4-1_AccelerateGrinder_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_AccelearateGrinder_A.{{auto}}"
           }
         },
         "1": {
@@ -780,10 +780,10 @@
         }
       }
     },
-    "Budo0_PreyEliminated": {
-      "Name": "Budo 0: Prey Eliminated",
+    "AssassinateParty": {
+      "Name": "Assassinate Party",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Chii/Skill011_Budo0_Prey_Eliminated.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill011_AssassinateParty.png",
       "Levels": {
         "0": {
           "Description": "You knock your enemy back with a sharp slice and then attack them multiple with quick blows over a wide area.",
@@ -791,7 +791,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_4-2_AssassinateParty.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_AssasinateParty.{{auto}}"
           }
         },
         "1": {
@@ -821,14 +821,14 @@
         }
       },
       "Extensions": [
-        "Budo0_PreyEliminated-StrikeStorm"
+        "AssassinateParty-A"
       ]
     },
-    "Budo0_PreyEliminated-StrikeStorm": {
+    "AssassinateParty-A": {
       "Visible": false,
-      "Name": "Strike Storm",
+      "Name": "Assassinate Party-A",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Chii/Skill011_Budo0_Prey_Eliminated_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill011_AssassinateParty_A.png",
       "Levels": {
         "0": {
           "Description": "The number of attacks by Prey Eliminated increases.",
@@ -836,7 +836,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_4-2_AssassinateParty_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_AssasinateParty_A.{{auto}}"
           }
         },
         "1": {
@@ -856,10 +856,10 @@
         }
       }
     },
-    "KashasCarriage": {
-      "Name": "Kasha's Carriage",
+    "Thunderbolt": {
+      "Name": "Thunderbolt",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Chii/Skill012_Kashas_Carriage.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill012_Thunderbolt.png",
       "Levels": {
         "0": {
           "Description": "You transform your hand into that of a SoulDreg, using it to gather SoulDreg energy and then thrust the hand with the energy sphere forwards. The sphere rises until it explodes. The longer you charge it, the more damage it does. If you end the skill early the sphere immediately explodes.",
@@ -867,7 +867,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_4-3_Thunderbolt.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_Thunderbolt.{{auto}}"
           }
         },
         "1": {
@@ -897,14 +897,14 @@
         }
       },
       "Extensions": [
-        "KashasCarriage-DarkBlood"
+        "Thunderbolt-A"
       ]
     },
-    "KashasCarriage-DarkBlood": {
+    "Thunderbolt-A": {
       "Visible": false,
-      "Name": "Sw.Bld:[Kasha's Carriage]",
+      "Name": "Thunderbolt-A",
       "ID": 24,
-      "Icon": "../assets/SkillIcons/Chii/subSkill_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
       "Levels": {
         "0": {
           "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
@@ -912,7 +912,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_4-3_Thunderbolt_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_Thunderbolt_A.{{auto}}"
           }
         },
         "1": {
@@ -932,10 +932,10 @@
         }
       }
     },
-    "BakenekosCurse": {
-      "Name": "Bakeneko's Curse",
+    "GiantKatana": {
+      "Name": "Giant Katana",
       "ID": 25,
-      "Icon": "../assets/SkillIcons/Chii/Skill013_Bakenekos_Curse.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill013_GiantKatana.png",
       "Levels": {
         "0": {
           "Description": "You transform your hand into that of a SoulDreg and use it to gather SoulDreg energy within your weapon. After a mighty upward slice, you ram your weapon into the ground and unleash an explosion over a huge area.",
@@ -943,7 +943,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_5-1_GiantKatana.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_GiantKatana.{{auto}}"
           }
         },
         "1": {
@@ -973,14 +973,14 @@
         }
       },   
       "Extensions": [
-        "BakenekosCurse-Detection"
+        "GiantKatana-A"
       ]
     },
-    "BakenekosCurse-Detection": {
+    "GiantKatana-A": {
       "Visible": false,
-      "Name": "Detection",
+      "Name": "Giant Katana-A",
       "ID": 30,
-      "Icon": "../assets/SkillIcons/Chii/Skill013_Bakenekos_Curse_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill013_GiantKatana_A.png",
       "Levels": {
         "0": {
           "Description": "Leave a black blood mark during the attack.\nOnce the attack finishes, mark is detected and explodes.",
@@ -1008,15 +1008,15 @@
         }
       }
     },
-    "Budo1_TheHuntBegins-Explosion": {
+    "ThrustArrow-A": {
       "Visible": false,
-      "Name": "Explosion",
+      "Name": "Thrust Arrow-A",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/Skill03_Budo1_The_Hunt_Begins_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill03_ThrustArrow_A.png",
       "Levels": {
         "0": {
           "Description": "在發動最後攻擊之前點擊滑鼠右鍵，可再進行一次強大的近距離零式射擊。",
@@ -1024,7 +1024,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_ADV_1-3_ThrustArrow_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_ThrustArrow_A.{{auto}}"
           }
         },
         "1": {
@@ -1044,15 +1044,15 @@
         }
       }
     },
-    "Budo3_PreySighted-Sync": {
+    "PeregrineFalcon-A": {
       "Visible": false,
-      "Name": "Sync",
+      "Name": "Peregrine Falcon-A",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/Skill07_Budo3_Prey_Sighted_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill07_PeregrineFalcon_A.png",
       "Levels": {
         "0": {
           "Description": "在脈衝炸彈的引爆地點設置機械膠囊，並從中召喚出機器人幫助攻擊。",
@@ -1060,7 +1060,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_ADV_3-1_PeregrineFalcon_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/G_ADV_3-1_PeregrineFaB_Skill_PeregrineFalconlcon_A.{{auto}}"
           }
         },
         "1": {
@@ -1087,7 +1087,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/Skill015_Gale_Arrow.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill015_GaleArrow.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1096,7 +1096,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_ADV_5-2_GaleArrow.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_GaleArrow.{{auto}}"
           }
         },
         "1": {
@@ -1141,7 +1141,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_ADV_5-3_RedVine.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_RedVine.{{auto}}"
           }
         },
         "1": {
@@ -1171,10 +1171,10 @@
         }
       }
     },
-    "KashasCarriage2": {
-      "Name": "Kasha's Carriage",
+    "DevilsToy": {
+      "Name": "Devils Toy",
       "ID": 30,
-      "Icon": "../assets/SkillIcons/Chii/Skill014_Kashas_Carriage.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill014_DevilsToy.png",
       "Levels": {
         "0": {
           "Description": "朝前方射出特殊子彈，在固定區域內多次彈射並貫穿敵人。",
@@ -1182,7 +1182,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_6-1_DevilsToy.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_DevilsToy.{{auto}}"
           }
         },
         "1": {
@@ -1225,7 +1225,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_DefaultAttack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Attack_01.{{auto}}"
           }
         },
         "2": {
@@ -1233,7 +1233,7 @@
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_DefaultAttack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Attack_02.{{auto}}"
           }
         },
         "3": {
@@ -1241,7 +1241,7 @@
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_DefaultAttack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Attack_03.{{auto}}"
           }
         },
         "4": {
@@ -1249,7 +1249,7 @@
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_DefaultAttack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Attack_04.{{auto}}"
           }
         },
         "5": {
@@ -1257,7 +1257,7 @@
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_DefaultAttack_05.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Attack_05.{{auto}}"
           }
         }
       }
@@ -1275,7 +1275,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_SpecialAttack_OwnAbility.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
@@ -1308,7 +1308,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_Dodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1331,7 +1331,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_RisingRoll.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Roll_F.{{auto}}"
           }
         },
         "1": {
@@ -1364,7 +1364,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Run_F.{{auto}}"
           }
         },
         "1": {
@@ -1392,7 +1392,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_RiseAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
@@ -1425,7 +1425,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_DashAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_N_Attack_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1447,7 +1447,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_SpecialDodge.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
@@ -1479,7 +1479,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_SpecialDashAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
@@ -1565,11 +1565,7 @@
       "Passive": true,
       "Name": "Felina Fatale",
       "ID": 1011,
-      "RowSpan": {
-        "0": 2,
-        "1": 1
-      },
-      "Icon": "../assets/SkillIcons/Chii/PSkill_Felina_Fatale.png",
+      "Icon": "../assets/SkillIcons/Chii/PSkill_SGPassive.png",
       "Levels": {
         "0": {
           "Description": "Passive effect: max stamina increased",
@@ -1598,7 +1594,6 @@
       "ID": 1012,
       "Passive": true,
       "DefaultLevel": 1,
-      "RowSpan": 2,
       "Name": "Death Roar",
       "Icon": "../assets/SkillIcons/Common/Mourning.png",
       "Levels": {
@@ -1617,23 +1612,23 @@
     },
     "DestructionBlade": {
       "Passive": true,
-      "Name": "貓刀秘技 - 鬼滅之刃",
+      "Name": "Destruction Blade",
       "DefaultLevel": 1,
-      "ID": 1099,
+      "ID": 2003,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/NSkill3_Exitus.png",
+      "Icon": "../assets/SkillIcons/Chii/NSkill3_DestructionBlade.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在覺醒狀態下可以使用的技能。\n施展後覺醒狀態會被解除。\n將武器變形為長弓，向前快速射出凝聚靈魂能量而成的球體，最終向前一斬使球體爆裂，對敵人造成巨量傷害。\n使用條件：處於覺醒狀態。",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_ADV_SV_EX_DestructionBlade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_DestructionBlade.{{auto}}"
           }
         },
         "1": {
@@ -1643,11 +1638,63 @@
         }
       }
     },
+    "Hysteria": {
+      "Passive": true,
+      "Name": "Hysteria",
+      "DefaultLevel": 1,
+      "ID": 2001,
+      "Icon": "../assets/SkillIcons/Chii/NSkill1_Hysteria.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_SoulViper_01.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
+    "Awakening": {
+      "Passive": true,
+      "Name": "Awakening",
+      "DefaultLevel": 1,
+      "ID": 2002,
+      "RequireClass": {
+        "CompareType": "atmost",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Chii/NSkill2_Supernova.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Chii/B_Skill_SoulViper_02.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        }
+      }
+    },
     "ChiisDesire": {
       "Passive": true,
       "Name": "Chii's Desire",
       "DefaultLevel": 1,
-      "ID": 1100,
+      "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1656,7 +1703,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Desire awakened for 60 seconds",
+          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1665,8 +1712,8 @@
           }
         },
         "1": {
-          "Effect": "Damage：[+20%]\nAttack Speed: [+20%]\nMovement Speed: [+30%]\nSF Consumption [-20%]",
-          "RequiredLevel": 57,
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Giant Katana (lvl 42 Skill)\n-Devils Toy (lvl 62 Skill)\n-Destruction Blade (EX Skill)",
+          "RequiredLevel": 65,
           "RequiredSP": 0
         }
       }
