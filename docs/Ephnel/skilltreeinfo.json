@@ -131,7 +131,7 @@
     "SonicBoom": {
       "Name": "Sonic Boom",
       "DefaultLevel": 1,
-      "ID": 3,
+      "ID": 4,
       "Icon": "../assets/SkillIcons/Ephnel/Skill02_SonicBoom.png",
       "Levels": {
         "0": {
@@ -176,7 +176,7 @@
     "LightningRod": {
       "Name": "Lightning Rod",
       "DefaultLevel": 1,
-      "ID": 4,
+      "ID": 5,
       "Icon": "../assets/SkillIcons/Ephnel/Skill03_LightningRod.png",
       "Levels": {
         "0": {
@@ -220,7 +220,7 @@
     "LightningRod-A": {
       "Visible": false,
       "Name": "Additional Installation",
-      "ID": 5,
+      "ID": 6,
       "Icon": "../assets/SkillIcons/Ephnel/Skill03_LightningRod_A.png",
       "Levels": {
         "0": {
@@ -251,7 +251,7 @@
     },
     "SwiftStab": {
       "Name": "Swift Stab",
-      "ID": 6,
+      "ID": 7,
       "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab.png",
       "Levels": {
         "0": {
@@ -297,7 +297,7 @@
     "SwiftStab-A": {
       "Visible": false,
       "Name": "Damage increase",
-      "ID": 7,
+      "ID": 8,
       "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab_A.png",
       "Levels": {
         "0": {
@@ -329,7 +329,7 @@
     "SwiftStab-B": {
       "Visible": false,
       "Name": "Float",
-      "ID": 8,
+      "ID": 9,
       "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab_B.png",
       "Levels": {
         "0": {
@@ -360,7 +360,7 @@
     },
     "FieldOctagon": {
       "Name": "Field Octagon",
-      "ID": 9,
+      "ID": 10,
       "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon.png",
       "Levels": {
         "0": {
@@ -405,7 +405,7 @@
     "FieldOctagon-A": {
       "Visible": false,
       "Name": "Increased Efficiency",
-      "ID": 10,
+      "ID": 11,
       "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon_A.png",
       "Levels": {
         "0": {
@@ -436,7 +436,7 @@
     },
     "SpearDance": {
       "Name": "Spear Dance",
-      "ID": 11,
+      "ID": 12,
       "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance.png",
       "Levels": {
         "0": {
@@ -481,7 +481,7 @@
     "SpearDance-A": {
       "Visible": false,
       "Name": "Increased Efficiency",
-      "ID": 12,
+      "ID": 13,
       "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance_A.png",
       "Levels": {
         "0": {
@@ -512,7 +512,7 @@
     },
     "ViciousWoodpecker": {
       "Name": "Vicious Woodpecker",
-      "ID": 13,
+      "ID": 14,
       "Icon": "../assets/SkillIcons/Ephnel/Skill07_ViciousWoodpecker.png",
       "Levels": {
         "0": {
@@ -556,8 +556,9 @@
     },
     "AngelicStep": {
       "Name": "Angelic Step",
-      "ID": 14,
+      "ID": 15,
       "Icon": "../assets/SkillIcons/Ephnel/Skill08_AngelicStep.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "",
@@ -597,7 +598,7 @@
     },
     "Amazones": {
       "Name": "Amazones",
-      "ID": 15,
+      "ID": 16,
       "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones.png",
       "Levels": {
         "0": {
@@ -643,7 +644,7 @@
     "Amazones-A": {
       "Visible": false,
       "Name": "Add Projectiles",
-      "ID": 16,
+      "ID": 17,
       "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_A.png",
       "Levels": {
         "0": {
@@ -675,7 +676,7 @@
     "Amazones-B": {
       "Visible": false,
       "Name": "Sniping",
-      "ID": 17,
+      "ID": 18,
       "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_B.png",
       "Levels": {
         "0": {
@@ -706,7 +707,7 @@
     },
     "SupportCall": {
       "Name": "Support Call",
-      "ID": 18,
+      "ID": 19,
       "Icon": "../assets/SkillIcons/Ephnel/Skill010_SupportCall.png",
       "Levels": {
         "0": {
@@ -747,7 +748,7 @@
     },
     "MambasCoil": {
       "Name": "Mambas Coil",
-      "ID": 19,
+      "ID": 20,
       "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil.png",
       "Assignable": true,
       "Levels": {
@@ -794,7 +795,7 @@
     "MambasCoil-A": {
       "Visible": false,
       "Name": "Lightning Field",
-      "ID": 20,
+      "ID": 21,
       "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_A.png",
       "Levels": {
         "0": {
@@ -826,7 +827,7 @@
     "MambasCoil-B": {
       "Visible": false,
       "Name": "Increased hits",
-      "ID": 21,
+      "ID": 22,
       "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_B.png",
       "Levels": {
         "0": {
@@ -857,7 +858,7 @@
     },
     "AscendingTornado": {
       "Name": "Ascending Tornado",
-      "ID": 22,
+      "ID": 23,
       "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado.png",
       "Levels": {
         "0": {
@@ -902,7 +903,7 @@
     "AscendingTornado-A": {
       "Visible": false,
       "Name": "Move",
-      "ID": 23,
+      "ID": 24,
       "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado_A.png",
       "Levels": {
         "0": {
@@ -933,7 +934,7 @@
     },
     "SuperNova": {
       "Name": "Super Nova",
-      "ID": 24,
+      "ID": 25,
       "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova.png",
       "Levels": {
         "0": {
@@ -975,42 +976,10 @@
         "SuperNova-A"
       ]
     },
-    "SuperNova-A": {
-      "Visible": false,
-      "Name": "Overcharge",
-      "ID": 29,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova_A.png",
-      "Levels": {
-        "0": {
-          "Description": "",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 68,
-          "RequiredSP": 2
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 70,
-          "RequiredSP": 3
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 72,
-          "RequiredSP": 4
-        }
-      }
-    },
     "SonicBoom-A": {
       "Visible": false,
       "Name": "Rapid linkage",
-      "ID": 26,
+      "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1046,7 +1015,7 @@
     "ViciousWoodpecker-A": {
       "Visible": false,
       "Name": "The last shelling",
-      "ID": 27,
+      "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1081,13 +1050,12 @@
     },
     "Debris": {
       "Name": "Debris",
-      "ID": 28,
+      "ID": 29,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
       "Icon": "../assets/SkillIcons/Ephnel/Skill015_Debris.png",
-      "Assignable": true,
       "Levels": {
         "0": {
           "Description": "",
@@ -1127,12 +1095,13 @@
     },
     "CloudSix": {
       "Name": "Cloud-Six",
-      "ID": 27,
+      "ID": 30,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
       "Icon": "../assets/SkillIcons/Ephnel/Skill016_Cloud-Six.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "",
@@ -1172,7 +1141,7 @@
     },
     "TitansFinger": {
       "Name": "Titans Finger",
-      "ID": 25,
+      "ID": 26,
       "Icon": "../assets/SkillIcons/Ephnel/Skill014_TitansFinger.png",
       "Levels": {
         "0": {
@@ -1203,6 +1172,38 @@
           "Effect": "",
           "RequiredLevel": 71,
           "RequiredSP": 3
+        }
+      }
+    },
+    "SuperNova-A": {
+      "Visible": false,
+      "Name": "Overcharge",
+      "ID": 29,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova_A.png",
+      "Levels": {
+        "0": {
+          "Description": "",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 68,
+          "RequiredSP": 2
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 70,
+          "RequiredSP": 3
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
         }
       }
     },
