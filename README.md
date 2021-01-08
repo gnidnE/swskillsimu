@@ -3,6 +3,7 @@ This is the skill tree simulator for SoulWorker game which is developed by Lion 
 The tree is developed with information source mainly from the Steam/Japanese and Korean Version of SoulWorker. Feel free to fork and edit it (and redistribute/republish) for other regions.
 
 [Use the simulator released on Github Pages](https://eden333.github.io/swskillsimu/).
+
 [CHANGELOG](https://github.com/Eden333/swskillsimu/blob/master/CHANGELOG)
 
 # Priorities/Milestones
