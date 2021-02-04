@@ -1178,7 +1178,7 @@
     "SuperNova-A": {
       "Visible": false,
       "Name": "Overcharge",
-      "ID": 29,
+      "ID": 31,
       "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova_A.png",
       "Levels": {
         "0": {
