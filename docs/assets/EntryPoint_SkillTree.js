@@ -671,7 +671,7 @@ jQuery(document).ready(function ($) {
     var cached_querstring = new URLSearchParams(window.location.search),
         showassignment = cached_querstring.get("sa"),
         clevel = cached_querstring.get("lv") || cached_querstring.get("level") || window.appdata.maxCharacterLevel,
-        param_selectedclass = cached_querstring.get("c") || ____current_SkillCore.GetAvailableClassIndex();
+        param_selectedclass = cached_querstring.get("c") || ____current_SkillCore.GetAvailableClassIndex("C");
 
     ____current_SkillCore.ReadTree(function (data) {
             if (isNaN(clevel)) {
