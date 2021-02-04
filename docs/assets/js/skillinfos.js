@@ -9,7 +9,8 @@ const ClassOperator = {
 
 const ClassIndex = {
     Base: 0,
-    Upgraded: 1
+    Advancement: 1,
+    Desire: 2
 }
 
 function SkillInfo(_skilltreeCore, __id, skillName, infos) {
