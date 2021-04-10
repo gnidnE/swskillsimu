@@ -977,7 +977,7 @@
     "ExceedDriver-Manual": {
       "Visible": false,
       "Name": "Manual",
-      "ID": 30,
+      "ID": 31,
       "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ExceedDriver_A.png",
       "Levels": {
         "0": {

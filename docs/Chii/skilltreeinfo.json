@@ -979,7 +979,7 @@
     "GiantKatana-A": {
       "Visible": false,
       "Name": "Giant Katana-A",
-      "ID": 30,
+      "ID": 31,
       "Icon": "../assets/SkillIcons/Chii/Skill013_GiantKatana_A.png",
       "Levels": {
         "0": {
