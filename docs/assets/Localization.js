@@ -59,9 +59,11 @@
             ChangeClass: "<b>Changing class will reset your skill tree.</b><br/>Are you sure you want to change class?",
         },
         ToolTip: {
-            CurrentHeader: "Current",
-            AfterHeader: "After",
-            NoInfoAvailable: "No info available",
+            CurrentHeader: "{Current}",
+            AfterHeader: "{After}",
+            NoInfo: "<No info available>",
+            NoSkill: "Not skilled",
+            MaxSkill: "Already Max Skill Level",
             SkillEffectHeader: "Effect",
             SkillDescriptionHeader: "Description",
         },
@@ -79,7 +81,7 @@
             // {0}: the value of the effect. See effect value below
             SkillChainEffect_DamageUp: "Damage +{0}",
             SkillChainEffect_CooldownReduce: "Cooldown -{0}",
-            SkillChainEffect_SGCostReduce: "SG Cost -{0}",
+            SkillChainEffect_SGCostReduce: "SG consumption -{0}",
 
             // Second skill chain effect value
             SkillChainEffect2nd_DamageValue: "4%",

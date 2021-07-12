@@ -3,7 +3,7 @@
     // modify the data here to your liking
     let app_data = {
             "github-repo": "Eden333/swskillsimu", // Set to null to let auto-detect from Github Page default URL, unreliable though
-            maxCharacterLevel: 72 // Default max level will be used if the value cannot be found in a character's JSON data
+            maxCharacterLevel: 76 // Default max level will be used if the value cannot be found in a character's JSON data
         },
         // SP table.
         table_SkillPoint = {
@@ -46,7 +46,11 @@
                 69: 1,
                 70: 3,
                 71: 1,
-                72: 1
+                72: 1,
+                73: 1,
+                74: 1,
+                75: 1,
+                76: 1
             }
         },
         table_Character = {

@@ -1184,22 +1184,22 @@
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },        
         "4": {
-          "Effect": "Damage: ?%\nSA Damage: ?%\nSG Cost: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
           "RequiredLevel": 71,
           "RequiredSP": 3
         }
@@ -1274,17 +1274,17 @@
           }
         },
         "1": {
-          "Effect": "[Ground]\nSG Recovery: 15%\nBuff effect: 'Fire' in 5s\nCooldown: 15s\n[Air]\nDamage: 382%\nSA Damage: 197%\nCooldown: 10s",
+          "Effect": "[Ground]\nSG Recovery: 15%\nBuff effect: 'Fire' in 5s\nCooldown: 15s\n[Air]\nDamage: 382%\nSuper Armor Break: 197%\nCooldown: 10s",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nSG Recovery: 20%\nBuff effect: 'Fire' in 7s\nCooldown: 15s\n[Air]\nDamage: 384%\nSA Damage: 202%\nCooldown: 10s\nSG Gain: +20%",
+          "Effect": "[Ground]\nSG Recovery: 20%\nBuff effect: 'Fire' in 7s\nCooldown: 15s\n[Air]\nDamage: 384%\nSuper Armor Break: 202%\nCooldown: 10s\nSG Gain: +20%",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nSG Recovery: 25%\nBuff effect: 'Fire' in 10s\nCooldown: 15s\n[Air]\nDamage: 430%\nSA Damage: 249%\nCooldown: 10s\nSG Gain: +70%",
+          "Effect": "[Ground]\nSG Recovery: 25%\nBuff effect: 'Fire' in 10s\nCooldown: 15s\n[Air]\nDamage: 430%\nSuper Armor Break: 249%\nCooldown: 10s\nSG Gain: +70%",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1424,7 +1424,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSA Damage: 38%",
+          "Effect": "Damage: 115%\nSuper Armor Break: 38%",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1478,7 +1478,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1566,23 +1566,23 @@
       "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SGPassive.png",
       "Levels": {
         "0": {
-          "Description": "Reduces SG Cost of skills",
+          "Description": "Reduces SG consumption of skills",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG Cost Rate: -5%",
+          "Effect": "SG consumption Rate: -5%",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG Cost Rate: -8%",
+          "Effect": "SG consumption Rate: -8%",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG Cost Rate: -10%",
+          "Effect": "SG consumption Rate: -10%",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1636,16 +1636,16 @@
         }
       }
     },
-    "Hysteria": {
+    "Frenzy": {
       "Passive": true,
-      "Name": "Hysteria",
+      "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": 2001,
       "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BreakErode.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,

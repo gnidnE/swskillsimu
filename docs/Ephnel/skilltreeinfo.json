@@ -34,27 +34,27 @@
           }
         },
         "1": {
-          "Effect": "[Hit Down]\nDamage: 150%\nSuper Armor Break: 44%\n[Return in Air]\nDamage: 225%\nSuper Armor Break: 66%\n[Additional Explosion]\nDamage: 37%\nSuper Armor Break: 11%\nSG Cost: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 150%\nSuper Armor Break: 44%\n[Return in Air]\nDamage: 225%\nSuper Armor Break: 66%\n[Additional Explosion]\nDamage: 37%\nSuper Armor Break: 11%\nSG consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Hit Down]\nDamage: 165%\nSuper Armor Break: 48%\n[Return in Air]\nDamage: 248%\nSuper Armor Break: 72%\n[Additional Explosion]\nDamage: 41%\nSuper Armor Break: 12%\nSG Cost: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 165%\nSuper Armor Break: 48%\n[Return in Air]\nDamage: 248%\nSuper Armor Break: 72%\n[Additional Explosion]\nDamage: 41%\nSuper Armor Break: 12%\nSG consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Hit Down]\nDamage: 185%\nSuper Armor Break: 54%\n[Return in Air]\nDamage: 278%\nSuper Armor Break: 81%\n[Additional Explosion]\nDamage: 46%\nSuper Armor Break: 13%\nSG Cost: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 185%\nSuper Armor Break: 54%\n[Return in Air]\nDamage: 278%\nSuper Armor Break: 81%\n[Additional Explosion]\nDamage: 46%\nSuper Armor Break: 13%\nSG consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Hit Down]\nDamage: 211%\nSuper Armor Break: 62%\n[Return in Air]\nDamage: 317%\nSuper Armor Break: 93%\n[Additional Explosion]\nDamage: 52%\nSuper Armor Break: 15%\nSG Cost: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 211%\nSuper Armor Break: 62%\n[Return in Air]\nDamage: 317%\nSuper Armor Break: 93%\n[Additional Explosion]\nDamage: 52%\nSuper Armor Break: 15%\nSG consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%\nSG Cost: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%\nSG consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -996,17 +996,17 @@
           }
         },
         "1": {
-          "Effect": "Damage: 267%\nSA Damage: 138%",
+          "Effect": "Damage: 267%\nSuper Armor Break: 138%",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 294%\nSA Damage: 152%",
+          "Effect": "Damage: 294%\nSuper Armor Break: 152%",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 347%\nSA Damage: 179%",
+          "Effect": "Damage: 347%\nSuper Armor Break: 179%",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -1429,7 +1429,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 116%\nSA Damage: 46%",
+          "Effect": "Damage: 116%\nSuper Armor Break: 46%",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1483,7 +1483,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1638,16 +1638,16 @@
         }
       }
     },
-    "Hysteria": {
+    "Frenzy": {
       "Passive": true,
-      "Name": "Hysteria",
+      "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": 2001,
       "Icon": "../assets/SkillIcons/Ephnel/NSkill1_Hysteria.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,

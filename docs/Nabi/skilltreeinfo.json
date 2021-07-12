@@ -758,6 +758,7 @@
       "Name": "Granade Launcher",
       "ID": 21,
       "Icon": "../assets/SkillIcons/Nabi/Skill11_GranadeLauncher.png",
+      "Assignable": false,
       "Levels": {
         "0": {
           "Description": "공중상태에서 그레네이드 런처를 꺼내 유탄을 여러발 발사하여 지상을 폭격합니다.",
@@ -1015,7 +1016,7 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill015_TripleSniping.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/B_Skill_TripleSniping.{{auto}}"
           }
         },
         "1": {
@@ -1380,7 +1381,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 116%\nSA Damage: 46%",
+          "Effect": "Damage: 116%\nSuper Armor Break: 46%",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1583,22 +1584,22 @@
           }
         },
         "1": {
-          "Effect": "Damage: [7250%]\nSA Damage: [7250%]",
+          "Effect": "Damage: [7250%]\nSuper Armor Break: [7250%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }
     },
-    "Hysteria": {
+    "Frenzy": {
       "Passive": true,
-      "Name": "Hysteria",
+      "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": 2001,
       "Icon": "../assets/SkillIcons/Nabi/NSkill1_Hysteria.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken your Hysteria and Temporarily gain Boosted Stats.",
+          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,

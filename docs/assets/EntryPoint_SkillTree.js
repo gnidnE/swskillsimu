@@ -564,19 +564,22 @@ jQuery(document).ready(function ($) {
                         let before = currentEffect.SkillEffect;
                         let after = "";
                         if (afterEffect) after = afterEffect.SkillEffect;
-                        stringbuilder.push("[" + window.SkillTreeData.Localization.ToolTip.CurrentHeader + "]");
+                        stringbuilder.push(window.SkillTreeData.Localization.ToolTip.CurrentHeader);
+                        stringbuilder.push("\n");
                         if (before) {
-                            stringbuilder.push("\n");
                             stringbuilder.push(before);
-                        } else {
-                            stringbuilder.push("\n<" + window.SkillTreeData.Localization.ToolTip.NoInfoAvailable + ">");
                         }
-                        stringbuilder.push("\n\n[" + window.SkillTreeData.Localization.ToolTip.AfterHeader + "]");
+                        else {
+                            stringbuilder.push(window.SkillTreeData.Localization.ToolTip.NoSkill);
+                        }
+                        stringbuilder.push("\n\n");
+                        stringbuilder.push(window.SkillTreeData.Localization.ToolTip.AfterHeader);
+                        stringbuilder.push("\n");
                         if (after) {
-                            stringbuilder.push("\n");
                             stringbuilder.push(after);
-                        } else {
-                            stringbuilder.push("\n<" + window.SkillTreeData.Localization.ToolTip.NoInfoAvailable + ">");
+                        }
+                        else {
+                            stringbuilder.push(window.SkillTreeData.Localization.ToolTip.NoSkill);
                         }
                     }
                     break;
@@ -585,16 +588,16 @@ jQuery(document).ready(function ($) {
                     if (currentEffect) {
                         let desc = currentEffect.SkillDescription;
                         let eff = currentEffect.SkillEffect;
-                        if (desc) {
-                            stringbuilder.push("[" + window.SkillTreeData.Localization.ToolTip.SkillDescriptionHeader + "]\n");
-                            stringbuilder.push(desc);
-                        }
                         if (eff) {
+                            //stringbuilder.push("[" + window.SkillTreeData.Localization.ToolTip.SkillDescriptionHeader + "]\n");
+                            stringbuilder.push(eff);
+                        }
+                        if (desc) {
                             if (stringbuilder.length !== 0) {
                                 stringbuilder.push("\n\n");
                             }
-                            stringbuilder.push("[" + window.SkillTreeData.Localization.ToolTip.SkillEffectHeader + "]\n");
-                            stringbuilder.push(eff);
+                            //stringbuilder.push("[" + window.SkillTreeData.Localization.ToolTip.SkillEffectHeader + "]\n");
+                            stringbuilder.push(desc);
                         }
                     }
                     break;
@@ -605,19 +608,22 @@ jQuery(document).ready(function ($) {
                         let before = currentEffect.SkillEffect;
                         let after = "";
                         if (afterEffect) after = afterEffect.SkillEffect;
-                        stringbuilder.push("[" + window.SkillTreeData.Localization.ToolTip.CurrentHeader + "]");
+                        stringbuilder.push(window.SkillTreeData.Localization.ToolTip.CurrentHeader);
+                        stringbuilder.push("\n");
                         if (before) {
-                            stringbuilder.push("\n");
                             stringbuilder.push(before);
-                        } else {
-                            stringbuilder.push("\n<" + window.SkillTreeData.Localization.ToolTip.NoInfoAvailable + ">");
                         }
-                        stringbuilder.push("\n\n[" + window.SkillTreeData.Localization.ToolTip.AfterHeader + "]");
+                        else {
+                            stringbuilder.push(window.SkillTreeData.Localization.ToolTip.NoSkill);
+                        }
+                        stringbuilder.push("\n\n");
+                        stringbuilder.push(window.SkillTreeData.Localization.ToolTip.AfterHeader);
+                        stringbuilder.push("\n");
                         if (after) {
-                            stringbuilder.push("\n");
                             stringbuilder.push(after);
-                        } else {
-                            stringbuilder.push("\n<" + window.SkillTreeData.Localization.ToolTip.NoInfoAvailable + ">");
+                        }
+                        else {
+                            stringbuilder.push(window.SkillTreeData.Localization.ToolTip.MaxSkill);
                         }
                     }
                     break;
