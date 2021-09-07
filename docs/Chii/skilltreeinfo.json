@@ -1204,6 +1204,11 @@
           "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
           "RequiredLevel": 71,
           "RequiredSP": 3
+        },
+        "5": {
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "RequiredLevel": 74,
+          "RequiredSP": 3
         }
       }
     },

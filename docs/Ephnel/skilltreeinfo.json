@@ -1172,6 +1172,11 @@
           "Effect": "",
           "RequiredLevel": 71,
           "RequiredSP": 3
+        },
+        "5": {
+          "Effect": "",
+          "RequiredLevel": 74,
+          "RequiredSP": 3
         }
       }
     },

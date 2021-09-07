@@ -115,7 +115,7 @@
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_PhantomRelease_A.png",
       "Levels": {
         "0": {
-          "Description": "Inflicts more blow with extended attract range.",
+          "Description": "Number of Hits and Range increased.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -299,7 +299,7 @@
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_HystericShock_A.png",
       "Levels": {
         "0": {
-          "Description": "Inflicts more blows.",
+          "Description": "Inflict more blows.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -405,14 +405,14 @@
         }
       },
       "Extensions": [
-        "BeadsPlay-Paralyze",
-        "BeadsPlay-Enchant"
+        "BeadsPlay-Staccato",
+        "BeadsPlay-Upgrade"
       ]
     },
-    "BeadsPlay-Paralyze": {
+    "BeadsPlay-Staccato": {
       "ID": 11,
       "Visible": false,
-      "Name": "Paralyze",
+      "Name": "Staccato",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_A.png",
       "Levels": {
         "0": {
@@ -441,10 +441,10 @@
         }
       }
     },
-    "BeadsPlay-Enchant": {
+    "BeadsPlay-Upgrade": {
       "ID": 12,
       "Visible": false,
-      "Name": "Enchant",
+      "Name": "Upgrade",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_B.png",
       "Levels": {
         "0": {
@@ -785,17 +785,17 @@
         }
       },
       "Extensions": [
-        "BlackMorass-TimeReduction"
+        "BlackMorass-Summoning"
       ]
     },
-    "BlackMorass-TimeReduction": {
+    "BlackMorass-Summoning": {
       "ID": 21,
       "Visible": false,
       "Name": "Time Reduction",
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BlackMorass_A.png",
       "Levels": {
         "0": {
-          "Description": "After creating a swamp, you are free to act. Disappears after attacking 3 times.",
+          "Description": "You can act freely after summoning Howlers; they\n will disappear after attacking 3 times.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1473,7 +1473,7 @@
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "Cooldown Reduction applies to use of Trouble Pass, Beads Play, Best Tempo or Soul Scream in support mode and when finishing Bass Attack.",
+          "Description": "Activated according to the following:\nUse of Trouble Pass, Beads Play, Best Tempo\nUse of [Stella Time] Right-Click combo\nUse of [Bass Attack] final attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0

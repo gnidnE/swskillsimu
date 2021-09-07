@@ -19,13 +19,13 @@
   },
   "Skills": {
     "HitandRun": {
-      "Name": "Hit and Run",
+      "Name": "Hit And Run",
       "DefaultLevel": 1,
       "ID": 1,
       "Icon": "../assets/SkillIcons/Nabi/Skill01_HitandRun.png",
       "Levels": {
         "0": {
-          "Description": "전방에 소총을 발사하여 뒤로 빠르게 이동하고 이동 중 잠시 무적상태가 되며 폭심지를 2개 설치합니다.\n이동 후 4발까지 권총 사격을 할 수 있으며 권총 사격은 얇은 상처 디버프를 남깁니다.\n얇은 상처는 샷건 타격을 받으면 폭발하여 추가피해를 줍니다.\n소총 및 권총 사격 시 근접해 있는 적을 넉백 시킵니다.",
+          "Description": "After quickly moving back after firing straight ahead, you are able to place 2 Bomb Wicks while being in a temporary invincible state. After movement, you are able to shoot up to 4 Pistol Fires leaving a Light Injury DeBuff. Light Injury will explode when Damaged by Pistol leaving Additional Damage. Surrounding enemies will be Knocked Back when using Rifle and Pistol Fires.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -34,44 +34,44 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 소총 사격]\n피해량: [101%]\n슈퍼아머 파괴량: [110%]\n\n[스킬 정보: 권총 사격]\n타격당 피해량: [101%]\n타격당 슈퍼아머 파괴량: [110%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 일반]\nSG 소모량: [30]\n재사용 대기 시간: [15초]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [101%]\nSuper Armor Break: [110%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [101%]\nSuper Armor Break per Hit: [110%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [15s]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[스킬 정보: 소총 사격]\n피해량: [112%]\n슈퍼아머 파괴량: [121%]\n\n[스킬 정보: 권총 사격]\n타격당 피해량: [112%]\n타격당 슈퍼아머 파괴량: [121%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 일반]\nSG 소모량: [30]\n재사용 대기 시간: [14초]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [112%]\nSuper Armor Break: [122%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [112%]\nSuper Armor Break per Hit: [122%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [14s]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 소총 사격]\n피해량: [125%]\n슈퍼아머 파괴량: [136%]\n\n[스킬 정보: 권총 사격]\n타격당 피해량: [125%]\n타격당 슈퍼아머 파괴량: [136%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 일반]\nSG 소모량: [30]\n재사용 대기 시간: [13초]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [125%]\nSuper Armor Break: [136%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [125%]\nSuper Armor Break per Hit: [136%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [13s]",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 소총 사격]\n피해량: [143%]\n슈퍼아머 파괴량: [155%]\n\n[스킬 정보: 권총 사격]\n타격당 피해량: [143%]\n타격당 슈퍼아머 파괴량: [155%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 일반]\nSG 소모량: [30]\n재사용 대기 시간: [12초]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [143%]\nSuper Armor Break: [155%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [143%]\nSuper Armor Break per Hit: [155%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [12s]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 소총 사격]\n피해량: [168%]\n슈퍼아머 파괴량: [183%]\n\n[스킬 정보: 권총 사격]\n타격당 피해량: [168%]\n타격당 슈퍼아머 파괴량: [183%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 일반]\nSG 소모량: [30]\n재사용 대기 시간: [10초]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [168%]\nSuper Armor Break: [183%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [168%]\nSuper Armor Break per Hit: [183%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10s]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "HitandRun-A",
+        "HitandRun-Wick",
         "HitandRun-B"
       ]
     },
-    "HitandRun-A": {
+    "HitandRun-Wick": {
       "Visible": false,
-      "Name": "Hit and Run-A",
+      "Name": "Wick",
       "ID": 2,
       "Icon": "../assets/SkillIcons/Nabi/Skill01_HitandRun_A.png",
       "Levels": {
         "0": {
-          "Description": "폭심지를 추가로 설치하며 권총사격을 할 수 없습니다.",
+          "Description": "Firing Pistols while placing additional Bomb Wicks are not possible.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -80,7 +80,7 @@
           }
         },
         "1": {
-          "Effect": "[특성 정보: 폭심지]\n폭심지 설치 수: [6개]",
+          "Effect": "Number of Bomb Wick Placements: [6]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1123,6 +1123,11 @@
         "4": {
           "Effect": "[스킬 정보: 충격파]\n피해량: [2999%]\n슈퍼아머 파괴량: [2999%]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [55초]",
           "RequiredLevel": 71,
+          "RequiredSP": 3
+        },
+        "5": {
+          "Effect": "[스킬 정보: 충격파]\n피해량: [?%]\n슈퍼아머 파괴량: [?%]\n\n[스킬 정보: 일반]\nSG 소모량: [80]\n재사용 대기 시간: [55초]",
+          "RequiredLevel": 74,
           "RequiredSP": 3
         }
       }
