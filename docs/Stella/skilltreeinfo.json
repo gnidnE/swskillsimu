@@ -1473,13 +1473,13 @@
       "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "Activated according to the following:\nUse of Trouble Pass, Beads Play, Best Tempo\nUse of [Stella Time] Right-Click combo\nUse of [Bass Attack] final attack",
+          "Description": "Passive Effect:\nCurrent Skill's Cooldown [10%]\nReduction and Recover [11] SV\nPassive Cooldown: [15sec]",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Cooldown reduction: [5%]\n SV gain: [9]\nCooldown: [15s]",
+          "Effect": "How To Activate\n- Use of [Trouble Pass], [Beads Play], [Best Tempo]\n- Use of [Stella Time] Right-Click combo\n- Use of [Bass Attack] Finish Attack",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
