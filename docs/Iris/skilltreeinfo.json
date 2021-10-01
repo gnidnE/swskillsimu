@@ -359,77 +359,77 @@
         }
       }
     },
-    "SpiralPierce": {
-      "Name": "Spiral Pierce",
+    "FortressCannon": {
+      "Name": "Fortress Cannon",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FortressCannon.png",
       "Levels": {
         "0": {
-          "Description": "Projects a drill which continuously attacks at gun point. Shock waves are released at the end",
+          "Description": "Gathering energy in the barrel, attracts enemies, and then Blows up enemies with a sphere.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FortressCannon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [40%]\nSuper Armor Break per hit: [89%]\n\n[Explosion]\nDamage per hit: [59%]\nSuper Armor Break per hit: [134%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [42%]\nSuper Armor Break per hit: [94%]\n\n[Explosion]\nDamage per hit: [62%]\nSuper Armor Break per hit: [141%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [47%]\nSuper Armor Break per hit: [105%]\n\n[Explosion]\nDamage per hit: [70%]\nSuper Armor Break per hit: [158%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [52%]\nSuper Armor Break per hit: [116%]\n\n[Explosion]\nDamage per hit: [77%]\nSuper Armor Break per hit: [175%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [60%]\nSuper Armor Break per hit: [134%]\n\n[Explosion]\nDamage per hit: [89%]\nSuper Armor Break per hit: [201%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "SpiralPierce-Gale"
+        "FortressCannon-QuickCharge"
       ]
     },
-    "SpiralPierce-Gale": {
+    "FortressCannon-QuickCharge": {
       "Visible": false,
-      "Name": "Gale",
+      "Name": "Quick Charge",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SpiralPierce_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FortressCannon_A.png",
       "Levels": {
         "0": {
-          "Description": "A whirlwind with a pulling effect is added",
+          "Description": "The time it takes to gather enemies is reduced and the explosion damage increases.\n",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralPierce_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_FortressCannon_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [109%]\nSuper Armor Break per hit: [185%]\n\n[Explosion]\nDamage per hit: [328%]\nSuper Armor Break per hit: [554%]\n\nDebuff: Reduces [20%] Defense on Hit for [5s]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [126%]\nSuper Armor Break per hit: [213%]\n\n[Explosion]\nDamage per hit: [379%]\nSuper Armor Break per hit: [639%]\n\nDebuff: Reduces [20%] Defense on Hit for [5s]",
           "RequiredLevel": 27,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Energy Sphere]\nDamage per hit: [143%]\nSuper Armor Break per hit: [242%]\n\n[Explosion]\nDamage per hit: [429%]\nSuper Armor Break per hit: [725%]\n\nDebuff: Reduces [20%] Defense on Hit for [5s]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         }
@@ -694,48 +694,48 @@
         }
       }
     },
-    "FullBurst": {
-      "Name": "Full Burst",
+    "Liberator": {
+      "Name": "Liberator",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FullBurst.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Liberator.png",
       "Levels": {
         "0": {
-          "Description": "Hold the weapon with both hands and swing it like a laser beam sword and attack the enemies",
+          "Description": "A momentary explosion of energy Fire. The closer you get, the more damage you deal.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Liberator.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "Damage per hit: [416%]\nSuper Armor Break per hit: [53%]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "Damage per hit: [436%]\nSuper Armor Break per hit: [56%]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "Damage per hit: [488%]\nSuper Armor Break per hit: [63%]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "Damage per hit: [540%]\nSuper Armor Break per hit: [69%]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "Damage per hit: [624%]\nSuper Armor Break per hit: [79%]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FullBurst-Rend"
+        "Liberator-Stabilizer"
       ]
     },
     "EternalAbyss": {
@@ -1042,37 +1042,37 @@
         }
       }
     },
-    "FullBurst-Rend": {
+    "Liberator-Stabilizer": {
       "Visible": false,
-      "Name": "Rend",
+      "Name": "Stabilizer",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FullBurst_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_Liberator_A.png",
       "Levels": {
         "0": {
-          "Description": "???",
+          "Description": "The bullet range is increased and regardless of the distance same Damage is applied.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FullBurst_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/B_Skill_Liberator_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "Damage per hit: [499%]\nSuper Armor Break per hit: [63%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "Damage per hit: [565%]\nSuper Armor Break per hit: [72%]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "Damage per hit: [664%]\nSuper Armor Break per hit: [84%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
