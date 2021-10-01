@@ -362,7 +362,7 @@
     "FortressCannon": {
       "Name": "Fortress Cannon",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FortressCannon.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FortressCannon.png",
       "Levels": {
         "0": {
           "Description": "Gathering energy in the barrel, attracts enemies, and then Blows up enemies with a sphere.",
@@ -407,10 +407,10 @@
       "Visible": false,
       "Name": "Quick Charge",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FortressCannon_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FortressCannon_A.png",
       "Levels": {
         "0": {
-          "Description": "The time it takes to gather enemies is reduced and the explosion damage increases.\n",
+          "Description": "The time it takes to gather enemies is reduced and the explosion damage increases.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -697,7 +697,7 @@
     "Liberator": {
       "Name": "Liberator",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Liberator.png",
+      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_Liberator.png",
       "Levels": {
         "0": {
           "Description": "A momentary explosion of energy Fire. The closer you get, the more damage you deal.",

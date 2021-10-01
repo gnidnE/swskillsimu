@@ -94,7 +94,7 @@
                 url: "Chii",
                 selectImage: "assets/images/Chii_Select.png"
 			},
-			"Ephnel Bombingspear": {
+			"Ephnel": {
                 url: "Ephnel",
                 selectImage: "assets/images/Ephnel_Select.png"
 			},
