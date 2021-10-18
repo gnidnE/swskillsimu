@@ -260,27 +260,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [65%]\nSA Break: [433%]\nSG consumption:[30]\nCooldown:[16s]",
+          "Effect": "Damage: [65%]\nSA Break: [433%]\nSG consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: [69%]\nSA Break: [454%]\nSG consumption:[30]\nCooldown:[16s]",
+          "Effect": "Damage: [69%]\nSA Break: [454%]\nSG consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [77%]\nSA Break: [508%]\nSG consumption:[30]\nCooldown:[16s]",
+          "Effect": "Damage: [77%]\nSA Break: [508%]\nSG consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: [85%]\nSA Break: [562%]\nSG consumption:[30]\nCooldown:[16s]",
+          "Effect": "Damage: [85%]\nSA Break: [562%]\nSG consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [98%]\nSA Break: [649%]\nSG consumption:[30]\nCooldown:[16s]",
+          "Effect": "Damage: [98%]\nSA Break: [649%]\nSG consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }

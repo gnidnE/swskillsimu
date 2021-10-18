@@ -34,27 +34,27 @@
           }
         },
         "1": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [101%]\nSuper Armor Break: [110%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [101%]\nSuper Armor Break per Hit: [110%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [15s]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [101%]\nSuper Armor Break: [110%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [101%]\nSuper Armor Break per Hit: [110%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [112%]\nSuper Armor Break: [122%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [112%]\nSuper Armor Break per Hit: [122%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [14s]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [112%]\nSuper Armor Break: [122%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [112%]\nSuper Armor Break per Hit: [122%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [14sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [125%]\nSuper Armor Break: [136%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [125%]\nSuper Armor Break per Hit: [136%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [13s]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [125%]\nSuper Armor Break: [136%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [125%]\nSuper Armor Break per Hit: [136%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [13sec]",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [143%]\nSuper Armor Break: [155%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [143%]\nSuper Armor Break per Hit: [155%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [12s]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [143%]\nSuper Armor Break: [155%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [143%]\nSuper Armor Break per Hit: [155%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [12sec]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [168%]\nSuper Armor Break: [183%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [168%]\nSuper Armor Break per Hit: [183%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10s]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [168%]\nSuper Armor Break: [183%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [168%]\nSuper Armor Break per Hit: [183%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -124,27 +124,27 @@
           }
         },
         "1": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [316%]\nSuper Armor Break: [210%]\n\n[Skill Info: Basic]\nDebuff: Stun [3s]\nSG consumption: [35]\nCooldown: [26s]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [316%]\nSuper Armor Break: [210%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [26sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [346%]\nSuper Armor Break: [231%]\n\n[Skill Info: Basic]\nDebuff: Stun [3s]\nSG consumption: [35]\nCooldown: [24s]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [346%]\nSuper Armor Break: [231%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [24sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [388%]\nSuper Armor Break: [259%]\n\n[Skill Info: Basic]\nDebuff: Stun [3s]\nSG consumption: [35]\nCooldown: [22s]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [388%]\nSuper Armor Break: [259%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [22sec]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [442%]\nSuper Armor Break: [295%]\n\n[Skill Info: Basic]\nDebuff: Stun [3s]\nSG consumption: [35]\nCooldown: [20s]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [442%]\nSuper Armor Break: [295%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [524%]\nSuper Armor Break: [349%]\n\n[Skill Info: Basic]\nDebuff: Stun [3s]\nSG consumption: [35]\nCooldown: [18s]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [524%]\nSuper Armor Break: [349%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [18sec]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -190,27 +190,27 @@
           }
         },
         "1": {
-          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [12s]",
+          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [12sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [11s]",
+          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [11sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [10s]",
+          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [10sec]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [9s]",
+          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [9sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [8s]",
+          "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [8sec]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -236,17 +236,17 @@
           }
         },
         "1": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [5x]\nDuration: [30s]",
+          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [5x]\nDuration: [30sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [7x]\nDuration: [30s]",
+          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [7x]\nDuration: [30sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [10x]\nDuration: [30s]",
+          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [10x]\nDuration: [30sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
@@ -268,17 +268,17 @@
           }
         },
         "1": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [5x]\nDuration: [30s]",
+          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [5x]\nDuration: [30sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [7x]\nDuration: [30s]",
+          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [7x]\nDuration: [30sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [10x]\nDuration: [30s]",
+          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [10x]\nDuration: [30sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
@@ -299,27 +299,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 샷건]\nDamage: [240%]\nSuper Armor Break: [120%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [20s]",
+          "Effect": "[스킬 정보: 샷건]\nDamage: [240%]\nSuper Armor Break: [120%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [19s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [19sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [18s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [18sec]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [384%]\n타격당 Super Armor Break: [192%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [17s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [384%]\n타격당 Super Armor Break: [192%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [17sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [485%]\n타격당 Super Armor Break: [242%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [15s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [485%]\n타격당 Super Armor Break: [242%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [15sec]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
@@ -340,27 +340,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [83%]\nSuper Armor Break: [23%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [83%]\n타격당 Super Armor Break: [23%]\n가스 Duration: [10s]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [83%]\nSuper Armor Break: [23%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [83%]\n타격당 Super Armor Break: [23%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [88%]\nSuper Armor Break: [24%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [88%]\n타격당 Super Armor Break: [24%]\n가스 Duration: [10s]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [88%]\nSuper Armor Break: [24%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [88%]\n타격당 Super Armor Break: [24%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [96%]\nSuper Armor Break: [27%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [96%]\n타격당 Super Armor Break: [27%]\n가스 Duration: [10s]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [96%]\nSuper Armor Break: [27%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [96%]\n타격당 Super Armor Break: [27%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [109%]\nSuper Armor Break: [30%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [109%]\n타격당 Super Armor Break: [30%]\n가스 Duration: [10s]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [109%]\nSuper Armor Break: [30%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [109%]\n타격당 Super Armor Break: [30%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [125%]\nSuper Armor Break: [35%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [125%]\n타격당 Super Armor Break: [35%]\n가스 Duration: [10s]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [125%]\nSuper Armor Break: [35%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [125%]\n타격당 Super Armor Break: [35%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
@@ -422,27 +422,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [735%]\n타격당 Super Armor Break: [735%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [735%]\n타격당 Super Armor Break: [735%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [771%]\n타격당 Super Armor Break: [771%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [771%]\n타격당 Super Armor Break: [771%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [862%]\n타격당 Super Armor Break: [862%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [862%]\n타격당 Super Armor Break: [862%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [955%]\n타격당 Super Armor Break: [955%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [955%]\n타격당 Super Armor Break: [955%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [1102%]\n타격당 Super Armor Break: [1102%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [1102%]\n타격당 Super Armor Break: [1102%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
@@ -466,27 +466,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [300%]\n타격당 Super Armor Break: [360%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [300%]\n타격당 Super Armor Break: [360%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [328%]\n타격당 Super Armor Break: [393%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [328%]\n타격당 Super Armor Break: [393%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [394%]\n타격당 Super Armor Break: [472%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [394%]\n타격당 Super Armor Break: [472%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [462%]\n타격당 Super Armor Break: [555%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [462%]\n타격당 Super Armor Break: [555%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [567%]\n타격당 Super Armor Break: [681%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [567%]\n타격당 Super Armor Break: [681%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -575,27 +575,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [556%]\n총 Super Armor Break: [417%]\n\n[스킬 정보: 사격]\n Damage: [556%]\n Super Armor Break: [417%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [2%]\n버프: 치명타 피해량 [50%]\n\n[Skill Info: Basic]\n드론 유지시간: [20s]\nSG consumption: [80]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: 폭격]\n총 Damage: [556%]\n총 Super Armor Break: [417%]\n\n[스킬 정보: 사격]\n Damage: [556%]\n Super Armor Break: [417%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [2%]\n버프: 치명타 피해량 [50%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [667%]\n총 Super Armor Break: [500%]\n\n[스킬 정보: 사격]\n Damage: [667%]\n Super Armor Break: [500%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [4%]\n버프: 치명타 피해량 [100%]\n\n[Skill Info: Basic]\n드론 유지시간: [20s]\nSG consumption: [80]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: 폭격]\n총 Damage: [667%]\n총 Super Armor Break: [500%]\n\n[스킬 정보: 사격]\n Damage: [667%]\n Super Armor Break: [500%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [4%]\n버프: 치명타 피해량 [100%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [801%]\n총 Super Armor Break: [601%]\n\n[스킬 정보: 사격]\n Damage: [801%]\n Super Armor Break: [601%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [6%]\n버프: 치명타 피해량 [150%]\n\n[Skill Info: Basic]\n드론 유지시간: [20s]\nSG consumption: [80]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: 폭격]\n총 Damage: [801%]\n총 Super Armor Break: [601%]\n\n[스킬 정보: 사격]\n Damage: [801%]\n Super Armor Break: [601%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [6%]\n버프: 치명타 피해량 [150%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [961%]\n총 Super Armor Break: [721%]\n\n[스킬 정보: 사격]\n Damage: [961%]\n Super Armor Break: [721%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [8%]\n버프: 치명타 피해량 [200%]\n\n[Skill Info: Basic]\n드론 유지시간: [20s]\nSG consumption: [80]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: 폭격]\n총 Damage: [961%]\n총 Super Armor Break: [721%]\n\n[스킬 정보: 사격]\n Damage: [961%]\n Super Armor Break: [721%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [8%]\n버프: 치명타 피해량 [200%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 33,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [1153%]\n총 Super Armor Break: [865%]\n\n[스킬 정보: 사격]\n Damage: [1153%]\n Super Armor Break: [862%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [10%]\n버프: 치명타 피해량 [250%]\n\n[Skill Info: Basic]\n드론 유지시간: [20s]\nSG consumption: [80]\nCooldown: [40s]",
+          "Effect": "[스킬 정보: 폭격]\n총 Damage: [1153%]\n총 Super Armor Break: [865%]\n\n[스킬 정보: 사격]\n Damage: [1153%]\n Super Armor Break: [862%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [10%]\n버프: 치명타 피해량 [250%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
@@ -619,27 +619,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [80%]\n타격당 Super Armor Break: [40%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [80%]\n타격당 Super Armor Break: [40%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [92%]\n타격당 Super Armor Break: [46%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [92%]\n타격당 Super Armor Break: [46%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [111%]\n타격당 Super Armor Break: [55%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [111%]\n타격당 Super Armor Break: [55%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [128%]\n타격당 Super Armor Break: [64%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [384%]\n타격당 Super Armor Break: [192%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [128%]\n타격당 Super Armor Break: [64%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [384%]\n타격당 Super Armor Break: [192%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [161%]\n타격당 Super Armor Break: [80%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [485%]\n타격당 Super Armor Break: [242%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [161%]\n타격당 Super Armor Break: [80%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [485%]\n타격당 Super Armor Break: [242%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
@@ -660,27 +660,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [108%] \n타격당 Super Armor Break: [163%]\n미니건 유지시간: [5s]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45s]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [108%] \n타격당 Super Armor Break: [163%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [120%] \n타격당 Super Armor Break: [180%]\n미니건 유지시간: [5s]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45s]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [120%] \n타격당 Super Armor Break: [180%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [132%] \n타격당 Super Armor Break: [199%]\n미니건 유지시간: [5s]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45s]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [132%] \n타격당 Super Armor Break: [199%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [145%] \n타격당 Super Armor Break: [218%]\n미니건 유지시간: [5s]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45s]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [145%] \n타격당 Super Armor Break: [218%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [160%] \n타격당 Super Armor Break: [240%]\n미니건 유지시간: [5s]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45s]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [160%] \n타격당 Super Armor Break: [240%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
@@ -706,17 +706,17 @@
           }
         },
         "1": {
-          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [168%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3s]",
+          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [168%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3sec]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [176%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3s]",
+          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [176%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3sec]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [185%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3s]",
+          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [185%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3sec]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
@@ -770,27 +770,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [499%]\n타격당 Super Armor Break: [499%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [499%]\n타격당 Super Armor Break: [499%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [576%]\n타격당 Super Armor Break: [576%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [576%]\n타격당 Super Armor Break: [576%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [662%]\n타격당 Super Armor Break: [662%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [662%]\n타격당 Super Armor Break: [662%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [749%]\n타격당 Super Armor Break: [749%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [749%]\n타격당 Super Armor Break: [749%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [921%]\n타격당 Super Armor Break: [921%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [921%]\n타격당 Super Armor Break: [921%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
@@ -811,27 +811,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [3%] 회복\n버프 효과 : 초당 SG [5%] 회복\n버프 Duration: [4s]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [60s]",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [3%] 회복\n버프 효과 : 초당 SG [5%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [60sec]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [4%] 회복\n버프 효과 : 초당 SG [6%] 회복\n버프 Duration: [4s]\n\n[Skill Info: Basic]\nSG consumption: [65]\nCooldown: [60s]",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [4%] 회복\n버프 효과 : 초당 SG [6%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [65]\nCooldown: [60sec]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [5%] 회복\n버프 효과 : 초당 SG [7%] 회복\n버프 Duration: [4s]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [60s]",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [5%] 회복\n버프 효과 : 초당 SG [7%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [60sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [6%] 회복\n버프 효과 : 초당 SG [8%] 회복\n버프 Duration: [4s]\n\n[Skill Info: Basic]\nSG consumption: [50]\nCooldown: [60s]",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [6%] 회복\n버프 효과 : 초당 SG [8%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [7%] 회복\n버프 효과 : 초당 SG [10%] 회복\n버프 Duration: [4s]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [60s]",
+          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [7%] 회복\n버프 효과 : 초당 SG [10%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 46,
           "RequiredSP": 3
         }
@@ -856,12 +856,12 @@
           }
         },
         "1": {
-          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20s]",
+          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20sec]",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20s]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]",
+          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20sec]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]",
           "RequiredLevel": 52,
           "RequiredSP": 1,
           "Preview": {
@@ -869,7 +869,7 @@
           }
         },
         "3": {
-          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20s]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]\n\n[특성 정보: 보급상자]\n재사용 대기시간 감소: [10%]\n보급 개수: [2개]\n\n보급상자는 시전자만 획득 가능 합니다.",
+          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20sec]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]\n\n[특성 정보: 보급상자]\n재사용 대기시간 감소: [10%]\n보급 개수: [2개]\n\n보급상자는 시전자만 획득 가능 합니다.",
           "RequiredLevel": 55,
           "RequiredSP": 2,
           "Preview": {
@@ -893,27 +893,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2397%]\nSuper Armor Break: [2876%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45s]",
+          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2397%]\nSuper Armor Break: [2876%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2636%]\nSuper Armor Break: [3163%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45s]",
+          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2636%]\nSuper Armor Break: [3163%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2954%]\nSuper Armor Break: [3545%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45s]",
+          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2954%]\nSuper Armor Break: [3545%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [3367%]\nSuper Armor Break: [4040%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45s]",
+          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [3367%]\nSuper Armor Break: [4040%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 52,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [3972%]\nSuper Armor Break: [4766%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45s]",
+          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [3972%]\nSuper Armor Break: [4766%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 55,
           "RequiredSP": 3
         }
@@ -978,12 +978,12 @@
           }
         },
         "1": {
-          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20s]\n소환 포탑 개수: [1개]",
+          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20sec]\n소환 포탑 개수: [1개]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20s]\n소환 포탑 개수: [2개]",
+          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20sec]\n소환 포탑 개수: [2개]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
           "Preview": {
@@ -991,7 +991,7 @@
           }        
         },
         "3": {
-          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20s]\n소환 포탑 개수: [3개]",
+          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20sec]\n소환 포탑 개수: [3개]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "Preview": {
@@ -1020,27 +1020,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [1840%]\nSuper Armor Break: [1656%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 저격]\nDamage: [1840%]\nSuper Armor Break: [1656%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [2092%]\nSuper Armor Break: [1882%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 저격]\nDamage: [2092%]\nSuper Armor Break: [1882%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [2417%]\nSuper Armor Break: [2176%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 저격]\nDamage: [2417%]\nSuper Armor Break: [2176%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [2842%]\nSuper Armor Break: [2557%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 저격]\nDamage: [2842%]\nSuper Armor Break: [2557%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [3456%]\nSuper Armor Break: [3110%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30s]",
+          "Effect": "[스킬 정보: 저격]\nDamage: [3456%]\nSuper Armor Break: [3110%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1065,27 +1065,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [173%]\n타격당 Super Armor Break: [156%]\n\n[스킬 정보: 난사]\nDamage: [722%]\nSuper Armor Break: [650%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [173%]\n타격당 Super Armor Break: [156%]\n\n[스킬 정보: 난사]\nDamage: [722%]\nSuper Armor Break: [650%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [197%]\n타격당 Super Armor Break: [177%]\n\n[스킬 정보: 난사]\nDamage: [821%]\nSuper Armor Break: [738%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [197%]\n타격당 Super Armor Break: [177%]\n\n[스킬 정보: 난사]\nDamage: [821%]\nSuper Armor Break: [738%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [228%]\n타격당 Super Armor Break: [205%]\n\n[스킬 정보: 난사]\nDamage: [948%]\nSuper Armor Break: [853%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [228%]\n타격당 Super Armor Break: [205%]\n\n[스킬 정보: 난사]\nDamage: [948%]\nSuper Armor Break: [853%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [267%]\n타격당 Super Armor Break: [241%]\n\n[스킬 정보: 난사]\nDamage: [1114%]\nSuper Armor Break: [1003%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [267%]\n타격당 Super Armor Break: [241%]\n\n[스킬 정보: 난사]\nDamage: [1114%]\nSuper Armor Break: [1003%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [325%]\n타격당 Super Armor Break: [293%]\n\n[스킬 정보: 난사]\nDamage: [1355%]\nSuper Armor Break: [1220%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25s]",
+          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [325%]\n타격당 Super Armor Break: [293%]\n\n[스킬 정보: 난사]\nDamage: [1355%]\nSuper Armor Break: [1220%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1106,27 +1106,27 @@
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2135%]\nSuper Armor Break: [2135%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55s]",
+          "Effect": "[스킬 정보: 충격파]\nDamage: [2135%]\nSuper Armor Break: [2135%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2348%]\nSuper Armor Break: [2348%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55s]",
+          "Effect": "[스킬 정보: 충격파]\nDamage: [2348%]\nSuper Armor Break: [2348%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2631%]\nSuper Armor Break: [2631%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55s]",
+          "Effect": "[스킬 정보: 충격파]\nDamage: [2631%]\nSuper Armor Break: [2631%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2999%]\nSuper Armor Break: [2999%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55s]",
+          "Effect": "[스킬 정보: 충격파]\nDamage: [2999%]\nSuper Armor Break: [2999%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 71,
           "RequiredSP": 3
         },
         "5": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [?%]\nSuper Armor Break: [?%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55s]",
+          "Effect": "[스킬 정보: 충격파]\nDamage: [?%]\nSuper Armor Break: [?%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 74,
           "RequiredSP": 3
         }
@@ -1227,7 +1227,7 @@
       "Icon": "../assets/SkillIcons/Nabi/Skill_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "[스킬 정보: 지상]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\nSG소모량: [30]\n재사용 대기시간: [10s]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\nSG소모량: [30]\n재사용 대기시간: [10s]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
+          "Description": "[스킬 정보: 지상]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1241,12 +1241,12 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[스킬 정보: 지상]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\nSG소모량: [30]\n재사용 대기시간: [10s]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\nSG소모량: [30]\n재사용 대기시간: [10s]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
+          "Effect": "[스킬 정보: 지상]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 지상]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\nSG소모량: [30]\n재사용 대기시간: [10s]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\nSG소모량: [30]\n재사용 대기시간: [10s]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
+          "Effect": "[스킬 정보: 지상]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1440,7 +1440,7 @@
           }
         },
         "1": {
-          "Effect": "폭심지 설치 수: [3개]\n스태미나 소모량: [20]\n재사용 대기시간: [6s]",
+          "Effect": "폭심지 설치 수: [3개]\n스태미나 소모량: [20]\n재사용 대기시간: [6sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }

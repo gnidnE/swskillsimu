@@ -78,7 +78,7 @@ div.character {
 }
 
 #tooltip {
-    max-width: 300px;
+    max-width: 344px; /*toolbox width, was 300*/
     width: auto;
     height: auto;
     position: fixed;

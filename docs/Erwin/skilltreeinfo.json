@@ -702,77 +702,77 @@
         }
       }
     },
-    "Sprinter": {
-      "Name": "Sprinter",
+    "ChainBombing": {
+      "Name": "Chain Bombing",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Erwin/Skill011_Splinter.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill011_ChainBombing.png",
       "Levels": {
         "0": {
-          "Description": "Fire a bullet in the air that temporarily increases movement speed of all party members.",
+          "Description": "Fire a signal flare into the air and drop a\nmissile ahead. The missile cause a series of\nexplosions.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_Sprinter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ChainBombing.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "Damage: [1396%]\nSuper Armor Break: [1880%]\nSG consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "Damage: [1536%]\nSuper Armor Break: [2086%]\nSG consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "Damage: [1843%]\nSuper Armor Break: [2481%]\nSG consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "Damage: [2211%]\nSuper Armor Break: [2977%]\nSG consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "Damage: [2875%]\nSuper Armor Break: [3870%]\nSG consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "Sprinter-SGRecovery"
+        "ChainBombing-LastBombing"
       ]
     },
-    "Sprinter-SGRecovery": {
+    "ChainBombing-LastBombing": {
       "Visible": false,
-      "Name": "SG Recovery",
+      "Name": "Last Bombing",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Erwin/Skill011_Splinter_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill011_ChainBombing_A.png",
       "Levels": {
         "0": {
-          "Description": "Gives a buff that recovers allies SG.",
+          "Description": "Generate a Burning Field on the spot of\nexplosion.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_Sprinter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ChainBombing_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "Burning Field Damage per Hit: [288%]\nBurning Field Super Armor Break per Hit: [387%]\nBurning Field Duration: [3sec]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "Burning Field Damage per Hit: [431%]\nBurning Field Super Armor Break per Hit: [581%]\nBurning Field Duration: [3sec]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "Burning Field Damage per Hit: [575%]\nBurning Field Super Armor Break per Hit: [774%]\nBurning Field Duration: [3sec]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
@@ -906,7 +906,7 @@
       "Icon": "../assets/SkillIcons/Erwin/Skill07_CombatMaster_A.png",
       "Levels": {
         "0": {
-          "Description": "After attacking with combat master, performs an additional powerful attack.",
+          "Description": "(Right-Click) before the Finish Attack repeats\npowerful Attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -915,17 +915,17 @@
           }
         },
         "1": {
-          "Effect": "Damage: 619%\nSuper Armor Break: 339%",
+          "Effect": "Damage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Powerful Attack]\nFinish Damage: [1089%]\nFinish Super Armor Break: [596%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 692%\nSuper Armor Break: 378%",
+          "Effect": "Damage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Powerful Attack]\nFinish Damage: [1217%]\nFinish Super Armor Break: [665%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 765%\nSuper Armor Break: 419%",
+          "Effect": "Damage per hit: [158%]\nSuper Armor Break per hit: [86%]\n\n[Powerful Attack]\nFinish Damage: [1350%]\nFinish Super Armor Break: [738%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -942,7 +942,7 @@
       "Icon": "../assets/SkillIcons/Erwin/Skill09_ElectricShot_A.png",
       "Levels": {
         "0": {
-          "Description": "Fire a capsule, and summons a robot from the bombing site.",
+          "Description": "Fire off a Drop Capsule which summons a self-\ndestruct robot in the crossfire point.\nDrop Capsule summons [Mecha Gruton]",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -951,12 +951,12 @@
           }
         },
         "1": {
-          "Effect": "Damage: 1215%\nSuper Armor Break: 303%\n[Final Attack]\nDamage and Super Armor Break increase to 200%",
+          "Effect": "Damage:[%]\nSuper Armor Break: [%]\n\n[Basic Clone Attack]\nDamage and Super Armor Break per Hit: [%]\n\nSelf-destruct Device Attack]\nDamage and Super Armor Break per Hit: [%]\nFinish Attack Damage and Super Armor Break: [%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 1275%\nSuper Armor Break: 318%\n[Final Attack]\nDamage and Super Armor Break increase to 300%",
+          "Effect": "Damage:[%]\nSuper Armor Break: [%]\n\n[Basic Clone Attack]\nDamage and Super Armor Break per Hit: [%]\n\nSelf-destruct Device Attack]\nDamage and Super Armor Break per Hit: [%]\nFinish Attack Damage and Super Armor Break: [%]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
           "Preview": {
@@ -964,7 +964,7 @@
           }
         },
         "3": {
-          "Effect": "Damage: 1426%\nSuper Armor Break: 355%\n[Final Attack]\nDamage and Super Armor Break increase to 500%",
+          "Effect": "Damage:[1426%]\nSuper Armor Break: [1082%]\n\n[Basic Clone Attack]\nDamage and Super Armor Break per Hit: [300%]\n\nSelf-destruct Device Attack]\nDamage and Super Armor Break per Hit: [60%]\nFinish Attack Damage and Super Armor Break: [180%]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "Preview": {
@@ -984,7 +984,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Summons a hoverboard in the air, and bombards while moving forward.",
+          "Description": "Summons a hoverboard in the air, and bomb\nyour enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -993,27 +993,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 220%\nSuper Armor Break: 112%\nSG consumption: 3\nCooldown: 25 seconds",
+          "Effect": "Damage per hit: [220%]\nSuper Armor Break per hit: [112%]\nSG consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 231%\nSuper Armor Break: 118%\nSG consumption: 3\nCooldown: 25 seconds",
+          "Effect": "Damage per hit: [231%]\nSuper Armor Break per hit: [118%]\nSG consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 258%\nSuper Armor Break: 132%\nSG consumption: 3\nCooldown: 25 seconds",
+          "Effect": "Damage per hit: [258%]\nSuper Armor Break per hit: [132%]\nSG consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 286%\nSuper Armor Break: 145%\nSG consumption: 3\nCooldown: 25 seconds",
+          "Effect": "Damage per hit: [286%]\nSuper Armor Break per hit: [145%]\nSG consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 330%\nSuper Armor Break: 168%\nSG consumption: 3\nCooldown: 25 seconds",
+          "Effect": "Damage per hit: [330%]\nSuper Armor Break per hit: [168%]\nSG consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1029,7 +1029,7 @@
       "Icon": "../assets/SkillIcons/Erwin/Skill016_MissionCall.png",
       "Levels": {
         "0": {
-          "Description": "Attack the specified area with a laser.",
+          "Description": "Air bombing laser of a specified point that is\nmarked with a Mouse",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1038,27 +1038,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 944%\nSuper Armor Break: 1065%\nSG consumption: 4\nCooldown: 30 seconds",
+          "Effect": "Damage per hit: [1416%]\nSuper Armor Break per hit: [1598%]\nSG consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 991%\nSuper Armor Break: 1118%\nSG consumption: 4\nCooldown: 30 seconds",
+          "Effect": "Damage per hit: [1487%]\nSuper Armor Break per hit: [1677%]\nSG consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 1109%\nSuper Armor Break: 1251%\nSG consumption: 4\nCooldown: 30 seconds",
+          "Effect": "Damage per hit: [1664%]\nSuper Armor Break per hit: [1877%]\nSG consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 1226%\nSuper Armor Break: 1383%\nSG consumption: 4\nCooldown: 30 seconds",
+          "Effect": "Damage per hit: [1839%]\nSuper Armor Break per hit: [2075%]\nSG consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 1415%\nSuper Armor Break: 1596%\nSG consumption: 4\nCooldown: 30 seconds",
+          "Effect": "Damage per hit: [2123%]\nSuper Armor Break per hit: [2394%]\nSG consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1070,7 +1070,7 @@
       "Icon": "../assets/SkillIcons/Erwin/Skill014_Deadline.png",
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Bouncing attack in a liited area, penetrating\nyour opponents at least once.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1079,27 +1079,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Basic Attack]\nDamage per hit: [242%]\nSuper Armor Break per hit: [229%]\n\n[Finish Attack]\nDamage: [606%]\nSuper Armor Break: [574%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },        
         "4": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 71,
           "RequiredSP": 3
         },        
         "5": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 74,
           "RequiredSP": 3
         }
@@ -1437,23 +1437,23 @@
       "Icon": "../assets/SkillIcons/Erwin/Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "When a skill that consumes 3 souls (beads) is used, attack power and defense penetration increase for a definite period of time.",
+          "Description": "Use SG consumed skills consecutively, Increase\nArmor Penetration + Attack Damage\n Can be stacked when any skill is used within\n[5sec]\n(On Stack [3])",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Attack Power: +200\nDefense Penetration: +4%",
+          "Effect": "Armor Penetration: +[4%] for [10sec]\nAttack Damage: +[200] for [10sec]\nSV Recovery: [3]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Attack Power: +400\nDefense Penetration: +7%",
+          "Effect": "Armor Penetration: +[7%] for [10sec]\nAttack Damage: +[400] for [10sec]\nSV Recovery: [3]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Attack Power: +600\nDefense Penetration: +10%",
+          "Effect": "Armor Penetration: +[10%] for [10sec]\nAttack Damage: +[600] for [10sec]\nSV Recovery: [3]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }

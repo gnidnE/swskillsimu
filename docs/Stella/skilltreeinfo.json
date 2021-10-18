@@ -34,27 +34,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [246%]\nSuper Armor Break: [347%]\nSG consumption: [15]\nCooldown: [8s]",
+          "Effect": "Damage: [246%]\nSuper Armor Break: [347%]\nSG consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: [258%]\nSuper Armor Break: [363%]\nSG consumption: [15]\nCooldown: [8s]",
+          "Effect": "Damage: [258%]\nSuper Armor Break: [363%]\nSG consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [288%]\nSuper Armor Break: [407%]\nSG consumption: [15]\nCooldown: [8s]",
+          "Effect": "Damage: [288%]\nSuper Armor Break: [407%]\nSG consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 7,
           "RequiredSP": 1
         },
         "4": {
-          "Effect": "Damage: [320%]\nSuper Armor Break: [450%]\nSG consumption: [15]\nCooldown: [8s]",
+          "Effect": "Damage: [320%]\nSuper Armor Break: [450%]\nSG consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [368%]\nSuper Armor Break: [519%]\nSG consumption: [15]\nCooldown: [8s]",
+          "Effect": "Damage: [368%]\nSuper Armor Break: [519%]\nSG consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -79,27 +79,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [617%]\nSuper Armor Break: [333%]\nSG consumption: [20]\nCooldown: [10s]",
+          "Effect": "Damage: [617%]\nSuper Armor Break: [333%]\nSG consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: [649%]\nSuper Armor Break: [349%]\nSG consumption: [20]\nCooldown: [10s]",
+          "Effect": "Damage: [649%]\nSuper Armor Break: [349%]\nSG consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [725%]\nSuper Armor Break: [391%]\nSG consumption: [20]\nCooldown: [10s]",
+          "Effect": "Damage: [725%]\nSuper Armor Break: [391%]\nSG consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: [803%]\nSuper Armor Break: [432%]\nSG consumption: [20]\nCooldown: [10s]",
+          "Effect": "Damage: [803%]\nSuper Armor Break: [432%]\nSG consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [925%]\nSuper Armor Break: [489%]\nSG consumption: [20]\nCooldown: [10s]",
+          "Effect": "Damage: [925%]\nSuper Armor Break: [489%]\nSG consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -155,27 +155,27 @@
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [120%]\nSuper Armor Break per hit: [80%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [120%]\nSuper Armor Break per hit: [80%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [126%]\nSuper Armor Break per hit: [84%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [126%]\nSuper Armor Break per hit: [84%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [141%]\nSuper Armor Break per hit: [94%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [141%]\nSuper Armor Break per hit: [94%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Attack Mode]\nDamage per hit: [156%]\nSuper Armor Break per hit: [104%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [156%]\nSuper Armor Break per hit: [104%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [115%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [115%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
@@ -233,17 +233,17 @@
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10s]\n\nIncreased number of projectiles: [1]",
+          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10sec]\n\nIncreased number of projectiles: [1]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10s]\n\nIncreased number of projectiles: [2]",
+          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10sec]\n\nIncreased number of projectiles: [2]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10s]\n\nIncreased number of projectiles: [4]",
+          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10sec]\n\nIncreased number of projectiles: [4]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         }
@@ -263,27 +263,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [395%]\nSuper Armor Break: [609%]\nSG consumption: [30]\nCooldown: [15s]",
+          "Effect": "Damage: [395%]\nSuper Armor Break: [609%]\nSG consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: [414%]\nSuper Armor Break: [639%]\nSG consumption: [30]\nCooldown: [15s]",
+          "Effect": "Damage: [414%]\nSuper Armor Break: [639%]\nSG consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [464%]\nSuper Armor Break: [716%]\nSG consumption: [30]\nCooldown: [15s]",
+          "Effect": "Damage: [464%]\nSuper Armor Break: [716%]\nSG consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: [513%]\nSuper Armor Break: [792%]\nSG consumption: [30]\nCooldown: [15s]",
+          "Effect": "Damage: [513%]\nSuper Armor Break: [792%]\nSG consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [591%]\nSuper Armor Break: [914%]\nSG consumption: [30]\nCooldown: [15s]",
+          "Effect": "Damage: [591%]\nSuper Armor Break: [914%]\nSG consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
@@ -338,27 +338,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [275%]\nSuper Armor Break per hit: [206%]\nSG consumption: [30]\nCooldown: [20s]",
+          "Effect": "Damage per hit: [275%]\nSuper Armor Break per hit: [206%]\nSG consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [289%]\nSuper Armor Break per hit: [216%]\nSG consumption: [30]\nCooldown: [20s]",
+          "Effect": "Damage per hit: [289%]\nSuper Armor Break per hit: [216%]\nSG consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 11,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [323%]\nSuper Armor Break per hit: [242%]\nSG consumption: [30]\nCooldown: [20s]",
+          "Effect": "Damage per hit: [323%]\nSuper Armor Break per hit: [242%]\nSG consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per hit: [358%]\nSuper Armor Break per hit: [268%]\nSG consumption: [30]\nCooldown: [20s]",
+          "Effect": "Damage per hit: [358%]\nSuper Armor Break per hit: [268%]\nSG consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 21,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per hit: [413%]\nSuper Armor Break per hit: [308%]\nSG consumption: [30]\nCooldown: [20s]",
+          "Effect": "Damage per hit: [413%]\nSuper Armor Break per hit: [308%]\nSG consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 26,
           "RequiredSP": 3
         }
@@ -379,27 +379,27 @@
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per orb: [36%]\nSuper Armor Break per orb: [79%]\nDebuff: Paralysis [1.5s]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20s]\n[3]Buff: Agility +[10%] for [10s]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [20s]\n\nSG consumption: [35]\nCooldown: [20s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [36%]\nSuper Armor Break per orb: [79%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [20sec]\n\nSG consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per orb: [38%]\nSuper Armor Break per orb: [83%]\nDebuff: Paralysis [1.5s]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20s]\n[3]Buff: Agility +[10%] for [10s]\n[4]Self-Buff: Critical Rate +[10%] for [20s]\n\nSG consumption: [35]\nCooldown: [20s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [38%]\nSuper Armor Break per orb: [83%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per orb: [42%]\nSuper Armor Break per orb: [92%]\nDebuff: Paralysis [1.5s]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20s]\n[3]Buff: Agility +[10%] for [10s]\n[4]Self-Buff: Critical Rate +[10%] for [20s]\n\nSG consumption: [35]\nCooldown: [20s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [42%]\nSuper Armor Break per orb: [92%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Attack Mode]\nDamage per orb: [47%]\nSuper Armor Break per orb: [102%]\nDebuff: Paralysis [1.5s]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20s]\n[3]Buff: Agility +[10%] for [10s]\n[4]Self-Buff: Critical Rate +[10%] for [20s]\n\nSG consumption: [35]\nCooldown: [20s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [47%]\nSuper Armor Break per orb: [102%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5s]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20s]\n[3]Buff: Agility +[10%] for [10s]\n[4]Self-Buff: Critical Rate +[10%] for [20s]\n\nSG consumption: [35]\nCooldown: [20s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
@@ -425,17 +425,17 @@
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5s]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [72%]\nEnhanced Super Armor Break: [157%]\nDebuff: Paralysis [1.5s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [72%]\nEnhanced Super Armor Break: [157%]\nDebuff: Paralysis [1.5sec]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5s]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [90%]\nEnhanced Super Armor Break: [197%]\nDebuff: Paralysis [1.5s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [90%]\nEnhanced Super Armor Break: [197%]\nDebuff: Paralysis [1.5sec]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5s]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [108%]\nEnhanced Super Armor Break: [236%]\nDebuff: Paralysis [1.5s]",
+          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [108%]\nEnhanced Super Armor Break: [236%]\nDebuff: Paralysis [1.5sec]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -457,17 +457,17 @@
           }
         },
         "1": {
-          "Effect": "[Support Mode]\n[1]Buff: Recovers [15%] HP per orb\n[2]Buff: Attack Damage +[100%]for [30s]\n[3]Buff: Agility +[10%] for [10s]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [30s]",
+          "Effect": "[Support Mode]\n[1]Buff: Recovers [15%] HP per orb\n[2]Buff: Attack Damage +[100%]for [30sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [30sec]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Support Mode]\n[1]Buff: Recovers [20%] HP per orb\n[2]Buff: Attack Damage +[100%]for [40s]\n[3]Buff: Agility +[10%] for [10s]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [40s]",
+          "Effect": "[Support Mode]\n[1]Buff: Recovers [20%] HP per orb\n[2]Buff: Attack Damage +[100%]for [40sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [40sec]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Support Mode]\n[1]Buff: Recovers [25%] HP per orb\n[2]Buff: Attack Damage +[100%]for [60s]\n[3]Buff: Agility +[10%] for [10s]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [60s]",
+          "Effect": "[Support Mode]\n[1]Buff: Recovers [25%] HP per orb\n[2]Buff: Attack Damage +[100%]for [60sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [60sec]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -488,27 +488,27 @@
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [78%]\nSuper Armor Break per hit: [45%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [59%]\nSuper Armor Break per hit: [68%]\nHP drain: [1%]\nDebuff: Paralysis [1s]\n\nSG consumption: [35]\nCooldown: [15s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [78%]\nSuper Armor Break per hit: [45%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [59%]\nSuper Armor Break per hit: [68%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\n\nSG consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [83%]\nSuper Armor Break per hit: [47%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [62%]\nSuper Armor Break per hit: [71%]\nHP drain: [1%]\nDebuff: Paralysis [1s]\n\nSG consumption: [35]\nCooldown: [15s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [83%]\nSuper Armor Break per hit: [47%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [62%]\nSuper Armor Break per hit: [71%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\n\nSG consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [92%]\nSuper Armor Break per hit: [53%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [69%]\nSuper Armor Break per hit: [80%]\nHP drain: [1%]\nDebuff: Paralysis [1s]\n\nSG consumption: [35]\nCooldown: [15s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [92%]\nSuper Armor Break per hit: [53%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [69%]\nSuper Armor Break per hit: [80%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\n\nSG consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Attack Mode]\nDamage per hit: [102%]\nSuper Armor Break per hit: [59%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [77%]\nSuper Armor Break per hit: [89%]\nHP drain: [1%]\nDebuff: Paralysis [1s]\nSG consumption: [35]\nCooldown: [15s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [102%]\nSuper Armor Break per hit: [59%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [77%]\nSuper Armor Break per hit: [89%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\nSG consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Attack Mode]\nDamage per hit: [117%]\nSuper Armor Break per hit: [68%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [88%]\nSuper Armor Break per hit: [102%]\nHP drain: [1%]\nDebuff: Paralysis [1s]\nSG consumption: [35]\nCooldown: [15s]",
+          "Effect": "[Attack Mode]\nDamage per hit: [117%]\nSuper Armor Break per hit: [68%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [88%]\nSuper Armor Break per hit: [102%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\nSG consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -597,27 +597,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [100%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1s]\nSG consumption: [20]\nCooldown: [30s]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3s]\nBarrier duration: [10s]",
+          "Effect": "Damage per hit: [100%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [105%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1s]\nSG consumption: [20]\nCooldown: [30s]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3s]\nBarrier duration: [10s]",
+          "Effect": "Damage per hit: [105%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [118%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1s]\nSG consumption: [20]\nCooldown: [30s]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3s]\nBarrier duration: [10s]",
+          "Effect": "Damage per hit: [118%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per hit: [130%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1s]\nSG consumption: [20]\nCooldown: [30s]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3s]\nBarrier duration: [10s]",
+          "Effect": "Damage per hit: [130%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per hit: [150%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1s]\nSG consumption: [20]\nCooldown: [30s]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3s]\nBarrier duration: [10s]",
+          "Effect": "Damage per hit: [150%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
@@ -641,27 +641,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [618%]\nSuper Armor Break: [694%]\nSG consumption: [40]\nCooldown: [30s]",
+          "Effect": "Damage: [618%]\nSuper Armor Break: [694%]\nSG consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: [649%]\nSuper Armor Break: [729%]\nSG consumption: [40]\nCooldown: [30s]",
+          "Effect": "Damage: [649%]\nSuper Armor Break: [729%]\nSG consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [726%]\nSuper Armor Break: [816%]\nSG consumption: [40]\nCooldown: [30s]",
+          "Effect": "Damage: [726%]\nSuper Armor Break: [816%]\nSG consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: [803%]\nSuper Armor Break: [903%]\nSG consumption: [40]\nCooldown: [30s]",
+          "Effect": "Damage: [803%]\nSuper Armor Break: [903%]\nSG consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [927%]\nSuper Armor Break: [1041%]\nSG consumption: [40]\nCooldown: [30s]",
+          "Effect": "Damage: [927%]\nSuper Armor Break: [1041%]\nSG consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
@@ -718,27 +718,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [268%]\nSuper Armor Break per hit: [506%]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "Damage per hit: [268%]\nSuper Armor Break per hit: [506%]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [281%]\nSuper Armor Break per hit: [531%]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "Damage per hit: [281%]\nSuper Armor Break per hit: [531%]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [315%]\nSuper Armor Break per hit: [595%]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "Damage per hit: [315%]\nSuper Armor Break per hit: [595%]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per hit: [349%]\nSuper Armor Break per hit: [658%]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "Damage per hit: [349%]\nSuper Armor Break per hit: [658%]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per hit: [402%]\nSuper Armor Break per hit: [759%]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "Damage per hit: [402%]\nSuper Armor Break per hit: [759%]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
@@ -759,27 +759,27 @@
           }
         },
         "1": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3s]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3s]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3s]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3s]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3s]\nSG consumption: [40]\nCooldown: [35s]",
+          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
@@ -835,27 +835,27 @@
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nRecovers [5%] of SG per sec for [10s]\n\n[Support Mode]\nRecovers [14%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[3%]\nBuff: Agility: +[3%]\nBuff duration: [20s]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "[Attack Mode]\nRecovers [5%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [14%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[3%]\nBuff: Agility: +[3%]\nBuff duration: [20sec]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Attack Mode]\nRecovers [6%] of SG per sec for [10s]\n\n[Support Mode]\nRecovers [18%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[4%]\nBuff: Agility: +[4%]\nBuff duration: [20s]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "[Attack Mode]\nRecovers [6%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [18%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[4%]\nBuff: Agility: +[4%]\nBuff duration: [20sec]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Attack Mode]\nRecovers [8%] of SG per sec for [10s]\n\n[Support Mode]\nRecovers [22%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[6%]\nBuff: Agility: +[6%]\nBuff duration: [20s]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "[Attack Mode]\nRecovers [8%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [22%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[6%]\nBuff: Agility: +[6%]\nBuff duration: [20sec]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Attack Mode]\nRecovers [10%] of SG per sec for [10s]\n\n[Support Mode]\nRecovers [32%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[8%]\nBuff: Agility: +[8%]\nBuff duration: [20s]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "[Attack Mode]\nRecovers [10%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [32%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[8%]\nBuff: Agility: +[8%]\nBuff duration: [20sec]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Attack Mode]\nRecovers [15%] of SG per sec for [10s]\n\n[Support Mode]\nRecovers [50%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[10%]\nBuff: Agility: +[10%]\nBuff duration: [20s]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "[Attack Mode]\nRecovers [15%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [50%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[10%]\nBuff: Agility: +[10%]\nBuff duration: [20sec]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
@@ -876,27 +876,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [989%]\nSuper Armor Break per hit: [927%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [99%]\nSpeaker Super Armor Break per hit: [93%]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "Damage per hit: [989%]\nSuper Armor Break per hit: [927%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [99%]\nSpeaker Super Armor Break per hit: [93%]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [1039%]\nSuper Armor Break per hit: [973%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [104%]\nSpeaker Super Armor Break per hit: [97%]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "Damage per hit: [1039%]\nSuper Armor Break per hit: [973%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [104%]\nSpeaker Super Armor Break per hit: [97%]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [1164%]\nSuper Armor Break per hit: [1088%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [116%]\nSpeaker Super Armor Break per hit: [109%]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "Damage per hit: [1164%]\nSuper Armor Break per hit: [1088%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [116%]\nSpeaker Super Armor Break per hit: [109%]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per hit: [1285%]\nSuper Armor Break per hit: [1205%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [129%]\nSpeaker Super Armor Break per hit: [121%]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "Damage per hit: [1285%]\nSuper Armor Break per hit: [1205%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [129%]\nSpeaker Super Armor Break per hit: [121%]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per hit: [1486%]\nSuper Armor Break per hit: [1389%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [149%]\nSpeaker Super Armor Break per hit: [139%]\n\nSG consumption: [45]\nCooldown: [45s]",
+          "Effect": "Damage per hit: [1486%]\nSuper Armor Break per hit: [1389%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [149%]\nSpeaker Super Armor Break per hit: [139%]\n\nSG consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
@@ -993,17 +993,17 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [150%]\nSuper Armor Break per hit:[311%]\n\n[Left/Right-Click]\nDamage per hit: [450%]\nSuper Armor Break per hit:[933%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [4s] and reduces [1%] HP every second.\nRight-Click buff: For [5s], recovers aliies´ SG by [4%] per second",
+          "Effect": "Damage per hit: [150%]\nSuper Armor Break per hit:[311%]\n\n[Left/Right-Click]\nDamage per hit: [450%]\nSuper Armor Break per hit:[933%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [4sec] and reduces [1%] HP every second.\nRight-Click buff: For [5sec], recovers aliies´ SG by [4%] per second",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [163%]\nSuper Armor Break per hit:[357%]\n\n[Left/Right-Click]\nDamage per hit: [489%]\nSuper Armor Break per hit:[1071%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [6s] and reduces [1%] HP every second.\nRight-Click buff: For [5s], recovers aliies´ SG by [6%] per second",
+          "Effect": "Damage per hit: [163%]\nSuper Armor Break per hit:[357%]\n\n[Left/Right-Click]\nDamage per hit: [489%]\nSuper Armor Break per hit:[1071%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [6sec] and reduces [1%] HP every second.\nRight-Click buff: For [5sec], recovers aliies´ SG by [6%] per second",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [181%]\nSuper Armor Break per hit:[451%]\n\n[Left/Right-Click]\nDamage per hit: [543%]\nSuper Armor Break per hit:[1353%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [8s] and reduces [1%] HP every second.\nRight-Click buff: For [5s], recovers aliies´ SG by [10%] per second",
+          "Effect": "Damage per hit: [181%]\nSuper Armor Break per hit:[451%]\n\n[Left/Right-Click]\nDamage per hit: [543%]\nSuper Armor Break per hit:[1353%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [8sec] and reduces [1%] HP every second.\nRight-Click buff: For [5sec], recovers aliies´ SG by [10%] per second",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -1029,27 +1029,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [1122%]\nSuper Armor Break: [700%]\nSG consumption: [35]\nCooldown: [30s]",
+          "Effect": "Damage: [1122%]\nSuper Armor Break: [700%]\nSG consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: [1234%]\nSuper Armor Break: [770%]\nSG consumption: [35]\nCooldown: [30s]",
+          "Effect": "Damage: [1234%]\nSuper Armor Break: [770%]\nSG consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [1382%]\nSuper Armor Break: [862%]\nSG consumption: [35]\nCooldown: [30s]",
+          "Effect": "Damage: [1382%]\nSuper Armor Break: [862%]\nSG consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: [1576%]\nSuper Armor Break: [983%]\nSG consumption: [35]\nCooldown: [30s]",
+          "Effect": "Damage: [1576%]\nSuper Armor Break: [983%]\nSG consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [1860%]\nSuper Armor Break: [1160%]\nSG consumption: [35]\nCooldown: [30s]",
+          "Effect": "Damage: [1860%]\nSuper Armor Break: [1160%]\nSG consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1074,27 +1074,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [1570%]\nSuper Armor Break: [682%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35s]",
+          "Effect": "Damage: [1570%]\nSuper Armor Break: [682%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: [1727%]\nSuper Armor Break: [750%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35s]",
+          "Effect": "Damage: [1727%]\nSuper Armor Break: [750%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [1934%]\nSuper Armor Break: [840%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35s]",
+          "Effect": "Damage: [1934%]\nSuper Armor Break: [840%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: [2205%]\nSuper Armor Break: [958%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35s]",
+          "Effect": "Damage: [2205%]\nSuper Armor Break: [958%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [2602%]\nSuper Armor Break: [1130%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35s]",
+          "Effect": "Damage: [2602%]\nSuper Armor Break: [1130%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG consumption: [30]\nCooldown: [35sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1115,27 +1115,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [435%]\nSuper Armor Break per hit: [462%]\nSG consumption: [40]\nCooldown: [40s]",
+          "Effect": "Damage per hit: [435%]\nSuper Armor Break per hit: [462%]\nSG consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [479%]\nSuper Armor Break per hit: [509%]\nSG consumption: [40]\nCooldown: [40s]",
+          "Effect": "Damage per hit: [479%]\nSuper Armor Break per hit: [509%]\nSG consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [536%]\nSuper Armor Break per hit: [570%]\nSG consumption: [40]\nCooldown: [40s]",
+          "Effect": "Damage per hit: [536%]\nSuper Armor Break per hit: [570%]\nSG consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },        
         "4": {
-          "Effect": "Damage per hit: [611%]\nSuper Armor Break per hit: [649%]\nSG consumption: [40]\nCooldown: [40s]",
+          "Effect": "Damage per hit: [611%]\nSuper Armor Break per hit: [649%]\nSG consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 71,
           "RequiredSP": 3
         },
         "5": {
-          "Effect": "Damage per hit: [704%]\nSuper Armor Break per hit: [749%]\nSG consumption: [40]\nCooldown: [40s]",
+          "Effect": "Damage per hit: [704%]\nSuper Armor Break per hit: [749%]\nSG consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 74,
           "RequiredSP": 3
         }
@@ -1213,17 +1213,17 @@
           }
         },
         "1": {
-          "Effect": "[Air]\nDamage: [204%]\nSuper Armor Break: [124%]\nCooldown: [3s]",
+          "Effect": "[Air]\nDamage: [204%]\nSuper Armor Break: [124%]\nCooldown: [3sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Air]\nDamage: [214%]\nSuper Armor Break: [131%]\nCooldown: [2s]",
+          "Effect": "[Air]\nDamage: [214%]\nSuper Armor Break: [131%]\nCooldown: [2sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Air]\nDamage: [239%]\nSuper Armor Break: [146%]\nCooldown: [3s]",
+          "Effect": "[Air]\nDamage: [239%]\nSuper Armor Break: [146%]\nCooldown: [3sec]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1330,17 +1330,17 @@
           }
         },
         "1": {
-          "Effect": "Damage: [100%]\nStamina consumption: [30]\nCooldown: [15s]\nInvincibility Duration: [3s]",
+          "Effect": "Damage: [100%]\nStamina consumption: [30]\nCooldown: [15sec]\nInvincibility Duration: [3sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina consumption: [20]\nCooldown: [15s]\nInvincibility Duration: [3s]",
+          "Effect": "Damage: [100%]\nStamina consumption: [20]\nCooldown: [15sec]\nInvincibility Duration: [3sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [100%]\nStamina consumption: [20]\nCooldown: [15s]\nInvincibility Duration: [5s]",
+          "Effect": "Damage: [100%]\nStamina consumption: [20]\nCooldown: [15sec]\nInvincibility Duration: [5sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1385,17 +1385,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina consumption: [40]\nCooldown: [30s]",
+          "Effect": "Stamina consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina consumption: [40]\nCooldown: [25s]",
+          "Effect": "Stamina consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina consumption: [40]\nCooldown: [20s]",
+          "Effect": "Stamina consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1417,7 +1417,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: [277]\nSuper Armor Break: [171%]\nCooldown: [3s]",
+          "Effect": "Damage: [277]\nSuper Armor Break: [171%]\nCooldown: [3sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }

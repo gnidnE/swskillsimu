@@ -374,27 +374,27 @@
           }
         },
         "1": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [40%]\nSuper Armor Break per hit: [89%]\n\n[Explosion]\nDamage per hit: [59%]\nSuper Armor Break per hit: [134%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [40%]\nSuper Armor Break per hit: [89%]\n\n[Explosion]\nDamage per hit: [59%]\nSuper Armor Break per hit: [134%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [42%]\nSuper Armor Break per hit: [94%]\n\n[Explosion]\nDamage per hit: [62%]\nSuper Armor Break per hit: [141%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [42%]\nSuper Armor Break per hit: [94%]\n\n[Explosion]\nDamage per hit: [62%]\nSuper Armor Break per hit: [141%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [47%]\nSuper Armor Break per hit: [105%]\n\n[Explosion]\nDamage per hit: [70%]\nSuper Armor Break per hit: [158%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [47%]\nSuper Armor Break per hit: [105%]\n\n[Explosion]\nDamage per hit: [70%]\nSuper Armor Break per hit: [158%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [52%]\nSuper Armor Break per hit: [116%]\n\n[Explosion]\nDamage per hit: [77%]\nSuper Armor Break per hit: [175%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [52%]\nSuper Armor Break per hit: [116%]\n\n[Explosion]\nDamage per hit: [77%]\nSuper Armor Break per hit: [175%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [60%]\nSuper Armor Break per hit: [134%]\n\n[Explosion]\nDamage per hit: [89%]\nSuper Armor Break per hit: [201%]\n\nDebuff: Reduces [20%] Defense on Hit for [3s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [60%]\nSuper Armor Break per hit: [134%]\n\n[Explosion]\nDamage per hit: [89%]\nSuper Armor Break per hit: [201%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
@@ -419,17 +419,17 @@
           }
         },
         "1": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [109%]\nSuper Armor Break per hit: [185%]\n\n[Explosion]\nDamage per hit: [328%]\nSuper Armor Break per hit: [554%]\n\nDebuff: Reduces [20%] Defense on Hit for [5s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [109%]\nSuper Armor Break per hit: [185%]\n\n[Explosion]\nDamage per hit: [328%]\nSuper Armor Break per hit: [554%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [126%]\nSuper Armor Break per hit: [213%]\n\n[Explosion]\nDamage per hit: [379%]\nSuper Armor Break per hit: [639%]\n\nDebuff: Reduces [20%] Defense on Hit for [5s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [126%]\nSuper Armor Break per hit: [213%]\n\n[Explosion]\nDamage per hit: [379%]\nSuper Armor Break per hit: [639%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
           "RequiredLevel": 27,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [143%]\nSuper Armor Break per hit: [242%]\n\n[Explosion]\nDamage per hit: [429%]\nSuper Armor Break per hit: [725%]\n\nDebuff: Reduces [20%] Defense on Hit for [5s]",
+          "Effect": "[Energy Sphere]\nDamage per hit: [143%]\nSuper Armor Break per hit: [242%]\n\n[Explosion]\nDamage per hit: [429%]\nSuper Armor Break per hit: [725%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         }

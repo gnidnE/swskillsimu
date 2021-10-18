@@ -34,27 +34,27 @@
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[64%]\nSA Break：[44%]\n[Additional Attack]\nDamage：[64%], [192%]\nSA Break：[44%], [132%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[64%]\nSA Break：[44%]\n[Additional Attack]\nDamage：[64%], [192%]\nSA Break：[44%], [132%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[70%]\nSA Break：[48%]\n[Additional Attack]\nDamage：[70%], [211%]\nSA Break：[48%], [145%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[70%]\nSA Break：[48%]\n[Additional Attack]\nDamage：[70%], [211%]\nSA Break：[48%], [145%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[79%]\nSA Break：[54%]\n[Additional Attack]\nDamage：[79%], [237%]\nSA Break：[54%], [163%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[79%]\nSA Break：[54%]\n[Additional Attack]\nDamage：[79%], [237%]\nSA Break：[54%], [163%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
           "RequiredLevel": 6,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Basic Attack]\nDamage：[90%]\nSA Break：[62%]\n[Additional Attack]\n[Additional Attack]\nDamage：[90%], [270%]\nSA Break：[62%], [185%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[90%]\nSA Break：[62%]\n[Additional Attack]\n[Additional Attack]\nDamage：[90%], [270%]\nSA Break：[62%], [185%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -80,17 +80,17 @@
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[159%]\nSA Break：[109%]\n[Additional Attack]\nDamage：[159%], [478%]\nSA Break：[109%], [328%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 Seconds]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 Seconds]\n生命消耗量：[7%] 當前生命\nCooldown：[10 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[159%]\nSA Break：[109%]\n[Additional Attack]\nDamage：[159%], [478%]\nSA Break：[109%], [328%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 sec]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 sec]\n生命消耗量：[7%] 當前生命\nCooldown：[10 sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[119%]\n[Additional Attack]\nDamage：[174%], [521%]\nSA Break：[119%], [358%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 Seconds]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 Seconds]\n生命消耗量：[7%] 當前生命\nCooldown：[10 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[119%]\n[Additional Attack]\nDamage：[174%], [521%]\nSA Break：[119%], [358%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 sec]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 sec]\n生命消耗量：[7%] 當前生命\nCooldown：[10 sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[189%]\nSA Break：[137%]\n[Additional Attack]\nDamage：[189%], [568%]\nSA Break：[137%], [412%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 Seconds]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 Seconds]\n生命消耗量：[7%] 當前生命\nCooldown：[10 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[189%]\nSA Break：[137%]\n[Additional Attack]\nDamage：[189%], [568%]\nSA Break：[137%], [412%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 sec]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 sec]\n生命消耗量：[7%] 當前生命\nCooldown：[10 sec]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
@@ -112,17 +112,17 @@
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\n\n[General]\n命中時恢復靈魂值：[12]\n敵人減益效果：流血（每 Seconds減少 [2%] HP）\n敵人減益持續時間：[5 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\n\n[General]\n命中時恢復靈魂值：[12]\n敵人減益效果：流血（每 Seconds減少 [2%] HP）\n敵人減益持續時間：[5 sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[116%]\nSA Break：[80%]\n[Additional Attack]\nDamage：[116%], [347%]\nSA Break：[80%], [239%]\n\n[General]\n命中時恢復靈魂值：[18]\n敵人減益效果：流血（每 Seconds減少 [3%] HP）\n敵人減益持續時間：[5 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[116%]\nSA Break：[80%]\n[Additional Attack]\nDamage：[116%], [347%]\nSA Break：[80%], [239%]\n\n[General]\n命中時恢復靈魂值：[18]\n敵人減益效果：流血（每 Seconds減少 [3%] HP）\n敵人減益持續時間：[5 sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[133%]\nSA Break：[92%]\n[Additional Attack]\nDamage：[133%], [399%]\nSA Break：[92%], [275%]\n\n[General]\n命中時恢復靈魂值：[25]\n敵人減益效果：流血（每 Seconds減少 [4%] HP）\n敵人減益持續時間：[5 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[133%]\nSA Break：[92%]\n[Additional Attack]\nDamage：[133%], [399%]\nSA Break：[92%], [275%]\n\n[General]\n命中時恢復靈魂值：[25]\n敵人減益效果：流血（每 Seconds減少 [4%] HP）\n敵人減益持續時間：[5 sec]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
@@ -144,27 +144,27 @@
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[158%]\nSA Break：[128%]\n[Additional Attack]\nDamage：[237%]\nSA Break：[192%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[158%]\nSA Break：[128%]\n[Additional Attack]\nDamage：[237%]\nSA Break：[192%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[141%]\n[Additional Attack]\nDamage：[261%]\nSA Break：[211%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[141%]\n[Additional Attack]\nDamage：[261%]\nSA Break：[211%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[195%]\nSA Break：[158%]\n[Additional Attack]\nDamage：[292%]\nSA Break：[237%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[195%]\nSA Break：[158%]\n[Additional Attack]\nDamage：[292%]\nSA Break：[237%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Basic Attack]\nDamage：[222%]\nSA Break：[180%]\n[Additional Attack]\nDamage：[333%]\nSA Break：[270%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[222%]\nSA Break：[180%]\n[Additional Attack]\nDamage：[333%]\nSA Break：[270%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Basic Attack]\nDamage：[262%]\nSA Break：[212%]\n[Additional Attack]\nDamage：[393%]\nSA Break：[319%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：[262%]\nSA Break：[212%]\n[Additional Attack]\nDamage：[393%]\nSA Break：[319%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -190,17 +190,17 @@
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
@@ -222,17 +222,17 @@
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 Seconds]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
@@ -254,27 +254,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [61%]\nSA Break：攻擊1回 [30%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
+          "Effect": "Damage：攻擊1回 [61%]\nSA Break：攻擊1回 [30%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [68%]\nSA Break：攻擊1回 [33%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
+          "Effect": "Damage：攻擊1回 [68%]\nSA Break：攻擊1回 [33%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [76%]\nSA Break：攻擊1回 [37%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
+          "Effect": "Damage：攻擊1回 [76%]\nSA Break：攻擊1回 [37%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：攻擊1回 [86%]\nSA Break：攻擊1回 [42%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
+          "Effect": "Damage：攻擊1回 [86%]\nSA Break：攻擊1回 [42%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：攻擊1回 [102%]\nSA Break：攻擊1回 [50%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 Seconds]",
+          "Effect": "Damage：攻擊1回 [102%]\nSA Break：攻擊1回 [50%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
@@ -298,27 +298,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：[403%]\nSA Break：[500%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[403%]\nSA Break：[500%]\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[444%]\nSA Break：[550%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[444%]\nSA Break：[550%]\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[497%]\nSA Break：[616%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[497%]\nSA Break：[616%]\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[565%]\nSA Break：[703%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[565%]\nSA Break：[703%]\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[668%]\nSA Break：[829%]\nSF Consumption：[35]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[668%]\nSA Break：[829%]\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
@@ -343,17 +343,17 @@
           }
         },
         "1": {
-          "Effect": "減益效果：移動速度降低 [30%]\n減益持續時間：[1 Seconds]\n減益區域持續時間：[6 Seconds]",
+          "Effect": "減益效果：移動速度降低 [30%]\n減益持續時間：[1 sec]\n減益區域持續時間：[6 sec]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "減益效果：移動速度降低 [45%]\n減益持續時間：[2 Seconds]\n減益區域持續時間：[8 Seconds]",
+          "Effect": "減益效果：移動速度降低 [45%]\n減益持續時間：[2 sec]\n減益區域持續時間：[8 sec]",
           "RequiredLevel": 25,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "減益效果：移動速度降低 [75%]\n減益持續時間：[3 Seconds]\n減益區域持續時間：[10 Seconds]",
+          "Effect": "減益效果：移動速度降低 [75%]\n減益持續時間：[3 sec]\n減益區域持續時間：[10 sec]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -374,27 +374,27 @@
           }
         },
         "1": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+150%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+150%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 Seconds]\n[自身]\nBuffs：敵人防禦力貫穿 [+15%]\n增益持續時間：[25 Seconds]\n當前生命值消耗量：[15%]\nCooldown：[35 Seconds]",
+          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+15%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
@@ -415,27 +415,27 @@
           }
         },
         "1": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [48%]/[58%]\nSA Break：攻擊1回 [53%]/[63%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [48%]/[58%]\nSA Break：攻擊1回 [53%]/[63%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [53%]/[63%]\nSA Break：攻擊1回 [58%]/[69%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [53%]/[63%]\nSA Break：攻擊1回 [58%]/[69%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [59%]/[71%]\nSA Break：攻擊1回 [65%]/[78%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [59%]/[71%]\nSA Break：攻擊1回 [65%]/[78%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [68%]/[81%]\nSA Break：攻擊1回 [74%]/[89%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [68%]/[81%]\nSA Break：攻擊1回 [74%]/[89%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [80%]/[96%]\nSA Break：攻擊1回 [87%]/[105%]\nSF Consumption：[45]\nCooldown：[15 Seconds]",
+          "Effect": "[推開/吸引]\nDamage：攻擊1回 [80%]/[96%]\nSA Break：攻擊1回 [87%]/[105%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
@@ -461,17 +461,17 @@
           }
         },
         "1": {
-          "Effect": "Damage：[105%]\nSA Break：[60%]\n減益效果：麻痹 [1 Seconds]\n減益區域持續時間：[3 Seconds]",
+          "Effect": "Damage：[105%]\nSA Break：[60%]\n減益效果：麻痹 [1 sec]\n減益區域持續時間：[3 sec]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[120%]\nSA Break：[69%]\n減益效果：麻痹 [1 Seconds]\n減益區域持續時間：[4 Seconds]",
+          "Effect": "Damage：[120%]\nSA Break：[69%]\n減益效果：麻痹 [1 sec]\n減益區域持續時間：[4 sec]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[152%]\nSA Break：[87%]\n減益效果：麻痹 [1 Seconds]\n減益區域持續時間：[5 Seconds]",
+          "Effect": "Damage：[152%]\nSA Break：[87%]\n減益效果：麻痹 [1 sec]\n減益區域持續時間：[5 sec]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -524,27 +524,27 @@
           }
         },
         "1": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [245%]/[31%]\nSA Break：攻擊1回 [137%]/[17%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [245%]/[31%]\nSA Break：攻擊1回 [137%]/[17%]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [270%]/[34%]\nSA Break：攻擊1回 [151%]/[19%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [270%]/[34%]\nSA Break：攻擊1回 [151%]/[19%]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [302%]/[38%]\nSA Break：攻擊1回 [169%]/[21%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [302%]/[38%]\nSA Break：攻擊1回 [169%]/[21%]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [344%]/[43%]\nSA Break：攻擊1回 [192%]/[14%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [344%]/[43%]\nSA Break：攻擊1回 [192%]/[14%]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [406%]/[51%]\nSA Break：攻擊1回 [227%]/[18%]\nSF Consumption：[45]\nCooldown：[17 Seconds]",
+          "Effect": "[丟出/收回]\nDamage：攻擊1回 [406%]/[51%]\nSA Break：攻擊1回 [227%]/[18%]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -568,27 +568,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：[348%]\nSA Break：[387%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：[348%]\nSA Break：[387%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[369%]\nSA Break：[406%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：[369%]\nSA Break：[406%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[409%]\nSA Break：[454%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：[409%]\nSA Break：[454%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[453%]\nSA Break：[502%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：[453%]\nSA Break：[502%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[522%]\nSA Break：[580%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：[522%]\nSA Break：[580%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
@@ -678,27 +678,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：[743%]\nSA Break：[185%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[743%]\nSA Break：[185%]\nSF Consumption：[3]\nCooldown：[20 sec]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[780%]\nSA Break：[194%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[780%]\nSA Break：[194%]\nSF Consumption：[3]\nCooldown：[20 sec]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[873%]\nSA Break：[217%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[873%]\nSA Break：[217%]\nSF Consumption：[3]\nCooldown：[20 sec]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[965%]\nSA Break：[240%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[965%]\nSA Break：[240%]\nSF Consumption：[3]\nCooldown：[20 sec]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[1114%]\nSA Break：[277%]\nSF Consumption：[3]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[1114%]\nSA Break：[277%]\nSF Consumption：[3]\nCooldown：[20 sec]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
@@ -719,27 +719,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：[154%]\nSA Break：[1882%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[154%]\nSA Break：[1882%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[162%]\nSA Break：[1976%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[162%]\nSA Break：[1976%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[181%]\nSA Break：[2211%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[181%]\nSA Break：[2211%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[200%]\nSA Break：[2447%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[200%]\nSA Break：[2447%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[231%]\nSA Break：[2823%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 Seconds]",
+          "Effect": "Damage：[231%]\nSA Break：[2823%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
@@ -795,27 +795,27 @@
           }
         },
         "1": {
-          "Effect": "Buffs：移動速度 [+10%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "Buffs：移動速度 [+10%]\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buffs：移動速度 [+11%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "Buffs：移動速度 [+11%]\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buffs：移動速度 [+13%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "Buffs：移動速度 [+13%]\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Buffs：移動速度[+16%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "Buffs：移動速度[+16%]\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Buffs：移動速度[+20%]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "Buffs：移動速度[+20%]\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
@@ -840,17 +840,17 @@
           }
         },
         "1": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 Seconds]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 sec]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 Seconds]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 sec]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 Seconds]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 sec]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
@@ -871,27 +871,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[10 Seconds]\nSF Consumption：[5]\nCooldown：[60 Seconds]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[10 sec]\nSF Consumption：[5]\nCooldown：[60 sec]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[11 Seconds]\nSF Consumption：[5]\nCooldown：[55 Seconds]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[11 sec]\nSF Consumption：[5]\nCooldown：[55 sec]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[13 Seconds]\nSF Consumption：[4]\nCooldown：[55 Seconds]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[13 sec]\nSF Consumption：[4]\nCooldown：[55 sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[15 Seconds]\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[15 sec]\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 Seconds]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[20 Seconds]\nSF Consumption：[3]\nCooldown：[35 Seconds]",
+          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[20 sec]\nSF Consumption：[3]\nCooldown：[35 sec]",
           "RequiredLevel": 46,
           "RequiredSP": 3
         }
@@ -916,17 +916,17 @@
           }
         },
         "1": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 Seconds]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 sec]",
           "RequiredLevel": 46,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 Seconds]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 sec]",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 Seconds]",
+          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 sec]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
@@ -947,27 +947,27 @@
           }
         },
         "1": {
-          "Effect": "[前切攻擊]Damage：[531%]\nSA Break：[390%]\n[爆炸攻擊]Damage：[1680%]\nSA Break：[1234%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
+          "Effect": "[前切攻擊]Damage：[531%]\nSA Break：[390%]\n[爆炸攻擊]Damage：[1680%]\nSA Break：[1234%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[前切攻擊]Damage：[584%]\nSA Break：[429%]\n[爆炸攻擊]Damage：[1849%]\nSA Break：[1358%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
+          "Effect": "[前切攻擊]Damage：[584%]\nSA Break：[429%]\n[爆炸攻擊]Damage：[1849%]\nSA Break：[1358%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[前切攻擊]Damage：[654%]\nSA Break：[480%]\n[爆炸攻擊]Damage：[2070%]\nSA Break：[1521%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
+          "Effect": "[前切攻擊]Damage：[654%]\nSA Break：[480%]\n[爆炸攻擊]Damage：[2070%]\nSA Break：[1521%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[前切攻擊]Damage：[745%]\nSA Break：[547%]\n[爆炸攻擊]Damage：[2361%]\nSA Break：[1734%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
+          "Effect": "[前切攻擊]Damage：[745%]\nSA Break：[547%]\n[爆炸攻擊]Damage：[2361%]\nSA Break：[1734%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
           "RequiredLevel": 52,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[前切攻擊]Damage：[880%]\nSA Break：[646%]\n[爆炸攻擊]Damage：[2785%]\nSA Break：[2046%]\n\nSF Consumption：[75]\nCooldown：[45 Seconds]",
+          "Effect": "[前切攻擊]Damage：[880%]\nSA Break：[646%]\n[爆炸攻擊]Damage：[2785%]\nSA Break：[2046%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
           "RequiredLevel": 55,
           "RequiredSP": 3
         }
@@ -1100,27 +1100,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [220%]\nSA Break：攻擊1回 [112%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：攻擊1回 [220%]\nSA Break：攻擊1回 [112%]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [231%]\nSA Break：攻擊1回 [118%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：攻擊1回 [231%]\nSA Break：攻擊1回 [118%]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [258%]\nSA Break：攻擊1回 [132%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：攻擊1回 [258%]\nSA Break：攻擊1回 [132%]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：攻擊1回 [286%]\nSA Break：攻擊1回 [145%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：攻擊1回 [286%]\nSA Break：攻擊1回 [145%]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：攻擊1回 [330%]\nSA Break：攻擊1回 [168%]\nSF Consumption：[3]\nCooldown：[25 Seconds]",
+          "Effect": "Damage：攻擊1回 [330%]\nSA Break：攻擊1回 [168%]\nSF Consumption：[3]\nCooldown：[25 sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1145,27 +1145,27 @@
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [944%]\nSA Break：攻擊1回 [1065%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
+          "Effect": "Damage：攻擊1回 [944%]\nSA Break：攻擊1回 [1065%]\nSF Consumption：[4]\nCooldown：[30 sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [991%]\nSA Break：攻擊1回 [1118%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
+          "Effect": "Damage：攻擊1回 [991%]\nSA Break：攻擊1回 [1118%]\nSF Consumption：[4]\nCooldown：[30 sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [1109%]\nSA Break：攻擊1回 [1251%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
+          "Effect": "Damage：攻擊1回 [1109%]\nSA Break：攻擊1回 [1251%]\nSF Consumption：[4]\nCooldown：[30 sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：攻擊1回 [1226%]\nSA Break：攻擊1回 [1383%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
+          "Effect": "Damage：攻擊1回 [1226%]\nSA Break：攻擊1回 [1383%]\nSF Consumption：[4]\nCooldown：[30 sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：攻擊1回 [1415%]\nSA Break：攻擊1回 [1596%]\nSF Consumption：[4]\nCooldown：[30 Seconds]",
+          "Effect": "Damage：攻擊1回 [1415%]\nSA Break：攻擊1回 [1596%]\nSF Consumption：[4]\nCooldown：[30 sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1186,12 +1186,12 @@
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：攻擊1回 [155%]\nSA Break：攻擊1回 [169%]\n[終結攻擊]\nDamage：[389%]\nSA Break：[424%]\n\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：攻擊1回 [155%]\nSA Break：攻擊1回 [169%]\n[終結攻擊]\nDamage：[389%]\nSA Break：[424%]\n\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：攻擊1回 [171%]\nSA Break：攻擊1回 [186%]\n[終結攻擊]\nDamage：[428%]\nSA Break：[466%]\n\nSF Consumption：[4]\nCooldown：[45 Seconds]",
+          "Effect": "[Basic Attack]\nDamage：攻擊1回 [171%]\nSA Break：攻擊1回 [186%]\n[終結攻擊]\nDamage：[428%]\nSA Break：[466%]\n\nSF Consumption：[4]\nCooldown：[45 sec]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
@@ -1284,17 +1284,17 @@
           }
         },
         "1": {
-          "Effect": "[Ground Controls]\nDamage：[175%]\nSA Break：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：Damage [350%]\n每層標記：SA Break [280%]\n\n[Air Controls]\nDamage：[229%]\nSA Break：[170%]\n\n[General]\nCooldown：[10 Seconds]",
+          "Effect": "[Ground Controls]\nDamage：[175%]\nSA Break：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：Damage [350%]\n每層標記：SA Break [280%]\n\n[Air Controls]\nDamage：[229%]\nSA Break：[170%]\n\n[General]\nCooldown：[10 sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground Controls]\nDamage：[192%]\nSA Break：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：Damage [384%]\n每層標記：SA Break [308%]\n\n[Air Controls]\nDamage：[241%]\nSA Break：[178%]\n\n[General]\nCooldown：[10 Seconds]",
+          "Effect": "[Ground Controls]\nDamage：[192%]\nSA Break：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：Damage [384%]\n每層標記：SA Break [308%]\n\n[Air Controls]\nDamage：[241%]\nSA Break：[178%]\n\n[General]\nCooldown：[10 sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground Controls]\nDamage：[211%]\nSA Break：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：Damage [422%]\n每層標記：SA Break [338%]\n\n[Air Controls]\nDamage：[270%]\nSA Break：[200%]\n\n[General]\nCooldown：[10 Seconds]",
+          "Effect": "[Ground Controls]\nDamage：[211%]\nSA Break：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：Damage [422%]\n每層標記：SA Break [338%]\n\n[Air Controls]\nDamage：[270%]\nSA Break：[200%]\n\n[General]\nCooldown：[10 sec]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
