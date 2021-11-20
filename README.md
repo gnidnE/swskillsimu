@@ -8,8 +8,8 @@ The tree is developed with information source mainly from the Steam/Japanese and
 
 # Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
-  - Changing the looks
-  - Adding separate mobile version
+  - ~~Changing the looks~~
+  - Adding mobile compatibility
   - Cleaning Code up
     - Preparations for Future Updates (enable when it comes)
     - Adding Version Selection 
@@ -31,14 +31,14 @@ Content is available under [Commons Attribution-NonCommercial-ShareAlike](https:
 Official Art, Game Content and Screenshots are trademarks and copyrights of [Lion Games](http://www.liongames.co.kr/Front/) and the game's publishers.
 
 # Credits:
-Special thanks to [Leayal](https://github.com/Leayal) and the people who helped on this simulator. [See details](https://leayal.github.io/swskillsimu/).
+Special thanks to [Leayal](https://github.com/Leayal) and the people who helped on this simulator. [See details](https://eden333.github.io/swskillsimu/).
 
 # Dependencies:
-- [JQuery v3.4.1](https://jquery.com)
-- [JQueryUI v1.12.1](https://jqueryui.com)
-- [Bootstrap v4.1.3](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
-- [zenorocha's clipboard.js v2.0.4](https://github.com/zenorocha/clipboard.js)
+- [JQuery v3.6.0](https://jquery.com)
+- [JQueryUI v1.13.0](https://jqueryui.com)
+- [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+- [zenorocha's clipboard.js v2.0.8](https://github.com/zenorocha/clipboard.js)
 - [desandro's imagesloaded v4.1.4](https://github.com/desandro/imagesloaded)
-- [mouse0270's bootstrap-notify v3.1.5](https://github.com/mouse0270/bootstrap-notify)
+- [mouse0270's bootstrap-notify v3.1.7](https://github.com/mouse0270/bootstrap-notify)
 - [ntkme's github-buttons](https://github.com/ntkme/github-buttons)
-- [animate.css v3.7.2](https://github.com/daneden/animate.css)
+- [animate.css v4.1.1](https://github.com/daneden/animate.css)

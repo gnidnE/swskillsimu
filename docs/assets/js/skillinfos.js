@@ -27,6 +27,7 @@ function SkillInfo(_skilltreeCore, __id, skillName, infos) {
     this._currentskilllevel = 0;
     this._name = skillName;
     this._passive = false;
+    this._vapor = false;
     this._parent = null;
     this._visible = true;
     this._spused = 0;
@@ -79,9 +80,12 @@ SkillInfo.prototype.readInfos = function (ob) {
     this._string_extensions = ob.Extensions;
     if (ob.Passive)
         this._passive = ob.Passive;
+    if (ob.Vapor)
+        this._vapor = ob.Vapor;
     this._iconURL = ob.Icon;
-    if (ob.Assignable == false)
+    if (ob.Assignable == false){
         this.Assignable = ob.Assignable;
+    }
     if (ob.Visible == false)
         this._visible = ob.Visible;
     this._skillmaxlevel = this.Levels.length - 1;
@@ -182,6 +186,9 @@ SkillInfo.prototype.GetIconURL = function () {
 }
 SkillInfo.prototype.IsPassive = function () {
     return this._passive;
+}
+SkillInfo.prototype.IsVapor = function () {
+    return this._vapor;
 }
 SkillInfo.prototype.GetDefaultLevel = function () {
     return this._defaultLevel;
@@ -405,14 +412,18 @@ SkillInfo.prototype.UpdateSkill = function () {
     // panel.children("p[insight=\"skilllexevel\"]:first").text(this._currentskilllevel + "" + this._skillmaxlevel);
     if (this._currentskilllevel <= this._defaultLevel) {
         button_skilldown.addClass("disabled");
+        button_skillup.removeClass("disabled");
         let pa = this._parent;
         if (pa && !(pa.GetNextLevelInfo())) {
             let skillextensions = pa.GetExtensions();
             for (var ske in skillextensions)
                 skillextensions[ske].Disabled(false);
         }
-    } else if (this._currentskilllevel == this._skillmaxlevel) {
+    }
+
+    else if (this._currentskilllevel == this._skillmaxlevel) {
         button_skillup.addClass("disabled");
+        button_skilldown.removeClass("disabled");
         let pa = this._parent;
         let skillextensions;
         if (pa) {
@@ -427,7 +438,8 @@ SkillInfo.prototype.UpdateSkill = function () {
         skillextensions = this.GetExtensions();
         for (var ske in skillextensions)
             skillextensions[ske].Disabled(false);
-    } else {
+    }
+     else {
         button_skilldown.removeClass("disabled");
         button_skillup.removeClass("disabled");
         let pa = this._parent;
@@ -480,6 +492,7 @@ SkillInfo.prototype.SkillDown = function () {
         this.UpdateSkill();
     }
 }
+
 
 SkillInfo.prototype.SkillDownEx = function () {
     let prev = this.GetPreviousLevelInfo();

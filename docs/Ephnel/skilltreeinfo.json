@@ -34,27 +34,27 @@
           }
         },
         "1": {
-          "Effect": "[Hit Down]\nDamage: 150%\nSuper Armor Break: 44%\n[Return in Air]\nDamage: 225%\nSuper Armor Break: 66%\n[Additional Explosion]\nDamage: 37%\nSuper Armor Break: 11%\nSG consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 150%\nSuper Armor Break: 44%\n[Return in Air]\nDamage: 225%\nSuper Armor Break: 66%\n[Additional Explosion]\nDamage: 37%\nSuper Armor Break: 11%\nSG Consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Hit Down]\nDamage: 165%\nSuper Armor Break: 48%\n[Return in Air]\nDamage: 248%\nSuper Armor Break: 72%\n[Additional Explosion]\nDamage: 41%\nSuper Armor Break: 12%\nSG consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 165%\nSuper Armor Break: 48%\n[Return in Air]\nDamage: 248%\nSuper Armor Break: 72%\n[Additional Explosion]\nDamage: 41%\nSuper Armor Break: 12%\nSG Consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Hit Down]\nDamage: 185%\nSuper Armor Break: 54%\n[Return in Air]\nDamage: 278%\nSuper Armor Break: 81%\n[Additional Explosion]\nDamage: 46%\nSuper Armor Break: 13%\nSG consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 185%\nSuper Armor Break: 54%\n[Return in Air]\nDamage: 278%\nSuper Armor Break: 81%\n[Additional Explosion]\nDamage: 46%\nSuper Armor Break: 13%\nSG Consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Hit Down]\nDamage: 211%\nSuper Armor Break: 62%\n[Return in Air]\nDamage: 317%\nSuper Armor Break: 93%\n[Additional Explosion]\nDamage: 52%\nSuper Armor Break: 15%\nSG consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 211%\nSuper Armor Break: 62%\n[Return in Air]\nDamage: 317%\nSuper Armor Break: 93%\n[Additional Explosion]\nDamage: 52%\nSuper Armor Break: 15%\nSG Consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%\nSG consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%\nSG Consumption: 35\nCooldown: 8 seconds",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -1217,7 +1217,7 @@
       "Name": "Basic Attack Mastery",
       "ID": 1002,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
         "0": {
           "Description": "Attack enemies with the sword.\nYou can unlock new combo attacks as the skill level increases.",
@@ -1267,12 +1267,12 @@
         }
       }
     },
-    "SpecialAbilityMastery": {
+    "SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SoulStrike.png",
+      "Name": "SoulStrike Mastery",
+      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
           "Description": "",
@@ -1300,15 +1300,15 @@
         }
       }
     },
-    "Evasion": {
+    "Dodge": {
       "Passive": true,
-      "Name": "Evasion",
+      "Name": "Dodge",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge to a specified direction.\nDamage is negated during evasion.",
+          "Description": "Allows quick movement in designated\ndirection.\nNo Damage received in Dodge State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1317,21 +1317,21 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "Roll": {
+    "Tumble": {
       "Passive": true,
-      "Name": "Roll",
+      "Name": "Tumble",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by swiftly rolling in a specified direction.\nDamage is negated during roll.",
+          "Description": "Allows quick Tumble in designated direction in\nKnock Down State.\nNo Damage received in Tumble State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1340,17 +1340,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster rolling speed.",
+          "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1361,10 +1361,10 @@
       "Name": "Dash",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/SkillIcons/Common/Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward.",
+          "Description": "Sprint straight ahead.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1378,21 +1378,21 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster dashing Speed",
+          "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
       }
     },
-    "RisingAttack": {
+    "Retaliation": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "Retaliation",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up while attacking nearby enemies.",
+          "Description": "While in Knock Down State, you can get up\nwhile attacking enemies around you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1401,17 +1401,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 second",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 second",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1422,10 +1422,10 @@
       "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Push enemies back with a large swing while dashing.",
+          "Description": "While running, turn and strongly pierce the\nfront area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1434,20 +1434,20 @@
           }
         },
         "1": {
-          "Effect": "Damage: 116%\nSuper Armor Break: 46%",
+          "Effect": "Damage: [116%]\nSuper Armor Break: [46%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "SpecialEvasion": {
+    "SoulEvasion": {
       "Passive": true,
-      "Name": "Elusion",
+      "Name": "Soul Evasion",
       "ID": 1007,
-      "Icon": "../assets/SkillIcons/Common/Elusion.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge to a specific direction while being attacked by an enemy.\nDamage is negated during special evasion.",
+          "Description": "Allows quick movement when Under Attack.\nNo Damage received in Soul Evasion State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1456,27 +1456,27 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
       }
     },
-    "SpecialDashAttack": {
+    "SoulDashAttack": {
       "Passive": true,
-      "Name": "Whirl Jump",
+      "Name": "SoulDash Attack",
       "ID": 1010,
-      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
           "Description": "Do a spinning jump attack during dash.",
@@ -1498,36 +1498,36 @@
       "Passive": true,
       "Name": "Stamina Mastery",
       "ID": 1009,
-      "Icon": "../assets/SkillIcons/Common/Endure.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery.",
+          "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery: + 10%",
+          "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery: + 20%",
+          "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery: + 30%",
+          "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery: + 40%",
+          "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery: + 50%",
+          "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1616,7 +1616,7 @@
       }
     },
     "RegionsBombing": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Regions Bombing",
       "DefaultLevel": 1,
       "ID": 2003,
@@ -1624,7 +1624,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Ephnel/NSkill3_Regions-Bombing.png",
+      "Icon": "../assets/SkillIcons/Ephnel/NSkill3_RegionsBombing.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1637,18 +1637,18 @@
           }
         },
         "1": {
-          "Effect": "Damage：[3000%]\nSA Break：[2700%]\n\n?.",
+          "Effect": "Damage：[3000%]\nSuper Armor Break：[2700%]\n\n?.",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }
     },
     "Frenzy": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": 2001,
-      "Icon": "../assets/SkillIcons/Ephnel/NSkill1_Hysteria.png",
+      "Icon": "../assets/SkillIcons/Ephnel/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1668,7 +1668,7 @@
       }
     },
     "Awakening": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
       "ID": 2002,
@@ -1676,7 +1676,7 @@
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Ephnel/NSkill2_Supernova.png",
+      "Icon": "../assets/SkillIcons/Ephnel/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1695,16 +1695,16 @@
         }
       }
     },
-    "EphnelsDesire": {
-      "Passive": true,
-      "Name": "Ephnel's Desire",
+    "DesireAwakening": {
+      "Vapor": true,
+      "Name": "Desire Awakening",
       "DefaultLevel": 1,
       "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
       },
-      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Icon": "../assets/SkillIcons/Common/NSkill3_DesireAwakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1717,7 +1717,7 @@
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Super Nova (lvl 42 Skill)\n-Titans Finger (lvl 62 Skill)\n-Regions-Bombing (EX Skill)",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Super Nova (lvl 42 Skill)\n-Titans Finger (lvl 62 Skill)\n-Regions-Bombing (EX Skill)",
           "RequiredLevel": 65,
           "RequiredSP": 0
         }

@@ -364,6 +364,7 @@ SkillTreeCore.prototype.ReadTree = function (loadingCallback, loadedCallback) {
     this.SkillList = {};
     this.ActiveSkillList = {};
     this.PassiveSkillList = {};
+    this.VaporSkillList = {};
     this.SkillCount = 0;
     this.loadedSkillCount = 0;
 
@@ -415,11 +416,18 @@ SkillTreeCore.prototype.ReadTree = function (loadingCallback, loadedCallback) {
             for (let ssk in json.Skills)
                 if (json.Skills.hasOwnProperty(ssk)) {
                     myself.SkillList[ssk] = new SkillInfo(myself, ssk, json.Skills[ssk]["Name"], json.Skills[ssk]);
-                    if (myself.SkillList[ssk].IsPassive())
+
+                    if (myself.SkillList[ssk].IsPassive()) 
                         myself.PassiveSkillList[ssk] = myself.SkillList[ssk];
-                    else
+                    
+                    else if (myself.SkillList[ssk].IsVapor()) 
+                        myself.VaporSkillList[ssk] = myself.SkillList[ssk];
+                    
+                    else 
                         myself.ActiveSkillList[ssk] = myself.SkillList[ssk];
+                    
                 };
+
             myself.SkillCount = Object.keys(myself.SkillList).length;
             if (typeof (loadingCallback) === "function")
                 loadingCallback.call(myself, json);
@@ -488,6 +496,35 @@ SkillTreeCore.prototype.RenderTree = function (loadedCallback, forceCreate) {
         if (passiveCount > 0)
             if (passiveRow)
                 eTree.append(passiveRow);
+    }
+
+    eTree = $("li#vaporskill");
+    if (eTree) {
+        var vaporRow = $("<ul>").addClass("tablevaporskill");
+        eTree.empty();
+        var vaporCount = 0;
+        for (var sl in this.VaporSkillList) {
+            if (this.VaporSkillList.hasOwnProperty(sl)) {
+                if (this.VaporSkillList[sl].IsVisible() && this.VaporSkillList[sl].IsClassAvailable(this._selectedclassindex)) {
+                    var spanvalue = this.VaporSkillList[sl].GetRowSpan(this._selectedclassindex);
+                    if (spanvalue > 1) {
+                        vaporCount += spanvalue;
+                    } else
+                        vaporCount++;
+                    vaporRow.append($("<li>").addClass("tablelike").addClass("vaporskilltree").append(this.VaporSkillList[sl].GetSkillPanel(false, forceCreate)));
+                    if (vaporCount >= 3) {
+                        if (vaporRow)
+                            eTree.append(vaporRow);
+                        vaporRow = $("<ul>").addClass("tablevaporskill");
+                        vaporCount = 0;
+                    }
+                }
+            }
+        }
+        if (vaporCount > 0)
+            if (vaporRow)
+                eTree.append(vaporRow);
+    
     }
 
     if (typeof loadedCallback === "function") {

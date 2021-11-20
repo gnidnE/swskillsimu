@@ -18,1195 +18,1195 @@
     }
   },
   "Skills": {
-    "ScareClow": {
-      "Name": "Scare Clow",
+    "Skill01_SlashCut": {
+      "Name": "SlashCut",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Chii/Skill01_ScareClow.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill01_SlashCut.png",
       "Levels": {
         "0": {
-          "Description": "You swing the Daito and attack opponents in front of you with multiple blade attacks. On the last additional attack, you absorb some of the HP of nearby opponents.",
+          "Description": "Cut enemies at the forward by swiftly swinging the weapon.\nCarry out consecutive agile slash attacks with extra commands.\nOn the last additional attack, you drain some of the HP of enemies nearby.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_ScareClow.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill01_SlashCut.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[64%]\nSA Break：[44%]\n[Additional Attack]\nDamage：[64%], [192%]\nSA Break：[44%], [132%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[192%]\nSuper Armor Break：[132%]\n\n[Skill Info: Additional Attack]\nDamage：[96%], [192%]\nSuper Armor Break：[66%], [132%]\n\n[Skill Info: Basic]\nBuffs：HP Regen[3%]\nSF Consumption：[35]\nCooldown：[7sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[70%]\nSA Break：[48%]\n[Additional Attack]\nDamage：[70%], [211%]\nSA Break：[48%], [145%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[211%]\nSuper Armor Break：[145%]\n\n[Skill Info: Additional Attack]\nDamage：[106%], [211%]\nSuper Armor Break：[73%], [145%]\n\n[Skill Info: Basic]\nBuffs：HP Regen[3%]\nSF Consumption：[35]\nCooldown：[7sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[79%]\nSA Break：[54%]\n[Additional Attack]\nDamage：[79%], [237%]\nSA Break：[54%], [163%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[237%]\nSuper Armor Break：[163%]\n\n[Skill Info: Additional Attack]\nDamage：[119%], [237%]\nSuper Armor Break：[82%], [163%]\n\n[Skill Info: Basic]\nBuffs：HP Regen[3%]\nSF Consumption：[35]\nCooldown：[7sec]",
           "RequiredLevel": 6,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Basic Attack]\nDamage：[90%]\nSA Break：[62%]\n[Additional Attack]\n[Additional Attack]\nDamage：[90%], [270%]\nSA Break：[62%], [185%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[270%]\nSuper Armor Break：[186%]\n\n[Skill Info: Additional Attack]\nDamage：[135%], [270%]\nSuper Armor Break：[93%], [186%]\n\n[Skill Info: Basic]\nBuffs：HP Regen[3%]\nSF Consumption：[35]\nCooldown：[7sec]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\nFinal Slash Buffs：HP Regen[3%]\n\nSF Consumption：[35]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[319%]\nSuper Armor Break：[219%]\n\n[Skill Info: Additional Attack]\nDamage：[159%], [319%]\nSuper Armor Break：[110%], [219%]\n\n[Skill Info: Basic]\nBuffs：HP Regen[3%]\nSF Consumption：[35]\nCooldown：[7sec]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "ScareClow-A",
-        "ScareClow-B"
+        "Skill01_ScareClow-BlackBlood",
+        "Skill01_ScareClow-Bleeding"
       ]
     },
-    "ScareClow-A": {
+    "Skill01_ScareClow-BlackBlood": {
       "Visible": false,
-      "Name": "Scare Clow-A",
+      "Name": "Black Blood",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_BlackBlood.png",
       "Levels": {
         "0": {
-          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
+          "Description": "Enhance the attack into Junk Energy by cosnuming HP.\nThe 'Prey Detected' mark which stays on enemies that got hit; this Debuff gives damage by exploding during SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_ScareClow_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill01_SlashCut_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[159%]\nSA Break：[109%]\n[Additional Attack]\nDamage：[159%], [478%]\nSA Break：[109%], [328%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 sec]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 sec]\n生命消耗量：[7%] 當前生命\nCooldown：[10 sec]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[481%]\nSuper Armor Break：[331%]\n\n[SoulPlus Info: Additional Attack]\nDamage：[241%], [481%]\nSuper Armor Break：[165%], [331%]\n\n[SoulPlus Info: Basic]\nBuff effect: +[5%] attack speed for [15sec]. (Max. 3\nstacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [5%] of current HP\nCooldown: [10sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[119%]\n[Additional Attack]\nDamage：[174%], [521%]\nSA Break：[119%], [358%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 sec]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 sec]\n生命消耗量：[7%] 當前生命\nCooldown：[10 sec]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[481%]\nSuper Armor Break：[331%]\n\n[SoulPlus Info: Additional Attack]\nDamage：[241%], [481%]\nSuper Armor Break：[165%], [331%]\n\n[SoulPlus Info: Basic]\nBuff effect: +[5%] attack speed for [15sec]. (Max. 3\nstacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [5%] of current HP\nCooldown: [9sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[189%]\nSA Break：[137%]\n[Additional Attack]\nDamage：[189%], [568%]\nSA Break：[137%], [412%]\n\n[General]\nBuffs：攻擊速度 [+5%]\n增益持續時間：[15 sec]（可堆疊3次）\n敵人減益效果：狩獵標記 [15 sec]\n生命消耗量：[7%] 當前生命\nCooldown：[10 sec]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[481%]\nSuper Armor Break：[331%]\n\n[SoulPlus Info: Additional Attack]\nDamage：[241%], [481%]\nSuper Armor Break：[165%], [331%]\n\n[SoulPlus Info: Basic]\nBuff effect: +[5%] attack speed for [15sec]. (Max. 3\nstacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [5%] of current HP\nCooldown: [7sec]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
-    "ScareClow-B": {
+    "Skill01_ScareClow-Bleeding": {
       "Visible": false,
-      "Name": "Scare Clow-B",
+      "Name": "Bleeding",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Chii/Skill01_ScareClow_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill01_SlashCut_B.png",
       "Levels": {
         "0": {
-          "Description": "A successful final hit inflicts the opponents with Bleeding. You also receive SF.",
+          "Description": "A successful final hit inflicts enemies with Bleeding.\nYou also receive SG.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_ScareClow_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill01_SlashCut_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[106%]\nSA Break：[73%]\n[Additional Attack]\nDamage：[106%], [319%]\nSA Break：[73%], [219%]\n\n[General]\n命中時恢復靈魂值：[12]\n敵人減益效果：流血（每 Seconds減少 [2%] HP）\n敵人減益持續時間：[5 sec]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[319%]\nSuper Armor Break：[219%]\n[SoulPlus Info: Additional Attack]\nDamage：[159%], [319%]\nSuper Armor Break：[110%], [219%]\n\n[SoulPlus Info: Basic]\nBuff effect: SG Regen per hit [12]\nDebuff effect: [2%] Bleeding for [5sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[116%]\nSA Break：[80%]\n[Additional Attack]\nDamage：[116%], [347%]\nSA Break：[80%], [239%]\n\n[General]\n命中時恢復靈魂值：[18]\n敵人減益效果：流血（每 Seconds減少 [3%] HP）\n敵人減益持續時間：[5 sec]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[348%]\nSuper Armor Break：[239%]\n[SoulPlus Info: Additional Attack]\nDamage：[174%], [348%]\nSuper Armor Break：[119%], [239%]\n\n[SoulPlus Info: Basic]\nBuff effect: SG Regen per hit [12]\nDebuff effect: [2%] Bleeding for [5sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[133%]\nSA Break：[92%]\n[Additional Attack]\nDamage：[133%], [399%]\nSA Break：[92%], [275%]\n\n[General]\n命中時恢復靈魂值：[25]\n敵人減益效果：流血（每 Seconds減少 [4%] HP）\n敵人減益持續時間：[5 sec]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[399%]\nSuper Armor Break：[275%]\n[SoulPlus Info: Additional Attack]\nDamage：[200%], [399%]\nSuper Armor Break：[137%], [275%]\n\n[SoulPlus Info: Basic]\nBuff effect: SG Regen per hit [12]\nDebuff effect: [2%] Bleeding for [5sec]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
       }
     },
-    "OverturnGround": {
-      "Name": "Overturn Ground",
+    "Skill02_CrowOverturn": {
+      "Name": "Crow Overturn",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Chii/Skill02_OverturnGround.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill02_CrowOverturn.png",
       "Levels": {
         "0": {
-          "Description": "You ram the Says into the ground forcefully to hurl opponents ahead of you into the air. You then hit opponents in the air with blade attacks. On an additional attack, you absorb some of the HP of nearby opponents.",
+          "Description": "Slamming enemies in the air with the scabbard.\nCut enemies in the air with consecutive agile slash attacks with extra commands.\nOn an additional attack, you drain some of the HP of enemies nearby.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_OverturnGround.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill02_CrowOverturn.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：[158%]\nSA Break：[128%]\n[Additional Attack]\nDamage：[237%]\nSA Break：[192%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[231%]\nSuper Armor Break：[187%]\n[Skill Info: Additional Attack]\nTurning Kick Damage：[51%]\nTurning Kick Super Armor Break：[42%]\n\nUpper Slash Damage: [283%]\nUpper Slash Super Armor Bereak: [229%]\n\n[Skill Info: Basic]Buffs：HP Regen [3%]\n\nSG Consumption：[30]\nCooldown：[12sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：[174%]\nSA Break：[141%]\n[Additional Attack]\nDamage：[261%]\nSA Break：[211%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[255%]\nSuper Armor Break：[206%]\n[Skill Info: Additional Attack]\nTurning Kick Damage：[57%]\nTurning Kick Super Armor Break：[46%]\n\nUpper Slash Damage: [311%]\nUpper Slash Super Armor Bereak: [252%]\n\n[Skill Info: Basic]Buffs：HP Regen [3%]\n\nSG Consumption：[30]\nCooldown：[12sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage：[195%]\nSA Break：[158%]\n[Additional Attack]\nDamage：[292%]\nSA Break：[237%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[285%]\nSuper Armor Break：[231%]\n[Skill Info: Additional Attack]\nTurning Kick Damage：[63%]\nTurning Kick Super Armor Break：[51%]\n\nUpper Slash Damage: [348%]\nUpper Slash Super Armor Bereak: [283%]\n\n[Skill Info: Basic]Buffs：HP Regen [3%]\n\nSG Consumption：[30]\nCooldown：[12sec]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Basic Attack]\nDamage：[222%]\nSA Break：[180%]\n[Additional Attack]\nDamage：[333%]\nSA Break：[270%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[325%]\nSuper Armor Break：[263%]\n[Skill Info: Additional Attack]\nTurning Kick Damage：[72%]\nTurning Kick Super Armor Break：[59%]\n\nUpper Slash Damage: [397%]\nUpper Slash Super Armor Bereak: [322%]\n\n[Skill Info: Basic]Buffs：HP Regen [3%]\n\nSG Consumption：[30]\nCooldown：[12sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Basic Attack]\nDamage：[262%]\nSA Break：[212%]\n[Additional Attack]\nDamage：[393%]\nSA Break：[319%]\nBuffs：HP Regen[3%]\n\nSF Consumption：[30]\nCooldown：[12 sec]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[383%]\nSuper Armor Break：[311%]\n[Skill Info: Additional Attack]\nTurning Kick Damage：[85%]\nTurning Kick Super Armor Break：[69%]\n\nUpper Slash Damage: [469%]\nUpper Slash Super Armor Bereak: [380%]\n\n[Skill Info: Basic]Buffs：HP Regen [3%]\n\nSG Consumption：[30]\nCooldown：[12sec]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "OverturnGround-A",
-        "OverturnGround-B"
+        "Skill02_CrowOverturn-BlackBlood",
+        "Skill02_CrowOverturn-Drain"
       ]
     },
-    "OverturnGround-A": {
+    "Skill02_CrowOverturn-BlackBlood": {
       "Visible": false,
-      "Name": "Overturn Ground-A",
+      "Name": "BlackBlood",
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_BlackBlood.png",
       "Levels": {
         "0": {
-          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from this with SoulStrike.",
+          "Description": "Enhance the attack into Junk Energy by cosnuming HP.\nThe 'Prey Detected' mark which stays on enemies that got hit; this Debuff gives damage by exploding during SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_OverturnGround_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill02_CrowOverturn_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[630%]\nSuper Armor Break：[539%]\n[Skill Info: Additional Attack]\nKick Damage：[140%]\nKick Super Armor Break：[120%]\n\nUpper Damage: [770%]\nUpper Super Armor Bereak: [659%]\n\n[SoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [5%] of current HP\nCooldown: [15sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[630%]\nSuper Armor Break：[539%]\n[Skill Info: Additional Attack]\nKick Damage：[140%]\nKick Super Armor Break：[120%]\n\nUpper Damage: [770%]\nUpper Super Armor Bereak: [659%]\n\n[SoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [5%] of current HP\nCooldown: [14sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "[Skill Info: Basic Attack]\nDamage：[630%]\nSuper Armor Break：[539%]\n[Skill Info: Additional Attack]\nKick Damage：[140%]\nKick Super Armor Break：[120%]\n\nUpper Damage: [770%]\nUpper Super Armor Bereak: [659%]\n\n[SoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [5%] of current HP\nCooldown: [12sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
       }
     },
-    "OverturnGround-B": {
+    "Skill02_CrowOverturn-Drain": {
       "Visible": false,
-      "Name": "Overturn Ground-B",
+      "Name": "Drain",
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Chii/Skill02_OverturnGround_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill02_CrowOverturn_B.png",
       "Levels": {
         "0": {
-          "Description": "On the first hit, the damage is dealt to the same extent as Drain. The second attack slows down the opponents it hits.",
+          "Description": "First damage is dealt to the same extent as Drain.\nSecond slows the enemies down",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_OverturnGround_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill02_CrowOverturn_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[0.55 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[383%]\nSuper Armor Break：[311%]\n[SoulPlus Info: Additional Attack]\nTurning Kick Damage：[85%]\nTurning Kick Super Armor Break：[69%]\n\nUpper Slash Damage: [469%]\nUpper Slash Super Armor Bereak: [380%]\n\n[SoulPlus Info: Basic]Buff effect: Drain [5%] of the Attack Damage\nDebuff effect: [15%] of attack speed /Agility\ndecreased for [5sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [35%]\nSA Break：攻擊1回 [45%]\n最大攻擊時間：[1.10 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[418%]\nSuper Armor Break：[339%]\n[SoulPlus Info: Additional Attack]\nTurning Kick Damage：[93%]\nTurning Kick Super Armor Break：[75%]\n\nUpper Slash Damage: [510%]\nUpper Slash Super Armor Bereak: [414%]\n\n[SoulPlus Info: Basic]Buff effect: Drain [5%] of the Attack Damage\nDebuff effect: [15%] of attack speed /Agility\ndecreased for [5sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [53%]\nSA Break：攻擊1回 [68%]\n最大攻擊時間：[1.65 sec]\n終結攻擊Damage：[88%]\n終結攻擊SA Break：[112%]",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage：[480%]\nSuper Armor Break：[389%]\n[SoulPlus Info: Additional Attack]\nTurning Kick Damage：[107%]\nTurning Kick Super Armor Break：[87%]\n\nUpper Slash Damage: [587%]\nUpper Slash Super Armor Bereak: [476%]\n\n[SoulPlus Info: Basic]Buff effect: Drain [5%] of the Attack Damage\nDebuff effect: [15%] of attack speed /Agility\ndecreased for [5sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
       }
     },
-    "ThrustArrow": {
-      "Name": "Thrust Arrow",
+    "Skill03_1stForm:ReadytoHunt": {
+      "Name": "1st Form: Ready to Hunt",
       "DefaultLevel": 1,
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Chii/Skill03_ThrustArrow.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill03_1stForm-ReadytoHunt.png",
       "Levels": {
         "0": {
-          "Description": "You charge forwards and carry out multiple agile blade attacks on enemies around you. The range of movement is extended depending on the charging time. After the move, you absorb some HP from nearby opponents.",
+          "Description": "You charge forwards and carry out multiple agile blade attacks on enemies around you.\nThe range of movement is extended depending on the charging time.\nAfter the move, you drain some HP from enemies nearby.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_ThrustArrow.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill03_1stForm-ReadytoHunt.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [61%]\nSA Break：攻擊1回 [30%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [61%]\nSuper Armor Break per hit: [30%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [68%]\nSA Break：攻擊1回 [33%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [68%]\nSuper Armor Break per hit: [33%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [76%]\nSA Break：攻擊1回 [37%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [76%]\nSuper Armor Break per hit: [37%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：攻擊1回 [86%]\nSA Break：攻擊1回 [42%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [86%]\nSuper Armor Break per hit: [42%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：攻擊1回 [102%]\nSA Break：攻擊1回 [50%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [102%]\nSuper Armor Break per hit: [50%]\nBuffs：HP Regen [3%]\nSF Consumption：[15]\nCooldown：[7 sec]",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "ThrustArrow-A"
+        "Skill03_1stForm:ReadytoHunt-ArrowBomb"
       ]
     },
-    "AllegroSweep": {
-      "Name": "Allegro Sweep",
+    "Skill04_2ndForm:ClawsOut": {
+      "Name": "2nd Form: Claws Out",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Chii/Skill04_AllegroSweep.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill04_2ndForm-ClawsOut.png",
       "Levels": {
         "0": {
-          "Description": "You draw your Daito and carry out a blade attack on enemies in front of you. You draw your Daito Fatale immediately by left-clicking. Damage is reduced by 20% on immediate activation",
+          "Description": "Draw your Single Edge and carry out a blase attack on enemies in front of you.\nDamage increases x1.5 to max. x2.5, depending on charging phase.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_AllegroSweep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill04_2ndForm-ClawsOut.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[403%]\nSA Break：[500%]\nSF Consumption：[35]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage：[403%]\nSuper Armor Break：[500%]\nMax. charge phase: [3]\n\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[444%]\nSA Break：[550%]\nSF Consumption：[35]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage：[444%]\nSuper Armor Break：[550%]\nMax. charge phase: [3]\n\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[497%]\nSA Break：[616%]\nSF Consumption：[35]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage：[497%]\nSuper Armor Break：[616%]\nMax. charge phase: [3]\n\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[565%]\nSA Break：[703%]\nSF Consumption：[35]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage：[565%]\nSuper Armor Break：[703%]\nMax. charge phase: [3]\n\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[668%]\nSA Break：[829%]\nSF Consumption：[35]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage：[668%]\nSuper Armor Break：[829%]\nMax. charge phase: [3]\n\nSF Consumption：[35]\nCooldown：[20 sec]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "AllegroSweep-A"
+        "Skill04_2ndForm:ClawsOut-Charge"
       ]
     },
-    "AllegroSweep-A": {
+    "Skill04_2ndForm:ClawsOut-Charge": {
       "Visible": false,
       "Name": "Charge",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Chii/Skill04_AllegroSweep_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill04_2ndForm-ClawsOut_A.png",
       "Levels": {
         "0": {
-          "Description": "You increase your attack damage by charging up. The number of strikes and damage increase by max 3.2x the immediate attack damage depending on the charging level.",
+          "Description": "Charging phase decreases. Gives additional damage by exploding after detecting the mark.\nDamage increases according to the number of stacks of the mark.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_AllegroSweep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill04_2ndForm-ClawsOut_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "減益效果：移動速度降低 [30%]\n減益持續時間：[1 sec]\n減益區域持續時間：[6 sec]",
+          "Effect": "[SoulPlus Info]\nDamage: [802%]\nSuper Armor Break: [995%]\n\n[SoulPlus Info: Mark Explosion]\nDamage: [361%]\nSuper Armor Break: [448%]\n\n[SoulPlus Info: Charging]\nDamage: x[2.5]\n\nCooldown: [20sec]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "減益效果：移動速度降低 [45%]\n減益持續時間：[2 sec]\n減益區域持續時間：[8 sec]",
+          "Effect": "[SoulPlus Info]\nDamage: [962%]\nSuper Armor Break: [1194%]\n\n[SoulPlus Info: Mark Explosion]\nDamage: [433%]\nSuper Armor Break: [537%]\n\n[SoulPlus Info: Charging]\nDamage: x[2.5]\n\nCooldown: [20sec]",
           "RequiredLevel": 25,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "減益效果：移動速度降低 [75%]\n減益持續時間：[3 sec]\n減益區域持續時間：[10 sec]",
+          "Effect": "[SoulPlus Info]\nDamage: [1347%]\nSuper Armor Break: [1672%]\n\n[SoulPlus Info: Mark Explosion]\nDamage: [606%]\nSuper Armor Break: [752%]\n\n[SoulPlus Info: Charging]\nDamage: x[2.5]\n\nCooldown: [20sec]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "SoulChange": {
-      "Name": "Soul Change",
+    "Skill05_Position:Bloodbath": {
+      "Name": "Position: Bloodbath",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Chii/Skill05_SoulChange.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill05_Position-Bloodbath.png",
       "Levels": {
         "0": {
-          "Description": "You consume HP to increase your combat strength for a short time",
+          "Description": "Apply [Bloodstain] Debuff on the enemies.\nConsume HP to increase your combat strengh for a certain period of time.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_SoulChange.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill05_Position-Bloodbath.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+150%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
+          "Effect": "[Skill Info: Party]\nBuff Effect: Critical Damage +[50%]\nBuff Duration: [25sec]\n\n[Skill Info: Self]\nBuff Effect: Armor Penetration +[5%]\nBuff Duration: [25sec]\nHP Consumption: [10%] of Current HP\n\n[Skill Info: Bloodstain]\nDebuff Effect: Damage Taken +[1%]\nDebuff Duration: [4sec]\n\nCooldown: [35sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+5%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
+          "Effect": "[Skill Info: Party]\nBuff Effect: Critical Damage +[100%]\nBuff Duration: [25sec]\n\n[Skill Info: Self]\nBuff Effect: Armor Penetration +[5%]\nBuff Duration: [25sec]\nHP Consumption: [10%] of Current HP\n\n[Skill Info: Bloodstain]\nDebuff Effect: Damage Taken +[1%]\nDebuff Duration: [4sec]\n\nCooldown: [35sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+170%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
+          "Effect": "[Skill Info: Party]\nBuff Effect: Critical Damage +[100%]\nBuff Duration: [25sec]\n\n[Skill Info: Self]\nBuff Effect: Armor Penetration +[10%]\nBuff Duration: [25sec]\nHP Consumption: [10%] of Current HP\n\n[Skill Info: Bloodstain]\nDebuff Effect: Damage Taken +[2%]\nDebuff Duration: [4sec]\n\nCooldown: [35sec]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+10%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
+          "Effect": "[Skill Info: Party]\nBuff Effect: Critical Damage +[150%]\nBuff Duration: [25sec]\n\n[Skill Info: Self]\nBuff Effect: Armor Penetration +[10%]\nBuff Duration: [25sec]\nHP Consumption: [10%] of Current HP\n\n[Skill Info: Bloodstain]\nDebuff Effect: Damage Taken +[2%]\nDebuff Duration: [4sec]\n\nCooldown: [35sec]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[隊伍成員]\nBuffs：暴擊Damage [+200%]\n增益持續時間：[25 sec]\n[自身]\nBuffs：敵人防禦力貫穿 [+15%]\n增益持續時間：[25 sec]\n當前生命值消耗量：[15%]\nCooldown：[35 sec]",
+          "Effect": "[Skill Info: Party]\nBuff Effect: Critical Damage +[150%]\nBuff Duration: [25sec]\n\n[Skill Info: Self]\nBuff Effect: Armor Penetration +[15%]\nBuff Duration: [25sec]\nHP Consumption: [10%] of Current HP\n\n[Skill Info: Bloodstain]\nDebuff Effect: Damage Taken +[3%]\nDebuff Duration: [4sec]\n\nCooldown: [35sec]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       }
     },
-    "SeizeField": {
-      "Name": "Seize Field",
+    "Skill06_DesireofPredator": {
+      "Name": "Desire of Predator",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Chii/Skill06_SeizeField.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill06_DesireofPredator.png",
       "Levels": {
         "0": {
-          "Description": "You summon monster claws made of SoulDreg energy that pull nearby opponents towards you.",
+          "Description": "Summon monster claws made of Soul Junk energy that pull nearby opponents towards you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_SeizeField.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill06_DesireofPredator.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [48%]/[58%]\nSA Break：攻擊1回 [53%]/[63%]\nSF Consumption：[45]\nCooldown：[15 sec]",
+          "Effect": "[Skill Info: Corner Drag / Center Drag]\nDamage per hit: [48%]/[58%]\nSuper Armor Break per hit: [53%]/[63%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [53%]/[63%]\nSA Break：攻擊1回 [58%]/[69%]\nSF Consumption：[45]\nCooldown：[15 sec]",
+          "Effect": "[Skill Info: Corner Drag / Center Drag]\nDamage per hit: [53%]/[63%]\nSuper Armor Break per hit: [58%]/[69%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [59%]/[71%]\nSA Break：攻擊1回 [65%]/[78%]\nSF Consumption：[45]\nCooldown：[15 sec]",
+          "Effect": "[Skill Info: Corner Drag / Center Drag]\nDamage per hit: [59%]/[71%]\nSuper Armor Break per hit: [65%]/[78%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [68%]/[81%]\nSA Break：攻擊1回 [74%]/[89%]\nSF Consumption：[45]\nCooldown：[15 sec]",
+          "Effect": "[Skill Info: Corner Drag / Center Drag]\nDamage per hit: [68%]/[81%]\nSuper Armor Break per hit: [74%]/[89%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[推開/吸引]\nDamage：攻擊1回 [80%]/[96%]\nSA Break：攻擊1回 [87%]/[105%]\nSF Consumption：[45]\nCooldown：[15 sec]",
+          "Effect": "[Skill Info: Corner Drag / Center Drag]\nDamage per hit: [80%]/[96%]\nSuper Armor Break per hit: [87%]/[105%]\nSF Consumption：[45]\nCooldown：[15 sec]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "SeizeField-A",
-        "SeizeField-B"
+        "Skill06_DesireofPredator-BlackBlood",
+        "Skill06_DesireofPredator-Canine"
       ]
     },
-    "SeizeField-A": {
+    "Skill06_DesireofPredator-BlackBlood": {
       "Visible": false,
-      "Name": "Seize Field-A",
+      "Name": "BlackBlood",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_BlackBlood.png",
       "Levels": {
         "0": {
-          "Description": "射擊結束時發射充滿強烈能量的一擊，並在命中敵人時生成麻痹區域。",
+          "Description": "Enhance the attack into Junk Energy by cosnuming HP.\nThe 'Prey Detected' mark which stays on enemies that got hit; this Debuff gives damage by exploding during SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_SeizeField_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill06_DesireofPredator_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[105%]\nSA Break：[60%]\n減益效果：麻痹 [1 sec]\n減益區域持續時間：[3 sec]",
+          "Effect": "[SoulPlus Info: Corner / Center Drag]\nDamager per hit: [142%], [170%]\nSuper Armor Break per Hit: [164%], [169%]\n\n[SoulPlus Info: Basic]\nBuff effect: +[5%] attack speed for [15sec]. (Max. 3\nstacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [10%] of current HP\nCooldown: [18sec]",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[120%]\nSA Break：[69%]\n減益效果：麻痹 [1 sec]\n減益區域持續時間：[4 sec]",
+          "Effect": "[SoulPlus Info: Corner / Center Drag]\nDamager per hit: [142%], [170%]\nSuper Armor Break per Hit: [164%], [169%]\n\n[SoulPlus Info: Basic]\nBuff effect: +[5%] attack speed for [15sec]. (Max. 3\nstacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [10%] of current HP\nCooldown: [17sec]",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[152%]\nSA Break：[87%]\n減益效果：麻痹 [1 sec]\n減益區域持續時間：[5 sec]",
+          "Effect": "[SoulPlus Info: Corner / Center Drag]\nDamager per hit: [142%], [170%]\nSuper Armor Break per Hit: [164%], [169%]\n\n[SoulPlus Info: Basic]\nBuff effect: +[5%] attack speed for [15sec]. (Max. 3\nstacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [10%] of current HP\nCooldown: [15sec]",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
       }
     },
-    "SeizeField-B": {
+    "Skill06_DesireofPredator-Canine": {
       "Visible": false,
-      "Name": "Seize Field-B",
+      "Name": "Canine",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Chii/Skill06_SeizeField_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill06_DesireofPredator_B.png",
       "Levels": {
         "0": {
-          "Description": "You penetrate the enemy's defense for 5 sec. and perform a central additional attack against a group of gathered opponents. Summoned canines also come in handy as a predator. You also receive SF.",
+          "Description": "You penetrate the enemy's defense for 5 sec. and additionally attack enemies in the middle area.\nAdditional canine will be added.\nYou also receive SG.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_SeizeField_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill06_DesireofPredator_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[105%]\nSA Break：[60%]\n將範圍[4]米內的敵人吸引至中心點",
+          "Effect": "[SoulPlus Info: Corner / Center Drag]\nDamager per hit: [80%], [96%]\nSuper Armor Break per Hit: [87%], [105%]\n\n[SoulPlus Info: Additional Strike for Canine]\nDamage: [159%]\nSuper Armor Break: [174%]\n\n[SoulPlus Info: Buff]\nBuff effect: [3%] armor penetration for [5sec]\nBuff effect: Recover [8] SG per hit",
           "RequiredLevel": 24,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[120%]\nSA Break：[69%]\n將範圍[6]米內的敵人吸引至中心點",
+          "Effect": "[SoulPlus Info: Corner / Center Drag]\nDamager per hit: [87%], [104%]\nSuper Armor Break per Hit: [95%], [114%]\n\n[SoulPlus Info: Additional Strike for Canine]\nDamage: [174%]\nSuper Armor Break: [190%]\n\n[SoulPlus Info: Buff]\nBuff effect: [7%] armor penetration for [5sec]\nBuff effect: Recover [12] SG per hit",
           "RequiredLevel": 29,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[152%]\nSA Break：[87%]\n將範圍[8]米內的敵人吸引至中心點",
+          "Effect": "[SoulPlus Info: Corner / Center Drag]\nDamager per hit: [100%], [120%]\nSuper Armor Break per Hit: [109%], [131%]\n\n[SoulPlus Info: Additional Strike for Canine]\nDamage: [200%]\nSuper Armor Break: [218%]\n\n[SoulPlus Info: Buff]\nBuff effect: [15%] armor penetration for [5sec]\nBuff effect: Recover [18] SG per hit",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
       }
     },
-    "PeregrineFalcon": {
-      "Name": "Peregrine Falcon",
+    "Skill07_ThirdForm-HawkAmbush": {
+      "Name": "Third Form: Hawk Ambush",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Chii/Skill07_PeregrineFalcon.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill07_ThirdForm-HawkAmbush.png",
       "Levels": {
         "0": {
-          "Description": "You unleash blade attacks on enemies ahead of you and then hurl the Daito spinning forwards. It deals damage along its path and then returns to you. You can call your weapon back immediately by left-clicking.",
+          "Description": "It causes damage along its path and then returns to you.\nYou can call your weapon back immediately by Left-Click.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_PeregrineFalcon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill07_ThirdForm-HawkAmbush.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [245%]/[31%]\nSA Break：攻擊1回 [137%]/[17%]\nSF Consumption：[45]\nCooldown：[17 sec]",
+          "Effect": "[Skill Info: Shove / Drag]\nDamage per hit: [208%]\nSuper Armor Break per hit: [137%]\n\n[Skill Info: Sub Attack]\nDamage per hit: [26%]\nSuper Armor Break per hit: [17%]\n\n[Skill Info: Basic]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [270%]/[34%]\nSA Break：攻擊1回 [151%]/[19%]\nSF Consumption：[45]\nCooldown：[17 sec]",
+          "Effect": "[Skill Info: Shove / Drag]\nDamage per hit: [229%]\nSuper Armor Break per hit: [151%]\n\n[Skill Info: Sub Attack]\nDamage per hit: [29%]\nSuper Armor Break per hit: [19%]\n\n[Skill Info: Basic]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [302%]/[38%]\nSA Break：攻擊1回 [169%]/[21%]\nSF Consumption：[45]\nCooldown：[17 sec]",
+          "Effect": "[Skill Info: Shove / Drag]\nDamage per hit: [256%]\nSuper Armor Break per hit: [169%]\n\n[Skill Info: Sub Attack]\nDamage per hit: [32%]\nSuper Armor Break per hit: [21%]\n\n[Skill Info: Basic]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [344%]/[43%]\nSA Break：攻擊1回 [192%]/[14%]\nSF Consumption：[45]\nCooldown：[17 sec]",
+          "Effect": "[Skill Info: Shove / Drag]\nDamage per hit: [292%]\nSuper Armor Break per hit: [192%]\n\n[Skill Info: Sub Attack]\nDamage per hit: [37%]\nSuper Armor Break per hit: [24%]\n\n[Skill Info: Basic]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[丟出/收回]\nDamage：攻擊1回 [406%]/[51%]\nSA Break：攻擊1回 [227%]/[18%]\nSF Consumption：[45]\nCooldown：[17 sec]",
+          "Effect": "[Skill Info: Shove / Drag]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\n\n[Skill Info: Sub Attack]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\n\n[Skill Info: Basic]\nSF Consumption：[45]\nCooldown：[17 sec]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "PeregrineFalcon-A"
+        "Skill07_ThirdForm-HawkAmbush-TrippleArrow"
       ]
     },
-    "MoonStep": {
-      "Name": "Moon Step",
+    "Skill08_FourthForm-LunarSlash": {
+      "Name": "Fourth Form: Lunar Slash",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Chii/Skill08_MoonStep.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_FourthForm-LunarSlash.png",
       "Levels": {
         "0": {
-          "Description": "You leap into the air and execute a 360° skywards strike. If you activate it again in the air, your attack finishes with you ramming your weapon into the ground in an elegant arc.",
+          "Description": "You leap into the air and execute a 360° skywards strike.\nIf you activate it again in the air, your attack finishes with you ramming your weapon into the ground in an elegant arc.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_MoonStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill08_FourthForm-LunarSlash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[348%]\nSA Break：[387%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Up / Downward Slash]\nDamager per hit: [290%]\nSuper Armor Break per hit: [260%]\nSG Consumption: [45]\nCooldown: [22sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[369%]\nSA Break：[406%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Up / Downward Slash]\nDamager per hit: [319%]\nSuper Armor Break per hit: [286%]\nSG Consumption: [45]\nCooldown: [22sec]",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[409%]\nSA Break：[454%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Up / Downward Slash]\nDamager per hit: [357%]\nSuper Armor Break per hit: [320%]\nSG Consumption: [45]\nCooldown: [22sec]",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[453%]\nSA Break：[502%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Up / Downward Slash]\nDamager per hit: [407%]\nSuper Armor Break per hit: [365%]\nSG Consumption: [45]\nCooldown: [22sec]",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[522%]\nSA Break：[580%]\n最大蓄力階段：[3]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Up / Downward Slash]\nDamager per hit: [480%]\nSuper Armor Break per hit: [431%]\nSG Consumption: [45]\nCooldown: [22sec]",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "MoonStep-A",
-        "MoonStep-B"
+        "Skill08_FourthForm-LunarSlash-AccurateHit",
+        "Skill08_FourthForm-LunarSlash-Lightning"
       ]
     },
-    "MoonStep-A": {
+    "Skill08_FourthForm-LunarSlash-AccurateHit": {
       "Visible": false,
-      "Name": "Moon Step-A",
+      "Name": "Accurate Hit",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Chii/Skill08_MoonStep_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_FourthForm-LunarSlash_A.png",
       "Levels": {
         "0": {
-          "Description": "Additional hits double the damage",
+          "Description": "Additional hits double the damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_MoonStep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill08_FourthForm-LunarSlash_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[548%]\nSA Break：[+1338%]\n無視敵人防禦：[10%]",
+          "Effect": "[SoulPluss Info: Basic Attack]\nDamage: [480%]\nSuper Armor Break: [431%]\n\n[SoulPluss Info: Additional Attack]\nDamage from additional hits: [960%]\nSuper Armor Break from additional hits: [862%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[575%]\nSA Break：[+1405%]\n無視敵人防禦：[20%]",
+          "Effect": "[SoulPluss Info: Basic Attack]\nDamage: [?%]\nSuper Armor Break: [496%]\n\n[SoulPluss Info: Additional Attack]\nDamage from additional hits: [?%]\nSuper Armor Break from additional hits: [938%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[643%]\nSA Break：[+1572%]\n無視敵人防禦：[40%]",
+          "Effect": "[SoulPluss Info: Basic Attack]\nDamage: [602%]\nSuper Armor Break: [540%]\n\n[SoulPluss Info: Additional Attack]\nDamage from additional hits: [1204%]\nSuper Armor Break from additional hits: [1080%]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
-    "MoonStep-B": {
+    "Skill08_FourthForm-LunarSlash-Lightning": {
       "Visible": false,
-      "Name": "MoonStep-B",
+      "Name": "Lightning",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Chii/Skill08_MoonStep_B.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill08_FourthForm-LunarSlash_B.png",
       "Levels": {
         "0": {
-          "Description": "Lighting strikes all along the path of the additional hits and nearby opponents are hit with paralysis.",
+          "Description": "Lightning falls along the trajectory of the additional hits, paralyzing enemies nearby.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_MoonStep_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill08_FourthForm-LunarSlash_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[548%]\nSA Break：[+1338%]\n無視敵人防禦：[10%]",
+          "Effect": "[SoulPluss Info: Basic Attack]\nDamage: [480%]\nSuper Armor Break: [431%]\n\n[SoulPluss Info: Additional Attack]\nTotal Damage: [672%]\nTotal Super Armor Break: [603%]\nDebuff Effect: paralysis for [3sec]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[575%]\nSA Break：[+1405%]\n無視敵人防禦：[20%]",
+          "Effect": "[SoulPluss Info: Basic Attack]\nDamage: [?%]\nSuper Armor Break: [496%]\n\n[SoulPluss Info: Additional Attack]\nTotal Damage: [?%]\nTotal Super Armor Break: [657%]\nDebuff Effect: paralysis for [4sec]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[643%]\nSA Break：[+1572%]\n無視敵人防禦：[40%]",
+          "Effect": "[SoulPluss Info: Basic Attack]\nDamage: [602%]\nSuper Armor Break: [540%]\n\n[SoulPluss Info: Additional Attack]\nTotal Damage: [?%]\nTotal Super Armor Break: [755%]\nDebuff Effect: paralysis for [5sec]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
-    "GrownCrevasse": {
-      "Name": "Grown Crevasse",
+    "Skill09_FifthForm-AerialDive": {
+      "Name": "Fifth Form: Aerial Dive",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Chii/Skill09_GrownCrevasse.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill09_FifthForm-AerialDive.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "You sling your weapon towards the ground whilst in the air. You then perform a mighty Kinetic Kick towards the point where the weapon is lodged in the ground. Opponents near the weapon suffer additional hits.",
+          "Description": "You sling your weapon towards the ground whilst in the air.\nYou then perform a mighty Kick towards the point where the weapon is lodged in the ground.\nOpponents near the weapon suffer additional hits.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_GrownCrevasse.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill09_FifthForm-AerialDive.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[743%]\nSA Break：[185%]\nSF Consumption：[3]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Throw]\nDamager per hit: [43%]\nSuper Armor Break per hit: [390%]\n\n[Skill Info: Kick]\nDamage：[100%]\nSuper Armor Break：[910%]\nSF Consumption：[50]\nCooldown：[20sec]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[780%]\nSA Break：[194%]\nSF Consumption：[3]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Throw]\nDamager per hit: [47%]\nSuper Armor Break per hit: [429%]\n\n[Skill Info: Kick]\nDamage：[111%]\nSuper Armor Break：[1001%]\nSF Consumption：[50]\nCooldown：[20sec]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[873%]\nSA Break：[217%]\nSF Consumption：[3]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Throw]\nDamager per hit: [53%]\nSuper Armor Break per hit: [481%]\n\n[Skill Info: Kick]\nDamage：[124%]\nSuper Armor Break：[1121%]\nSF Consumption：[50]\nCooldown：[20sec]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[965%]\nSA Break：[240%]\nSF Consumption：[3]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Throw]\nDamager per hit: [60%]\nSuper Armor Break per hit: [548%]\n\n[Skill Info: Kick]\nDamage：[141%]\nSuper Armor Break：[1278%]\nSF Consumption：[50]\nCooldown：[20sec]",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[1114%]\nSA Break：[277%]\nSF Consumption：[3]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Throw]\nDamager per hit: [71%]\nSuper Armor Break per hit: [647%]\n\n[Skill Info: Kick]\nDamage：[166%]\nSuper Armor Break：[1509%]\nSF Consumption：[50]\nCooldown：[20sec]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
       }
     },
-    "AccelerateGrinder": {
-      "Name": "Accelerate Grinder",
+    "Skill010_SixthForm-MelodyofGhost": {
+      "Name": "Sixth Form: Melody of Ghost",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Chii/Skill010_AccelerateGrinder.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill010_SixthForm-MelodyofGhost.png",
       "Levels": {
         "0": {
-          "Description": "You dance nimbly from side to side and strike swiftly with your blade. Your attack ends after a short time with a destructive strike like lighting. You can unleash the destructive blow immediately by right-clicking.",
+          "Description": "Your attack ends after a short time with a destructive strike like lightning.\nYou can unleash the destructive blow immediately by Right-Click.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_AccelearateGrinder.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill010_SixthForm-MelodyofGhost.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[154%]\nSA Break：[1882%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Consecutive Slash]\nDamage per hit: [86%]\nSuper Armor Break per hit: [30%]\n\n[Skill Info: Finish]\nTotal Damage: [258%]\nTotal Super Armor Break: [91%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[162%]\nSA Break：[1976%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Consecutive Slash]\nDamage per hit: [95%]\nSuper Armor Break per hit: [34%]\n\n[Skill Info: Finish]\nTotal Damage: [353%]\nTotal Super Armor Break: [101%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[181%]\nSA Break：[2211%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Consecutive Slash]\nDamage per hit: [106%]\nSuper Armor Break per hit: [38%]\n\n[Skill Info: Finish]\nTotal Damage: [396%]\nTotal Super Armor Break: [113%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[200%]\nSA Break：[2447%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Consecutive Slash]\nDamage per hit: [121%]\nSuper Armor Break per hit: [43%]\n\n[Skill Info: Finish]\nTotal Damage: [451%]\nTotal Super Armor Break: [128%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[231%]\nSA Break：[2823%]\n減益效果：燒傷（每 Seconds減少 [1%] HP）\nSF Consumption：[4]\nCooldown：[20 sec]",
+          "Effect": "[Skill Info: Consecutive Slash]\nDamage per hit: [142%]\nSuper Armor Break per hit: [50%]\n\n[Skill Info: Finish]\nTotal Damage: [532%]\nTotal Super Armor Break: [151%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "AccelerateGrinder-A"
+        "Skill010_SixthForm-MelodyofGhost-BlackBlood"
       ]
     },
-    "AccelerateGrinder-A": {
+    "Skill010_SixthForm-MelodyofGhost-BlackBlood": {
       "Visible": false,
-      "Name": "Accelerate Grinder-A",
+      "Name": "Black Blood",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_BlackBlood.png",
       "Levels": {
         "0": {
-          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
+          "Description": "Enhance the attack into Junk Energy by cosnuming HP.\nThe attack duration is decreased, but inflict more damage.\nThe 'Prey Detected' mark which stays on enemies that got hit; this Debuff gives damage by exploding during SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_AccelearateGrinder_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill010_SixthForm-MelodyofGhost_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[548%]\nSA Break：[+1338%]\n無視敵人防禦：[10%]",
+          "Effect": "[SoulPlus Info: Consecutive Slash]\nDamage per hit: [316%]\nSuper Armor Break per hit: [119%]\n\n[SoulPlus Info: Finish]\nTotal Damage: [948%]\nTotal Super Armor Break: [356%]\n\n[SoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [12%] of current HP\nCooldown: [35sec]\nAttack duration reduction: [20%]",
           "RequiredLevel": 41,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[575%]\nSA Break：[+1405%]\n無視敵人防禦：[20%]",
+          "Effect": "[SoulPlus Info: Consecutive Slash]\nDamage per hit: [316%]\nSuper Armor Break per hit: [119%]\n\n[SoulPlus Info: Finish]\nTotal Damage: [948%]\nTotal Super Armor Break: [356%]\n\n[SoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [12%] of current HP\nCooldown: [33sec]\nAttack duration reduction: [20%]",
           "RequiredLevel": 46,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[643%]\nSA Break：[+1572%]\n無視敵人防禦：[40%]",
+          "Effect": "[SoulPlus Info: Consecutive Slash]\nDamage per hit: [316%]\nSuper Armor Break per hit: [119%]\n\n[SoulPlus Info: Finish]\nTotal Damage: [948%]\nTotal Super Armor Break: [356%]\n\n[SoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [12%] of current HP\nCooldown: [30sec]\nAttack duration reduction: [20%]",
           "RequiredLevel": 51,
           "RequiredSP": 2
         }
       }
     },
-    "AssassinateParty": {
-      "Name": "Assassinate Party",
+    "Skill011_ZeroForm-Bladestorm": {
+      "Name": "Zero Form: Bladestorm",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Chii/Skill011_AssassinateParty.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill011_ZeroForm-Bladestorm.png",
       "Levels": {
         "0": {
-          "Description": "You knock your enemy back with a sharp slice and then attack them multiple with quick blows over a wide area.",
+          "Description": "You knock your enemy back with a sharp slice and then attack them multiple times with quick blows over a wide area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_AssasinateParty.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill011_ZeroForm-Bladestorm.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Buffs：移動速度 [+10%]\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]\nTotal Damage: [97%]\nTotal Super Armor Break: [152%]\n\n[Skill Info: Bladestorm]\nTotal Damage: [484%]\nTotal Super Armor Break: [762%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [35sec]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buffs：移動速度 [+11%]\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]\nTotal Damage: [106%]\nTotal Super Armor Break: [168%]\n\n[Skill Info: Bladestorm]\nTotal Damage: [532%]\nTotal Super Armor Break: [?%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [35sec]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buffs：移動速度 [+13%]\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]\nTotal Damage: [128%]\nTotal Super Armor Break: [188%]\n\n[Skill Info: Bladestorm]\nTotal Damage: [639%]\nTotal Super Armor Break: [?%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [35sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Buffs：移動速度[+16%]\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]\nTotal Damage: [153%]\nTotal Super Armor Break: [214%]\n\n[Skill Info: Bladestorm]\nTotal Damage: [766%]\nTotal Super Armor Break: [?%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [35sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Buffs：移動速度[+20%]\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]\nTotal Damage: [199%]\nTotal Super Armor Break: [253%]\n\n[Skill Info: Bladestorm]\nTotal Damage: [996%]\nTotal Super Armor Break: [1263%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [35sec]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "AssassinateParty-A"
+        "Skill011_ZeroForm-Bladestorm-AdditionalHit"
       ]
     },
-    "AssassinateParty-A": {
+    "Skill011_ZeroForm-Bladestorm-AdditionalHit": {
       "Visible": false,
-      "Name": "Assassinate Party-A",
+      "Name": "Additional Hit",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Chii/Skill011_AssassinateParty_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill011_ZeroForm-Bladestorm_A.png",
       "Levels": {
         "0": {
-          "Description": "The number of attacks by Prey Eliminated increases.",
+          "Description": "The Bladestorm inflicts more blows.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_AssasinateParty_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill011_ZeroForm-Bladestorm_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 sec]",
+          "Effect": "[SoulPlus Info: Front Slash]\nTotal Damage: [199%]\nTotal Super Armor Break: [253%]\n\n[SoulPlus Info: Bladestorm]\nTotal Damage: [1494%]\nTotal Super Armor Break: [1894%]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 sec]",
+          "Effect": "[SoulPlus Info: Front Slash]\nTotal Damage: [219%]\nTotal Super Armor Break: [275%]\n\n[SoulPlus Info: Bladestorm]\nTotal Damage: [1644%]\nTotal Super Armor Break: [?%]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 sec]",
+          "Effect": "[SoulPlus Info: Front Slash]\nTotal Damage: [265%]\nTotal Super Armor Break: [317%]\n\n[SoulPlus Info: Bladestorm]\nTotal Damage: [1989%]\nTotal Super Armor Break: [?%]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
-    "Thunderbolt": {
-      "Name": "Thunderbolt",
+    "Skill012_RageofPredator": {
+      "Name": "Rage of Predator",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Chii/Skill012_Thunderbolt.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill012_RageofPredator.png",
       "Levels": {
         "0": {
-          "Description": "You transform your hand into that of a SoulDreg, using it to gather SoulDreg energy and then thrust the hand with the energy sphere forwards. The sphere rises until it explodes. The longer you charge it, the more damage it does. If you end the skill early the sphere immediately explodes.",
+          "Description": "The sphere expands until it explodes. The longer you charge it, the more damage it does.\nIf you end the skill early, the sphere immediately explodes.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_Thunderbolt.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill012_RageofPredator.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[10 sec]\nSF Consumption：[5]\nCooldown：[60 sec]",
+          "Effect": "[Skill Info: Soul Junk Sphere]\nTotal Damage: [894%]\nTotal Super Armor Break: [614%]\n\n[Skill Info: Sphere Explosion]\nTotal Damage: [373%]\nTotal Super Armor Break: [256%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[11 sec]\nSF Consumption：[5]\nCooldown：[55 sec]",
+          "Effect": "[Skill Info: Soul Junk Sphere]\nTotal Damage: [984%]\nTotal Super Armor Break: [676%]\n\n[Skill Info: Sphere Explosion]\nTotal Damage: [410%]\nTotal Super Armor Break: [282%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[13 sec]\nSF Consumption：[4]\nCooldown：[55 sec]",
+          "Effect": "[Skill Info: Soul Junk Sphere]\nTotal Damage: [1102%]\nTotal Super Armor Break: [757%]\n\n[Skill Info: Sphere Explosion]\nTotal Damage: [459%]\nTotal Super Armor Break: [315%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[15 sec]\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Soul Junk Sphere]\nTotal Damage: [1256%]\nTotal Super Armor Break: [863%]\n\n[Skill Info: Sphere Explosion]\nTotal Damage: [524%]\nTotal Super Armor Break: [360%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：[100%]\nSA Break：[100%]\nBuffs：無敵 [1 sec]\n護盾效果：[霸體] + [完全回避]\n護盾持續時間：[20 sec]\nSF Consumption：[3]\nCooldown：[35 sec]",
+          "Effect": "[Skill Info: Soul Junk Sphere]\nTotal Damage: [1482%]\nTotal Super Armor Break: [1018%]\n\n[Skill Info: Sphere Explosion]\nTotal Damage: [618%]\nTotal Super Armor Break: [424%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 46,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "Thunderbolt-A"
+        "Skill012_RageofPredator-BlackBlood"
       ]
     },
-    "Thunderbolt-A": {
+    "Skill012_RageofPredator-BlackBlood": {
       "Visible": false,
-      "Name": "Thunderbolt-A",
+      "Name": "Black Blood",
       "ID": 24,
-      "Icon": "../assets/SkillIcons/Chii/SkillXX_Bloodtear.png",
+      "Icon": "../assets/SkillIcons/Chii/SkillXX_BlackBlood.png",
       "Levels": {
         "0": {
-          "Description": "You consume HP and increase your attacks with SoulDreg energy. Hit opponents marked with Loot in Sight will suffer additional damage from hits with SoulStrike.",
+          "Description": "Enhance the attack into Junk Energy by cosnuming HP.\nThe 'Prey Detected' mark which stays on enemies that got hit; this Debuff gives damage by exploding during SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_Thunderbolt_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill012_RageofPredator_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [2%]\n增益持續時間：[20 sec]",
+          "Effect": "[SoulPlus Info: Soul Junk Sphere]\nTotal Damage: [2642%]\nTotal Super Armor Break: [1914%]\n\n[SoulPlus Info: Sphere Explosion]\nTotal Damage: [1101%]\nTotal Super Armor Break: [798%]\n\nSoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [12%] of current HP\nCooldown: [40sec]",
           "RequiredLevel": 46,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [3%]\n增益持續時間：[20 sec]",
+          "Effect": "[SoulPlus Info: Soul Junk Sphere]\nTotal Damage: [2642%]\nTotal Super Armor Break: [1914%]\n\n[SoulPlus Info: Sphere Explosion]\nTotal Damage: [1101%]\nTotal Super Armor Break: [798%]\n\nSoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [12%] of current HP\nCooldown: [38sec]",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buffs：每 Seconds恢復靈魂值 [5%]\n增益持續時間：[20 sec]",
+          "Effect": "[SoulPlus Info: Soul Junk Sphere]\nTotal Damage: [2642%]\nTotal Super Armor Break: [1914%]\n\n[SoulPlus Info: Sphere Explosion]\nTotal Damage: [1101%]\nTotal Super Armor Break: [798%]\n\nSoulPlus Info: Basic]\nBuff: +[5%] attack speed for [15sec]. (Max. 3 stacks)\nDebuff effect: Leave 'Prey Detected' mark on the\nenemies for [15sec].\nHP consumption: [12%] of current HP\nCooldown: [35sec]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
-    "GiantKatana": {
-      "Name": "Giant Katana",
+    "Skill013_CallofPredator-TheEnd": {
+      "Name": "Call of Predator: The End",
       "ID": 25,
-      "Icon": "../assets/SkillIcons/Chii/Skill013_GiantKatana.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill013_CallofPredator-TheEnd.png",
       "Levels": {
         "0": {
-          "Description": "You transform your hand into that of a SoulDreg and use it to gather SoulDreg energy within your weapon. After a mighty upward slice, you ram your weapon into the ground and unleash an explosion over a huge area.",
+          "Description": "You transform your hand into that of a SoulDreg and use it to gather SoulDreg energy within your weapon.\nAfter a mighty upward slice, you ram your weapon into the ground and unleash an explosion over a huge area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_GiantKatana.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill013_CallofPredator-TheEnd.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[前切攻擊]Damage：[531%]\nSA Break：[390%]\n[爆炸攻擊]Damage：[1680%]\nSA Break：[1234%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]Damage：[531%]\nSuper Armor Break：[390%]\n[Skill Info: Soul Junk Explosion]Total Damage：[2233%]\nTotal Super Armor Break：[1640%]\n\nSF Consumption：[75]\nCooldown：[45sec]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[前切攻擊]Damage：[584%]\nSA Break：[429%]\n[爆炸攻擊]Damage：[1849%]\nSA Break：[1358%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]Damage：[584%]\nSuper Armor Break：[429%]\n[Skill Info: Soul Junk Explosion]Total Damage：[2457%]\nTotal Super Armor Break：[1805%]\n\nSF Consumption：[75]\nCooldown：[45sec]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[前切攻擊]Damage：[654%]\nSA Break：[480%]\n[爆炸攻擊]Damage：[2070%]\nSA Break：[1521%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]Damage：[654%]\nSuper Armor Break：[480%]\n[Skill Info: Soul Junk Explosion]Total Damage：[2751%]\nTotal Super Armor Break：[2021%]\n\nSF Consumption：[75]\nCooldown：[45sec]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[前切攻擊]Damage：[745%]\nSA Break：[547%]\n[爆炸攻擊]Damage：[2361%]\nSA Break：[1734%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]Damage：[745%]\nSuper Armor Break：[547%]\n[Skill Info: Soul Junk Explosion]Total Damage：[3137%]\nTotal Super Armor Break：[2304%]\n\nSF Consumption：[75]\nCooldown：[45sec]",
           "RequiredLevel": 52,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[前切攻擊]Damage：[880%]\nSA Break：[646%]\n[爆炸攻擊]Damage：[2785%]\nSA Break：[2046%]\n\nSF Consumption：[75]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Front Slash]Damage：[880%]\nSuper Armor Break：[646%]\n[Skill Info: Soul Junk Explosion]Total Damage：[3702%]\nTotal Super Armor Break：[2719%]\n\nSF Consumption：[75]\nCooldown：[45sec]",
           "RequiredLevel": 55,
           "RequiredSP": 3
         }
       },   
       "Extensions": [
-        "GiantKatana-A"
+        "Skill013_CallofPredator-TheEnd-Detect"
       ]
     },
-    "GiantKatana-A": {
+    "Skill013_CallofPredator-TheEnd-Detect": {
       "Visible": false,
-      "Name": "Giant Katana-A",
+      "Name": "Detect",
       "ID": 31,
-      "Icon": "../assets/SkillIcons/Chii/Skill013_GiantKatana_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill013_CallofPredator-TheEnd_A.png",
       "Levels": {
         "0": {
-          "Description": "Leave a black blood mark during the attack.\nOnce the attack finishes, mark is detected and explodes.",
+          "Description": "Your uppercut attacks leave a Black Blood Mark.\nDetects and explodes the mark after finishing the attack for additional damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_GiantKatana_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill013_CallofPredator-TheEnd_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attribute Information: Forward Slash]\nDamage [1063%]\nSuper Armor Break [781%]\n[Attribute Information: Soul Junk Explosion]\nTotal Damage [3665%]\nTotal Super Armor Break [2692%]\n[Attribute Information: Mark Explosion]\nDamage per mark [550%]\nSuper Armor Break per mark [404%]",
+          "Effect": "[SoulPlus Info: Frontal Shinken]\nTotal Damage: [1063%]\nTotal Super Armor Break: [781%]\n\n[SoulPlus Info: Soul Junk Explosion]\nTotal Damage: [3665%]\nTotal Super Armor Break: [2692%]\n[SoulPlus Info: Mark Explosion]\nDamage per mark: [550%]\nSuper Armor Break per mark: [404%]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },
         "2": {
-          "Effect": "[Attribute Information: Forward Slash]\nDamage [1331%]\nSuper Armor Break [977%]\n[Attribute Information: Soul Junk Explosion]\nTotal Damage [4032%]\nTotal Super Armor Break [2961%]\n[Attribute Information: Mark Explosion]\nDamage per mark [605%]\nSuper Armor Break per mark [444%]",
+          "Effect": "[SoulPlus Info: Frontal Shinken]\nTotal Damage: [1331%]\nTotal Super Armor Break: [977%]\n\n[SoulPlus Info: Soul Junk Explosion]\nTotal Damage: [4032%]\nTotal Super Armor Break: [2961%]\n[SoulPlus Info: Mark Explosion]\nDamage per mark: [605%]\nSuper Armor Break per mark: [444%]",
           "RequiredLevel": 70,
           "RequiredSP": 3
         },
         "3": {
-          "Effect": "[Attribute Information: Forward Slash]\nDamage [1716%]\nSuper Armor Break [1260]\n[Attribute Information: Soul Junk Explosion]\nTotal Damage [4637%]\nTotal Super Armor Break [3405%]\n[Attribute Information: Mark Explosion]\nDamage per mark [696%]\nSuper Armor Break per mark [511%]",
+          "Effect": "[SoulPlus Info: Frontal Shinken]\nTotal Damage: [1716%]\nTotal Super Armor Break: [1260]\n\n[SoulPlus Info: Soul Junk Explosion]\nTotal Damage: [4637%]\nTotal Super Armor Break: [3405%]\n[SoulPlus Info: Mark Explosion]\nDamage per mark: [696%]\nSuper Armor Break per mark: [511%]",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
       }
     },
-    "ThrustArrow-A": {
+    "Skill03_1stForm:ReadytoHunt-ArrowBomb": {
       "Visible": false,
-      "Name": "Thrust Arrow-A",
+      "Name": "Arrow Bomb",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/Skill03_ThrustArrow_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill03_1stForm-ReadytoHunt_A.png",
       "Levels": {
         "0": {
-          "Description": "在發動最後攻擊之前點擊滑鼠右鍵，可再進行一次強大的近距離零式射擊。",
+          "Description": "Attack with arrows instead of spin slash.\nUse Left-Click to dodge backwards, firing an arrow bomb.\nThe arrow marks Black Blood Marking.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_ThrustArrow_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill03_1stForm-ReadytoHunt_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "傷害總量：[619%]\n霸體破壞總量：[339%]",
+          "Effect": "[SoulPlus Info: Arrow Shower]\nDamager per hit: [127%]\nSuper Armor Break per hit: [67%]\n\n[SoulPlus Info: Arrow Bomb]\nTotal Damage: [619%]\nTotal Super Armor Break: [336%]\n\n[SoulPlus Info: Basic]\nBuff Effect: Attack Speed +[5%] for [15sec] (Max. 3\nStack)\nBlack Blood Marking Count: [1]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "傷害總量：[692%]\n霸體破壞總量：[378%]",
+          "Effect": "[SoulPlus Info: Arrow Shower]\nDamager per hit: [135%]\nSuper Armor Break per hit: [73%]\n\n[SoulPlus Info: Arrow Bomb]\nTotal Damage: [675%]\nTotal Super Armor Break: [367%]\n\n[SoulPlus Info: Basic]\nBuff Effect: Attack Speed +[5%] for [15sec] (Max. 3\nStack)\nBlack Blood Marking Count: [1]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "傷害總量：[765%]\n霸體破壞總量：[419%]",
+          "Effect": "[SoulPlus Info: Arrow Shower]\nDamager per hit: [155%]\nSuper Armor Break per hit: [84%]\n\n[SoulPlus Info: Arrow Bomb]\nTotal Damage: [777%]\nTotal Super Armor Break: [422%]\n\n[SoulPlus Info: Basic]\nBuff Effect: Attack Speed +[5%] for [15sec] (Max. 3\nStack)\nBlack Blood Marking Count: [1]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "PeregrineFalcon-A": {
+    "Skill07_ThirdForm-HawkAmbush-TrippleArrow": {
       "Visible": false,
-      "Name": "Peregrine Falcon-A",
+      "Name": "Tripple Arrow",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/Skill07_PeregrineFalcon_A.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill07_ThirdForm-HawkAmbush_A.png",
       "Levels": {
         "0": {
-          "Description": "在脈衝炸彈的引爆地點設置機械膠囊，並從中召喚出機器人幫助攻擊。",
+          "Description": "Once your weapon is back in your hand, use Left-Click to transform the Single Edge into a bow and fire 3 piercing arrows.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/G_ADV_3-1_PeregrineFaB_Skill_PeregrineFalconlcon_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill07_ThirdForm-HawkAmbush_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[1215%]\nSA Break：[303%]\n\n[召喚物資訊]\n召喚物：無人機\nDamage及SA Break：攻擊1回 [100%]\n自爆攻擊Damage及SA Break：[200%]",
+          "Effect": "[SoulPlus Info: Shove / Drag]\nDamage per hit: [345%]\nSuper Armor Break per hit: [227%]\n\n[SoulPlus Info: Sub Attack]\nDamage per hit: [43%]\nSuper Armor Break per hit: [28%]\n\n[SoulPlus Info: Additional Penetration Arrow]\nDamage per hit: [130%]\nSuper Armor Break per hit: [86%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：[1275%]\nSA Break：[318%]\n\n[召喚物資訊]\n召喚物：偵察機\nDamage及SA Break：攻擊1回 [100%]\n自爆攻擊Damage及SA Break：[300%]",
+          "Effect": "[SoulPlus Info: Shove / Drag]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\n\n[SoulPlus Info: Sub Attack]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\n\n[SoulPlus Info: Additional Penetration Arrow]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：[1426%]\nSA Break：[355%]\n\n[召喚物資訊]\n召喚物：機械浣熊\nDamage及SA Break：攻擊1回[100%]\n自爆攻擊Damage及SA Break：[500%]",
+          "Effect": "[SoulPlus Info: Shove / Drag]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\n\n[SoulPlus Info: Sub Attack]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\n\n[SoulPlus Info: Additional Penetration Arrow]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
       }
     },
-    "GaleArrow": {
-      "Name": "Gale Arrow",
+    "Skill015_1stShift-Mistral": {
+      "Name": "1st Shift: Mistral",
       "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/Skill015_GaleArrow.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill015_1stShift-Mistral.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "在Air Controls狀態下，使用懸浮板邊向前移動邊進行散射攻擊。\n對於浮空狀態下的敵人會給予額外傷害。",
+          "Description": "Fire 3 shots to enemies by transforming the weapon into an arrow.\nExplosion damage doubles when changed.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_GaleArrow.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill015_1stShift-Mistral.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [220%]\nSA Break：攻擊1回 [112%]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [670%]\nSuper Armor Break per hit: [540%]\nSF Consumption：[35]\nCooldown：[35sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [231%]\nSA Break：攻擊1回 [118%]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSF Consumption：[35]\nCooldown：[35sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [258%]\nSA Break：攻擊1回 [132%]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSF Consumption：[35]\nCooldown：[35sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：攻擊1回 [286%]\nSA Break：攻擊1回 [145%]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSF Consumption：[35]\nCooldown：[35sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：攻擊1回 [330%]\nSA Break：攻擊1回 [168%]\nSF Consumption：[3]\nCooldown：[25 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSF Consumption：[35]\nCooldown：[35sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "RedVine": {
-      "Name": "Red Vine",
+    "Skill016_2ndShift-ScarletSilvervine": {
+      "Name": "2nd Shift: Scarlet Silvervine",
       "ID": 29,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/Skill016_RedVine.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill016_2ndShift-ScarletSilvervine.png",
       "Levels": {
         "0": {
-          "Description": "用滑鼠指定區域目標，以雷射光束進行精準射擊。",
+          "Description": "Transforms your Single Edge into a bow and summons a Soul Junk with SG shot.\nThe Soul Junk attacks all nearby enemies for a short time.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_RedVine.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill016_2ndShift-ScarletSilvervine.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：攻擊1回 [944%]\nSA Break：攻擊1回 [1065%]\nSF Consumption：[4]\nCooldown：[30 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [117%]\nSuper Armor Break per hit: [55%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage：攻擊1回 [991%]\nSA Break：攻擊1回 [1118%]\nSF Consumption：[4]\nCooldown：[30 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage：攻擊1回 [1109%]\nSA Break：攻擊1回 [1251%]\nSF Consumption：[4]\nCooldown：[30 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage：攻擊1回 [1226%]\nSA Break：攻擊1回 [1383%]\nSF Consumption：[4]\nCooldown：[30 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage：攻擊1回 [1415%]\nSA Break：攻擊1回 [1596%]\nSF Consumption：[4]\nCooldown：[30 sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per hit: [?%]\nSuper Armor Break per hit: [?%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "DevilsToy": {
-      "Name": "Devils Toy",
+    "Skill014_PredatorsClaw": {
+      "Name": "Predator's Claw",
       "ID": 30,
-      "Icon": "../assets/SkillIcons/Chii/Skill014_DevilsToy.png",
+      "Icon": "../assets/SkillIcons/Chii/Skill014_PredatorsClaw.png",
       "Levels": {
         "0": {
-          "Description": "朝前方射出特殊子彈，在固定區域內多次彈射並貫穿敵人。",
+          "Description": "Your hands transform into Soul Junk claws and you scratch and claw your enemy multiple times in the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_DevilsToy.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/Skill014_PredatorsClaw.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage：攻擊1回 [155%]\nSA Break：攻擊1回 [169%]\n[終結攻擊]\nDamage：[389%]\nSA Break：[424%]\n\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Basic]\nTotal Damage: [2207%]\nTotal Super Armor Break: [2414%]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage：攻擊1回 [171%]\nSA Break：攻擊1回 [186%]\n[終結攻擊]\nDamage：[428%]\nSA Break：[466%]\n\nSF Consumption：[4]\nCooldown：[45 sec]",
+          "Effect": "[Skill Info: Basic]\nTotal Damage: [2427%]\nTotal Super Armor Break: [2656%]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Basic]\nTotal Damage: [2731%]\nTotal Super Armor Break: [2975%]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },      
         "4": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Basic]\nTotal Damage: [3140%]\nTotal Super Armor Break: [3392%]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 71,
           "RequiredSP": 3
         },
         "5": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Basic]\nTotal Damage: [?%]\nTotal Super Armor Break: [?%]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 74,
           "RequiredSP": 3
         }
@@ -1214,19 +1214,19 @@
     },
     "BasicAttackMastery": {
       "Passive": true,
-      "Name": "Basic Attack",
+      "Name": "Basic Attack Mastery",
       "ID": 1002,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
         "0": {
-          "Description": "You swing the Daito Fatale to attack. Chain attacks change depending on the skill level. Damage increases.\nHits generate SF.\nYou receive more SF with higher chain levels and/or higher monster rank.",
+          "Description": "You swing the Single Edge to attack.\nChain attacks change depending on the skill level. Damage increases.\nCan obtain SG.\nCan receive more SG followed by combination stage and Monster rank.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "[Ground Controls]\nBasic Attack：Mouse:4x left-click\n\n[Air Controls]\nMouse: 2x left-click when jumping",
+          "Effect": "[Skill Info]\nSG gain: +[0%]",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
@@ -1234,7 +1234,7 @@
           }
         },
         "2": {
-          "Effect": "20% more SF.\nUnlocks SoulStrike A.\n[Ground Controls]\n[1]Basic Attack：Mouse:4x left-click\n[2]Mouse: 2x left-click - multiple right-click\n\n[Air Controls]\nMouse: 2x left-click when jumping",
+          "Effect": "[Skill Info]\nSG gain: +[20%]",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
@@ -1242,7 +1242,7 @@
           }
         },
         "3": {
-          "Effect": "70% more SF.\nUnlocks SoulStrike B.\n[Ground Controls]\n[1]Basic Attack：Mouse:4x left-click\n[2]Mouse: 2x left-click - multiple right-click\n[3]SoulStrike B：Mouse:左鍵x3-右鍵\n\n[Air Controls]\nMouse: 2x left-click when jumping",
+          "Effect": "[Skill Info]\nSG gain: +[70%]",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
@@ -1250,7 +1250,7 @@
           }
         },
         "4": {
-          "Effect": "120% more SF.\n可使用Basic Attack和Air Controls攻擊的追加攻擊\n[Ground Controls]\n[1]Basic Attack：Mouse:左鍵x5\n[2]Mouse: 2x left-click - multiple right-click\n[3]SoulStrike B：Mouse:左鍵x3-右鍵\n\n[Air Controls]\nMouse:跳躍後，左鍵x3",
+          "Effect": "[Skill Info]\nSG gain: +[120%]",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
@@ -1258,7 +1258,7 @@
           }
         },
         "5": {
-          "Effect": "200% more SF.\nUnlocks SoulStrike C.\n[Ground Controls]\n[1]Basic Attack：Mouse:左鍵x5\n[2]Mouse: 2x left-click - multiple right-click\n[3]SoulStrike B：Mouse:左鍵x3-右鍵\n[4]SoulStrike C：Mouse:4x left-click-右鍵\n\n[Air Controls]\nMouse:跳躍後，左鍵x3",
+          "Effect": "[Skill Info]\nSG gain: +[200%]",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
@@ -1267,15 +1267,15 @@
         }
       }
     },
-    "SpecialAbilityMastery": {
+    "SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "SoulStrike",
-      "Icon": "../assets/SkillIcons/Chii/PSkill_SoulStrike.png",
+      "Name": "SoulStrike Mastery",
+      "Icon": "../assets/SkillIcons/Chii/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
-          "Description": "釋放靈魂能量攻擊附近的敵人。\n如果範圍內敵人身上帶有「狩獵標記」，則會賦予額外的爆炸傷害。\n標記最多可以疊加3層。\n依據傷害回復自身一定比例的生命（此效果只適用於1個敵人）。\n在Air Controls使用時，迅速以武器向前方進行下落攻擊。\n攻擊時可以獲得靈魂值。",
+          "Description": "Attack nearby enemies by emitting Soul Energy.\nGives additional damage by exploding the mark, when there is a target with 'Prey Detected' mark iin the following area.\nDamage increases depeneding on the mark\n(Max. 3 stacks).\n\nSwiftly spike the weapon onto the ground.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1284,17 +1284,17 @@
           }
         },
         "1": {
-          "Effect": "[Ground Controls]\nDamage：[175%]\nSA Break：[140%]\n從傷害的 [3%] 回復生命\n[標記爆炸]\n每層標記：Damage [350%]\n每層標記：SA Break [280%]\n\n[Air Controls]\nDamage：[229%]\nSA Break：[170%]\n\n[General]\nCooldown：[10 sec]",
+          "Effect": "[Skill Info: Basic Attack - Ground]\nDamage：[175%]\nSuper Armor Break：[140%]\nAttacks generate SG.\nCooldown: [10sec]\n\n[Skill Info: Mark Explosion]\nDamage per marked target: [350%]\nSuper Armor Break per marked target: [280%]\nHP Recovery per damage: [1%]\n\n[Skill Info: Aerial]\nDamage：[229%]\nSuper Armor Break：[170%]\nCooldown：[10 sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground Controls]\nDamage：[192%]\nSA Break：[154%]\n從傷害的 [7%] 回復生命\n[標記爆炸]\n每層標記：Damage [384%]\n每層標記：SA Break [308%]\n\n[Air Controls]\nDamage：[241%]\nSA Break：[178%]\n\n[General]\nCooldown：[10 sec]",
+          "Effect": "[Skill Info: Basic Attack - Ground]\nDamage：[192%]\nSuper Armor Break：[154%]\nAttacks generate SG.\nCooldown: [10sec]\n\n[Skill Info: Mark Explosion]\nDamage per marked target: [384%]\nSuper Armor Break per marked target: [308%]\nHP Recovery per damage: [2%]\n\n[Skill Info: Aerial]\nDamage：[241%]\nSuper Armor Break：[178%]\nCooldown：[10 sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground Controls]\nDamage：[211%]\nSA Break：[169%]\n從傷害的 [15%] 回復生命\n[標記爆炸]\n每層標記：Damage [422%]\n每層標記：SA Break [338%]\n\n[Air Controls]\nDamage：[270%]\nSA Break：[200%]\n\n[General]\nCooldown：[10 sec]",
+          "Effect": "[Skill Info: Basic Attack - Ground]\nDamage：[211%]\nSuper Armor Break：[169%]\nAttacks generate SG.\nCooldown: [10sec]\n\n[Skill Info: Mark Explosion]\nDamage per marked target: [422%]\nSuper Armor Break per marked target: [338%]\nHP Recovery per damage: [3%]\n\n[Skill Info: Aerial]\nDamage：[270%]\nSuper Armor Break：[200%]\nCooldown：[10 sec]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1302,13 +1302,13 @@
     },
     "Dodge": {
       "Passive": true,
-      "Name": "Escape Route",
+      "Name": "Dodge",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
         "0": {
-          "Description": "You move with lightning speed in the desired direction.\nDuring the movement you block all attacks.",
+          "Description": "Move-in a pointed direction.\nNo damage received in Dodge Status.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1317,21 +1317,21 @@
           }
         },
         "1": {
-          "Effect": "Stamina consumption：[20]",
+          "Effect": "Stamina Consumption：[20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "RisingRoll": {
+    "Tumble": {
       "Passive": true,
-      "Name": "Shadow Roll",
+      "Name": "Tumble",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
         "0": {
-          "Description": "You quickly roll in the desired direction and are no longer knocked down. During the movement all attacks are blocked.",
+          "Description": "Tumble to a pointed direction and rise when you get down by enemies.\nNo damage received in Tumble Status.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1350,7 +1350,7 @@
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina consumption：[15]\nSpeed increases.",
+          "Effect": "Stamina consumption：[15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1361,7 +1361,7 @@
       "Name": "Sprint",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/SkillIcons/Common/Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
           "Description": "You charge forward",
@@ -1378,21 +1378,21 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Speed increases.",
+          "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
       }
     },
-    "RisingAttack": {
+    "Retaliation": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "Retaliation",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "You are no longer knocked down and attack enemies in the area around you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1401,17 +1401,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1422,10 +1422,10 @@
       "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Perform an attack while dashing. Different character does different attacks. ",
+          "Description": "Glide forwards when dashing and attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1434,20 +1434,20 @@
           }
         },
         "1": {
-          "Effect": "Damage: 115%\nSuper Armor Break: 38%",
+          "Effect": "[Skill Info]\nDamage: [122%]\nSuper Armor Break: [41%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "SpecialDodge": {
+    "SoulEvasion": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "Soul Evasion",
       "ID": 1007,
-      "Icon": "../assets/SkillIcons/Common/Elusion.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "Move-in a pointed direction when getting hit.\nNo damage received in Soul Evasion Status.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1456,30 +1456,30 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "[Skill Info]\nStamina Consumption：[40]\nCooldown：[60sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "[Skill Info]\nStamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "[Skill Info]\nStamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
       }
     },
-    "SpecialDashAttack": {
+    "SoulDashAttack": {
       "Passive": true,
-      "Name": "Whirl Jump",
+      "Name": "SoulDash Attack",
       "ID": 1010,
-      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Performs a special attack while dashing. Different characters do different special attacks",
+          "Description": "You spin on your body to attack while\nrunning.\nAttacks generate SG.\nYou receive more SG with higher chain levels\nand/or higher monster rank.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1488,7 +1488,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
+          "Effect": "[Skill Info]\nDamage: [241%]\nSuper Armor Break: [111%]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1498,36 +1498,36 @@
       "Passive": true,
       "Name": "Stamina Mastery",
       "ID": 1009,
-      "Icon": "../assets/SkillIcons/Common/Endure.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "Passive effect: Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "[Skill Info]\nStamina Recovery: +[10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "[Skill Info]\nStamina Recovery: +[20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "[Skill Info]\nStamina Recovery: +[30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "[Skill Info]\nStamina Recovery: +[40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "[Skill Info]\nStamina Recovery: +[50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1535,61 +1535,61 @@
     },
     "WildInstinct": {
       "Passive": true,
-      "Name": "野性本能",
+      "Name": "Wild Instinct",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/PSkill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Chii/PSkill2_WildInstinct.png",
       "Levels": {
         "0": {
-          "Description": "每使用帶有「黑血」特性的技能後，於5 Seconds內再使用其他帶有相同特性的技能滿3次時，10 Seconds內增加SA Break、暴擊率。\n效果發動期間無法再次計數。",
+          "Description": "Passive Effect: (When using Black Blood skill)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "[效果發動時]\nSA Break、暴擊率：[+5%]",
+          "Effect": "[Skill Info]\nSuper Armor Break & Critical Rate: +[5%] for\n[10sec]\nSV Recovery: [2]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[效果發動時]\nSA Break、暴擊率：[+7%]",
+          "Effect": "[Skill Info]\nSuper Armor Break & Critical Rate: +[7%] for\n[10sec]\nSV Recovery: [2]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[效果發動時]\nSA Break、暴擊率：[+10%]",
+          "Effect": "[Skill Info]\nSuper Armor Break & Critical Rate: +[10%] for\n[10sec]\nSV Recovery: [2]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
       }
     },
-    "FelinaFatale": {
+    "Flexibility": {
       "Passive": true,
-      "Name": "Felina Fatale",
+      "Name": "Flexibility",
       "ID": 1011,
-      "Icon": "../assets/SkillIcons/Chii/PSkill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Chii/PSkill1_Flexibility.png",
       "Levels": {
         "0": {
-          "Description": "Passive effect: max stamina increased",
+          "Description": "Passive effect: Max. Stamina increased",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Passive effect: max stamina increased by 10",
+          "Effect": "[Skill Info]\nMax. Stamina: +[10]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Passive effect: max stamina increased by 20",
+          "Effect": "[Skill Info]\nMax. Stamina: +[20]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Passive effect: max stamina increased by 30",
+          "Effect": "[Skill Info]\nMax. Stamina: +[30]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1600,23 +1600,23 @@
       "Passive": true,
       "DefaultLevel": 1,
       "Name": "Death Roar",
-      "Icon": "../assets/SkillIcons/Common/Mourning.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
-          "Description": "Recover an amount of your max SG according to the level of skill [Special Ability Mastery]",
+          "Description": "Recover SG when your basic attack succeeds.\nRecover SG when using SoulPlus skills.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Special ability Mastery I: 10% SG recovery.\nSpecial ability Mastery II: 15% SG recovery.\nSpecial ability Mastery III: 20% SG recovery",
+          "Effect": "Automatically recover SG in a certain lengh of\ntime.",
           "RequiredLevel": 10,
           "RequiredSP": 0
         }
       }
     },
     "DestructionBlade": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Destruction Blade",
       "DefaultLevel": 1,
       "ID": 2003,
@@ -1624,51 +1624,51 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/NSkill3_DestructionBlade.png",
+      "Icon": "../assets/SkillIcons/Chii/EXSkill_SecretForm-EdgeofRain.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Transforms your Single Edge into a bow and fires arrows with Soul Energy energy balls.\nDetonating the energy balls causes them to explode, dealing significant damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_DestructionBlade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/EXSkill_SecretForm-EdgeofRain.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[2740%]\nSA Break：[2430%]",
+          "Effect": "\nCan only be used in the Awakening status.\nAwakening ends when using this.\n\nDamage：[7740%]\nSuper Armor Break：[7430%]",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }
     },
     "Frenzy": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": 2001,
-      "Icon": "../assets/SkillIcons/Chii/NSkill1_Hysteria.png",
+      "Icon": "../assets/SkillIcons/Chii/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
+          "Description": "Awakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "\n1st Stage Gauge Use (SV -50)\n\nAwakening: [30sec]\nMax. Damage set\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
     "Awakening": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
       "ID": 2002,
@@ -1676,7 +1676,7 @@
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Chii/NSkill2_Supernova.png",
+      "Icon": "../assets/SkillIcons/Chii/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1685,39 +1685,40 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "\n2st Stage Gauge Use (SV -100)\n\nAwakening: [60sec]\nMax. Damage set\nDamage reduction: [+25%]\nMovement Speed: [+20%]\nActivates Super Armor",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "ChiisDesire": {
-      "Passive": true,
-      "Name": "Chii's Desire",
+    "DesireAwakening": {
+      "Vapor": true,
+      "Name": "Desire Awakening",
       "DefaultLevel": 1,
       "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
-        "ClassIndex": 2
+        "ClassIndex": 2,
+        "Visible": false
       },
-      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Icon": "../assets/SkillIcons/Common/NSkill3_DesireAwakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
+          "Description": "[Skill Info: Burning]\nAdditional Blows: Damage increased by [1.3x] for [60sec]\nBurning Skill effect ends when using EX Skill.\nPredator's Call: The End: Summons an additional fang.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Chii/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Chii/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Giant Katana (lvl 42 Skill)\n-Devils Toy (lvl 62 Skill)\n-Destruction Blade (EX Skill)",
+          "Effect": "\n2nd Phase Gauge Use (SV -100)\n[Skill Info]\nDesire Awakening: [60sec]\nInflict Damage: +[20%]\nAttack Speed: +[20%]\nMax. Damage set\nAgility: +[30%]\nSG Consumption: -[20%]\nActivate Super Armor\nActivate Burning Skill",
           "RequiredLevel": 65,
           "RequiredSP": 0
         }

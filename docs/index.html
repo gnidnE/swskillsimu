@@ -4,15 +4,11 @@
         <meta charset="utf-8" />
         <title>SoulWorker Skill Simulator</title>
         <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/bootstrap4.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-        </script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
-            integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha256-X7rrn44l1+AUO65h1LGALBbOc5C5bOstSYsNlv9MhT8=" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/sakura/jquery-sakura.min.css" />
         <link rel="stylesheet" href="assets/css/home.styles.css?v=3" />
         <!--<script src="js/bootstrap-switch.min.js"></script>-->
@@ -39,7 +35,7 @@
         <meta property="og:author" content="Dramiel Leayal" />
         <meta name="robots" content="index">
         <meta name="description" content="Simulate SoulWorker's skill tree.">
-        <meta name="author" content="Dramiel Leayal">
+        <meta name="author" content="Edith Giselle">
         <meta name="keywords" content="skill, simulator, soulworker, sw">
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84812163-3"></script>
         <script>
@@ -57,9 +53,9 @@
         <div id="sakura" class="sakurabg1"></div>
         <div class="container-fluid">
             <div class="container bg-dark-fade">
-                <h1 class="text-center">SoulWorker Skill Simulator</h1>
+                <h1 class="text-center blur">SoulWorker Skill Simulator</h1>
                 <p>
-                    The skill simulator is made based on the information from the Korean version of SoulWorker.
+                    The skill simulator is made based on the information from the Korean & Steam (Global) version of SoulWorker.
                 </p>
                 <p>
                     This skill simulator require javascript turned on.
@@ -71,24 +67,19 @@
                     As of now, the simulator video has skill preview video (which require <a
                         href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
                         target="_blank">Promise</a> object).
-                    <br />
-                    <span id="isPromiseSupportedLabel"></span>
-                </p>
-                <p>
-                    
+                    <span id="isPromiseSupportedLabel"></span><br />
                     Full change-log can be found here: <a id="commit-link" target="_blank">Github Repository commit
                         log</a> or here: <a href=https://github.com/Eden333/swskillsimu/blob/master/CHANGELOG>CHANGELOG</a>
                 </p>
-                <br />
                 <span>Special thanks to Leayal and all those who contributed maintain the skill tree:</span>
                 <ul>
-                    Original Author:
+                    ORIGINAL AUTHOR:
 					<ol>Discord User: Dramiel Leayal#8799 (UserID: &lt;@164090291421184002&gt;) (Github: <a
                             href="https://github.com/Leayal" target="_blank">Leayal</a>)</ol>
-					Me: 
+					ME: 
 					<ol>Discord User: Eden~♡#2724 (UserID: &lt;@119560532947632134&gt;) (Github: <a
                             href="https://github.com/Eden333" target="_blank">Eden333</a>)</ol>
-					Contributors:
+					CONTRIBUTORS:
                     <ol>Discord User: Asai「朝顔」#3254 (UserID: &lt;@165738921886482433&gt;)</ol>
                     <ol>Discord User: Queentato#5458 (UserID: &lt;@90886564963442688&gt;)</ol>
                     <ol>Discord User: Ignia#4302 (UserID: &lt;@164102051414933504&gt;)</ol>
@@ -99,7 +90,9 @@
                     <ol>Discord User: すめらぎ#2463 (UserID: &lt;@172375598021214209&gt;)</ol>
                     <ol>Discord User: Ruerwin#1807 (UserID: &lt;@81024898910138368&gt;)</ol>
                     <ol>Discord User: nathan#7193 (UserID: &lt;@170020874890510336&gt;)</ol>
+                    <ol>Discord User: Asher#5856 (UserID: &lt;@219800669731815434&gt;)</ol>
                     <ol>Discord User: Myleia#0666 (UserID: &lt;@184415396944674817&gt;)</ol>
+                    <ol>Discord User: fergiiie#1932 (UserID: &lt;@299029806777892864&gt;)</ol>
                     
                     <li>and many more</li>
                 </ul>
@@ -115,13 +108,13 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col col-auto">
+                   <!-- <div class="col col-auto">
                         <a class="nav-link github-button" href=https://github.com/Eden333/swskillsimu/fork github-button-type="fork" data-size="large"
                             aria-label="Fork Leayal's repo on GitHub">Fork(Original)</a>
-					</div>
+					</div>-->
 					<div class="col col-auto">
 						<a class="nav-link github-button" href=https://github.com/Eden333/swskillsimu/fork github-button-type="fork" data-size="large"
-							aria-label="Fork Eden's repo on GitHub">Fork(This)</a>
+							aria-label="Fork Eden's repo on GitHub">Fork</a>
                     </div>
                     <div class="col col-auto">
                         <a class="nav-link github-button" github-button-type="issues" data-size="large"
@@ -133,8 +126,8 @@
                     </div>
                 </div>
             </div>
-            <div class="clearfix py-5">
-                <h2 class="text-center">Please select your character</h2>
+            <div class="clearfix py-5 blur">
+                <h2 class="text-center negheight">↓ Please select your character ↓</h2>
                 <h5 class="text-center require-js">(Scroll to right for more characters)</h5>
                 <noscript>
                     <h5 class="text-center">(You won't be able to see any character below because Javascript is

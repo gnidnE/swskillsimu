@@ -717,27 +717,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: [1396%]\nSuper Armor Break: [1880%]\nSG consumption: [3]\nCooldown: [40sec]",
+          "Effect": "Damage: [1396%]\nSuper Armor Break: [1880%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: [1536%]\nSuper Armor Break: [2086%]\nSG consumption: [3]\nCooldown: [40sec]",
+          "Effect": "Damage: [1536%]\nSuper Armor Break: [2086%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: [1843%]\nSuper Armor Break: [2481%]\nSG consumption: [3]\nCooldown: [40sec]",
+          "Effect": "Damage: [1843%]\nSuper Armor Break: [2481%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: [2211%]\nSuper Armor Break: [2977%]\nSG consumption: [3]\nCooldown: [40sec]",
+          "Effect": "Damage: [2211%]\nSuper Armor Break: [2977%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: [2875%]\nSuper Armor Break: [3870%]\nSG consumption: [3]\nCooldown: [40sec]",
+          "Effect": "Damage: [2875%]\nSuper Armor Break: [3870%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
@@ -879,17 +879,17 @@
           }
         },
         "1": {
-          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [212%]\nSuper Armor Break per hit[188%]\n[Attribute Information: Focusing]\nTotal Damage [4240%]\nTotal Super Armor Break [3760%]",
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [212%]\nSuper Armor Break per hit[188%]\n[Attribute Information: Focusing]\nTotal Damage: [4240%]\nTotal Super Armor Break: [3760%]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },
         "2": {
-          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [233%]\nSuper Armor Break per hit[207%]\n[Attribute Information: Focusing]\nTotal Damage [4660%]\nTotal Super Armor Break [4140%]",
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [233%]\nSuper Armor Break per hit[207%]\n[Attribute Information: Focusing]\nTotal Damage: [4660%]\nTotal Super Armor Break: [4140%]",
           "RequiredLevel": 70,
           "RequiredSP": 3
         },
         "3": {
-          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [268%]\nSuper Armor Break per hit[238%]\n[Attribute Information: Focusing]\nTotal Damage [5360%]\nTotal Super Armor Break [4760%]",
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [268%]\nSuper Armor Break per hit[238%]\n[Attribute Information: Focusing]\nTotal Damage: [5360%]\nTotal Super Armor Break: [4760%]",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
@@ -915,17 +915,17 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Powerful Attack]\nFinish Damage: [1089%]\nFinish Super Armor Break: [596%]",
+          "Effect": "[SoulPlus Info]\nDamage per hit: [127%]\nSuper Armor Break per hit: [70%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1089%]\nFinish Super Armor Break: [596%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Powerful Attack]\nFinish Damage: [1217%]\nFinish Super Armor Break: [665%]",
+          "Effect": "[SoulPlus Info]\nDamage per hit: [142%]\nSuper Armor Break per hit: [78%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1217%]\nFinish Super Armor Break: [665%]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [158%]\nSuper Armor Break per hit: [86%]\n\n[Powerful Attack]\nFinish Damage: [1350%]\nFinish Super Armor Break: [738%]",
+          "Effect": "[SoulPlus Info]\nDamage per hit: [158%]\nSuper Armor Break per hit: [86%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1350%]\nFinish Super Armor Break: [738%]",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -951,12 +951,12 @@
           }
         },
         "1": {
-          "Effect": "Damage:[%]\nSuper Armor Break: [%]\n\n[Basic Clone Attack]\nDamage and Super Armor Break per Hit: [%]\n\nSelf-destruct Device Attack]\nDamage and Super Armor Break per Hit: [%]\nFinish Attack Damage and Super Armor Break: [%]",
+          "Effect": "[SoulPlus Info]\nDamage:[1215%]\nSuper Armor Break: [694%]\n\n[SoulPlus Info: Basic Clone Attack]\nDamage and Super Armor Break per Hit: [100%]\n\n[SoulPlus Info: Self-destruct Device Attack]\nDamage and Super Armor Break per Hit: [200%]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage:[%]\nSuper Armor Break: [%]\n\n[Basic Clone Attack]\nDamage and Super Armor Break per Hit: [%]\n\nSelf-destruct Device Attack]\nDamage and Super Armor Break per Hit: [%]\nFinish Attack Damage and Super Armor Break: [%]",
+          "Effect": "[SoulPlus Info]\nDamage:[1275%]\nSuper Armor Break: [832%]\n\n[SoulPlus Info: Basic Clone Attack]\nDamage and Super Armor Break per Hit: [200%]\n\n[SoulPlus Info: Self-destruct Device Attack]\nDamage and Super Armor Break per Hit: [400%]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
           "Preview": {
@@ -964,7 +964,7 @@
           }
         },
         "3": {
-          "Effect": "Damage:[1426%]\nSuper Armor Break: [1082%]\n\n[Basic Clone Attack]\nDamage and Super Armor Break per Hit: [300%]\n\nSelf-destruct Device Attack]\nDamage and Super Armor Break per Hit: [60%]\nFinish Attack Damage and Super Armor Break: [180%]",
+          "Effect": "[SoulPlus Info]\nDamage:[1426%]\nSuper Armor Break: [1082%]\n\n[SoulPlus Info: Basic Clone Attack]\nDamage and Super Armor Break per Hit: [300%]\n\n[SoulPlus Info: Self-destruct Device Attack]\nDamage and Super Armor Break per Hit: [60%]\nFinish Attack Damage and Super Armor Break: [180%]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "Preview": {
@@ -984,7 +984,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Summons a hoverboard in the air, and bomb\nyour enemies.",
+          "Description": "Summons a hoverboard in the air, and bomb\nyour enemies.\n\n[Enemies who are hurled into the air receive\ngreater damage]",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -993,27 +993,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [220%]\nSuper Armor Break per hit: [112%]\nSG consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per hit: [220%]\nSuper Armor Break per hit: [112%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [231%]\nSuper Armor Break per hit: [118%]\nSG consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per hit: [231%]\nSuper Armor Break per hit: [118%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [258%]\nSuper Armor Break per hit: [132%]\nSG consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per hit: [258%]\nSuper Armor Break per hit: [132%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per hit: [286%]\nSuper Armor Break per hit: [145%]\nSG consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per hit: [286%]\nSuper Armor Break per hit: [145%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per hit: [330%]\nSuper Armor Break per hit: [168%]\nSG consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per hit: [330%]\nSuper Armor Break per hit: [168%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1038,27 +1038,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per hit: [1416%]\nSuper Armor Break per hit: [1598%]\nSG consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per hit: [1416%]\nSuper Armor Break per hit: [1598%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per hit: [1487%]\nSuper Armor Break per hit: [1677%]\nSG consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per hit: [1487%]\nSuper Armor Break per hit: [1677%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per hit: [1664%]\nSuper Armor Break per hit: [1877%]\nSG consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per hit: [1664%]\nSuper Armor Break per hit: [1877%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per hit: [1839%]\nSuper Armor Break per hit: [2075%]\nSG consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per hit: [1839%]\nSuper Armor Break per hit: [2075%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per hit: [2123%]\nSuper Armor Break per hit: [2394%]\nSG consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per hit: [2123%]\nSuper Armor Break per hit: [2394%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1079,27 +1079,27 @@
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage per hit: [242%]\nSuper Armor Break per hit: [229%]\n\n[Finish Attack]\nDamage: [606%]\nSuper Armor Break: [574%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per hit: [242%]\nSuper Armor Break per hit: [229%]\n\n[Finish Attack]\nDamage: [606%]\nSuper Armor Break: [574%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },        
         "4": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 71,
           "RequiredSP": 3
         },        
         "5": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 74,
           "RequiredSP": 3
         }
@@ -1110,7 +1110,7 @@
       "Name": "Basic Attack Mastery",
       "ID": 1002,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
         "0": {
           "Description": "Attack with your weapon.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
@@ -1160,12 +1160,12 @@
         }
       }
     },
-    "SpecialAbilityMastery": {
+    "SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/SkillIcons/Erwin/Skill_OwnAbility.png",
+      "Name": "SoulStrike Mastery",
+      "Icon": "../assets/SkillIcons/Erwin/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
           "Description": "[Ground]\nThrow a slowing trap forward.\n[Air]\nShoot an electric wave at the ground to inflict paralysis. Two mines can be placed. Gain SG on hit. SG gain varies by monster-type.",
@@ -1193,15 +1193,15 @@
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
-      "Name": "Emergency Dodge",
+      "Name": "Dodge",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "Allows quick movement in designated\ndirection.\nNo Damage received in Dodge State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1210,21 +1210,21 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "RisingRoll": {
+    "Tumble": {
       "Passive": true,
-      "Name": "Rising Roll",
+      "Name": "Tumble",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "Allows quick Tumble in designated direction in\nKnock Down State.\nNo Damage received in Tumble State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1233,17 +1233,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1254,10 +1254,10 @@
       "Name": "Dash",
       "DefaultLevel": 1,
       "ID": 1006,
-      "Icon": "../assets/SkillIcons/Common/Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "Sprint straight ahead.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1271,21 +1271,21 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
       }
     },
-    "RisingAttack": {
+    "Retaliation": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "Retaliation",
       "ID": 1005,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "While in Knock Down State, you can get up\nwhile attacking enemies around you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1294,17 +1294,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1315,7 +1315,7 @@
       "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1008,
-      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
           "Description": "Perform an attack while dashing. Different character does different attacks. ",
@@ -1333,14 +1333,14 @@
         }
       }
     },
-    "SpecialDodge": {
+    "SoulEvasion": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "Soul Evasion",
       "ID": 1007,
-      "Icon": "../assets/SkillIcons/Common/Elusion.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "Allows quick movement when Under Attack.\nNo Damage received in Soul Evasion State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1349,27 +1349,27 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
       }
     },
-    "SpecialDashAttack": {
+    "SoulDashAttack": {
       "Passive": true,
-      "Name": "Whirl Jump",
+      "Name": "SoulDash Attack",
       "ID": 1010,
-      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
           "Description": "Performs a special attack while dashing. Different characters do different special attacks",
@@ -1391,53 +1391,53 @@
       "Passive": true,
       "Name": "Stamina Mastery",
       "ID": 1009,
-      "Icon": "../assets/SkillIcons/Common/Endure.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       }
     },
-    "WinningBreak": {
+    "GrasptheFortune": {
       "Passive": true,
-      "Name": "Winning Break",
+      "Name": "Grasp the Fortune",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Erwin/PSkill2_GrasptheFortune.png",
       "Levels": {
         "0": {
-          "Description": "Use SG consumed skills consecutively, Increase\nArmor Penetration + Attack Damage\n Can be stacked when any skill is used within\n[5sec]\n(On Stack [3])",
+          "Description": "[Skill Info]\nUse SG consumed skills consecutively, Increase\nArmor Penetration + Attack Damage\nCan be stacked when any skill is used within\n[5sec]\n(On Stack [3])",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
@@ -1459,30 +1459,30 @@
         }
       }
     },
-    "UnexpectedLuck": {
+    "TheGreatestLuck": {
       "Passive": true,
-      "Name": "Unexpected Luck",
+      "Name": "The Greatest Luck",
       "ID": 1011,
-      "Icon": "../assets/SkillIcons/Erwin/Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Erwin/PSkill1_TheGreatestLuck.png",
       "Levels": {
         "0": {
-          "Description": "Increases your evasion",
+          "Description": "Increases your Max. SG",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Evasion Increase by 100",
+          "Effect": "Increase Max. SG [1]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Evasion Increase by 200",
+          "Effect": "Increase Max. SG [2]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Evasion Increase by 300",
+          "Effect": "Increase Max. SG [3]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1493,7 +1493,7 @@
       "DefaultLevel": 1,
       "ID": 1012,
       "Name": "Bullet of Pleasure",
-      "Icon": "../assets/SkillIcons/Common/Mourning.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
           "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Using a different skills within 5 seconds will grant 1 stack. Gain 3 SG upon reaching 3 stacks",
@@ -1509,7 +1509,7 @@
       }
     },
     "GeometryPlatoon": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Geometry Platoon",
       "DefaultLevel": 1,
       "ID": 2003,
@@ -1517,7 +1517,7 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/NSkill_GeometryPlatoon.png",
+      "Icon": "../assets/SkillIcons/Erwin/EXSkill_GeometryPlatoon.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1530,18 +1530,18 @@
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSA Break：[?%]\n\n?.",
+          "Effect": "Damage：[?%]\nSuper Armor Break：[?%]\n\n?.",
           "RequiredLevel": 57,
           "RequiredSP": 0
         }
       }
     },
     "Frenzy": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": 2001,
-      "Icon": "../assets/SkillIcons/Erwin/NSkill_Hysteria.png",
+      "Icon": "../assets/SkillIcons/Erwin/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1554,14 +1554,14 @@
           }
         },
         "1": {
-          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "1st Phase Gauge Use (SV - 50)\n\n[Skill Info]\nAwakening: [30sec]\nMax. Damage set.\nAgility: [+20%]\nActivates Super Armor",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
     "Awakening": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
       "ID": 2002,
@@ -1569,11 +1569,11 @@
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/NSkill_Supernova.png",
+      "Icon": "../assets/SkillIcons/Erwin/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1588,20 +1588,20 @@
         }
       }
     },
-    "ErwinsDesire": {
-      "Passive": true,
-      "Name": "Erwin's Desire",
+    "DesireAwakening": {
+      "Vapor": true,
+      "Name": "Desire Awakening",
       "DefaultLevel": 1,
       "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
       },
-      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Icon": "../assets/SkillIcons/Common/NSkill3_DesireAwakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1610,7 +1610,7 @@
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Soul Launcher (lvl 42 Skill)\n-Deadline (lvl 62 Skill)\n-Geometry Platoon (EX Skill)",
+          "Effect": "2nd Phase Gauge Use(SV -100)\n\n[Skill Info]\nDesire Awakening: [60sec]\nInflict Damage +[20%]\nAttack Speed: +[20%]\nMax. Damage set.\nAgility: +[30%]\nSG Consumption: -[20%]\nActivates Super Armor\nActivates Burning Skill\n\n[Skill Info: Burning]\nAdditional blows 60sec: Damage x1.3\nBurning Skill effect ends when using EX skill\nSoul Launcher: Fires off additional Desire Energy\nSwallow Bullet: 3 additional laser beams in the air\nGeometry Platoon: 2 additional Geo Soilders\ninflict more blows",
           "RequiredLevel": 65,
           "RequiredSP": 0
         }

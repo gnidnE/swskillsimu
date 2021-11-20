@@ -18,53 +18,53 @@
     }
   },
   "Skills": {
-    "HitandRun": {
+    "Skill01_HitandRun": {
       "Name": "Hit And Run",
       "DefaultLevel": 1,
       "ID": 1,
       "Icon": "../assets/SkillIcons/Nabi/Skill01_HitandRun.png",
       "Levels": {
         "0": {
-          "Description": "After quickly moving back after firing straight ahead, you are able to place 2 Bomb Wicks while being in a temporary invincible state. After movement, you are able to shoot up to 4 Pistol Fires leaving a Light Injury DeBuff. Light Injury will explode when Damaged by Pistol leaving Additional Damage. Surrounding enemies will be Knocked Back when using Rifle and Pistol Fires.",
+          "Description": "After quickly moving back after firing straight ahead, you are able to place 2 Bomb Wicks while being in a temporary invincible state.\nAfter movement, you are able to shoot up to 4 Pistol Fires leaving a Light Injury Debuff.\nLight Injury will explode when Damaged by Pistol leaving Additional Damage.\nSurrounding enemies will be Knocked Back when using Rifle and Pistol Fires.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_HitandRun.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill01_HitandRun.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [101%]\nSuper Armor Break: [110%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [101%]\nSuper Armor Break per Hit: [110%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [15sec]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [101%]\nSuper Armor Break: [110%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [101%]\nSuper Armor Break per Hit: [110%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [112%]\nSuper Armor Break: [122%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [112%]\nSuper Armor Break per Hit: [122%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [14sec]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [112%]\nSuper Armor Break: [122%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [112%]\nSuper Armor Break per Hit: [122%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [14sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [125%]\nSuper Armor Break: [136%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [125%]\nSuper Armor Break per Hit: [136%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [13sec]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [125%]\nSuper Armor Break: [136%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [125%]\nSuper Armor Break per Hit: [136%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [13sec]",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [143%]\nSuper Armor Break: [155%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [143%]\nSuper Armor Break per Hit: [155%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [12sec]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [143%]\nSuper Armor Break: [155%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [143%]\nSuper Armor Break per Hit: [155%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [12sec]",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Skill Info: Rifle Fire]\nDamage: [168%]\nSuper Armor Break: [183%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [168%]\nSuper Armor Break per Hit: [183%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit\n(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage: [168%]\nSuper Armor Break: [183%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [168%]\nSuper Armor Break per Hit: [183%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "HitandRun-Wick",
-        "HitandRun-ColossalPistolCarbide"
+        "Skill01_HitandRun-Wick",
+        "Skill01_HitandRun-ColossalPistolCarbide"
       ]
     },
-    "HitandRun-Wick": {
+    "Skill01_HitandRun-Wick": {
       "Visible": false,
       "Name": "Wick",
       "ID": 2,
@@ -76,17 +76,17 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_HitandRun_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill01_HitandRun_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Number of Bomb Wick Placements: [6]",
+          "Effect": "[SoulPlus Info: Bomb Wick]\nNumber of Bomb Wick Placements: [6]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
       }
     },
-    "HitandRun-ColossalPistolCarbide": {
+    "Skill01_HitandRun-ColossalPistolCarbide": {
       "Visible": false,
       "Name": "Colossal Pistol Carbide",
       "ID": 3,
@@ -98,95 +98,95 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_HitandRun_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill01_HitandRun_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per Hit: [252%]\nSuper Armor Break per Hit: [274%]\nNumber of Fires: [8 times]",
+          "Effect": "[SoulPlus Info: Pistol Fire]\nDamage per Hit: [252%]\nSuper Armor Break per Hit: [274%]\nNumber of Fires: [8 times]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
       }
     },
-    "BlackOut": {
+    "Skill02_BlackOut": {
       "Name": "Black Out",
       "DefaultLevel": 1,
       "ID": 4,
       "Icon": "../assets/SkillIcons/Nabi/Skill02_BlackOut.png",
       "Levels": {
         "0": {
-          "Description": "A Flash Grenade will Damage and Stun surrounding enemies when thrown in the air. Posse",
+          "Description": "A Flash Grenade will Damage and Stun surrounding enemies when thrown in the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_BlackOut.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill02_BlackOut.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [316%]\nSuper Armor Break: [210%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [26sec]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [316%]\nSuper Armor Break: [210%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [26sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [346%]\nSuper Armor Break: [231%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [24sec]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [346%]\nSuper Armor Break: [231%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [24sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [388%]\nSuper Armor Break: [259%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [22sec]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [388%]\nSuper Armor Break: [259%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [22sec]",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [442%]\nSuper Armor Break: [295%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [20sec]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [442%]\nSuper Armor Break: [295%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [524%]\nSuper Armor Break: [349%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG consumption: [35]\nCooldown: [18sec]",
+          "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [524%]\nSuper Armor Break: [349%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [18sec]",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "BlackOut-LongDistanceHurl"
+        "Skill02_BlackOut-LongDistanceHurl"
       ]
     },
-    "BlackOut-LongDistanceHurl": {
+    "Skill02_BlackOut-LongDistanceHurl": {
       "Visible": false,
       "Name": "Long Distance Hurl",
       "ID": 5,
       "Icon": "../assets/SkillIcons/Nabi/Skill02_BlackOut_A.png",
       "Levels": {
         "0": {
-          "Description": "A Flash Grenade can be thrown in the direction you are facing; the Flash Grenade will explode once it touches\nthe ground after following along a parabolic line.",
+          "Description": "A Flash Grenade can be thrown in the direction you are facing; the Flash Grenade will explode once it touches the ground after following along a parabolic line.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_BlackOut_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill02_BlackOut_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [1144%]\nSuper Armor Break: [763%]",
+          "Effect": "[SoulPlus Info]\nDamage: [1144%]\nSuper Armor Break: [763%]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         }
       }
     },
-    "Reload": {
+    "Skill03_Reload": {
       "Name": "Reload",
       "DefaultLevel": 1,
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Nabi/Skill03_QuickReload.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill03_Reload.png",
       "Levels": {
         "0": {
           "Description": "All SG can be Recovered when exchanging Carbide; usable during Dash and movement.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_QuickReload.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload.{{auto}}"
           }
         },
         "1": {
@@ -216,15 +216,15 @@
         }
       },
       "Extensions": [
-        "Reload-Flechette",
-        "Reload-ShreddingBomb"
+        "Skill03_Reload-Flechette",
+        "Skill03_Reload-ShreddingBomb"
       ]
     },
-    "Reload-Flechette": {
+    "Skill03_Reload-Flechette": {
       "Visible": false,
       "ID": 7,
       "Name": "Flechette",
-      "Icon": "../assets/SkillIcons/Nabi/Skill03_QuickReload_A.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill03_Reload_A.png",
       "Levels": {
         "0": {
           "Description": "Basic Attacks and Penetration are temporarily improved during Duration time.",
@@ -232,31 +232,31 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_QuickReload_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [5x]\nDuration: [30sec]",
+          "Effect": "[SoulPlus Info: Flechette]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [5 times]\nDuration: [30sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [7x]\nDuration: [30sec]",
+          "Effect": "[SoulPlus Info: Flechette]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [7 times]\nDuration: [30sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [10x]\nDuration: [30sec]",
+          "Effect": "[SoulPlus Info: Flechette]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [10 times]\nDuration: [30sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
       }
     },
-    "Reload-ShreddingBomb": {
+    "Skill03_Reload-ShreddingBomb": {
       "Visible": false,
       "ID": 8,
       "Name": "Shredding Bomb",
-      "Icon": "../assets/SkillIcons/Nabi/Skill03_QuickReload_B.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill03_Reload_B.png",
       "Levels": {
         "0": {
           "Description": "Basic Attacks and Penetration are temporarily improved in Duration time.",
@@ -264,667 +264,667 @@
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_QuickReload_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [5x]\nDuration: [30sec]",
+          "Effect": "[SoulPlus Info: Shredding Bomb]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [5 times]\nDuration: [30sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [7x]\nDuration: [30sec]",
+          "Effect": "[SoulPlus Info: Shredding Bomb]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [7 times]\nDuration: [30sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Basic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [10x]\nDuration: [30sec]",
+          "Effect": "[SoulPlus Info: Shredding Bomb]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [10 times]\nDuration: [30sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         }
       }
     },
-    "SnakingShotgun": {
+    "Skill04_SnakingShotgun": {
       "Name": "Snaking Shotgun",
       "ID": 9,
       "Icon": "../assets/SkillIcons/Nabi/Skill04_SnakingShotgun.png",
       "Levels": {
         "0": {
-          "Description": "와이어를 발사하여 적들을 통과하며 전방으로 이동합니다. 이동 중 추가 조작으로 샷건을 발사할 수 있습니다. 샷건은 멀리 있는 적일 수록 타격수가 감소 합니다.",
+          "Description": "Move straight ahead through enemies by shooting a wire.\nPistol Fire through Additional Controls is possible during movement.\nDamage of Pistol decreases the further away an enemy is.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SnakingShotgun.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill04_SnakingShotgun.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 샷건]\nDamage: [240%]\nSuper Armor Break: [120%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [20sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [240%]\nSuper Armor Break: [120%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [19sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [276%]\nSuper Armor Break: [138%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [19sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [18sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [334%]\nSuper Armor Break: [167%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [18sec]",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [384%]\n타격당 Super Armor Break: [192%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [17sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [384%]\nSuper Armor Break: [192%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [17sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [485%]\n타격당 Super Armor Break: [242%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [15sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [485%]\nSuper Armor Break: [242%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [15sec]",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
       }
     },
-    "Acidgas": {
-      "Name": "Acidgas",
+    "Skill05_Acidgas": {
+      "Name": "Acid Gas",
       "ID": 10,
       "Icon": "../assets/SkillIcons/Nabi/Skill05_Acidgas.png",
       "Levels": {
         "0": {
-          "Description": "산성 가스탄을 터뜨려 좁은 범위의 적에게 폭발 피해를 입히고 넓은 범위에 가스 피해를 입히며 공중으로 점프합니다. 가스 피해는 폭심지를 폭발 시키지 않습니다.",
+          "Description": "Jump into the air while throwing an Acid Gas Bomb bringing Explosion Damage to nearby enemies and Gas Damage to other surrounding enemies.\nGas Damage does not cause Bomb Wick to explode.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Acidgas.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [83%]\nSuper Armor Break: [23%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [83%]\n타격당 Super Armor Break: [23%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [83%]\nSuper Armor Break: [23%]\n\n[Skill Info: Gas Damage]\nDamage: [83%]\nSuper Armor Break: [23%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [88%]\nSuper Armor Break: [24%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [88%]\n타격당 Super Armor Break: [24%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [88%]\nSuper Armor Break: [24%]\n\n[Skill Info: Gas Damage]\nDamage: [88%]\nSuper Armor Break: [24%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [96%]\nSuper Armor Break: [27%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [96%]\n타격당 Super Armor Break: [27%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [96%]\nSuper Armor Break: [27%]\n\n[Skill Info: Gas Damage]\nDamage: [96%]\nSuper Armor Break: [27%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [109%]\nSuper Armor Break: [30%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [109%]\n타격당 Super Armor Break: [30%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [109%]\nSuper Armor Break: [30%]\n\n[Skill Info: Gas Damage]\nDamage: [109%]\nSuper Armor Break: [30%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 가스탄 폭발]\nDamage: [125%]\nSuper Armor Break: [35%]\n\n[스킬 정보: 가스 피해]\n타격당 Damage: [125%]\n타격당 Super Armor Break: [35%]\n가스 Duration: [10sec]\n*배틀룸에서는 가스 피해의 지속시간이 절반으로 감소합니다.",
+          "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [125%]\nSuper Armor Break: [35%]\n\n[Skill Info: Gas Damage]\nDamage: [125%]\nSuper Armor Break: [35%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "Acidgas-A"
+        "Skill05_Acidgas-DesignateWick"
       ]
     },
-    "Acidgas-A": {
+    "Skill05_Acidgas-DesignateWick": {
       "Visible": false,
-      "Name": "Acidgas-A",
+      "Name": "Designate Wick",
       "ID": 11,
       "Icon": "../assets/SkillIcons/Nabi/Skill05_Acidgas_A.png",
       "Levels": {
         "0": {
-          "Description": "가스탄을 폭발 시 주번에 폭심지를 설치합니다.",
+          "Description": "Bomb Wicks are placed as Gas Bombs are exploding.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Acidgas_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas_A_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 폭심지]\n폭심지 설치 수: [2개]",
+          "Effect": "[SoulPlus Info: Bomb Wick]\nBomb Wick Placements: [2]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 폭심지]\n폭심지 설치 수: [4개]",
+          "Effect": "[SoulPlus Info: Bomb Wick]\nBomb Wick Placements: [4]",
           "RequiredLevel": 27,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Acidgas_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas_A_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "[특성 정보: 폭심지]\n폭심지 설치 수: [6개]",
+          "Effect": "[SoulPlus Info: Bomb Wick]\nBomb Wick Placements: [6]",
           "RequiredLevel": 32,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Acidgas_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas_A_03.{{auto}}"
           }
         }
       }
     },
-    "BustDriver": {
+    "Skill06_BustDriver": {
       "Name": "Bust Driver",
       "ID": 12,
       "Icon": "../assets/SkillIcons/Nabi/Skill06_BustDriver.png",
       "Levels": {
         "0": {
-          "Description": "엎드려 쏴 자세로 JHP 확산탄을 발사합니다.\nJHP 확산탄은 적과 충돌 시 넓은 범위에 강력한 피해를 입힙니다.\n사격 시 근접해 있는 적을 넉백 시킵니다.",
+          "Description": "Fire JHP Cluster Bomb while lying on your stomach.\nJHP Cluster Bombs give off powerful Damage within a wide range when colliding with enemies.\nNearby enemies get Knoicked Back when Firing.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_BustDriver.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill06_BustDriver.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [735%]\n타격당 Super Armor Break: [735%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [735%]\nSuper Armor Break: [735%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [771%]\n타격당 Super Armor Break: [771%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [771%]\nSuper Armor Break: [771%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [862%]\n타격당 Super Armor Break: [862%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [862%]\nSuper Armor Break: [862%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [955%]\n타격당 Super Armor Break: [955%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [955%]\nSuper Armor Break: [955%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: JHP 확산탄]\n타격당 Damage: [1102%]\n타격당 Super Armor Break: [1102%]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [1102%]\nSuper Armor Break: [1102%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "BustDriver-A"
+        "Skill06_BustDriver-AlterMode"
       ]
     },
-    "FlagBomb": {
+    "Skill07_PlagueBomb": {
       "ID": 13,
-      "Name": "Flag Bomb",
-      "Icon": "../assets/SkillIcons/Nabi/Skill07_FlagBomb.png",
+      "Name": "Plague Bomb",
+      "Icon": "../assets/SkillIcons/Nabi/Skill07_PlagueBomb.png",
       "Levels": {
         "0": {
-          "Description": "폭탄 3개를 공중에 던진 후 폭발시킵니다.",
+          "Description": "3 Bombs thrown in midair explode",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_FlagBomb.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill07_PlagueBomb.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [300%]\n타격당 Super Armor Break: [360%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Bomb Hurl]\nDamage: [300%]\nSuper Armor Break: [360%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [328%]\n타격당 Super Armor Break: [393%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Bomb Hurl]\nDamage: [328%]\nSuper Armor Break: [393%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [394%]\n타격당 Super Armor Break: [472%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Bomb Hurl]\nDamage: [394%]\nSuper Armor Break: [472%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [462%]\n타격당 Super Armor Break: [555%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Bomb Hurl]\nDamage: [462%]\nSuper Armor Break: [555%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 투척 폭탄]\n타격당 Damage: [567%]\n타격당 Super Armor Break: [681%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Bomb Hurl]\nDamage: [567%]\nSuper Armor Break: [681%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "FlagBomb-A",
-        "FlagBomb-B"
+        "Skill07_PlagueBomb-Explosions",
+        "Skill07_PlagueBomb-Pressurizer"
       ]
     },
-    "FlagBomb-A": {
+    "Skill07_PlagueBomb-Explosions": {
       "ID": 14,
       "Visible": false,
-      "Name": "Flag Bomb-A",
-      "Icon": "../assets/SkillIcons/Nabi/Skill07_FlagBomb_A.png",
+      "Name": "Explosions",
+      "Icon": "../assets/SkillIcons/Nabi/Skill07_PlagueBomb_A.png",
       "Levels": {
         "0": {
-          "Description": "폭발 횟수가 증가하여 더 많은 피해를 입힙니다.",
+          "Description": "High Damage is given with the increase of number of Explosions.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_FlagBomb_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill07_PlagueBomb_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 추가 폭발]\n타격당 Damage: [189%]\n타격당 Super Armor Break: [227%]",
+          "Effect": "[SoulPlus Info: Additional Explosions]\nDamage: [189%]\nSuper Armor Break: [227%]\nNumber of Explosions: +[3]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 폭발]\n타격당 Damage: [647%]\n타격당 Super Armor Break: [794%]\n\n[특성 정보: 추가 폭발]\n타격당 Damage: [215%]\n타격당 Super Armor Break: [265%]",
+          "Effect": "[SoulPlus Info: Explosion]\nDamage: [647%]\nSuper Armor Break: [794%]\n\n[SoulPlus Info: Additional Explosions]\nDamage: [215%]\nSuper Armor Break: [265%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[특성 정보: 폭발]\n타격당 Damage: [736%]\n타격당 Super Armor Break: [996%]\n\n[특성 정보: 추가 폭발]\n타격당 Damage: [245%]\n타격당 Super Armor Break: [332%]",
+          "Effect": "[SoulPlus Info: Explosion]\nDamage: [736%]\nSuper Armor Break: [996%]\n\n[SoulPlus Info: Additional Explosions]\nDamage: [245%]\nSuper Armor Break: [332%]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
-    "FlagBomb-B": {
+    "Skill07_PlagueBomb-Pressurizer": {
       "ID": 15,
       "Visible": false,
-      "Name": "Flag Bomb-B",
-      "Icon": "../assets/SkillIcons/Nabi/Skill07_FlagBomb_B.png",
+      "Name": "Pressurizer",
+      "Icon": "../assets/SkillIcons/Nabi/Skill07_PlagueBomb_B.png",
       "Levels": {
         "0": {
-          "Description": "던진 폭탄이 압력을 일으켜 적들을 폭발지점 한가운데로 모은 후 피해를 입힙니다.\n스킬의 피해량과 슈퍼아머 파괴량이 증가합니다.",
+          "Description": "a thrown bomb is pressurized causing enemies to be gathered to the designated explosion area in which Damage is applied to enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_FlagBomb_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill07_PlagueBomb_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 열압력화기]\n타격당 Damage: [567%]\n타격당 Super Armor Break: [681%]",
+          "Effect": "[SoulPlus Info: Heat Pressurizer]\nDamage: [567%]\nSuper Armor Break: [681%]",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 열압력화기]\n타격당 Damage: [647%]\n타격당 Super Armor Break: [794%]",
+          "Effect": "[SoulPlus Info: Heat Pressurizer]\nDamage: [647%]\nSuper Armor Break: [794%]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[특성 정보: 열압력화기]\n타격당 Damage: [736%]\n타격당 Super Armor Break: [996%]",
+          "Effect": "[SoulPlus Info: Heat Pressurizer]\nDamage: [736%]\nSuper Armor Break: [996%]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         }
       }
     },    
-    "HoneyBee": {
+    "Skill08_HoneyBee": {
       "Name": "Honey Bee",
       "ID": 16,
       "Icon": "../assets/SkillIcons/Nabi/Skill08_HoneyBee.png",
       "Levels": {
         "0": {
-          "Description": "신호탄을 위로 발사하면 공중에서 전투 지원용 드론이 등장합니다.\n등장 시 지면을 폭격하여 이나비 주변 적들을 타격하며 이후 유지시간 동안 적들을 향해 사격 합니다. 허니비는 30회 피격 시 파괴됩니다.(일부 공격 제외)\n*배틀룸에서는 드론의 유지시간이 절반으로 감소합니다.",
+          "Description": "A Battle Support Drone that supplies Buffs to comrades appears when firing a Flare Gun into the air.\nUpon arrival, Drone targets the area around Lee Nabi and continues for the allotted Duration.\nHoney Bee breaks when it is attacked [30] times. (Certain Attacks are exceptions.)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_HoneyBee.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [556%]\n총 Super Armor Break: [417%]\n\n[스킬 정보: 사격]\n Damage: [556%]\n Super Armor Break: [417%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [2%]\n버프: 치명타 피해량 [50%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [556%]\nTotal Super Armor Break: [417%]\n\n[Skill Info: Shot]\n Damage: [556%]\n Super Armor Break: [417%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[2%]\n[Skill Info: Party]\nBuff: Critical Damage +[50%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [667%]\n총 Super Armor Break: [500%]\n\n[스킬 정보: 사격]\n Damage: [667%]\n Super Armor Break: [500%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [4%]\n버프: 치명타 피해량 [100%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [667%]\nTotal Super Armor Break: [500%]\n\n[Skill Info: Shot]\n Damage: [667%]\n Super Armor Break: [500%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[4%]\n[Skill Info: Party]\nBuff: Critical Damage +[100%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [801%]\n총 Super Armor Break: [601%]\n\n[스킬 정보: 사격]\n Damage: [801%]\n Super Armor Break: [601%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [6%]\n버프: 치명타 피해량 [150%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [801%]\nTotal Super Armor Break: [601%]\n\n[Skill Info: Shot]\n Damage: [801%]\n Super Armor Break: [601%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[6%]\n[Skill Info: Party]\nBuff: Critical Damage +[150%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [961%]\n총 Super Armor Break: [721%]\n\n[스킬 정보: 사격]\n Damage: [961%]\n Super Armor Break: [721%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [8%]\n버프: 치명타 피해량 [200%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [961%]\nTotal Super Armor Break: [721%]\n\n[Skill Info: Shot]\n Damage: [961%]\n Super Armor Break: [721%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[8%]\n[Skill Info: Party]\nBuff: Critical Damage +[200%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 33,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 폭격]\n총 Damage: [1153%]\n총 Super Armor Break: [865%]\n\n[스킬 정보: 사격]\n Damage: [1153%]\n Super Armor Break: [862%]\n\n[스킬 정보: 약점 스캔]\n버프: 치명타 확률 [10%]\n버프: 치명타 피해량 [250%]\n\n[Skill Info: Basic]\n드론 유지시간: [20sec]\nSG consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [1153%]\nTotal Super Armor Break: [865%]\n\n[Skill Info: Shot]\n Damage: [1153%]\n Super Armor Break: [862%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[10%]\n[Skill Info: Party]\nBuff: Critical Damage +[250%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "HoneyBee-A"
+        "Skill08_HoneyBee-Turret"
       ]
     },    
-    "CloseQuartersCombat": {
+    "Skill09_CloseQuartersCombat": {
       "Name": "Close Quarters Combat",
       "ID": 17,
       "Icon": "../assets/SkillIcons/Nabi/Skill09_CloseQuartersCombat.png",
       "Levels": {
         "0": {
-          "Description": "전방으로 짧게 돌진한 후 추가 조작으로 주변에 권총 사격을 가한 뒤 샷건으로 마무리 합니다.\n권총 사격은 얇은 상처 디버프를 남기며 얇은 상처는 샷건 타격을 받으면 폭발하여 추가피해를 줍니다.",
+          "Description": "After running straight ahead, fire Pistol with Additional Controls and finish with Shotgun.\nFiring Pistol leaves a Light Injury Debuff which explodes when hit by Shotgun giving Additional Damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_CloseQuartersCombat.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill09_CloseQuartersCombat.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [80%]\n타격당 Super Armor Break: [40%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [80%]\nSuper Armor Break: [40%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [240%]\nSuper Armor Break: [120%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [92%]\n타격당 Super Armor Break: [46%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [92%]\nSuper Armor Break: [46%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [276%]\nSuper Armor Break: [138%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [111%]\n타격당 Super Armor Break: [55%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [111%]\nSuper Armor Break: [55%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [334%]\nSuper Armor Break: [167%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [128%]\n타격당 Super Armor Break: [64%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [384%]\n타격당 Super Armor Break: [192%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [128%]\nSuper Armor Break: [64%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [384%]\nSuper Armor Break: [192%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 권총/컴뱃 나이프]\n타격당 Damage: [161%]\n타격당 Super Armor Break: [80%]\n디버프: 얇은 상처\n디버프 효과: 중첩당 샷건 타격당 피해량의 0.4배 추가피해(최대 5중첩)\n\n[스킬 정보: 샷건]\n타격당 Damage: [485%]\n타격당 Super Armor Break: [242%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [161%]\nSuper Armor Break: [80%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [485%]\nSuper Armor Break: [242%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
       }
     },
-    "Chainsaw": {
+    "Skill10_Chainsaw": {
       "Name": "Chainsaw",
       "ID": 18,
       "Icon": "../assets/SkillIcons/Nabi/Skill10_Chainsaw.png",
       "Levels": {
         "0": {
-          "Description": "제자리에서 미니건을 생성하여 오랫동안 전방에 연사할 수 있습니다.\n미니건을 사용하는 동안 일반 몬스터에게 주는 추가 피해가 증가합니다.",
+          "Description": "You are able to create a Mini Gun on the spot and fire straight ahead for a period of time.\nWhile using Mini Gun, Additional Damage to Normal Monsters increases.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Chainsaw.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill10_Chainsaw.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [108%] \n타격당 Super Armor Break: [163%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[Skill Info: Mini Gun]\nDamage: [108%] \nSuper Armor Break: [163%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [120%] \n타격당 Super Armor Break: [180%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[Skill Info: Mini Gun]\nDamage: [120%] \nSuper Armor Break: [180%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [132%] \n타격당 Super Armor Break: [199%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[Skill Info: Mini Gun]\nDamage: [132%] \nSuper Armor Break: [199%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [145%] \n타격당 Super Armor Break: [218%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[Skill Info: Mini Gun]\nDamage: [145%] \nSuper Armor Break: [218%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 미니건]\n타격당 Damage: [160%] \n타격당 Super Armor Break: [240%]\n미니건 유지시간: [5sec]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [45sec]\n버프: 일반 몬스터 추가 피해[75%]",
+          "Effect": "[Skill Info: Mini Gun]\nDamage: [160%] \nSuper Armor Break: [240%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "Chainsaw-A",
-        "Chainsaw-B"
+        "Skill10_Chainsaw-FireBomb",
+        "Skill10_Chainsaw-APShells"
       ]
     },
-    "Chainsaw-A": {
+    "Skill10_Chainsaw-FireBomb": {
       "Visible": false,
-      "Name": "Chainsaw-A",
+      "Name": "Fire Bomb",
       "ID": 20,
       "Icon": "../assets/SkillIcons/Nabi/Skill10_Chainsaw_A.png",
       "Levels": {
         "0": {
-          "Description": "피해량 및 피해 범위가 증가합니다.(슈퍼아머 파괴량은 변경 없음)\n피격된 적에게 화상 디버프를 부여합니다.\n*배틀룸에서는 소이탄의 초당 HP 감소가 [2%] 로 적용됩니다.",
+          "Description": "Damage and Damage Range are increased.\n(No changes are applied to Super Armor Break)\nBurn Debuffs are applied to hit enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Chainsaw_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill10_Chainsaw_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [168%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3sec]",
+          "Effect": "[SoulPlus Info: Fire Bomb]\nDamage: [168%]\n\n[SoulPlus Info: Burn Debuff]\nHP Consumption per second: [15%]\nDebuff Duration: [3sec]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [176%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3sec]",
+          "Effect": "[SoulPlus Info: Fire Bomb]\nDamage: [176%]\n\n[SoulPlus Info: Burn Debuff]\nHP Consumption per second: [15%]\nDebuff Duration: [3sec]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[특성 정보: 소이탄]\n타격당 Damage: [185%]\n\n[특성 정보: 화상 디버프]\n초당 HP 감소: [15%]\n디버프 Duration: [3sec]",
+          "Effect": "[SoulPlus Info: Fire Bomb]\nDamage: [185%]\n\n[SoulPlus Info: Burn Debuff]\nHP Consumption per second: [15%]\nDebuff Duration: [3sec]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
-    "Chainsaw-B": {
+    "Skill10_Chainsaw-APShells": {
       "Visible": false,
-      "Name": "Chainsaw-B",
+      "Name": "AP Shells",
       "ID": 20,
       "Icon": "../assets/SkillIcons/Nabi/Skill10_Chainsaw_B.png",
       "Levels": {
         "0": {
-          "Description": "연사하는 동안 방어도 관통과 슈퍼아머 파괴량이 증가합니다.(피해량은 변경 없음)",
+          "Description": "Armor Penetration and Super Armor Break increase while consecutive Fire are shot.\n(no changes to Damage)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Chainsaw_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill10_Chainsaw_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 철갑탄]\nSuper Armor Break: [264%]\n\n[특성 정보: 버프]\n방어도 관통: [15%]증가",
+          "Effect": "[SoulPlus Info: AP Shells]\nSuper Armor Break: [264%]\n\n[SoulPlus Info: Buff]\nArmor Penetration: +[15%]",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 철갑탄]\nSuper Armor Break: [290%]\n\n[특성 정보: 버프]\n방어도 관통: [15%]증가",
+          "Effect": "[SoulPlus Info: AP Shells]\nSuper Armor Break: [290%]\n\n[SoulPlus Info: Buff]\nArmor Penetration: +[15%]",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[특성 정보: 철갑탄]\nSuper Armor Break: [319%]\n\n[특성 정보: 버프]\n방어도 관통: [15%]증가",
+          "Effect": "[SoulPlus Info: AP Shells]\nSuper Armor Break: [319%]\n\n[SoulPlus Info: Buff]\nArmor Penetration: +[15%]",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
-    "GranadeLauncher": {
+    "Skill11_GranadeLauncher": {
       "Name": "Granade Launcher",
       "ID": 21,
       "Icon": "../assets/SkillIcons/Nabi/Skill11_GranadeLauncher.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "공중상태에서 그레네이드 런처를 꺼내 유탄을 여러발 발사하여 지상을 폭격합니다.",
+          "Description": "Many consecutive grenade shots can be fired to the ground by activating Grenade Launcher while in the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_GranadeLauncher.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill11_GranadeLauncher.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [499%]\n타격당 Super Armor Break: [499%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Grenade Launcher]\nDamage: [499%]\nSuper Armor Break: [499%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [576%]\n타격당 Super Armor Break: [576%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Grenade Launcher]\nDamage: [576%]\nSuper Armor Break: [576%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [662%]\n타격당 Super Armor Break: [662%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Grenade Launcher]\nDamage: [662%]\nSuper Armor Break: [662%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [749%]\n타격당 Super Armor Break: [749%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Grenade Launcher]\nDamage: [749%]\nSuper Armor Break: [749%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 그레네이드 런처]\n타격당 Damage: [921%]\n타격당 Super Armor Break: [921%]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Grenade Launcher]\nDamage: [921%]\nSuper Armor Break: [921%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
       }
     },
-    "SaveEnergy": {
+    "Skill012_SaveEnergy": {
       "Name": "Save Energy",
       "ID": 22,
       "Icon": "../assets/SkillIcons/Nabi/Skill012_SaveEnergy.png",
       "Levels": {
         "0": {
-          "Description": "이나비가 비상용 전투식량을 섭취하여 에너지를 보충합니다.",
+          "Description": "Lee Nabi is able to replenish Energy by consuming Emergency Battle Food Supply.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SaveEnergy.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [3%] 회복\n버프 효과 : 초당 SG [5%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [70]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [3%] HP Recovered per second\nBuff Effect : [5%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [60sec]",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [4%] 회복\n버프 효과 : 초당 SG [6%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [65]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [4%] HP Recovered per second\nBuff Effect : [6%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [65]\nCooldown: [60sec]",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [5%] 회복\n버프 효과 : 초당 SG [7%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [60]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [5%] HP Recovered per second\nBuff Effect : [7%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [60sec]",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [6%] 회복\n버프 효과 : 초당 SG [8%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [50]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [6%] HP Recovered per second\nBuff Effect : [8%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 43,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 전투 식량]\n버프 효과 : 초당 HP [7%] 회복\n버프 효과 : 초당 SG [10%] 회복\n버프 Duration: [4sec]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [7%] HP Recovered per second\nBuff Effect : [10%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 46,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "SaveEnergy-A"
+        "Skill012_SaveEnergy-AuxSupplies"
       ]
     },
-    "SaveEnergy-A": {
+    "Skill012_SaveEnergy-AuxSupplies": {
       "Visible": false,
-      "Name": "Save Energy-A",
+      "Name": "Aux. Supplies",
       "ID": 23,
       "Icon": "../assets/SkillIcons/Nabi/Skill012_SaveEnergy_A.png",
       "Levels": {
         "0": {
-          "Description": "스킬 사용 시 주변에 추가보급이 생성되어 획득 시 이로운 효과를 얻습니다.",
+          "Description": "Additional Supplies are available during use of Skill and will be of benefit upon acquesition.\nThe Supply Box is only available to the caster.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SaveEnergy_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy_A_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20sec]",
+          "Effect": "[SoulPlus Info: Carbide]\nAttack Damage: [150%]\nNumber of Supply: [4]\nAttack Damage Duration: [20sec]",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20sec]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]",
+          "Effect": "[SoulPlus Info: Carbide]\nAttack Damage: [150%]\nNumber of Supply: [4]\nAttack Damage Duration: [20sec]\n\n[SoulPlus Info: Battle Food Supply]\nHP Recovery: [20%]\nSG Recovery: [30%]\nNumber of Supply: [4]",
           "RequiredLevel": 52,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SaveEnergy_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy_A_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "[특성 정보: 탄창]\n공격력 증가: [150%]\n보급 개수: [4개]\n공격력 증가 Duration: [20sec]\n\n[특성 정보: 전투식량]\nHP회복: [20%]\nSG회복: [30%]\n보급 개수: [4개]\n\n[특성 정보: 보급상자]\n재사용 대기시간 감소: [10%]\n보급 개수: [2개]\n\n보급상자는 시전자만 획득 가능 합니다.",
+          "Effect": "[SoulPlus Info: Carbide]\nAttack Damage: [150%]\nNumber of Supply: [4]\nAttack Damage Duration: [20sec]\n\n[SoulPlus Info: Battle Food Supply]\nHP Recovery: [20%]\nSG Recovery: [30%]\nNumber of Supply: [4]\n\n[SoulPlus Info: Supply Box]\nCooldown time decreased: [10%]\nNumber of Supply: [2].",
           "RequiredLevel": 55,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SaveEnergy_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy_A_03.{{auto}}"
           }
         }
       }
     },
-    "LastStrike": {
+    "Skill013_LastStrike": {
       "Name": "Last Strike",
       "ID": 24,
       "Icon": "../assets/SkillIcons/Nabi/Skill013_LastStrike.png",
       "Levels": {
         "0": {
-          "Description": "소총에 강력한 파괴력을 가진 소울에너지 탄을 장전 한 뒤 전방에 발사합니다. 발사하기 전까지 방향을 조정할 수 있으며 발사된 탄환은 벏은 범위에 강력한 피해를 입힙니다. 특수탄환은 조준선상의 적들에겐 0.3배의 추가 피해를 입힙니다.",
+          "Description": "After loading Rifle with an extremely destructive Soul Energy Bullet, you are able to fire straight ahead.\nAiming the Bullet before firing is possible; it will provide great Damage to a wide range.\nEnemies along the visual line of aim will receive 30% more Damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_LastStrike.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill013_LastStrike.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2397%]\nSuper Armor Break: [2876%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: SoulBullet]\nDamage: [2397%]\nSuper Armor Break: [2876%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2636%]\nSuper Armor Break: [3163%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: SoulBullet]\nDamage: [2636%]\nSuper Armor Break: [3163%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [2954%]\nSuper Armor Break: [3545%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: SoulBullet]\nDamage: [2954%]\nSuper Armor Break: [3545%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [3367%]\nSuper Armor Break: [4040%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: SoulBullet]\nDamage: [3367%]\nSuper Armor Break: [4040%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 52,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 특수 탄환]\nDamage: [3972%]\nSuper Armor Break: [4766%]\n\n[Skill Info: Basic]\nSG consumption: [75]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: SoulBullet]\nDamage: [3972%]\nSuper Armor Break: [4766%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 55,
           "RequiredSP": 3
         }
       },
       "Extensions": [
-        "LastStrike-A"
+        "Skill013_LastStrike-Aftermath"
       ]
     },
-    "BustDriver-A": {
+    "Skill06_BustDriver-AlterMode": {
       "Visible": false,
-      "Name": "Bust Driver-A",
+      "Name": "Alter Mode",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
@@ -933,34 +933,34 @@
       "Icon": "../assets/SkillIcons/Nabi/Skill06_BustDriver_A.png",
       "Levels": {
         "0": {
-          "Description": "폭발 범위와 위력은 감소하지만 적들을 관통하며 관통시 직선상으로 폭발하는 탄을 발사합니다. 뭉쳐있는 적들에게 위력적이며 폭심지를 이용해 타격수를 증가시킬 수도 있습니다.",
+          "Description": "While the range and power of explosions decrease, it penetrates enemies and fires bullet straight ahead.\nHaving an advantages against crowded enemies, Bomb Wicks can be used to increase number of hits.\nBasic Attacks activated by left-click.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_BustDriver_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill06_BustDriver_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: JHP 확산탄]\n타격당 Damage: [1294%]\n타격당 Super Armor Break: [1294%]\n\n[특성 정보: FMJ 성형작약탄]\n타격당 Damage: [776%]\n타격당 Super Armor Break: [776%]\n관통 횟수: [10x]",
+          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1294%]\nSuper Armor Break: [1294%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [776%]\nSuper Armor Break: [776%]\nNumber of Penetrations: [6 times]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: JHP 확산탄]\n타격당 Damage: [1424%]\n타격당 Super Armor Break: [1424%]\n\n[특성 정보: FMJ 성형작약탄]\n타격당 Damage: [854%]\n타격당 Super Armor Break: [854%]\n관통 횟수: [10x]",
+          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1424%]\nSuper Armor Break: [1424%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [854%]\nSuper Armor Break: [854%]\nNumber of Penetrations: [6 times]",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[특성 정보: JHP 확산탄]\n타격당 Damage: [1638%]\n타격당 Super Armor Break: [1638%]\n\n[특성 정보: FMJ 성형작약탄]\n타격당 Damage: [983%]\n타격당 Super Armor Break: [983%]\n관통 횟수: [10x]",
+          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1638%]\nSuper Armor Break: [1638%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [983%]\nSuper Armor Break: [983%]\nNumber of Penetrations: [6 times]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
       }
     },
-    "HoneyBee-A": {
+    "Skill08_HoneyBee-Turret": {
       "Visible": false,
-      "Name": "Honey Bee-A",
+      "Name": "Turret",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
@@ -969,38 +969,38 @@
       "Icon": "../assets/SkillIcons/Nabi/Skill08_HoneyBee_A.png",
       "Levels": {
         "0": {
-          "Description": "허니비 등장 시 포탑이 함께 등장해 주변의 적들을 공격합니다.\n포탑은 30회 피격 시 파괴됩니다.(일부 공격 제외)\n*배틀룸에서는 포탑의 지속시간이 절반으로 감소하고 최대 소환 개수가 1개로 고정됩니다.",
+          "Description": "When Honeybee appears, a turret appears together and attacks nearvy enemies.\nThe turret will be destroyed on 30 strikes (Except for some attacks).",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_HoneyBee_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee_A_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20sec]\n소환 포탑 개수: [1개]",
+          "Effect": "[SoulPlus Info: Turret]\nDamage: [51%]\nSuper Armor Break: [129%]\nDuration: [20sec]\nNumber of Summonable Turrets: [1]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20sec]\n소환 포탑 개수: [2개]",
+          "Effect": "[SoulPlus Info: Turret]\nDamage: [51%]\nSuper Armor Break: [129%]\nDuration: [20sec]\nNumber of Summonable Turrets: [2]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_HoneyBee_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee_A_02.{{auto}}"
           }        
         },
         "3": {
-          "Effect": "[특성 정보: 포탑]\n타격당 Damage: [51%]\n타격당 Super Armor Break: [129%]\nDuration: [20sec]\n소환 포탑 개수: [3개]",
+          "Effect": "[SoulPlus Info: Turret]\nDamage: [51%]\nSuper Armor Break: [129%]\nDuration: [20sec]\nNumber of Summonable Turrets: [3]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_HoneyBee_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee_A_03.{{auto}}"
           }
         }
       }
     },
-    "TripleSniping": {
+    "Skill015_TripleSniping": {
       "Name": "Triple Sniping",
       "ID": 27,
       "RequireClass": {
@@ -1011,42 +1011,42 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "공중상태에서 순간적인 빠른 움직임으로 가장 가까운 적을 향해 자동으로 3회 저격합니다.",
+          "Description": "With a quick movement in the air, the nearest enemy will automatically be Sniped 3 times.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_TripleSniping.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill015_TripleSniping.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [1840%]\nSuper Armor Break: [1656%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Snipe]\nDamage: [1840%]\nSuper Armor Break: [1656%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [2092%]\nSuper Armor Break: [1882%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Snipe]\nDamage: [2092%]\nSuper Armor Break: [1882%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [2417%]\nSuper Armor Break: [2176%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Snipe]\nDamage: [2417%]\nSuper Armor Break: [2176%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [2842%]\nSuper Armor Break: [2557%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Snipe]\nDamage: [2842%]\nSuper Armor Break: [2557%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 저격]\nDamage: [3456%]\nSuper Armor Break: [3110%]\n\n[Skill Info: Basic]\nSG consumption: [45]\nCooldown: [30sec]",
+          "Effect": "[Skill Info: Snipe]\nDamage: [3456%]\nSuper Armor Break: [3110%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "WildSnapshot": {
+    "Skill016_WildSnapshot": {
       "Name": "Wild Snapshot ",
       "ID": 28,
       "RequireClass": {
@@ -1056,109 +1056,109 @@
       "Icon": "../assets/SkillIcons/Nabi/Skill016_WildSnapshot.png",
       "Levels": {
         "0": {
-          "Description": "주변에 샷건을 발사하여 타격을 입힌 후 소총과 권총을 난사합니다.\n스킬 사용 중 빠르게 이동이 가능합니다.",
+          "Description": "After inflicting Damage with Shotgun, Rifle and Pistol start shooting randomly.\nQuick movement is possible while using this Skill.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_WildSnapshot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill016_WildSnapshot.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [173%]\n타격당 Super Armor Break: [156%]\n\n[스킬 정보: 난사]\nDamage: [722%]\nSuper Armor Break: [650%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [173%]\nSuper Armor Break: [156%]\n\n[Skill Info: Random Fire]\nDamage: [722%]\nSuper Armor Break: [650%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [197%]\n타격당 Super Armor Break: [177%]\n\n[스킬 정보: 난사]\nDamage: [821%]\nSuper Armor Break: [738%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [197%]\nSuper Armor Break: [177%]\n\n[Skill Info: Random Fire]\nDamage: [821%]\nSuper Armor Break: [738%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [228%]\n타격당 Super Armor Break: [205%]\n\n[스킬 정보: 난사]\nDamage: [948%]\nSuper Armor Break: [853%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [228%]\nSuper Armor Break: [205%]\n\n[Skill Info: Random Fire]\nDamage: [948%]\nSuper Armor Break: [853%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [267%]\n타격당 Super Armor Break: [241%]\n\n[스킬 정보: 난사]\nDamage: [1114%]\nSuper Armor Break: [1003%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [267%]\nSuper Armor Break: [241%]\n\n[Skill Info: Random Fire]\nDamage: [1114%]\nSuper Armor Break: [1003%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "[스킬 정보: 샷건]\n타격당 Damage: [325%]\n타격당 Super Armor Break: [293%]\n\n[스킬 정보: 난사]\nDamage: [1355%]\nSuper Armor Break: [1220%]\n\n[Skill Info: Basic]\nSG consumption: [40]\nCooldown: [25sec]",
+          "Effect": "[Skill Info: Shotgun]\nDamage: [325%]\nSuper Armor Break: [293%]\n\n[Skill Info: Random Fire]\nDamage: [1355%]\nSuper Armor Break: [1220%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
-    "Destronail": {
-      "Name": "Destronail",
+    "Skill014_Destronail": {
+      "Name": "DestroNail",
       "ID": 29,
       "Icon": "../assets/SkillIcons/Nabi/Skill014_Destronail.png",
       "Levels": {
         "0": {
-          "Description": "잠시동안 좌표를 표시하면 잠시후 공중에서 열화우라늄 기둥이 좌표지점으로 낙하합니다. 기둥의 낙하지점에 0.5배의 추가피해를 입히고 넓은 범위에 충격파 피해를 입힙니다.",
+          "Description": "A column of uranium degradation falls onto the designated coordinates shortly after coordinates are shown.\nAdditional Damage of 50% hits designated coordinates and Shockwave Damage hits a wide surrounding range.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_Destronail.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill014_Destronail.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2135%]\nSuper Armor Break: [2135%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [2135%]\nSuper Armor Break: [2135%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 62,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2348%]\nSuper Armor Break: [2348%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [2348%]\nSuper Armor Break: [2348%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 65,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2631%]\nSuper Armor Break: [2631%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [2631%]\nSuper Armor Break: [2631%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [2999%]\nSuper Armor Break: [2999%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [2999%]\nSuper Armor Break: [2999%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 71,
           "RequiredSP": 3
         },
         "5": {
-          "Effect": "[스킬 정보: 충격파]\nDamage: [?%]\nSuper Armor Break: [?%]\n\n[Skill Info: Basic]\nSG consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [3990%]\nSuper Armor Break: [3990%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 74,
           "RequiredSP": 3
         }
       }
     },
-    "LastStrike-A": {
+    "Skill013_LastStrike-Aftermath": {
       "Visible": false,
-      "Name": "Last Strike-A",
+      "Name": "Aftermath",
       "ID": 30,
       "Icon": "../assets/SkillIcons/Nabi/Skill013_LastStrike_A.png",
       "Levels": {
         "0": {
-          "Description": "탄환이 지나간 자리에 강력한 후폭풍이 생성되어 추가 피해를 줍니다.",
+          "Description": "A tornado of aftermath crosses the path where the bullet's already been applies additional Damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_LastStrike_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill013_LastStrike_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[특성 정보: 특수 탄환]\nDamage: [4369%]\nSuper Armor Break: [5243%]\n\n[특성 정보: 후폭풍]\nDamage: [1092%]\nSuper Armor Break: [1311%]",
+          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [4369%]\nSuper Armor Break: [5243%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1092%]\nSuper Armor Break: [1311%]",
           "RequiredLevel": 68,
           "RequiredSP": 2
         },
         "2": {
-          "Effect": "[특성 정보: 특수 탄환]\nDamage: [4806%]\nSuper Armor Break: [5767%]\n\n[특성 정보: 후폭풍]\nDamage: [1202%]\nSuper Armor Break: [1442%]",
+          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [4806%]\nSuper Armor Break: [5767%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1202%]\nSuper Armor Break: [1442%]",
           "RequiredLevel": 70,
           "RequiredSP": 3
         },
         "3": {
-          "Effect": "[특성 정보: 특수 탄환]\nDamage: [5286%]\nSuper Armor Break: [6343%]\n\n[특성 정보: 후폭풍]\nDamage: [1322%]\nSuper Armor Break: [1586%]",
+          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [5286%]\nSuper Armor Break: [6343%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1322%]\nSuper Armor Break: [1586%]",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
@@ -1169,10 +1169,10 @@
       "Name": "Basic Attack Mastery",
       "ID": 1001,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Basic Attack.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
         "0": {
-          "Description": "[스킬 정보 : 소총 사격]\n타격당 Damage: [30%]\n타격당 슈퍼아머 Damage: [30%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 Damage: [120%]\n타격당 슈퍼아머 Damage: [120%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 5번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 Damage: [30%]\n타격당 슈퍼아머 Damage: [30%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x5",
+          "Description": "Fires Rifle in the Direction you are facing while\nknocking down enemies near you.\nEvery 5 Ground Basic Attacks, a high Damage\nration can be seen while knocking down\nenemies.\n\nFires Rifle in the direction you are facing while\nin the air\n\nSG is consumed per Attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1181,12 +1181,12 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [30%]\nSuper Armor Break per Hit: [30%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [120%]\nSuper Armor Break per Hit: [120%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [30%]\nSuper Armor Break per Hit: [30%]\nSG Consumption: [5]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[스킬 정보 : 소총 사격]\n타격당 Damage: [40%]\n타격당 슈퍼아머 Damage: [40%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 Damage: [160%]\n타격당 슈퍼아머 Damage: [160%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 5번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 Damage: [40%]\n타격당 슈퍼아머 Damage: [40%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x5",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [40%]\nSuper Armor Break per Hit: [40%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [160%]\nSuper Armor Break per Hit: [160%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [40%]\nSuper Armor Break per Hit: [40%]\nSG Consumption: [5]",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
@@ -1194,7 +1194,7 @@
           }
         },
         "3": {
-          "Effect": "[스킬 정보 : 소총 사격]\n타격당 Damage: [50%]\n타격당 슈퍼아머 Damage: [50%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 Damage: [200%]\n타격당 슈퍼아머 Damage: [200%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 5번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 Damage: [50%]\n타격당 슈퍼아머 Damage: [50%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x5",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [50%]\nSuper Armor Break per Hit: [50%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [200%]\nSuper Armor Break per Hit: [200%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [50%]\nSuper Armor Break per Hit: [50%]\nSG Consumption: [5]",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
@@ -1202,7 +1202,7 @@
           }
         },
         "4": {
-          "Effect": "[스킬 정보 : 소총 사격]\n타격당 Damage: [60%]\n타격당 슈퍼아머 Damage: [60%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 Damage: [240%]\n타격당 슈퍼아머 Damage: [240%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 4번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 Damage: [60%]\n타격당 슈퍼아머 Damage: [60%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x4",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [60%]\nSuper Armor Break per Hit: [60%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [240%]\nSuper Armor Break per Hit: [240%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [60%]\nSuper Armor Break per Hit: [60%]\nSG Consumption: [5]",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
@@ -1210,7 +1210,7 @@
           }
         },
         "5": {
-          "Effect": "[스킬 정보 : 소총 사격]\n타격당 Damage: [70%]\n타격당 슈퍼아머 Damage: [70%]\nSG소모량: [10]\n\n[스킬 정보 : 넉다운 공격]\n타격당 Damage: [280%]\n타격당 슈퍼아머 Damage: [280%]\nSG소모량: [10]\n\n바라보는 방향을 향해 소총을 사격하고 근접해 있는 적을 약간 넉백 시킵니다.\n지상 기본공격은 4번째 공격마다 높은 피해량과 일반적인 적들을 넉다운 시키는 공격을 합니다.\n공격 시 SG를 소모합니다.\n\n[스킬 정보 : 공중 소총 사격]\n타격당 Damage: [70%]\n타격당 슈퍼아머 Damage: [70%]\nSG소모량: [10]\n\n공중에서 바라보는 방향을 향해 소총을 사격합니다.\n공격 시 SG를 소모합니다.\n\n[조작법: 지상]\n마우스: (좌클릭) x4",
+          "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [70%]\nSuper Armor Break per Hit: [70%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [280%]\nSuper Armor Break per Hit: [280%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [70%]\nSuper Armor Break per Hit: [70%]\nSG Consumption: [5]",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
@@ -1219,15 +1219,15 @@
         }
       }
     },
-    "SpecialAbilityMastery": {
+    "SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1002,
-      "Name": "Special Ability Mastery",
-      "Icon": "../assets/SkillIcons/Nabi/Skill_OwnAbility.png",
+      "Name": "SoulStrike Mastery",
+      "Icon": "../assets/SkillIcons/Nabi/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
-          "Description": "[스킬 정보: 지상]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [240%]\n타격당 Super Armor Break: [120%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
+          "Description": "Fires Rifle 3 times rapidly, in the direction you\nare facing while sitting down.\nKnocks Back enemies who get hit due to high\npenetration.\n\nFires Pisol toward the ground.\nThe closest enemies receive the biggest Hit; up\nto 4 shots can be fired.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1236,31 +1236,31 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Ground]\nDamage per Hit: [240%]\nSuper Armor Break per Hit: [120%]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Aerial]\nDamage per Hit: [240%]\nSuper Armor Break per Hit: [120%]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[스킬 정보: 지상]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [276%]\n타격당 Super Armor Break: [138%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
+          "Effect": "[Skill Info: Ground]\nDamage per Hit: [276%]\nSuper Armor Break per Hit: [138%]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Aerial]\nDamage per Hit: [276%]\nSuper Armor Break per Hit: [138%]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[스킬 정보: 지상]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n앉은 자세에서 바라보는 방향을 향해 소총을 발사합니다.\n관통력이 매우 높으며 타격에 맞은 일반적인 적들을 넉백 시킵니다.\n최대 4회까지 발사할 수 있습니다.\n\n[스킬 정보: 공중]\n타격당 Damage: [334%]\n타격당 Super Armor Break: [167%]\nSG소모량: [30]\n재사용 대기시간: [10sec]\n\n지상을 향해 산탄총을 발사합니다.\n발사지점과 가까운 적에게 더 많이 타격하여 최대 4회까지 타격합니다.",
+          "Effect": "[Skill Info: Ground]\nDamage per Hit: [334%]\nSuper Armor Break per Hit: [167%]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Aerial]\nDamage per Hit: [334%]\nSuper Armor Break per Hit: [167%]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "EmergencyDodge": {
+    "Dodge": {
       "Passive": true,
-      "Name": "Emergency Dodge",
+      "Name": "Dodge",
       "ID": 1003,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Escape Route.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge in a direction. Negate damage during an emergency dodge.",
+          "Description": "Allows quick movement in designated\ndirection.\nNo Damage received in Dodge State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1269,21 +1269,21 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost:[20]",
+          "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "RisingRoll": {
+    "Tumble": {
       "Passive": true,
-      "Name": "Rising Roll",
+      "Name": "Tumble",
       "ID": 1004,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Shadow Roll.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by rolling in a direction. During the roll, damage is negated",
+          "Description": "Allows quick Tumble in designated direction in\nKnock Down State.\nNo Damage received in Tumble State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1292,17 +1292,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster Rolling Speed",
+          "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1313,10 +1313,10 @@
       "Name": "Dash",
       "DefaultLevel": 1,
       "ID": 1005,
-      "Icon": "../assets/SkillIcons/Common/Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward",
+          "Description": "Sprint straight ahead.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1330,21 +1330,21 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster Dashing Speed",
+          "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
       }
     },
-    "RisingAttack": {
+    "Retaliation": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "Retaliation",
       "ID": 1006,
       "DefaultLevel": 1,
-      "Icon": "../assets/SkillIcons/Common/Retaliation.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
         "0": {
-          "Description": "While downed, get up while damaging surrounding enemies",
+          "Description": "While in Knock Down State, you can get up\nwhile attacking enemies around you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1353,17 +1353,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1374,10 +1374,10 @@
       "Name": "Dash Attack",
       "DefaultLevel": 1,
       "ID": 1007,
-      "Icon": "../assets/SkillIcons/Common/Whirl Sprint.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "달리던 도중 전방을 향해 헥토파스칼킥을 사용합니다.",
+          "Description": "Use Flying Roundhouse kick up front while\nRunning.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1386,20 +1386,20 @@
           }
         },
         "1": {
-          "Effect": "Damage: 116%\nSuper Armor Break: 46%",
+          "Effect": "Damage: [116%]\nSuper Armor Break: [46%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "SpecialEvasion": {
+    "SoulEvasion": {
       "Passive": true,
-      "Name": "Special Dodge",
+      "Name": "Soul Evasion",
       "ID": 1008,
-      "Icon": "../assets/SkillIcons/Common/Elusion.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge as an enemy attacks you. Negate Damage during the special dodge",
+          "Description": "Allows quick movement when Under Attack.\nNo Damage received in Soul Evasion State.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1408,30 +1408,30 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost：40\nCooldown：30 seconds",
+          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost：40\nCooldown：25 seconds",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost：40\nCooldown：20 seconds",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
       }
     },
-    "SpecialDashAttack": {
+    "SoulDashAttack": {
       "Passive": true,
-      "Name": "Whirl Jump",
+      "Name": "SoulDash Attack",
       "ID": 1009,
-      "Icon": "../assets/SkillIcons/Common/Whirl Jump.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
-          "Description": "달리는 자세를 낮춘 상태에서 앞으로 미끄러지며 지나온 자리에 폭심지를 3개 설치합니다.",
+          "Description": "You can place 3 Bomb Wicks behind you while\nsliding forward in a lowered running position.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1440,7 +1440,7 @@
           }
         },
         "1": {
-          "Effect": "폭심지 설치 수: [3개]\n스태미나 소모량: [20]\n재사용 대기시간: [6sec]",
+          "Effect": "Number of Bomb Wick Placements: [3]\nStamina Consumption: [20]\nCooldown: [6sec]",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1450,50 +1450,50 @@
       "Passive": true,
       "Name": "Stamina Mastery",
       "ID": 1010,
-      "Icon": "../assets/SkillIcons/Common/Endure.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery rate",
+          "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery Rate: +10%",
+          "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery Rate: +20%",
+          "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery Rate: +30%",
+          "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery Rate: +40%",
+          "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery Rate: +50%",
+          "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
       }
     },
-    "ImprovedBolt": {
+    "BoltEnhancement": {
       "Passive": true,
-      "Name": "Improved Bolt",
+      "Name": "Bolt Enhancement",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Nabi/Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Nabi/PSkill2_BoltEnhancement.png",
       "Levels": {
         "0": {
           "Description": "Damage is increased for 5 seconds when using basic attack.",
@@ -1522,53 +1522,53 @@
       "Passive": true,
       "Name": "Extended Magazine",
       "ID": 1011,
-      "Icon": "../assets/SkillIcons/Nabi/Skill_SGPassive.png",
+      "Icon": "../assets/SkillIcons/Nabi/PSkill1_ExtendedMagazine.png",
       "Levels": {
         "0": {
-          "Description": "SG max value is increased",
+          "Description": "Maximum SG value is increased",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "SG max value is increased by 20.",
+          "Effect": "A Maximum of [20] SG will be increased.",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "SG max value is increased by 40.",
+          "Effect": "A Maximum of [40] SG will be increased.",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "SG max value is increased by 60.",
+          "Effect": "A Maximum of [60] SG will be increased.",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
       }
     },
-    "SightofLoyalty": {
+    "RifleScopeofDevotion": {
       "Passive": true,
-      "Name": "Sight of Loyalty",
+      "Name": "Rifle Scope of Devotion",
       "DefaultLevel": 1,
       "ID": 1012,
-      "Icon": "../assets/SkillIcons/Common/Mourning.png",
+      "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
-          "Description": "이나비의 특정 스킬들은 시전자의 공격으로 폭발하여 주변의 적들에게 피해를 주는 '폭심지'를 지면에 남깁니다. 폭심지는 10초 동안 유지됩니다.",
+          "Description": "Certain Skills of Lee Nabi require her to place\nBomb Wicks that explode and give Damage to\nsurrounding enemies; Bomb Wicks last for\n10sec.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "[스킬 정보: 반동 역이용]\n지상 및 공중 기본공격의 소총 사격 후 아주 짧은 시간동안 스테미나 소모량이 30%만큼 감소합니다.\n\n*배틀룸에서는 반동 역이용 능력이 적용되지 않습니다.\n\n[스킬 정보: 폭발물 취급 훈련]\n폭심지 Damage: [300%]\n폭심지 Super Armor Break: [450%]",
+          "Effect": "[Skill Info: Reverse Force]\n30% of Stamina Consumption will be reduced\nfor a short period of time when using Rifle Fire\non Ground or in Air.\n\n[Skill Info: Explosives Training]\nBomb Wick Damage: [300%]\nBomb Wick Super Armor Break: [450%]",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
     "TacticalAirStrike": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Tactical AirStrike",
       "DefaultLevel": 1,
       "ID": 2003,
@@ -1576,11 +1576,11 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Nabi/NSkill_TacticalAirStrike.png",
+      "Icon": "../assets/SkillIcons/Nabi/EXSkill_TacticalAirStrike.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "After summoning a helicopter, it bombs the ground.\nAfter Lee Nabi lands on the ground again, she ends it with shooting a Quad Launcher.",
+          "Description": "Bombing the Ground is possible after summoning\na helicopter.\nA multi-propelled missile finishes things off after Lee Nabi has landed.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1596,31 +1596,31 @@
       }
     },
     "Frenzy": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": 2001,
-      "Icon": "../assets/SkillIcons/Nabi/NSkill1_Hysteria.png",
+      "Icon": "../assets/SkillIcons/Nabi/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
+          "Description": "Through Awakening, physicality of the body is temporarily heightened.\nSkills are used through consumption of Soul Vapor.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/NSkill1_Frenzy.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "\n1st Stage Gauge Use (SV -50)\n\nAwakening: [30sec]\nArmor Penetration +[5%]\nCritical Rate: +[5%]\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
     "Awakening": {
-      "Passive": true,
+      "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
       "ID": 2002,
@@ -1628,48 +1628,48 @@
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Nabi/NSkill2_Supernova.png",
+      "Icon": "../assets/SkillIcons/Nabi/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Description": "Through Awakening, physicality of the body is temporarily heightened.\nSkills are used through consumption of Soul Vapor.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "\n2nd Stage Gauge Use (SV -100)\n\nAwakening: [60sec]\nArmor Penetration +[10%]\nCritical Rate: +[10%]\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
       }
     },
-    "NabisDesire": {
-      "Passive": true,
-      "Name": "Nabi's Desire",
+    "DesireAwakening": {
+      "Vapor": true,
+      "Name": "Desire Awakening",
       "DefaultLevel": 1,
       "ID": 2004,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
       },
-      "Icon": "../assets/SkillIcons/Common/SV_3_Desire_BreakErode.png",
+      "Icon": "../assets/SkillIcons/Common/NSkill3_DesireAwakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
+          "Description": "[Skill Info: Burning]\nAdditional Blows: Damage increased by [1.3x] for [60sec]\nBurning Skill ends when using EX Skill.\n-Last Strike: Additional Strikes are applied to enemies within Strike point.\n-DestroNail: Column remains and Damages surrounding enemies for an allotted amount of time.\n-Tactical AirStrike: Last missile strike is strengthened.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SF Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Last Strike (lvl 42 Skill)\n-Destronail (lvl 62 Skill)\n-Tactical AirStrike (EX Skill)",
+          "Effect": "\n2nd Stage Gauge Use (SV -100)\n\nDesire Awakening: [60sec]\nInflict Damage +[20%]\nAttack Speed: +[20%]\nMax. Damage set.\nAgility: +[30%]\nActivates Super Armor\nSG Consumption: -[20%]\nActivates Burning Skill",
           "RequiredLevel": 65,
           "RequiredSP": 0
         }

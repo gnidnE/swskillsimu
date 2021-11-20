@@ -162,14 +162,11 @@
     height: 503px;
     width: auto;
     bottom: 0px;
-    /*mask-image: linear-gradient(rgba(0, 0, 0, 0.1), transparent);
-    /*clip-path: inset(0% 0 0 5%);*/
-    /*mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-    -webkit-mask-image:-webkit-gradient(linear, right bottom, left top, from(rgba(0, 0, 0, 0)), to(rgba(0,0,0,100)));*/
-
-     
 }
 
+.forcharacter {
+    opacity: 1;
+}
 
 .foreground-white {
     color: white
@@ -195,18 +192,43 @@ li.tablelike {
     display: block;
     width: 155px;
     height: 88px;
-    margin: 7px;
+    margin: 8px;
 }
 
 div.skillinfopanel {
     position: relative;
-    border: 1px solid black;
-    width: 155px;
-    height: 92px;
-    background-color: rgba(0, 0, 0, 0.4)
+    border: 1px solid #fbd668; /* was 1px*/
+    border-radius: 10px;
+    width: 155px;   /*was 155px*/
+    height: 100px;   /*was 92px*/
+    background-color: rgba(0, 0, 0, 0.75) /*alpha was 0.4*/
     /*display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;//*/
+}
+.passiveskill div.skillinfopanel {
+    height: 80px;
+    width: 130px;
+    border: 1px solid #8cc556;
+}
+.vaporskill div.skillinfopanel {
+    height: 80px;
+    width: 80px;
+    border: 1px solid #7335e7;
+}
+
+#tooltip {
+    border: 2px solid #3074fe;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.activeskill li.tablelike {
+    margin-bottom: 15px;
+}
+
+.vaporskill li.tablelike {
+    margin-bottom: -10px;
 }
 
 img.skillIcon {
@@ -215,6 +237,7 @@ img.skillIcon {
     top: 5px;
     width: 50px;
     height: 50px;
+    border-radius: 5px;
     transform: translateX(-50%);
 }
 
@@ -223,9 +246,21 @@ button.skillup {
     position: absolute;
     height: 15px;
     width: 10px;
-    top: 5px;
-    left: 100px;
+    top: 12px;
+    left: 107px;
     margin: 0;
+    border-radius: 100px;
+}
+
+button.skilldown {
+    cursor: default;
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    top: 32px;
+    left: 107px;
+    margin: 0;
+    border-radius: 100px;
 }
 
 li.activeskill {
@@ -251,14 +286,16 @@ ul.tablepassiveskill {
     list-style: none outside none;
 }
 
-button.skilldown {
-    cursor: default;
-    position: absolute;
-    height: 15px;
-    width: 10px;
-    top: 20px;
-    left: 100px;
-    margin: 0;
+li.vaporskill {
+    float: none;
+    display: flex;
+    
+}
+
+ul.tablevaporskill {
+    float: none;
+    width: 590px;
+    list-style: none outside none;
 }
 
 p.skillLevel {
@@ -294,11 +331,11 @@ div.extension2infopanel {
 
 div.skillExinfopanel {
     position: relative;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     width: 54px;
     height: 31px;
-    /*left: 65px;
-    top: -1px;*/
+    left: 5px;
+    top: 5px;
 }
 
 img.skillExIcon {
@@ -307,6 +344,7 @@ img.skillExIcon {
     top: 0px;
     width: 30px;
     height: 30px;
+    border-radius: 5px;
 }
 
 button.skillexup {
@@ -314,8 +352,9 @@ button.skillexup {
     height: 15px;
     width: 6px;
     top: -1px;
-    left: 45px;
+    left: 40px;
     margin: 0;
+    border-radius: 100%;
 }
 
 button.skillexdown {
@@ -323,8 +362,9 @@ button.skillexdown {
     height: 15px;
     width: 6px;
     top: 14px;
-    left: 45px;
+    left: 40px;
     margin: 0;
+    border-radius: 100%;
 }
 
 p.skillExLevel {
@@ -392,4 +432,38 @@ p.skillExLevel {
     max-height: 300px;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.passiveskill div.skillinfopanel {
+    height: 80px;
+    width: 130px;
+}
+
+.vaporskill div.skillinfopanel {
+    height: 80px;
+    width: 80px;
+}
+
+.vaporskill img.skillIcon {
+    top: 8px;
+    height: 60px;
+    width: 60px;
+}
+
+.passiveskill li.tablelike{
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.passiveskill img.skillIcon, .passiveskill p.skillLevel {
+    Left: 50px;
+}
+
+
+.passiveskill button.skillup, .passiveskill button.skilldown {
+    Left: 80px;
+}
+
+.vaporskill button.skillup, .vaporskill button.skilldown, .vaporskill p.skillLevel {
+    visibility:hidden !important
 }

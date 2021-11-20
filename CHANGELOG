@@ -1,3 +1,25 @@
+20.November.2021 - Translated Nabis and Chiis whole Skill Page
+                 - Fixed Chiis "Tripple Arrow" skillpreview not showing
+                 - Fixed all Skills for Nabi and Chii as good as possible to be ready for upcoming updates immediately
+                 - Renamed Skillicons & previews for better organization (Nabi & Chii for now)
+                 - Fixed Sprint & SoulDash Attacks Skill Up & Down buttons; now glowing correctly
+                 - Completely overhauled the design (Thanks to fergiiie for ideas and inspirations)
+                 - Added Vapor Skills to the right side of the page
+                 - Updated Dependencies and libraries:
+                     - jQuery 3.4.1 -> 3.6.0
+                     - jQueryUi 3.12.1-> 1.13.0
+                     - BootstrapJS 4.1.3 -> 5.1.3 (I tried updating the css, but it would break the whole thing)
+                     - Popperjs 1.15.0 -> 2.10.2
+                     - clipboard.js 2.0.4 -> 2.0.8
+                     - bootstrap-notify 3.1.5 -> 3.1.7
+                     - cookie.js 2.2.0 -> 2.2.1 (latest auto update)
+                     - animate.css 3.7.2 -> 4.1.1
+
+                Authors note: There are a few Skill stats for Chii missing but this time I made a list.
+                              If there are any bugs, errors or typos let me know. Next update I'll add descriptions to Ephnel.
+                              I hope you guys like the redesign, feel free to give me feedback on discord.
+
+
 18.October.2021 - Added new ~~Old~~ Erwin skill: lvl 28 skill: Sprinter -> Chain Bombing
                                                  Ext. lvl 44: SG recovery -> Last Bombing
 
@@ -11,26 +33,26 @@
                      (The translations are a bit *wonky* so if anyone has a better translated one, please let me know)
 
 27.September.2021 - Fixed/Added some minor translations to Nabi/Stella (More to follow)
-                  - Changed Ephnel's name
+                  - Changed Ephnels name
                   - Changed some minor translations for Stella
 
-07.September.2021 - Added 5th skill point to eveyone's 62Skill besides Stella (Must have overlooked it)
+07.September.2021 - Added 5th skill point to eveyones lvl62 Skill besides Stella (Must have overlooked it)
                   - Fixed/Added some minor translations to Nabi (More to follow)
 
-05.August.2021 - Changed aspect ratio for Stella's Skill previews from 1:1 -> 4:3
+05.August.2021 - Changed aspect ratio for Stellas Skill previews from 1:1 -> 4:3
 
                 Authors note: Now that Global has the reworked Stella, I'll take a look on how those translations will be
-                              and will most likely end up using those instead. Already did some work on Nabi's page but not close to finish.
+                              and will most likely end up using those instead. Already did some work on Nabis page but not close to finish.
 
 
 12.July.2021 - Increased Max Level to 76 (max SP now 173)
-               - Increased Stella's Phantom Release Extenmsion from 1 -> 3
+               - Increased Stellas Phantom Release Extenmsion from 1 -> 3
                - Added Level 62 Extention from 4 -> 5 (3SP at level 74)
-               - Added Stella's new Skill previews (may vary on different servers)
+               - Added Stellas new Skill previews (may vary on different servers)
                - Added/Changed Skill Descriptions for Stella (may vary on different servers)
                - Added/Changed Damage Info to latest Korean patch for Stella (may vary on different servers)
-               - Fixed Nabi's Aerials showing up in Slot assignment (thanks to Asher)
-               - Fixed Stella's Phantom Release skill preview from being sped up.
+               - Fixed Nabis Aerials showing up in Slot assignment (thanks to Asher)
+               - Fixed Stellas Phantom Release skill preview from being sped up.
                   (if there are other previews sped up, let me know)
                
 
@@ -38,11 +60,11 @@
                              for each skill, but it might take a while since I only play stella regularly.
                              If anybody likes to help out, Add/Message me on Discord (Eden~♡#2724), that's where I respond the quickest
                              
-
+                             
 02.January.2021 - Added Lee Nabi (thanks to Myleia for the amazing Banner and everyone who provided me with the correct stats.)
-                 - Fixed Ephnel's "Mamba's Coil & Debris" skills to being assignable now (thanks to Asher)
-                 - Re-added/updated all Skill preview video's with better quality (Lily rework)
-                 - Changed Lily's "Fear Chain" skill Extension from "Range" to "Stun"
+                 - Fixed Ephnels "Mambas Coil & Debris" skills to being assignable now (thanks to Asher)
+                 - Re-added/updated all Skill preview videos with better quality (Lily rework)
+                 - Changed Lilys "Fear Chain" skill Extension from "Range" to "Stun"
                     (if any other skills are incorrect, please let me know)
                  - Revamped the Character selection to look a bit more fancy
                  - Cleaned out several files that weren't used
