@@ -1755,7 +1755,7 @@
       "Name": "Frenzy",
       "DefaultLevel": 1,
       "ID": "V0",
-      "Icon": "../assets/SkillIcons/Lily/NSKill1_Frenzy.png",
+      "Icon": "../assets/SkillIcons/Lily/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {

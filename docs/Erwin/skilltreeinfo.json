@@ -91,6 +91,18 @@
           "RequiredLevel": 13,
           "RequiredSP": 1,
           "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 18,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "",
+          "RequiredLevel": 23,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
