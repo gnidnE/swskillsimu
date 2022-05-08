@@ -555,7 +555,7 @@ margin-left:auto
 
 @media (min-width: 1200px) {
     .container {
-        max-width:1140px
+        max-width:1265px
     }
 }
 
@@ -613,6 +613,7 @@ flex:0 0 auto;
 width:auto;
 max-width:none
 }
+
 
 .col-1 {
 -webkit-box-flex:0;
@@ -1090,14 +1091,14 @@ margin-left:91.6666666667%
         width:auto;
         max-width:none
     }
-
+/*
     .col-md-1 {
         -webkit-box-flex:0;
         -ms-flex:0 0 8.3333333333%;
         flex:0 0 8.3333333333%;
         max-width:8.3333333333%
     }
-
+*/
 
     .col-md-2 {
         -webkit-box-flex:0;
@@ -2787,7 +2788,7 @@ border-color:#8c0000
 box-shadow:0 0 0 0.2rem rgba(204,0,0,0.5)
 }
 
-.btn-light {
+/*.btn-light {
 color:#fff;
 background-color:#222;
 border-color:#222
@@ -2820,7 +2821,7 @@ border-color:#020202
 -webkit-box-shadow:0 0 0 0.2rem rgba(34,34,34,0.5);
 box-shadow:0 0 0 0.2rem rgba(34,34,34,0.5)
 }
-
+*/
 .btn-dark {
 color:#fff;
 background-color:#ADAFAE;
@@ -4189,7 +4190,7 @@ align-items:center;
 -webkit-box-pack:justify;
 -ms-flex-pack:justify;
 justify-content:space-between;
-padding:0.5rem 1rem
+padding:0px 16px;
 }
 
 .navbar>.container,.navbar>.container-fluid {
@@ -7939,7 +7940,7 @@ z-index:1030
 }
 
 .fixed-bottom {
-position:fixed;
+position: fixed;
 right:0;
 bottom:0;
 left:0;
@@ -9894,4 +9895,8 @@ color:inherit
 
 .popover-title {
 border-bottom:none
+}
+
+.nav-item {
+    margin: auto
 }

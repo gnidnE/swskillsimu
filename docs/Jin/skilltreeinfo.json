@@ -18,923 +18,1045 @@
   }
   },
   "Skills": {
-    "GloryUpper": {
+    "Skill01_GloryUpper": {
       "Name": "Glory Upper",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GloryUpper.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill01_GloryUpper.png",
       "Levels": {
         "0": {
-          "Description": "Approach and knock-up enemies with an upper attack. Afterwards, launches additional consecutive attacks. When this skill is strengthen , it increases the performance by 1.5x",
+          "Description": "Approach and perform an upper attack to lift enemies in the air.\nEnable to add combos with extra commands.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_GloryUpper.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill01_GloryUpper.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [221%]\nSuper Armor Break: [210%]\n\n[Skill Info: Additional Attack]\nDamage: [166%] [166%]\nSuper Armor Break: [157%] [157%]\n\n[Skill Info: Basic]\nSG Consumption: [25]\nCooldown: [10sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [232%]\nSuper Armor Break: [220%]\n\n[Skill Info: Additional Attack]\nDamage: [174%] [174%]\nSuper Armor Break: [165%] [165%]\n\n[Skill Info: Basic]\nSG Consumption: [25]\nCooldown: [10sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [259%]\nSuper Armor Break: [247%]\n\n[Skill Info: Additional Attack]\nDamage: [194%] [194%]\nSuper Armor Break: [185%] [185%]\n\n[Skill Info: Basic]\nSG Consumption: [25]\nCooldown: [10sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [286%]\nSuper Armor Break: [273%]\n\n[Skill Info: Additional Attack]\nDamage: [214%] [214%]\nSuper Armor Break: [205%] [205%]\n\n[Skill Info: Basic]\nSG Consumption: [25]\nCooldown: [10sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [330%]\nSuper Armor Break: [315%]\n\n[Skill Info: Additional Attack]\nDamage: [248%] [248%]\nSuper Armor Break: [236%] [236%]\n\n[Skill Info: Basic]\nSG Consumption: [25]\nCooldown: [10sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "GloryUpper-Knockdown",
-        "GloryUpper-Upper"
+        "Skill01_GloryUpper-A",
+        "Skill01_GloryUpper-B"
       ]
     },
-    "GloryUpper-Knockdown": {
+    "Skill01_GloryUpper-A": {
       "Visible": false,
-      "Name": "Knockdown",
+      "Name": "Knock Down",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GloryUpper_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill01_GloryUpper_A.png",
       "Levels": {
         "0": {
-          "Description": "Activated after Glory Upper's additional attack. Follow up with a powerful blow on the enemy",
+          "Description": "Activated after the additional attack of Glory Upper.\nChasing and striking enemies with powerful blow. Attack motion gets shortened during counter enhance.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_GloryUpper_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill01_GloryUpper_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage: [484%]\nSuper Armor Break: [306%]\n\n[SoulPlus Info: Additional Attack]\nIncreased Damage: [1089%]\nTotal Super Armor Break: [689%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage: [532%]\nSuper Armor Break: [337%]\n\n[SoulPlus Info: Additional Attack]\nIncreased Damage: [1198%]\nTotal Super Armor Break: [758%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage: [629%]\nSuper Armor Break: [398%]\n\n[SoulPlus Info: Additional Attack]\nIncreased Damage: [1416%]\nTotal Super Armor Break: [895%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "GloryUpper-Upper": {
+    "Skill01_GloryUpper-B": {
       "Visible": false,
-      "Name": "Upper",
+      "Name": "Upper Attack",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GloryUpper_B.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill01_GloryUpper_B.png",
       "Levels": {
         "0": {
-          "Description": "Activated after Glory Upper's additional attack. Attacks facing enemies with tremendous power",
+          "Description": "Activated after the additional attack of Glory Upper.\nUse Soul energy to lift and hit enemies in front of you multiple times.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_GloryUpper_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill01_GloryUpper_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage: [484%]\nSuper Armor Break: [306%]\n\n[SoulPlus Info: Additional Attack]\nIncreased Damage: [1089%]\nTotal Super Armor Break: [689%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage: [532%]\nSuper Armor Break: [337%]\n\n[SoulPlus Info: Additional Attack]\nIncreased Damage: [1198%]\nTotal Super Armor Break: [758%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage: [629%]\nSuper Armor Break: [398%]\n\n[SoulPlus Info: Additional Attack]\nIncreased Damage: [1416%]\nTotal Super Armor Break: [895%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "PerfectCombination": {
+    "Skill02_PerfectCombination": {
       "Name": "Perfect Combination",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_PerfectCombination.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill02_PerfectCombination.png",
       "Levels": {
         "0": {
-          "Description": "Quickly rush and tackle the enemy. Afterwards, launches additional consecutive attacks",
+          "Description": "Charge forwards and push back the enemy with your shoulder.\nEnable to add combos with extra commands.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_PerfectCombination.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill02_PerfectCombination.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [102%]\nSuper Armor Break: [29%]\n\n[Skill Info: Additional Attack]\nDamage: [153%] [256%]\nSuper Armor Break: [44%] [73%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nSG gain per Hit: [5%]\nCooldown: [10sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [112%]\nSuper Armor Break: [31%]\n\n[Skill Info: Additional Attack]\nDamage: [168%] [281%]\nSuper Armor Break: [46%] [77%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nSG gain per Hit: [7%]\nCooldown: [10sec]",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [138%]\nSuper Armor Break: [34%]\n\n[Skill Info: Additional Attack]\nDamage: [207%] [345%]\nSuper Armor Break: [52%] [86%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nSG gain per Hit: [9%]\nCooldown: [10sec]",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [163%]\nSuper Armor Break: [38%]\n\n[Skill Info: Additional Attack]\nDamage: [245%] [409%]\nSuper Armor Break: [57%] [95%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nSG gain per Hit: [12%]\nCooldown: [10sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [204%]\nSuper Armor Break: [44%]\n\n[Skill Info: Additional Attack]\nDamage: [306%] [511%]\nSuper Armor Break: [66%] [110%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nSG gain per Hit: [15%]\nCooldown: [10sec]",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "PerfectCombination-RisingUpper"
+        "Skill02_PerfectCombination-A"
       ]
     },
-    "HammerKick": {
+    "Skill03_HammerKick": {
       "Name": "Hammer Kick",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_HammerKick.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill03_HammerKick.png",
       "Levels": {
         "0": {
-          "Description": " After jumping forwards, spin your body in the air and launch a kick. Attack enemies are knocked up. When this skill is strengthen increases the performance by 1.5x",
+          "Description": "Leap forwards and spin around to perform downwards kick. Hit enemies are lift into the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_HammerKick.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill03_HammerKick.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [378%]\nSuper Armor Break: [700%]\nSG Consumption: [30]\nSG gain on hit: [10%]\nCooldown: [12sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[2.5]\nHit counts: +[1]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [396%]\nSuper Armor Break: [734%]\nSG Consumption: [30]\nSG gain on hit: [14%]\nCooldown: [12sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[2.5]\nHit counts: +[1]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [446%]\nSuper Armor Break: [822%]\nSG Consumption: [30]\nSG gain on hit: [25%]\nCooldown: [12sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[2.5]\nHit counts: +[1]",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [490%]\nSuper Armor Break: [908%]\nSG Consumption: [30]\nSG gain on hit: [32%]\nCooldown: [12sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[2.5]\nHit counts: +[1]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [568%]\nSuper Armor Break: [1048%]\nSG Consumption: [30]\nSG gain on hit: [45%]\nCooldown: [12sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[2.5]\nHit counts: +[1]",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "CounterAttack": {
+    "Skill04_CounterAttack": {
       "Name": "Counter Attack",
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterAttack.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill04_CounterAttack.png",
       "Levels": {
         "0": {
-          "Description": "Can only counter short-ranged attacks, if it's successful, a part of the skill will be strengthened for 5 seconds",
+          "Description": "Land a counter attack ignoring enemy's attack. Only melee attacks can be countered, and a successful counter strengthens some skills and recover SG.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_CounterAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill04_CounterAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [295%]\nSuper Armor Break: [79%]\n\n[Skill Info: Forced Attack]\nDamage: [118%]\nSuper Armor Break: [32%]\n[Skill Info: Basic]\nCooldown: [5sec]\nSG recovery on counter: [15%]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\nUsable Reinforcement Skill during counter attack: [3]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [310%]\nSuper Armor Break: [83%]\n\n[Skill Info: Forced Attack]\nDamage: [124%]\nSuper Armor Break: [33%]\n[Skill Info: Basic]\nCooldown: [5sec]\nSG recovery on counter: [20%]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\nUsable Reinforcement Skill during counter attack: [3]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [347%]\nSuper Armor Break: [93%]\n\n[Skill Info: Forced Attack]\nDamage: [139%]\nSuper Armor Break: [37%]\n[Skill Info: Basic]\nCooldown: [5sec]\nSG recovery on counter: [25%]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\nUsable Reinforcement Skill during counter attack: [3]",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [385%]\nSuper Armor Break: [103%]\n\n[Skill Info: Forced Attack]\nDamage: [154%]\nSuper Armor Break: [41%]\n[Skill Info: Basic]\nCooldown: [5sec]\nSG recovery on counter: [35%]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\nUsable Reinforcement Skill during counter attack: [3]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [443%]\nSuper Armor Break: [119%]\n\n[Skill Info: Forced Attack]\nDamage: [177%]\nSuper Armor Break: [48%]\n[Skill Info: Basic]\nCooldown: [5sec]\nSG recovery on counter: [50%]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\nUsable Reinforcement Skill during counter attack: [3]",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "CounterAttack-KnockOut",
-        "CounterAttack-SADestruction"
+        "Skill04_CounterAttack-A",
+        "Skill04_CounterAttack-B"
       ]
     },
-    "CounterAttack-KnockOut": {
-      "Name": "Knock Out",
+    "Skill04_CounterAttack-A": {
+      "Name": "Damage Up",
       "ID": 7,
       "Visible": false,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterAttack_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill04_CounterAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "Stuns attacked enemies",
+          "Description": "Increases Damage.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_CounterAttack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill04_CounterAttack_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage value: [88%]\n\n[SoulPlus Info: Forced Attack]\nIncreased Damage value: [35%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage value: [194%]\n\n[SoulPlus Info: Forced Attack]\nIncreased Damage value: [77%]",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Damage value: [322%]\n\n[SoulPlus Info: Forced Attack]\nIncreased Damage value: [188%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "CounterAttack-SADestruction": {
+    "Skill04_CounterAttack-B": {
       "Visible": false,
-      "Name": "SA Destruction",
+      "Name": "Super Armor Break Up",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterAttack_B.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill04_CounterAttack_B.png",
       "Levels": {
         "0": {
-          "Description": "Increases SA Destruction",
+          "Description": "Increases Super Armor Break.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Super Armor Break value: [774%]\n\n[SoulPlus Info: Forced Attack]\nIncreased Super Armor Break value: [309%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Super Armor Break value: [952%]\n\n[SoulPlus Info: Forced Attack]\nIncreased Super Armor Break value: [380%]",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nIncreased Super Armor Break value: [1309%]\n\n[SoulPlus Info: Forced Attack]\nIncreased Super Armor Break value: [523%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpiritSurge": {
+    "Skill05_SpiritSurge": {
       "Name": "Spirit Surge",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritSurge.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill05_SpiritSurge.png",
       "Levels": {
         "0": {
-          "Description": "After releasing tremendous power, intimidate enemies while protecting allies",
+          "Description": "Unleash Soul Energy to drag and taunt enemies.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SpiritSurge.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill05_SpiritSurge.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Self]\nBuff effect: defense +[25%]\nBuff duration: [10sec]\n\n[Skill Info: Enemy]\nDebuff effect: [Taunt]\nDebuff duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Self]\nBuff effect: defense +[30%]\nBuff duration: [10sec]\n\n[Skill Info: Enemy]\nDebuff effect: [Taunt]\nDebuff duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Self]\nBuff effect: defense +[40%]\nBuff duration: [10sec]\n\n[Skill Info: Enemy]\nDebuff effect: [Taunt]\nDebuff duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 14,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Self]\nBuff effect: defense +[50%]\nBuff duration: [10sec]\n\n[Skill Info: Enemy]\nDebuff effect: [Taunt]\nDebuff duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Self]\nBuff effect: defense +[70%]\nBuff duration: [10sec]\n\n[Skill Info: Enemy]\nDebuff effect: [Taunt]\nDebuff duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SpiritSurge-Strengthen"
+        "Skill05_SpiritSurge-A"
       ]
     },
-    "SpiritSurge-Strengthen": {
-      "Name": "Strengthen",
+    "Skill05_SpiritSurge-A": {
+      "Name": "Upgrade",
       "ID": 10,
       "Visible": false,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritSurge_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill05_SpiritSurge_A.png",
       "Levels": {
         "0": {
-          "Description": "Taunted enemies become excited causing their evasion to decrease",
+          "Description": "Decreases the Evasion rate of taunted enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SpiritSurge_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill05_SpiritSurge.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDebuff Effect: Evasion decreased in taunt: [200]\nDuration:[10sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDebuff Effect: Evasion decreased in taunt: [200]\nDuration:[15sec]",
           "RequiredLevel": 27,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDebuff Effect: Evasion decreased in taunt: [200]\nDuration:[20sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "GravityTwister": {
+    "Skill06_GravityTwister": {
       "Name": "Gravity Twister",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GravityTwister.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill06_GravityTwister.png",
       "Levels": {
         "0": {
-          "Description": "Unleash tremendous power before the enemy. When the skill is strengthen increases the pulling range performance by 1.5x",
+          "Description": "Use Soul Energy to draw enemies towards your direction.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_GravityTwister.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill06_GravityTwister.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [534%]\nSuper Armor Break: [400%]\nSG Consumption: [55]\nCooldown: [16sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [561%]\nSuper Armor Break: [419%]\nSG Consumption: [55]\nCooldown: [16sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [627%]\nSuper Armor Break: [469%]\nSG Consumption: [55]\nCooldown: [16sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [696%]\nSuper Armor Break: [519%]\nSG Consumption: [55]\nCooldown: [16sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [801%]\nSuper Armor Break: [599%]\nSG Consumption: [55]\nCooldown: [16sec]\n\n[Skill Info: Upgraded Skill]\nDamage: x[1.5]",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "GravityTwister-ShockWaves"
+        "Skill06_GravityTwister-A"
       ]
     },
-    "GravityTwister-ShockWaves": {
+    "Skill06_GravityTwister-A": {
       "Visible": false,
-      "Name": "Shock Waves",
+      "Name": "Shock Wave",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_GravityTwister_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill06_GravityTwister_A.png",
       "Levels": {
         "0": {
-          "Description": "Existing skill is changed into a multi-hit shock wave",
+          "Description": "Replaces the current skill effect with shock wave attacks that counted as multiple.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_GravityTwister_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill06_GravityTwister_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Drag]\nDamage: [276%]\nSuper Armor Break per Hit: [206%]\n\n[SoulPlus Info: Shockwave]\nDamage per Hit: [46%]\nSuper Armor Break per Hit:[34%]\n\n[SoulPlus Info: Enhanced Attack]\nShockwave duration: +[30%]",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Drag]\nDamage: [312%]\nSuper Armor Break per Hit: [233%]\n\n[SoulPlus Info: Shockwave]\nDamage per Hit: [52%]\nSuper Armor Break per Hit:[38%]\n\n[SoulPlus Info: Enhanced Attack]\nShockwave duration: +[30%]",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Drag]\nDamage: [396]\nSuper Armor Break per Hit: [296%]\n\n[SoulPlus Info: Shockwave]\nDamage per Hit: [66%]\nSuper Armor Break per Hit:[49%]\n\n[SoulPlus Info: Enhanced Attack]\nShockwave duration: +[30%]",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpiritExplosion": {
+    "Skill07_SpiritExplosion": {
       "Name": "Spirit Explosion",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritExplosion.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill07_SpiritExplosion.png",
       "Levels": {
         "0": {
-          "Description": "Store energy in the gauntlet, unleash a powerful blow forwards. While charging , it increases the performance by 1.4x, up to 2.0x.\nWhen the skill is strengthen , a 3-stage charge attack will be unleashed immediately without charging",
+          "Description": "Gather power to throw a mighty blow with gauntlet.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SpiritExplosion.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill07_SpiritExplosion.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info:]\nDamage: [455%]\nSuper Armor Break: [435%]\nWhen charging: increases area of effect, performance x1.4\nDoubled as Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [50]\nCooldown: [20sec]\n\n[Skill Info: Upgraded Skill]\nInstant case: [3 charges]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info:]\nDamage: [477%]\nSuper Armor Break: [465%]\nWhen charging: increases area of effect, performance x1.4\nDoubled as Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [50]\nCooldown: [20sec]\n\n[Skill Info: Upgraded Skill]\nInstant case: [3 charges]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info:]\nDamage: [534%]\nSuper Armor Break: [510%]\nWhen charging: increases area of effect, performance x1.4\nDoubled as Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [50]\nCooldown: [20sec]\n\n[Skill Info: Upgraded Skill]\nInstant case: [3 charges]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info:]\nDamage: [592%]\nSuper Armor Break: [570%]\nWhen charging: increases area of effect, performance x1.4\nDoubled as Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [50]\nCooldown: [20sec]\n\n[Skill Info: Upgraded Skill]\nInstant case: [3 charges]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info:]\nDamage: [683%]\nSuper Armor Break: [660%]\nWhen charging: increases area of effect, performance x1.4\nDoubled as Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [50]\nCooldown: [20sec]\n\n[Skill Info: Upgraded Skill]\nInstant case: [3 charges]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SpiritExplosion-ImpactBullets",
-        "SpiritExplosion-RangeIncrease"
+        "Skill07_SpiritExplosion-A",
+        "Skill07_SpiritExplosion-B"
       ]
     },
-    "SpiritExplosion-ImpactBullets": {
+    "Skill07_SpiritExplosion-A": {
       "Visible": false,
-      "Name": "Impact Bullets",
+      "Name": "Air Cannon",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritExplosion_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill07_SpiritExplosion_A.png",
       "Levels": {
         "0": {
-          "Description": "Removes existing skill effect , charges energy and fires it forwards",
+          "Description": "Replaces the current skill effect with a charged energy cannon rowards front area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SpiritExplosion_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill07_SpiritExplosion_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Switching]\nDamage: [859%]\nSuper Armor Break: [824%]",
           "RequiredLevel": 30,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Switching]\nDamage: [1150%]\nSuper Armor Break: [1067%]",
           "RequiredLevel": 35,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Switching]\nDamage: [1535%]\nSuper Armor Break: [1485%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpiritExplosion-RangeIncrease": {
+    "Skill07_SpiritExplosion-B": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "One Inch Punch",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritExplosion_B.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill07_SpiritExplosion_B.png",
       "Levels": {
         "0": {
-          "Description": "Charge energy to create a big wave to attack the enemies",
+          "Description": "Focused energy on a narrower range of area, generating a great impact to attack enemies with massive damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SpiritExplosion_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill07_SpiritExplosion_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDamage: [956%]\nSuper Armor Break: [915%]",
           "RequiredLevel": 30,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDamage: [1229%]\nSuper Armor Break: [1185%]",
           "RequiredLevel": 35,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDamage: [1706%]\nSuper Armor Break: [1650%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpiritShooter": {
+    "Skill08_SpiritShooter": {
       "Name": "Spirit Shooter",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritShooter.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill08_SpiritShooter.png",
       "Levels": {
         "0": {
-          "Description": " Generates a shockwave that instantly paralyzes enemies. Retreats using the recoil",
+          "Description": "Generates a shock wave to paralyze enemies and use the recoil to dodge backwards.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SpiritShooter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill08_SpiritShooter.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [514%]\nDebuff effect: Paralysis\nDebuff duration: [3sec]\nSuper Armor Break: [301%]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [540%]\nDebuff effect: Paralysis\nDebuff duration: [3sec]\nSuper Armor Break: [316%]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [604%]\nDebuff effect: Paralysis\nDebuff duration: [3sec]\nSuper Armor Break: [354%]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [668%]\nDebuff effect: Paralysis\nDebuff duration: [3sec]\nSuper Armor Break: [391%]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [770%]\nDebuff effect: Paralysis\nDebuff duration: [3sec]\nSuper Armor Break: [452%]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SpiritShooter-RecoilBound"
+        "Skill08_SpiritShooter-A"
       ]
     },
-    "QuadraBlow": {
+    "Skill09_QuadraBlow": {
       "Name": "Quadra Blow",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_QuadraBlow.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill09_QuadraBlow.png",
       "Levels": {
         "0": {
-          "Description": "Fire a powerful sphere at the enemy. The fired sphere explodes , damaging its surroundings. When the skill is strengthen, it increases the performance by 1.5x",
+          "Description": "Form a sphere of Soul Energy and throw this at your enemy.\nThe sphere explodes and inflicts damage with a great impact.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_QuadraBlow.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill09_QuadraBlow.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [181%]\nSuper Armor Break per Hit: [168%]\nSG Consumption: [40]\nCooldown: [15sec]\n\n[Skill Info: Upgraded Skill]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [190%]\nSuper Armor Break per Hit: [175%]\nSG Consumption: [40]\nCooldown: [15sec]\n\n[Skill Info: Upgraded Skill]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [213%]\nSuper Armor Break per Hit: [198%]\nSG Consumption: [40]\nCooldown: [15sec]\n\n[Skill Info: Upgraded Skill]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [235%]\nSuper Armor Break per Hit: [219%]\nSG Consumption: [40]\nCooldown: [15sec]\n\n[Skill Info: Upgraded Skill]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [271%]\nSuper Armor Break per Hit: [251%]\nSG Consumption: [40]\nCooldown: [15sec]\n\n[Skill Info: Upgraded Skill]\nDamage and Super Armor Break: x[2]",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "QuadraBlow-QuantityIncrease"
+        "Skill09_QuadraBlow-A"
       ]
     },
-    "QuadraBlow-QuantityIncrease": {
+    "Skill09_QuadraBlow-A": {
       "Visible": false,
-      "Name": "Quantity Increase",
+      "Name": "Add Bullet",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_QuadraBlow_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill09_QuadraBlow_A.png",
       "Levels": {
         "0": {
-          "Description": "Fires additional tiny spheres",
+          "Description": "Additionally fire off little bullets.\nAll bullets penetrate enemies once.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_QuadraBlow_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill09_QuadraBlow_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage per Hit: [271%]\nSuper Armor Break per Hit: [251%]\n\n[SoulPlus Info: Additional Attack]\nDamage per Hit: [68%]\nSuper Armor Break per Hit: [63%]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage per Hit: [298%]\nSuper Armor Break per Hit: [276%]\n\n[SoulPlus Info: Additional Attack]\nDamage per Hit: [75%]\nSuper Armor Break per Hit: [69%]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage per Hit: [328]\nSuper Armor Break per Hit: [304%]\n\n[SoulPlus Info: Additional Attack]\nDamage per Hit: [82%]\nSuper Armor Break per Hit: [76%]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "HeavyDrop": {
+    "Skill10_HeavyDrop": {
       "Name": "Heavy Drop",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_HeavyDrop.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill10_HeavyDrop.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Gather up tremendous power in the air to create a gigantic sphere. The sphere generates a big explosion when touching the ground , damaging all nearby enemies",
+          "Description": "Gather Soul Energy to generate a tremendous sphere in the air.\nWhen it impacts on the ground, the sphere hits enemies nearby with a great scale of explosion.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_HeavyDrop.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill10_HeavyDrop.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [625%]\nSuper Armor Break: [335%]\nWhen charging: increases area of effect, performance x 1.6\nwith x2.4 increased Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [656%]\nSuper Armor Break: [351%]\nWhen charging: increases area of effect, performance x 1.6\nwith x2.4 increased Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [734%]\nSuper Armor Break: [393%]\nWhen charging: increases area of effect, performance x 1.6\nwith x2.4 increased Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [812%]\nSuper Armor Break: [435%]\nWhen charging: increases area of effect, performance x 1.6\nwith x2.4 increased Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage: [937%]\nSuper Armor Break: [502%]\nWhen charging: increases area of effect, performance x 1.6\nwith x2.4 increased Maximum performance.\n\n[Skill Info: Basic]\nMax. charge phase: [3]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "HeavyDrop-ExtraAttack"
+        "Skill10_HeavyDrop-A"
       ]
     },
-    "HeavyDrop-ExtraAttack": {
+    "Skill10_HeavyDrop-A": {
       "Visible": false,
-      "Name": "Extra Attack",
+      "Name": "Additional Hit",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_HeavyDrop_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill10_HeavyDrop_A.png",
       "Levels": {
         "0": {
-          "Description": "Sphere speed will decrease, becomes continuous attack, grants debuff",
+          "Description": "The speed of the shock  projectiles decreases, yet the hits are counted as multiples and it also enchants a debuff.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_HeavyDrop_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill10_HeavyDrop_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDamage: [937%]\nSuper Armor Break per Hit: [502%]\n\nDebuff effect: (direct hit) Defense Reduction [15%]\nBuff duration: [10sec]",
           "RequiredLevel": 41,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDamage: [1031%]\nSuper Armor Break per Hit: [552%]\n\nDebuff effect: (direct hit) Defense Reduction [15%]\nBuff duration: [10sec]",
           "RequiredLevel": 46,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDamage: [1218%]\nSuper Armor Break per Hit: [653%]\n\nDebuff effect: (direct hit) Defense Reduction [15%]\nBuff duration: [10sec]",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FusionArmor": {
+    "Skill11_FusionArmor": {
       "Name": "Fusion Armor",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_FusionArmor.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill11_FusionArmor.png",
       "Levels": {
         "0": {
-          "Description": "Collect Soul Energy to grant a barrier to allies",
+          "Description": "Gather Soul Energy and explide it, generating a barrier to protect yourself and allies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_FusionArmor.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill11_FusionArmor.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nSG Consumption: [60]\nCooldown: [45sec]\n\n[Skill Info: Self]\nBeing invincible: [3sec]\n\n[Skill Info: Party]\nBeing invincible: [1sec]\n\n[Skill Info: Shield]\nReceived Damage reduction: [5%]\nDuration: [20sec]",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nSG Consumption: [60]\nCooldown: [45sec]\n\n[Skill Info: Self]\nBeing invincible: [3.7sec]\n\n[Skill Info: Party]\nBeing invincible: [1.2sec]\n\n[Skill Info: Shield]\nReceived Damage reduction: [7%]\nDuration: [20sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nSG Consumption: [60]\nCooldown: [45sec]\n\n[Skill Info: Self]\nBeing invincible: [4.3sec]\n\n[Skill Info: Party]\nBeing invincible: [1.6sec]\n\n[Skill Info: Shield]\nReceived Damage reduction: [9%]\nDuration: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nSG Consumption: [60]\nCooldown: [45sec]\n\n[Skill Info: Self]\nBeing invincible: [5sec]\n\n[Skill Info: Party]\nBeing invincible: [2sec]\n\n[Skill Info: Shield]\nReceived Damage reduction: [12%]\nDuration: [20sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nSG Consumption: [60]\nCooldown: [45sec]\n\n[Skill Info: Self]\nBeing invincible: [7sec]\n\n[Skill Info: Party]\nBeing invincible: [3sec]\n\n[Skill Info: Shield]\nReceived Damage reduction: [15%]\nDuration: [20sec]",
           "RequiredLevel": 48,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "RapidPuncher": {
+    "Skill12_RapidPuncher": {
       "Name": "Rapid Puncher",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_RapidPuncher.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill12_RapidPuncher.png",
       "Levels": {
         "0": {
-          "Description": "Pushes the Gauntlets to their maximum output power to strike with the fists left and right alternatively. Afterwards adds a powerful finishing attack at any time",
+          "Description": "Set the Spirit Arms to maximum performance and swing both fists, finishing enemies with a powerful blow.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_RapidPuncher.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill12_RapidPuncher.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [140%]\nSuper Armor Break per Hit: [172%]\nFinish Damage: [700%]\nFinish Super Armor Break: [860%]\nSG Consumption: [65]\nCooldown: [35sec]",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [147%]\nSuper Armor Break per Hit: [179%]\nFinish Damage: [736%]\nFinish Super Armor Break: [896%]\nSG Consumption: [65]\nCooldown: [35sec]",
           "RequiredLevel": 39,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [164%]\nSuper Armor Break per Hit: [202%]\nFinish Damage: [820%]\nFinish Super Armor Break: [1012%]\nSG Consumption: [65]\nCooldown: [35sec]",
           "RequiredLevel": 44,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [182%]\nSuper Armor Break per Hit: [223%]\nFinish Damage: [908%]\nFinish Super Armor Break: [1116%]\nSG Consumption: [65]\nCooldown: [35sec]",
           "RequiredLevel": 49,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [209%]\nSuper Armor Break per Hit: [258%]\nFinish Damage: [1044%]\nFinish Super Armor Break: [1288%]\nSG Consumption: [65]\nCooldown: [35sec]",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "FinalFist": {
+    "Skill13_FinalFist": {
       "Name": "Final Fist",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_FinalFist.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill13_FinalFist.png",
       "Levels": {
         "0": {
-          "Description": "Pushes the Gauntlets to their maximum output power to hit the ground. Causes a wide explosion every time it hits the ground",
+          "Description": "Equip maximum performance gauntlets in both hands and slam the ground, generating explosions when hitting.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_SKill_FinalFist.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill13_FinalFist.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nPush Damage: [199%]\nPush Super Armor Break: [212%]\nShockwave Damage per Hit: [299%]\nShockwave Super Armor Break per Hit: [318%]\nFinish Shockwave Damage per Hit: [599%]\nFinish Shockwave Super Armor Break per Hit: [637%]\n\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nPush Damage: [209%]\nPush Super Armor Break: [223%]\nShockwave Damage per Hit: [314%]\nShockwave Super Armor Break per Hit: [334%]\nFinish Shockwave Damage per Hit: [629%]\nFinish Shockwave Super Armor Break per Hit: [669%]\n\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nPush Damage: [234%]\nPush Super Armor Break: [249%]\nShockwave Damage per Hit: [352%]\nShockwave Super Armor Break per Hit: [374%]\nFinish Shockwave Damage per Hit: [704%]\nFinish Shockwave Super Armor Break per Hit: [748%]\n\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nPush Damage: [259%]\nPush Super Armor Break: [276%]\nShockwave Damage per Hit: [389%]\nShockwave Super Armor Break per Hit: [414%]\nFinish Shockwave Damage per Hit: [779%]\nFinish Shockwave Super Armor Break per Hit: [828%]\n\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nPush Damage: [299%]\nPush Super Armor Break: [318%]\nShockwave Damage per Hit: [449%]\nShockwave Super Armor Break per Hit: [477%]\nFinish Shockwave Damage per Hit: [898%]\nFinish Shockwave Super Armor Break per Hit: [955%]\n\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
     "Extensions": [
-      "FinalFist-KwonKwon"
+      "Skill13_FinalFist-A"
     ]
-  },
-  "FinalFist-KwonKwon": {
+    },
+    "Skill13_FinalFist-A": {
     "Visible": false,
     "Name": "Kwon Kwon",
     "ID": 29,
-    "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_FinalFist_A.png",
+    "Icon": "../assets/SkillIcons/Jin/Skill13_FinalFist_A.png",
     "Levels": {
       "0": {
         "Description": "Continuous attack range increased, and a flame attack is added to the final blow.",
         "Effect": "",
         "RequiredLevel": 0,
         "RequiredSP": 0,
+        "ReqSPkr": 0,
         "Preview": {
-          "Video": "../assets/SkillPreviews/Jin/B_SKill_FinalFist_A.{{auto}}"
+          "Video": "../assets/SkillPreviews/Jin/Skill13_FinalFist_A.{{auto}}"
         }
       },
       "1": {
-        "Effect": "[Attribute Information: Continuous Strike]\nDamage per hit [449%]\nSuper Armor Break per hit[478%]\n[Attribute Information: Finishing Blow]\nTotal Damage: [2097%]\nTotal Super Armor Break: [2230%]",
+        "Effect": "[Attribute Information: Continuous Strike]\nDamage per Hit [449%]\nSuper Armor Break per Hit[478%]\n[Attribute Information: Finishing Blow]\nTotal Damage: [2097%]\nTotal Super Armor Break: [2230%]",
         "RequiredLevel": 68,
-        "RequiredSP": 2
+        "RequiredSP": 2,
+        "ReqSPkr": 0
       },
       "2": {
-        "Effect": "[Attribute Information: Continuous Strike]\nDamage per hit [494%]\nSuper Armor Break per hit[526%]\n[Attribute Information: Finishing Blow]\nTotal Damage: [2307%]\nTotal Super Armor Break: [2454%]",
+        "Effect": "[Attribute Information: Continuous Strike]\nDamage per Hit [494%]\nSuper Armor Break per Hit[526%]\n[Attribute Information: Finishing Blow]\nTotal Damage: [2307%]\nTotal Super Armor Break: [2454%]",
         "RequiredLevel": 70,
-        "RequiredSP": 3
+        "RequiredSP": 3,
+        "ReqSPkr": 0
       },
       "3": {
-        "Effect": "[Attribute Information: Continuous Strike]\nDamage per hit [569%]\nSuper Armor Break per hit[605%]\n[Attribute Information: Finishing Blow]\nTotal Damage: [2653%]\nTotal Super Armor Break: [2822%]",
+        "Effect": "[Attribute Information: Continuous Strike]\nDamage per Hit [569%]\nSuper Armor Break per Hit[605%]\n[Attribute Information: Finishing Blow]\nTotal Damage: [2653%]\nTotal Super Armor Break: [2822%]",
         "RequiredLevel": 72,
-        "RequiredSP": 4
+        "RequiredSP": 4,
+        "ReqSPkr": 0
       }
     }
-  },
-    "PerfectCombination-RisingUpper": {
+    },
+    "Skill02_PerfectCombination-A": {
       "Visible": false,
       "Name": "Rising Upper",
       "ID": 24,
@@ -942,35 +1064,39 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_PerfectCombination_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill02_PerfectCombination_A.png",
       "Levels": {
         "0": {
-          "Description": "The final blow changes to an Upper(cut), with the Boost Shield hitting the vicinity. When right-clicking halfway of the Upper(cut), Jin supplements it with a thrust down to the ground.",
+          "Description": "The Sub weapon spins around Max. 4 additional hits when you use upper or landing skills: Total 7 hits.\nMake a fist landing on enemiess with extra control.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_PerfectCombination_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill02_PerfectCombination_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Additional Attack]\nDamage per additional hit: [41%]\nSuper Armor Break per additional hit: [9%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Additional Attack]\nDamage per additional hit: [123%]\nSuper Armor Break per additional hit: [26%]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Additional Attack]\nDamage per additional hit: [204%]\nSuper Armor Break per additional hit: [44%]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpiritShooter-RecoilBound": {
+    "Skill08_SpiritShooter-A": {
       "Visible": false,
       "Name": "Recoil Bound",
       "ID": 25,
@@ -978,258 +1104,329 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_SpiritShooter_A.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill08_SpiritShooter_A.png",
       "Levels": {
         "0": {
-          "Description": "Debuffs the enemies with a Defense Reduction effect, then rise backwards in mid-air.",
+          "Description": "Create a debuff to decrease enemy defense on hitting.\nMove to diagonal direction in the air when adding extra control. ",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SpiritShooter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill08_SpiritShooter_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage: [900%]\nSuper Armor Break: [510%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [90%]\nSuper Armor Break: [51%]\n\n[SoulPlus Info: Debuff]\nDebuff effect: (direct hit) defense vulnerable [5%]\nDebuff duration: [25sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage: [982%]\nSuper Armor Break: [556%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [98%]\nSuper Armor Break: [55%]\n\n[SoulPlus Info: Debuff]\nDebuff effect: (direct hit) defense vulnerable [10%]\nDebuff duration: [25sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage: [1130%]\nSuper Armor Break: [640%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [113%]\nSuper Armor Break: [64%]\n\n[SoulPlus Info: Debuff]\nDebuff effect: (direct hit) defense vulnerable [20%]\nDebuff duration: [25sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DrasticLanding": {
+    "Skill15_DrasticLanding": {
       "Name": "Drastic Landing",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_DrasticLanding.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill15_DrasticLanding.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "In mid-air, deploys the Boost Shield in front, then attacks with the shockwaves caused upon swinging it down to the ground.",
+          "Description": "Locating Boost Shield forward in the air, slamming it into the ground with a shockwave.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_DrasticLanding.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill15_DrasticLanding.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [126%]\nSuper Armor Break per Hit: [48%]\nFinish Damage: [630%]\nFinish Super Armor Break: [240%]\nSG Consumption: [30]\nCooldown: [25sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [138%]\nSuper Armor Break per Hit: [52%]\nFinish Damage: [693%]\nFinish Super Armor Break: [264%]\nSG Consumption: [30]\nCooldown: [25sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [155%]\nSuper Armor Break per Hit: [59%]\nFinish Damage: [776%]\nFinish Super Armor Break: [296%]\nSG Consumption: [30]\nCooldown: [25sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [177%]\nSuper Armor Break per Hit: [67%]\nFinish Damage: [885%]\nFinish Super Armor Break: [337%]\nSG Consumption: [30]\nCooldown: [25sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nDamage per Hit: [209%]\nSuper Armor Break per Hit: [79%]\nFinish Damage: [1045%]\nFinish Super Armor Break: [398%]\nSG Consumption: [30]\nCooldown: [25sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "CounterStream": {
+    "Skill16_CounterStream": {
       "Name": "Counter Stream",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_CounterStream.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill16_CounterStream.png",
       "Levels": {
         "0": {
-          "Description": "Takes a stance, and use a maximum of 3 counter attacks. When counterattacking, Jin will deal more damage depending on the number of times that counter is activated.",
+          "Description": "Instantly recharge Usable Reinforcement Skill usage by posing counter attack posture.\nStrikes back during enemy melee attack, and damagee increases during the attack.\nCan strike 3 times, can pose counter posture after forced attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_CounterStream.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill16_CounterStream.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Forced Attack]\nDamage per Hit: [858%]\nSuper Armor Break per Hit: [99%]\n\n[Skill Info: Counter]\n1st: [x 1.4]\n2nd: [x 1.5]\nThe Final: [x 1.6]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [3]\nUsable Reinforced Skill during counter attack: [3]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Forced Attack]\nDamage per Hit: [944%]\nSuper Armor Break per Hit: [108%]\n\n[Skill Info: Counter]\n1st: [x 1.4]\n2nd: [x 1.5]\nThe Final: [x 1.6]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [3]\nUsable Reinforced Skill during counter attack: [3]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Forced Attack]\nDamage per Hit: [1057%]\nSuper Armor Break per Hit: [122%]\n\n[Skill Info: Counter]\n1st: [x 1.4]\n2nd: [x 1.5]\nThe Final: [x 1.6]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [3]\nUsable Reinforced Skill during counter attack: [3]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Forced Attack]\nDamage per Hit: [1205%]\nSuper Armor Break per Hit: [39%]\n\n[Skill Info: Counter]\n1st: [x 1.4]\n2nd: [x 1.5]\nThe Final: [x 1.6]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [3]\nUsable Reinforced Skill during counter attack: [3]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Forced Attack]\nDamage per Hit: [1422%]\nSuper Armor Break per Hit: [161%]\n\n[Skill Info: Counter]\n1st: [x 1.4]\n2nd: [x 1.5]\nThe Final: [x 1.6]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [3]\nUsable Reinforced Skill during counter attack: [3]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BarrettStraight": {
+    "Skill14_BarrettStraight": {
       "Name": "Barrett Straight",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_BarrettStraight.png",
+      "Icon": "../assets/SkillIcons/Jin/Skill14_BarrettStraight.png",
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Charge straight forward with gathered Soul Energy in right fist",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_BarrettStraight.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/Skill14_BarrettStraight.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Energy Trap Attack]\nDamage: [808%]\nSuper Armor Break: [890%]\n\n[Skill Info: Sphere Explosion Attack]\nDamage: [1885%]\nSuper Armor Break: [2078%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [40sec]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Energy Trap Attack]\nDamage: [889%]\nSuper Armor Break: [980%]\n\n[Skill Info: Sphere Explosion Attack]\nDamage: [2074%]\nSuper Armor Break: [2286%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [40sec]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Energy Trap Attack]\nDamage: [995%]\nSuper Armor Break: [1097%]\n\n[Skill Info: Sphere Explosion Attack]\nDamage: [2323%]\nSuper Armor Break: [2561%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [40sec]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },        
         "4": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Energy Trap Attack]\nDamage: [1135%]\nSuper Armor Break: [1251%]\n\n[Skill Info: Sphere Explosion Attack]\nDamage: [2649%]\nSuper Armor Break: [2919%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [40sec]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },        
         "5": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Energy Trap Attack]\nDamage: [1308%]\nSuper Armor Break: [1442%]\n\n[Skill Info: Sphere Explosion Attack]\nDamage: [3054%]\nSuper Armor Break: [3366%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [40sec]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BasicAttackMastery": {
+    "Skill17_GustPillar": {
+      "Name": "Gust Pillar",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Jin/Skill17_GustPillar.png",
+      "Levels": {
+        "0": {
+          "Description": "After gathering Soul Energy your in fists, jump up and use all power and drop it down. At the point of impact, a huge pillar of fire Strikes nearby enemies for a certain period of time.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Jin/Skill17_GustPillar.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Strike]\nDamage: [?%]\nSuper Armor Break: [?%]\n\n[Skill Info: Ground Strike]\nDamage per Hit: [?%]\nSuper Armor Break per Hit: [?%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1137%]\nBuff Additional Super Armor Break: [1209%]\nSG Consumption: [35]\nCooldown: [40sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Strike]\nDamage: [3257%]\nSuper Armor Break: [2875%]\n\n[Skill Info: Ground Strike]\nDamage per Hit: [96%]\nSuper Armor Break per Hit: [85%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1137%]\nBuff Additional Super Armor Break: [1209%]\nSG Consumption: [35]\nCooldown: [40sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: Strike]\nDamage: [3648%]\nSuper Armor Break: [3220%]\n\n[Skill Info: Ground Strike]\nDamage per Hit: [107%]\nSuper Armor Break per Hit: [95%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1137%]\nBuff Additional Super Armor Break: [1209%]\nSG Consumption: [35]\nCooldown: [40sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": "P0",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
         "0": {
-          "Description": "Attack with your sword.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
+          "Description": "Swing the Spirit Arms to attack.\nChain attacks change depending on the skill level.\nHits generate SG.\nCan receive more SG followed by combination stage and Monster rank.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Attack_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "[Skill Info]\nSG Gain +[20%]\n\nEnable to use SoulStrike A.",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "[Skill Info]\nSG Gain +[70%]\n\nEnable to use SoulStrike B.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "[Skill Info]\nSG Gain +[120%]\nEnable to use an addional strike for the Basic Attack.\nEnable to use an additional strike for the Aerial Attack.",
           "RequiredLevel": 15,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Attack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nSG Gain +[200%]\n\nEnable to use SoulStrike C.",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Attack_05.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": "P1",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Jin/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nSmash the ground with your foot, inflict status effect to nearby enemies.\n[Air]\nSwing the fist towards the ground.",
+          "Description": "Attacks generate SG.\nReceive more SG with higher monster rank.\n\nStomp the ground to inflict damage, stunning enemies nearby.\nIf you use it in the air, you unleash your fist from above and strike the ground.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nDamage: 168%\nSuper Armor Break: 75%\nStatus effect: 'Stun' in 2s\nCooldown: 10s\n[Air]\nDamage: 269%\nSuper Armor Break: 119%\nCooldown: 10s",
+          "Effect": "[Skill Info: Ground]\nDamage: [168%]\nSuper Armor Break: [75%]\nStuns nearby enemies for [2sec]\n\nBuff Effect: Damage increased by [5%]\nBuff Duration: [10sec]\n\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\n\n[Skill Info: Aerial]\nDamage: [269%]\nSuper Armor Break: [119%]\nCooldown: [10sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Ground]\nDamage: 177%\nSuper Armor Break: 78%\nStatus effect: 'Stun' in 2.5s\nCooldown: 10s\nSG Gain: +20%\n[Air]\nDamage: 282%\nSuper Armor Break: 125%\nCooldown: 10s\nSG Gain: +20%",
+          "Effect": "[Skill Info: Ground]\nDamage: [177%]\nSuper Armor Break: [78%]\nStuns nearby enemies for [2.5sec]\n\nBuff Effect: Damage increased by [5%]\nBuff Duration: [15sec]\n\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\n\n[Skill Info: Aerial]\nDamage: [282%]\nSuper Armor Break: [125%]\nCooldown: [10sec]\nSG Gain: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "[Ground]\nDamage: 198%\nSuper Armor Break: 88%\nStatus effect: 'Stun' in 3s\nCooldown: 10s\nSG Gain: +70%\n[Air]\nDamage: 316%\nSuper Armor Break: 140%\nCooldown: 10s\nSG Gain: +70%",
+          "Effect": "[Skill Info: Ground]\nDamage: [198%]\nSuper Armor Break: [88%]\nStuns nearby enemies for [3sec]\n\nBuff Effect: Damage increased by [5%]\nBuff Duration: [20sec]\n\nSkill Reinforcement Time: [8.5sec]\nUsable Reinforcement Skill when used: [1]\n\n[Skill Info: Aerial]\nDamage: [316%]\nSuper Armor Break: [140%]\nCooldown: [10sec]\nSG Gain: +[70%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1238,6 +1435,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Evade_F.{{auto}}"
           }
@@ -1245,14 +1443,15 @@
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1261,6 +1460,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Roll_F.{{auto}}"
           }
@@ -1268,25 +1468,28 @@
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": "P4",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1294,6 +1497,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Run_F.{{auto}}"
           }
@@ -1301,19 +1505,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1005,
+      "ID": "P5",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1322,6 +1528,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Rise_Attack.{{auto}}"
           }
@@ -1329,25 +1536,28 @@
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1355,6 +1565,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_N_Attack_Dash.{{auto}}"
           }
@@ -1362,14 +1573,15 @@
         "1": {
           "Effect": "Damage: 115%\nSuper Armor Break: 38%",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1377,31 +1589,35 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoulDashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "SoulDash Attack",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1409,200 +1625,222 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Jin/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 1
         }
       }
     },
-    "Offense-DefenseUnitedBody": {
+    "CSkill2_UnleashedBody": {
       "Passive": true,
-      "Name": "Offense-Defense United Body",
-      "ID": 1013,
+      "Name": "Unleashed Body",
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Jin/PSkill_UnleashedBody.png",
+      "Icon": "../assets/SkillIcons/Jin/CSkill2_UnleashedBody.png",
       "Levels": {
         "0": {
-          "Description": "If Jin or his allies defeats 5 enemies in succession within 5 seconds, received damage will decrease and attack will increase for 10 seconds.",
+          "Description": "Obtain SV everytime using Reinforcement Skill with Counter or SoulStrike.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nObtain SV when using Reinforcement Skill: [1]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nObtain SV when using Reinforcement Skill: [2]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nObtain SV when using Reinforcement Skill: [3]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "StrongBody": {
+    "CSkill1_BodyOfSteel": {
       "Passive": true,
-      "Name": "Strong Body",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Jin/PSkill_BodyofSteel.png",
+      "Name": "Body of Steel",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Jin/CSkill1_BodyOfSteel.png",
       "Levels": {
         "0": {
-          "Description": "Reduces the damage taken by enemies",
+          "Description": "Received damage is permanently reduced.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "Damage taken: -10%",
+          "Effect": "[Skill Info]\nPassive Effect: reduces suffered damage by: [10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "Damage taken: -15%",
+          "Effect": "[Skill Info]\nPassive Effect: reduces suffered damage by: [15%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "Damage taken: -20%",
+          "Effect": "[Skill Info]\nPassive Effect: reduces suffered damage by: [20%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "WillofPassion": {
+    "CSkill0_CP": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1012,
+      "ID": "C0",
       "Name": "Will of Passion",
       "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
-          "Description": "Recover SG on successful. Recover SG automatically while out of combat.\nRecover significantly more SG when out of combat for a longer time. On successful counter, recovers additional SG",
+          "Description": "[Skill Info]\nSuccessful Basic Attack generates SG.\nRecovers SG in rest.\nThe longer the rest status lasts, the more SG is recovered.\nA successful counter attack generates additional SG.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "ActivityOverCharge": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
       "Name": "Activity OverCharge",
       "DefaultLevel": 1,
-      "ID": 2003,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_ActivityOverCharge.png",
+      "Icon": "../assets/SkillIcons/Jin/EXSkill_ActivityOverCharge.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Can only be used in the Supernova state.\nUsing this ends Supernova.",
+          "Description": "Fire a powerful Soul Energy Orb straight ahead.\nThe energy orb pulls in enemies, damages them and ends the encounter with a massive explosion.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_ActivityOverCharge.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/EXSkill_ActivityOverCharge.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSuper Armor Break：[?%]\n\n?.",
+          "Effect": "[Skill Info]\nDamage: [7600%]\nSuper Armor Break: [7360%]\nSV Gain: [10]",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
-      "ID": 2001,
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_BreakErode.png",
+      "ID": "V0",
+      "Icon": "../assets/SkillIcons/Jin/NSKill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
+          "Description": "Awakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/NSkill1_Frenzy.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "\n1st Stage Gauge Use (SV -50)\n\nAwakening: [30sec]\nMax. Damage set\nAttack Damage: +[50%]\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
-      "ID": 2002,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Jin/Icon_Sprit_Skill_BreakWakeup.png",
+      "Icon": "../assets/SkillIcons/Jin/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1610,22 +1848,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "\n2nd Stage Gauge Use (SV -100)\n\nAwakening: [60sec]\nMax. Damage set\nAttack Damage: +[100%]\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
       "DefaultLevel": 1,
-      "ID": 2004,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1638,14 +1878,16 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Jin/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Jin/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Final Fist (lvl 42 Skill)\n-Barrett Straight (lvl 62 Skill)\n-Activity OverCharge (EX Skill)",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60sec].\n-Attack Damage: [+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60sec] for Desire skills:\n-Final Fist (lvl 42 Skill)\n-Barrett Straight (lvl 62 Skill)\n-Activity OverCharge (EX Skill)",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     }

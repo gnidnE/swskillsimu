@@ -11,7 +11,7 @@ const ClassIndex = {
     Base: 0,
     Advancement: 1,
     Desire: 2
-}
+};
 
 function SkillInfo(_skilltreeCore, __id, skillName, infos) {
     Object.defineProperty(this, "SkillCore", {
@@ -75,13 +75,18 @@ SkillInfo.prototype.readInfos = function (ob) {
                 lastpreviewinfo = tmp.Preview;
             }
         }
-        this.Levels.push(new LevelInfo(tmp.RequiredLevel, tmp.RequiredSP, tmp.Effect, lastDescription, lastpreviewinfo));
+
+        let Server = document.getElementById("selectServerlist");
+        this.Levels.push(new LevelInfo(tmp.RequiredLevel, (Server.selectedIndex == 2 ? tmp.ReqSPkr: tmp.RequiredSP), tmp.Effect, lastDescription, lastpreviewinfo));
+
+        
     };
     this._string_extensions = ob.Extensions;
     if (ob.Passive)
         this._passive = ob.Passive;
     if (ob.Vapor)
         this._vapor = ob.Vapor;
+    
     this._iconURL = ob.Icon;
     if (ob.Assignable == false){
         this.Assignable = ob.Assignable;

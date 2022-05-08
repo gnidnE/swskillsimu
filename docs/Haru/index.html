@@ -16,7 +16,8 @@
         <!--<link rel="stylesheet" href="../sakura/jquery-sakura.min.css" />-->
         <link rel="stylesheet" href="../assets/css/styles.css?v=4" />
         <link rel="stylesheet" href="../assets/css/kr.css?v=3" />
-
+        <link rel="stylesheet" href="../assets/css/bootstrap4-toggle.css" />
+        <link rel="stylesheet" href="../assets/css/selectorStyle.css?v=1" />
         <script src="../assets/js/common.js"></script>
         <script src="../assets/DefaultConfig.js"></script>
         <script src="../assets/Localization.js"></script>
@@ -32,6 +33,8 @@
         <script src="../assets/js/SlotGrid.js"></script>
         <script src="../assets/js/skillinfos.js"></script>
         <script src="../assets/js/skilltree.js"></script>
+        <script src="../assets/js/bootstrap4-toggle.js"></script>
+        <script src="../assets/js/selectorStyle.js"></script>
 
         <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
         <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" />
@@ -69,7 +72,7 @@
         <div id="background" class="fixed-bg image-bg background"></div>
         
         <header class="require-js">
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark-fade">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark-fade tobnav">
                 <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                     aria-expanded="false">
                     <span id="charName"></span>
@@ -92,17 +95,27 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
+                    <ul class="navbar-nav topnav-left">
+                        <li class="nav-item custom-select2">
+                            <a id="serverBoxtd" class="nav-link levellable">Server:
+                                <select id="selectServerlist">
+                                    <option value="0">Global/TC</option>
+                                    <option value="1">Japan</option>
+                                    <option value="2">Korea</option>
+                                </select>
+                            </a>
+                        </li>
+                        <li class="nav-item custom-select2">
                             <a id="levelBoxtd" class="nav-link levellable">Level:</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item custom-select2">
                             <a id="classBoxtd" class="nav-link levellable">Class:</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false">
                                 <span id="e_investedSP">Invested: </span>
+                                <a id="e_remainingSP" class="nav-link no-mouse-change">Remaining: </a>
                                 <strong class="caret"></strong>
                             </a>
                             <div class="dropdown-menu">
@@ -112,21 +125,47 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a id="e_remainingSP" class="nav-link no-mouse-change">Remaining: </a>
-                        </li>
-                        <li class="nav-item">
                             <button id="slotassignment" class="btn btn-info mr-sm-2">Slot assignment</button>
                         </li>
+                        <!--<li id="spacer" class="nav-item"></li>-->
+                        </ul>
+                        <ul id="skillbuttons" class="nav-item topnav-centered">
+                              <!-- <input id="glbSwitch" type="checkbox" data-toggle="toggle" data-on="Global Server" data-off="Other Server"/> -->
+                              <button id="mainSkillsbtn" class="btn btn-primary tablink" onclick="openPage('Main', this, '')">Main Skills</button>
+                              <button id="pasSkillsbtn" class="btn btn-primary tablink" onclick="openPage('Passive', this, '')">Passive Skills</button>
+                        </ul>
+                        <!--<li id="spacer2" class="nav-item"></li>-->
+                        <script>
+                            function openPage(pageName,elmnt,color) {
+                              var i, tabcontent, tablinks;
+                              tabcontent = document.getElementsByClassName("tabcontent");
+                              for (i = 0; i < tabcontent.length; i++) {
+                                tabcontent[i].style.display = "none";
+                              }
+                              tablinks = document.getElementsByClassName("tablink");
+                              for (i = 0; i < tablinks.length; i++) {
+                                tablinks[i].style.backgroundColor = "";
+                              }
+                              document.getElementById(pageName).style.display = "block";
+                              elmnt.style.backgroundColor = color;
+                            }
+
+                            $(function() {
+                                $('#mainSkillsbtn').focus();
+                                $('#mainSkillsbtn').click();
+                            });
+
+                            </script>
                     </ul>
-                    <ul class="navbar-nav navbar-right">
+                    <ul class="navbar-nav topnav-right">
                         <li class="nav-item">
                             <button id="resetAllSkill" class="btn btn-primary mr-sm-2">Reset All Skills</button>
                         </li>
-                        <li class="nav-item">
+                        <li id="copyBtn" class="nav-item">
                             <div class="btn-group mr-sm-2">
                                 <button id="copyURL" type="button" class="btn btn-success"
                                     data-clipboard-target="#copymagic">Copy Link to current build</button>
-                                <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                                <button id="copyURLdrop" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
                                     <span class="caret"></span>
                                     <span class="sr-only">Toggle Dropdown</span>
                                 </button>
@@ -141,16 +180,249 @@
             </nav>
         </header>
         <main class="require-js" role="main">
-            <div class="container-fluid body-content">
+            <div class="container-fluid body-content tabcontent" id="Main">
                 <div class="container">
                     <div id="skilltree">
-                        <ul>
+                        <ul><br>
                             <li id="activeskill" class="activeskill"></li>
                             <li id="passiveskill" class="passiveskill"></li>
                             <li id="vaporskill" class="vaporskill"></li>
                         </ul>
                     </div>
                 </div>
+                <!--<div class="minsize"><div class="scrollable"><div class="overjumbotron skilltreeclass"></div></div></div>-->
+            </div>
+            <div class="container-fluid body-content tabcontent ComingSoon" id="Passive">
+                <p class="CS">COMING SOON</p>
+                <div class="container">
+                    <div id="skilltree">
+                        <div class="PassiveLeftGrid">
+                            <div class="PassiveMasterColumn">
+                                <div class="PassiveMaster P01_Attack">
+                                    <p class="PMName">Attack%</p>
+                                <img class="skillIcon" insight="P01_Attack" src="../assets/SkillIcons/Common/PassiveSkillTree/ATK_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">1</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P02_Accuracy">
+                                    <p class="PMName">Accuracy</p>
+                                <img class="skillIcon disabled" insight="P02_Accuracy" src="../assets/SkillIcons/Common/PassiveSkillTree/Accuracy_0.png" tooltipframework="0">
+                                <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P03_HPPercent">
+                                    <p class="PMName">HP%</p>
+                                <img class="skillIcon disabled" insight="P03_HPPercent" src="../assets/SkillIcons/Common/PassiveSkillTree/Reg_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P04_CritRate">
+                                    <p class="PMName">Critical Rate%</p>
+                                <img class="skillIcon disabled" insight="P04_CritRate" src="../assets/SkillIcons/Common/PassiveSkillTree/CRI_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P05_BossDmg">
+                                    <p class="PMName">Boss Dmg%</p>
+                                <img class="skillIcon disabled" insight="P05_BossDmg" src="../assets/SkillIcons/Common/PassiveSkillTree/ATK_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="PassiveSubColumn L30">
+                                <div class="Leveltext">TIER 1<br>LV 30</div>
+                                <div class="PassiveSub L31_SG-Recovery">
+                                    <img class="skillIcon disabled" insight="L31_SG-Recovery" src="../assets/SkillIcons/Common/PassiveSkillTree/VampHP2_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                 <div class="PassiveSub L32_HP-Recovery">
+                                    <img class="skillIcon disabled" insight="L32_HP-Recovery" src="../assets/SkillIcons/Common/PassiveSkillTree/HP_Recovery_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub L33_Dmg-Up">
+                                    <img class="skillIcon disabled" insight="L33_Dmg-Up" src="../assets/SkillIcons/Common/PassiveSkillTree/ATK_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                            </div>
+                            <div class="PassiveSubColumn L50">
+                                <div class="Leveltext">TIER 2<br>LV 50</div>
+                                <div class="PassiveSub L51_Atk-Up">
+                                    <img class="skillIcon disabled" insight="L51_Atk-Up" src="../assets/SkillIcons/Common/PassiveSkillTree/ATK_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub L52_HP-Recovery">
+                                    <img class="skillIcon disabled" insight="L52_HP-Recovery" src="../assets/SkillIcons/Common/PassiveSkillTree/Revive_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub L53_HP-UP">
+                                    <img class="skillIcon disabled" insight="L53_HP-UP" src="../assets/SkillIcons/Common/PassiveSkillTree/Reg_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                            </div>
+                            <div class="PassiveSubColumn L70">
+                                <div class="Leveltext">TIER 3<br>LV 70</div>
+                                <div class="PassiveSub L71_SV">
+                                    <img class="skillIcon disabled" insight="L71_SV" src="../assets/SkillIcons/Common/PassiveSkillTree/BreakErode_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub L72_BDmg">
+                                    <img class="skillIcon disabled" insight="L72_BDmg" src="../assets/SkillIcons/Common/PassiveSkillTree/ASR_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub L73_BDmg-Perm">
+                                    <img class="skillIcon disabled" insight="L73_BDmg-Perm" src="../assets/SkillIcons/Common/PassiveSkillTree/ATK_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="PassiveRightGrid">
+                            <div class="PassiveMasterColumn">
+                                <div class="PassiveMaster P06_CritRate">
+                                    <p class="PMName">Critical Rate%</p>
+                                <img class="skillIcon" insight="P06_CritRate" src="../assets/SkillIcons/Common/PassiveSkillTree/CRI_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">1</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P07_CritDmgUp">
+                                    <p class="PMName">Critical Dmg%</p>
+                                <img class="skillIcon disabled" insight="P07_CritDmgUp" src="../assets/SkillIcons/Common/PassiveSkillTree/CRI_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P08_Evasion">
+                                    <p class="PMName">Evasion</p>
+                                <img class="skillIcon disabled" insight="P08_Evasion" src="../assets/SkillIcons/Common/PassiveSkillTree/MSR_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P09_Atsp">
+                                    <p class="PMName">Attack Speed</p>
+                                <img class="skillIcon disabled" insight="P09_Atsp" src="../assets/SkillIcons/Common/PassiveSkillTree/ASR_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                                <div class="PassiveMaster P10_Pen">
+                                    <p class="PMName">Penetration</p>
+                                <img class="skillIcon disabled" insight="P10_Pen" src="../assets/SkillIcons/Common/PassiveSkillTree/Penetration_0.png" tooltipframework="0">
+                                    <div class="PSkillbot">
+                                        <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                        <p class="PMlvl">0</p>
+                                        <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="PassiveSubColumn R30">
+                                <div class="Leveltext">TIER 1<br>LV 30</div>
+                                <div class="PassiveSub R31_SG-Recovery">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/VampHP2_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub R32_Stam-Recovery">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/MSR_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub R33_Accuracy-Up">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/Accuracy_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                            </div>
+                            <div class="PassiveSubColumn R50">
+                                <div class="Leveltext">TIER 2<br>LV 50</div>
+                                <div class="PassiveSub R51_Evasion-Up">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/MSR_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub R52_SG-Recovery">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/VampHP2_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub R53_Evasion-Up">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/MSR_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                            </div>
+                            <div class="PassiveSubColumn R70">
+                                <div class="Leveltext">TIER 3<br>LV 70</div>
+                                <div class="PassiveSub R71_SV">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/BreakErode_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub R72_Atsp">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/Warm_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                                <div class="PassiveSub R73_Atsp-Perm">
+                                    <img class="skillIcon disabled" insight="" src="../assets/SkillIcons/Common/PassiveSkillTree/ATK_01.png" tooltipframework="0">
+                                    <button type="button" class="btnMinus"><img class="btnIcon imgMinus" src="../assets/SkillIcons/Common/Icons/Minus.png"></button>
+                                    <p class="PMlvl">0</p>
+                                    <button type="button" class="btnPlus"><img class="btnIcon imgPlus" src="../assets/SkillIcons/Common/Icons/Plus.png"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
                 <!--<div class="minsize"><div class="scrollable"><div class="overjumbotron skilltreeclass"></div></div></div>-->
             </div>
         </main>
@@ -239,5 +511,4 @@
         <script src="../assets/EntryPoint_SkillTree.js?v=1"></script>
         <script async defer src="../assets/js/github-buttons.min.js"></script>
     </body>
-
 </html>

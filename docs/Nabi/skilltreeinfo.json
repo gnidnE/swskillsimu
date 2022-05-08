@@ -29,6 +29,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill01_HitandRun.{{auto}}"
           }
@@ -36,35 +37,40 @@
         "1": {
           "Effect": "[Skill Info: Rifle Fire]\nDamage: [101%]\nSuper Armor Break: [110%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [101%]\nSuper Armor Break per Hit: [110%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Rifle Fire]\nDamage: [112%]\nSuper Armor Break: [122%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [112%]\nSuper Armor Break per Hit: [122%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [14sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Rifle Fire]\nDamage: [125%]\nSuper Armor Break: [136%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [125%]\nSuper Armor Break per Hit: [136%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [13sec]",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Rifle Fire]\nDamage: [143%]\nSuper Armor Break: [155%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [143%]\nSuper Armor Break per Hit: [155%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [12sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Rifle Fire]\nDamage: [168%]\nSuper Armor Break: [183%]\n\n[Skill Info: Pistol Fire]\nDamage per Hit: [168%]\nSuper Armor Break per Hit: [183%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for\nevery Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill01_HitandRun-Wick",
-        "Skill01_HitandRun-ColossalPistolCarbide"
+        "Skill01_HitandRun-A",
+        "Skill01_HitandRun-B"
       ]
     },
-    "Skill01_HitandRun-Wick": {
+    "Skill01_HitandRun-A": {
       "Visible": false,
       "Name": "Wick",
       "ID": 2,
@@ -75,6 +81,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill01_HitandRun_A.{{auto}}"
           }
@@ -82,21 +89,23 @@
         "1": {
           "Effect": "[SoulPlus Info: Bomb Wick]\nNumber of Bomb Wick Placements: [6]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill01_HitandRun-ColossalPistolCarbide": {
+    "Skill01_HitandRun-B": {
       "Visible": false,
       "Name": "Colossal Pistol Carbide",
       "ID": 3,
       "Icon": "../assets/SkillIcons/Nabi/Skill01_HitandRun_B.png",
       "Levels": {
         "0": {
-          "Description": "Number of maximum fires increases along with Pistol Fire Damage.",
+          "Description": "Number of maximum fires increases along with Pistol Fire Damage. Also, it changes to Automatic Firing Mode.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill01_HitandRun_B.{{auto}}"
           }
@@ -104,7 +113,8 @@
         "1": {
           "Effect": "[SoulPlus Info: Pistol Fire]\nDamage per Hit: [252%]\nSuper Armor Break per Hit: [274%]\nNumber of Fires: [8 times]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         }
       }
     },
@@ -119,6 +129,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill02_BlackOut.{{auto}}"
           }
@@ -126,34 +137,39 @@
         "1": {
           "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [316%]\nSuper Armor Break: [210%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [26sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [346%]\nSuper Armor Break: [231%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [24sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [388%]\nSuper Armor Break: [259%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [22sec]",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [442%]\nSuper Armor Break: [295%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Flash Grenade Explosion]\nDamage: [524%]\nSuper Armor Break: [349%]\n\n[Skill Info: Basic]\nDebuff: Stun [3sec]\nSG Consumption: [35]\nCooldown: [18sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill02_BlackOut-LongDistanceHurl"
+        "Skill02_BlackOut-A"
       ]
     },
-    "Skill02_BlackOut-LongDistanceHurl": {
+    "Skill02_BlackOut-A": {
       "Visible": false,
       "Name": "Long Distance Hurl",
       "ID": 5,
@@ -164,6 +180,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill02_BlackOut_A.{{auto}}"
           }
@@ -171,7 +188,8 @@
         "1": {
           "Effect": "[SoulPlus Info]\nDamage: [1144%]\nSuper Armor Break: [763%]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         }
       }
     },
@@ -185,6 +203,7 @@
           "Description": "All SG can be Recovered when exchanging Carbide; usable during Dash and movement.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload.{{auto}}"
           }
@@ -192,35 +211,40 @@
         "1": {
           "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [12sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [11sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [10sec]",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [9sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Basic]\nSG Recovery: [100%]\nCooldown: [8sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill03_Reload-Flechette",
-        "Skill03_Reload-ShreddingBomb"
+        "Skill03_Reload-A",
+        "Skill03_Reload-B"
       ]
     },
-    "Skill03_Reload-Flechette": {
+    "Skill03_Reload-A": {
       "Visible": false,
       "ID": 7,
       "Name": "Flechette",
@@ -231,28 +255,32 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload.{{auto}}"
           }
         },
         "1": {
           "Effect": "[SoulPlus Info: Flechette]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [5 times]\nDuration: [30sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Flechette]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [7 times]\nDuration: [30sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[SoulPlus Info: Flechette]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nPenetration: +[10x]\nNumber of Flechette Fires: [10 times]\nDuration: [30sec]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill03_Reload-ShreddingBomb": {
+    "Skill03_Reload-B": {
       "Visible": false,
       "ID": 8,
       "Name": "Shredding Bomb",
@@ -263,24 +291,28 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill03_Reload.{{auto}}"
           }
         },
         "1": {
           "Effect": "[SoulPlus Info: Shredding Bomb]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [5 times]\nDuration: [30sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Shredding Bomb]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [7 times]\nDuration: [30sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[SoulPlus Info: Shredding Bomb]\nBasic Attack Damage: +[4x]\nBasic Attack Super Armor Break: +[4x]\nRange Increase: Diameter +[2.4m]\nNumber of Flechette Fires: [10 times]\nDuration: [30sec]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
@@ -294,6 +326,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill04_SnakingShotgun.{{auto}}"
           }
@@ -301,27 +334,32 @@
         "1": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [240%]\nSuper Armor Break: [120%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [276%]\nSuper Armor Break: [138%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [19sec]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [334%]\nSuper Armor Break: [167%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [18sec]",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [384%]\nSuper Armor Break: [192%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [17sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [485%]\nSuper Armor Break: [242%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [15sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
@@ -335,6 +373,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas.{{auto}}"
           }
@@ -342,34 +381,39 @@
         "1": {
           "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [83%]\nSuper Armor Break: [23%]\n\n[Skill Info: Gas Damage]\nDamage: [83%]\nSuper Armor Break: [23%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [88%]\nSuper Armor Break: [24%]\n\n[Skill Info: Gas Damage]\nDamage: [88%]\nSuper Armor Break: [24%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [96%]\nSuper Armor Break: [27%]\n\n[Skill Info: Gas Damage]\nDamage: [96%]\nSuper Armor Break: [27%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 14,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [109%]\nSuper Armor Break: [30%]\n\n[Skill Info: Gas Damage]\nDamage: [109%]\nSuper Armor Break: [30%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Gas Bomb Explosion]\nDamage: [125%]\nSuper Armor Break: [35%]\n\n[Skill Info: Gas Damage]\nDamage: [125%]\nSuper Armor Break: [35%]\nGas Duration: [10sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [30sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill05_Acidgas-DesignateWick"
+        "Skill05_Acidgas-A"
       ]
     },
-    "Skill05_Acidgas-DesignateWick": {
+    "Skill05_Acidgas-A": {
       "Visible": false,
       "Name": "Designate Wick",
       "ID": 11,
@@ -380,6 +424,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas_A_01.{{auto}}"
           }
@@ -387,12 +432,14 @@
         "1": {
           "Effect": "[SoulPlus Info: Bomb Wick]\nBomb Wick Placements: [2]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Bomb Wick]\nBomb Wick Placements: [4]",
           "RequiredLevel": 27,
           "RequiredSP": 1,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas_A_02.{{auto}}"
           }
@@ -401,6 +448,7 @@
           "Effect": "[SoulPlus Info: Bomb Wick]\nBomb Wick Placements: [6]",
           "RequiredLevel": 32,
           "RequiredSP": 2,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill05_Acidgas_A_03.{{auto}}"
           }
@@ -417,38 +465,44 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill06_BustDriver.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [735%]\nSuper Armor Break: [735%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [882%]\nSuper Armor Break: [882%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [771%]\nSuper Armor Break: [771%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [925%]\nSuper Armor Break: [925%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [862%]\nSuper Armor Break: [862%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [1035%]\nSuper Armor Break: [1035%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [955%]\nSuper Armor Break: [955%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [1146%]\nSuper Armor Break: [1146%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [1102%]\nSuper Armor Break: [1102%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: JHP Cluster Bomb]\nDamage: [1323%]\nSuper Armor Break: [1323%]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [40sec]",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill06_BustDriver-AlterMode"
+        "Skill06_BustDriver-A"
       ]
     },
     "Skill07_PlagueBomb": {
@@ -461,6 +515,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill07_PlagueBomb.{{auto}}"
           }
@@ -468,35 +523,40 @@
         "1": {
           "Effect": "[Skill Info: Bomb Hurl]\nDamage: [300%]\nSuper Armor Break: [360%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Bomb Hurl]\nDamage: [328%]\nSuper Armor Break: [393%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Bomb Hurl]\nDamage: [394%]\nSuper Armor Break: [472%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Bomb Hurl]\nDamage: [462%]\nSuper Armor Break: [555%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Bomb Hurl]\nDamage: [567%]\nSuper Armor Break: [681%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill07_PlagueBomb-Explosions",
-        "Skill07_PlagueBomb-Pressurizer"
+        "Skill07_PlagueBomb-A",
+        "Skill07_PlagueBomb-B"
       ]
     },
-    "Skill07_PlagueBomb-Explosions": {
+    "Skill07_PlagueBomb-A": {
       "ID": 14,
       "Visible": false,
       "Name": "Explosions",
@@ -507,6 +567,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill07_PlagueBomb_A.{{auto}}"
           }
@@ -514,21 +575,24 @@
         "1": {
           "Effect": "[SoulPlus Info: Additional Explosions]\nDamage: [189%]\nSuper Armor Break: [227%]\nNumber of Explosions: +[3]",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Explosion]\nDamage: [647%]\nSuper Armor Break: [794%]\n\n[SoulPlus Info: Additional Explosions]\nDamage: [215%]\nSuper Armor Break: [265%]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[SoulPlus Info: Explosion]\nDamage: [736%]\nSuper Armor Break: [996%]\n\n[SoulPlus Info: Additional Explosions]\nDamage: [245%]\nSuper Armor Break: [332%]",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill07_PlagueBomb-Pressurizer": {
+    "Skill07_PlagueBomb-B": {
       "ID": 15,
       "Visible": false,
       "Name": "Pressurizer",
@@ -539,6 +603,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill07_PlagueBomb_B.{{auto}}"
           }
@@ -546,17 +611,20 @@
         "1": {
           "Effect": "[SoulPlus Info: Heat Pressurizer]\nDamage: [567%]\nSuper Armor Break: [681%]",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Heat Pressurizer]\nDamage: [647%]\nSuper Armor Break: [794%]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[SoulPlus Info: Heat Pressurizer]\nDamage: [736%]\nSuper Armor Break: [996%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },    
@@ -570,38 +638,44 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Skill Info: Bombing]\nTotal Damage: [556%]\nTotal Super Armor Break: [417%]\n\n[Skill Info: Shot]\n Damage: [556%]\n Super Armor Break: [417%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[2%]\n[Skill Info: Party]\nBuff: Critical Damage +[50%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [556%]\nTotal Super Armor Break: [417%]\n\n[Skill Info: Shot]\n Damage: [556%]\n Super Armor Break: [417%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[2%]\nDuration: [20sec]\n[Skill Info: Party]\nBuff: Critical Damage +[50%]\nDuration: [5sec]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Skill Info: Bombing]\nTotal Damage: [667%]\nTotal Super Armor Break: [500%]\n\n[Skill Info: Shot]\n Damage: [667%]\n Super Armor Break: [500%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[4%]\n[Skill Info: Party]\nBuff: Critical Damage +[100%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [667%]\nTotal Super Armor Break: [500%]\n\n[Skill Info: Shot]\n Damage: [667%]\n Super Armor Break: [500%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[4%]\nDuration: [20sec]\n[Skill Info: Party]\nBuff: Critical Damage +[100%]\nDuration: [5sec]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Skill Info: Bombing]\nTotal Damage: [801%]\nTotal Super Armor Break: [601%]\n\n[Skill Info: Shot]\n Damage: [801%]\n Super Armor Break: [601%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[6%]\n[Skill Info: Party]\nBuff: Critical Damage +[150%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [801%]\nTotal Super Armor Break: [601%]\n\n[Skill Info: Shot]\n Damage: [801%]\n Super Armor Break: [601%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[6%]\nDuration: [20sec]\n[Skill Info: Party]\nBuff: Critical Damage +[150%]\nDuration: [5sec]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Skill Info: Bombing]\nTotal Damage: [961%]\nTotal Super Armor Break: [721%]\n\n[Skill Info: Shot]\n Damage: [961%]\n Super Armor Break: [721%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[8%]\n[Skill Info: Party]\nBuff: Critical Damage +[200%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [961%]\nTotal Super Armor Break: [721%]\n\n[Skill Info: Shot]\n Damage: [961%]\n Super Armor Break: [721%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[8%]\nDuration: [20sec]\n[Skill Info: Party]\nBuff: Critical Damage +[200%]\nDuration: [5sec]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 33,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Skill Info: Bombing]\nTotal Damage: [1153%]\nTotal Super Armor Break: [865%]\n\n[Skill Info: Shot]\n Damage: [1153%]\n Super Armor Break: [862%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[10%]\n[Skill Info: Party]\nBuff: Critical Damage +[250%]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Bombing]\nTotal Damage: [1153%]\nTotal Super Armor Break: [865%]\n\n[Skill Info: Shot]\n Damage: [1153%]\n Super Armor Break: [862%]\n\n[Skill Info: Self]\nBuff: Critical Rate +[10%]\nDuration: [20sec]\n[Skill Info: Party]\nBuff: Critical Damage +[250%]\nDuration: [5sec]\n\n[Skill Info: Basic]\nDrone Duration: [20sec]\nSG Consumption: [80]\nCooldown: [40sec]",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill08_HoneyBee-Turret"
+        "Skill08_HoneyBee-A"
       ]
     },    
     "Skill09_CloseQuartersCombat": {
@@ -614,6 +688,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill09_CloseQuartersCombat.{{auto}}"
           }
@@ -621,27 +696,32 @@
         "1": {
           "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [80%]\nSuper Armor Break: [40%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [240%]\nSuper Armor Break: [120%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [92%]\nSuper Armor Break: [46%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [276%]\nSuper Armor Break: [138%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [111%]\nSuper Armor Break: [55%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [334%]\nSuper Armor Break: [167%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [128%]\nSuper Armor Break: [64%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [384%]\nSuper Armor Break: [192%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Pistol/Combat Knife]\nDamage: [161%]\nSuper Armor Break: [80%]\nDebuff: Light Injury\nDebuff Effect: 40% of Additional Damage for every Pistol Damage per Hit(Max. 5 Stacks)\n\n[Skill Info: Shotgun]\nDamage: [485%]\nSuper Armor Break: [242%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [25sec]",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
@@ -655,6 +735,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill10_Chainsaw.{{auto}}"
           }
@@ -662,35 +743,40 @@
         "1": {
           "Effect": "[Skill Info: Mini Gun]\nDamage: [108%] \nSuper Armor Break: [163%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Mini Gun]\nDamage: [120%] \nSuper Armor Break: [180%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Mini Gun]\nDamage: [132%] \nSuper Armor Break: [199%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Mini Gun]\nDamage: [145%] \nSuper Armor Break: [218%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Mini Gun]\nDamage: [160%] \nSuper Armor Break: [240%]\nMini Gun Duration [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [45sec]\nBuff: Additional Damage on Normal\nMonsters[75%]",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill10_Chainsaw-FireBomb",
-        "Skill10_Chainsaw-APShells"
+        "Skill10_Chainsaw-A",
+        "Skill10_Chainsaw-B"
       ]
     },
-    "Skill10_Chainsaw-FireBomb": {
+    "Skill10_Chainsaw-A": {
       "Visible": false,
       "Name": "Fire Bomb",
       "ID": 20,
@@ -701,6 +787,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill10_Chainsaw_A.{{auto}}"
           }
@@ -708,21 +795,24 @@
         "1": {
           "Effect": "[SoulPlus Info: Fire Bomb]\nDamage: [168%]\n\n[SoulPlus Info: Burn Debuff]\nHP Consumption per second: [15%]\nDebuff Duration: [3sec]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Fire Bomb]\nDamage: [176%]\n\n[SoulPlus Info: Burn Debuff]\nHP Consumption per second: [15%]\nDebuff Duration: [3sec]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[SoulPlus Info: Fire Bomb]\nDamage: [185%]\n\n[SoulPlus Info: Burn Debuff]\nHP Consumption per second: [15%]\nDebuff Duration: [3sec]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill10_Chainsaw-APShells": {
+    "Skill10_Chainsaw-B": {
       "Visible": false,
       "Name": "AP Shells",
       "ID": 20,
@@ -733,6 +823,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill10_Chainsaw_B.{{auto}}"
           }
@@ -740,17 +831,20 @@
         "1": {
           "Effect": "[SoulPlus Info: AP Shells]\nSuper Armor Break: [264%]\n\n[SoulPlus Info: Buff]\nArmor Penetration: +[15%]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: AP Shells]\nSuper Armor Break: [290%]\n\n[SoulPlus Info: Buff]\nArmor Penetration: +[15%]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[SoulPlus Info: AP Shells]\nSuper Armor Break: [319%]\n\n[SoulPlus Info: Buff]\nArmor Penetration: +[15%]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
@@ -765,6 +859,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill11_GranadeLauncher.{{auto}}"
           }
@@ -772,157 +867,213 @@
         "1": {
           "Effect": "[Skill Info: Grenade Launcher]\nDamage: [499%]\nSuper Armor Break: [499%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Grenade Launcher]\nDamage: [576%]\nSuper Armor Break: [576%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Grenade Launcher]\nDamage: [662%]\nSuper Armor Break: [662%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Grenade Launcher]\nDamage: [749%]\nSuper Armor Break: [749%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 46,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Grenade Launcher]\nDamage: [921%]\nSuper Armor Break: [921%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [30sec]",
           "RequiredLevel": 50,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill012_SaveEnergy": {
+    "Skill12_SaveEnergy": {
       "Name": "Save Energy",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Nabi/Skill012_SaveEnergy.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill12_SaveEnergy.png",
       "Levels": {
         "0": {
           "Description": "Lee Nabi is able to replenish Energy by consuming Emergency Battle Food Supply.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill12_SaveEnergy.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [3%] HP Recovered per second\nBuff Effect : [5%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [3%] HP Recovered per second\nBuff Effect : [5%] SG Recovered per second\nBuff Duration: [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [70]\nCooldown: [60sec]",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [4%] HP Recovered per second\nBuff Effect : [6%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [65]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [4%] HP Recovered per second\nBuff Effect : [6%] SG Recovered per second\nBuff Duration: [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [65]\nCooldown: [60sec]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [5%] HP Recovered per second\nBuff Effect : [7%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [5%] HP Recovered per second\nBuff Effect : [7%] SG Recovered per second\nBuff Duration: [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [60sec]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [6%] HP Recovered per second\nBuff Effect : [8%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [6%] HP Recovered per second\nBuff Effect : [8%] SG Recovered per second\nBuff Duration: [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [7%] HP Recovered per second\nBuff Effect : [10%] SG Recovered per second\nBuff Duration: [4sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [60sec]",
+          "Effect": "[Skill Info: Battle Food Supply]\nBuff Effect: [7%] HP Recovered per second\nBuff Effect : [10%] SG Recovered per second\nBuff Duration: [5sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 46,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill012_SaveEnergy-AuxSupplies"
+        "Skill12_SaveEnergy-A"
       ]
     },
-    "Skill012_SaveEnergy-AuxSupplies": {
+    "Skill12_SaveEnergy-A": {
       "Visible": false,
       "Name": "Aux. Supplies",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Nabi/Skill012_SaveEnergy_A.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill12_SaveEnergy_A.png",
       "Levels": {
         "0": {
           "Description": "Additional Supplies are available during use of Skill and will be of benefit upon acquesition.\nThe Supply Box is only available to the caster.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill12_SaveEnergy_A_01.{{auto}}"
           }
         },
         "1": {
           "Effect": "[SoulPlus Info: Carbide]\nAttack Damage: [150%]\nNumber of Supply: [4]\nAttack Damage Duration: [20sec]",
           "RequiredLevel": 50,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Carbide]\nAttack Damage: [150%]\nNumber of Supply: [4]\nAttack Damage Duration: [20sec]\n\n[SoulPlus Info: Battle Food Supply]\nHP Recovery: [20%]\nSG Recovery: [30%]\nNumber of Supply: [4]",
           "RequiredLevel": 52,
           "RequiredSP": 1,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill12_SaveEnergy_A_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "[SoulPlus Info: Carbide]\nAttack Damage: [150%]\nNumber of Supply: [4]\nAttack Damage Duration: [20sec]\n\n[SoulPlus Info: Battle Food Supply]\nHP Recovery: [20%]\nSG Recovery: [30%]\nNumber of Supply: [4]\n\n[SoulPlus Info: Supply Box]\nCooldown time decreased: [10%]\nNumber of Supply: [2].",
+          "Effect": "[SoulPlus Info: Carbide]\nAttack Damage: [150%]\nNumber of Supply: [4]\nAttack Damage Duration: [20sec]\n\n[SoulPlus Info: Battle Food Supply]\nHP Recovery: [20%]\nSG Recovery: [30%]\nNumber of Supply: [4]\n\n[SoulPlus Info: Supply Box]\nCooldown time decreased: [20%]\nNumber of Supply: [1].",
           "RequiredLevel": 55,
           "RequiredSP": 2,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill012_SaveEnergy_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill12_SaveEnergy_A_03.{{auto}}"
           }
         }
       }
     },
-    "Skill013_LastStrike": {
+    "Skill13_LastStrike": {
       "Name": "Last Strike",
       "ID": 24,
-      "Icon": "../assets/SkillIcons/Nabi/Skill013_LastStrike.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill13_LastStrike.png",
       "Levels": {
         "0": {
           "Description": "After loading Rifle with an extremely destructive Soul Energy Bullet, you are able to fire straight ahead.\nAiming the Bullet before firing is possible; it will provide great Damage to a wide range.\nEnemies along the visual line of aim will receive 30% more Damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill013_LastStrike.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill13_LastStrike.{{auto}}"
           }
         },
         "1": {
           "Effect": "[Skill Info: SoulBullet]\nDamage: [2397%]\nSuper Armor Break: [2876%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: SoulBullet]\nDamage: [2636%]\nSuper Armor Break: [3163%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: SoulBullet]\nDamage: [2954%]\nSuper Armor Break: [3545%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: SoulBullet]\nDamage: [3367%]\nSuper Armor Break: [4040%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 52,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: SoulBullet]\nDamage: [3972%]\nSuper Armor Break: [4766%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 55,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Skill013_LastStrike-Aftermath"
+        "Skill13_LastStrike-A"
       ]
     },
-    "Skill06_BustDriver-AlterMode": {
+    "Skill13_LastStrike-A": {
+      "Visible": false,
+      "Name": "Aftermath",
+      "ID": 30,
+      "Icon": "../assets/SkillIcons/Nabi/Skill13_LastStrike_A.png",
+      "Levels": {
+        "0": {
+          "Description": "A tornado of aftermath crosses the path where the bullet's already been applies additional Damage.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Nabi/Skill13_LastStrike_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [4369%]\nSuper Armor Break: [5243%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1092%]\nSuper Armor Break: [1311%]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [4806%]\nSuper Armor Break: [5767%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1202%]\nSuper Armor Break: [1442%]",
+          "RequiredLevel": 70,
+          "RequiredSP": 3,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [5286%]\nSuper Armor Break: [6343%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1322%]\nSuper Armor Break: [1586%]",
+          "RequiredLevel": 72,
+          "RequiredSP": 4
+        }
+      }
+    },
+    "Skill06_BustDriver-A": {
       "Visible": false,
       "Name": "Alter Mode",
       "ID": 25,
@@ -937,28 +1088,32 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill06_BustDriver_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1294%]\nSuper Armor Break: [1294%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [776%]\nSuper Armor Break: [776%]\nNumber of Penetrations: [6 times]",
+          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1553%]\nSuper Armor Break: [1553%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [3106%]\nSuper Armor Break: [3106%]\nNumber of Penetrations: [20 times]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1424%]\nSuper Armor Break: [1424%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [854%]\nSuper Armor Break: [854%]\nNumber of Penetrations: [6 times]",
+          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1708]\nSuper Armor Break: [1708%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [3416%]\nSuper Armor Break: [3416%]\nNumber of Penetrations: [20 times]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1638%]\nSuper Armor Break: [1638%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [983%]\nSuper Armor Break: [983%]\nNumber of Penetrations: [6 times]",
+          "Effect": "[SoulPlus Info: JHP Cluster Bomb]\nDamage: [1965%]\nSuper Armor Break: [1965%]\n\n[SoulPlus Info: FMJ Altered Peony Bullet]\nDamage: [3930%]\nSuper Armor Break: [3930%]\nNumber of Penetrations: [20 times]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill08_HoneyBee-Turret": {
+    "Skill08_HoneyBee-A": {
       "Visible": false,
       "Name": "Turret",
       "ID": 26,
@@ -973,6 +1128,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee_A_01.{{auto}}"
           }
@@ -980,12 +1136,14 @@
         "1": {
           "Effect": "[SoulPlus Info: Turret]\nDamage: [51%]\nSuper Armor Break: [129%]\nDuration: [20sec]\nNumber of Summonable Turrets: [1]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info: Turret]\nDamage: [51%]\nSuper Armor Break: [129%]\nDuration: [20sec]\nNumber of Summonable Turrets: [2]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee_A_02.{{auto}}"
           }        
@@ -994,20 +1152,21 @@
           "Effect": "[SoulPlus Info: Turret]\nDamage: [51%]\nSuper Armor Break: [129%]\nDuration: [20sec]\nNumber of Summonable Turrets: [3]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/Skill08_HoneyBee_A_03.{{auto}}"
           }
         }
       }
     },
-    "Skill015_TripleSniping": {
+    "Skill15_TripleSniping": {
       "Name": "Triple Sniping",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Nabi/Skill015_TripleSniping.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill15_TripleSniping.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1015,159 +1174,184 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill015_TripleSniping.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill15_TripleSniping.{{auto}}"
           }
         },
         "1": {
           "Effect": "[Skill Info: Snipe]\nDamage: [1840%]\nSuper Armor Break: [1656%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Snipe]\nDamage: [2092%]\nSuper Armor Break: [1882%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Snipe]\nDamage: [2417%]\nSuper Armor Break: [2176%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Snipe]\nDamage: [2842%]\nSuper Armor Break: [2557%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Snipe]\nDamage: [3456%]\nSuper Armor Break: [3110%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill016_WildSnapshot": {
+    "Skill16_WildSnapshot": {
       "Name": "Wild Snapshot ",
       "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Nabi/Skill016_WildSnapshot.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill16_WildSnapshot.png",
       "Levels": {
         "0": {
           "Description": "After inflicting Damage with Shotgun, Rifle and Pistol start shooting randomly.\nQuick movement is possible while using this Skill.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill016_WildSnapshot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill16_WildSnapshot.{{auto}}"
           }
         },
         "1": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [173%]\nSuper Armor Break: [156%]\n\n[Skill Info: Random Fire]\nDamage: [722%]\nSuper Armor Break: [650%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [197%]\nSuper Armor Break: [177%]\n\n[Skill Info: Random Fire]\nDamage: [821%]\nSuper Armor Break: [738%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [228%]\nSuper Armor Break: [205%]\n\n[Skill Info: Random Fire]\nDamage: [948%]\nSuper Armor Break: [853%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [267%]\nSuper Armor Break: [241%]\n\n[Skill Info: Random Fire]\nDamage: [1114%]\nSuper Armor Break: [1003%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Shotgun]\nDamage: [325%]\nSuper Armor Break: [293%]\n\n[Skill Info: Random Fire]\nDamage: [1355%]\nSuper Armor Break: [1220%]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill014_Destronail": {
+    "Skill14_Destronail": {
       "Name": "DestroNail",
       "ID": 29,
-      "Icon": "../assets/SkillIcons/Nabi/Skill014_Destronail.png",
+      "Icon": "../assets/SkillIcons/Nabi/Skill14_Destronail.png",
       "Levels": {
         "0": {
           "Description": "A column of uranium degradation falls onto the designated coordinates shortly after coordinates are shown.\nAdditional Damage of 50% hits designated coordinates and Shockwave Damage hits a wide surrounding range.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill014_Destronail.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill14_Destronail.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Skill Info: Shockwave]\nDamage: [2135%]\nSuper Armor Break: [2135%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [2463%]\nSuper Armor Break: [2463%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Skill Info: Shockwave]\nDamage: [2348%]\nSuper Armor Break: [2348%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [2709%]\nSuper Armor Break: [2709%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Skill Info: Shockwave]\nDamage: [2631%]\nSuper Armor Break: [2631%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [3036%]\nSuper Armor Break: [3036%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Skill Info: Shockwave]\nDamage: [2999%]\nSuper Armor Break: [2999%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
+          "Effect": "[Skill Info: Shockwave]\nDamage: [3460%]\nSuper Armor Break: [3460%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "[Skill Info: Shockwave]\nDamage: [3990%]\nSuper Armor Break: [3990%]\n\n[Skill Info: Basic]\nSG Consumption: [80]\nCooldown: [55sec]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Skill013_LastStrike-Aftermath": {
-      "Visible": false,
-      "Name": "Aftermath",
-      "ID": 30,
-      "Icon": "../assets/SkillIcons/Nabi/Skill013_LastStrike_A.png",
+    "Skill17_BouncingBetty": {
+      "Name": "Bouncing Betty",
+      "ID": 31,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Nabi/Skill17_BouncingBetty.png",
       "Levels": {
         "0": {
-          "Description": "A tornado of aftermath crosses the path where the bullet's already been applies additional Damage.",
+          "Description": "After installing special explosives infront of you, jump back and Detonate them immediately with your pistol to damage enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/Skill013_LastStrike_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/Skill17_BouncingBetty.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [4369%]\nSuper Armor Break: [5243%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1092%]\nSuper Armor Break: [1311%]",
-          "RequiredLevel": 68,
-          "RequiredSP": 2
+          "Effect": "[Skill Information: Chain Explosion]\nDamage per Hit: [104%]\nSuper Armor Break per Hit: [97%]\n\n[Skill Information: Finish Blast]\nDamage per Hit: [270%]\nSuper Armor Break per Hit: [253%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1586%]\nBuff Additional Super Armor Break: [1903%]\nSG Consumption: [35]\nCooldown: [15sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [4806%]\nSuper Armor Break: [5767%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1202%]\nSuper Armor Break: [1442%]",
-          "RequiredLevel": 70,
-          "RequiredSP": 3
+          "Effect": "[Skill Information: Chain Explosion]\nDamage per Hit: [114%]\nSuper Armor Break per Hit: [107%]\n\n[Skill Information: Finish Blast]\nDamage per Hit: [297%]\nSuper Armor Break per Hit: [278%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1586%]\nBuff Additional Super Armor Break: [1903%]\nSG Consumption: [35]\nCooldown: [15sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [5286%]\nSuper Armor Break: [6343%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1322%]\nSuper Armor Break: [1586%]",
-          "RequiredLevel": 72,
-          "RequiredSP": 4
+          "Effect": "[Skill Information: Chain Explosion]\nDamage per Hit: [128%]\nSuper Armor Break per Hit: [120%]\n\n[Skill Information: Finish Blast]\nDamage per Hit: [333%]\nSuper Armor Break per Hit: [312%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1586%]\nBuff Additional Super Armor Break: [1903%]\nSG Consumption: [35]\nCooldown: [15sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     },
-    "BasicAttackMastery": {
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1001,
+      "ID": "P1",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
@@ -1176,6 +1360,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Attack_01.{{auto}}"
           }
@@ -1183,12 +1368,14 @@
         "1": {
           "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [30%]\nSuper Armor Break per Hit: [30%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [120%]\nSuper Armor Break per Hit: [120%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [30%]\nSuper Armor Break per Hit: [30%]\nSG Consumption: [5]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [40%]\nSuper Armor Break per Hit: [40%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [160%]\nSuper Armor Break per Hit: [160%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [40%]\nSuper Armor Break per Hit: [40%]\nSG Consumption: [5]",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Attack_01.{{auto}}"
           }
@@ -1197,6 +1384,7 @@
           "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [50%]\nSuper Armor Break per Hit: [50%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [200%]\nSuper Armor Break per Hit: [200%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [50%]\nSuper Armor Break per Hit: [50%]\nSG Consumption: [5]",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Attack_02.{{auto}}"
           }
@@ -1205,6 +1393,7 @@
           "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [60%]\nSuper Armor Break per Hit: [60%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [240%]\nSuper Armor Break per Hit: [240%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [60%]\nSuper Armor Break per Hit: [60%]\nSG Consumption: [5]",
           "RequiredLevel": 15,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Attack_02.{{auto}}"
           }
@@ -1213,16 +1402,17 @@
           "Effect": "[Skill Info: Rifle Fire]\nDamage per Hit: [70%]\nSuper Armor Break per Hit: [70%]\nSG Consumption: [5]\n\n[Skill Info: Knock Down Attack]\nDamage per Hit: [280%]\nSuper Armor Break per Hit: [280%]\nSG Consumption: [5]\n\n[Skill Info: Aerial Rifle Fire]\nDamage per Hit: [70%]\nSuper Armor Break per Hit: [70%]\nSG Consumption: [5]",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Attack_03.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1002,
+      "ID": "P0",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Nabi/PSkill_SoulStrikeMastery.png",
       "Levels": {
@@ -1231,6 +1421,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_S_Attack_N.{{auto}}"
           }
@@ -1238,24 +1429,27 @@
         "1": {
           "Effect": "[Skill Info: Ground]\nDamage per Hit: [240%]\nSuper Armor Break per Hit: [120%]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Aerial]\nDamage per Hit: [240%]\nSuper Armor Break per Hit: [120%]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Skill Info: Ground]\nDamage per Hit: [276%]\nSuper Armor Break per Hit: [138%]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Aerial]\nDamage per Hit: [276%]\nSuper Armor Break per Hit: [138%]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "[Skill Info: Ground]\nDamage per Hit: [334%]\nSuper Armor Break per Hit: [167%]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Aerial]\nDamage per Hit: [334%]\nSuper Armor Break per Hit: [167%]\nSG Consumption: [30]\nCooldown: [10sec]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1264,6 +1458,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Evade_F.{{auto}}"
           }
@@ -1271,14 +1466,15 @@
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1287,6 +1483,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Roll_F.{{auto}}"
           }
@@ -1294,25 +1491,28 @@
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1005,
+      "ID": "P5",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1320,6 +1520,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Run_F.{{auto}}"
           }
@@ -1327,19 +1528,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1006,
+      "ID": "P4",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1348,6 +1551,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Rise_Attack.{{auto}}"
           }
@@ -1355,25 +1559,28 @@
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1381,6 +1588,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_N_Attack_Dash.{{auto}}"
           }
@@ -1388,14 +1596,15 @@
         "1": {
           "Effect": "Damage: [116%]\nSuper Armor Break: [46%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1403,31 +1612,35 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoulDashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "SoulDash Attack",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1435,6 +1648,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/B_S_Attack_N_Dash.{{auto}}"
           }
@@ -1442,136 +1656,153 @@
         "1": {
           "Effect": "Number of Bomb Wick Placements: [3]\nStamina Consumption: [20]\nCooldown: [6sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 1
         }
       }
     },
-    "BoltEnhancement": {
+    "CSkill2_BoltEnhancement": {
       "Passive": true,
       "Name": "Bolt Enhancement",
-      "ID": 1013,
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Nabi/PSkill2_BoltEnhancement.png",
+      "Icon": "../assets/SkillIcons/Nabi/CSkill2_BoltEnhancement.png",
       "Levels": {
         "0": {
-          "Description": "Damage is increased for 5 seconds when using basic attack.",
+          "Description": "Passive Effect: (When firing Rifle [3] times by using Basic &/or Soulstrike Attack\nSV Recovery applies only once in [5sec])",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "Increases by 35% (up to 3 stacks)",
+          "Effect": "Attack Damage: +[105%] for [15sec]\nSV Recovery: [2]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "Increases by 55% (up to 3 stacks)",
+          "Effect": "Attack Damage: +[165%] for [15sec]\nSV Recovery: [3]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "Increases by 75% (up to 3 stacks)",
+          "Effect": "Attack Damage: +[225%] for [15sec]\nSV Recovery: [4]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "ExtendedMagazine": {
+    "CSkill1_ExtendedMagazine": {
       "Passive": true,
       "Name": "Extended Magazine",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Nabi/PSkill1_ExtendedMagazine.png",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Nabi/CSkill1_ExtendedMagazine.png",
       "Levels": {
         "0": {
           "Description": "Maximum SG value is increased",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "A Maximum of [20] SG will be increased.",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "A Maximum of [40] SG will be increased.",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "A Maximum of [60] SG will be increased.",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "RifleScopeofDevotion": {
+    "CSkill0_CP": {
       "Passive": true,
       "Name": "Rifle Scope of Devotion",
       "DefaultLevel": 1,
-      "ID": 1012,
+      "ID": "C0",
       "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
           "Description": "Certain Skills of Lee Nabi require her to place\nBomb Wicks that explode and give Damage to\nsurrounding enemies; Bomb Wicks last for\n10sec.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "[Skill Info: Reverse Force]\n30% of Stamina Consumption will be reduced\nfor a short period of time when using Rifle Fire\non Ground or in Air.\n\n[Skill Info: Explosives Training]\nBomb Wick Damage: [300%]\nBomb Wick Super Armor Break: [450%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "TacticalAirStrike": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
       "Name": "Tactical AirStrike",
       "DefaultLevel": 1,
-      "ID": 2003,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1584,30 +1815,33 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Nabi/B_Skill_TacticalAirStrike.{{auto}}"
+            "Video": "../assets/SkillPreviews/Nabi/EXSkill_TacticalAirStrike.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: [7250%]\nSuper Armor Break: [7250%]",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
-      "ID": 2001,
+      "ID": "V0",
       "Icon": "../assets/SkillIcons/Nabi/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Through Awakening, physicality of the body is temporarily heightened.\nSkills are used through consumption of Soul Vapor.",
+          "Description": "Awakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/NSkill1_Frenzy.{{auto}}"
           }
@@ -1615,15 +1849,16 @@
         "1": {
           "Effect": "\n1st Stage Gauge Use (SV -50)\n\nAwakening: [30sec]\nArmor Penetration +[5%]\nCritical Rate: +[5%]\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
-      "ID": 2002,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
@@ -1632,10 +1867,11 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Through Awakening, physicality of the body is temporarily heightened.\nSkills are used through consumption of Soul Vapor.",
+          "Description": "Awakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/NSkill2_Awakening.{{auto}}"
           }
@@ -1643,15 +1879,16 @@
         "1": {
           "Effect": "\n2nd Stage Gauge Use (SV -100)\n\nAwakening: [60sec]\nArmor Penetration +[10%]\nCritical Rate: +[10%]\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
       "DefaultLevel": 1,
-      "ID": 2004,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1664,6 +1901,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Nabi/NSkill3_DesireAwakening.{{auto}}"
           }
@@ -1671,7 +1909,8 @@
         "1": {
           "Effect": "\n2nd Stage Gauge Use (SV -100)\n\nDesire Awakening: [60sec]\nInflict Damage +[20%]\nAttack Speed: +[20%]\nMax. Damage set.\nAgility: +[30%]\nActivates Super Armor\nSG Consumption: -[20%]\nActivates Burning Skill",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     }

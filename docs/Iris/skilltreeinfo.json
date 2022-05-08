@@ -18,730 +18,824 @@
   }
   },
   "Skills": {
-    "HammerCrash": {
+    "Skill01_HammerCrash": {
       "Name": "Hammer Crash",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill01_HammerCrash.png",
       "Levels": {
         "0": {
           "Description": "Swings the hammer to attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill01_HammerCrash.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "HammerCrash-ContinuousExplosion",
-        "HammerCrash-FullSwing"
+        "Skill01_HammerCrash-A",
+        "Skill01_HammerCrash-B"
       ]
     },
-    "HammerCrash-ContinuousExplosion": {
+    "Skill01_HammerCrash-A": {
       "Visible": false,
       "Name": "Continuous Explosion",
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill01_HammerCrash_A.png",
       "Levels": {
         "0": {
           "Description": "Adds an additional explosion on the ground",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill01_HammerCrash_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "HammerCrash-FullSwing": {
+    "Skill01_HammerCrash-B": {
       "Visible": false,
       "Name": "Full Swing",
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_HammerCrash_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill01_HammerCrash_B.png",
       "Levels": {
         "0": {
           "Description": "Launch an additional attack after the last attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_HammerCrash_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill01_HammerCrash_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "CamelSpin": {
+    "Skill02_CamelSpin": {
       "Name": "Camel Spin",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_CamelSpin.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill02_CamelSpin.png",
       "Levels": {
         "0": {
           "Description": "Take a short leap forward and then strike with a 360° rotation",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_CamelSpin.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill02_CamelSpin.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "CamelSpin-BladeWings"
+        "Skill02_CamelSpin-A"
       ]
     },
-    "AssaultDive": {
+    "Skill03_AssaultDive": {
       "Name": "Assault Dive",
       "DefaultLevel": 1,
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill03_AssaultDive.png",
       "Levels": {
         "0": {
           "Description": "Quickly leap forward and push with your weapon, 2 additional rapid-fire explosion attacks",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill03_AssaultDive.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "AssaultDive-Shatter",
-        "AssaultDive-Emission"
+        "Skill03_AssaultDive-A",
+        "Skill03_AssaultDive-B"
       ]
     },
-    "AssaultDive-Shatter": {
+    "Skill03_AssaultDive-A": {
       "Visible": false,
       "Name": "Shatter",
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill03_AssaultDive_A.png",
       "Levels": {
         "0": {
           "Description": "Replaces the additional attack with an additional consecutive attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill03_AssaultDive_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "AssaultDive-Emission": {
+    "Skill03_AssaultDive-B": {
       "Visible": false,
       "Name": "Emission",
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_AssaultDive_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill03_AssaultDive_B.png",
       "Levels": {
         "0": {
           "Description": "Increases the range of the last attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_AssaultDive_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill03_AssaultDive_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FireSomersault": {
+    "Skill04_FireSomersault": {
       "Name": "Fire Somersault",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FireSomersault.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill04_FireSomersault.png",
       "Levels": {
         "0": {
           "Description": "Fires towards the ground and does a backwards somersault, quickly retreating using the recoil from the rotation",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FireSomersault.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill04_FireSomersault.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "FireSomersault-HellFire"
+        "Skill04_FireSomersault-A"
       ]
     },
-    "FireSomersault-HellFire": {
+    "Skill04_FireSomersault-A": {
       "Visible": false,
       "Name": "Hell Fire",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_FireSomersault_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill04_FireSomersault_A.png",
       "Levels": {
         "0": {
           "Description": "Adds attack zones in front of the base one",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FireSomersault_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill04_FireSomersault_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FortressCannon": {
+    "Skill05_FortressCannon": {
       "Name": "Fortress Cannon",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FortressCannon.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill05_FortressCannon.png",
       "Levels": {
         "0": {
           "Description": "Gathering energy in the barrel, attracts enemies, and then Blows up enemies with a sphere.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FortressCannon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill05_FortressCannon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [40%]\nSuper Armor Break per hit: [89%]\n\n[Explosion]\nDamage per hit: [59%]\nSuper Armor Break per hit: [134%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [40%]\nSuper Armor Break per Hit: [89%]\n\n[Explosion]\nDamage per Hit: [59%]\nSuper Armor Break per Hit: [134%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [42%]\nSuper Armor Break per hit: [94%]\n\n[Explosion]\nDamage per hit: [62%]\nSuper Armor Break per hit: [141%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [42%]\nSuper Armor Break per Hit: [94%]\n\n[Explosion]\nDamage per Hit: [62%]\nSuper Armor Break per Hit: [141%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [47%]\nSuper Armor Break per hit: [105%]\n\n[Explosion]\nDamage per hit: [70%]\nSuper Armor Break per hit: [158%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [47%]\nSuper Armor Break per Hit: [105%]\n\n[Explosion]\nDamage per Hit: [70%]\nSuper Armor Break per Hit: [158%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 14,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [52%]\nSuper Armor Break per hit: [116%]\n\n[Explosion]\nDamage per hit: [77%]\nSuper Armor Break per hit: [175%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [52%]\nSuper Armor Break per Hit: [116%]\n\n[Explosion]\nDamage per Hit: [77%]\nSuper Armor Break per Hit: [175%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [60%]\nSuper Armor Break per hit: [134%]\n\n[Explosion]\nDamage per hit: [89%]\nSuper Armor Break per hit: [201%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [60%]\nSuper Armor Break per Hit: [134%]\n\n[Explosion]\nDamage per Hit: [89%]\nSuper Armor Break per Hit: [201%]\n\nDebuff: Reduces [20%] Defense on Hit for [3sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "FortressCannon-QuickCharge"
+        "Skill05_FortressCannon-A"
       ]
     },
-    "FortressCannon-QuickCharge": {
+    "Skill05_FortressCannon-A": {
       "Visible": false,
       "Name": "Quick Charge",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_FortressCannon_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill05_FortressCannon_A.png",
       "Levels": {
         "0": {
           "Description": "The time it takes to gather enemies is reduced and the explosion damage increases.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_FortressCannon_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill05_FortressCannon_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [109%]\nSuper Armor Break per hit: [185%]\n\n[Explosion]\nDamage per hit: [328%]\nSuper Armor Break per hit: [554%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [109%]\nSuper Armor Break per Hit: [185%]\n\n[Explosion]\nDamage per Hit: [328%]\nSuper Armor Break per Hit: [554%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [126%]\nSuper Armor Break per hit: [213%]\n\n[Explosion]\nDamage per hit: [379%]\nSuper Armor Break per hit: [639%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [126%]\nSuper Armor Break per Hit: [213%]\n\n[Explosion]\nDamage per Hit: [379%]\nSuper Armor Break per Hit: [639%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
           "RequiredLevel": 27,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Energy Sphere]\nDamage per hit: [143%]\nSuper Armor Break per hit: [242%]\n\n[Explosion]\nDamage per hit: [429%]\nSuper Armor Break per hit: [725%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
+          "Effect": "[Energy Sphere]\nDamage per Hit: [143%]\nSuper Armor Break per Hit: [242%]\n\n[Explosion]\nDamage per Hit: [429%]\nSuper Armor Break per Hit: [725%]\n\nDebuff: Reduces [20%] Defense on Hit for [5sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "PulseFire": {
+    "Skill06_PulseFire": {
       "Name": "Pulse Fire",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill06_PulseFire.png",
       "Levels": {
         "0": {
           "Description": "Take a firing stance and launch very powerful energy spheres for a fixed amount of time or attacks",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill06_PulseFire.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "PulseFire-RapidShot",
-        "PulseFire-PowerShot"
+        "Skill06_PulseFire-A",
+        "Skill06_PulseFire-B"
       ]
     },
-    "PulseFire-RapidShot": {
+    "Skill06_PulseFire-A": {
       "Visible": false,
       "Name": "Rapid Shot",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill06_PulseFire_A.png",
       "Levels": {
         "0": {
           "Description": "Increases the number of shots",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill06_PulseFire_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "PulseFire-PowerShot": {
+    "Skill06_PulseFire-B": {
       "Visible": false,
       "Name": "Power Shot",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_PulseFire_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill06_Pulsefire_B.png",
       "Levels": {
         "0": {
           "Description": "Fire long-range bullets",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulseFire_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill06_Pulsefire_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "LimitBreak": {
+    "Skill07_LimitBreak": {
       "Name": "Limit Break",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_LimitBrake.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill07_LimitBreak.png",
       "Levels": {
         "0": {
           "Description": "Releases soul energy within the body to amplify the damage of the next attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_LimitBrake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill07_LimitBreak.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BulletStorm": {
+    "Skill08_BulletStorm": {
       "Name": "Bullet Storm",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill08_BulletStorm.png",
       "Levels": {
         "0": {
           "Description": "Shoots a powerful shell upwards. The fired shells separates mid-air into several small shells that will explode when reaching the ground",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill08_BulletStorm.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "BulletStorm-RangeIncrease",
-        "BulletStorm-MeteorFall"
+        "Skill08_BulletStorm-A",
+        "Skill08_BulletStorm-B"
       ]
     },
-    "BulletStorm-RangeIncrease": {
+    "Skill08_BulletStorm-A": {
       "Visible": false,
       "Name": "Range Increase",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill08_BulletStorm_A.png",
       "Levels": {
         "0": {
           "Description": "Extends the attack range",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill08_BulletStorm_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "BulletStorm-MeteorFall": {
+    "Skill08_BulletStorm-B": {
       "Visible": false,
       "Name": "Meteor Fall",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BulletStorm_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill08_BulletStorm_B.png",
       "Levels": {
         "0": {
           "Description": "Attack with series of exploding meteorites . Deals continuous damage in the area",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_BulletStorm_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill08_BulletStorm_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Liberator": {
+    "Skill09_Liberator": {
       "Name": "Liberator",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_Liberator.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill09_Liberator.png",
       "Levels": {
         "0": {
           "Description": "A momentary explosion of energy Fire. The closer you get, the more damage you deal.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_Liberator.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill09_Liberator.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [416%]\nSuper Armor Break per hit: [53%]",
+          "Effect": "Damage per Hit: [416%]\nSuper Armor Break per Hit: [53%]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [436%]\nSuper Armor Break per hit: [56%]",
+          "Effect": "Damage per Hit: [436%]\nSuper Armor Break per Hit: [56%]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [488%]\nSuper Armor Break per hit: [63%]",
+          "Effect": "Damage per Hit: [488%]\nSuper Armor Break per Hit: [63%]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage per hit: [540%]\nSuper Armor Break per hit: [69%]",
+          "Effect": "Damage per Hit: [540%]\nSuper Armor Break per Hit: [69%]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per hit: [624%]\nSuper Armor Break per hit: [79%]",
+          "Effect": "Damage per Hit: [624%]\nSuper Armor Break per Hit: [79%]",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Liberator-Stabilizer"
+        "Skill09_Liberator-A"
       ]
     },
-    "EternalAbyss": {
+    "Skill10_EternalAbyss": {
       "Name": "Eternal Abyss",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_EternalAbyss.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill10_EternalAbyss.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -749,255 +843,290 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_EternalAbyss.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill10_EternalAbyss.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Earthquake": {
+    "Skill11_Earthquake": {
       "Name": "Earthquake",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill11_Earthquake.png",
       "Levels": {
         "0": {
           "Description": "Insert the weapon into the ground then shoot towards the ground to create several shock waves",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill11_Earthquake.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Earthquake-Volcano",
-        "Earthquake-FirePillar"
+        "Skill11_Earthquake-A",
+        "Skill11_Earthquake-B"
       ]
     },
-    "Earthquake-Volcano": {
+    "Skill11_Earthquake-A": {
       "Visible": false,
       "Name": "Volcano",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill11_Earthquake_A.png",
       "Levels": {
         "0": {
           "Description": "Generates a volcano after the last attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill11_Earthquake_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Earthquake-FirePillar": {
+    "Skill11_Earthquake-B": {
       "Visible": false,
       "Name": "Fire Pillar",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Earthquake_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill11_Earthquake_B.png",
       "Levels": {
         "0": {
           "Description": "Generates a volcano after the last attack",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_Earthquake_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill11_Earthquake_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "ElectricCannon": {
+    "Skill12_ElectricCannon": {
       "Name": "Electric Cannon",
       "ID": 24,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ElectricCannon.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill12_ElectricCannon.png",
       "Levels": {
         "0": {
           "Description": "Make the weapons float and ride on it facing forwards. Afterwards, fire a laser beam forwards. Can move while the skill is in use",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_ElectricCannon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill12_ElectricCannon.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 42,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 46,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 50,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "ExceedDriver": {
+    "Skill13_ExceedDriver": {
       "Name": "Exceed Driver",
       "ID": 25,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ExceedDriver.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill13_ExceedDriver.png",
       "Levels": {
         "0": {
           "Description": "Disassemble the soul weapon and absorbs it in your hand. Afterwards, countless energy portals appear firing powerful energy simultaneously",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_ExceedDriver.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill13_ExceedDriver.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },   
       "Extensions": [
-        "ExceedDriver-Manual"
+        "Skill13_ExceedDriver-A"
       ]
     },
-    "ExceedDriver-Manual": {
+    "Skill13_ExceedDriver-A": {
       "Visible": false,
       "Name": "Manual",
       "ID": 31,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_ExceedDriver_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill13_ExceedDriver_A.png",
       "Levels": {
         "0": {
           "Description": "The character can rotate until the final attack.\nAfter skill use, you can attack without SG consumption for an amount of time.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_ExceedDriver_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill13_ExceedDriver_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "[Attribute Information: Tracking Attack]\nDamage [1291%]\nSuper Armor Break [884%]\n[Attribute Information: Final Attack]\nDamage [4356%]\nSuper Armor Break [2984%]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Attribute Information: Tracking Attack]\nDamage [1420%]\nSuper Armor Break [972%]\n[Attribute Information: Final Attack]\nDamage [4793%]\nSuper Armor Break [3282%]",
           "RequiredLevel": 70,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "[Attribute Information: Tracking Attack]\nDamage [1633%]\nSuper Armor Break [1118%]\n[Attribute Information: Final Attack]\nDamage [5512%]\nSuper Armor Break [3775%]",
@@ -1006,7 +1135,7 @@
         }
       }
     },
-    "CamelSpin-BladeWings": {
+    "Skill02_CamelSpin-A": {
       "Visible": false,
       "Name": "Blade Wings",
       "ID": 26,
@@ -1014,35 +1143,39 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_CamelSpin_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill02_CamelSpin_A.png",
       "Levels": {
         "0": {
           "Description": "???",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_CamelSpin_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill02_CamelSpin_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Liberator-Stabilizer": {
+    "Skill09_Liberator-A": {
       "Visible": false,
       "Name": "Stabilizer",
       "ID": 27,
@@ -1050,42 +1183,46 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_Liberator_A.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill09_Liberator_A.png",
       "Levels": {
         "0": {
           "Description": "The bullet range is increased and regardless of the distance same Damage is applied.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_Liberator_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill09_Liberator_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [499%]\nSuper Armor Break per hit: [63%]",
+          "Effect": "Damage per Hit: [499%]\nSuper Armor Break per Hit: [63%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [565%]\nSuper Armor Break per hit: [72%]",
+          "Effect": "Damage per Hit: [565%]\nSuper Armor Break per Hit: [72%]",
           "RequiredLevel": 59,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [664%]\nSuper Armor Break per hit: [84%]",
+          "Effect": "Damage per Hit: [664%]\nSuper Armor Break per Hit: [84%]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "PulverizerHeadbutt": {
-      "Name": "Pulverizer Headbutt",
+    "Skill15_PulverizerHeadButt": {
+      "Name": "Pulverizer Head Butt",
       "ID": 28,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_RhinoHeadButt.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill15_PulverizerHeadButt.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1093,127 +1230,184 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_PulverizeHeadButt.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill15_PulverizerHeadButt.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "OperationAsh": {
-      "Name": "Operation Ash",
+    "Skill16_OperationAshes": {
+      "Name": "Operation Ashes",
       "ID": 29,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_CombatFalcons.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill16_OperationAshes.png",
       "Levels": {
         "0": {
           "Description": "???",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_Operation Ashes.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill16_OperationAshes.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Exocalypse": {
-      "Name": "Exocalypse",
+    "Skill14_RapidVulcan": {
+      "Name": "Rapid Vulcan",
       "ID": 30,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_Expocalypse.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill14_RapidVulcan.png",
       "Levels": {
         "0": {
           "Description": "?",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_RapidVulcan.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill14_RapidVulcan.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },        
         "4": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },        
         "5": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BasicAttackMastery": {
+    "Skill17_WitchsBlast": {
+      "Name": "Witch's Blast",
+      "ID": 32,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Iris/Skill17_WitchsBlast.png",
+      "Levels": {
+        "0": {
+          "Description": "Weapon Disassembles into Soul Energy and you absorb it with one arm. After that, you raise your arms and fire continuous Strikes into the air to strike enemies in front of you.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Iris/Skill17_WitchsBlast.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Shockwave and Strikes]\nDamage per Hit: [496%]\nSuper Armor Break per Hit: [463%]\n\n[Skill Info: Finish Strikes]\nDamage: [1489%]\nSuper Armor Break: [1388%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1225%]\nBuff Additional Super Armor Break: [839%]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Shockwave and Strikes]\nDamage per Hit: [546%]\nSuper Armor Break per Hit: [513%]\n\n[Skill Info: Finish Strikes]\nDamage: [1638%]\nSuper Armor Break: [1539%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1225%]\nBuff Additional Super Armor Break: [839%]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: Shockwave and Strikes]\nDamage per Hit: [612%]\nSuper Armor Break per Hit: [575%]\n\n[Skill Info: Finish Strikes]\nDamage: [1836%]\nSuper Armor Break: [1724%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1225%]\nBuff Additional Super Armor Break: [839%]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": "P0",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
@@ -1222,50 +1416,56 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Attack_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "SG Gain +20%.\n\nEnable to use SoulStrike A",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "SG Gain +70%.\n\nEnable to use SoulStrike B.",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "SG Gain +120%\nEnable to use an addional strike for the Basic Attack.\nEnable to use an additional strike for the Aerial Attack.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Attack_04_02.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "SG Gain +200%\n\nEnable to use SoulStrike C.",
           "RequiredLevel": 15,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Attack_05.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": "P1",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Iris/PSkill_SoulStrikeMastery.png",
       "Levels": {
@@ -1274,6 +1474,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_S_Attack_N.{{auto}}"
           }
@@ -1281,24 +1482,27 @@
         "1": {
           "Effect": "[Ground]\nSG Recovery: 15%\nBuff effect: 'Fire' in 5s\nCooldown: 15s\n[Air]\nDamage: 382%\nSuper Armor Break: 197%\nCooldown: 10s",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Ground]\nSG Recovery: 20%\nBuff effect: 'Fire' in 7s\nCooldown: 15s\n[Air]\nDamage: 384%\nSuper Armor Break: 202%\nCooldown: 10s\nSG Gain: +20%",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "[Ground]\nSG Recovery: 25%\nBuff effect: 'Fire' in 10s\nCooldown: 15s\n[Air]\nDamage: 430%\nSuper Armor Break: 249%\nCooldown: 10s\nSG Gain: +70%",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1307,6 +1511,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Evade_F.{{auto}}"
           }
@@ -1314,14 +1519,15 @@
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1330,6 +1536,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Roll_F.{{auto}}"
           }
@@ -1337,25 +1544,28 @@
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": "P4",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1363,6 +1573,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Run_F.{{auto}}"
           }
@@ -1370,19 +1581,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1005,
+      "ID": "P5",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1391,6 +1604,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Rise_Attack.{{auto}}"
           }
@@ -1398,25 +1612,28 @@
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1424,6 +1641,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_N_Attack_Dash.{{auto}}"
           }
@@ -1431,14 +1649,15 @@
         "1": {
           "Effect": "Damage: 115%\nSuper Armor Break: 38%",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1446,31 +1665,35 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoulDashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "SoulDash Attack",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1478,151 +1701,166 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 1
         }
       }
     },
-    "ExtremeRush": {
+    "CSkill2_Extreme": {
       "Passive": true,
-      "Name": "Extreme Rush",
-      "ID": 1013,
+      "Name": "Extreme",
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Iris/CSkill2_Extreme.png",
       "Levels": {
         "0": {
           "Description": "Provides the ability to gain invulnerable state when using special attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/Contributor_iris_ExtremeRush.{{auto}}"
-          }
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "Duration: 3s\nCooldown: 60 seconds",
+          "Effect": "Duration: 3s\nCooldown: 60sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "Duration: 4s\nCooldown: 60 seconds",
+          "Effect": "Duration: 4s\nCooldown: 60sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "Duration: 5s\nCooldown: 60 seconds",
+          "Effect": "Duration: 5s\nCooldown: 60sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "RapidAttack": {
+    "CSkill1_SpeedAttack": {
       "Passive": true,
-      "Name": "Rapid Attack",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_SGPassive.png",
+      "Name": "Speed Attack",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Iris/CSkill1_SpeedAttack.png",
       "Levels": {
         "0": {
           "Description": "Reduces SG consumption of skills",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "SG consumption Rate: -5%",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "SG consumption Rate: -8%",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "SG consumption Rate: -10%",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "FuryStrike": {
+    "CSkill0_CP": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1012,
-      "Name": "Fury Strike",
+      "ID": "C0",
+      "Name": "Rage Strike",
       "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
           "Description": "Recovers SG on successful basic attacks. Automatically restore SG at regular time intervals",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpiralofInfinity": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
       "Name": "Spiral of Infinity",
       "DefaultLevel": 1,
-      "ID": 2003,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_HamerStoll_Skill_SpiralofInfinity.png",
+      "Icon": "../assets/SkillIcons/Iris/EXSkill_SpiralofInfinity.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1630,23 +1868,25 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/B_Skill_SpiralofInfinity.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/EXSkill_SpiralofInfinity.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSuper Armor Break：[?%]\n\n?.",
+          "Effect": "Damage: [?%]\nSuper Armor Break: [?%]\n\n?.",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
-      "ID": 2001,
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BreakErode.png",
+      "ID": "V0",
+      "Icon": "../assets/SkillIcons/Iris/NSKill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1654,6 +1894,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper.{{auto}}"
           }
@@ -1661,20 +1902,21 @@
         "1": {
           "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
-      "ID": 2002,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Iris/Icon_Hamerstoll_Skill_BreakWakeup.png",
+      "Icon": "../assets/SkillIcons/Iris/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1682,22 +1924,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper_02.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60sec].\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
       "DefaultLevel": 1,
-      "ID": 2004,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1710,14 +1954,16 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Iris/B_Skill_SoulViper_03.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Exceed Driver (lvl 42 Skill)\n-Exocalypse (lvl 62 Skill)\n-Spiral of Infinity (EX Skill)",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60sec].\n-Attack Damage: [+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60sec] for Desire skills:\n-Exceed Driver (lvl 42 Skill)\n-Exocalypse (lvl 62 Skill)\n-Spiral of Infinity (EX Skill)",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     }

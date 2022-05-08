@@ -18,1118 +18,1302 @@
   }
   },
   "Skills": {
-    "FirstStrike": {
-      "Name": "First Strike",
+    "Skill01_FirstBlade": {
+      "Name": "First Blade",
       "DefaultLevel": 1,
       "ID": 1,
       "Icon": "../assets/SkillIcons/Haru/Skill01_FirstBlade.png",
       "Levels": {
         "0": {
-          "Description": "Perform a series of slashes while advancing forward. An additional strike can be used [Right-click] at the end of the skill.",
+          "Description": "Move forwards and swing the Soulum three times and pushing the enemy away as the Finish Attack.\nWith extra commands, swing the Soulum upwards as the Finish Attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/B_Skill_FirstBlade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill01_FirstBlade.{{auto}}"
           }
         },
         "1": {
-          "Effect": "{Basic Attack}\nDamage: 361%\nSuper Armor Break: 194%\n{Final Slash}\nDamage: 225%\nSuper Armor Break: 121%\nSG Consumption: 55\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [675%]\nSuper Armor Break: [362%]\n\n[Skill Info: Additional Attack]\nDamage: [135%]\nSuper Armor Break: [72%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [10sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "{Basic Attack}\nDamage: 379%\nSuper Armor Break: 203%\n{Final Slash}\nDamage: 237%\nSuper Armor Break: 127%\nSG Consumption: 55\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [708%]\nSuper Armor Break: [380%]\n\n[Skill Info: Additional Attack]\nDamage: [142%]\nSuper Armor Break: [76%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [10sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "{Basic Attack}\nDamage: 424%\nSuper Armor Break: 228%\n{Final Slash}\nDamage: 265%\nSuper Armor Break: 142%\nSG Consumption: 55\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [792%]\nSuper Armor Break: [426%]\n\n[Skill Info: Additional Attack]\nDamage: [158%]\nSuper Armor Break: [85%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [10sec]",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "{Basic Attack}\nDamage: 469%\nSuper Armor Break: 252%\n{Final Slash}\nDamage: 294%\nSuper Armor Break: 157%\nSG Consumption: 55\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [877%]\nSuper Armor Break: [470%]\n\n[Skill Info: Additional Attack]\nDamage: [175%]\nSuper Armor Break: [94%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [10sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "{Basic Attack}\nDamage: 541%\nSuper Armor Break: 290%\n{Final Slash}\nDamage: 339%\nSuper Armor Break: 181%\nSG Consumption: 55\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [1012%]\nSuper Armor Break: [543%]\n\n[Skill Info: Additional Attack]\nDamage: [202%]\nSuper Armor Break: [109%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [10sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "FirstStrike-RangeIncrease"
+        "Skill01_FirstBlade-A"
       ]
     },
-    "FirstStrike-RangeIncrease": {
+    "Skill01_FirstBlade-A": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "Range Up",
       "ID": 2,
       "Icon": "../assets/SkillIcons/Haru/Skill01_FirstBlade_A.png",
       "Levels": {
         "0": {
-          "Description": "The Extension strike radius becomes bigger.",
+          "Description": "Extend the Attack range of Upper Slash and add Flame Damage.\n\nEnchants Soul Energy to Soulum, expanding the area of Attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_First Blade_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill01_FirstBlade_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info]\nDamage:[1012%]\nSuper Armor Break: [543%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [202%]\nSuper Armor Break: [109%]\n\nFlame Damage: [304%]\nFlame Super Armor Break: [163%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "{Basic Attack}\nDamage: 54%\nSuper Armor Break: 29%\n{Final Slash}\nDamage: 33%\nSuper Armor Break: 19%",
+          "Effect": "[SoulPlus Info]\nDamage:[1113%]\nSuper Armor Break: [597%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [223%]\nSuper Armor Break: [119%]\n\nFlame Damage: [334%]\nFlame Super Armor Break: [173%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "{Basic Attack}\nDamage: 162%\nSuper Armor Break: 62%\n{Final Slash}\nDamage: 101%\nSuper Armor Break: 87%",
+          "Effect": "[SoulPlus Info]\nDamage:[1314%]\nSuper Armor Break: [706%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [263%]\nSuper Armor Break: [141%]\n\nFlame Damage: [394%]\nFlame Super Armor Break: [212%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "PierceStep": {
+    "Skill02_PierceStep": {
       "Name": "Pierce Step",
       "DefaultLevel": 1,
       "ID": 3,
       "Icon": "../assets/SkillIcons/Haru/Skill02_PierceStep.png",
       "Levels": {
         "0": {
-          "Description": "Perform a series of slashes while advancing forward. An additional strike can be used with an additional input.",
+          "Description": "Charge forwards to push the enemy back.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill02_PierceStep.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 83%\nSuper Armor Break: 330%\nSG Consumption: 30\nCooldown: 8 seconds",
+          "Effect": "[Skill Info]\nDamage: [83%]\nSuper Armor Break: [380%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 87%\nSuper Armor Break: 347%\nSG Consumption: 30\nCooldown: 8 seconds",
+          "Effect": "[Skill Info]\nDamage: [87%]\nSuper Armor Break: [399%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 97%\nSuper Armor Break: 388%\nSG Consumption: 30\nCooldown: 8 seconds",
+          "Effect": "[Skill Info]\nDamage: [97%]\nSuper Armor Break: [446%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 108%\nSuper Armor Break: 429%\nSG Consumption: 30\nCooldown: 8 seconds",
+          "Effect": "[Skill Info]\nDamage: [108%]\nSuper Armor Break: [493%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 124%\nSuper Armor Break: 495%\nSG Consumption: 30\nCooldown: 8 seconds",
+          "Effect": "[Skill Info]\nDamage: [124%]\nSuper Armor Break: [569%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "PierceStep-SpinningSlash",
-        "PierceStep-RisingSlash"
+        "Skill02_PierceStep-A",
+        "Skill02_PierceStep-B"
       ]
     },
-    "PierceStep-SpinningSlash": {
+    "Skill02_PierceStep-A": {
       "Visible": false,
-      "Name": "Spinning Slash",
+      "Name": "Spin Slash",
       "ID": 4,
       "Icon": "../assets/SkillIcons/Haru/Skill02_PierceStep_A.png",
       "Levels": {
         "0": {
-          "Description": "Push away the enemies with a spinning slash after Pierce Step.",
+          "Description": "Strike the enemy back with a double spin slash after Pierce Step.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill02_PierceStep_A_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "{Base Attack}\nDamage: +92%\nSuper Armor Break: -381%\n{Spin Attack}\nDamage: 65%\nSuper Armor Break: 35%\nMaximum Spin Attack: 1",
+          "Effect": "[SoulPlus Info: Basic Attack]\nAdded Damage value: [92%]\nReduced Super Armor Break value: [438%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [65%]\nSuper Armor Break: [39%]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "{Base Attack}\nDamage: +92%\nSuper Armor Break: -381%\n{Spin Attack}\nDamage: 216%\nSuper Armor Break: 114%\nMaximum Spin Attack: 2",
+          "Effect": "[SoulPlus Info: Basic Attack]\nAdded Damage value: [92%]\nReduced Super Armor Break value: [438%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [216%]\nSuper Armor Break: [131%]",
           "RequiredLevel": 26,
           "RequiredSP": 1,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill02_PierceStep_A_02.{{auto}}"
           }
         }
       }
     },
-    "PierceStep-RisingSlash": {
+    "Skill02_PierceStep-B": {
       "Visible": false,
-      "Name": "Rising Slash",
+      "Name": "Upper Slash",
       "ID": 5,
       "Icon": "../assets/SkillIcons/Haru/Skill02_PierceStep_B.png",
       "Levels": {
         "0": {
-          "Description": "Launch the enemies to the air after Pierce Step with a rising slash.",
+          "Description": "Lift the enemy in the air with upper slash after Pierce Step",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Pierce Step_Attack_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill02_PierceStep_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 200%\nSuper Armor Break: 280%",
+          "Effect": "[SoulPlus Info: Additional Attack]\nDamage: [74%]\nSuper Armor Break: [341%]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpinCutter": {
+    "Skill03_SpinCutter": {
       "Name": "Spin Cutter",
       "DefaultLevel": 1,
       "ID": 6,
       "Icon": "../assets/SkillIcons/Haru/Skill03_SpinCutter.png",
       "Levels": {
         "0": {
-          "Description": "Push enemies away by performing a spinning slash.",
+          "Description": "Leap up forwards on low heights and consecutively spin yourself to attack enemies.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill03_SpinCutter.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 178%\nSuper Armor Break: 92%\nSG Consumption: 35\nCooldown: 5 seconds",
+          "Effect": "[Skill Info]\nDamage: [178%]\nSuper Armor Break: [92%]\n\nSG Consumption: [35]\nCooldown: [5sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 187%\nSuper Armor Break: 96%\nSG Consumption: 35\nCooldown: 5 seconds",
+          "Effect": "[Skill Info]\nDamage: [187%]\nSuper Armor Break: [96%]\n\nSG Consumption: [35]\nCooldown: [5sec]",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 209%\nSuper Armor Break: 108%\nSG Consumption: 35\nCooldown: 5 seconds",
+          "Effect": "[Skill Info]\nDamage: [209%]\nSuper Armor Break: [108%]\n\nSG Consumption: [35]\nCooldown: [5sec]",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 231%\nSuper Armor Break: 119%\nSG Consumption: 35\nCooldown: 5 seconds",
+          "Effect": "[Skill Info]\nDamage: [231%]\nSuper Armor Break: [119%]\n\nSG Consumption: [35]\nCooldown: [5sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 267%\nSuper Armor Break: 138%\nSG Consumption: 35\nCooldown: 5 seconds",
+          "Effect": "[Skill Info]\nDamage: [267%]\nSuper Armor Break: [138%]\n\nSG Consumption: [35]\nCooldown: [5sec]",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SpinCutter-ExtraAttack"
+        "Skill03_SpinCutter-A"
       ]
     },
-    "BlowUp": {
+    "Skill04_BlowUp": {
       "Name": "Blow Up",
       "ID": 7,
       "Icon": "../assets/SkillIcons/Haru/Skill04_BlowUp.png",
       "Levels": {
         "0": {
-          "Description": "Use your special power to enhance your SG acquisition rate. All attacks that hit will be able to give additional SG.\nThe amount of SG gained will increase with monster grade/rank and the effect is applicable on up to 5 hits.",
+          "Description": "Your direct hits generate additional SG. You receive more SG from higher monster ranks. Applies to up to 5 characters.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blow Up.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill04_BlowUp.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Buff effect: 1.0% SG per hit\nBuff Duration: 20 seconds\nSG Consumption: 80\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nBuff effect: Super Armor Break: +[4%], on direct hit +[1%] SG\nBuff duration: [50sec]\nSG consumption: [50]\nCooldown: [70sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Buff effect: 1.2% SG per hit\nBuff Duration: 20 seconds\nSG Consumption: 80\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nBuff effect: Super Armor Break: +[8%], on direct hit +[1.2%] SG\nBuff duration: [50sec]\nSG consumption: [50]\nCooldown: [70sec]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Buff effect: 1.6% SG per hit\nBuff Duration: 20 seconds\nSG Consumption: 80\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nBuff effect: Super Armor Break: +[45%], on direct hit +[1.6%] SG\nBuff duration: [50sec]\nSG consumption: [50]\nCooldown: [70sec]",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Buff effect: 2.0% SG per hit\nBuff Duration: 20 seconds\nSG Consumption: 80\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nBuff effect: Super Armor Break: +[16%], on direct hit +[2%] SG\nBuff duration: [50sec]\nSG consumption: [50]\nCooldown: [70sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Buff effect: 3.0% SG per hit\nBuff Duration: 20 seconds\nSG Consumption: 80\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nBuff effect: Super Armor Break: +[20%], on direct hit +[3%] SG\nBuff duration: [50sec]\nSG consumption: [50]\nCooldown: [70sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BladeQuake": {
-      "Name": "Blade Quake",
+    "Skill05_Bladequake": {
+      "Name": "Bladequake",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Haru/Skill05_BladeQuake.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill05_Bladequake.png",
       "Levels": {
         "0": {
-          "Description": "Push the sword through the ground, summoning multiple swords to deal damage.",
+          "Description": "Rapidly slam the Soulum into the ground and summon the Soul Blade to carry out multiple Attacks.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill05_Bladequake.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 212%\nSuper Armor Break:444%\nSG Consumption: 45\nCooldown: 16 seconds",
+          "Effect": "[Skill Info]\nDamage: [551%]\nSuper Armor Break: [692%]\nSG Consumption: [45]\nCooldown: [16sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 223%\nSuper Armor Break:466%\nSG Consumption: 45\nCooldown: 16 seconds",
+          "Effect": "[Skill Info]\nDamage: [579%]\nSuper Armor Break: [727%]\nSG Consumption: [45]\nCooldown: [16sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 249%\nSuper Armor Break:522%\nSG Consumption: 45\nCooldown: 16 seconds",
+          "Effect": "[Skill Info]\nDamage: [646%]\nSuper Armor Break: [814%]\nSG Consumption: [45]\nCooldown: [16sec]",
           "RequiredLevel": 14,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 279%\nSuper Armor Break:577%\nSG Consumption: 45\nCooldown: 16 seconds",
+          "Effect": "[Skill Info]\nDamage: [718%]\nSuper Armor Break: [900%]\nSG Consumption: [45]\nCooldown: [16sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 318%\nSuper Armor Break:666%\nSG Consumption: 45\nCooldown: 16 seconds",
+          "Effect": "[Skill Info]\nDamage: [827%]\nSuper Armor Break: [1039%]\nSG Consumption: [45]\nCooldown: [16sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "BladeQuake-KnockOut"
+        "Skill05_Bladequake-A"
       ]
     },
-    "BladeQuake-KnockOut": {
+    "Skill05_Bladequake-A": {
       "Visible": false,
-      "Name": "Knock Out",
+      "Name": "Stun",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Haru/Skill05_BladeQuake_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill05_Bladequake_A.png",
       "Levels": {
         "0": {
-          "Description": "All enemies hit by the skill will be stunned.",
+          "Description": "Amplified the dealt damage and stuns affected enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Quake_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill05_Bladequake_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stun Duration: 3 Seconds",
+          "Effect": "[SoulPIus Info]\nDamage: [992%]\nSuper Armor Break: [1245%]\nDebuff Effect: Stun\nDebuff Duration: [3sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Stun Duration: 4 Seconds",
+          "Effect": "[SoulPIus Info]\nDamage: [1188%]\nSuper Armor Break: [1495%]\nDebuff Effect: Stun\nDebuff Duration: [3sec]",
           "RequiredLevel": 27,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Stun Duration: 5 Seconds",
+          "Effect": "[SoulPIus Info]\nDamage: [1425%]\nSuper Armor Break: [1793%]\nDebuff Effect: Stun\nDebuff Duration: [3sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "BladeWall": {
+    "Skill06_BladeWall": {
       "Name": "Blade Wall",
       "ID": 10,
       "Icon": "../assets/SkillIcons/Haru/Skill06_BladeWall.png",
       "Levels": {
         "0": {
-          "Description": "Summoned swords will damage enemies and pull them towards the player.",
+          "Description": "Summon a giant Soul blade to drag enemies towards you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Wall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill06_BladeWall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 149%\nSuper Armor Break: 310%\nSG Consumption: 40\nCooldown: 12 seconds",
+          "Effect": "[Skill Info]\nDamage: [149%]\nSuper Armor Break: [310%]\nSG Consumption: [40]\nCooldown: [12sec]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 157%\nSuper Armor Break: 326%\nSG Consumption: 40\nCooldown: 12 seconds",
+          "Effect": "[Skill Info]\nDamage: [157%]\nSuper Armor Break: [326%]\nSG Consumption: [40]\nCooldown: [12sec]",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 175%\nSuper Armor Break: 364%\nSG Consumption: 40\nCooldown: 12 seconds",
+          "Effect": "[Skill Info]\nDamage: [175%]\nSuper Armor Break: [364%]\nSG Consumption: [40]\nCooldown: [12sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 194%\nSuper Armor Break: 403%\nSG Consumption: 40\nCooldown: 12 seconds",
+          "Effect": "[Skill Info]\nDamage: [194%]\nSuper Armor Break: [406%]\nSG Consumption: [40]\nCooldown: [12sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 224%\nSuper Armor Break: 465%\nSG Consumption: 40\nCooldown: 12 seconds",
+          "Effect": "[Skill Info]\nDamage: [224%]\nSuper Armor Break: [465%]\nSG Consumption: [40]\nCooldown: [12sec]",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "PowerSlash": {
+    "Skill07_PowerSlash": {
       "Name": "Power Slash",
       "ID": 11,
       "Icon": "../assets/SkillIcons/Haru/Skill07_PowerSlash.png",
       "Levels": {
         "0": {
-          "Description": "Slashes frontward with great power.",
+          "Description": "Furiously slam the ground with Soulum, inflicting damages to enemies in wide range of area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Power Slash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill07_PowerSlash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 455%\nSuper Armor Break: 262%\nSG Consumption: 60\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [1006%]\nSuper Armor Break: [869%]\nSG Consumption: [50]\nCooldown: [15sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 478%\nSuper Armor Break: 276%\nSG Consumption: 60\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [1057%]\nSuper Armor Break: [915%]\nSG Consumption: [50]\nCooldown: [15sec]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 535%\nSuper Armor Break: 308%\nSG Consumption: 60\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [1182%]\nSuper Armor Break: [1021%]\nSG Consumption: [50]\nCooldown: [15sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 592%\nSuper Armor Break: 341%\nSG Consumption: 60\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [1308%]\nSuper Armor Break: [1131%]\nSG Consumption: [50]\nCooldown: [15sec]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 683%\nSuper Armor Break: 394%\nSG Consumption: 60\nCooldown: 15 seconds",
+          "Effect": "[Skill Info]\nDamage: [1510%]\nSuper Armor Break: [1306%]\nSG Consumption: [50]\nCooldown: [15sec]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "LeapAttack": {
+    "Skill08_LeapAttack": {
       "Name": "Leap Attack",
       "ID": 12,
       "Icon": "../assets/SkillIcons/Haru/Skill08_LeapAttack.png",
       "Levels": {
         "0": {
-          "Description": "Leap forward and slam the ground, launching the enemies into the air. Hold the skill button to charge the skill and leap further.",
+          "Description": "Leap forwards and strike the ground with force as you land.\nThe leap distance depends on the charge time. Enemies at your landing point received an additional damage that increased by 100%",
           "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill08_LeapAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 392%\nSuper Armor Break: 629%\nSG Consumption: 50\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Spread Damage]\nDamage: [392%]\nSuper Armor Break: [629%]\n\n[Skill Info: Additional Damage on Core]\nDamage: [392%]\nSuper Armor Break: [629%]\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 411%\nSuper Armor Break: 660%\nSG Consumption: 50\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Spread Damage]\nDamage: [411%]\nSuper Armor Break: [660%]\n\n[Skill Info: Additional Damage on Core]\nDamage: [411%]\nSuper Armor Break: [660%]\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 460%\nSuper Armor Break: 739%\nSG Consumption: 50\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Spread Damage]\nDamage: [460%]\nSuper Armor Break: [739%]\n\n[Skill Info: Additional Damage on Core]\nDamage: [460%]\nSuper Armor Break: [739%]\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 509%\nSuper Armor Break: 817%\nSG Consumption: 50\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Spread Damage]\nDamage: [509%]\nSuper Armor Break: [817%]\n\n[Skill Info: Additional Damage on Core]\nDamage: [509%]\nSuper Armor Break: [817%]\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 588%\nSuper Armor Break: 943%\nSG Consumption: 50\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Spread Damage]\nDamage: [588%]\nSuper Armor Break: [943%]\n\n[Skill Info: Additional Damage on Core]\nDamage: [588%]\nSuper Armor Break: [943%]\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "LeapAttack-ExtraAttack",
-        "LeapAttack-RangeIncrease"
+        "Skill08_LeapAttack-A",
+        "Skill08_LeapAttack-B"
       ]
     },
-    "LeapAttack-ExtraAttack": {
+    "Skill08_LeapAttack-A": {
       "Visible": false,
-      "Name": "Extra Attack",
+      "Name": "Additional Hit",
       "ID": 13,
       "Icon": "../assets/SkillIcons/Haru/Skill08_LeapAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "There will be more attacks, increasing hitcount.",
+          "Description": "Inflicts more blows.\nx[1.5] Additional Damage and Super Armor Break to enemies located in the core point of strike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill08_LeapAttack_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 102%\nSuper Armor Break: 172%",
+          "Effect": "[SoulPlus Info: Spread Damage]\nDamage: [690%]\nSuper Armor Break: [1250%]\n\n[SoulPlus Info: Additional Damage On Core]\nDamage: [1035%]\nSuper Armor Break: [1875%]\n\n[SoulPlus Info: Basic]Hit count: [7]",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 171%\nSuper Armor Break: 283%",
+          "Effect": "[SoulPlus Info: Spread Damage]\nDamage: [759%]\nSuper Armor Break: [1374%]\n\n[SoulPlus Info: Additional Damage On Core]\nDamage: [1139%]\nSuper Armor Break: [2061%]\n\n[SoulPlus Info: Basic]Hit count: [8]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 285%\nSuper Armor Break: 470%",
+          "Effect": "[SoulPlus Info: Spread Damage]\nDamage: [873%]\nSuper Armor Break: [1584%]\n\n[SoulPlus Info: Additional Damage On Core]\nDamage: [1310%]\nSuper Armor Break: [2376%]\n\n[SoulPlus Info: Basic]Hit count: [9]",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "LeapAttack-RangeIncrease": {
+    "Skill08_LeapAttack-B": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "Range Up",
       "ID": 14,
       "Icon": "../assets/SkillIcons/Haru/Skill08_LeapAttack_B.png",
       "Levels": {
         "0": {
-          "Description": "Attack range is increased. Slam impact attack range increased.",
+          "Description": "Expands the area of Attack of Spread Damage and Additional Damage on Core.\nAdditional Damage to enemies located in the core point of strike.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Leap Attack_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill08_LeapAttack_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Additional Effect]\nAttack range is increased",
+          "Effect": "[SoulPlus Info: Spread Damage]\nDamage: [1035%]\nSuper Armor Break: [1757%]\n\n[SoulPlus Info: Additional Damage on Core]\nDamage: [690%]\nSuper Armor Break: [1171%]",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 58%\nSuper Armor Break: 95%\n[Additional Effect]\nAttack range is increased",
+          "Effect": "[SoulPlus Info: Spread Damage]\nDamage: [1139%]\nSuper Armor Break: [1931%]\n\n[SoulPlus Info: Additional Damage on Core]\nDamage: [759%]\nSuper Armor Break: [1287%]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 176%\nSuper Armor Break: 183%\n[Additional Effect]\nAttack range is increased",
+          "Effect": "[SoulPlus Info: Spread Damage]\nDamage: [1310%]\nSuper Armor Break: [2226%]\n\n[SoulPlus Info: Additional Damage on Core]\nDamage: [873%]\nSuper Armor Break: [1484%]",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "ArenaRush": {
+    "Skill09_ArenaRush": {
       "Name": "Arena Rush",
       "ID": 15,
       "Icon": "../assets/SkillIcons/Haru/Skill09_ArenaRush.png",
       "Levels": {
         "0": {
-          "Description": "Create an enhancing field in a set radius. All party members within the area will have increased damage.",
+          "Description": "Summon a Soul blade in the air and ram it into the ground, generating a buff aura that increases you and your allies Attack Damage.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Arena Rush.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill09_ArenaRush.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 100%\nSuper Armor Break: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 7%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Consumption: 50\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[1%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[5%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 100%\nSuper Armor Break: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 9%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Consumption: 50\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[2%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[6%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 100%\nSuper Armor Break: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 12%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Consumption: 50\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[3%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[7%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 100%\nSuper Armor Break: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 15%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Consumption: 50\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[4%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[8%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 100%\nSuper Armor Break: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 20%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Consumption: 50\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[5%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[10%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "ArenaRush-DurationIncrease",
-        "ArenaRush-KnockOut"
+        "Skill09_ArenaRush-A",
+        "Skill09_ArenaRush-B"
       ]
     },
-    "ArenaRush-DurationIncrease": {
+    "Skill09_ArenaRush-A": {
       "Visible": false,
-      "Name": "Duration Increase",
+      "Name": "Duration Up",
       "ID": 16,
       "Icon": "../assets/SkillIcons/Haru/Skill09_ArenaRush_A.png",
       "Levels": {
         "0": {
-          "Description": "Area duration increased.",
+          "Description": "Expands the range of buff area and increases its duration.\nAn effect of reduced SG consumption is added to the buff area.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/Skill09_ArenaRush_A.{{auto}}"
+          }
         },
         "1": {
-          "Effect": "Duration: +4 seconds",
+          "Effect": "[SoulPlus Info]\nIncreased buff area duration value: [5sec]\n\n[Buff Info: Party]\nSG Consumption reduced: -[10%]\nDuration: [3sec]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Duration: +6 seconds",
+          "Effect": "[SoulPlus Info]\nIncreased buff area duration value: [7sec]\n\n[Buff Info: Party]\nSG Consumption reduced: -[12%]\nDuration: [3sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Duration: +9 seconds",
+          "Effect": "[SoulPlus Info]\nIncreased buff area duration value: [10sec]\n\n[Buff Info: Party]\nSG Consumption reduced: -[15%]\nDuration: [3sec]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "ArenaRush-KnockOut": {
+    "Skill09_ArenaRush-B": {
       "Visible": false,
-      "Name": "Knock Out",
+      "Name": "Stun",
       "ID": 17,
       "Icon": "../assets/SkillIcons/Haru/Skill09_ArenaRush_B.png",
       "Levels": {
         "0": {
-          "Description": "All hit enemies will be stunned for a brief moment.",
+          "Description": "A Buff area does not exist; instead, Buff duration is increased.\nStun Effect is launched on attacked enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/B_Skill_ArenaRush_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill09_ArenaRush_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stun Duration: 1 second",
+          "Effect": "[Buff Info: Party]\nBuff Effect: Attack Damage +[5%]\nBuff Duration: [30sec]\n\n[Buff Info: Self]\nBuff Effect: Attack Damage: +[10%]\nBuff Duration: [30sec]\n\n[SoulPlus Info: Additional Attack]\nDebuff Effect: Stun\nDebuff Duration: [1sec]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Stun Duration: 2 seconds",
+          "Effect": "[Buff Info: Party]\nBuff Effect: Attack Damage +[5%]\nBuff Duration: [30sec]\n\n[Buff Info: Self]\nBuff Effect: Attack Damage: +[10%]\nBuff Duration: [30sec]\n\n[SoulPlus Info: Additional Attack]\nDebuff Effect: Stun\nDebuff Duration: [2sec]",
           "RequiredLevel": 43,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Stun Duration: 3 seconds",
+          "Effect": "[Buff Info: Party]\nBuff Effect: Attack Damage +[5%]\nBuff Duration: [30sec]\n\n[Buff Info: Self]\nBuff Effect: Attack Damage: +[10%]\nBuff Duration: [30sec]\n\n[SoulPlus Info: Additional Attack]\nDebuff Effect: Stun\nDebuff Duration: [3sec]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FlashStep": {
+    "Skill10_FlashStep": {
       "Name": "Flash Step",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Haru/Skill010_FlashStep.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill10_FlashStep.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly leap backwards, summoning a sword imbued with supernatural powers and firing it frontward.",
+          "Description": "Dodge backwards with lightning speed, enchanting Soul Energy to Soulum and throw it towards the enemy.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill10_FlashStep.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 468%\nSuper Armor Break: 605%\nSG Consumption: 35\nCooldown: 20 seconds",
+          "Effect": "[Skill Info]nDamage: [562%]\nSuper Armor Break: [726%]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 491%\nSuper Armor Break: 635%\nSG Consumption: 35\nCooldown: 20 seconds",
+          "Effect": "[Skill Info]nDamage: [589%]\nSuper Armor Break: [762%]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 550%\nSuper Armor Break: 710%\nSG Consumption: 35\nCooldown: 20 seconds",
+          "Effect": "[Skill Info]nDamage: [660%]\nSuper Armor Break: [852%]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 608%\nSuper Armor Break: 768%\nSG Consumption: 35\nCooldown: 20 seconds",
+          "Effect": "[Skill Info]nDamage: [730%]\nSuper Armor Break: [943%]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 702%\nSuper Armor Break: 907%\nSG Consumption: 35\nCooldown: 20 seconds",
+          "Effect": "[Skill Info]nDamage: [842%]\nSuper Armor Break: [1088%]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "FlashStep-HeavyAttack"
+        "Skill10_FlashStep-A"
       ]
     },
-    "CrossStrike": {
+    "Skill11_CrossStrike": {
       "Name": "Cross Strike",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Haru/Skill011_CrossStrike.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill11_CrossStrike.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Slash in a X pattern mid-air and fire strong sword energy. The sword energy will explode on the ground and deal additional damage.",
+          "Description": "Unleash mighty sword aura, penetrating enemies from the air multiple times.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill11_CrossStrike.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per slash: 98%\nSuper Armor Break per slash: 74%\nSG Consumption: 45\nCooldown: 30 seconds",
+          "Effect": "[Skill Info]\nDamage per Hit: [98%]\nSuper Armor Break per Hit: [74%]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per slash: 102%\nSuper Armor Break per slash: 77%\nSG Consumption: 45\nCooldown: 30 seconds",
+          "Effect": "[Skill Info]\nDamage per Hit: [102%]\nSuper Armor Break per Hit: [77%]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per slash: 114%\nSuper Armor Break per slash: 86%\nSG Consumption: 45\nCooldown: 30 seconds",
+          "Effect": "[Skill Info]\nDamage per Hit: [114%]\nSuper Armor Break per Hit: [86%]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage per slash: 126%\nSuper Armor Break per slash: 96%\nSG Consumption: 45\nCooldown: 30 seconds",
+          "Effect": "[Skill Info]\nDamage per Hit: [126%]\nSuper Armor Break per Hit: [96%]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per slash: 146%\nSuper Armor Break per slash: 110%\nSG Consumption: 45\nCooldown: 30 seconds",
+          "Effect": "[Skill Info]\nDamage per Hit: [146%]\nSuper Armor Break per Hit: [110%]\nSG Consumption: [45]\nCooldown: [30sec]",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "CrossStrike-Blaze"
+        "Skill11_CrossStrike-A"
       ]
     },
-    "CrossStrike-Blaze": {
+    "Skill11_CrossStrike-A": {
       "Visible": false,
       "Name": "Blaze",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Haru/Skill011_CrossStrike_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill11_CrossStrike_A.png",
       "Levels": {
         "0": {
-          "Description": "A burning zone will appear when the sword energy explodes on the ground.",
+          "Description": "When the sword aura hits the ground, it generates additional burning field.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Cross Strike_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill11_CrossStrike_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Increased Damage]\nDamage: -28%\nSuper Armor Break: -21%\n{Burning Zone}\nDamage: 45%\nSuper Armor Break: 34%",
+          "Effect": "[SoulPlus Info]\nDamage Reduction per Hit: [28%]\nSuper Armor Break Reduction per Hit: [21%]\nGenerates a burning field for [3sec]\nBurning field Damage per sec: [45%]\nBurning field Super Armor Break per sec: [34%]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Increased Damage]\nDamage: +13%\nSuper Armor Break: +10%\n{Burning Zone}\nDamage: 50%\nSuper Armor Break: 38%",
+          "Effect": "[SoulPlus Info]\nDamage Reduction per Hit: [13%]\nSuper Armor Break Reduction per Hit: [10%]\nGenerates a burning field for [3sec]\nBurning field Damage per sec: [50%]\nBurning field Super Armor Break per sec: [38%]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Increased Damage]\nDamage: +23%\nSuper Armor Break: +17%\n{Burning Zone}\nDamage: 62%\nSuper Armor Break: 47%",
+          "Effect": "[SoulPlus Info]\nIncreased Damage value per Hit: +[23%]\nIncreased Super Armor Break value per Hit: +[17%]\nGenerates a burning field for [3sec]\nBurning field Damage per sec: [62%]\nBurning field Super Armor Break per sec: [47%]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "WindBreak": {
+    "Skill12_WindBreak": {
       "Name": "Wind Break",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Haru/Skill012_WindBreak.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill12_WindBreak.png",
       "Levels": {
         "0": {
-          "Description": "Charge your sword with energy behind your back , then release it. The sword energy flies in a straight line while penetrating enemies.",
+          "Description": "Draw the Soulum to unleash the sword aura to front area.\nEnable to charge an additional sword aura.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill12_WindBreak.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 466%\nSuper Armor Break: 444%\nSG Consumption: 50\nCooldown: 35 seconds",
+          "Effect": "[Skill Info: Sword Aura]\nDamage per Hit: [466%]\nSuper Armor Break: [444%]\n[Skill Info: Additional Attack]\nDamage per hit: [326%]\nSuper Armor Break: [310%]\n\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 489%\nSuper Armor Break: 466%\nSG Consumption: 50\nCooldown: 35 seconds",
+          "Effect": "[Skill Info: Sword Aura]\nDamage per Hit: [489%]\nSuper Armor Break: [466%]\n[Skill Info: Additional Attack]\nDamage per hit: [342%]\nSuper Armor Break: [326%]\n\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 548%\nSuper Armor Break: 522%\nSG Consumption: 50\nCooldown: 35 seconds",
+          "Effect": "[Skill Info: Sword Aura]\nDamage per Hit: [548%]\nSuper Armor Break: [522%]\n[Skill Info: Additional Attack]\nDamage per hit: [383%]\nSuper Armor Break: [365%]\n\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 606%\nSuper Armor Break: 577%\nSG Consumption: 50\nCooldown: 35 seconds",
+          "Effect": "[Skill Info: Sword Aura]\nDamage per Hit: [606%]\nSuper Armor Break: [577%]\n[Skill Info: Additional Attack]\nDamage per hit: [424%]\nSuper Armor Break: [404%]\n\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 46,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 699%\nSuper Armor Break: 666%\nSG Consumption: 50\nCooldown: 35 seconds",
+          "Effect": "[Skill Info: Sword Aura]\nDamage per Hit: [699%]\nSuper Armor Break: [666%]\n[Skill Info: Additional Attack]\nDamage per hit: [489%]\nSuper Armor Break: [466%]\n\nSG Consumption: [50]\nCooldown: [35sec]",
           "RequiredLevel": 50,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "WindBreak-Rush"
+        "Skill12_WindBreak-A"
       ]
     },
-    "WindBreak-Rush": {
+    "Skill12_WindBreak-A": {
       "Visible": false,
       "Name": "Rush",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Haru/Skill012_WindBreak_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill12_WindBreak_A.png",
       "Levels": {
         "0": {
-          "Description": "Fires sword waves for a certain period of time.",
+          "Description": "Sword Aura can be fired immediately without Charging.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill12_WindBreak_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Maximum Waves: 2",
+          "Description": "Sword Aura can be fired immediately without Charging.",
+          "Effect": "[SoulPlus Info: Sword Aura]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]\n\n[SoulPlus Info: Final Attack]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]\n\nMax. Attack Count: [3]",
           "RequiredLevel": 50,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Maximum Waves: 3",
+          "Description": "Enable to unlease countless sword aura in limited time.",
+          "Effect": "[SoulPlus Info: Sword Aura]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]\n\n[SoulPlus Info: Final Attack]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]",
           "RequiredLevel": 55,
           "RequiredSP": 1,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Wind Break_Attack_A.{{auto}}"
-          }
+          "ReqSPkr": 0
         }
       }
     },
-    "BladeShower": {
+    "Skill13_BladeShower": {
       "Name": "Blade Shower",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Haru/Skill013_BladeShower.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill13_BladeShower.png",
       "Levels": {
         "0": {
-          "Description": "Throw your sword upwards, summoning a torrential rain of energy swords. Very large AoE.",
+          "Description": "Throw the Soulum into the air and generate a blade rain storm.\nThose blades fall like a rain, powerfully attacking enemies in wide range of area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Shower.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill13_BladeShower.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 1678%\nSuper Armor Break: 1721%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [2098%]\nSuper Armor Break: [2237%]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 1761%\nSuper Armor Break: 1808%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [2201%]\nSuper Armor Break: [2305%]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 1971%\nSuper Armor Break: 2023%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [2464%]\nSuper Armor Break: [2630%]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 2181%\nSuper Armor Break: 2238%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [2726%]\nSuper Armor Break: [2909%]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 2516%\nSuper Armor Break: 2582%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [3145%]\nSuper Armor Break: [3357%]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "BladeShower-Quickening"
+        "Skill13_BladeShower-A"
       ]
     },
-    "BladeShower-Quickening": {
+    "Skill13_BladeShower-A": {
       "Visible": false,
       "Name": "Quickening",
       "ID": 29,
-      "Icon": "../assets/SkillIcons/Haru/Skill013_BladeShower_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill13_BladeShower_A.png",
       "Levels": {
         "0": {
-          "Description": "The number of hits increases according to attack speed.",
+          "Description": "As the attacl speed becomes faster, the number of hits increases and the Destructive Strike's number of hits and range increases as well.\nYou can use the Destructive Strike immeduately by clicking the right mouse button.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Blade Shower_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill13_BladeShower_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attribute Information: Sword Storm]\nDamage per hit [315%]\nSuper Armor Break per hit[346%]\n[Attribute Information: Final Attack]\nDamage [1258%]\nSuper Armor Break [1343%]",
+          "Effect": "[SoulPlus Info: Sword Flurry]\nDamage per Hit: [315%]\nSuper Armor Break per Hit: [346%]\n[SoulPlus Info: Destructive Strike]\nDamage: [1258%]\nSuper Armor Break: [1343%]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attribute Information: Sword Storm]\nDamage per hit [346%]\nSuper Armor Break per hit[369%]\n[Attribute Information: Final Attack]\nDamage [1384%]\nSuper Armor Break [1477%]",
+          "Effect": "[SoulPlus Info: Sword Flurry]\nDamage per Hit: [346%]\nSuper Armor Break per Hit: [369%]\n[SoulPlus Info: Destructive Strike]\nDamage: [1384%]\nSuper Armor Break: [1477%]",
           "RequiredLevel": 70,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attribute Information: Sword Storm]\nDamage per hit [398%]\nSuper Armor Break per hit[425%]\n[Attribute Information: Final Attack]\nDamage [1592%]\nSuper Armor Break [1699%]",
+          "Effect": "[SoulPlus Info: Sword Flurry]\nDamage per Hit: [398%]\nSuper Armor Break per Hit: [425%]\n[SoulPlus Info: Destructive Strike]\nDamage: [1592%]\nSuper Armor Break: [1699%]",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
       }
     },
-    "SpinCutter-ExtraAttack": {
+    "Skill03_SpinCutter-A": {
       "Visible": false,
-      "Name": "Extra Attack",
+      "Name": "Pursuit",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Skill03_SpinAttack_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill03_SpinCutter_A.png",
       "Levels": {
         "0": {
-          "Description": "Chase enemies after the spin cutter.",
+          "Description": "Chasing enemies to use follow attack with extra commands.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Spin Cutter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill03_SpinCutter_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 267%\nSuper Armor Break: 138%",
+          "Effect": "[SoulPlus Info]\nDamage: [354%]\nSuper Armor Break: [149%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [354%]\nSuper Armor Break: [149%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 294%\nSuper Armor Break: 152%",
+          "Effect": "[SoulPlus Info]\nDamage: [407%]\nSuper Armor Break: [635%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [407%]\nSuper Armor Break: [635%]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 347%\nSuper Armor Break: 179%",
+          "Effect": "[SoulPlus Info]\nDamage: [513%]\nSuper Armor Break: [801%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [513%]\nSuper Armor Break: [801%]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FlashStep-HeavyAttack": {
+    "Skill10_FlashStep-A": {
       "Visible": false,
-      "Name": "Heavy Attack",
+      "Name": "Weightness",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Skill010_FlashStep_A.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill10_FlashStep_A.png",
       "Levels": {
         "0": {
-          "Description": "Attach the small sword to the big one and then throw it.",
+          "Description": "Combine the katana and Soulum to throw ahead.\nThe damage increases massively.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Flash Step_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill10_FlashStep_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 702%\nSuper Armor Break: 907%",
+          "Effect": "[SoulInfo Plus]\nDamage: [1673%]\nSuper Armor Break: [1170%]\nDebuff: Stun [sec]\nCooldown: [20sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 770%\nSuper Armor Break: 1000%",
+          "Effect": "[SoulInfo Plus]\nDamage: [1924%]\nSuper Armor Break: [1346%]\nDebuff: Stun [sec]\nCooldown: [20sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 912%\nSuper Armor Break: 1180%",
+          "Effect": "[SoulInfo Plus]\nDamage: [2425%]\nSuper Armor Break: [1679%]\nDebuff: Stun [3.2sec]\nCooldown: [20sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SwordFall": {
-      "Name": "Sword Fall",
+    "Skill15_SwordsFall": {
+      "Name": "Swords Fall",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Skill015_Swordsfall.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill15_Swordsfall.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Immediately land then generate a small sword rain on the area around Haru.",
+          "Description": "Slamming enemies in the air, summoning katana to Attack enemies nearby.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_SwardFall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill15_Swordsfall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 1678%\nSuper Armor Break: 1721%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [1368%]\nSuper Armor Break: [1920%]\nSG Consumption: [75]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 1761%\nSuper Armor Break: 1808%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [1440%]\nSuper Armor Break: [2016%]\nSG Consumption: [75]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 1971%\nSuper Armor Break: 2023%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [1572%]\nSuper Armor Break: [2208%]\nSG Consumption: [75]\nCooldown: [30sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 2181%\nSuper Armor Break: 2238%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [1776%]\nSuper Armor Break: [2496%]\nSG Consumption: [75]\nCooldown: [30sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 2517%\nSuper Armor Break: 2582%\nSG Consumption: 75\nCooldown: 45 seconds",
+          "Effect": "[Skill Info]\nDamage: [2052%]\nSuper Armor Break: [2880%]\nSG Consumption: [75]\nCooldown: [30sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "SlashingWarfare": {
+    "Skill16_SlashingWarfare": {
       "Name": "Slashing Warfare",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Skill016_Warfare.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill16_SlashingWarfare.png",
       "Levels": {
         "0": {
-          "Description": "After rushing to make two swords cross and attacking rushing, add a rotational attack towards the back and draw enemies.",
+          "Description": "Rush Attack after X shaped Slash.\n(Extra Control after Rush Attack)\nTurning backwards to Follow Up Attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_Slashing Warfare.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill16_SlashingWarfare.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 320%\nSuper Armor Break: 300%\nSG Consumption: 30\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Rush Attack]\nDamage: [1905%]\nSuper Armor Break: [956%]\n\n[Skill Info: Follow Up Attack]\nDamage: [190%]\nSuper Armor Break: [95%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 330%\nSuper Armor Break: 315%\nSG Consumption: 30\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Rush Attack]\nDamage: [2097%]\nSuper Armor Break: [1053%]\n\n[Skill Info: Follow Up Attack]\nDamage: [209%]\nSuper Armor Break: [105%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 368%\nSuper Armor Break: 345%\nSG Consumption: 30\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Rush Attack]\nDamage: [2349%]\nSuper Armor Break: [1180%]\n\n[Skill Info: Follow Up Attack]\nDamage: [234%]\nSuper Armor Break: [118%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: 416%\nSuper Armor Break: 390%\nSG Consumption: 30\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Rush Attack]\nDamage: [2679%]\nSuper Armor Break: [1346%]\n\n[Skill Info: Follow Up Attack]\nDamage: [267%]\nSuper Armor Break: [134%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: 480%\nSuper Armor Break: 450%\nSG Consumption: 30\nCooldown: 20 seconds",
+          "Effect": "[Skill Info: Rush Attack]\nDamage: [3090%]\nSuper Armor Break: [1553%]\n\n[Skill Info: Follow Up Attack]\nDamage: [309%]\nSuper Armor Break: [155%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Trollsverd": {
+    "Skill14_Trollsverd": {
       "Name": "Trollsverd",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Haru/Skill014_Trollsverd.png",
+      "Icon": "../assets/SkillIcons/Haru/Skill14_Trollsverd.png",
       "Levels": {
         "0": {
-          "Description": "?",
+          "Description": "Creates a lightsaver called 'Trollsverd' with your Soul Energy, striking enemies in front of you.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/B_Skill_Trollsverd.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/Skill14_Trollsverd.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Bash Attack]\nDamage: [2154%]\nSuper Armor Break: [2375%]\n\n[Skill Info: Rear Explosion]\nDamage per Hit: [215%]\nSuper Armor Break per Hit: [238%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [40sec]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Bash Attack]\nDamage: [2370%]\nSuper Armor Break: [2614%]\n\n[Skill Info: Rear Explosion]\nDamage per Hit: [237%]\nSuper Armor Break per Hit: [261%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [40sec]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Bash Attack]\nDamage: [2654%]\nSuper Armor Break: [2928%]\n\n[Skill Info: Rear Explosion]\nDamage per Hit: [265%]\nSuper Armor Break per Hit: [293%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [40sec]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },        
         "4": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Bash Attack]\nDamage: [3026%]\nSuper Armor Break: [3338%]\n\n[Skill Info: Rear Explosion]\nDamage per Hit: [303%]\nSuper Armor Break per Hit: [334%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [40sec]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },        
         "5": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "[Skill Info: Bash Attack]\nDamage: [3489%]\nSuper Armor Break: [3849%]\n\n[Skill Info: Rear Explosion]\nDamage per Hit: [348%]\nSuper Armor Break per Hit: [384%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [40sec]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BasicAttackMastery": {
+    "Skill17_SunRevolve": {
+      "Name": "Sun Revolve",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Haru/Skill17_SunRevolve.png",
+      "Levels": {
+        "0": {
+          "Description": "Rise in the air and summon the Swords of light with soul energy.\nCut down enemies around your character for a certain amount of time.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Haru/Skill17_SunRevolve.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info]\nDamage per Hit: [136%]\nSuper Armor Break per Hit: [134%]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1194%]\nBuff Additional Super Armor Break: [1274%]\nSG Consumption: [50]\nCooldown: [40sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info]\nDamage per Hit: [149%]\nSuper Armor Break per Hit: [148%]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1194%]\nBuff Additional Super Armor Break: [1274%]\nSG Consumption: [50]\nCooldown: [40sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info]\nDamage per Hit: [167%]\nSuper Armor Break per Hit: [165%]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1194%]\nBuff Additional Super Armor Break: [1274%]\nSG Consumption: [50]\nCooldown: [40sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": "P0",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
@@ -1138,86 +1322,96 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Attack_01.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "SG Gain + 20%.\nUnlock alternative attack “A”.",
+          "Effect": "[Skill Info]\nSG Gain +[20%].\n\nEnable to use SoulStrike A.",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain: + 70%.\nUnlock additional basic attack.",
+          "Effect": "[Skill Info]\nSG Gain: +[70%].\n\nEnable to use SoulStrike B.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain: + 120%\nUnlock alternative attack “B”.\nUnlock additional aerial attack.",
+          "Effect": "[Skill Info]\nSG Gain: +[120%]\nEnable to use an addional strike for the Basic Attack.\nEnable to use an additional strike for the Aerial Attack.",
           "RequiredLevel": 15,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Attack_04.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Attack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "SG Gain: + 200%\nUnlock alternative attack “C”.",
+          "Effect": "[Skill Info]\nSG Gain: +[200%]\n\nEnable to use SoulStrike C..",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Haru/B_Attack_05.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": "P1",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Haru/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
-          "Description": "Launch enemies within a certain range in midair.\nWhen used midair, unleash a fast dive kick.",
+          "Description": "Lift enemies in a specific range up into the air and to slow them.\nIf you use the skill in the air, you will perform quick kick when landing.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Ground]\nDamage: 175%\nSuper Armor Break: 140%\n\n[Midair]\nDamage:229%\nSuper Armor Break: 170%\n\n[Common]\nCooldown: 10 sec",
+          "Effect": "[Skill Info: Ground]\nDamage: [175%]\nSuper Armor Break: [140%]\n\n[Skill Info: Aerial]\nDamage: [229%]\nSuper Armor Break: [170%]\n\n[Skill Info: Basic]\nCooldown: [10sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Ground]\nDamage: 184%\nSuper Armor Break: 147%\n\n[Midair]\nDamage:241%\nSuper Armor Break: 178%\n\n[Common]\nCooldown: 10 sec\nSG Gain: + 20%",
+          "Effect": "[Skill Info: Ground]\nDamage: [184%]\nSuper Armor Break: [147%]\n\n[Skill Info: Aerial]\nDamage: [241%]\nSuper Armor Break: [178%]\n\n[Skill Info: Basic]\nCooldown: [10sec]\nSG Gain: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "[Ground]\nDamage: 206%\nSuper Armor Break: 165%\n\n[Midair]\nDamage:270%\nSuper Armor Break: 200%\n\n[Common]\nCooldown: 10 sec\nSG Gain: + 70%",
+          "Effect": "[Skill Info: Ground]\nDamage: [206%]\nSuper Armor Break: [165%]\n\n[Skill Info: Aerial]\nDamage: [270%]\nSuper Armor Break: [200%]\n\n[Skill Info: Basic]\nCooldown: [10sec]\nSG Gain: +[70%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1226,21 +1420,23 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Evade_F.{{auto}}"
           }
         },
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1249,32 +1445,36 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Roll_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Roll_F.{{auto}}"
           }
         },
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": "P4",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1282,6 +1482,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Haru/B_Run_F.{{auto}}"
           }
@@ -1289,19 +1490,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1005,
+      "ID": "P5",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1310,32 +1513,36 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Rise_Attack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Rise_Attack.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1343,6 +1550,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Haru/B_N_Attack_Dash.{{auto}}"
           }
@@ -1350,14 +1558,15 @@
         "1": {
           "Effect": "Damage: [116%]\nSuper Armor Break: [46%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1365,31 +1574,35 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Special_Evade_F.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoulDashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "SoulDash Attack",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1397,143 +1610,161 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_S_Attack_N_Dash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 1
         }
       }
     },
-    "EternalCombination": {
+    "CSkill2_EndlessFight": {
       "Passive": true,
-      "Name": "Eternal Combination",
-      "ID": 1013,
+      "Name": "Endless Fight",
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Haru/Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Haru/CSkill2_EndlessFight.png",
       "Levels": {
         "0": {
-          "Description": "For every 20th combo, increases Attack for 20 seconds.\n(Max Stack: 5)",
+          "Description": "For every 20th combo, increases Attack Damage for [20sec].\n(Max Stack: 5)\nBuff Duration: [60sec] on Max. Stack.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "Attack: + 150 per stack",
+          "Effect": "[Skill Info]\nAttack Damage +[%]\nRecover [1] SV.",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "Attack: + 300 per stack",
+          "Effect": "[Skill Info]\nAttack Damage +[%]\nRecover [1] SV.",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "Attack: + 500 per stack",
+          "Effect": "[Skill Info]\nAttack Damage +[%]\nRecover [2] SV.",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "EndlessStruggle": {
+    "CSkill1_EndlessCombat": {
       "Passive": true,
-      "Name": "Endless Struggle",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Haru/Skill_SGPassive.png",
+      "Name": "Endless Combat",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Haru/CSkill1_EndlessCombat.png",
       "Levels": {
         "0": {
-          "Description": "Permanently increases Attack and Penetration.",
+          "Description": "Permanently increases Attack Damage and Armor Penetration.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "Passive Effect: Attack + 5%, Penetration + 2%",
+          "Effect": "[Skill Info]\nAttack Damage: +[15%]\nArmor Penetration: +[1%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "Passive Effect: Attack + 10%, Penetration + 4%",
+          "Effect": "[Skill Info]\nAttack Damage: +[30%]\nArmor Penetration: +[3%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "Passive Effect: Attack + 15%, Penetration + 6%",
+          "Effect": "[Skill Info]\nAttack Damage: +[50%]\nArmor Penetration: +[5%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SwordofRevenge": {
+    "CSkill0_CP": {
       "Passive": true,
-      "Name": "Sword of Revenge",
+      "Name": "Edge of Vengeance",
       "DefaultLevel": 1,
-      "ID": 1012,
+      "ID": "C0",
       "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG on hit using normal attacks.\nAutomatically gain SG on fixed intervals.",
+          "Description": "Recover SG when your basic attack succeeds.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nAutomatically recover SG in a certain length of time.",
           "RequiredLevel": 10,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "EXSkill": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
       "Name": "Extinction Prelude",
       "DefaultLevel": 1,
-      "ID": 2003,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1546,22 +1777,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/PC_A_B_Skill_EX.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/EXSkill_ExtinctionPrelude.{{auto}}"
           }
         },
         "1": {
           "Effect": "Can only be used in Awakening status.\nAwakening ends when using this.\n\n[Skill Info]\nDamage: [7650%]\nSuper Armor Break: [7950%]\nSV Gain: [10]",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
-      "ID": 2001,
+      "ID": "V0",
       "Icon": "../assets/SkillIcons/Haru/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
@@ -1570,22 +1803,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/NSkill1_Frenzy.{{auto}}"
           }
         },
         "1": {
           "Effect": "\n1st Stage Gauge Use (SV -50)\n\nAwakening: [30sec]\nMax. Damage set\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
-      "ID": 2002,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
@@ -1598,22 +1833,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "\n2st Stage Gauge Use (SV -100)\n\nAwakening: [60sec]\nMax. Damage set\nDamage reduction: [+25%]\nMovement Speed: [+20%]\nActivates Super Armor",
+          "Effect": "\n2nd Stage Gauge Use (SV -100)\n\nAwakening: [60sec]\nMax. Damage set\nDamage reduction: +[25%]\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
       "DefaultLevel": 1,
-      "ID": 2004,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1626,14 +1863,16 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Haru/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Haru/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
           "Effect": "\n2nd Phase Gauge Use(SV -100)\n\n[Skill Info]\nDesire Awakening: [60sec]\nInflict Damage +[20%]\nAttack Speed: +[20%]\nMax. Damage set.\nAgility: +[30%]\nActivates Super Armor\nSG Consumption: -[20%]\nActivates Burning Skill",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     }

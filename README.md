@@ -1,30 +1,20 @@
 # SoulWorker Skill Simulator
-This is the skill tree simulator for SoulWorker game which is developed by Lion Games.
+This is a Skilltree Simulator for the game SoulWorker, which is developed by Lion Games.
 The tree is developed with information source mainly from the Steam/Japanese and Korean Version of SoulWorker. Feel free to fork and edit it (and redistribute/republish) for other regions.
 
-[Use the simulator released on Github Pages](https://eden333.github.io/swskillsimu/).
+[Use the simulator released on Github Pages!](https://eden333.github.io/swskillsimu/).
 
 [CHANGELOG](https://github.com/Eden333/swskillsimu/blob/master/CHANGELOG)
 
 # Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
-  - ~~Changing the looks~~
-  - Adding mobile compatibility
-  - Cleaning Code up
-    - Preparations for Future Updates (enable when it comes)
-    - Adding Version Selection 
-    - Adding Translations
+  - ~~Changing the looks~~ ✔
+  - ~~Adding mobile compatibility~~ ✔
+  - ~~Adding Server Selection~~ ✔
+  - Cleaning up & organizing
   - **Secret Idea**
 
-# Customize
-- You can translate most of UI-related strings at [docs/assets/Localization.js](docs/assets/Localization.js).
-
-- You can configure the simulator at [docs/assets/DefaultConfig.js](docs/assets/DefaultConfig.js). For example:
-  - Add more character to the simulator: edit the `table_Character`, this will make your added character(s) appear on both homepage and others' skill tree page.
-  - Change max level: edit the `maxCharacterLevel`, this will set default max level if not specified in character's JSON data.
-  - Skill Point Table: edit the `table_SkillPoint`, configure the amount of SP gain for levels.
-
-(Read the comment in the JS files for more info)
+<br><a href="https://www.buymeacoffee.com/Eden333"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=Eden333&button_colour=ff76ac&font_colour=ffffff&font_family=Lato&outline_colour=FFDCE9&coffee_colour=FFDD00" /></a><br><br>
 
 # Disclaimer
 Content is available under [Commons Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/3.0/) unless stated.
@@ -36,9 +26,10 @@ Special thanks to [Leayal](https://github.com/Leayal) and the people who helped 
 # Dependencies:
 - [JQuery v3.6.0](https://jquery.com)
 - [JQueryUI v1.13.0](https://jqueryui.com)
-- [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+- [Bootstrap v5.1.3](https://getbootstrap.com/docs/5.1/getting-started/introduction)
 - [zenorocha's clipboard.js v2.0.8](https://github.com/zenorocha/clipboard.js)
 - [desandro's imagesloaded v4.1.4](https://github.com/desandro/imagesloaded)
 - [mouse0270's bootstrap-notify v3.1.7](https://github.com/mouse0270/bootstrap-notify)
 - [ntkme's github-buttons](https://github.com/ntkme/github-buttons)
 - [animate.css v4.1.1](https://github.com/daneden/animate.css)
+- [Bootstrap Toggle](https://gitbrent.github.io/bootstrap4-toggle)

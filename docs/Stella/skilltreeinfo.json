@@ -18,694 +18,784 @@
     }
   },
   "Skills": {
-    "WhirlDance": {
+    "Skill01_WhirlDance": {
       "Name": "Whirl Dance",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WhirlDance.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill01_WhirlDance.png",
       "Levels": {
         "0": {
-          "Description": "Spin yourself to attack with the Howling\nGuitar, lifting them in the air at the end of the\nattack.",
+          "Description": "Spin yourself to attack with the Howling Guitar, lifting them in the air at the end of the attack.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_WheelDance.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill01_WhirlDance.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [246%]\nSuper Armor Break: [347%]\nSG Consumption: [15]\nCooldown: [8sec]",
+          "Effect": "[Skill Info]\nDamage: [246%]\nSuper Armor Break: [347%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [258%]\nSuper Armor Break: [363%]\nSG Consumption: [15]\nCooldown: [8sec]",
+          "Effect": "[Skill Info]\nDamage: [258%]\nSuper Armor Break: [363%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [288%]\nSuper Armor Break: [407%]\nSG Consumption: [15]\nCooldown: [8sec]",
+          "Effect": "[Skill Info]\nDamage: [288%]\nSuper Armor Break: [407%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 7,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: [320%]\nSuper Armor Break: [450%]\nSG Consumption: [15]\nCooldown: [8sec]",
+          "Effect": "[Skill Info]\nDamage: [320%]\nSuper Armor Break: [450%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: [368%]\nSuper Armor Break: [519%]\nSG Consumption: [15]\nCooldown: [8sec]",
+          "Effect": "[Skill Info]\nDamage: [368%]\nSuper Armor Break: [519%]\nSG Consumption: [15]\nCooldown: [8sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "WhirlDance-PerformanceUp"
+        "Skill01_WhirlDance-A"
       ]
     },
-    "PhantomRelease": {
+    "Skill02_PhantomRelease": {
       "Name": "Phantom Release",
       "DefaultLevel": 1,
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_PhantomRelease.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill02_PhantomRelease.png",
       "Levels": {
         "0": {
           "Description": "Play the Howling guitar to release Howlers.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_PhantomRelease.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill02_PhantomRelease.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [617%]\nSuper Armor Break: [333%]\nSG Consumption: [20]\nCooldown: [10sec]",
+          "Effect": "[Skill Info]\nDamage: [617%]\nSuper Armor Break: [333%]\nSG Consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [649%]\nSuper Armor Break: [349%]\nSG Consumption: [20]\nCooldown: [10sec]",
+          "Effect": "[Skill Info]\nDamage: [649%]\nSuper Armor Break: [349%]\nSG Consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [725%]\nSuper Armor Break: [391%]\nSG Consumption: [20]\nCooldown: [10sec]",
+          "Effect": "[Skill Info]\nDamage: [725%]\nSuper Armor Break: [391%]\nSG Consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: [803%]\nSuper Armor Break: [432%]\nSG Consumption: [20]\nCooldown: [10sec]",
+          "Effect": "[Skill Info]\nDamage: [803%]\nSuper Armor Break: [432%]\nSG Consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: [925%]\nSuper Armor Break: [489%]\nSG Consumption: [20]\nCooldown: [10sec]",
+          "Effect": "[Skill Info]\nDamage: [925%]\nSuper Armor Break: [489%]\nSG Consumption: [20]\nCooldown: [10sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "PhantomRelease-AdditionalHit"
+        "Skill02_PhantomRelease-A"
       ]
     },
-    "PhantomRelease-AdditionalHit": {
+    "Skill02_PhantomRelease-A": {
       "Visible": false,
       "ID": 3,
       "Name": "Additional Hit",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_PhantomRelease_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill02_PhantomRelease_A.png",
       "Levels": {
         "0": {
-          "Description": "Number of Hits and Range increased.",
+          "Description": "Number of Hits and Range increase.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_PhantomRelease_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill02_PhantomRelease_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "\nDamage: [1295%]\nSuper Armor Break: [697%]\nIncreases hit count and drag range.",
+          "Effect": "[SoulPlus Info]\nDamage: [1295%]\nSuper Armor Break: [697%]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "\nDamage: [1425%]\nSuper Armor Break: [767%]\nIncreases hit count and drag range.",
+          "Effect": "[SoulPlus Info]\nDamage: [1425%]\nSuper Armor Break: [767%]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "\nDamage: [1639%]\nSuper Armor Break: [802%]\nIncreases hit count and drag range.",
+          "Effect": "[SoulPlus Info]\nDamage: [1639%]\nSuper Armor Break: [802%]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "TroublePass": {
+    "Skill03_TroublePass": {
       "Name": "Trouble Pass",
       "DefaultLevel": 1,
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill03_TroublePass.png",
       "Levels": {
         "0": {
-          "Description": "Fire a homing Howler to inflict damage.\nThe Howler recovers allies' HP when switching\nmode.",
+          "Description": "Fire a homing Howler to inflict damage.\nThe Howler recovers allies' HP when switching mode.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill03_TroublePass.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [120%]\nSuper Armor Break per hit: [80%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [120%]\nSuper Armor Break per Hit: [80%]\n\n[Skill Info: Support Mode]\nBuff Effect: HP Recovery per Howeler: [4%]\nCaster receive no effects.\n\n[Skill Info: Basic]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [126%]\nSuper Armor Break per hit: [84%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [126%]\nSuper Armor Break per Hit: [84%]\n\n[Skill Info: Support Mode]\nBuff Effect: HP Recovery per Howeler: [4%]\nCaster receive no effects.\n\n[Skill Info: Basic]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [141%]\nSuper Armor Break per hit: [94%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [141%]\nSuper Armor Break per Hit: [94%]\n\n[Skill Info: Support Mode]\nBuff Effect: HP Recovery per Howeler: [4%]\nCaster receive no effects.\n\n[Skill Info: Basic]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Attack Mode]\nDamage per hit: [156%]\nSuper Armor Break per hit: [104%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [156%]\nSuper Armor Break per Hit: [104%]\n\n[Skill Info: Support Mode]\nBuff Effect: HP Recovery per Howeler: [4%]\nCaster receive no effects.\n\n[Skill Info: Basic]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [115%]\n\n[Support Mode]\nHP Recovery per Howeler: [4%]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [173%]\nSuper Armor Break per Hit: [115%]\n\n[Skill Info: Support Mode]\nBuff Effect: HP Recovery per Howeler: [4%]\nCaster receive no effects.\n\n[Skill Info: Basic]\nRelease [6] Howlers\nSG Consumption: [25]\nCooldown: [12sec]",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "TroublePass-RangeUp",
-        "TroublePass-Upgrade"
+        "Skill03_TroublePass-A",
+        "Skill03_TroublePass-B"
       ]
     },
-    "TroublePass-RangeUp": {
+    "Skill03_TroublePass-A": {
       "Visible": false,
       "ID": 5,
       "Name": "Range Up",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill03_TroublePass_A.png",
       "Levels": {
         "0": {
           "Description": "When the howler explodes, the attack area is expaneded vastly.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill03_TroublePass_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [240%]\nSuper Armor Break per hit: [163%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [240%]\nSuper Armor Break per Hit: [163%]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [276%]\nSuper Armor Break per hit: [187%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [276%]\nSuper Armor Break per Hit: [187%]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [348%]\nSuper Armor Break per hit: [236%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [348%]\nSuper Armor Break per Hit: [236%]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "TroublePass-Upgrade": {
+    "Skill03_TroublePass-B": {
       "Visible": false,
       "ID": 6,
       "Name": "Upgrade",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TroublePass_B.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill03_TroublePass_B.png",
       "Levels": {
         "0": {
-          "Description": "Increases the number and speed of projectiles.\nThe Howler is also given as buff that increases\nAgility.",
+          "Description": "Increases the number and speed of Projectiles.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_Trouble Pass_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill03_TroublePass_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10sec]\n\nIncreased number of projectiles: [1]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [173%]\nSuper Armor Break per Hit: [117%]\n\nIncreased number of projectiles: [1]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10sec]\n\nIncreased number of projectiles: [2]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [173%]\nSuper Armor Break per Hit: [117%]\n\nIncreased number of projectiles: [2]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [173%]\nSuper Armor Break per hit: [117%]\n\n[Support Mode]\nBuff effect: Agility +[10%]\nBuff duration: [10sec]\n\nIncreased number of projectiles: [4]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [173%]\nSuper Armor Break per Hit: [117%]\n\nIncreased number of projectiles: [4]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "HystericShock": {
+    "Skill04_HystericShock": {
       "Name": "Hysteric Shock",
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_HystericShock.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill04_HystericShock.png",
       "Levels": {
         "0": {
           "Description": "Play the Howling Guitar to burst the ground.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_HystericShock.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill04_HystericShock.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [395%]\nSuper Armor Break: [609%]\nSG Consumption: [30]\nCooldown: [15sec]",
+          "Effect": "[Skill Info]\nDamage: [395%]\nSuper Armor Break: [609%]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [414%]\nSuper Armor Break: [639%]\nSG Consumption: [30]\nCooldown: [15sec]",
+          "Effect": "[Skill Info]\nDamage: [414%]\nSuper Armor Break: [639%]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [464%]\nSuper Armor Break: [716%]\nSG Consumption: [30]\nCooldown: [15sec]",
+          "Effect": "[Skill Info]\nDamage: [464%]\nSuper Armor Break: [716%]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: [513%]\nSuper Armor Break: [792%]\nSG Consumption: [30]\nCooldown: [15sec]",
+          "Effect": "[Skill Info]\nDamage: [513%]\nSuper Armor Break: [792%]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: [591%]\nSuper Armor Break: [914%]\nSG Consumption: [30]\nCooldown: [15sec]",
+          "Effect": "[Skill Info]\nDamage: [591%]\nSuper Armor Break: [914%]\nSG Consumption: [30]\nCooldown: [15sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "HystericShock-AdditionalHit"
+        "Skill04_HystericShock-A"
       ]
     },
-    "HystericShock-AdditionalHit": {
+    "Skill04_HystericShock-A": {
       "Visible": false,
       "ID": 8,
       "Name": "Additional Hit",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_HystericShock_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill04_HystericShock_A.png",
       "Levels": {
         "0": {
-          "Description": "Inflict more blows.",
+          "Description": "Number of Hits and Range increase.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_HystericShock_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill04_HystericShock_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [710%]\nSuper Armor Break: [1097%]",
+          "Effect": "[SoulPlus Info]\nDamage: [710%]\nSuper Armor Break: [1097%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [887%]\nSuper Armor Break: [1397%]",
+          "Effect": "[SoulPlus Info]\nDamage: [887%]\nSuper Armor Break: [1397%]",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [1108%]\nSuper Armor Break: [1713%]",
+          "Effect": "[SoulPlus Info]\nDamage: [1108%]\nSuper Armor Break: [1713%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "BeastParade": {
+    "Skill05_BeastParade": {
       "ID": 9,
       "Name": "Beast Parade",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeastParade.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill05_BeastParade.png",
       "Levels": {
         "0": {
-          "Description": "Summon a Howler and ride on its back,\ncharging forwards.",
+          "Description": "Summon a Howler and ride on its back, charging forwards.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeastParade.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill05_BeastParade.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [275%]\nSuper Armor Break per hit: [206%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [275%]\nSuper Armor Break per Hit: [206%]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [289%]\nSuper Armor Break per hit: [216%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [289%]\nSuper Armor Break per Hit: [216%]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 11,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [323%]\nSuper Armor Break per hit: [242%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [323%]\nSuper Armor Break per Hit: [242%]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage per hit: [358%]\nSuper Armor Break per hit: [268%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [358%]\nSuper Armor Break per Hit: [268%]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per hit: [413%]\nSuper Armor Break per hit: [308%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [413%]\nSuper Armor Break per Hit: [308%]\nSG Consumption: [30]\nCooldown: [20sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BeadsPlay": {
+    "Skill06_BeadsPlay": {
       "ID": 10,
       "Name": "Beads Play",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill06_BeadsPlay.png",
       "Levels": {
         "0": {
-          "Description": "Fires a homing orb that paralyzes the enemy when used in attack mode.\nGive buffs to allies when changing into support mode and create orbs that restore HP.\nThe range of the buff increases to 25m when fully charged while in support mode.",
+          "Description": "(Attack Mode) Create a Paralysis Orb which paralyzes the enemy.\n(Support Mode) Provide Buffs to allies. Create a HP Recovery Orb.\nBuff range expands to [25m] when fully Charged in Support Mode.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_N.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill06_BeadsPlay.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per orb: [36%]\nSuper Armor Break per orb: [79%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [20sec]\n\nSG Consumption: [35]\nCooldown: [20sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per orb: [36%]\nSuper Armor Break per orb: [79%]\nDebuff Effect: Paralysis [1.5sec]\n\n[Skill Info: Support Mode]\nBuff Effect: Recover [10%] HP per Orb\n\n[Buff Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [20sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recover [10%] HP\n\n[Skill Info: Self]\nBuff Effect: Critical Rate +[10%] for [20sec]\n\n[Skill Info: Basic]\nMore Orbs with charging.\nPushed enemies back when charging.\n\nMax. Charge Phase: [2]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per orb: [38%]\nSuper Armor Break per orb: [83%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG Consumption: [35]\nCooldown: [20sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per orb: [38%]\nSuper Armor Break per orb: [83%]\nDebuff Effect: Paralysis [1.5sec]\n\n[Skill Info: Support Mode]\nBuff Effect: Recover [10%] HP per Orb\n\n[Buff Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [20sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recover [10%] HP\n\n[Skill Info: Self]\nBuff Effect: Critical Rate +[10%] for [20sec]\n\n[Skill Info: Basic]\nMore Orbs with charging.\nPushed enemies back when charging.\n\nMax. Charge Phase: [2]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per orb: [42%]\nSuper Armor Break per orb: [92%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG Consumption: [35]\nCooldown: [20sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per orb: [42%]\nSuper Armor Break per orb: [92%]\nDebuff Effect: Paralysis [1.5sec]\n\n[Skill Info: Support Mode]\nBuff Effect: Recover [10%] HP per Orb\n\n[Buff Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [20sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recover [10%] HP\n\n[Skill Info: Self]\nBuff Effect: Critical Rate +[10%] for [20sec]\n\n[Skill Info: Basic]\nMore Orbs with charging.\nPushed enemies back when charging.\n\nMax. Charge Phase: [2]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Attack Mode]\nDamage per orb: [47%]\nSuper Armor Break per orb: [102%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG Consumption: [35]\nCooldown: [20sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per orb: [47%]\nSuper Armor Break per orb: [102%]\nDebuff Effect: Paralysis [1.5sec]\n\n[Skill Info: Support Mode]\nBuff Effect: Recover [10%] HP per Orb\n\n[Buff Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [20sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recover [10%] HP\n\n[Skill Info: Self]\nBuff Effect: Critical Rate +[10%] for [20sec]\n\n[Skill Info: Basic]\nMore Orbs with charging.\nPushed enemies back when charging.\n\nMax. Charge Phase: [2]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Support Mode]\n[1]Buff: Recovers [10%] HP per orb\n[2]Buff: Attack Damage +[100%]for [20sec]\n[3]Buff: Agility +[10%] for [10sec]\n[4]Self-Buff: Critical Rate +[10%] for [20sec]\n\nSG Consumption: [35]\nCooldown: [20sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff Effect: Paralysis [1.5sec]\n\n[Skill Info: Support Mode]\nBuff Effect: Recover [10%] HP per Orb\n\n[Buff Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [20sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recover [10%] HP\n\n[Skill Info: Self]\nBuff Effect: Critical Rate +[10%] for [20sec]\n\n[Skill Info: Basic]\nMore Orbs with charging.\nPushed enemies back when charging.\n\nMax. Charge Phase: [2]\nSG Consumption: [35]\nCooldown: [20sec]",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "BeadsPlay-Staccato",
-        "BeadsPlay-Upgrade"
+        "Skill06_BeadsPlay-A",
+        "Skill06_BeadsPlay-B"
       ]
     },
-    "BeadsPlay-Staccato": {
+    "Skill06_BeadsPlay-A": {
       "ID": 11,
       "Visible": false,
       "Name": "Staccato",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill06_BeadsPlay_A.png",
       "Levels": {
         "0": {
-          "Description": "Paralyze effect of Beads is improved.\nEnhanced Beads are added at Maximum Charge.\nEnhanced beads have improved homing ability.",
+          "Description": "Paralysis Orb homing skill increases.\nWhen at Max. Charging in Attack Mode, Upgrade Orbs are additionally fired and all Buffs except for Recover are applied.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_N_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill06_BeadsPlay_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [72%]\nEnhanced Super Armor Break: [157%]\nDebuff: Paralysis [1.5sec]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff Effect: Paralysis [1.5sec]\n\n[SoulPlus Info: Max. Charging]\nUpgrade Orb Damage per Hit: [72%]\nUpgrade Super Armor Break per Hit: [157%]\nDebuff Effect: Paralysis [1.5sec]",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [90%]\nEnhanced Super Armor Break: [197%]\nDebuff: Paralysis [1.5sec]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff Effect: Paralysis [1.5sec]\n\n[SoulPlus Info: Max. Charging]\nUpgrade Orb Damage per Hit: [90%]\nUpgrade Super Armor Break per Hit: [197%]\nDebuff Effect: Paralysis [1.5sec]",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff: Paralysis [1.5sec]\n\n[Maximum Charge]\nEnhanced Bead Damage per hit: [108%]\nEnhanced Super Armor Break: [236%]\nDebuff: Paralysis [1.5sec]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per orb: [54%]\nSuper Armor Break per orb: [118%]\nDebuff Effect: Paralysis [1.5sec]\n\n[SoulPlus Info: Max. Charging]\nUpgrade Orb Damage per Hit: [108%]\nUpgrade Super Armor Break per Hit: [236%]\nDebuff Effect: Paralysis [1.5sec]",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "BeadsPlay-Upgrade": {
+    "Skill06_BeadsPlay-B": {
       "ID": 12,
       "Visible": false,
       "Name": "Upgrade",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeadsPlay_B.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill06_BeadsPlay_B.png",
       "Levels": {
         "0": {
-          "Description": "Upgrades the buff durations.\nThe buff areas are granted depending on charg\ncounts (Standard rage 15m)\n\nAt max. charge, the area is expanded up to 25m.",
+          "Description": "Increases Buff Duration.\n(Support Mode) Add HP Recovery Effect\n(Attack Mode) Every Buff is applied except HP Recovery Effect.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeadsPlay_N_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill06_BeadsPlay_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Support Mode]\n[1]Buff: Recovers [15%] HP per orb\n[2]Buff: Attack Damage +[100%]for [30sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [30sec]",
+          "Effect": "[SoulPlus Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [30sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recovers [15%] HP\n\n[SoulPlus Info: Self]\nBuff Effect: Critical Rate +[10%] for [30sec]",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Support Mode]\n[1]Buff: Recovers [20%] HP per orb\n[2]Buff: Attack Damage +[100%]for [40sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [40sec]",
+          "Effect": "[SoulPlus Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [40sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recovers [20%] HP\n\n[SoulPlus Info: Self]\nBuff Effect: Critical Rate +[10%] for [40sec]",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Support Mode]\n[1]Buff: Recovers [25%] HP per orb\n[2]Buff: Attack Damage +[100%]for [60sec]\n[3]Buff: Agility +[10%] for [10sec]\n[Self-Buff:]\n[4] Critical Rate +[10%] for [60sec]",
+          "Effect": "[SoulPlus Info: Support Mode]\nBuff Effect: Attack Damage +[100%] for [60sec]\nBuff Effect: Agility +[10%] for [10sec]\nBuff Effect: Recovers [25%] HP\n\n[SoulPlus Info: Self]\nBuff Effect: Critical Rate +[10%] for [60sec]",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DecayedPulse": {
+    "Skill07_DecayedPulse": {
       "ID": 13,
       "Name": "Decayed Pulse",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_DecadePulse.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill07_DecayedPulse.png",
       "Levels": {
         "0": {
-          "Description": "Fire a pulse to attack with\nguitar, draining and paralyzing\nenemies when switching mode.",
+          "Description": "Fire a Pulse that attacks enemies with a guitar. HP drained when switching.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_DecadePulse.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill07_DecayedPulse.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [78%]\nSuper Armor Break per hit: [45%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [59%]\nSuper Armor Break per hit: [68%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\n\nSG Consumption: [35]\nCooldown: [15sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [78%]\nSuper Armor Break per Hit: [45%]\n\n[Skill Info: Support Mode]\nDamage per Hit: [59%]\nSuper Armor Break per Hit: [68%]\nBuff Effect: HP Drain: [1%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [83%]\nSuper Armor Break per hit: [47%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [62%]\nSuper Armor Break per hit: [71%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\n\nSG Consumption: [35]\nCooldown: [15sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [83%]\nSuper Armor Break per Hit: [47%]\n\n[Skill Info: Support Mode]\nDamage per Hit: [62%]\nSuper Armor Break per Hit: [71%]\nBuff Effect: HP Drain: [1%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [92%]\nSuper Armor Break per hit: [53%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [69%]\nSuper Armor Break per hit: [80%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\n\nSG Consumption: [35]\nCooldown: [15sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [92%]\nSuper Armor Break per Hit: [53%]\n\n[Skill Info: Support Mode]\nDamage per Hit: [69%]\nSuper Armor Break per Hit: [80%]\nBuff Effect: HP Drain: [1%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Attack Mode]\nDamage per hit: [102%]\nSuper Armor Break per hit: [59%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [77%]\nSuper Armor Break per hit: [89%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\nSG Consumption: [35]\nCooldown: [15sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [102%]\nSuper Armor Break per Hit: [59%]\n\n[Skill Info: Support Mode]\nDamage per Hit: [77%]\nSuper Armor Break per Hit: [89%]\nBuff Effect: HP Drain: [1%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Attack Mode]\nDamage per hit: [117%]\nSuper Armor Break per hit: [68%]\nDebuff: Agility -[10%]\n\n[Support Mode]\nDamage per hit: [88%]\nSuper Armor Break per hit: [102%]\nHP drain: [1%]\nDebuff: Paralysis [1sec]\nSG Consumption: [35]\nCooldown: [15sec]",
+          "Effect": "[Skill Info: Attack Mode]\nDamage per Hit: [117%]\nSuper Armor Break per Hit: [68%]\n\n[Skill Info: Support Mode]\nDamage per Hit: [88%]\nSuper Armor Break per Hit: [102%]\nBuff Effect: HP Drain: [1%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [15sec]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "DecayedPulse-Targeting",
-        "DecayedPulse-RangeUp"
+        "Skill07_DecayedPulse-A",
+        "Skill07_DecayedPulse-B"
       ]
     },
-    "DecayedPulse-Targeting": {
+    "Skill07_DecayedPulse-A": {
       "ID": 14,
       "Visible": false,
       "Name": "Targeting",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_DecadePulse_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill07_DecayedPulse_A.png",
       "Levels": {
         "0": {
           "Description": "Increases the range and damage of Decayed Pulse.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_DecadePulse_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill07_DecayedPulse_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [155%]\nSuper Armor Break per hit: [89%]\n\n[Support Mode]\nDamage per hit: [129%]\nSuper Armor Break per hit: [120%]\nHP drain: [1%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [155%]\nSuper Armor Break per Hit: [89%]\n\n[SoulPlus Info: Support Mode]\nDamage per Hit: [129%]\nSuper Armor Break per Hit: [120%]\nBuff Effect: HP Drain: [1%]",
           "RequiredLevel": 30,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [168%]\nSuper Armor Break per hit: [97%]\n\n[Support Mode]\nDamage per hit: [140%]\nSuper Armor Break per hit: [131%]\nHP drain: [1%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [168%]\nSuper Armor Break per Hit: [97%]\n\n[SoulPlus Info: Support Mode]\nDamage per Hit: [140%]\nSuper Armor Break per Hit: [131%]\nBuff Effect: HP Drain: [1%]",
           "RequiredLevel": 35,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [194%]\nSuper Armor Break per hit: [110%]\n\n[Support Mode]\nDamage per hit: [162%]\nSuper Armor Break per hit: [149%]\nHP drain: [1%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [194%]\nSuper Armor Break per Hit: [110%]\n\n[SoulPlus Info: Support Mode]\nDamage per Hit: [162%]\nSuper Armor Break per Hit: [149%]\nBuff Effect: HP Drain: [1%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DecayedPulse-RangeUp": {
+    "Skill07_DecayedPulse-B": {
       "ID": 15,
       "Visible": false,
       "Name": "Range Up",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_DecadePulse_B.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill07_DecayedPulse_B.png",
       "Levels": {
         "0": {
-          "Description": "Also paralyzes enemies in Attack Mode.\nIncreases the attack range and attack area of the pulse shot.\nMore enemies suffer from electrical damage.",
+          "Description": "Increases the attack range and attack area of the pulse shot.\nHP Drain increases when in Support Mode.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_DecadePulse_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill07_DecayedPulse_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nDamage per hit: [117%]\nSuper Armor Break per hit: [92%]\n\n[Support Mode]\nDamage per hit: [94%]\nSuper Armor Break per hit: [102%]\nHP drain: [20%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [117%]\nSuper Armor Break per Hit: [92%]\n\n[SoulPlus Info: Support Mode]\nDamage per Hit: [94%]\nSuper Armor Break per Hit: [102%]\nBuff Effect: HP Drain: [20%]",
           "RequiredLevel": 30,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nDamage per hit: [128%]\nSuper Armor Break per hit: [100%]\n\n[Support Mode]\nDamage per hit: [104%]\nSuper Armor Break per hit: [11%]\nHP drain: [20%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [128%]\nSuper Armor Break per Hit: [100%]\n\n[SoulPlus Info: Support Mode]\nDamage per Hit: [104%]\nSuper Armor Break per Hit: [111%]\nBuff Effect: HP Drain: [20%]",
           "RequiredLevel": 35,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nDamage per hit: [147%]\nSuper Armor Break per hit: [113%]\n\n[Support Mode]\nDamage per hit: [119%]\nSuper Armor Break per hit: [128%]\nHP drain: [20%]",
+          "Effect": "[SoulPlus Info: Attack Mode]\nDamage per Hit: [147%]\nSuper Armor Break per Hit: [113%]\n\n[SoulPlus Info: Support Mode]\nDamage per Hit: [119%]\nSuper Armor Break per Hit: [128%]\nBuff Effect: HP Drain: [20%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulScream": {
+    "Skill08_SoulScream": {
       "ID": 16,
       "Name": "Soul Scream",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SoulScream.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill08_SoulScream.png",
       "Levels": {
         "0": {
-          "Description": "Generate a barrier\nBeing invincible when using skill\nBarrier attacks and paralytes enemies nearby,\nmaintaining for a certain length of time.",
+          "Description": "Generate a barrier.\nBeing invincible when using skill.\nBarrier attacks and paralyzes enemies nearby,maintaining for a certain length of time.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulScream.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill08_SoulScream.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [100%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per Hit: [100%]\nSuper Armor Break per Hit: [250%]\nBuff Effect: [invincible]\nBuff Duration: [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Skill Info: Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\nBarrier Duration: [10sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [105%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per Hit: [105%]\nSuper Armor Break per Hit: [250%]\nBuff Effect: [invincible]\nBuff Duration: [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Skill Info: Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\nBarrier Duration: [10sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [118%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per Hit: [118%]\nSuper Armor Break per Hit: [250%]\nBuff Effect: [invincible]\nBuff Duration: [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Skill Info: Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\nBarrier Duration: [10sec]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage per hit: [130%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per Hit: [130%]\nSuper Armor Break per Hit: [250%]\nBuff Effect: [invincible]\nBuff Duration: [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Skill Info: Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\nBarrier Duration: [10sec]",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per hit: [150%]\nSuper Armor Break per hit: [250%]\nBuff: invincible [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff: Paralysis [3sec]\nBarrier duration: [10sec]",
+          "Effect": "[Skill Info: Basic]\nDamage per Hit: [150%]\nSuper Armor Break per Hit: [250%]\nBuff Effect: [invincible]\nBuff Duration: [1sec]\nSG Consumption: [20]\nCooldown: [30sec]\n\n[Skill Info: Barrier]\nDamage per sec: [10%]\nSuper Armor Break per sec: [25%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\nBarrier Duration: [10sec]",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SoulScream-StellaTime"
+        "Skill08_SoulScream-A"
       ]
     },
-    "TwistPull": {
+    "Skill09_TwistPull": {
       "ID": 17,
       "Name": "Twist Pull",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TwistPull.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill09_TwistPull.png",
       "Levels": {
         "0": {
           "Description": "Generate a black hole that consists of Howlers, dragging enemies up and exploding them.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_TwistPull.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill09_TwistPull.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [618%]\nSuper Armor Break: [694%]\nSG Consumption: [40]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [618%]\nSuper Armor Break: [694%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [649%]\nSuper Armor Break: [729%]\nSG Consumption: [40]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [649%]\nSuper Armor Break: [729%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [726%]\nSuper Armor Break: [816%]\nSG Consumption: [40]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [726%]\nSuper Armor Break: [816%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: [803%]\nSuper Armor Break: [903%]\nSG Consumption: [40]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [803%]\nSuper Armor Break: [903%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: [927%]\nSuper Armor Break: [1041%]\nSG Consumption: [40]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [927%]\nSuper Armor Break: [1041%]\nSG Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "TwistPull-RangeUp"
+        "Skill09_TwistPull-A"
       ]
     },
-    "TwistPull-RangeUp": {
+    "Skill09_TwistPull-A": {
       "ID": 18,
       "Visible": false,
       "Name": "Range Up",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_TwistPull_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill09_TwistPull_A.png",
       "Levels": {
         "0": {
           "Description": "Expands the attract and attack range of Howlers.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_TwistPull_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill09_TwistPull_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [1043%]\nSuper Armor Break: [1171%]",
+          "Effect": "[SoulPlus Info]\nDamage: [1043%]\nSuper Armor Break: [1171%]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [1356%]\nSuper Armor Break: [1522%]",
+          "Effect": "[SoulPlus Info]\nDamage: [1356%]\nSuper Armor Break: [1522%]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [1762%]\nSuper Armor Break: [1979%]",
+          "Effect": "[SoulPlus Info]\nDamage: [1762%]\nSuper Armor Break: [1979%]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "BeastParty": {
+    "Skill10_BeastParty": {
       "ID": 19,
       "Name": "Beast Party",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BeastParty.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill10_BeastParty.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -713,231 +803,262 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BeastParty.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill10_BeastParty.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [268%]\nSuper Armor Break per hit: [506%]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [268%]\nSuper Armor Break per Hit: [506%]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [281%]\nSuper Armor Break per hit: [531%]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [281%]\nSuper Armor Break per Hit: [531%]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [315%]\nSuper Armor Break per hit: [595%]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [315%]\nSuper Armor Break per Hit: [595%]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage per hit: [349%]\nSuper Armor Break per hit: [658%]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [349%]\nSuper Armor Break per Hit: [658%]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per hit: [402%]\nSuper Armor Break per hit: [759%]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [402%]\nSuper Armor Break per Hit: [759%]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BlackMorass": {
+    "Skill11_BlackMorass": {
       "ID": 20,
       "Name": "Black Morass",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BlackMorass.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill11_BlackMorass.png",
       "Levels": {
         "0": {
           "Description": "Create swamp and summon multiple Howlers\nwith Howling Guitar.\nEnable to drag or lift enemy in the air.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BlackMorass.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill11_BlackMorass.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [71%]\nSuper Armor Break per Hit: [83%]\n\n[Skill Info: Airborne]\nDamage: [396%]\nSuper Armor Break: [803%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [74%]\nSuper Armor Break per Hit: [88%]\n\n[Skill Info: Airborne]\nDamage: [417%]\nSuper Armor Break: [843%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [83%]\nSuper Armor Break per Hit: [98%]\n\n[Skill Info: Airborne]\nDamage: [467%]\nSuper Armor Break: [943%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [92%]\nSuper Armor Break per Hit: [109%]\n\n[Skill Info: Airborne]\nDamage: [516%]\nSuper Armor Break: [1044%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Drag]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n[Airborne]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\nDebuff: Paralysis [3sec]\nSG Consumption: [40]\nCooldown: [35sec]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [107%]\nSuper Armor Break per Hit: [125%]\n\n[Skill Info: Airborne]\nDamage: [594%]\nSuper Armor Break: [1204%]\nDebuff Effect: [Paralysis]\nDebuff Duration: [3sec]\n\n[Skill Info: Basic]\nSG Consumption: [40]\nCooldown: [35sec]",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "BlackMorass-Summoning"
+        "Skill11_BlackMorass-A"
       ]
     },
-    "BlackMorass-Summoning": {
+    "Skill11_BlackMorass-A": {
       "ID": 21,
       "Visible": false,
-      "Name": "Time Reduction",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BlackMorass_A.png",
+      "Name": "Summoning",
+      "Icon": "../assets/SkillIcons/Stella/Skill11_BlackMorass_A.png",
       "Levels": {
         "0": {
-          "Description": "You can act freely after summoning Howlers; they\n will disappear after attacking 3 times.",
+          "Description": "You can act freeliny after summoning Howlers; they will disappear after attacking 3 times.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BlackMorass_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill11_BlackMorass_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Drag]\nDamage per hit: [219%]\nSuper Armor Break per hit: [113%]\n[Airborne]\nDamage per hit: [895%]\nSuper Armor Break per hit: [1088%]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [219%]\nSuper Armor Break per Hit: [113%]\n\n[Skill Info: Airborne]\nDamage: [895%]\nSuper Armor Break: [1088%]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Drag]\nDamage per hit: [241%]\nSuper Armor Break per hit: [125%]\n[Airborne]\nDamage per hit: [985%]\nSuper Armor Break per hit: [1197%]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [241%]\nSuper Armor Break per Hit: [125%]\n\n[Skill Info: Airborne]\nDamage: [985%]\nSuper Armor Break: [1197%]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Drag]\nDamage per hit: [277%]\nSuper Armor Break per hit: [143%]\n[Airborne]\nDamage per hit: [1133%]\nSuper Armor Break per hit: [1376%]",
+          "Effect": "[Skill Info: Drag]\nDamage per Hit: [277%]\nSuper Armor Break per Hit: [143%]\n\n[Skill Info: Airborne]\nDamage: [1133%]\nSuper Armor Break: [1376%]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "BestTempo": {
+    "Skill12_BestTempo": {
       "ID": 22,
       "Name": "Best Tempo",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BestTempo.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill12_BestTempo.png",
       "Levels": {
         "0": {
-          "Description": "Play guitar to buff your allies, increasing [Agility] and [Attack Speed]\nAttack Mode [SG recovery], buff\nSupport Mode: [HP recovery], buff",
+          "Description": "Play guitar to buff your allies, increasing [Agility] and [Attack Speed]\nAttack Mode: [SG recovery], buff\nSupport Mode: [HP recovery], buff",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BestTempo.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill12_BestTempo.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attack Mode]\nRecovers [5%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [14%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[3%]\nBuff: Agility: +[3%]\nBuff duration: [20sec]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: Attack Mode]\nRecovers [5%] of SG per sec for [10sec]\nBuff: Attack Speed: +[3%]\nBuff: Agility: +[3%]\nBuff duration: [20sec]\n\n[Skill Info: Support Mode]\nRecovers [14%] of HP immediately\nBuff: Attack Speed: +[3%]\nBuff: Agility: +[3%]\nBuff duration: [20sec]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attack Mode]\nRecovers [6%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [18%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[4%]\nBuff: Agility: +[4%]\nBuff duration: [20sec]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: Attack Mode]\nRecovers [6%] of SG per sec for [10sec]\nBuff: Attack Speed: +[4%]\nBuff: Agility: +[4%]\nBuff duration: [20sec]\n\n[Skill Info: Support Mode]\nRecovers [18%] of HP immediately\nBuff: Attack Speed: +[4%]\nBuff: Agility: +[4%]\nBuff duration: [20sec]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attack Mode]\nRecovers [8%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [22%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[6%]\nBuff: Agility: +[6%]\nBuff duration: [20sec]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: Attack Mode]\nRecovers [8%] of SG per sec for [10sec]\nBuff: Attack Speed: +[6%]\nBuff: Agility: +[6%]\nBuff duration: [20sec]\n\n[Skill Info: Support Mode]\nRecovers [22%] of HP immediately\nBuff: Attack Speed: +[6%]\nBuff: Agility: +[6%]\nBuff duration: [20sec]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Attack Mode]\nRecovers [10%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [32%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[8%]\nBuff: Agility: +[8%]\nBuff duration: [20sec]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: Attack Mode]\nRecovers [10%] of SG per sec for [10sec]\nBuff: Attack Speed: +[8%]\nBuff: Agility: +[8%]\nBuff duration: [20sec]\n\n[Skill Info: Support Mode]\nRecovers [32%] of HP immediately\nBuff: Attack Speed: +[8%]\nBuff: Agility: +[8%]\nBuff duration: [20sec]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 46,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Attack Mode]\nRecovers [15%] of SG per sec for [10sec]\n\n[Support Mode]\nRecovers [50%] of HP immediately\n\n[Basic Info]\nBuff: Attack Speed: +[10%]\nBuff: Agility: +[10%]\nBuff duration: [20sec]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info: Attack Mode]\nRecovers [15%] of SG per sec for [10sec]\nBuff: Attack Speed: +[10%]\nBuff: Agility: +[10%]\nBuff duration: [20sec]\n\n[Skill Info: Support Mode]\nRecovers [50%] of HP immediately\nBuff: Attack Speed: +[10%]\nBuff: Agility: +[10%]\nBuff duration: [20sec]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 50,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BassAttack": {
+    "Skill13_BassAttack": {
       "ID": 23,
       "Name": "Bass Attack",
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BassAttack.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill13_BassAttack.png",
       "Levels": {
         "0": {
-          "Description": "Summon a speaker and create a stage\nLeft and right speakers tremble and attack enemies in the middle area",
+          "Description": "Summon a speaker and create a stage.\nBoth Left and right speakers tremble and attack enemies in the middle area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BassAttack.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill13_BassAttack.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [989%]\nSuper Armor Break per hit: [927%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [99%]\nSpeaker Super Armor Break per hit: [93%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [989%]\nSuper Armor Break per Hit: [927%]\n\n[Skill Info: Addidional Damage]\nSpeaker Damage per Hit: [99%]\nSpeaker Super Armor Break per Hit: [93%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [1039%]\nSuper Armor Break per hit: [973%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [104%]\nSpeaker Super Armor Break per hit: [97%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1039%]\nSuper Armor Break per Hit: [973%]\n\n[Skill Info: Addidional Damage]\nSpeaker Damage per Hit: [104%]\nSpeaker Super Armor Break per Hit: [97%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [1164%]\nSuper Armor Break per hit: [1088%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [116%]\nSpeaker Super Armor Break per hit: [109%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1164%]\nSuper Armor Break per Hit: [1088%]\n\n[Skill Info: Addidional Damage]\nSpeaker Damage per Hit: [116%]\nSpeaker Super Armor Break per Hit: [109%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage per hit: [1285%]\nSuper Armor Break per hit: [1205%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [129%]\nSpeaker Super Armor Break per hit: [121%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1285%]\nSuper Armor Break per Hit: [1205%]\n\n[Skill Info: Addidional Damage]\nSpeaker Damage per Hit: [129%]\nSpeaker Super Armor Break per Hit: [121%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per hit: [1486%]\nSuper Armor Break per hit: [1389%]\n\n[Addidional Damage]\nSpeaker Damage per hit: [149%]\nSpeaker Super Armor Break per hit: [139%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1486%]\nSuper Armor Break per Hit: [1389%]\n\n[Skill Info: Addidional Damage]\nSpeaker Damage per Hit: [149%]\nSpeaker Super Armor Break per Hit: [139%]\n\nSG Consumption: [45]\nCooldown: [45sec]",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "BassAttack-BattleHymn"
+        "Skill13_BassAttack-A"
       ]
     },
-    "BassAttack-BattleHymn": {
+    "Skill13_BassAttack-A": {
       "Visible": false,
       "Name": "Battle Hymn",
       "ID": 29,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BassAttack_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill13_BassAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "Speakers are summoned faster and attack range is increased. Each attack heals allies and increases your attack speed.",
+          "Description": "Speakers are summoned faster, and attack range is increased.\nEach attack heals allies and increases your attack speed.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_BassAttack_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill13_BassAttack_A.{{auto}}"
           }
         },
         "1": {
-          "Effect":"[Self Info]\nAttack Speed [+3%] (stacks up to 5 times)\n[Party Info]\nLeft-Click: HP recovery [3%]\nRight-Click: SG recovery [6%]",
+          "Effect":"[SoulPlus Info: Self]\nAttack Speed [+3%] (Max. 5 Stacks)\n\n[SoulPlus Info: Party]\nLeft-Click: Recovers [3%] HP\nRight-Click: Recovers [6%] SG",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Self Info]\nAttack Speed [+4%] (stacks up to 5 times)\n[Party Info]\nLeft-Click: HP recovery [3%]\nRight-Click: SG recovery [6%]",
+          "Effect": "[SoulPlus Info: Self]\nAttack Speed [+4%] (Max. 5 Stacks)\n\n[SoulPlus Info: Party]\nLeft-Click: Recovers [3%] HP\nRight-Click: Recovers [6%] SG",
           "RequiredLevel": 70,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Self Info]\nAttack Speed [+5%] (stacks up to 5 times)\n[Party Info]\nLeft-Click: HP recovery [3%]\nRight-Click: SG recovery [6%]",
+          "Effect": "[SoulPlus Info: Self]\nAttack Speed [+5%] (Max. 5 Stacks)\n\n[SoulPlus Info: Party]\nLeft-Click: Recovers [3%] HP\nRight-Click: Recovers [6%] SG",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
       }
     },
-    "WhirlDance-PerformanceUp": {
+    "Skill01_WhirlDance-A": {
       "Visible": false,
       "Name": "Performance Up",
       "ID": 24,
@@ -945,35 +1066,39 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WhirlDance_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill01_WhirlDance_A.png",
       "Levels": {
         "0": {
           "Description": "Enables movement during Whirl Dance.\nAll damage received during Whirlwind will be counted as a MISS.\n(except some SoulStrikes)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_WheelDance_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill01_WheelDance_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "\n[Spinning:]\nDamage per Hit: [126%]\nSuper Armor Break per Hit: [51%]\n\n[Final Attack]\nDamage: [630%]\nSuper Armor Break: [260%]",
+          "Effect": "\n[SoulPlus Info: Spinning Attack:]\nDamage per Hit: [126%]\nSuper Armor Break per Hit: [51%]\n\n[SoulPlus Info: Finishing Attack]\nDamage: [630%]\nSuper Armor Break: [260%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "\n[Spinning:]\nDamage per Hit: [132%]\nSuper Armor Break per Hit: [59%]\n\n[Final Attack]\nDamage: [665%\nSuper Armor Break: [299%]",
+          "Effect": "\n[SoulPlus Info: Spinning Attack:]\nDamage per Hit: [132%]\nSuper Armor Break per Hit: [59%]\n\n[SoulPlus Info: Finishing Attack]\nDamage: [665%\nSuper Armor Break: [299%]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "\n[Spinning:]\nDamage per Hit: [167%]\nSuper Armor Break: [75%]\n\n[Final Attack]\nDamage: [837%]\nSuper Armor Break: [377%]",
+          "Effect": "\n[SoulPlus Info: Spinning Attack:]\nDamage per Hit: [167%]\nSuper Armor Break per Hit: [75%]\n\n[SoulPlus Info: Finishing Attack]\nDamage: [837%]\nSuper Armor Break: [377%]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulScream-StellaTime": {
+    "Skill08_SoulScream-A": {
       "Visible": false,
       "Name": "Stella Time",
       "ID": 25,
@@ -981,258 +1106,329 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SoulScream_A.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill08_SoulScream_A.png",
       "Levels": {
         "0": {
-          "Description": "You call off the roaring Howler and present Stella\nTime, in which you launch surprise attacks on\nenemies or support allies.",
+          "Description": "Capture exploded Howler and attack enemies with Stella Time or support allies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulScream_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill08_SoulScream_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [150%]\nSuper Armor Break per hit:[311%]\n\n[Left/Right-Click]\nDamage per hit: [450%]\nSuper Armor Break per hit:[933%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [4sec] and reduces [1%] HP every second.\nRight-Click buff: For [5sec], recovers aliies´ SG by [4%] per second",
+          "Effect": "[SoulPlus Info: Attack]\nDamage per Hit: [150%]\nSuper Armor Break per Hit: [311%]\n\n[SoulPlus Info: Support]\nDamage: [450%]\nSuper Armor Break:[933%]\n\n[SoulPlus Info: Buff/Debuff]\nLeft-Click Debuff: [1%] HP decreased every [1sec] for [4sec] of shock.\nRight-Click Debuff: Recovers [4%] of allies' SG every [1sec] for [5sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [163%]\nSuper Armor Break per hit:[357%]\n\n[Left/Right-Click]\nDamage per hit: [489%]\nSuper Armor Break per hit:[1071%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [6sec] and reduces [1%] HP every second.\nRight-Click buff: For [5sec], recovers aliies´ SG by [6%] per second",
+          "Effect": "[SoulPlus Info: Attack]\nDamage per Hit: [163%]\nSuper Armor Break per Hit: [357%]\n\n[SoulPlus Info: Support]\nDamage: [489%]\nSuper Armor Break:[1071%]\n\n[SoulPlus Info: Buff/Debuff]\nLeft-Click Debuff: [1%] HP decreased every [1sec] for [6sec] of shock.\nRight-Click Debuff: Recovers [6%] of allies' SG every [1sec] for [5sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [181%]\nSuper Armor Break per hit:[451%]\n\n[Left/Right-Click]\nDamage per hit: [543%]\nSuper Armor Break per hit:[1353%}\n\n[Buff/Debuff]\nLeft-Click debuff: The shock last for [8sec] and reduces [1%] HP every second.\nRight-Click buff: For [5sec], recovers aliies´ SG by [10%] per second",
+          "Effect": "[SoulPlus Info: Attack]\nDamage per Hit: [181%]\nSuper Armor Break per Hit: [451%]\n\n[SoulPlus Info: Support]\nDamage: [543%]\nSuper Armor Break:[1353%]\n\n[SoulPlus Info: Buff/Debuff]\nLeft-Click Debuff: [1%] HP decreased every [1sec] for [8sec] of shock.\nRight-Click Debuff: Recovers [10%] of allies' SG every [1sec] for [5sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         }
       }
     },
-    "RecklessPrincess": {
+    "Skill15_RecklessPrincess": {
       "Name": "Reckless Princess",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_recklessPrincess.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill15_RecklessPrincess.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "You fire Howlers downward from the air.\nThe recoil from the explosion throws you\nbackward.",
+          "Description": "You fire Howlers downward from the air.\nThe recoil from the explosion throws you backward.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_RecklessPrincess.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill15_RecklessPrincess.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [1122%]\nSuper Armor Break: [700%]\nSG Consumption: [35]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [1122%]\nSuper Armor Break: [700%]\nSG Consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [1234%]\nSuper Armor Break: [770%]\nSG Consumption: [35]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [1234%]\nSuper Armor Break: [770%]\nSG Consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [1382%]\nSuper Armor Break: [862%]\nSG Consumption: [35]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [1382%]\nSuper Armor Break: [862%]\nSG Consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: [1576%]\nSuper Armor Break: [983%]\nSG Consumption: [35]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [1576%]\nSuper Armor Break: [983%]\nSG Consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: [1860%]\nSuper Armor Break: [1160%]\nSG Consumption: [35]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage: [1860%]\nSuper Armor Break: [1160%]\nSG Consumption: [35]\nCooldown: [30sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       }
     },
-    "WolvesShowtime": {
+    "Skill16_WolvesShowtime": {
       "Name": "Wolves Showtime",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_WolvesShowtime.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill16_WolvesShowtime.png",
       "Levels": {
         "0": {
-          "Description": "Throws a Wolves Phantom forward. The thrown Wolves Phantom transforms into a humanoid form and quickly attacks nearby enemies. Wolves Phantom chases and attacks nearby enemies on its own.",
+          "Description": "Wolves Phantom is summoned in human form and quickly strikes nearby enemies.\nWolves Phantom catches enemies on its own and attacks nearby enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_WolvesShowtime.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill16_WolvesShowtime.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: [1570%]\nSuper Armor Break: [682%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG Consumption: [30]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage: [1570%]\nSuper Armor Break: [682%]\n\n[Skill Info: Wolves Phantom]\nDamage per Hit: [260%]\nSuper Armor Break per Hit: [113%]\n\nFinal Damage per Hit: [781%]\nFinal Super Armor Break per Hit: [339%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [1727%]\nSuper Armor Break: [750%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG Consumption: [30]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage: [1727%]\nSuper Armor Break: [750%]\nSG Consumption: [30]\nCooldown: [35sec]\n\n[Skill Info: Wolves Phantom]\nDamage per Hit: [260%]\nSuper Armor Break per Hit: [113%]\n\nFinal Damage per Hit: [781%]\nFinal Super Armor Break per Hit: [339%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: [1934%]\nSuper Armor Break: [840%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG Consumption: [30]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage: [1934%]\nSuper Armor Break: [840%]\nSG Consumption: [30]\nCooldown: [35sec]\n\n[Skill Info: Wolves Phantom]\nDamage per Hit: [260%]\nSuper Armor Break per Hit: [113%]\n\nFinal Damage per Hit: [781%]\nFinal Super Armor Break per Hit: [339%]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage: [2205%]\nSuper Armor Break: [958%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG Consumption: [30]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage: [2205%]\nSuper Armor Break: [958%]\nSG Consumption: [30]\nCooldown: [35sec]\n\n[Skill Info: Wolves Phantom]\nDamage per Hit: [260%]\nSuper Armor Break per Hit: [113%]\n\nFinal Damage per Hit: [781%]\nFinal Super Armor Break per Hit: [339%]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage: [2602%]\nSuper Armor Break: [1130%]\n\n[Wolves Phantom]\nDamage per hit: [260%]\nSuper Armor Break per hit: [113%]\n\n[Finishing Move]\nDamage per hit: [781%]\nSuper Armor Break per hit: [339%]\n\nSG Consumption: [30]\nCooldown: [35sec]",
+          "Effect": "[Skill Info]\nDamage: [2602%]\nSuper Armor Break: [1130%]\nSG Consumption: [30]\nCooldown: [35sec]\n\n[Skill Info: Wolves Phantom]\nDamage per Hit: [260%]\nSuper Armor Break per Hit: [113%]\n\nFinal Damage per Hit: [781%]\nFinal Super Armor Break per Hit: [339%]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Banshee Hunt": {
+    "Skill14_BansheeHunt": {
       "Name": "Banshee Hunt",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_GhostyHunt.png",
+      "Icon": "../assets/SkillIcons/Stella/Skill14_BansheeHunt.png",
       "Levels": {
         "0": {
-          "Description": "You conjure up a mystical friend who fells opponents in front of you with fire breath.\nAlternatively attacks with laser breath after switching modes.",
+          "Description": "You conjure up a mystical friend who fells opponents in front of you with fire breath. Alternatively attacks with laser breath after switching modes.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_GhostHunt.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/Skill14_BansheeHunt.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [435%]\nSuper Armor Break per hit: [462%]\nSG Consumption: [40]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Breath Attack]\nDamage per Hit: [435%]\nSuper Armor Break per Hit: [462%]\nSG Consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [479%]\nSuper Armor Break per hit: [509%]\nSG Consumption: [40]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Breath Attack]\nDamage per Hit: [479%]\nSuper Armor Break per Hit: [509%]\nSG Consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [536%]\nSuper Armor Break per hit: [570%]\nSG Consumption: [40]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Breath Attack]\nDamage per Hit: [536%]\nSuper Armor Break per Hit: [570%]\nSG Consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 0
         },        
         "4": {
-          "Effect": "Damage per hit: [611%]\nSuper Armor Break per hit: [649%]\nSG Consumption: [40]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Breath Attack]\nDamage per Hit: [611%]\nSuper Armor Break per Hit: [649%]\nSG Consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per hit: [704%]\nSuper Armor Break per hit: [749%]\nSG Consumption: [40]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Breath Attack]\nDamage per Hit: [704%]\nSuper Armor Break per Hit: [749%]\nSG Consumption: [40]\nCooldown: [40sec]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BasicAttackMastery": {
+    "Skill17_WolfHug": {
+      "Name": "Wolf Hug",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Stella/Skill17_WolfHug.png",
+      "Levels": {
+        "0": {
+          "Description": "Invite your friends and give them a hug. Your friends are frustrated and blow their breath around.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Stella/Skill17_WolfHug.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Ground Strike]\nDamage per Hit: [30%]\nSuper Armor Break per Hit: [31%]\n\n[Skill Info: Breath Attack]\nDamage per Hit: [505%]\nSuper Armor Break per Hit: [524%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [2675%]\nBuff Additional Super Armor Break: [2500%]\nSG Consumption: [30]\nCooldown: [25sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Ground Strike]\nDamage per Hit: [33%]\nSuper Armor Break per Hit: [35%]\n\n[Skill Info: Breath Attack]\nDamage per Hit: [556%]\nSuper Armor Break per Hit: [576%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [2675%]\nBuff Additional Super Armor Break: [2500%]\nSG Consumption: [30]\nCooldown: [25sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: Ground Strike]\nDamage per Hit: [37%]\nSuper Armor Break per Hit: [39%]\n\n[Skill Info: Breath Attack]\nDamage per Hit: [622%]\nSuper Armor Break per Hit: [646%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [2675%]\nBuff Additional Super Armor Break: [2500%]\nSG Consumption: [30]\nCooldown: [25sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": "P0",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
         "0": {
-          "Description": "Summon Howlers to attack the enemy.\nChain attacks change depending on the skill level.",
+          "Description": "Summon Howlers to attack the enemy.\nChain attacks change depending on the skill level.\nDamage increases",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Attack_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Basic Attack patters: 4x Left-Click",
+          "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage increased by [35%]\nDamage: [%]\nUnlock alternative attack “A”",
+          "Effect": "[Skill Info]\nDamage: +[35%]\n\nEnable to use SoulStrike A",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "Damage increased by [70%]\nUnlock additional basic attack",
+          "Effect": "[Skill Info]\nDamage: +[70%]\n\nEnable to use SoulStrike B.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "Damage increased by [110%]\n\nUnlock alternative attack “B”\nUnlock alternative aerial attack",
+          "Effect": "[Skill Info]\nDamage: +[110%]\n\nEnable to use an addional strike for the Basic Attack.\nEnable to use an additional strike for the Aerial Attack.",
           "RequiredLevel": 15,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Attack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "Damage increased by [150%]\n\nUnlock alternative attack “C”",
+          "Effect": "[Skill Info]\nDamage: +[150%]\n\nEnable to use SoulStrike C.",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Attack_05.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": "P1",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Stella/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
-          "Description": "[Ground]\nChanges modes and the effects of your skills. Activates Sorrowful Note.\n[Air]\nDo a musical performance on your special guitar to change your mode. Using this skill in the air will make your ghost attack with a fist and pushes you backwards.",
+          "Description": "Play a special Howling Guitar to change your tempo.\nWhen using the skill in the air, a fist-formed Howler appears to attack enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Air]\nDamage: [204%]\nSuper Armor Break: [124%]\nCooldown: [3sec]",
+          "Effect": "[Skill Info: Ground]\nSwitch mode to change skill effect.\nBeing buffed by Melody of Sorrow.\nCooldown: [3sec]\n\n[Skill Info: Aerial]\nDamage: [204%]\nSuper Armor Break: [124%]\nCooldown: [3sec]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Air]\nDamage: [214%]\nSuper Armor Break: [131%]\nCooldown: [2sec]",
+          "Effect": "[Skill Info: Ground]\nSwitch mode to change skill effect.\nBeing buffed by Melody of Sorrow.\nCooldown: [2sec]\n\n[Skill Info: Aerial]\nDamage: [214%]\nSuper Armor Break: [131%]\nCooldown: [2sec]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "[Air]\nDamage: [239%]\nSuper Armor Break: [146%]\nCooldown: [3sec]",
+          "Effect": "[Skill Info: Ground]\nSwitch mode to change skill effect.\nBeing buffed by Melody of Sorrow.\nCooldown: [1sec]\n\n[Skill Info: Aerial]\nDamage: [239%]\nSuper Armor Break: [146%]\nCooldown: [1sec]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1241,6 +1437,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Evade_F.{{auto}}"
           }
@@ -1248,14 +1445,15 @@
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1264,6 +1462,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Roll_F.{{auto}}"
           }
@@ -1271,25 +1470,28 @@
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": "P4",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1297,6 +1499,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Run_F.{{auto}}"
           }
@@ -1304,19 +1507,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1005,
+      "ID": "P5",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1325,6 +1530,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Rise_Attack.{{auto}}"
           }
@@ -1332,25 +1538,28 @@
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1358,6 +1567,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_N_Attack_Dash.{{auto}}"
           }
@@ -1365,14 +1575,15 @@
         "1": {
           "Effect": "Damage: [127%]\nSuper Armor Break: [42%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1380,6 +1591,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_Special_Evade_F.{{auto}}"
           }
@@ -1387,24 +1599,27 @@
         "1": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [30sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SouldashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "Souldash Attack",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1412,6 +1627,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Stella/B_S_Attack_N_Dash.{{auto}}"
           }
@@ -1419,113 +1635,128 @@
         "1": {
           "Effect": "Damage: [277]\nSuper Armor Break: [171%]\nCooldown: [3sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP":3,
+          "ReqSPkr": 1
         }
       }
     },
-    "BounceWave": {
+    "CSkill2_BounceWave": {
       "Passive": true,
       "Name": "Bounce Wave",
-      "ID": 1013,
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Stella/CSkill2_BounceWave.png",
       "Levels": {
         "0": {
           "Description": "How To Activate\n- Use of [Trouble Pass], [Beads Play], [Best Tempo]\n- Use of [Stella Time] Right-Click combo\n- Use of [Bass Attack] Finish Attack",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "Passive Effect:\nCurrent Skill's Cooldown [5%]\nReduction and Recover [9] SV\nPassive Cooldown: [15sec]",
+          "Effect": "[Skill Info]\nPassive Effect: Current Skill's Cooldown [5%]\nReduction and Recover [9] SV\nPassive Cooldown: [15sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "Passive Effect:\nCurrent Skill's Cooldown [7%]\nReduction and Recover [10] SV\nPassive Cooldown: [15sec]",
+          "Effect": "[Skill Info]\nPassive Effect: Current Skill's Cooldown [7%]\nReduction and Recover [10] SV\nPassive Cooldown: [15sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "Passive Effect:\nCurrent Skill's Cooldown [10%]\nReduction and Recover [11] SV\nPassive Cooldown: [15sec]",
+          "Effect": "[Skill Info]\nPassive Effect: Current Skill's Cooldown [10%]\nReduction and Recover [11] SV\nPassive Cooldown: [15sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoundWave": {
+    "CSkill1_SoundWave": {
       "Passive": true,
       "Name": "Sound Wave",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_SGPassive.png",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Stella/CSkill1_SoundWave.png",
       "Levels": {
         "0": {
-          "Description": "Permanently increases your Max SG.",
+          "Description": "Permanently increases your Max. SG.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "Max SG: +[40%]",
+          "Effect": "[Skill Info]\nPassive Effect: Max. SG increased by: +[40%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "Max SG: +[60%]",
+          "Effect": "[Skill Info]\nPassive Effect: Max. SG increased by: +[60%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP":1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "Max SG: +[100%]",
+          "Effect": "[Skill Info]\nPassive Effect: Max. SG increased by: +[100%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP":2,
+          "ReqSPkr": 1
         }
       }
     },
-    "MelodyofSorrow": {
-      "ID": 1012,
+    "CSkill0_MelodyOfSorrow": {
+      "ID": "C0",
       "Passive": true,
       "DefaultLevel": 1,
       "Name": "Melody of Sorrow",
@@ -1535,25 +1766,27 @@
           "Description": "Recover 20% of SG when switching",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Automatically recover SG in a certain lengh of\ntime.",
           "RequiredLevel": 10,
-          "RequiredSP": 0
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     },
-    "StelliaSymphony": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
       "Name": "Stellia Symphony",
-      "DefaultLevel": 1,
-      "ID": 2003,
+      "DefaultLevel": 57,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/NSkill3_StellaSymphony.png",
+      "Icon": "../assets/SkillIcons/Stella/EXSkill_StelliaSymphony.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1561,74 +1794,80 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_StellaSymphony.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/EXSkill_StelliaSymphony.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Can only be used in the Awakening Status.\n\nDamage：[8400%]\nSuper Armor Break：[7800%]\nSV gain: [10]",
+          "Effect": "Can only be used in the Awakening Status.\n\nDamage: [8400%]\nSuper Armor Break: [7800%]\nSV gain: [10]",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
-      "DefaultLevel": 1,
-      "ID": 2001,
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BreakErode.png",
+      "DefaultLevel": 0,
+      "ID": "V0",
+      "Icon": "../assets/SkillIcons/Stella/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
+          "Description": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for [30sec]\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor\n\nAwakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/NSkill1_Frenzy.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for [30sec]\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
-      "DefaultLevel": 1,
-      "ID": 2002,
+      "DefaultLevel": 0,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Stella/Icon_Howling_Skill_BreakWakeup.png",
+      "Icon": "../assets/SkillIcons/Stella/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Description": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for [60sec].\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor\n\nAwakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
-          "RequiredLevel": 0,
+          "RequiredLevel": 5,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60sec].\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "RequiredLevel": 57,
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
-      "DefaultLevel": 1,
-      "ID": 2004,
+      "DefaultLevel": 0,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1637,18 +1876,20 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken your Desire and Temporarily gain Boosted Stats.",
+          "Description": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for [60sec].\n-Attack Damage: [+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60sec] for Desire skills:\n-Bass Attack (lvl 42 Skill)\n-Banshee Hunt (lvl 62 Skill)\n-Stellia Symphony (EX Skill)\n\n-Bass Attack: Max. 6 additional explosions nearby\n-Banshee Hunt: Additional 3~5 attacks followed by the range of Soul Breath\n-Stellia Symphony: Max. 3 additional finish with lightning\n\nAwaken your Desire and Temporarily gain Boosted Stats.",
           "Effect": "",
-          "RequiredLevel": 0,
+          "RequiredLevel": 65,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Stella/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Stella/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Bass Attack (lvl 42 Skill)\n-Banshee Hunt (lvl 62 Skill)\n-Stellia Symphony (EX Skill)\n\n-Bass Attack: Max. 6 additional explosions nearby\n-Banshee Hunt: Additional 3~5 attacks followed by the range of Soul Breath\n-Stellia Symphony: Max. 3 additional finish with lightning",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for [60sec].\n-Attack Damage: [+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60sec] for Desire skills:\n-Bass Attack (lvl 42 Skill)\n-Banshee Hunt (lvl 62 Skill)\n-Stellia Symphony (EX Skill)\n\n-Bass Attack: Max. 6 additional explosions nearby\n-Banshee Hunt: Additional 3~5 attacks followed by the range of Soul Breath\n-Stellia Symphony: Max. 3 additional finish with lightning",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP":0,
+          "ReqSPkr": 0
         }
       }
     }

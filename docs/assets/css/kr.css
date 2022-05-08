@@ -1,3 +1,10 @@
+:root{
+    --PassiveGreen:#8cc556;
+    --MainSkillYellow:#fbd668;
+    --AdvancementBlue: #3074fe;
+    --DesirePurple: #7335e7;
+}
+
 #dialogs {
     position: fixed;
     width: 100%;
@@ -81,17 +88,17 @@
 }
 
 .animated.fadeout-custom {
-    -webkit-animation: fadeoutcustom 750ms forwards;
-    -moz-animation: fadeoutcustom 750ms forwards;
-    -o-animation: fadeoutcustom 750ms forwards;
-    animation: fadeoutcustom 750ms forwards;
+    -webkit-animation: fadeoutcustom 500ms forwards;
+    -moz-animation: fadeoutcustom 500ms forwards;
+    -o-animation: fadeoutcustom 500ms forwards;
+    animation: fadeoutcustom 500ms forwards;
 }
 
 .animated.fadein-custom {
-    -webkit-animation: fadeincustom 500ms;
-    -moz-animation: fadeincustom 500ms;
-    -o-animation: fadeincustom 500ms;
-    animation: fadeincustom 500ms;
+    -webkit-animation: fadeincustom 300ms;
+    -moz-animation: fadeincustom 300ms;
+    -o-animation: fadeincustom 300ms;
+    animation: fadeincustom 300ms;
 }
 
 @-webkit-keyframes whiteSonarEffect {
@@ -159,9 +166,10 @@
     position: absolute;
     /*border: 50px solid (rgb(0,0,255), transparent);
     border-bottom: none;*/
-    height: 503px;
+    max-height: 100%;
     width: auto;
     bottom: 0px;
+    right: 0px;
 }
 
 .forcharacter {
@@ -177,7 +185,7 @@
     top: 60px;
     bottom: 60px;
     right: 0;
-    left: 0;
+    left: -69px;
     overflow-y: auto;
 }
 
@@ -190,41 +198,74 @@ li.titletablelike {
 li.tablelike {
     float: left;
     display: block;
-    width: 155px;
-    height: 88px;
+    width: 118px;
+    height: 90px;
     margin: 8px;
 }
 
 div.skillinfopanel {
     position: relative;
-    border: 1px solid #fbd668; /* was 1px*/
+    border: 2px solid var(--MainSkillYellow); /* was 1px*/
     border-radius: 10px;
-    width: 155px;   /*was 155px*/
-    height: 100px;   /*was 92px*/
-    background-color: rgba(0, 0, 0, 0.75) /*alpha was 0.4*/
+    width: 200px;   /*was 155px*/
+    height: 125px;   /*was 92px*/
+    background-color: rgba(0, 0, 0, 0.9); /*alpha was 0.4*/
     /*display: inline-block;
     margin-right: 20px;
-    margin-bottom: 20px;//*/
+    margin-bottom: 20px;*/
 }
-.passiveskill div.skillinfopanel {
-    height: 80px;
-    width: 130px;
-    border: 1px solid #8cc556;
+
+
+.activeskill img.skillIcon:first-child {
+    border: 2px solid var(--MainSkillYellow);
 }
-.vaporskill div.skillinfopanel {
-    height: 80px;
-    width: 80px;
-    border: 1px solid #7335e7;
+
+.passiveskill img.skillIcon:first-child {
+    border: 2px solid var(--PassiveGreen);
+}
+
+
+div.skillExinfopanel :is(
+[insight="Skill03_SpinCutter-A"],
+[insight="Skill10_FlashStep-A"],
+[insight="Skill07_CombatMaster-A"],
+[insight="Skill09_ElectricShot-A"],
+[insight="Skill01_EvilSlash-A"],
+[insight="Skill07_DeathScythe-A"],
+[insight="Skill01_WhirlDance-A"],
+[insight="Skill08_SoulScream-A"],
+[insight="Skill02_PerfectCombination-A"],
+[insight="Skill08_SpiritShooter-A"],
+[insight="Skill02_CamelSpin-A"],
+[insight="Skill09_Liberator-A"],
+[insight="Skill03_1stForm:ReadytoHunt-A"],
+[insight="Skill07_ThirdForm-HawkAmbush-A"],
+[insight="Skill02_SonicBoom-A"],
+[insight="Skill07_ViciousWoodpecker-A"],
+[insight="Skill06_BustDriver-A"],
+[insight="Skill08_HoneyBee-A"],
+):first-child,
+li.tablelike :is([insight^="Skill15"],[insight^="Skill16"],[insight^="Skill17"]):first-child {
+    border: 2px solid var(--AdvancementBlue);
+}
+
+li.tablelike :is([insight^="Skill13"]:not([insight$="-A"]),[insight*="Skill14"]):first-child,
+li.tablelike :is([src*="Skill13"],[src*="Skill14"]),
+div.skillExinfopanel :is([insight^="Skill13"][insight$="-A"]):first-child { 
+    border: 2px solid var(--DesirePurple);
 }
 
 #tooltip {
-    border: 2px solid #3074fe;
+    border: 2px solid #eeeeee;
     border-radius: 10px;
     padding: 5px;
+    position: fixed;
+
 }
 
 .activeskill li.tablelike {
-    margin-bottom: 15px;
+    margin-bottom: 33px;
+    margin-left: 78px;
 }
 
 .vaporskill li.tablelike {
@@ -235,8 +276,8 @@ img.skillIcon {
     position: absolute;
     left: 50%;
     top: 5px;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 5px;
     transform: translateX(-50%);
 }
@@ -247,7 +288,6 @@ button.skillup {
     height: 15px;
     width: 10px;
     top: 12px;
-    left: 107px;
     margin: 0;
     border-radius: 100px;
 }
@@ -258,19 +298,22 @@ button.skilldown {
     height: 15px;
     width: 10px;
     top: 32px;
-    left: 107px;
     margin: 0;
     border-radius: 100px;
+}
+
+button.skillup, button.skilldown {
+    left: 140px;
 }
 
 li.activeskill {
     float: left;
     display: block;
-    width: 570px;
+    width: 720px;
 }
 
 ul.tableactiveskill {
-    width: 570px;
+    width: 680px;
     list-style: none outside none;
 }
 
@@ -282,27 +325,27 @@ li.passiveskill {
 
 ul.tablepassiveskill {
     float: right;
-    width: 390px;
+    width: 410px;
     list-style: none outside none;
 }
 
 li.vaporskill {
     float: none;
     display: flex;
-    
 }
 
 ul.tablevaporskill {
     float: none;
-    width: 590px;
+    width: 600px;
     list-style: none outside none;
+    padding-inline-start: 0px;
 }
 
 p.skillLevel {
-    font-size: 13px;
+    font-size: 16px;
     position: absolute;
     left: 50%;
-    top: 56px;
+    top: 66px;
     transform: translateX(-50%);
 }
 
@@ -331,7 +374,6 @@ div.extension2infopanel {
 
 div.skillExinfopanel {
     position: relative;
-    /*border: 1px solid black;*/
     width: 54px;
     height: 31px;
     left: 5px;
@@ -340,42 +382,70 @@ div.skillExinfopanel {
 
 img.skillExIcon {
     position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 30px;
-    height: 30px;
+    left: -1px;
+    top: 7px;
+    width: 45px;
+    height: 45px;
     border-radius: 5px;
+    border: 2px solid var(--MainSkillYellow);
+}
+
+div.extension2infopanel img.skillExIcon {
+    left: 54px;
 }
 
 button.skillexup {
     position: absolute;
-    height: 15px;
+    height: 12px;
     width: 6px;
-    top: -1px;
-    left: 40px;
+    top: 13px;
     margin: 0;
     border-radius: 100%;
+    border: none;
+
+}
+
+button.skillexup:focus {
+    box-shadow: 0 0 0 2px rgb(119 179 0 / 50%) !important;
+    outline: 0px;
 }
 
 button.skillexdown {
     position: absolute;
-    height: 15px;
+    height: 12px;
     width: 6px;
-    top: 14px;
-    left: 40px;
+    top: 30px;
     margin: 0;
     border-radius: 100%;
+    border: none;
 }
+
+button.skillexdown:focus {
+    box-shadow: 0 0 0 2px rgb(204 0 0 / 50%) !important;
+    outline: 0px;
+}
+
+button.skillexup, button.skillexdown {
+    left: 62px;
+}
+ 
+div.extension2infopanel :is(button.skillexup,button.skillexdown) {
+    left: 27px;
+} 
 
 p.skillExLevel {
     word-wrap: break-word;
     height: auto;
     width: 1px;
-    font-size: 9px;
+    font-size: 12px;
     position: absolute;
-    left: 31px;
-    top: 2px;
+    left: 48px;
+    top: 10px;
     margin-left: 2px;
+}
+
+div.extension2infopanel p.skillExLevel {
+    left: 41px;
 }
 
 .text-black {
@@ -435,35 +505,389 @@ p.skillExLevel {
 }
 
 .passiveskill div.skillinfopanel {
-    height: 80px;
-    width: 130px;
+    height: 92px;
+    width: 120px;
+    border: 2px solid var(--PassiveGreen);
 }
 
 .vaporskill div.skillinfopanel {
     height: 80px;
     width: 80px;
+    border: 2px solid var(--DesirePurple);
+    margin-left: -110px
 }
 
 .vaporskill img.skillIcon {
     top: 8px;
     height: 60px;
     width: 60px;
+    border: 2px solid var(--DesirePurple);
+    border-radius: 100%;
 }
 
 .passiveskill li.tablelike{
     margin-top: 7px;
     margin-bottom: 0px;
+    width: 108px;
 }
 
-.passiveskill img.skillIcon, .passiveskill p.skillLevel {
-    Left: 50px;
+.passiveskill :is(img.skillIcon,p.skillLevel) {
+    Left: 40px;
 }
 
 
-.passiveskill button.skillup, .passiveskill button.skilldown {
-    Left: 80px;
+.passiveskill :is(button.skillup,button.skilldown) {
+    Left: 75px;
 }
 
-.vaporskill button.skillup, .vaporskill button.skilldown, .vaporskill p.skillLevel {
+.vaporskill :is(button.skillup,button.skilldown,p.skillLevel) {
     visibility:hidden !important
+}
+
+ul#skillbuttons{
+    align-items: center;
+    padding-right: 3%;
+}
+
+#mainSkillsbtn{
+    background-color:#da0d21;
+    border-color: #da0d21;
+    /* to make both buttons the same size
+    padding-left: 25px;
+    padding-right: 25px;
+    */
+}
+
+#mainSkillsbtn:hover{
+    background-color:#b91021;
+    border-color: #b91021;
+}
+
+#mainSkillsbtn:focus{
+    -webkit-box-shadow: 0 0 0 2px rgb(42, 159, 214);
+    box-shadow: 0 0 0 2px rgb(42, 159, 214);
+}
+
+#pasSkillsbtn{
+    background-color:#e79d13;
+    border-color: #e79d13;
+}
+
+#pasSkillsbtn:hover{
+    background-color:#c48614;
+    border-color: #c48614;
+}
+
+#pasSkillsbtn:focus{
+    -webkit-box-shadow: 0 0 0 2px rgb(42, 159, 214);
+    box-shadow: 0 0 0 2px rgb(42, 159, 214);
+}
+
+#mainSkillsbtn, #pasSkillsbtn {
+    margin-right: 5px;
+}
+
+#slotassignment{
+    margin-left: 10px;
+}
+
+.container-fluid{
+    overflow-x:hidden;
+    width:auto;
+}
+
+::-webkit-scrollbar {
+    background-color:#000000dd;
+}
+
+@media only screen and (max-width: 1482px) {
+    #mainSkillsbtn {
+        margin-bottom:5px;
+    }
+    .container-fluid{
+        top: 60px;
+    }
+    ul{
+        margin-top:20px;
+    }
+}
+
+@media only screen and (max-width: 1463px) {
+    .container-fluid{
+        top: 80px;
+    }
+    .custom-select2{
+        margin-top: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 1385px) {
+    .container-fluid{
+        top: 120px;
+    }
+
+    .custom-select2{
+        margin-top: 20px !important;
+        
+    }
+}
+
+@media only screen and (max-width: 1269px) {
+    .navbar-expand-md .navbar-nav {
+    flex-direction: column;
+    }
+
+    .topnav-right{
+        float: none;
+    }
+    .btn {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    #mainSkillsbtn {
+        margin-bottom: 15px;
+    }
+    .container-fluid{
+        top: 250px;
+    }
+    .custom-select2{
+        margin-top: -15px !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .vaporskill div.skillinfopanel{
+        margin-left: 10px;
+    }
+    li.passiveskill{
+        width: 460px;
+    }
+    ul.tablepassiveskill{
+        width: 390px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    div.skillinfopanel{
+        margin-left: -100px;
+    }
+    .vaporskill div.skillinfopanel{
+        margin-left: -90px;
+    }
+}
+
+@media only screen and (max-width: 822px) {
+    .container-fluid{
+        top: 270px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .container-fluid{
+        top: 270px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #mainSkillsbtn, #pasSkillsbtn {
+        margin-bottom:0px;
+        margin-right: 0px;
+    }
+    .container-fluid{
+        top: -20px;
+        overflow-x:scroll;
+        height: auto;
+    }
+    .custom-select2{
+        margin-top: -15px !important;
+    }
+    .container {
+        margin:0px;
+    }
+    .topnav-right{
+        float: none;
+    }
+    .btn {
+        margin: 3px 0;
+    }
+    ul.tablevaporskill{
+        padding: 0px;
+    }
+    ul.topnav-right{
+        margin-top:3px;
+    }
+    .nav-link{
+        display: inline-block;
+    }
+    .navbar-nav .nav-link{
+        padding-right: 10px;
+    }
+    #copyBtn{
+        margin-bottom:10px;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    li.vaporskill{
+        display: block;
+    }
+    .vaporskill div.skillinfopanel{
+        margin-top: 20px;
+        margin-left: -190px;
+    }
+}
+
+
+/* Passive Skilltree */
+
+.PassiveLeftGrid {
+    position: absolute;
+    left: 280px;
+    opacity: 0.4;
+    animation: CS 15s;
+}
+
+.PassiveRightGrid {
+    position: absolute;
+    right: 500px;
+    opacity: 0.4;
+    animation: CS 15s;
+}
+
+.PassiveMaster {
+    Position: relative;
+    width: 90px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.PassiveSub {
+    Position: relative;
+    width: 90px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.Leveltext {
+    Position: relative;
+    width: 130px;
+    top: 15px;
+}
+
+
+.PassiveMasterColumn {
+    display: grid;
+    grid-gap: 27px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    grid-template-columns: 90px 90px 90px 90px 90px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 7px;
+    border: 2px solid var(--PassiveGreen);
+    
+}
+
+.PassiveSubColumn {
+    display: grid;
+    grid-gap: 50px;
+    padding: 10px 0px;
+    grid-template-columns: 90px 90px 90px 90px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: 2px solid var(--PassiveGreen);
+}
+
+.L30, .R30 {
+    border-radius: 7px 7px 0 0;
+    border-bottom: none;
+}
+
+.L50, .R50 {
+    border-top: none;
+    border-bottom: none;
+}
+
+.L70, .R70 {
+    border-top: none;
+    border-radius: 0 0 7px 7px;
+}
+
+
+:is(.PassiveMaster,.PassiveSub) .skillIcon {
+    border: 2px solid var(--PassiveGreen);
+    border-radius: 10%;
+}
+
+.btnMinus, .btnPlus {
+    height: 16px;
+    width: 16px;
+    margin-top: 75px;
+    position: relative;
+    border-radius: 3px;
+    border: none;
+    background-color: #84C551;
+}
+
+.btnMinus {
+    left: -13px;
+}
+
+.btnPlus {
+    left: 13px;
+}
+
+.btnIcon {
+    position: absolute;
+    
+}
+
+.imgMinus {
+    top: 5px;
+    width: 70%;
+    left: 2.5px;
+}
+
+.imgPlus {
+    top: 2.4px;
+    left: 2.6px;
+    height: 70%;
+}
+
+.PMlvl {
+    display: inline;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 73px;
+}
+
+.PSkillbot {
+    position: relative;
+    top: -20px;
+}
+
+.PMName {
+    margin-top: -18px;
+}
+
+.ComingSoon {
+    width: auto;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.CS {
+    transform: translate(335px, 205px) rotate(14deg);
+    font-size: 144px;
+    z-index: 99999999999999999;
+    position: absolute;
+    animation: fadein 3s;
+    font-family: cursive;
+}
+
+@keyframes CS {
+    0% {opacity:0;}
+    100% {opacity:0.4;}
 }

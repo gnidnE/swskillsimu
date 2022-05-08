@@ -18,1212 +18,1405 @@
   }
   },
   "Skills": {
-    "AirBurst": {
+    "Skill01_AirBurst": {
       "Name": "Air Burst",
       "DefaultLevel": 1,
       "ID": 1,
       "Icon": "../assets/SkillIcons/Ephnel/Skill01_AirBurst.png",
       "Levels": {
         "0": {
-          "Description": "A strong blow down the front to launch nearby enemies. For additional input, grab the spear and roll back to attack additionally. If you have a bullet buff or an unlock weapon buff, an additional explosion will occur when you right click after the attack.",
+          "Description": "Additional Explosions will be added on landing when being buffed by reload or limit over.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill01_AirBurst.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Hit Down]\nDamage: 150%\nSuper Armor Break: 44%\n[Return in Air]\nDamage: 225%\nSuper Armor Break: 66%\n[Additional Explosion]\nDamage: 37%\nSuper Armor Break: 11%\nSG Consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [150%]\nSuper Armor Break: [44%]\n\n[Skill Info: Aerial Turning-Back kick]\nDamage: [225%]\nSuper Armor Break: [66%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [8sec]\n\n[Skill Info: Additional Explosion]\nDamage: [37%]/[112%]\nSuper Armor Break: [11%]/[33%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Hit Down]\nDamage: 165%\nSuper Armor Break: 48%\n[Return in Air]\nDamage: 248%\nSuper Armor Break: 72%\n[Additional Explosion]\nDamage: 41%\nSuper Armor Break: 12%\nSG Consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [165%]\nSuper Armor Break: [48%]\n\n[Skill Info: Aerial Turning-Back kick]\nDamage: [248%]\nSuper Armor Break: [72%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [8sec]\n\n[Skill Info: Additional Explosion]\nDamage: [41%]/[124%]\nSuper Armor Break: [12%]/[36%]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Hit Down]\nDamage: 185%\nSuper Armor Break: 54%\n[Return in Air]\nDamage: 278%\nSuper Armor Break: 81%\n[Additional Explosion]\nDamage: 46%\nSuper Armor Break: 13%\nSG Consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [185%]\nSuper Armor Break: [54%]\n\n[Skill Info: Aerial Turning-Back kick]\nDamage: [278%]\nSuper Armor Break: [81%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [8sec]\n\n[Skill Info: Additional Explosion]\nDamage: [46%]/[139%]\nSuper Armor Break: [13%]/[46%]",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Hit Down]\nDamage: 211%\nSuper Armor Break: 62%\n[Return in Air]\nDamage: 317%\nSuper Armor Break: 93%\n[Additional Explosion]\nDamage: 52%\nSuper Armor Break: 15%\nSG Consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [211%]\nSuper Armor Break: [62%]\n\n[Skill Info: Aerial Turning-Back kick]\nDamage: [317%]\nSuper Armor Break: [93%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [8sec]\n\n[Skill Info: Additional Explosion]\nDamage: [52%]/[158%]\nSuper Armor Break: [15%]/[46%]",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%\nSG Consumption: 35\nCooldown: 8 seconds",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [249%]\nSuper Armor Break: [73%]\n\n[Skill Info: Aerial Turning-Back kick]\nDamage: [374%]\nSuper Armor Break: [109%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [8sec]\n\n[Skill Info: Additional Explosion]\nDamage: [62%]/[187%]\nSuper Armor Break: [18%]/[54%]",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "AirBurst-A",
-        "AirBurst-B"
+        "Skill01_AirBurst-A",
+        "Skill01_AirBurst-B"
       ]
     },
-    "AirBurst-A": {
+    "Skill01_AirBurst-A": {
       "Visible": false,
       "Name": "Additional Attack",
       "ID": 2,
       "Icon": "../assets/SkillIcons/Ephnel/Skill01_AirBurst_A.png",
       "Levels": {
         "0": {
-          "Description": "After an air-back kick, additional input ends the kick. An additional attack will occur when you right click twice after the attack.",
+          "Description": "With extra command, finishing the attack with Kick Form: Swallow after Aerial Turning-Back Kick.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill01_AirBurst_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Hit Down]\nDamage: 249%\nSuper Armor Break: 73%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 109%\n[Kick]\nDamage: 374%\nSuper Armor Break: 109%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 18%",
+          "Effect": "[SoulPlus Info: Spear Landing]\nDamage: [249%]\nSuper Armor Break: [73%]\n[SoulPlus Info: Aerial Turning-Back kick]\nDamage: [374%]\nSuper Armor Break: [109%]\n[SoulPlus Info: Kick Form: Swallow]\nDamage: [374%]\nSuper Armor Break: [109%]\n[SoulPlus Info: Additional Explosion]\nDamage: [62%]/[187%]\nSuper Armor Break: [18%]/[54%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Hit Down]\nDamage: 286%\nSuper Armor Break: 84%\n[Return in Air]\nDamage: 430%\nSuper Armor Break: 126%\n[Kick]\nDamage: 430%\nSuper Armor Break: 126%\n[Additional Explosion]\nDamage: 71%\nSuper Armor Break: 21%",
+          "Effect": "[SoulPlus Info: Spear Landing]\nDamage: [286%]\nSuper Armor Break: [84]%]\n[SoulPlus Info: Aerial Turning-Back kick]\nDamage: [430%]\nSuper Armor Break: [126%]\n[SoulPlus Info: Kick Form: Swallow]\nDamage: [430%]\nSuper Armor Break: [126%]\n[SoulPlus Info: Additional Explosion]\nDamage: [71%]/[215%]\nSuper Armor Break: [21%]/[63%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Hit Down]\nDamage: 361%\nSuper Armor Break: 106%\n[Return in Air]\nDamage: 542%\nSuper Armor Break: 159%\n[Kick]\nDamage: 542%\nSuper Armor Break: 159%\n[Additional Explosion]\nDamage: 90%\nSuper Armor Break: 26%",
+          "Effect": "[SoulPlus Info: Spear Landing]\nDamage: [361%]\nSuper Armor Break: [106%]\n[SoulPlus Info: Aerial Turning-Back kick]\nDamage: [542%]\nSuper Armor Break: [159%]\n[SoulPlus Info: Kick Form: Swallow]\nDamage: [542%]\nSuper Armor Break: [159%]\n[SoulPlus Info: Additional Explosion]\nDamage: [90%]/[271%]\nSuper Armor Break: [26%]/[79%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "AirBurst-B": {
+    "Skill01_AirBurst-B": {
       "Visible": false,
-      "Name": "Additional Blows",
+      "Name": "Additional Hit",
       "ID": 3,
       "Icon": "../assets/SkillIcons/Ephnel/Skill01_AirBurst_B.png",
       "Levels": {
         "0": {
-          "Description": "When hitting down, it will inflict additional damage to nearby enemies for 1.5 seconds. Also adds a motion to reload weapons after kickback.",
+          "Description": "Additionally hit enemies nearby area after Spear Landing for 1.5 sec\nReloading motion is added after Turning-Back Kick.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AirBurst_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill01_AirBurst_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Continuous Strike]\nDamage: 436%\nSuper Armor Break: 255%\n[Return in Air]\nDamage: 374%\nSuper Armor Break: 219%\n[Additional Explosion]\nDamage: 62%\nSuper Armor Break: 36%",
+          "Effect": "[SoulPlus Info: Consecutive Hit after Spear Landing]\nDamage: [436%]\nSuper Armor Break: [255%]\n[SoulPlus Info: Aerial Turning-Back Kick]\nDamage: [374%]\nSuper Armor Break: [219%]\n[SoulPlus Info: Additional Explosion]\nDamage: [62%] / [187%]\nSuper Armor Break: [36%] / [109%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Continuous Strike]\nDamage: 501%\nSuper Armor Break: 294%\n[Return in Air]\nDamage: 430%\nSuper Armor Break: 252%\n[Additional Explosion]\nDamage: 71%\nSuper Armor Break: 42%",
+          "Effect": "[SoulPlus Info: Consecutive Hit after Spear Landing]\nDamage: [501%]\nSuper Armor Break: [294%]\n[SoulPlus Info: Aerial Turning-Back Kick]\nDamage: [430%]\nSuper Armor Break: [252%]\n[SoulPlus Info: Additional Explosion]\nDamage: [71%] / [215%]\nSuper Armor Break: [42%] / [126%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Continuous Strike]\nDamage: 632%\nSuper Armor Break: 370%\n[Return in Air]\nDamage: 542%\nSuper Armor Break: 317%\n[Additional Explosion]\nDamage: 90%\nSuper Armor Break: 52%",
+          "Effect": "[SoulPlus Info: Consecutive Hit after Spear Landing]\nDamage: [632%]\nSuper Armor Break: [370%]\n[SoulPlus Info: Aerial Turning-Back Kick]\nDamage: [542%]\nSuper Armor Break: [317%]\n[SoulPlus Info: Additional Explosion]\nDamage: [90%] / [271%]\nSuper Armor Break: [52%] / [158%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SonicBoom": {
+    "Skill02_SonicBoom": {
       "Name": "Sonic Boom",
       "DefaultLevel": 1,
       "ID": 4,
       "Icon": "../assets/SkillIcons/Ephnel/Skill02_SonicBoom.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Rush to the front area to penetrate enemies. While rushing, and Additional explosion is added when being buffed by reload or limit over.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SonicBoom.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill02_SonicBoom.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Rush]\nTotal Damage: [144%]\nTotal Super Armor Break: [210%]\n\n[Skill Info: Basic]\nBuff: Attack Speed: +[3%]\nDuration: [5 sec]\nSG Consumption: [15]\nCooldown: [10sec]\n\n[Skill Info: Additional Explosion]\nDamage: [14%]/[43%]\nSuper Armor Break: [18%]/[54%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Rush]\nTotal Damage: [159%]\nTotal Super Armor Break: [231%]\n\n[Skill Info: Basic]\nBuff: Attack Speed: +[5%]\nDuration: [5 sec]\nSG Consumption: [15]\nCooldown: [9sec]\n\n[Skill Info: Additional Explosion]\nDamage: [15%]/[47%]\nSuper Armor Break: [21%]/[63%]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Rush]\nTotal Damage: [178%]\nTotal Super Armor Break: [259%]\n\n[Skill Info: Basic]\nBuff: Attack Speed: +[7%]\nDuration: [5 sec]\nSG Consumption: [15]\nCooldown: [8sec]\n\n[Skill Info: Additional Explosion]\nDamage: [17%]/[53%]\nSuper Armor Break: [26%]/[79%]",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Rush]\nTotal Damage: [203%]\nTotal Super Armor Break: [295%]\n\n[Skill Info: Basic]\nBuff: Attack Speed: +[9%]\nDuration: [5 sec]\nSG Consumption: [15]\nCooldown: [7sec]\n\n[Skill Info: Additional Explosion]\nDamage: [20%]/[60%]\nSuper Armor Break: [29%]/[88%]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Rush]\nTotal Damage: [239%]\nTotal Super Armor Break: [349%]\n\n[Skill Info: Basic]\nBuff: Attack Speed: +[12%]\nDuration: [5 sec]\nSG Consumption: [15]\nCooldown: [6sec]\n\n[Skill Info: Additional Explosion]\nDamage: [23%]/[71%]\nSuper Armor Break: [34%]/[104%]",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SonicBoom-A"
+        "Skill02_SonicBoom-A"
       ]
     },
-    "LightningRod": {
+    "Skill03_LightningRod": {
       "Name": "Lightning Rod",
       "DefaultLevel": 1,
       "ID": 5,
       "Icon": "../assets/SkillIcons/Ephnel/Skill03_LightningRod.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Summon and land 3 soul spears to attack enemies.\nAdditional Explosions are added to spear landing when being buffed by reload or limit over.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_LightningRod.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill03_LightningRod.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [176%]\nSuper Armor Break: [276%]\n\n[Skill Info: Soul Spear]\nDamage per Hit: [58%]\nSuper Armor Break per Hit: [92%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Additional Explosion]\nDamage: [29%] / [88%]\nSuper Armor Break: [46%] / [138%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [194%]\nSuper Armor Break: [303%]\n\n[Skill Info: Soul Spear]\nDamage per Hit: [64%]\nSuper Armor Break per Hit: [101%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Additional Explosion]\nDamage: [32%] / [97%]\nSuper Armor Break: [50%] / [151%]",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [217%]\nSuper Armor Break: [340%]\n\n[Skill Info: Soul Spear]\nDamage per Hit: [72%]\nSuper Armor Break per Hit: [113%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Additional Explosion]\nDamage: [36%] / [108%]\nSuper Armor Break: [56%] / [170%]",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [247%]\nSuper Armor Break: [388%]\n\n[Skill Info: Soul Spear]\nDamage per Hit: [82%]\nSuper Armor Break per Hit: [129%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Additional Explosion]\nDamage: [41%] / [123%]\nSuper Armor Break: [64%] / [194%]",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [292%]\nSuper Armor Break: [457%]\n\n[Skill Info: Soul Spear]\nDamage per Hit: [97%]\nSuper Armor Break per Hit: [152%]\n\n[Skill Info: Basic]\nSG Consumption: [30]\nCooldown: [10sec]\n\n[Skill Info: Additional Explosion]\nDamage: [48%] / [146%]\nSuper Armor Break: [76%] / [228%]",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "LightningRod-A"
+        "Skill03_LightningRod-A"
       ]
     },
-    "LightningRod-A": {
+    "Skill03_LightningRod-A": {
       "Visible": false,
-      "Name": "Additional Installation",
+      "Name": "Additional Launch",
       "ID": 6,
       "Icon": "../assets/SkillIcons/Ephnel/Skill03_LightningRod_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "The number of Soul Spear increases to 6",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_LightningRod_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill03_LightningRod_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Spear Landing]\nDamage: [292%]\nSuper Armor Break: [457%]\n\n[SoulPlus Info: Soul Spear]\nDamage per Hit: [97%]\nSuper Armor Break per Hit: [152%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [48%] / [146%]\nSuper Armor Break: [76%] / [228%]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Spear Landing]\nDamage: [336%]\nSuper Armor Break: [526%]\n\n[SoulPlus Info: Soul Spear]\nDamage per Hit: [112%]\nSuper Armor Break per Hit: [175%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [56%] / [168%]\nSuper Armor Break: [87%] / [263%]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Spear Landing]\nDamage: [424%]\nSuper Armor Break: [663%]\n\n[SoulPlus Info: Soul Spear]\nDamage per Hit: [141%]\nSuper Armor Break per Hit: [221%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [70%] / [212%]\nSuper Armor Break: [110%] / [331%]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SwiftStab": {
+    "Skill04_SwiftStab": {
       "Name": "Swift Stab",
       "ID": 7,
       "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Make a big step forward, stabbing the front area with a spear.\nAfter that, drag enemies and explode them. Additional Explosions are added to the front stab when being buffed by reload or limit over.\nAfter skill, you finish the attack with reloading.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill04_SwiftStab.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nTotal Damage: [336%]\nTotal Super Armor Break: [270%]\nSG Consumption: [35]\nCooldown: [15sec]\n\n[Skill Info: Additional Explosion]\nDamage: [33%] / [100%]\nSuper Armor Break: [27%] / [81%]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nTotal Damage: [370%]\nTotal Super Armor Break: [297%]\nSG Consumption: [35]\nCooldown: [15sec]\n\n[Skill Info: Additional Explosion]\nDamage: [37%] / [111%]\nSuper Armor Break: [29%] / [89%]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nTotal Damage: [414%]\nTotal Super Armor Break: [333%]\nSG Consumption: [35]\nCooldown: [15sec]\n\n[Skill Info: Additional Explosion]\nDamage: [41%] / [124%]\nSuper Armor Break: [33%] / [99%]",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nTotal Damage: [472%]\nTotal Super Armor Break: [380%]\nSG Consumption: [35]\nCooldown: [15sec]\n\n[Skill Info: Additional Explosion]\nDamage: [47%] / [147%]\nSuper Armor Break: [38%] / [114%]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Basic Attack]\nTotal Damage: [557%]\nTotal Super Armor Break: [448%]\nSG Consumption: [35]\nCooldown: [15sec]\n\n[Skill Info: Additional Explosion]\nDamage: [55%] / [167%]\nSuper Armor Break: [44%] / [134%]",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SwiftStab-A",
-        "SwiftStab-B"
+        "Skill04_SwiftStab-A",
+        "Skill04_SwiftStab-B"
       ]
     },
-    "SwiftStab-A": {
+    "Skill04_SwiftStab-A": {
       "Visible": false,
-      "Name": "Damage increase",
+      "Name": "Damage Up",
       "ID": 8,
       "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Increases Damage when using skill.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill04_SwiftStab_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nTotal Damage: [557%]\nTotal Super Armor Break: [448%]\n\n[SoulPlus Info: Personal]\nBuff effect: Damage +[5%]\nDuration: [8sec]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [55%] / [167%]\nSuper Armor Break: [44%] / [134%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nTotal Damage: [641%]\nTotal Super Armor Break: [515%]\n\n[SoulPlus Info: Personal]\nBuff effect: Damage +[7%]\nDuration: [9sec]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [64%] / [192%]\nSuper Armor Break: [51%] / [154%]",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nTotal Damage: [808%]\nTotal Super Armor Break: [649%]\n\n[SoulPlus Info: Personal]\nBuff effect: Damage +[10%]\nDuration: [10sec]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [80%] / [242%]\nSuper Armor Break: [64%] / [194%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SwiftStab-B": {
+    "Skill04_SwiftStab-B": {
       "Visible": false,
-      "Name": "Float",
+      "Name": "Upper Slash",
       "ID": 9,
       "Icon": "../assets/SkillIcons/Ephnel/Skill04_SwiftStab_B.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "When using skill, the final attack changed to a shower of blows that lift enemies nearby.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SwiftStab_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill04_SwiftStab_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage: [334%]\nSuper Armor Break: [268%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [334%]\nSuper Armor Break: [268%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [55%] / [167%]\nSuper Armor Break: [44%] / [134%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage: [384%]\nSuper Armor Break: [309%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [384%]\nSuper Armor Break: [309%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [64%] / [192%]\nSuper Armor Break: [51%] / [154%]",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Basic Attack]\nDamage: [484%]\nSuper Armor Break: [389%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [484%]\nSuper Armor Break: [389%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [80%] / [242%]\nSuper Armor Break: [64%] / [194%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FieldOctagon": {
+    "Skill05_FieldOctagon": {
       "Name": "Field Octagon",
       "ID": 10,
       "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "A field has been summoned to attack enemies automatically.\nThe field attack enemies in certain period of time when you get hit.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_FieldOctagon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill05_FieldOctagon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Additional Attack]\nDamage per Hit: [150%]\nSuper Armor Break per Hit: [150%]\nField Duration: [10sec]\nSG Consumption: [55]\nCooldown: [30sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Additional Attack]\nDamage per Hit: [150%]\nSuper Armor Break per Hit: [150%]\nField Duration: [11sec]\nSG Consumption: [55]\nCooldown: [30sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Additional Attack]\nDamage per Hit: [150%]\nSuper Armor Break per Hit: [150%]\nField Duration: [12sec]\nSG Consumption: [55]\nCooldown: [30sec]",
           "RequiredLevel": 14,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Additional Attack]\nDamage per Hit: [150%]\nSuper Armor Break per Hit: [150%]\nField Duration: [13sec]\nSG Consumption: [55]\nCooldown: [30sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Additional Attack]\nDamage per Hit: [150%]\nSuper Armor Break per Hit: [150%]\nField Duration: [15sec]\nSG Consumption: [55]\nCooldown: [30sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "FieldOctagon-A"
+        "Skill05_FieldOctagon-A"
       ]
     },
-    "FieldOctagon-A": {
+    "Skill05_FieldOctagon-A": {
       "Visible": false,
-      "Name": "Increased Efficiency",
+      "Name": "Efficiency Up",
       "ID": 11,
       "Icon": "../assets/SkillIcons/Ephnel/Skill05_FieldOctagon_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Inflict more damage in a short length of time with higher efficiency of field.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_FieldOctagon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill05_FieldOctagon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Additional Attack]\nDamage per Hit: [200%]\nSuper Armor Break per Hit: [200%]\nDuration of field: [8sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Additional Attack]\nDamage per Hit: [200%]\nSuper Armor Break per Hit: [200%]\nDuration of field: [9sec]",
           "RequiredLevel": 27,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Additional Attack]\nDamage per Hit: [200%]\nSuper Armor Break per Hit: [200%]\nDuration of field: [10sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SpearDance": {
+    "Skill06_SpearDance": {
       "Name": "Spear Dance",
       "ID": 12,
       "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Finish the attack with Soul Spear Landing. Additional Explosions are added to Soul Spear Landing when being buffed by reload or limit over.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SpearDance.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill06_SpearDance.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Kick]\nDamage: [630%]\nSuper Armor Break: [465%]\n\n[Skill Info: Spear Landing]\nDamage: [210%]\nSuper Armor Break: [155%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [84%] / [252%]\nSuper Armor Break: [62%] / [186%]",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Kick]\nDamage: [683%]\nSuper Armor Break: [511%]\n\n[Skill Info: Spear Landing]\nDamage: [231%]\nSuper Armor Break: [170%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [92%] / [277%]\nSuper Armor Break: [68%] / [204%]",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Kick]\nDamage: [776%]\nSuper Armor Break: [573%]\n\n[Skill Info: Spear Landing]\nDamage: [258%]\nSuper Armor Break: [191%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [103%] / [310%]\nSuper Armor Break: [76%] / [229%]",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Kick]\nDamage: [885%]\nSuper Armor Break: [653%]\n\n[Skill Info: Spear Landing]\nDamage: [295%]\nSuper Armor Break: [217%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [118%] / [354%]\nSuper Armor Break: [87%] / [261%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Kick]\nDamage: [1044%]\nSuper Armor Break: [771%]\n\n[Skill Info: Spear Landing]\nDamage: [348%]\nSuper Armor Break: [257%]\n\n[Skill Info: Basic]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [139%] / [417%]\nSuper Armor Break: [102%] / [308%]",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SpearDance-A"
+        "Skill06_SpearDance-A"
       ]  
     },
-    "SpearDance-A": {
+    "Skill06_SpearDance-A": {
       "Visible": false,
-      "Name": "Increased Efficiency",
+      "Name": "Additional Hit",
       "ID": 13,
       "Icon": "../assets/SkillIcons/Ephnel/Skill06_SpearDance_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Faster attack inflicts more blows.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SpearDance_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill06_SpearDance_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Consecutive Kick]\nDamage: [1044%]\nSuper Armor Break: [771%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [334%]\nSuper Armor Break: [247%]\n\n[SoulPlus Info: Spear Blow]\nDamage: [348%]\nSuper Armor Break: [257%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [139%] / [417%]\nSuper Armor Break: [102%] / [308%]",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Consecutive Kick]\nDamage: [1210%]\nSuper Armor Break: [886%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [797%]\nSuper Armor Break: [558%]\n\n[SoulPlus Info: Spear Blow]\nDamage: [400%]\nSuper Armor Break: [295%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [160%] / [480%]\nSuper Armor Break: [118%] / [354%]",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Consecutive Kick]\nDamage: [1514%]\nSuper Armor Break: [1118%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [1005%]\nSuper Armor Break: [742%]\n\n[SoulPlus Info: Spear Blow]\nDamage: [504%]\nSuper Armor Break: [372%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [201%] / [605%]\nSuper Armor Break: [149%] / [447%]",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "ViciousWoodpecker": {
+    "Skill07_ViciousWoodpecker": {
       "Name": "Vicious Woodpecker",
       "ID": 14,
       "Icon": "../assets/SkillIcons/Ephnel/Skill07_ViciousWoodpecker.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Addtional Explosions are added to the final attack when being buffed by reload or limit over.\nFinish the attack with reloading.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_ViciousWoodpecker.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill07_ViciousWoodpecker.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Pierce]\nDamage: [85%]\nSuper Armor Break: [60%]\n\n[Skill Info: Spear Landing]\nDamage: [426%]\nSuper Armor Break: [301%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [25sec]\n\n[Skill Info: Additional Explosion]\nDamage: [213%] / [638%]\nSuper Armor Break: [151%] / [452%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Pierce]\nDamage: [94%]\nSuper Armor Break: [66%]\n\n[Skill Info: Spear Landing]\nDamage: [468%]\nSuper Armor Break: [331%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [25sec]\n\n[Skill Info: Additional Explosion]\nDamage: [234%] / [702%]\nSuper Armor Break: [166%] / [497%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Pierce]\nDamage: [105%]\nSuper Armor Break: [74%]\n\n[Skill Info: Spear Landing]\nDamage: [524%]\nSuper Armor Break: [371%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [25sec]\n\n[Skill Info: Additional Explosion]\nDamage: [262%] / [787%]\nSuper Armor Break: [185%] / [556%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Pierce]\nDamage: [120%]\nSuper Armor Break: [85%]\n\n[Skill Info: Spear Landing]\nDamage: [598%]\nSuper Armor Break: [423%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [25sec]\n\n[Skill Info: Additional Explosion]\nDamage: [299%] / [897%]\nSuper Armor Break: [211%] / [634%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Consecutive Pierce]\nDamage: [141%]\nSuper Armor Break: [100%]\n\n[Skill Info: Spear Landing]\nDamage: [705%]\nSuper Armor Break: [499%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [25sec]\n\n[Skill Info: Additional Explosion]\nDamage: [353%] / [1058%]\nSuper Armor Break: [249%] / [748%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "ViciousWoodpecker-A"
+        "Skill07_ViciousWoodpecker-A"
       ]
     },
-    "AngelicStep": {
-      "Name": "Angelic Step",
+    "Skill08_AngelicStab": {
+      "Name": "Angelic Stab",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill08_AngelicStep.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill08_AngelicStab.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Sheer-dropped and attacked enemies nearby area in aerial status.\nAdditional Explosions are added to Spear landing when being buffed by reload or limit over.",
           "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AngelicStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill08_AngelicStab.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [641%]\nSuper Armor Break: [1040%]\nDebuff: Paralysis [2.5sec]\nSG Consumption: [35]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [64%] / [192%]\nSuper Armor Break: [104%] / [312%]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [706%]\nSuper Armor Break: [1145%]\nDebuff: Paralysis [2.5sec]\nSG Consumption: [35]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [70%] / [212%]\nSuper Armor Break: [114%] / [334%]",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [790%]\nSuper Armor Break: [1282%]\nDebuff: Paralysis [2.5sec]\nSG Consumption: [35]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [79%] / [237%]\nSuper Armor Break: [128%] / [385%]",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [901%]\nSuper Armor Break: [1462%]\nDebuff: Paralysis [2.5sec]\nSG Consumption: [35]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [90%] / [270%]\nSuper Armor Break: [146%] / [439%]",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nDamage: [1062%]\nSuper Armor Break: [1725%]\nDebuff: Paralysis [2.5sec]\nSG Consumption: [35]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [106%] / [319%]\nSuper Armor Break: [172%] / [518%]",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "Amazones": {
-      "Name": "Amazones",
+    "Skill09_AmazonesHunt": {
+      "Name": "Amazones Hunt",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill09_AmazonesHunt.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Summoned and kicked 5 Soul spears to penetrate enemies in the front area.\nAdditional Explosions are added to penetraion when being buffed by reload or limit over.\nAfter the skill, finish the attack with reloading.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill09_AmazonesHunt.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Soul Spear]\nDamage: [512%]\nSuper Armor Break: [487%]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [51%] / [153%]\nSuper Armor Break: [48%] / [146%]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Soul Spear]\nDamage: [564%]\nSuper Armor Break: [536%]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [56%] / [169%]\nSuper Armor Break: [53%] / [160%]",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Soul Spear]\nDamage: [631%]\nSuper Armor Break: [600%]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [63%] / [189%]\nSuper Armor Break: [60%] / [180%]",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Soul Spear]\nDamage: [720%]\nSuper Armor Break: [684%]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [72%] / [216%]\nSuper Armor Break: [68%] / [205%]",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Soul Spear]\nDamage: [849%]\nSuper Armor Break: [808%]\nSG Consumption: [45]\nCooldown: [20sec]\n\n[Skill Info: Additional Explosion]\nDamage: [84%] / [254%]\nSuper Armor Break: [80%] / [242%]",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "Amazones-A",
-        "Amazones-B"
+        "Skill09_AmazonesHunt-A",
+        "Skill09_AmazonesHunt-B"
       ]
     },
-    "Amazones-A": {
+    "Skill09_AmazonesHunt-A": {
       "Visible": false,
       "Name": "Add Projectiles",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill09_AmazonesHunt_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "The number of summoned Soul Spear increases to 10.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill09_AmazonesHunt_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Soul Spear]\nDamage: [1103%]\nSuper Armor Break: [1050%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [84%] / [254%]\nSuper Armor Break: [80%] / [242%]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Soul Spear]\nDamage: [1268%]\nSuper Armor Break: [1207%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [97%] / [292%]\nSuper Armor Break: [92%] / [278%]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Soul Spear]\nDamage: [1600%]\nSuper Armor Break: [1522%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [123%] / [369%]\nSuper Armor Break: [117%] / [351%]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "Amazones-B": {
+    "Skill09_AmazonesHunt-B": {
       "Visible": false,
       "Name": "Sniping",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill09_Amazones_B.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill09_AmazonesHunt_B.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Throw the last Soul Spear like a Javelin. More damages inflicted when taking an aim to hit enemies based on the trajectory of the weapon.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Amazones_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill09_AmazonesHunt_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Soul Spear]\nDamage: [679%]\nSuper Armor Break: [646%]\n\n[SoulPlus Info: Javelin]\nDamage: [1018%]\nSuper Armor Break: [969%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [84%] / [254%]\nSuper Armor Break: [80%] / [242%]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Soul Spear]\nDamage: [780%]\nSuper Armor Break: [743%]\n\n[SoulPlus Info: Javelin]\nDamage: [1171%]\nSuper Armor Break: [1114%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [97%] / [292%]\nSuper Armor Break: [92%] / [278%]",
           "RequiredLevel": 43,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Soul Spear]\nDamage: [984%]\nSuper Armor Break: [936%]\n\n[SoulPlus Info: Javelin]\nDamage: [1477%]\nSuper Armor Break: [1405%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [123%] / [369%]\nSuper Armor Break: [117%] / [351%]",
           "RequiredLevel": 47,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SupportCall": {
+    "Skill10_SupportCall": {
       "Name": "Support Call",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill010_SupportCall.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill10_SupportCall.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Recieve useful Buff for allies and oneself by requesting support.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SupportCall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill10_SupportCall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Party]\nAttack Damage: +[100%]\nAttack Speed: +[10%]\nBuff Duration: Total [20sec]\n\n[Skill Info: Personal]\nBuff Effect: SG Consumption -[15%]\nBuff Effect: Damage Taken -[20%]\nBuff Duration: [10sec]\nSG Consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Party]\nAttack Damage: +[100%]\nAttack Speed: +[10%]\nBuff Duration: Total [20sec]\n\n[Skill Info: Personal]\nBuff Effect: SG Consumption -[15%]\nBuff Effect: Damage Taken -[20%]\nBuff Duration: [15sec]\nSG Consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Party]\nAttack Damage: +[100%]\nAttack Speed: +[10%]\nBuff Duration: Total [20sec]\n\n[Skill Info: Personal]\nBuff Effect: SG Consumption -[15%]\nBuff Effect: Damage Taken -[20%]\nBuff Duration: [20sec]\nSG Consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Party]\nAttack Damage: +[100%]\nAttack Speed: +[10%]\nBuff Duration: Total [20sec]\n\n[Skill Info: Personal]\nBuff Effect: SG Consumption -[15%]\nBuff Effect: Damage Taken -[20%]\nBuff Duration: [25sec]\nSG Consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Party]\nAttack Damage: +[100%]\nAttack Speed: +[10%]\nBuff Duration: Total [20sec]\n\n[Skill Info: Personal]\nBuff Effect: SG Consumption -[15%]\nBuff Effect: Damage Taken -[20%]\nBuff Duration: [30sec]\nSG Consumption: [50]\nCooldown: [60sec]",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "MambasCoil": {
+    "Skill11_MambasCoil": {
       "Name": "Mambas Coil",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill11_MambasCoil.png",
       "Assignable": true,
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Additional Explosions are added to the upper slash when being buffed by reload or limit over.\nfinish the attack with reloading.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill11_MambasCoil.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Upper Slash after Shockwave]\nDamage: [87%]\nSuper Armor Break: [119%]\n\n[Skill Info: Soul Spear]\nDamage: [874%]\nSuper Armor Break: [1186%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [87%] / [262%]\nSuper Armor Break: [119%] / [356%]",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Upper Slash after Shockwave]\nDamage: [96%]\nSuper Armor Break: [131%]\n\n[Skill Info: Soul Spear]\nDamage: [962%]\nSuper Armor Break: [1305%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [96%] / [289%]\nSuper Armor Break: [131%] / [392%]",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Upper Slash after Shockwave]\nDamage: [108%]\nSuper Armor Break: [146%]\n\n[Skill Info: Soul Spear]\nDamage: [1076%]\nSuper Armor Break: [1461%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [108%] / [323%]\nSuper Armor Break: [146%] / [438%]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Upper Slash after Shockwave]\nDamage: [123%]\nSuper Armor Break: [167%]\n\n[Skill Info: Soul Spear]\nDamage: [1227%]\nSuper Armor Break: [1665%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [123%] / [368%]\nSuper Armor Break: [167%] / [500%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Upper Slash after Shockwave]\nDamage: [145%]\nSuper Armor Break: [197%]\n\n[Skill Info: Soul Spear]\nDamage: [1448%]\nSuper Armor Break: [1966%]\n\n[Skill Info: Basic]\nSG Consumption: [55]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [145%] / [434%]\nSuper Armor Break: [197%] / [590%]",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "MambasCoil-A",
-        "MambasCoil-B"
+        "Skill11_MambasCoil-A",
+        "Skill11_MambasCoil-B"
       ]
     },
-    "MambasCoil-A": {
+    "Skill11_MambasCoil-A": {
       "Visible": false,
       "Name": "Lightning Field",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill11_MambasCoil_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "The Soul Spear that breaks through the ground remains for a short length of time, hitting enemies additionally.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill11_MambasCoil_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [145%]\nSuper Armor Break: [197%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [2317%]\nSuper Armor Break: [3146%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [579%]\nSuper Armor Break: [786%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [145%] / [434%]\nSuper Armor Break: [197%] / [590%]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [167%]\nSuper Armor Break: [226%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [2664%]\nSuper Armor Break: [3618%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [666%]\nSuper Armor Break: [904%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [167%] / [500%]\nSuper Armor Break: [226%] / [678%]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [210%]\nSuper Armor Break: [285%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [3362%]\nSuper Armor Break: [4562%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [840%]\nSuper Armor Break: [1140%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [210%] / [630%]\nSuper Armor Break: [285%] / [855%]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "MambasCoil-B": {
+    "Skill11_MambasCoil-B": {
       "Visible": false,
-      "Name": "Increased hits",
+      "Name": "Additional Hit",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill011_MambasCoil_B.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill11_MambasCoil_B.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Soul Spear strikes more times, with additional explosive strikes.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_MambasCoil_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill11_MambasCoil_B.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [145%]\nSuper Armor Break: [197%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [2317%]\nSuper Armor Break: [3146%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [579%]\nSuper Armor Break: [786%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [145%] / [434%]\nSuper Armor Break: [197%] / [590%]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [167%]\nSuper Armor Break: [226%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [2664%]\nSuper Armor Break: [3618%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [666%]\nSuper Armor Break: [904%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [167%] / [500%]\nSuper Armor Break: [226%] / [678%]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [210%]\nSuper Armor Break: [285%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [3362%]\nSuper Armor Break: [4562%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [840%]\nSuper Armor Break: [1140%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [210%] / [630%]\nSuper Armor Break: [285%] / [855%]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "AscendingTornado": {
+    "Skill12_AscendingTornado": {
       "Name": "Ascending Tornado",
       "ID": 23,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill12_AscendingTornado.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Transform yourself into a giant tornado to attack.\nAdditional Explosions are added to the Wide Cut when being buffed by reload or limit over.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AscendingTornado.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill12_AscendingTornado.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spin Kick]\nDamage per Hit: [110%]\nSuper Armor Break per Hit: [52%]\n\n[Skill Info: Final Cut]\nDamage: [471%]\nSuper Armor Break: [222%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [157%] / [471%]\nSuper Armor Break: [74%] / [222%]",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spin Kick]\nDamage per Hit: [121%]\nSuper Armor Break per Hit: [57%]\n\n[Skill Info: Final Cut]\nDamage: [518%]\nSuper Armor Break: [245%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [172%] / [518%]\nSuper Armor Break: [81%] / [245%]",
           "RequiredLevel": 37,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spin Kick]\nDamage per Hit: [135%]\nSuper Armor Break per Hit: [64%]\n\n[Skill Info: Final Cut]\nDamage: [580%]\nSuper Armor Break: [274%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [193%] / [580%]\nSuper Armor Break: [91%] / [274%]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spin Kick]\nDamage per Hit: [154%]\nSuper Armor Break per Hit: [73%]\n\n[Skill Info: Final Cut]\nDamage: [661%]\nSuper Armor Break: [312%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [220%] / [661%]\nSuper Armor Break: [104%] / [312%]",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spin Kick]\nDamage per Hit: [182%]\nSuper Armor Break per Hit: [86%]\n\n[Skill Info: Final Cut]\nDamage: [780%]\nSuper Armor Break: [369%]\n\n[Skill Info: Basic]\nSG Consumption: [50]\nCooldown: [35sec]\n\n[Skill Info: Additional Explosion]\nDamage: [260%] / [780%]\nSuper Armor Break: [123%] / [369%]",
           "RequiredLevel": 46,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "AscendingTornado-A"
+        "Skill12_AscendingTornado-A"
       ]
     },
-    "AscendingTornado-A": {
+    "Skill12_AscendingTornado-A": {
       "Visible": false,
-      "Name": "Move",
+      "Name": "Movement",
       "ID": 24,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill012_AscendingTornado_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill12_AscendingTornado_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "When using the skill, you can move along the grounds to attack the enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_AscendingTornado_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill12_AscendingTornado_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Spin Kick]\nDamage per Hit: [182%]\nSuper Armor Break per Hit: [86%]\n\n[SoulPlus Info: Final Cut]\nDamage: [780%]\nSuper Armor Break: [369%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [260%] / [780%]\nSuper Armor Break: [123%] / [369%]",
           "RequiredLevel": 46,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Spin Kick]\nDamage per Hit: [210%]\nSuper Armor Break per Hit: [99%]\n\n[SoulPlus Info: Final Cut]\nDamage: [897%]\nSuper Armor Break: [424%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [299%] / [897%]\nSuper Armor Break: [141%] / [424%]",
           "RequiredLevel": 50,
           "RequiredSP": 1
           },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Spin Kick]\nDamage per Hit: [264%]\nSuper Armor Break per Hit: [125%]\n\n[SoulPlus Info: Final Cut]\nDamage: [1132%]\nSuper Armor Break: [535%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [377%] / [1132%]\nSuper Armor Break: [178%] / [535%]",
           "RequiredLevel": 54,
           "RequiredSP": 2
           }
         }
     },
-    "SuperNova": {
-      "Name": "Super Nova",
+    "Skill13_Supernova": {
+      "Name": "Supernova",
       "ID": 25,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill13_Supernova.png",
       "Levels": {
         "0": {
-          "Description": ".",
+          "Description": "Gather some energy and jump upward with Max. power and drop to the pointed area with a powerful landing.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill13_Supernova.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nTotal Damage: [1483%]\nTotal Super Armor Break: [1369%]\n\n[Skill Info: Lightning]\nTotal Damage: [635%]\nTotal Super Armor Break: [587%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nTotal Damage: [1631%]\nTotal Super Armor Break: [1507%]\n\n[Skill Info: Lightning]\nTotal Damage: [699%]\nTotal Super Armor Break: [645%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nTotal Damage: [1827%]\nTotal Super Armor Break: [1688%]\n\n[Skill Info: Lightning]\nTotal Damage: [783%]\nTotal Super Armor Break: [723%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nTotal Damage: [2083%]\nTotal Super Armor Break: [1924%]\n\n[Skill Info: Lightning]\nTotal Damage: [893%]\nTotal Super Armor Break: [824%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 52,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "",
+          "Effect": "[Skill Info: Spear Landing]\nTotal Damage: [2458%]\nTotal Super Armor Break: [2270%]\n\n[Skill Info: Lightning]\nTotal Damage: [1053%]\nTotal Super Armor Break: [973%]\n\n[Skill Info: Basic]\nSG Consumption: [75]\nCooldown: [45sec]",
           "RequiredLevel": 55,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SuperNova-A"
+        "Skill13_Supernova-A"
       ]
     },
-    "SonicBoom-A": {
-      "Visible": false,
-      "Name": "Rapid linkage",
-      "ID": 27,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/Ephnel/Skill02_Sonic-Boom_A.png",
-      "Levels": {
-        "0": {
-          "Description": "",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SonicBoom_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "Damage: 267%\nSuper Armor Break: 138%",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "Damage: 294%\nSuper Armor Break: 152%",
-          "RequiredLevel": 58,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "Damage: 347%\nSuper Armor Break: 179%",
-          "RequiredLevel": 60,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "ViciousWoodpecker-A": {
-      "Visible": false,
-      "Name": "The last shelling",
-      "ID": 28,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/Ephnel/Skill07_Vicious-Woodpecker_A.png",
-      "Levels": {
-        "0": {
-          "Description": "",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_ViciousWoodpecker_A.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 2
-        }
-      }
-    },
-    "Debris": {
-      "Name": "Debris",
-      "ID": 29,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/Ephnel/Skill015_Debris.png",
-      "Levels": {
-        "0": {
-          "Description": "",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_Debris.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 58,
-          "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 3
-        }
-      }
-    },
-    "CloudSix": {
-      "Name": "Cloud-Six",
-      "ID": 30,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
-      "Icon": "../assets/SkillIcons/Ephnel/Skill016_Cloud-Six.png",
-      "Assignable": false,
-      "Levels": {
-        "0": {
-          "Description": "",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_CloudSix.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 57,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 58,
-          "RequiredSP": 2
-        },
-        "4": {
-          "Effect": "",
-          "RequiredLevel": 59,
-          "RequiredSP": 2
-        },
-        "5": {
-          "Effect": "",
-          "RequiredLevel": 60,
-          "RequiredSP": 3
-        }
-      }
-    },
-    "TitansFinger": {
-      "Name": "Titans Finger",
-      "ID": 26,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill014_TitansFinger.png",
-      "Levels": {
-        "0": {
-          "Description": "?",
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_TitansFinger.{{auto}}"
-          }
-        },
-        "1": {
-          "Effect": "",
-          "RequiredLevel": 62,
-          "RequiredSP": 1
-        },
-        "2": {
-          "Effect": "",
-          "RequiredLevel": 65,
-          "RequiredSP": 1
-        },
-        "3": {
-          "Effect": "",
-          "RequiredLevel": 68,
-          "RequiredSP": 2
-        },        
-        "4": {
-          "Effect": "",
-          "RequiredLevel": 71,
-          "RequiredSP": 3
-        },
-        "5": {
-          "Effect": "",
-          "RequiredLevel": 74,
-          "RequiredSP": 3
-        }
-      }
-    },
-    "SuperNova-A": {
+    "Skill13_Supernova-A": {
       "Visible": false,
       "Name": "Overcharge",
       "ID": 31,
-      "Icon": "../assets/SkillIcons/Ephnel/Skill013_SuperNova_A.png",
+      "Icon": "../assets/SkillIcons/Ephnel/Skill13_Supernova_A.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Damages enemies within range while moving.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SuperNova_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/Skill13_Supernova_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Lightning]\nDamage per Hit: [351%]\nSuper Armor Break per Hit: [324%]\n\n[Buff Info: Personal]\nBuff Effect: [Bullet]\nBuff Effect: [Activation]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Lightning]\nDamage per Hit: [351%]\nSuper Armor Break per Hit: [324%]\n\n[Buff Info: Personal]\nBuff Effect: [Bullet]\nBuff Effect: [Activation]",
           "RequiredLevel": 70,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "",
+          "Effect": "[SoulPlus Info: Lightning]\nDamage per Hit: [351%]\nSuper Armor Break per Hit: [324%]\n\n[Buff Info: Personal]\nBuff Effect: [Bullet]\nBuff Effect: [Limit Over]",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
       }
     },
-    "BasicAttackMastery": {
+    "Skill02_SonicBoom-A": {
+      "Visible": false,
+      "Name": "Combination: Swift",
+      "ID": 27,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Skill02_SonicBoom_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Ray Javeline will be summoned as additional finish attack.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/Skill02_SonicBoom_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[SoulPlus Info: Rush]\nTotal Damage: [488%]\nTotal Super Armor Break: [763%]\n\n[SoulPlus Info: Backflip]\nTotal Damage: [122%]\nTotal Super Armor Break: [191%]\n\n[SoulPlus Info: Ray Javeline]\nTotal Damage: [146%]\nTotal Super Armor Break: [229%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [49%] / [146%]\nSuper Armor Break: [76%] / [229%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[SoulPlus Info: Rush]\nTotal Damage: [561%]\nTotal Super Armor Break: [877%]\n\n[SoulPlus Info: Backflip]\nTotal Damage: [140%]\nTotal Super Armor Break: [219%]\n\n[SoulPlus Info: Ray Javeline]\nTotal Damage: [168%]\nTotal Super Armor Break: [263%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [56%] / [168%]\nSuper Armor Break: [88%] / [263%]",
+          "RequiredLevel": 58,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[SoulPlus Info: Rush]\nTotal Damage: [707%]\nTotal Super Armor Break: [1106%]\n\n[SoulPlus Info: Backflip]\nTotal Damage: [177%]\nTotal Super Armor Break: [277%]\n\n[SoulPlus Info: Ray Javeline]\nTotal Damage: [212%]\nTotal Super Armor Break: [331%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [71%] / [212%]\nSuper Armor Break: [111%] / [332%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "Skill07_ViciousWoodpecker-A": {
+      "Visible": false,
+      "Name": "Final Strike",
+      "ID": 28,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Skill07_ViciousWoodpecker_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Your finish attack changes to laser bombardment instead of spear landing.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/Skill07_ViciousWoodpecker_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[SoulPlus Info: Consecutive Pierce]\nDamage per Hit: [157%]\nSuper Armor Break per Hit: [111%]\n\n[SoulPlus Info: Bombardment]\nDamage: [784%]\nSuper Armor Break: [554%]\n\n[SoulPlus Info: Additional Explosion]\n\nDamage: [392%] / [1175%]\nSuper Armor Break: [277%] / [831%]\n\n[SoulPlus Info: Basic]\nMax. duration of attack: -[10%]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[SoulPlus Info: Consecutive Pierce]\nDamage per Hit: [166%]\nSuper Armor Break per Hit: [117%]\n\n[SoulPlus Info: Bombardment]\nDamage: [830%]\nSuper Armor Break: [587%]\n\n[SoulPlus Info: Additional Explosion]\n\nDamage: [415%] / [1244%]\nSuper Armor Break: [293%] / [880%]\n\n[SoulPlus Info: Basic]\nMax. duration of attack: -[15%]",
+          "RequiredLevel": 59,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[SoulPlus Info: Consecutive Pierce]\nDamage per Hit: [188%]\nSuper Armor Break per Hit: [133%]\n\n[SoulPlus Info: Bombardment]\nDamage: [940%]\nSuper Armor Break: [665%]\n\n[SoulPlus Info: Additional Explosion]\n\nDamage: [470%] / [1411%]\nSuper Armor Break: [333%] / [998%]\n\n[SoulPlus Info: Basic]\nMax. duration of attack: -[25%]",
+          "RequiredLevel": 60,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "Skill15_VerticalClear": {
+      "Name": "Vertical Clear",
+      "ID": 29,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Skill15_VerticalClear.png",
+      "Levels": {
+        "0": {
+          "Description": "A rear blast followed the trajectory of the weapon, delivering a shower of blows. Additional attacks will be added when being buffed by reload or limit over.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/Skill15_VerticalClear.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Javelin]\nDamage: [366%]\nSuper Armor Break: [371%]\n\n[Skill Info: Rear Blast]\nDamage per Hit: [175%]\nSuper Armor Break per Hit: [178%]\n\n[Skill Info: Additional Explosion]\nDamage: [159%] / [477%]\nSuper Armor Break: [162%] / [485%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Javelin]\nDamage: [402%]\nSuper Armor Break: [409%]\n\n[Skill Info: Rear Blast]\nDamage per Hit: [192]\nSuper Armor Break per Hit: [196%]\n\n[Skill Info: Additional Explosion]\nDamage: [175%] / [524%]\nSuper Armor Break: [178%] / [533%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: Javelin]\nDamage: [450%]\nSuper Armor Break: [458%]\n\n[Skill Info: Rear Blast]\nDamage per Hit: [215%]\nSuper Armor Break per Hit: [219%]\n\n[Skill Info: Additional Explosion]\nDamage: [196%] / [587%]\nSuper Armor Break: [199%] / [597%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        },
+        "4": {
+          "Effect": "[Skill Info: Javelin]\nDamage: [514%]\nSuper Armor Break: [522%]\n\n[Skill Info: Rear Blast]\nDamage per Hit: [246%]\nSuper Armor Break per Hit: [250%]\n\n[Skill Info: Additional Explosion]\nDamage: [233%] / [670%]\nSuper Armor Break: [227%] / [681%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        },
+        "5": {
+          "Effect": "[Skill Info: Javelin]\nDamage: [606%]\nSuper Armor Break: [616%]\n\n[Skill Info: Rear Blast]\nDamage per Hit: [290%]\nSuper Armor Break per Hit: [295%]\n\n[Skill Info: Additional Explosion]\nDamage: [264%] / [791%]\nSuper Armor Break: [268%] / [803%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "Skill16_ReverseTurn": {
+      "Name": "Reverse Turn",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Skill16_ReverseTurn.png",
+      "Assignable": false,
+      "Levels": {
+        "0": {
+          "Description": "While in the air, quickly spin and attack nearby enemies. You can move freely while rotating, and lightning will fall around the character to attack nearby enemies.\nAdditional Explosions are added to the spin kick when being buffed by reload or limit over.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/Skill16_ReverseTurn.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Spin Kick]\nTotal Damage: [576%]\nTotal Super Armor Break: [354%]\n\n[Skill Info: Lightning]\nTotal Damage: [534%]\nTotal Super Armor Break: [330%]\n\n[Skill Info: Additional Explosion]\nDamage: [112%] / [335%]\nSuper Armor Break: [69%] / [206%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Spin Kick]\nTotal Damage: [636%]\nTotal Super Armor Break: [390%]\n\n[Skill Info: Lightning]\nTotal Damage: [588%]\nTotal Super Armor Break: [363%]\n\n[Skill Info: Additional Explosion]\nDamage: [123%] / [368%]\nSuper Armor Break: [76%] / [227%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 57,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: Spin Kick]\nTotal Damage: [708%]\nTotal Super Armor Break: [437%]\n\n[Skill Info: Lightning]\nTotal Damage: [660%]\nTotal Super Armor Break: [406%]\n\n[Skill Info: Additional Explosion]\nDamage: [137%] / [412%]\nSuper Armor Break: [85%] / [254%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 58,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        },
+        "4": {
+          "Effect": "[Skill Info: Spin Kick]\nTotal Damage: [810%]\nTotal Super Armor Break: [498%]\n\n[Skill Info: Lightning]\nTotal Damage: [750%]\nTotal Super Armor Break: [463%]\n\n[Skill Info: Additional Explosion]\nDamage: [157%] / [470%]\nSuper Armor Break: [97%] / [290%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 59,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        },
+        "5": {
+          "Effect": "[Skill Info: Spin Kick]\nTotal Damage: [954%]\nTotal Super Armor Break: [587%]\n\n[Skill Info: Lightning]\nTotal Damage: [888%]\nTotal Super Armor Break: [546%]\n\n[Skill Info: Additional Explosion]\nDamage: [185%] / [554%]\nSuper Armor Break: [114%] / [341%]\n\n[Skill Info: Basic]\nSG Consumption: [35]\nCooldown: [20sec]",
+          "RequiredLevel": 60,
+          "RequiredSP": 3,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "Skill14_TitansMassacre": {
+      "Name": "Titan's Massacre",
+      "ID": 26,
+      "Icon": "../assets/SkillIcons/Ephnel/Skill14_TitansMassacre.png",
+      "Levels": {
+        "0": {
+          "Description": "Transform the weapon to a giant form. Attack enemies in front area by slashing powerfully twice.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/Skill14_TitansMassacre.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Ground explosion]\nDamage: [385%]\nSuper Armor Break: [356%]\n\n[Skill Info: Blow]\nDamage: [2023%]\nSuper Armor Break: [1868%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [50sec]",
+          "RequiredLevel": 62,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Ground explosion]\nDamage: [424%]\nSuper Armor Break: [391%]\n\n[Skill Info: Blow]\nDamage: [2224%]\nSuper Armor Break: [2055%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [50sec]",
+          "RequiredLevel": 65,
+          "RequiredSP": 1,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: Ground explosion]\nDamage: [475%]\nSuper Armor Break: [438%]\n\n[Skill Info: Blow]\nDamage: [2492%]\nSuper Armor Break: [2302%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [50sec]",
+          "RequiredLevel": 68,
+          "RequiredSP": 2,
+          "ReqSPkr": 0
+        },        
+        "4": {
+          "Effect": "[Skill Info: Ground explosion]\nDamage: [507%]\nSuper Armor Break: [468%]\n\n[Skill Info: Blow]\nDamage: [2841%]\nSuper Armor Break: [2624%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [50sec]",
+          "RequiredLevel": 71,
+          "RequiredSP": 3,
+          "ReqSPkr": 0
+        },
+        "5": {
+          "Effect": "[Skill Info: Ground explosion]\nDamage: [585%]\nSuper Armor Break: [540%]\n\n[Skill Info: Blow]\nDamage: [3276%]\nSuper Armor Break: [3025%]\n\n[Skill Info: Basic]\nSG Consumption: [60]\nCooldown: [50sec]",
+          "RequiredLevel": 74,
+          "RequiredSP": 3,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "Skill17_TerrorSweeper": {
+      "Name": "Terror Sweeper",
+      "ID": 32,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Ephnel/Skill17_TerrorSweeper.png",
+      "Levels": {
+        "0": {
+          "Description": "After collecting energy by rotating the weapon, it creates a sphere, and then blows it forward to clear the enemies with a powerful explosive attack.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Ephnel/Skill17_TerrorSweeper.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Explosion]\nDamage: [1288%]\nSuper Armor Break: [1214%]\n\n[Skill Info: Energy Strike]\nDamage per Hit: [129%]\nSuper Armor Break per Hit: [121%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1159%]\nBuff Additional Super Armor Break: [1075%]\nSG Consumption: [30]\nCooldown: [25sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Explosion]\nDamage: [1417%]\nSuper Armor Break: [1335%]\n\n[Skill Info: Energy Strike]\nDamage per Hit: [142%]\nSuper Armor Break per Hit: [134%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1159%]\nBuff Additional Super Armor Break: [1075%]\nSG Consumption: [30]\nCooldown: [25sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: Explosion]\nDamage: [1588%]\nSuper Armor Break: [1495%]\n\n[Skill Info: Energy Strike]\nDamage per Hit: [159%]\nSuper Armor Break per Hit: [150%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1159%]\nBuff Additional Super Armor Break: [1075%]\nSG Consumption: [30]\nCooldown: [25sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": "P0",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
         "0": {
-          "Description": "Attack enemies with the sword.\nYou can unlock new combo attacks as the skill level increases.",
+          "Description": "Combination and damage change depends on skill level. ",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Attack_01.{{auto}}"
           }
@@ -1231,79 +1424,88 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "SG Gain + 20%.\nUnlock alternative attack “A”.",
+          "Effect": "[Skill Info]\nkSG Gain +[10%]\nEnable to use Soulstrike A.",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain: + 70%.\nUnlock additional basic attack.",
+          "Effect": "[Skill Info]\nkSG Gain: +[22%]\nEnable to use Soulstrike B.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain: + 120%\nUnlock alternative attack “B”.\nUnlock additional aerial attack.",
+          "Effect": "[Skill Info]\nkSG Gain: +[36%]\nEnable to use an additional strike for the 6 Basic Attack.",
           "RequiredLevel": 15,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Attack_04.{{auto}}"
           }
         },
         "5": {
-          "Effect": "SG Gain: + 200%\nUnlock alternative attack “C”.",
+          "Effect": "[Skill Info]\nkSG Gain: +[54%]\nEnable to use Soulstrike C.",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Attack_05.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": "P1",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Ephnel/PSkill_SoulStrikeMastery.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Unleash finish attack with landing, after atriking enemies nearby with the spear.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_S_Attack_N.{{auto}}"
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info: Ground]\nBuff Effect: Explosion will be added to next skill used\n2nd Buff Effect: Recover [10%] of SG for [1sec] every [1.5sec]\nCooldown: [10sec]\n\n[Bullet]: Buff adds Explosion to any Skill used in the next [7sec]\n[Activation]: Buff changes to [Limit Over] for every 4 Stacks.\nWhen [Limit Over] Buff is acquired, [20%] of SG is Recovered\n[Skill Info: Aerial]\nDamage: [186%], [223]\nSuper Armor Break: [127], [152]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info: Ground]\nBuff Effect: Explosion will be added to next skill used\n2nd Buff Effect: Recover [12%] of SG for [1sec] every [1.5sec]\nCooldown: [10sec]\n\n[Bullet]: Buff adds Explosion to any Skill used in the next [7sec]\n[Activation]: Buff changes to [Limit Over] for every 4 Stacks.\nWhen [Limit Over] Buff is acquired, [20%] of SG is Recovered\n[Skill Info: Aerial]\nDamage: [204%], [245%]\nSuper Armor Break: [139%], [167%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info: Ground]\nBuff Effect: Explosion will be added to next skill used\n2nd Buff Effect: Recover [15%] of SG for [1sec] every [1.5sec]\nCooldown: [10sec]\n\n[Bullet]: Buff adds Explosion to any Skill used in the next [7sec]\n[Activation]: Buff changes to [Limit Over] for every 4 Stacks.\nWhen [Limit Over] Buff is acquired, [20%] of SG is Recovered\n[Skill Info: Aerial]\nDamage: [247%], [299%]\nSuper Armor Break: [179%], [209%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1312,6 +1514,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Evade_F.{{auto}}"
           }
@@ -1319,14 +1522,15 @@
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1335,6 +1539,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Roll_F.{{auto}}"
           }
@@ -1342,25 +1547,28 @@
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": "P4",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1368,6 +1576,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Run_F.{{auto}}"
           }
@@ -1375,19 +1584,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1005,
+      "ID": "P5",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1396,6 +1607,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Rise_Attack.{{auto}}"
           }
@@ -1403,25 +1615,28 @@
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1429,6 +1644,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_N_Attack_Dash.{{auto}}"
           }
@@ -1436,14 +1652,15 @@
         "1": {
           "Effect": "Damage: [116%]\nSuper Armor Break: [46%]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1451,31 +1668,35 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoulDashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "SoulDash Attack",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1483,195 +1704,217 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Ephnel/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%]\nSuper Armor Break: 92%]\nCooldown: 5sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 1
         }
       }
     },
-    "OutputAggravation": {
+    "CSkill2_ExtremeEnergy": {
       "Passive": true,
-      "Name": "Output Aggravation",
-      "ID": 1013,
+      "Name": "Extreme Energy",
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Ephnel/CSkill2_ExtremeEnergy.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Passive Effect: (When using a skill and gaining a [Bullet] Buff)",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "",
+          "Effect": "SG Recovery: +[5%]\nSV Recovery: [2]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "SG Recovery: +[7%]\nSV Recovery: [2]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "SG Recovery: +[10%]\nSV Recovery: [2]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "PowerEnhancement": {
+    "CSkill1_PowerUp": {
       "Passive": true,
-      "Name": "Power Enhancement",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SGPassive.png",
+      "Name": "Power Up",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Ephnel/CSkill1_PowerUp.png",
       "Levels": {
         "0": {
-          "Description": "",
+          "Description": "Passive Effect: Attack Speed & Agility Increased",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nAttack Speed: +[3%]\nAgility: +[5%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nAttack Speed: +[6%]\nAgility: +[9%]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[Skill Info]\nAttack Speed: +[9%]\nAgility: +[13%]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "IndomitableSpear": {
-      "ID": 1012,
+    "CSkill0_CP": {
+      "ID": "C0",
       "Passive": true,
-      "DefaultLevel": 1,
+      "DefaultLevel": 0,
       "Name": "Indomitable Spear",
-      "Icon": "../assets/SkillIcons/Ephnel/PSkill_SoulMastery.png",
+      "Icon": "../assets/SkillIcons/Ephnel/PSkill_CharPassive.png",
       "Levels": {
         "0": {
           "Description": "When the basic attack is successful, SG is restored.\nAutomatically recovers SG every certain time.\nSG is restored when special attacks and unlock motions are triggered.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 1,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "RegionsBombing": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
-      "Name": "Regions Bombing",
+      "Name": "Exceed: Legions' Bombing",
       "DefaultLevel": 1,
-      "ID": 2003,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Ephnel/NSkill3_RegionsBombing.png",
+      "Icon": "../assets/SkillIcons/Ephnel/EXSkill_Exceed-LegionsBombing.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Can only be used in the Supernova state.\nUsing this ends Supernova.",
+          "Description": "Summon a number of weapons, slamming them into the ground. Finish the Attack with chain explosion twice.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_RegionsBombing.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/EXSkill_Exceed-LegionsBombing.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[3000%]\nSuper Armor Break：[2700%]\n\n?.",
+          "Effect": "\nCan only be used in the Awakening status.\nAwakening ends when using this.\n\n[Skill Info]\nDamage: [8000%]\nSuper Armor Break: [7700%]\nSV Gain: +[10].",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
-      "ID": 2001,
+      "ID": "V0",
       "Icon": "../assets/SkillIcons/Ephnel/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
+          "Description": "Awakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/NSkill1_Frenzy.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "\n1st Stage Gauge Use (SV -50)\n\nAwakening: [30sec]\nMax. Damage set\nAgility: +[20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
-      "ID": 2002,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
@@ -1684,22 +1927,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60sec].\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
       "DefaultLevel": 1,
-      "ID": 2004,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1712,14 +1957,16 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Ephnel/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Ephnel/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Super Nova (lvl 42 Skill)\n-Titans Finger (lvl 62 Skill)\n-Regions-Bombing (EX Skill)",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60sec].\n-Attack Damage: [+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60sec] for Desire skills:\n-Super Nova (lvl 42 Skill)\n-Titans Finger (lvl 62 Skill)\n-Regions-Bombing (EX Skill)",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     }

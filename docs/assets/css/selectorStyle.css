@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box !important;
+    }
+  
+  .custom-select2 {
+    position: relative !important;
+    display: inline-block !important;
+    color: #d0d0d7 !important;
+    margin-top: -5px; 
+  }
+  .custom-select2 select {
+    display: block !important;
+    min-height: 25px !important;
+    background: #e9e9ed !important;
+    border-radius: 5px !important;
+    outline: none !important;
+    padding: 0 40px 0 5px !important;
+    margin-top: 5px !important;
+    cursor: pointer !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    -ms-appearance: none !important;
+  }
+
+  .custom-select2 select option{
+    background: #2b2a33 !important;
+    color: #fff;
+  }
+  
+  
+  .custom-select2::after {
+    content: '' !important;
+    border-width: 5px !important;
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-top-color: #000 !important;
+    display: inline-block !important;
+    border-radius: 2px !important;
+    position: absolute !important;
+    right: 15px !important;
+    bottom: 13px !important;
+  }
+  
+  .custom-select2 .selector-options2 {
+    list-style: none !important;
+    padding: 5px 0 !important;
+    margin: 0 !important;
+    background: #2b2a33 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    border-color: #676774 !important;
+    z-index: 1 !important;
+    width: 100% !important;
+    position: absolute !important;
+    font-size: 14px !important;
+  
+  }
+  .custom-select2 .selector-options2 li {
+    height: 30px !important;
+    display: flex !important;
+    align-items: center !important;
+    padding: 0 7px !important;
+    cursor: pointer !important;
+    transition: background 0.3s ease !important;
+  }
+  .custom-select2 .selector-options2 li:hover::selection {
+    color: #52525e !important;
+    background: #52525e !important;
+  }
+
+  .custom-select2 select option:hover::selection{
+    color: #52525e !important;
+    background: #52525e !important;
+  }
+
+  ::selection {
+    color: #52525e !important;
+    background: #52525e !important;
+  }
+  

@@ -17,6 +17,7 @@ function SkillTreeCore() {
     this.AvailableClassIndex = maxValue;
 }
 
+
 SkillTreeCore.prototype.GetTotalSP = function () {
     return this._totalsp;
 }
@@ -129,60 +130,135 @@ SkillTreeCore.prototype.inner_gettotalsp = function (_level) {
 }
 
 SkillTreeCore.prototype.inner_gettotalspex = function (a) {
+/*
     if (window.hasOwnProperty("SkillTreeData") && window.SkillTreeData.hasOwnProperty("SkillPointTable")) {
         let sptable = window.SkillTreeData.SkillPointTable;
 
-        if (sptable.hasOwnProperty("Special") && sptable.Special.hasOwnProperty(a)) {
+        if (sptable.hasOwnProperty("Special") && sptable.Special.hasOwnProperty(a))
             return sptable.Special[a];
-        }
-
         if (typeof (sptable.DefaultSP) === "number") {
             return sptable.DefaultSP;
         } else {
             return 2;
         }
     }
+*/
 
     // Fallback code, actually if you don't mess anything up badly, this won't be used
-    switch (a) {
-        case 0:
-        case 1:
-        case 2:
-        case 3:
-            return 0;
-        case 4:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
-        case 61:
-        case 62:
-        case 63:
-        case 64:
-        case 66:
-        case 67:
-        case 68:
-            return 1;
-        case 5:
-        case 65:
-            return 3;
-        case 10:
-        case 15:
-        case 25:
-        case 30:
-        case 35:
-        case 45:
-        case 50:
-        case 55:
-        case 60:
-            return 5;
-        case 20:
-        case 40:
-            return 10;
-        default:
-            return 2;
+
+   
+
+        //if (document.getElementById("glbSwitch").checked){
+        
+        let Server = document.getElementById("selectServerlist");
+        if(Server.selectedIndex == 0) {
+            switch (a) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+                return 0;
+            case 4:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 61:
+            case 62:
+            case 63:
+            case 64:
+            case 66:
+            case 67:
+            case 68:
+            case 69:
+            case 71:
+            case 72:
+                return 1;
+            case 5:
+            case 65:
+            case 70:
+            case 73:
+            case 74:
+            case 75:
+            case 76:
+                return 3;
+            case 10:
+            case 15:
+            case 25:
+            case 30:
+            case 35:
+            case 45:
+            case 50:
+            case 55:
+            case 60:
+                return 5;
+            case 20:
+            case 40:
+                return 10;
+            default:
+                return 2;
+            }
+        }
+        else if(Server.selectedIndex == 1) {
+            switch (a) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+                return 0;
+            case 4:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 61:
+            case 62:
+            case 63:
+            case 64:
+            case 66:
+            case 67:
+            case 68:
+            case 69:
+            case 71:
+            case 72:
+            case 73:
+            case 74:
+            case 75:
+            case 76:
+                return 1;
+            case 5:
+            case 65:
+            case 70:
+                return 3;
+            case 10:
+            case 15:
+            case 25:
+            case 30:
+            case 35:
+            case 45:
+            case 50:
+            case 55:
+            case 60:
+                return 5;
+            case 20:
+            case 40:
+                return 10;
+            default:
+                return 2;
+            }
+        }
+        else if(Server.selectedIndex == 2) {
+            switch (a) {
+                case 1: 
+                    return 1;
+                default: 
+                    return 3;
+            }
+        }
+
     }
-};
+
+
 
 SkillTreeCore.prototype.GenerateLink = function (showSkillAssignment) {
     var arrayString = new URLSearchParams();
@@ -215,6 +291,25 @@ SkillTreeCore.prototype.GenerateLink = function (showSkillAssignment) {
     var selectedclassindex = this.GetSelectedClassIndex();
     if (selectedclassindex !== this.GetAvailableClassIndex())
         arrayString.append("c", selectedclassindex);
+/*
+    let selectedserver = document.getElementById("glbSwitch").checked;
+    if (selectedserver) {
+        arrayString.append("glb", "1")
+    } else {
+        arrayString.append("glb", "0")
+    }
+    */
+
+    let selectedserver = document.getElementById("selectServerlist").selectedIndex;
+    if (selectedserver <= 0 || selectedserver > 2) {
+        arrayString.append("svr", "0")
+    }
+    else if (selectedserver == 1) {
+        arrayString.append("svr", "1")
+    }
+    else if (selectedserver == 2) {
+        arrayString.append("svr", "2")
+    }
 
     if (!arrayString.keys().next().done) {
         link.search = ("?" + arrayString.toString());
@@ -367,7 +462,7 @@ SkillTreeCore.prototype.ReadTree = function (loadingCallback, loadedCallback) {
     this.VaporSkillList = {};
     this.SkillCount = 0;
     this.loadedSkillCount = 0;
-
+    let Server = document.getElementById("selectServerlist");
     let myself = this;
     $.ajax({
         cache: false,
@@ -377,15 +472,15 @@ SkillTreeCore.prototype.ReadTree = function (loadingCallback, loadedCallback) {
             myself.SetJSON(json);
             if (json.MaxLevel && !isNaN(json.MaxLevel)) {
                 Object.defineProperty(myself, "maxCharacterLevel", {
-                    value: json.MaxLevel,
+                    value: (Server.selectedIndex == 2 ? 79: 76),
                     writable: false,
                     configurable: false
                 });
             } else {
                 Object.defineProperty(myself, "maxCharacterLevel", {
-                    value: window.appdata.maxCharacterLevel,
+                    value: (Server.selectedIndex == 2 ? 79: 76),
                     writable: false,
-                    configurable: false
+                    configurable: true
                 });
             }
             //Get the highest class index
@@ -527,6 +622,10 @@ SkillTreeCore.prototype.RenderTree = function (loadedCallback, forceCreate) {
     
     }
 
+    //Passive Skilltree
+
+    
+
     if (typeof loadedCallback === "function") {
         $("#skilltree").imagesLoaded().always(function () {
             loadedCallback(true);
@@ -543,3 +642,4 @@ SkillTreeCore.prototype.InvestedSPDecrease = function (sp) {
     this._investedsp -= sp;
     this.UpdateSP();
 }
+      

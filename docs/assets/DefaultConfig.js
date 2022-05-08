@@ -3,17 +3,17 @@
     // modify the data here to your liking
     let app_data = {
             "github-repo": "Eden333/swskillsimu", // Set to null to let auto-detect from Github Page default URL, unreliable though
-            maxCharacterLevel: 76 // Default max level will be used if the value cannot be found in a character's JSON data
+            maxCharacterLevel: 79 // Default max level will be used if the value cannot be found in a character's JSON data
         },
         // SP table.
-        table_SkillPoint = {
+         table_SkillPoint = {
             // Default SP for level up that is not found within the "Special" below
             DefaultSP: 2,
-
             // Special cases, specify an amount of SP to receive on these character levels
             Special: {
                 // Should be all numbers, putting anything else at your own risk.
                 // The format is: `[number] Level: [number] The amount of SP`
+                /*
                 0: 0,
                 1: 0,
                 2: 0,
@@ -47,10 +47,11 @@
                 70: 3,
                 71: 1,
                 72: 1,
-                73: 1,
-                74: 1,
-                75: 1,
-                76: 1
+                73: 3,
+                74: 3,
+                75: 3,
+                76: 3
+                */
             }
         },
         table_Character = {
@@ -102,14 +103,13 @@
                 url: "Nabi",
                 selectImage: "assets/images/Nabi_Select.png"
 			},
-			
-            };
+        };
 
     // Debug purpose. Don't modify unless you know what're you doing or testing something
     let debug_data = {
         use_h264: null, // False to force disable H264, true to force using H264, null to "use H264 if the web browser support it"
         use_vp9: null, // False to force disable VP9, true to force using VP9, null to "use VP9 if the web browser support it"
-        videoPreviewPanelHeight: "170px" // The height of the panel which contains skill preview video
+        videoPreviewPanelHeight: "240px" // The height of the panel which contains skill preview video
     };
 
     // Do not modify anything below this line
@@ -166,10 +166,10 @@
         Object.defineProperty(w, "appdata", {
             value: Object.freeze(Object.assign({
                 "github-repo": "Eden333/swskillsimu",
-                maxCharacterLevel: 75,
+                maxCharacterLevel: 79,
                 use_h264: null,
                 use_vp9: null,
-                videoPreviewPanelHeight: "170px"
+                videoPreviewPanelHeight: "240px"
             }, app_data, debug_data)),
             writable: false,
             configurable: false

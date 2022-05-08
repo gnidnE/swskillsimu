@@ -10,12 +10,12 @@ body {
 
 .col-md-1
 {
- padding-right: 186px;
+ padding-right: 185px;
  padding-left: 20px;
  padding-top: 5px;
-
- 
+ max-width: 10%;
 }
+
 .col-md-2
 {
     padding-right: 0%;
@@ -68,21 +68,19 @@ body {
 
 
 .characterimage:hover {
+    height: 745px;
     opacity: 1 !important;
-    /*border: 2px solid #f6b518;*/
-    border: 2px solid rgba(246, 181, 24);
-        height: 753px;
+    border: 2px solid #f6b318;
+    /*border: 2px solid rgba(246, 181, 24);*/
     /* cursor: pointer; */
 }
 
 .characterimage {
-
-    max-width: auto;
-    height: 757px;
+    height: 753px;
     opacity: 0.75 !important;
     transition: all .1s ease-in-out;
     border-radius: 10px;
-
+    border: 2px solid #f6b31800;
 }
 
 .hideaway {
@@ -123,3 +121,7 @@ body {
     border: 1px solid rgba(246, 181, 24, 0.75);
     border-radius: 10px;
 }
+
+/*a[href="Haru"] {
+    margin-left: 15px;
+}*/

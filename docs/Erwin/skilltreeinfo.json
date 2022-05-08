@@ -18,7 +18,7 @@
   }
   },
   "Skills": {
-    "SkyHigh": {
+    "Skill01_SkyHigh": {
       "Name": "Sky High",
       "DefaultLevel": 1,
       "ID": 1,
@@ -29,42 +29,48 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SkyHigh.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill01_SkyHigh.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SkyHigh-ImpactBullets",
-        "SkyHigh-AerialShots"
+        "Skill01_SkyHigh-A",
+        "Skill01_SkyHigh-B"
       ]
     },
-    "SkyHigh-ImpactBullets": {
+    "Skill01_SkyHigh-A": {
       "Visible": false,
       "Name": "Impact Bullets",
       "ID": 2,
@@ -75,18 +81,20 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SkyHigh_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill01_SkyHigh_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         }
       }
     },
-    "SkyHigh-AerialShots": {
+    "Skill01_SkyHigh-B": {
       "Visible": false,
       "Name": "Aerial Shots",
       "ID": 3,
@@ -97,28 +105,32 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SkyHigh_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill01_SkyHigh_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "RapidFire": {
+    "Skill02_RapidFire": {
       "Name": "Rapid Fire",
       "DefaultLevel": 1,
       "ID": 4,
@@ -129,38 +141,44 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_RapidFire.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill02_RapidFire.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "GunCombination": {
+    "Skill03_GunCombination": {
       "Name": "Gun Combination",
       "DefaultLevel": 1,
       "ID": 5,
@@ -171,41 +189,47 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GunCombination.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill03_GunCombination.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "GunCombination-Penetration"
+        "Skill03_GunCombination-A"
       ]
     },
-    "GunCombination-Penetration": {
+    "Skill03_GunCombination-A": {
       "Visible": false,
       "Name": "Penetration",
       "ID": 6,
@@ -216,137 +240,155 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GunCombination_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill03_GunCombination_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SlideStep": {
-      "Name": "Slide Step",
+    "Skill04_SlidingStep": {
+      "Name": "Sliding Step",
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlideStep.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlidingStep.png",
       "Levels": {
         "0": {
           "Description": "Rapidly slide back and avoid incoming attacks.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SlidingStep.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill04_SlidingStep.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SlideStep-SmokeGrenade",
-        "SlideStep-PoisonGasGrenade"
+        "Skill04_SlidingStep-A",
+        "Skill04_SlidingStep-B"
       ]
     },
-    "SlideStep-SmokeGrenade": {
+    "Skill04_SlidingStep-A": {
       "Visible": false,
       "Name": "Smoke Grenade",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlideStep_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlidingStep_A.png",
       "Levels": {
         "0": {
           "Description": "Throws a smoke screen in an area. Enemies in the smoke will be slowed.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SlidingStep_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill04_SlidingStep_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "SlideStep-PoisonGasGrenade": {
+    "Skill04_SlidingStep-B": {
       "Visible": false,
       "Name": "Poison Gas Grenade",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlideStep_B.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill04_SlidingStep_B.png",
       "Levels": {
         "0": {
           "Description": "Throws a poisonous gas grenade in an area. Enemies in the smoke will be poisoned.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SlidingStep_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill04_SlidingStep_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "TakeAim": {
+    "Skill05_TakeAim": {
       "Name": "Take Aim",
       "ID": 10,
       "Icon": "../assets/SkillIcons/Erwin/Skill05_TakeAim.png",
@@ -356,38 +398,44 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_TakeAim.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill05_TakeAim.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 11,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 21,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 26,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "FocusShot": {
+    "Skill06_FocusShot": {
       "Name": "Focus Shot",
       "ID": 11,
       "Icon": "../assets/SkillIcons/Erwin/Skill06_FocusShot.png",
@@ -397,42 +445,48 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_FocusShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill06_FocusShot.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "FocusShot-ParalyzingShot",
-        "FocusShot-BlackHole"
+        "Skill06_FocusShot-A",
+        "Skill06_FocusShot-B"
       ]
     },
-    "FocusShot-ParalyzingShot": {
+    "Skill06_FocusShot-A": {
       "Visible": false,
       "Name": "Paralyzing Shot",
       "ID": 12,
@@ -443,28 +497,32 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_FocusShot_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill06_FocusShot_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FocusShot-BlackHole": {
+    "Skill06_FocusShot-B": {
       "Visible": false,
       "Name": "Black Hole",
       "ID": 13,
@@ -475,28 +533,32 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_FocusShot_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill06_FocusShot_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "CombatMaster": {
+    "Skill07_CombatMaster": {
       "Name": "Combat Master",
       "ID": 14,
       "Icon": "../assets/SkillIcons/Erwin/Skill07_CombatMaster.png",
@@ -506,41 +568,47 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_CombatMaster.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill07_CombatMaster.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "CombatMaster-WesternFinish"
+        "Skill07_CombatMaster-A"
       ]
     },
-    "GuidedShot": {
+    "Skill08_GuidedShot": {
       "Name": "Guided Shot",
       "ID": 15,
       "Icon": "../assets/SkillIcons/Erwin/Skill08_GuidedShot.png",
@@ -550,41 +618,47 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GuidedShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill08_GuidedShot.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "GuidedShot-DefensePenetration"
+        "Skill08_GuidedShot-A"
       ]
     },
-    "GuidedShot-DefensePenetration": {
+    "Skill08_GuidedShot-A": {
       "Visible": false,
       "Name": "Defense Penetration",
       "ID": 16,
@@ -595,28 +669,32 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GuidedShot_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill08_GuidedShot_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "ElectricShot": {
+    "Skill09_ElectricShot": {
       "Name": "Electric Shot",
       "ID": 17,
       "Icon": "../assets/SkillIcons/Erwin/Skill09_ElectricShot.png",
@@ -626,44 +704,50 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill09_ElectricShot.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "ElectricShot-DropCapsule"
+        "Skill09_ElectricShot-A"
       ]
     },
-    "NapalmBomb": {
+    "Skill10_NapalmBomb": {
       "Name": "Napalm Bomb",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Erwin/Skill010_NapalmBomb.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill10_NapalmBomb.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -671,231 +755,262 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_NapalmBomb.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill10_NapalmBomb.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "ChainBombing": {
+    "Skill11_ChainBombing": {
       "Name": "Chain Bombing",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Erwin/Skill011_ChainBombing.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill11_ChainBombing.png",
       "Levels": {
         "0": {
           "Description": "Fire a signal flare into the air and drop a\nmissile ahead. The missile cause a series of\nexplosions.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ChainBombing.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill11_ChainBombing.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: [1396%]\nSuper Armor Break: [1880%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Damage: [1536%]\nSuper Armor Break: [2086%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "Damage: [1843%]\nSuper Armor Break: [2481%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "Damage: [2211%]\nSuper Armor Break: [2977%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "Damage: [2875%]\nSuper Armor Break: [3870%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "ChainBombing-LastBombing"
+        "Skill11_ChainBombing-A"
       ]
     },
-    "ChainBombing-LastBombing": {
+    "Skill11_ChainBombing-A": {
       "Visible": false,
       "Name": "Last Bombing",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Erwin/Skill011_ChainBombing_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill11_ChainBombing_A.png",
       "Levels": {
         "0": {
           "Description": "Generate a Burning Field on the spot of\nexplosion.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ChainBombing_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill11_ChainBombing_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "Burning Field Damage per Hit: [288%]\nBurning Field Super Armor Break per Hit: [387%]\nBurning Field Duration: [3sec]",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Burning Field Damage per Hit: [431%]\nBurning Field Super Armor Break per Hit: [581%]\nBurning Field Duration: [3sec]",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "Burning Field Damage per Hit: [575%]\nBurning Field Super Armor Break per Hit: [774%]\nBurning Field Duration: [3sec]",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "HideAndSeek": {
-      "Name": "Hide & Seek",
+    "Skill12_HideAndSeek": {
+      "Name": "Hide and Seek",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Erwin/Skill012_Hide.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill12_HideAndSeek.png",
       "Levels": {
         "0": {
           "Description": "Charge up a barrier, while charging you are invincible. After the barrier actives, you will gain Super Armor and all damage will be avoided.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_HideAndSeek.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill12_HideAndSeek.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 39,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 44,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 49,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulLauncher": {
+    "Skill13_SoulLauncher": {
       "Name": "Soul Launcher",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Erwin/Skill013_SoulLauncher.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill13_SoulLauncher.png",
       "Levels": {
         "0": {
           "Description": "By turning guns into grenade launchers, fire a barrage of artillery up to 10 meters. Hit enemies will be pushed back.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulLauncher.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill13_SoulLauncher.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "SoulLauncher-ConcentratedSaturation"
+        "Skill13_SoulLauncher-A"
       ]
     },
-    "SoulLauncher-ConcentratedSaturation": {
+    "Skill13_SoulLauncher-A": {
       "Visible": false,
       "Name": "Concentrated Saturation",
       "ID": 29,
-      "Icon": "../assets/SkillIcons/Erwin/Skill013_SoulLauncher_A.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill13_SoulLauncher_A.png",
       "Levels": {
         "0": {
           "Description": "Left-click to focus on a narrow range.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulLauncher_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill13_SoulLauncher_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [212%]\nSuper Armor Break per hit[188%]\n[Attribute Information: Focusing]\nTotal Damage: [4240%]\nTotal Super Armor Break: [3760%]",
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per Hit [212%]\nSuper Armor Break per Hit[188%]\n[Attribute Information: Focusing]\nTotal Damage: [4240%]\nTotal Super Armor Break: [3760%]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [233%]\nSuper Armor Break per hit[207%]\n[Attribute Information: Focusing]\nTotal Damage: [4660%]\nTotal Super Armor Break: [4140%]",
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per Hit [233%]\nSuper Armor Break per Hit[207%]\n[Attribute Information: Focusing]\nTotal Damage: [4660%]\nTotal Super Armor Break: [4140%]",
           "RequiredLevel": 70,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Attribute Information: Soul Launcher]\nDamage per hit [268%]\nSuper Armor Break per hit[238%]\n[Attribute Information: Focusing]\nTotal Damage: [5360%]\nTotal Super Armor Break: [4760%]",
+          "Effect": "[Attribute Information: Soul Launcher]\nDamage per Hit [268%]\nSuper Armor Break per Hit[238%]\n[Attribute Information: Focusing]\nTotal Damage: [5360%]\nTotal Super Armor Break: [4760%]",
           "RequiredLevel": 72,
           "RequiredSP": 4
         }
       }
     },
-    "CombatMaster-WesternFinish": {
+    "Skill07_CombatMaster-A": {
       "Visible": false,
       "Name": "Western Finish",
       "ID": 24,
@@ -910,28 +1025,32 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_CombatMaster_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill07_CombatMaster_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[SoulPlus Info]\nDamage per hit: [127%]\nSuper Armor Break per hit: [70%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1089%]\nFinish Super Armor Break: [596%]",
+          "Effect": "[SoulPlus Info]\nDamage per Hit: [127%]\nSuper Armor Break per Hit: [70%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1089%]\nFinish Super Armor Break: [596%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[SoulPlus Info]\nDamage per hit: [142%]\nSuper Armor Break per hit: [78%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1217%]\nFinish Super Armor Break: [665%]",
+          "Effect": "[SoulPlus Info]\nDamage per Hit: [142%]\nSuper Armor Break per Hit: [78%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1217%]\nFinish Super Armor Break: [665%]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[SoulPlus Info]\nDamage per hit: [158%]\nSuper Armor Break per hit: [86%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1350%]\nFinish Super Armor Break: [738%]",
+          "Effect": "[SoulPlus Info]\nDamage per Hit: [158%]\nSuper Armor Break per Hit: [86%]\n\n[SoulPlus Info: Powerful Attack]\nFinish Damage: [1350%]\nFinish Super Armor Break: [738%]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "ElectricShot-DropCapsule": {
+    "Skill09_ElectricShot-A": {
       "Visible": false,
       "Name": "Drop Capsule",
       "ID": 25,
@@ -946,41 +1065,45 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot_A_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill09_ElectricShot_A_01.{{auto}}"
           }
         },
         "1": {
           "Effect": "[SoulPlus Info]\nDamage:[1215%]\nSuper Armor Break: [694%]\n\n[SoulPlus Info: Basic Clone Attack]\nDamage and Super Armor Break per Hit: [100%]\n\n[SoulPlus Info: Self-destruct Device Attack]\nDamage and Super Armor Break per Hit: [200%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[SoulPlus Info]\nDamage:[1275%]\nSuper Armor Break: [832%]\n\n[SoulPlus Info: Basic Clone Attack]\nDamage and Super Armor Break per Hit: [200%]\n\n[SoulPlus Info: Self-destruct Device Attack]\nDamage and Super Armor Break per Hit: [400%]",
           "RequiredLevel": 59,
           "RequiredSP": 1,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot_A_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill09_ElectricShot_A_02.{{auto}}"
           }
         },
         "3": {
           "Effect": "[SoulPlus Info]\nDamage:[1426%]\nSuper Armor Break: [1082%]\n\n[SoulPlus Info: Basic Clone Attack]\nDamage and Super Armor Break per Hit: [300%]\n\n[SoulPlus Info: Self-destruct Device Attack]\nDamage and Super Armor Break per Hit: [60%]\nFinish Attack Damage and Super Armor Break: [180%]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_ElectricShot_A_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill09_ElectricShot_A_03.{{auto}}"
           }
         }
       }
     },
-    "BlazeHover": {
+    "Skill15_BlazeHover": {
       "Name": "Blaze Hover",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Skill015_BlazeHover.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill15_BlazeHover.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -988,127 +1111,184 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_BlazeHover.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill15_BlazeHover.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage per hit: [220%]\nSuper Armor Break per hit: [112%]\nSG Consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per Hit: [220%]\nSuper Armor Break per Hit: [112%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage per hit: [231%]\nSuper Armor Break per hit: [118%]\nSG Consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per Hit: [231%]\nSuper Armor Break per Hit: [118%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage per hit: [258%]\nSuper Armor Break per hit: [132%]\nSG Consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per Hit: [258%]\nSuper Armor Break per Hit: [132%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "Damage per hit: [286%]\nSuper Armor Break per hit: [145%]\nSG Consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per Hit: [286%]\nSuper Armor Break per Hit: [145%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "Damage per hit: [330%]\nSuper Armor Break per hit: [168%]\nSG Consumption: [3]\nCooldown: [25sec]",
+          "Effect": "Damage per Hit: [330%]\nSuper Armor Break per Hit: [168%]\nSG Consumption: [3]\nCooldown: [25sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "MissionCall": {
+    "Skill16_MissionCall": {
       "Name": "Mission Call",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/Skill016_MissionCall.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill16_MissionCall.png",
       "Levels": {
         "0": {
           "Description": "Air bombing laser of a specified point that is\nmarked with a Mouse",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_MissionCall.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill16_MissionCall.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Skill Info]\nDamage per hit: [1416%]\nSuper Armor Break per hit: [1598%]\nSG Consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1416%]\nSuper Armor Break per Hit: [1598%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Skill Info]\nDamage per hit: [1487%]\nSuper Armor Break per hit: [1677%]\nSG Consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1487%]\nSuper Armor Break per Hit: [1677%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Skill Info]\nDamage per hit: [1664%]\nSuper Armor Break per hit: [1877%]\nSG Consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1664%]\nSuper Armor Break per Hit: [1877%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Skill Info]\nDamage per hit: [1839%]\nSuper Armor Break per hit: [2075%]\nSG Consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [1839%]\nSuper Armor Break per Hit: [2075%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Skill Info]\nDamage per hit: [2123%]\nSuper Armor Break per hit: [2394%]\nSG Consumption: [4]\nCooldown: [30sec]",
+          "Effect": "[Skill Info]\nDamage per Hit: [2123%]\nSuper Armor Break per Hit: [2394%]\nSG Consumption: [4]\nCooldown: [30sec]",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "SwallowBullet": {
+    "Skill14_SwallowBullet": {
       "Name": "Swallow Bullet",
       "ID": 28,
-      "Icon": "../assets/SkillIcons/Erwin/Skill014_Deadline.png",
+      "Icon": "../assets/SkillIcons/Erwin/Skill14_SwallowBullet.png",
       "Levels": {
         "0": {
           "Description": "Bouncing attack in a liited area, penetrating\nyour opponents at least once.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SwallowBullet.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/Skill14_SwallowBullet.{{auto}}"
           }
         },
         "1": {
-          "Effect": "[Basic Attack]\nDamage per hit: [242%]\nSuper Armor Break per hit: [229%]\n\n[Finish Attack]\nDamage: [606%]\nSuper Armor Break: [574%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per Hit: [242%]\nSuper Armor Break per Hit: [229%]\n\n[Finish Attack]\nDamage: [606%]\nSuper Armor Break: [574%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },        
         "4": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },        
         "5": {
-          "Effect": "[Basic Attack]\nDamage per hit: [%]\nSuper Armor Break per hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
+          "Effect": "[Basic Attack]\nDamage per Hit: [%]\nSuper Armor Break per Hit: [%]\n\n[Finish Attack]\nDamage: [%]\nSuper Armor Break: [%]\n\n[Basic]\nSG Consumption: [4]\nCooldown: [45sec]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BasicAttackMastery": {
+    "Skill17_No5": {
+      "Name": "No5",
+      "ID": 30,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Erwin/Skill17_No5.png",
+      "Levels": {
+        "0": {
+          "Description": "Soul Energy shaped special forces unit Form No. 1\nSummon No.4 to hit the enemies in front of you.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Erwin/Skill17_No5.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: CS Attack]\nDamage per Hit: [?%]\nSuper Armor Break per Hit: [?%]\n\n[Skill Info: Finishing Attack]\nDamage per Hit: [?%]\nSuper Armor Break per Hit: [?%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1206%]\nBuff Additional Super Armor Break: [1071%]\nSG Consumption: [3]\nCooldown: [40sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: CS Attack]\nDamage per Hit: [3053%]\nSuper Armor Break per Hit: [3166%]\n\n[Skill Info: Finishing Attack]\nDamage per Hit: [2035%]\nSuper Armor Break per Hit: [2110%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1206%]\nBuff Additional Super Armor Break: [1071%]\nSG Consumption: [3]\nCooldown: [40sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info: CS Attack]\nDamage per Hit: [3419%]\nSuper Armor Break per Hit: [3546%]\n\n[Skill Info: Finishing Attack]\nDamage per Hit: [2280%]\nSuper Armor Break per Hit: [2364%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1206%]\nBuff Additional Super Armor Break: [1071%]\nSG Consumption: [3]\nCooldown: [40sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": "P0",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
@@ -1116,36 +1296,41 @@
           "Description": "Attack with your weapon.\nAs this skill's level increases, you will be able to perform new combo attacks.\nYou will regain SG as you attack.\nSG gain will vary by enemy type",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "SG Gain +20%.\n\nEnable to use SoulStrike A",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Attack_01.{{auto}}"
           }
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "SG Gain +70%.\n\nEnable to use SoulStrike B.",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "SG Gain +120%\nEnable to use an addional strike for the Basic Attack.\nEnable to use an additional strike for the Aerial Attack.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Attack_03.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "SG Gain +200%\n\nEnable to use SoulStrike C.",
           "RequiredLevel": 15,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Attack_04.{{auto}}"
           }
@@ -1154,16 +1339,17 @@
           "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Attack_05.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": "P1",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Erwin/PSkill_SoulStrikeMastery.png",
       "Levels": {
@@ -1172,6 +1358,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_S_Attack_N.{{auto}}"
           }
@@ -1179,24 +1366,27 @@
         "1": {
           "Effect": "[Ground]\nDamage: 172%\nSuper Armor Break: 76%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\n[Air]\nDamage: 274%\nSuper Armor Break: 122%\nDebuff effect: Paralysis in 3s\nCooldown: 5s",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Ground]\nDamage: 181%\nSuper Armor Break: 80%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\nSG Gain: +20%\n[Air]\nDamage: 287%\nSuper Armor Break: 128%\nDebuff effect: Paralysis in 3s\nCooldown: 5s\nSG Gain: +20%",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "[Ground]\nDamage: 202%\nSuper Armor Break: 90%\nDebuff effect: Movement speed -60% in 5s\nCooldown: 5s\nSG Gain: +20%\n[Air]\nDamage: 321%\nSuper Armor Break: 143%\nDebuff effect: Paralysis in 3s\nCooldown: 5s\nSG Gain: +20%",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1205,6 +1395,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Evade_F.{{auto}}"
           }
@@ -1212,14 +1403,15 @@
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1228,6 +1420,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Roll_F.{{auto}}"
           }
@@ -1235,25 +1428,28 @@
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": "P4",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1261,6 +1457,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Run_F.{{auto}}"
           }
@@ -1268,19 +1465,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1005,
+      "ID": "P5",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1289,6 +1488,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Rise_Attack.{{auto}}"
           }
@@ -1296,25 +1496,28 @@
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1322,6 +1525,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_N_Attack_Dash.{{auto}}"
           }
@@ -1329,14 +1533,15 @@
         "1": {
           "Effect": "Damage: 115%\nSuper Armor Break: 38%",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1344,31 +1549,35 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_Special_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoulDashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "SoulDash Attack",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1376,143 +1585,161 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Erwin/B_S_Attack_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 1
         }
       }
     },
-    "GrasptheFortune": {
+    "CSkill2_GrasptheFortune": {
       "Passive": true,
       "Name": "Grasp the Fortune",
-      "ID": 1013,
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Erwin/PSkill2_GrasptheFortune.png",
+      "Icon": "../assets/SkillIcons/Erwin/CSkill2_GrasptheFortune.png",
       "Levels": {
         "0": {
           "Description": "[Skill Info]\nUse SG consumed skills consecutively, Increase\nArmor Penetration + Attack Damage\nCan be stacked when any skill is used within\n[5sec]\n(On Stack [3])",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Armor Penetration: +[4%] for [10sec]\nAttack Damage: +[200] for [10sec]\nSV Recovery: [3]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Armor Penetration: +[7%] for [10sec]\nAttack Damage: +[400] for [10sec]\nSV Recovery: [3]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Armor Penetration: +[10%] for [10sec]\nAttack Damage: +[600] for [10sec]\nSV Recovery: [3]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "TheGreatestLuck": {
+    "CSkill1_TheGreatestLuck": {
       "Passive": true,
       "Name": "The Greatest Luck",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Erwin/PSkill1_TheGreatestLuck.png",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Erwin/CSkill1_TheGreatestLuck.png",
       "Levels": {
         "0": {
           "Description": "Increases your Max. SG",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Increase Max. SG [1]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Increase Max. SG [2]",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Increase Max. SG [3]",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "BulletofPleasure": {
+    "CSkill0_CP": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1012,
+      "ID": "C0",
       "Name": "Bullet of Pleasure",
       "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Using a different skills within 5 seconds will grant 1 stack. Gain 3 SG upon reaching 3 stacks",
+          "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Using a different skills within 5sec] will grant 1 stack. Gain 3 SG upon reaching 3 stacks",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "GeometryPlatoon": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
       "Name": "Geometry Platoon",
       "DefaultLevel": 1,
-      "ID": 2003,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
@@ -1525,22 +1752,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_GeometryPlatoon.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/EXSkill_GeometryPlatoon.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSuper Armor Break：[?%]\n\n?.",
+          "Effect": "Damage: [?%]\nSuper Armor Break: [?%]\n\n?.",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
-      "ID": 2001,
+      "ID": "V0",
       "Icon": "../assets/SkillIcons/Erwin/NSkill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
@@ -1549,22 +1778,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/NSkill1_Frenzy.{{auto}}"
           }
         },
         "1": {
           "Effect": "1st Phase Gauge Use (SV - 50)\n\n[Skill Info]\nAwakening: [30sec]\nMax. Damage set.\nAgility: [+20%]\nActivates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
-      "ID": 2002,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
@@ -1577,22 +1808,24 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60sec].\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
       "DefaultLevel": 1,
-      "ID": 2004,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1605,14 +1838,16 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Erwin/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Erwin/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
           "Effect": "2nd Phase Gauge Use(SV -100)\n\n[Skill Info]\nDesire Awakening: [60sec]\nInflict Damage +[20%]\nAttack Speed: +[20%]\nMax. Damage set.\nAgility: +[30%]\nSG Consumption: -[20%]\nActivates Super Armor\nActivates Burning Skill\n\n[Skill Info: Burning]\nAdditional blows 60sec: Damage x1.3\nBurning Skill effect ends when using EX skill\nSoul Launcher: Fires off additional Desire Energy\nSwallow Bullet: 3 additional laser beams in the air\nGeometry Platoon: 2 additional Geo Soilders\ninflict more blows",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     }

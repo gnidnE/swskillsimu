@@ -38,8 +38,8 @@
             Button_ResetAllSkills: "Reset All Skills",
             Button_SlotAssignment: "Slot assignment",
             Button_Options: "Options",
-            Button_CopyLinkToCurrentSkillTree: "Copy Link to current build",
-            Button_CopyLinkToCurrentSkillTreeAndShowSkillAssignment: "Copy Link to current build and show skill assignment on load",
+            Button_CopyLinkToCurrentSkillTree: "Copy current build",
+            Button_CopyLinkToCurrentSkillTreeAndShowSkillAssignment: "Copy current build and show skill assignment",
 
             // {0}: the character name
             MenuItem_MoreInfoAboutCharacter: "More info about {0}",
@@ -59,11 +59,11 @@
             ChangeClass: "<b>Changing class will reset your skill tree.</b><br/>Are you sure you want to change class?",
         },
         ToolTip: {
-            CurrentHeader: "{Current}",
-            AfterHeader: "{After}",
+            CurrentHeader: "               <={Current}=>",
+            AfterHeader: "                <={After}=>",
             NoInfo: "<No info available>",
             NoSkill: "Not skilled",
-            MaxSkill: "Already Max Skill Level",
+            MaxSkill: "Already Max. Skill Level",
             SkillEffectHeader: "Effect",
             SkillDescriptionHeader: "Description",
         },
@@ -80,7 +80,7 @@
 
             // {0}: the value of the effect. See effect value below
             SkillChainEffect_DamageUp: "Damage +{0}",
-            SkillChainEffect_CooldownReduce: "Cooldown -{0}",
+            SkillChainEffect_CooldownReduce: "Cooldown Reduction -{0}",
             SkillChainEffect_SGCostReduce: "SG consumption -{0}",
 
             // Second skill chain effect value

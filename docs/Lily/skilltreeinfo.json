@@ -18,575 +18,649 @@
   }
   },
   "Skills": {
-    "EvilSlash": {
+    "Skill01_EvilSlash": {
       "Name": "Evil Slash",
       "DefaultLevel": 1,
       "ID": 1,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_EvilSlash.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill01_EvilSlash.png",
       "Levels": {
         "0": {
           "Description": "Quickly rotate the scythe, pushes out the enemy at the end of the blow.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_EvilSlash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill01_EvilSlash.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: 182%\nSuper Armor Break: 196%\nSG Consumption: 30\nCooldown: 10s",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Damage: 191%\nSuper Armor Break: 206%\nSG Consumption: 30\nCooldown: 10s",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "Damage: 214%\nSuper Armor Break: 230%\nSG Consumption: 30\nCooldown: 10s",
           "RequiredLevel": 7,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "Damage: 237%\nSuper Armor Break: 255%\nSG Consumption: 30\nCooldown: 10s",
           "RequiredLevel": 10,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "Damage: 273%\nSuper Armor Break: 294%\nSG Consumption: 30\nCooldown: 10s",
           "RequiredLevel": 13,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "EvilSlash-Kusarigama"
+        "Skill01_EvilSlash-A"
       ]
     },
-    "SpinningDevil": {
+    "Skill02_SpinningDevil": {
       "Name": "Spinning Devil",
       "DefaultLevel": 1,
       "ID": 2,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_SpinningDevil.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill02_SpinningDevil.png",
       "Levels": {
         "0": {
           "Description": "Quickly dash forward, using the speed perform a spinning slash.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_SpinningDevil.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill02_SpinningDevil.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 11,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 21,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "ScytheCutter": {
+    "Skill03_ScytheCutter": {
       "Name": "Scythe Cutter",
       "DefaultLevel": 1,
       "ID": 3,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_ScytheCutter.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill03_ScytheCutter.png",
       "Levels": {
         "0": {
           "Description": "Swiftly raise the scythe. Enemies will be launched in the air.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_ScytheCuter.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill03_ScytheCutter.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 5,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 9,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "ScytheCutter-ChargeAttack"
+        "Skill03_ScytheCutter-A"
       ]
     },
-    "ScytheCutter-ChargeAttack": {
+    "Skill03_ScytheCutter-A": {
       "Visible": false,
       "Name": "Charge Attack",
       "ID": 4,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_ScytheCutter_A.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill03_ScytheCutter_A.png",
       "Levels": {
         "0": {
           "Description": "If charged, it launches the enemy higher.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_ScytheCuter_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill03_ScytheCutter_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         }
       }
     },
-    "GrimCountdown": {
+    "Skill04_GrimCountdown": {
       "Name": "Grim Countdown",
       "ID": 5,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_GrimCountDown.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill04_GrimCountdown.png",
       "Levels": {
         "0": {
           "Description": "After doing a rotation slash, cut the front enemies alongside the summoned Grim Reaper.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_GrimCountdown.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill04_GrimCountdown.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 12,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "GrimCountdown-Lifesteal"
+        "Skill04_GrimCountdown-A"
       ]
     },
-    "GrimCountdown-Lifesteal": {
+    "Skill04_GrimCountdown-A": {
       "Visible": false,
       "Name": "Lifesteal",
       "ID": 6,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_GrimCountdown_A.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill04_GrimCountdown_A.png",
       "Levels": {
         "0": {
           "Description": "Steal HP from the afflicted enemies, and heals HP of oneself.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_GrimCountdown_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill04_GrimCountdown_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 25,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "FearChain": {
+    "Skill05_FearChain": {
       "Name": "Fear Chain",
       "ID": 7,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_FearChain.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill05_FearChain.png",
       "Levels": {
         "0": {
           "Description": "Summons the Grim Reaper in front, the Grim Reaper connects the enemies with a chain, they are drawn towards the center of the attack range.",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill05_FearChain.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: [65%]\nSuper Armor Break: [433%]\nSG Consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 6,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Damage: [69%]\nSuper Armor Break: [454%]\nSG Consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "Damage: [77%]\nSuper Armor Break: [508%]\nSG Consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 14,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "Damage: [85%]\nSuper Armor Break: [562%]\nSG Consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 18,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "Damage: [98%]\nSuper Armor Break: [649%]\nSG Consumption:[30]\nCooldown:[16sec]",
           "RequiredLevel": 22,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "FearChain-Stun"
+        "Skill05_FearChain-A"
       ]
     },
-    "FearChain-Stun": {
+    "Skill05_FearChain-A": {
       "Visible": false,
       "Name": "Stun",
       "ID": 8,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_FearChain_A.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill05_FearChain_A.png",
       "Levels": {
         "0": {
           "Description": "On hit, stuns enemies.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FearChain_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill05_FearChain_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DeathGrinder": {
+    "Skill06_DeathGrinder": {
       "Name": "Death Grinder",
       "ID": 9,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_DeathGrinder.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill06_DeathGrinder.png",
       "Levels": {
         "0": {
           "Description": "Attack by throwing the scythe like a boomerang. Attract the enemies attacked when the scythe comes back to the owner.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGrinder.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill06_DeathGrinder.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 8,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 12,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 16,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "DeathGrinder-SummonGrimReaper",
-        "DeathGrinder-Whirlwind"
+        "Skill06_DeathGrinder-A",
+        "Skill06_DeathGrinder-B"
       ]
     },
-    "DeathGrinder-SummonGrimReaper": {
+    "Skill06_DeathGrinder-A": {
       "Visible": false,
       "Name": "Summon Grim Reaper",
       "ID": 10,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGrinder_A.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill06_DeathGrinder_A.png",
       "Levels": {
         "0": {
           "Description": "Throw the scythe and summon the Grim Reaper.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGrinder_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill06_DeathGrinder_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DeathGrinder-Whirlwind": {
+    "Skill06_DeathGrinder-B": {
       "Visible": false,
       "Name": "Whirlwind",
       "ID": 11,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGrinder_B.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill06_DeathGrinder_B.png",
       "Levels": {
         "0": {
           "Description": "Create a whirlwind by throwing the scythe forward. Scythe will stop at a point and damage the enemies at the place.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGrinder_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill06_DeathGrinder_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 24,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 29,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DeathScythe": {
+    "Skill07_DeathScythe": {
       "Name": "Death Scythe",
       "ID": 12,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_DeathScythe.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill07_DeathScythe.png",
       "Levels": {
         "0": {
           "Description": "Grim Reaper appears, it attracts the enemies around. After the Grim Reaper attacks, the last attack is changed by the next command.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathScythe.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill07_DeathScythe.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "DeathScythe-Afterimage"
+        "Skill07_DeathScythe-A"
       ]
     },
-    "CruelSlash": {
+    "Skill08_CruelSlash": {
       "Name": "Cruel Slash",
       "ID": 13,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_CruelSlash.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill08_CruelSlash.png",
       "Levels": {
         "0": {
           "Description": "Deform the sickle to the scimitar form to attack. LMB to quickly perform repeated attacks on the spot for a period of time.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_CruelSlash.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill08_CruelSlash.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 23,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 28,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "CruelSlash-DefensePenetration",
-        "CruelSlash-CriticalRateIncrease"
+        "Skill08_CruelSlash-A",
+        "Skill08_CruelSlash-B"
       ]
     },
-    "CruelSlash-DefensePenetration": {
+    "Skill08_CruelSlash-A": {
       "Visible": false,
       "Name": "Defense Penetration",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_CruelSlash_A.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill08_CruelSlash_A.png",
       "Levels": {
         "0": {
           "Description": "Attacks done to the enemy ignore enemy's defense",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_CruelSlash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill08_CruelSlash_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "CruelSlash-CriticalRateIncrease": {
+    "Skill08_CruelSlash-B": {
       "Visible": false,
       "Name": "Critical Rate Increase",
       "ID": 15,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_CruelSlash_B.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill08_CruelSlash_B.png",
       "Levels": {
         "0": {
           "Description": "Increases Critical Rate",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_CruelSlash_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill08_CruelSlash_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 33,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 43,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "GrimReaper": {
+    "Skill09_GrimReaper": {
       "Name": "Grim Reaper",
       "ID": 16,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_GrimReaper.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill09_GrimReaper.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -594,277 +668,315 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_GrimReaper.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill09_GrimReaper.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 22,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 27,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 32,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 37,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "ForceRegion": {
+    "Skill10_ForceRegion": {
       "Name": "Force Region",
       "ID": 17,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_ForceRegion.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill10_ForceRegion.png",
       "Levels": {
         "0": {
           "Description": "The summoned Grim Reaper's roar will grant a buff that increases critical rate to the party members in range, including self.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_ForceRegion.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill10_ForceRegion.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 26,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 31,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 41,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "DeathTornado": {
+    "Skill11_DeathTornado": {
       "Name": "Death Tornado",
       "ID": 18,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_DeathTornado.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill11_DeathTornado.png",
       "Levels": {
         "0": {
           "Description": "It creates a powerful tornado to attack the enemies in front.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathTornado.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill11_DeathTornado.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 28,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 32,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 40,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 44,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
       "Extensions": [
-        "DeathTornado-Induction",
-        "DeathTornado-AreaWidener"
+        "Skill11_DeathTornado-A",
+        "Skill11_DeathTornado-B"
       ]
     },
-    "DeathTornado-Induction": {
+    "Skill11_DeathTornado-A": {
       "Visible": false,
       "Name": "Induction",
       "ID": 19,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathTornado_A.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill11_DeathTornado_A.png",
       "Levels": {
         "0": {
           "Description": "Summons a tornado that moves towards the enemy",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathTornado_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill11_DeathTornado_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DeathTornado-AreaWidener": {
+    "Skill11_DeathTornado-B": {
       "Visible": false,
       "Name": "Area Widener",
       "ID": 20,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathTornado_B.PNG",
+      "Icon": "../assets/SkillIcons/Lily/Skill11_DeathTornado_B.png",
       "Levels": {
         "0": {
           "Description": "Tornado moves towards the front.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathTornado_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill11_DeathTornado_B.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 44,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 49,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "EvilTrinity": {
+    "Skill12_EvilTrinity": {
       "Name": "Evil Trinity",
       "ID": 21,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_EvilTrinity.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill12_EvilTrinity.png",
       "Levels": {
         "0": {
           "Description": "The Grim Reaper with two scythes appears, swinging them along with Lily. The ground smash creates three shock waves that will hit the enemies in the range.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_EvilTrinity.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill12_EvilTrinity.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 34,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 38,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 42,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 46,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 50,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "DeathGuillotine": {
+    "Skill13_DeathGuillotine": {
       "Name": "Death Guillotine",
       "ID": 22,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGuillotine.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill13_DeathGuillotine.png",
       "Levels": {
         "0": {
           "Description": "Surrounds and restraints the enemies with chains, pushing them under a summoning gigantic guillotine.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGuillotine.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill13_DeathGuillotine.{{auto}}"
           }
         },
         "1": {
           "Effect": "",
           "RequiredLevel": 42,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "",
           "RequiredLevel": 45,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "",
           "RequiredLevel": 48,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "",
           "RequiredLevel": 51,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 54,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       },
     "Extensions": [
-      "DeathGuillotine-Execution"
+      "Skill13_DeathGuillotine-A"
     ]
     },
-    "DeathGuillotine-Execution": {
+    "Skill13_DeathGuillotine-A": {
     "Visible": false,
     "Name": "Execution",
-    "ID": 29,
-    "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathGuillotine_A.png",
+    "ID": 28,
+    "Icon": "../assets/SkillIcons/Lily/Skill13_DeathGuillotine_A.png",
     "Levels": {
       "0": {
         "Description": "An additional attack is added that bypasses enemy defense.",
@@ -872,7 +984,7 @@
         "RequiredLevel": 0,
         "RequiredSP": 0,
         "Preview": {
-          "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathGuillotine_A.{{auto}}"
+          "Video": "../assets/SkillPreviews/Lily/Skill13_DeathGuillotine_A.{{auto}}"
         }
       },
       "1": {
@@ -892,43 +1004,47 @@
       }
     }
     },
-    "EvilSlash-Kusarigama": {
+    "Skill01_EvilSlash-A": {
       "Visible": false,
-      "Name": "Sickle and Chain",
+      "Name": "Weapon Shift",
       "ID": 23,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_EvilSlash_A.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill01_EvilSlash_A.png",
       "Levels": {
         "0": {
-          "Description": "鎌の代わりに鎖鎌を利用して、より広い範囲の敵を攻撃します。",
+          "Description": "Use Chain Scythe instead of the Mist Scythe to attack over a wider area.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_EvilSlash_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill01_EvilSlash_A.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 384%\nSuper Armor Break: 304%",
+          "Effect": "[SoulPlus Info]\nDamage per Hit: [130%]\nSuper Armor Break per Hit: [73%]\n\nFinish Damage: [518%]\nFinish Super Armor Break: [292%]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: 423%\nSuper Armor Break: 335%",
+          "Effect": "[SoulPlus Info]\nDamage per Hit: [141%]\nSuper Armor Break per Hit: [80%]\n\nFinish Damage: [565%]\nFinish Super Armor Break: [322%]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: 498%\nSuper Armor Break: 394%",
+          "Effect": "[SoulPlus Info]\nDamage per Hit: [163%]\nSuper Armor Break per Hit: [95%]\n\nFinish Damage: [650%]\nFinish Super Armor Break: [378%]",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "DeathScythe-Afterimage": {
+    "Skill07_DeathScythe-A": {
       "Visible": false,
       "Name": "Afterimage",
       "ID": 24,
@@ -936,42 +1052,46 @@
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_DeathScythe_A.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill07_DeathScythe_A.png",
       "Levels": {
         "0": {
           "Description": "The afterimage of the death god rushes towards the enemy and attacks according to the attack action of Lily.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_DeathScythe_A.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill07_DeathScythe_A.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: 628%\nSuper Armor Break: 1168%",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Damage: 710%\nSuper Armor Break: 1198%",
           "RequiredLevel": 59,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "Damage: 880%\nSuper Armor Break: 1484%",
           "RequiredLevel": 60,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         }
       }
     },
-    "BloodyBlossom": {
+    "Skill15_BloodyBlossom": {
       "Name": "Bloody Blossom",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_BloodyBlossom.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill15_BloodyBlossom.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -979,127 +1099,184 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_BloodyBlossom.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill15_BloodyBlossom.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: 752%\nSuper Armor Break: 480%\nSG Consumption: 30\nCooldown: 28s",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Damage: 828%\nSuper Armor Break: 504%\nSG Consumption: 30\nCooldown: 28s",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "Damage: 927%\nSuper Armor Break: 550%\nSG Consumption: 30\nCooldown: 28s",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "Damage: 1057%\nSuper Armor Break: 616%\nSG Consumption: 30\nCooldown: 28s",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "Damage: 1247%\nSuper Armor Break: 708%\nSG Consumption: 30\nCooldown: 28s",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "FuryScythe": {
-      "Name": "Fury Scythe",
+    "Skill16_FuryMach": {
+      "Name": "Fury Mach",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_Furymach.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill16_FuryMach.png",
       "Levels": {
         "0": {
           "Description": "Joining the sickle and the scissors and do a lash rush in the front.\nIt attacks enemies and moves forward by operation.\n\n[1] Left click: Cuts forward enemies and makes short rush.\n\n[2] Right click: It moves quickly towards the front.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_FuryMach.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill16_FuryMach.{{auto}}"
           }
         },
         "1": {
           "Effect": "Damage: 2000%\nSuper Armor Break: 2130%\nSG Consumption: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 375%\nSuper Armor Break: 399%",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Damage: 2200%\nSuper Armor Break: 2236%\nSG Consumption: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 412%\nSuper Armor Break: 419%",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
           "Effect": "Damage: 2464%\nSuper Armor Break: 2438%\nSG Consumption: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 462%\nSuper Armor Break: 457%",
           "RequiredLevel": 58,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "4": {
           "Effect": "Damage: 2808%\nSuper Armor Break: 2730%\nSG Consumption: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 526%\nSuper Armor Break: 511%",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },
         "5": {
           "Effect": "Damage: 3314%\nSuper Armor Break: 3140%\nSG Consumption: 55\nCooldown: 30s\n\n[Additional Attack]\nDamage: 621%\nSuper Armor Break: 588%",
           "RequiredLevel": 60,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "LeashedBeast": {
+    "Skill14_LeashedBeast": {
       "Name": "Leashed Beast",
       "ID": 27,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_LeashedBeast.png",
+      "Icon": "../assets/SkillIcons/Lily/Skill14_LeashedBeast.png",
       "Levels": {
         "0": {
           "Description": "?",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_LeashedBest.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/Skill14_LeashedBeast.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 62,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 65,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 0
         },
         "3": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 68,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 0
         },        
         "4": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 71,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         },        
         "5": {
-          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ? seconds",
+          "Effect": "Damage: ?%\nSuper Armor Break: ?%\nSG Consumption: ?\nCooldown: ?sec]",
           "RequiredLevel": 74,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 0
         }
       }
     },
-    "BasicAttackMastery": {
+    "Skill17_GehennaGate": {
+      "Name": "Gehenna Gate",
+      "ID": 29,
+      "RequireClass": {
+        "CompareType": "atleast",
+        "ClassIndex": 1
+      },
+      "Icon": "../assets/SkillIcons/Lily/Skill17_GehennaGate.png",
+      "Levels": {
+        "0": {
+          "Description": "Rush the reapers forward, and then quickly cut down and pull the enemies.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "ReqSPkr": 0,
+          "Preview": {
+            "Video": "../assets/SkillPreviews/Lily/Skill17_GehennaGate.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info]\nDamage: [2086%]\nSuper Armor Break: [1849%]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1453%]\nBuff Additional Super Armor Break: [954%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "RequiredLevel": 72,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "2": {
+          "Effect": "[Skill Info]\nDamage: [2294%]\nSuper Armor Break: [2034%]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1453%]\nBuff Additional Super Armor Break: [954%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "RequiredLevel": 76,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        },
+        "3": {
+          "Effect": "[Skill Info]\nDamage: [2570%]\nSuper Armor Break: [2278%]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1453%]\nBuff Additional Super Armor Break: [954%]\nSG Consumption: [30]\nCooldown: [20sec]",
+          "RequiredLevel": 78,
+          "RequiredSP":0,
+          "ReqSPkr": 0
+        }
+      }
+    },
+    "PSkill0_BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": "P0",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill0_BasicAttackMastery.png",
       "Levels": {
@@ -1108,50 +1285,56 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Attack_01.{{auto}}"
           }
         },
         "1": {
-          "Effect": "SG Gain +20%.\nUnlock alternative attack “A”",
+          "Effect": "SG Gain +20%.\n\nEnable to use SoulStrike A",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "SG Gain +70%.\nUnlock additional basic attack",
+          "Effect": "SG Gain +70%.\n\nEnable to use SoulStrike B.",
           "RequiredLevel": 5,
           "RequiredSP": 1,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Attack_02.{{auto}}"
           }
         },
         "3": {
-          "Effect": "SG Gain +120%\nUnlock alternative attack “B”.\nUnlock alternative aerial attack",
+          "Effect": "SG Gain +120%\nEnable to use an addional strike for the Basic Attack.\nEnable to use an additional strike for the Aerial Attack.",
           "RequiredLevel": 10,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Attack_04_02.{{auto}}"
           }
         },
         "4": {
-          "Effect": "SG Gain +200%\nUnlock alternative attack “C”",
+          "Effect": "SG Gain +200%\n\nEnable to use SoulStrike C.",
           "RequiredLevel": 15,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "",
           "RequiredLevel": 20,
           "RequiredSP": 2,
+          "ReqSPkr": 1,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Attack_05.{{auto}}"
           }
         }
       }
     },
-    "SoulStrikeMastery": {
+    "PSkill1_SoulStrikeMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": "P1",
       "Name": "SoulStrike Mastery",
       "Icon": "../assets/SkillIcons/Lily/PSkill_SoulStrikeMastery.png",
       "Levels": {
@@ -1160,6 +1343,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_S_Attack_N_01.{{auto}}"
           }
@@ -1167,24 +1351,27 @@
         "1": {
           "Effect": "[Ground]\nDamage: 164%\nSuper Armor Break: 119%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\n[Air]\nDamage: 239%\nSuper Armor Break: 119%\nCooldown: 10s",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "[Ground]\nDamage: 173%\nSuper Armor Break: 125%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +20%\n[Air]\nDamage: 251%\nSuper Armor Break: 125%\nCooldown: 10s\nSG Gain: +20%",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "[Ground]\nDamage: 193%\nSuper Armor Break: 140%\nDebuff effect: Movement speed -50% in 3s\nCooldown: 10s\nSG Gain: +70%\n[Air]\nDamage: 281%\nSuper Armor Break: 140%\nCooldown: 10s\nSG Gain: +70%",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dodge": {
+    "PSkill2_Dodge": {
       "Passive": true,
       "Name": "Dodge",
-      "ID": 1004,
+      "ID": "P2",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill1_Dodge.png",
       "Levels": {
@@ -1193,6 +1380,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Evade_F.{{auto}}"
           }
@@ -1200,14 +1388,15 @@
         "1": {
           "Effect": "Stamina Consumption: [20]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Tumble": {
+    "PSkill3_Tumble": {
       "Passive": true,
       "Name": "Tumble",
-      "ID": 1003,
+      "ID": "P3",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill2_Tumble.png",
       "Levels": {
@@ -1216,6 +1405,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Roll_F.{{auto}}"
           }
@@ -1223,25 +1413,28 @@
         "1": {
           "Effect": "Stamina Consumption: [25]",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Stamina Consumption: [15]",
           "RequiredLevel": 17,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [15]\nYou are able to Tumble a little faster.",
           "RequiredLevel": 34,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Dash": {
+    "PSkill4_Dash": {
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": "P4",
       "Icon": "../assets/SkillIcons/Common/PSkill3_Dash.png",
       "Levels": {
         "0": {
@@ -1249,6 +1442,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Run_F.{{auto}}"
           }
@@ -1256,19 +1450,21 @@
         "1": {
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
           "Effect": "Enable to dash faster",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "Retaliation": {
+    "PSkill5_Retaliation": {
       "Passive": true,
       "Name": "Retaliation",
-      "ID": 1005,
+      "ID": "P5",
       "DefaultLevel": 1,
       "Icon": "../assets/SkillIcons/Common/PSkill4_Retaliation.png",
       "Levels": {
@@ -1277,6 +1473,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_Rise_Attack.{{auto}}"
           }
@@ -1284,25 +1481,28 @@
         "1": {
           "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "2": {
-          "Effect": "Damage: [100%]\nStamina Consumption: [30]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
+          "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [3sec] upon\ncompletion of Skill.",
           "RequiredLevel": 18,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Damage: [100%]\nStamina Consumption: [20]\nCooldown: [15sec]\nYou will be invincible for [5sec] upon\ncompletion of Skill.",
           "RequiredLevel": 36,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "DashAttack": {
+    "PSkill6_DashAttack": {
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": "P6",
       "Icon": "../assets/SkillIcons/Common/PSkill5_DashAttack.png",
       "Levels": {
         "0": {
@@ -1310,6 +1510,7 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_N_Attack_Dash.{{auto}}"
           }
@@ -1317,14 +1518,15 @@
         "1": {
           "Effect": "Damage: 115%\nSuper Armor Break: 38%",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "SoulEvasion": {
+    "PSkill7_SoulEvasion": {
       "Passive": true,
       "Name": "Soul Evasion",
-      "ID": 1007,
+      "ID": "P7",
       "Icon": "../assets/SkillIcons/Common/PSkill6_SoulEvasion.png",
       "Levels": {
         "0": {
@@ -1332,31 +1534,35 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_S_Evade_F.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Stamina Consumption：[40]\nCooldown：[60sec]",
+          "Effect": "Stamina Consumption: [40]\nCooldown: [60sec]",
           "RequiredLevel": 4,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [25sec]",
           "RequiredLevel": 21,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Consumption: [40]\nCooldown: [20sec]",
           "RequiredLevel": 38,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "SoulDashAttack": {
+    "PSkill8_SouldashAttack": {
       "Passive": true,
       "Name": "SoulDash Attack",
-      "ID": 1010,
+      "ID": "P8",
       "Icon": "../assets/SkillIcons/Common/PSkill7_SoulDashAttack.png",
       "Levels": {
         "0": {
@@ -1364,151 +1570,166 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
             "Video": "../assets/SkillPreviews/Lily/B_S_Attack_N_Dash.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5 seconds",
+          "Effect": "Damage: 206%\nSuper Armor Break: 92%\nCooldown: 5sec]",
           "RequiredLevel": 13,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         }
       }
     },
-    "StaminaMastery": {
+    "PSkill9_StaminaMastery": {
       "Passive": true,
       "Name": "Stamina Mastery",
-      "ID": 1009,
+      "ID": "P9",
       "Icon": "../assets/SkillIcons/Common/PSkill8_StaminaMastery.png",
       "Levels": {
         "0": {
           "Description": "Stamina recovery increases permanently.",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Stamina Recovery: +[10%]",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Stamina Recovery: +[20%]",
           "RequiredLevel": 15,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Stamina Recovery: +[30%]",
           "RequiredLevel": 20,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "4": {
           "Effect": "Stamina Recovery: +[40%]",
           "RequiredLevel": 25,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         },
         "5": {
           "Effect": "Stamina Recovery: +[50%]",
           "RequiredLevel": 30,
-          "RequiredSP": 3
+          "RequiredSP": 3,
+          "ReqSPkr": 1
         }
       }
     },
-    "RampagingMadness": {
+    "CSkill2_InsanityEruption": {
       "Passive": true,
-      "Name": "Rampaging Madness",
-      "ID": 1013,
+      "Name": "Insanity Eruption",
+      "ID": "C2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_SGPassive2.png",
+      "Icon": "../assets/SkillIcons/Lily/CSkill2_InsanityEruption.png",
       "Levels": {
         "0": {
-          "Description": "Every 1 minute while SG is above 70%, decrease SG consumption, increase critical attack power, increase defense penetration for 15 seconds.",
+          "Description": "Activated when using Force Region, Frenzy, Awakening or Desire Awakening",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
-          "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/Contributor_lily_RampagingMadness.{{auto}}"
-          }
+          "ReqSPkr": 0
         },
         "1": {
-          "Effect": "SG consumption decrease ?%.\nCritical attack power increase ???.\nDefense penetration increase ?%.",
+          "Effect": "[Skill Info]\nSG Consumption Reducted: [5%] for [15sec]\nCritical Damage: +[100%]\nArmor Penetration: +[5%]\nSV Recovery: [15]",
           "RequiredLevel": 57,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
-          "Effect": "SG consumption decrease ?%.\nCritical attack power increase ????.\nDefense penetration increase ?%.",
+          "Effect": "[Skill Info]\nSG Consumption Reducted: [10%] for [15sec]\nCritical Damage: +[200%]\nArmor Penetration: +[10%]\nSV Recovery: [16]",
           "RequiredLevel": 58,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
-          "Effect": "SG consumption decrease 15%.\nCritical attack power increase 2000.\nDefense penetration increase 20%.",
+          "Effect": "[Skill Info]\nSG Consumption Reducted: [15%] for [15sec]\nCritical Damage: +[300%]\nArmor Penetration: +[20%]\nSV Recovery: [17]",
           "RequiredLevel": 59,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "IntensifyingMadness": {
+    "CSkill1_Insanity": {
       "Passive": true,
-      "Name": "Intensifying Madness",
-      "ID": 1011,
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_SGPassive.png",
+      "Name": "Insanity",
+      "ID": "C1",
+      "Icon": "../assets/SkillIcons/Lily/CSkill1_Insanity.png",
       "Levels": {
         "0": {
           "Description": "Increase Critical Damage",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Critical Damage Increase by 400",
           "RequiredLevel": 10,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "2": {
           "Effect": "Critical Damage Increase by 800",
           "RequiredLevel": 20,
-          "RequiredSP": 1
+          "RequiredSP": 1,
+          "ReqSPkr": 1
         },
         "3": {
           "Effect": "Critical Damage Increase by 1300",
           "RequiredLevel": 30,
-          "RequiredSP": 2
+          "RequiredSP": 2,
+          "ReqSPkr": 1
         }
       }
     },
-    "MadScythe": {
+    "CSkill0_CP": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1012,
-      "Name": "Mad Scythe",
+      "ID": "C0",
+      "Name": "Scythe of Insanity",
       "Icon": "../assets/SkillIcons/Common/PSkill9_CharPassive.png",
       "Levels": {
         "0": {
           "Description": "Gain SG when hitting an enemy. Passively gain SG in set intervals. Collecting a certain amount of SG will activate Madness Mode",
           "Effect": "",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         },
         "1": {
           "Effect": "Attack Power +5%\nCritical Rate +5%",
           "RequiredLevel": 10,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Asmodeus": {
+    "VSkill2_EXSkill": {
       "Vapor": true,
       "Name": "Asmodeus",
       "DefaultLevel": 1,
-      "ID": 2003,
+      "ID": "V2",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Lily/Icon_Mcythe_Skill_Asmodeus.png",
+      "Icon": "../assets/SkillIcons/Lily/EXSkill_Asmodeus.png",
       "Assignable": false,
       "Levels": {
         "0": {
@@ -1516,74 +1737,80 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_Asmodeus.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/EXSkill_Asmodeus.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Damage：[?%]\nSuper Armor Break：[?%]\n\n?.",
+          "Effect": "Damage: [?%]\nSuper Armor Break: [?%]\n\n?.",
           "RequiredLevel": 57,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Frenzy": {
+    "VSkill0_Frenzy": {
       "Vapor": true,
       "Name": "Frenzy",
       "DefaultLevel": 1,
-      "ID": 2001,
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_BreakErode.png",
+      "ID": "V0",
+      "Icon": "../assets/SkillIcons/Lily/NSKill1_Frenzy.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awakened the body to strengthen your physical\nability.\nConsumed Soul Vapor to use.",
+          "Description": "Awakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_01.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/NSKill1_Frenzy.{{auto}}"
           }
         },
         "1": {
           "Effect": "Consume 1 SoulNova gauge (50 SV)\n\n-Supernova for 30 Seconds\n-All Attacks inflict maximum damage\n-Movement Speed: [+20%]\n-Activates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "Awakening": {
+    "VSkill1_Awakening": {
       "Vapor": true,
       "Name": "Awakening",
       "DefaultLevel": 1,
-      "ID": 2002,
+      "ID": "V1",
       "RequireClass": {
         "CompareType": "atmost",
         "ClassIndex": 1
       },
-      "Icon": "../assets/SkillIcons/Lily/Icon_MCythe_Skill_BreakWakeup.png",
+      "Icon": "../assets/SkillIcons/Lily/NSkill2_Awakening.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Awaken and Temporarily gain Boosted Stats.",
+          "Description": "Awakened the body to strengthen your physical ability.\nConsumed Soul Vapor to use.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_02.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/NSkill2_Awakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60 seconds.\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Supernova for 60sec].\n-All Attacks inflict maximum damage\n-Damage reduction: [+25%]\n-Movement Speed: [+20%]\n-Activates Super Armor",
           "RequiredLevel": 0,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     },
-    "DesireAwakening": {
+    "VSkill3_DesireAwakening": {
       "Vapor": true,
       "Name": "Desire Awakening",
       "DefaultLevel": 1,
-      "ID": 2004,
+      "ID": "V3",
       "RequireClass": {
         "CompareType": "atleast",
         "ClassIndex": 2
@@ -1596,14 +1823,16 @@
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
+          "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Lily/B_Skill_SoulViper_03.{{auto}}"
+            "Video": "../assets/SkillPreviews/Lily/NSkill3_DesireAwakening.{{auto}}"
           }
         },
         "1": {
-          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60 seconds.\n-Attack Damage：[+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60 seconds for Desire skills:\n-Death Guillotine (lvl 42 Skill)\n-Leashed Beast (lvl 62 Skill)\n-Asmodeus (EX Skill)",
+          "Effect": "Consume 2 SoulNova gauges (100 SV)\n\n-Desire for 60sec].\n-Attack Damage: [+20%]\n-Attack Speed: [+20%]\n-All Attacks inflict maximum damage\n-Movement Speed: [+30%]\n-Activates Super Armor\n-SG Consumption [-20%]\n-Activates Desire skills:\n\nIf EX Skill is used, Desire ends.\n-Attack Damage [+30%] for 60sec] for Desire skills:\n-Death Guillotine (lvl 42 Skill)\n-Leashed Beast (lvl 62 Skill)\n-Asmodeus (EX Skill)",
           "RequiredLevel": 65,
-          "RequiredSP": 0
+          "RequiredSP": 0,
+          "ReqSPkr": 0
         }
       }
     }

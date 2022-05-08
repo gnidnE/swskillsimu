@@ -227,8 +227,23 @@ jQuery(document).ready(function ($) {
             e.stopPropagation();
     });
 
+    // Server Selector
+
+    const params = (new URL(document.location)).searchParams;
+    let svrValue = parseInt(params.get('svr') || "0");
+    if (svrValue < 0 || svrValue > 2) {
+        svrValue = 0;
+    }
+    document.getElementById("selectServerlist").selectedIndex = svrValue;
+
     // Setup SkillTree's core
+
     const ____current_SkillCore = new SkillTreeCore();
+
+    $('#selectServerlist').change(function() {
+        ____current_SkillCore.SetLevel(____current_SkillCore.GetCurrentLevel());
+      })
+
 
     // Setting init
     window.SkillTreeSetting = {};
@@ -679,6 +694,7 @@ jQuery(document).ready(function ($) {
         clevel = cached_querstring.get("lv") || window.appdata.maxCharacterLevel,
         param_selectedclass = cached_querstring.get("c") || ____current_SkillCore.GetAvailableClassIndex();
 
+const func_callReadTree = function() {
     ____current_SkillCore.ReadTree(function (data) {
             if (isNaN(clevel)) {
                 clevel = ____current_SkillCore.maxCharacterLevel;
@@ -698,6 +714,12 @@ jQuery(document).ready(function ($) {
                 param_selectedclass = 0;
             }
 
+            const old_level_selecting = document.getElementById("selectLevelBox");
+            if (old_level_selecting) {
+            $(old_level_selecting).off();
+            old_level_selecting.parentNode.removeChild(old_level_selecting);
+            }
+
             let level_selecting = $("<select>").attr("id", "selectLevelBox").change(function () {
                 var selectedlevel = $(this).val();
                 if (____current_SkillCore.SetLevel(selectedlevel)) {
@@ -710,6 +732,13 @@ jQuery(document).ready(function ($) {
                 level_selecting.append($("<option>").val(i).text(i));
             $("#levelBoxtd").append(level_selecting);
             level_selecting.val(clevel);
+
+
+            const old_selectClassBox= document.getElementById("selectClassBox");
+            if (old_selectClassBox) {
+             $(old_selectClassBox).off();
+             old_selectClassBox.parentNode.removeChild(old_selectClassBox);
+            }
 
             let class_selecting = $("<select>").attr("id", "selectClassBox").change(function () {
                 var selectedclass = $(this).val();
@@ -787,4 +816,12 @@ jQuery(document).ready(function ($) {
                     $("#slotassignment").click();
             }
         });
+    }
+
+    $('#selectServerlist').change(function() {
+        ____current_SkillCore.UnlearnAllSkills();
+        func_callReadTree();
+       });
+       func_callReadTree();
 });
+
