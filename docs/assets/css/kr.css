@@ -397,7 +397,7 @@ div.extension2infopanel img.skillExIcon {
 button.skillexup {
     position: absolute;
     height: 12px;
-    width: 6px;
+    width: 12px;
     top: 13px;
     margin: 0;
     border-radius: 100%;
@@ -413,7 +413,7 @@ button.skillexup:focus {
 button.skillexdown {
     position: absolute;
     height: 12px;
-    width: 6px;
+    width: 12px;
     top: 30px;
     margin: 0;
     border-radius: 100%;
