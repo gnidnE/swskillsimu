@@ -1,3 +1,6 @@
+10.May.2022    - Added & changed individual art and description for each Characters link preview (if you post the link somewhere you will see it)
+
+
 8.May.2022     - Fixed the Character selction (looks better on phone now)
                - Added overall Mobile compatibility
                - Added Bootstrap4 toggle switch to the Dependencies (Might be useful later)
