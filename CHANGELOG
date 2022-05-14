@@ -1,3 +1,7 @@
+14.May.2022    - Fixed Ephnels AirBurst left Extension preview on .webm
+               - Fixed Ephnels Sonic Boom Extension, Spear Dance Extension & Mambas Coil left Extionsion info to match ingame numbers.
+               
+
 10.May.2022    - Added & changed individual art, description & color for each Characters link preview (if you post the link somewhere you will see it)
 
 
@@ -13,7 +17,7 @@
                - Changed fadein/out animation speed to be a bit faster
                - Re-encoded all Skillpreviews to the same standards (.mp4 & .webm)
                - Fixed Stella's Skillpreviews not being shown in H.264 (.mp4)
-               - Fixed Lily's Death Sythe Extention Skillpreviews not being shown.
+               - Fixed Lily's Death Sythe Extension Skillpreviews not being shown.
                - Added/Updated Skill descriptions and missing Skill stats to Ephnel, Chii, Stella, Haru and Jin (Erwin, Iris & Lily will follow soon)
                - Renamed ALL Skillicons & previews for better organization
                - Added Server selection

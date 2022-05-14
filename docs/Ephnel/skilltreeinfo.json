@@ -561,13 +561,13 @@
           "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[SoulPlus Info: Consecutive Kick]\nDamage: [1210%]\nSuper Armor Break: [886%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [797%]\nSuper Armor Break: [558%]\n\n[SoulPlus Info: Spear Blow]\nDamage: [400%]\nSuper Armor Break: [295%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [160%] / [480%]\nSuper Armor Break: [118%] / [354%]",
+          "Effect": "[SoulPlus Info: Consecutive Kick]\nDamage: [1210%]\nSuper Armor Break: [886%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [384%]\nSuper Armor Break: [284%]\n\n[SoulPlus Info: Spear Blow]\nDamage: [400%]\nSuper Armor Break: [295%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [160%] / [480%]\nSuper Armor Break: [118%] / [354%]",
           "RequiredLevel": 29,
           "RequiredSP": 1,
           "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[SoulPlus Info: Consecutive Kick]\nDamage: [1514%]\nSuper Armor Break: [1118%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [1005%]\nSuper Armor Break: [742%]\n\n[SoulPlus Info: Spear Blow]\nDamage: [504%]\nSuper Armor Break: [372%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [201%] / [605%]\nSuper Armor Break: [149%] / [447%]",
+          "Effect": "[SoulPlus Info: Consecutive Kick]\nDamage: [1514%]\nSuper Armor Break: [1118%]\n\n[SoulPlus Info: Additional Attack]\nDamage: [485%]\nSuper Armor Break: [358%]\n\n[SoulPlus Info: Spear Blow]\nDamage: [504%]\nSuper Armor Break: [372%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [201%] / [605%]\nSuper Armor Break: [149%] / [447%]",
           "RequiredLevel": 34,
           "RequiredSP": 2,
           "ReqSPkr": 0
@@ -911,19 +911,19 @@
           }
         },
         "1": {
-          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [145%]\nSuper Armor Break: [197%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [2317%]\nSuper Armor Break: [3146%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [579%]\nSuper Armor Break: [786%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [145%] / [434%]\nSuper Armor Break: [197%] / [590%]",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [145%]\nSuper Armor Break: [197%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [1448%]\nSuper Armor Break: [1966%]\n\n[SoulPlus Info: Paralyzing Attack]\nDamage per Hit: [101%]\nSuper Armor Break per Hit: [138%]\nDebuff: Paralysis [2sec]\n[SoulPlus Info: Additional Explosion]\nDamage: [145%] / [434%]\nSuper Armor Break: [197%] / [590%]",
           "RequiredLevel": 44,
           "RequiredSP": 1,
           "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [167%]\nSuper Armor Break: [226%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [2664%]\nSuper Armor Break: [3618%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [666%]\nSuper Armor Break: [904%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [167%] / [500%]\nSuper Armor Break: [226%] / [678%]",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [167%]\nSuper Armor Break: [226%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [1665%]\nSuper Armor Break: [2261%]\n\n[SoulPlus Info: Paralyzing Attack]\nDamage per Hit: [117%]\nSuper Armor Break per Hit: [158%]\nDebuff: Paralysis [2sec]\n[SoulPlus Info: Additional Explosion]\nDamage: [167%] / [500%]\nSuper Armor Break: [226%] / [678%]",
           "RequiredLevel": 49,
           "RequiredSP": 1,
           "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [210%]\nSuper Armor Break: [285%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [3362%]\nSuper Armor Break: [4562%]\n\n[SoulPlus Info: Additional Hit]\nDamage: [840%]\nSuper Armor Break: [1140%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [210%] / [630%]\nSuper Armor Break: [285%] / [855%]",
+          "Effect": "[SoulPlus Info: Upper Slash after Shockwave]\nDamage: [210%]\nSuper Armor Break: [285%]\n\n[SoulPlus Info: Soul Spear]\nDamage: [2101%]\nSuper Armor Break: [2851%]\n\n[SoulPlus Info: Paralyzing Attack]\nDamage per Hit: [147%]\nSuper Armor Break per Hit: [200%]\nDebuff: Paralysis [2sec]\n[SoulPlus Info: Additional Explosion]\nDamage: [210%] / [630%]\nSuper Armor Break: [285%] / [855%]",
           "RequiredLevel": 54,
           "RequiredSP": 2,
           "ReqSPkr": 0
@@ -1168,7 +1168,7 @@
           "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[SoulPlus Info: Rush]\nTotal Damage: [707%]\nTotal Super Armor Break: [1106%]\n\n[SoulPlus Info: Backflip]\nTotal Damage: [177%]\nTotal Super Armor Break: [277%]\n\n[SoulPlus Info: Ray Javeline]\nTotal Damage: [212%]\nTotal Super Armor Break: [331%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [71%] / [212%]\nSuper Armor Break: [111%] / [332%]",
+          "Effect": "[SoulPlus Info: Rush]\nTotal Damage: [707%]\nTotal Super Armor Break: [1106%]\n\n[SoulPlus Info: Backflip]\nTotal Damage: [177%]\nTotal Super Armor Break: [277%]\n\n[SoulPlus Info: Ray Javeline]\nTotal Damage: [212%]\nTotal Super Armor Break: [332%]\n\n[SoulPlus Info: Additional Explosion]\nDamage: [71%] / [212%]\nSuper Armor Break: [111%] / [332%]",
           "RequiredLevel": 60,
           "RequiredSP": 2,
           "ReqSPkr": 0
