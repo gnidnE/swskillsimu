@@ -1054,7 +1054,9 @@
         "3": {
           "Effect": "[SoulPlus Info: Self]\nAttack Speed [+5%] (Max. 5 Stacks)\n\n[SoulPlus Info: Party]\nLeft-Click: Recovers [3%] HP\nRight-Click: Recovers [6%] SG",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 4,
+          "ReqSPkr": 0,
+          "ReqSPkr": 0
         }
       }
     },

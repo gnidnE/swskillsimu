@@ -1052,6 +1052,7 @@
         "Effect": "[Attribute Information: Continuous Strike]\nDamage per Hit [569%]\nSuper Armor Break per Hit[605%]\n[Attribute Information: Finishing Blow]\nTotal Damage: [2653%]\nTotal Super Armor Break: [2822%]",
         "RequiredLevel": 72,
         "RequiredSP": 4,
+          "ReqSPkr": 0,
         "ReqSPkr": 0
       }
     }

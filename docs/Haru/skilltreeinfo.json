@@ -1037,7 +1037,8 @@
         "3": {
           "Effect": "[SoulPlus Info: Sword Flurry]\nDamage per Hit: [398%]\nSuper Armor Break per Hit: [425%]\n[SoulPlus Info: Destructive Strike]\nDamage: [1592%]\nSuper Armor Break: [1699%]",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 4,
+          "ReqSPkr": 0
         }
       }
     },

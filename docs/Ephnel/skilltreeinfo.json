@@ -1131,7 +1131,8 @@
         "3": {
           "Effect": "[SoulPlus Info: Lightning]\nDamage per Hit: [351%]\nSuper Armor Break per Hit: [324%]\n\n[Buff Info: Personal]\nBuff Effect: [Bullet]\nBuff Effect: [Limit Over]",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 4,
+          "ReqSPkr": 0
         }
       }
     },

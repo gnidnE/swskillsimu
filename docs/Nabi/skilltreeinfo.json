@@ -1069,7 +1069,8 @@
         "3": {
           "Effect": "[SoulPlus Info: SoulBullet]\nDamage: [5286%]\nSuper Armor Break: [6343%]\n\n[SoulPlus Info: Aftermath]\nDamage: [1322%]\nSuper Armor Break: [1586%]",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 4,
+          "ReqSPkr": 0
         }
       }
     },

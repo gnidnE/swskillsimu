@@ -1133,7 +1133,8 @@
         "3": {
           "Effect": "[SoulPlus Info: Frontal Shinken]\nTotal Damage: [1716%]\nTotal Super Armor Break: [1260]\n\n[SoulPlus Info: Soul Junk Explosion]\nTotal Damage: [4637%]\nTotal Super Armor Break: [3405%]\n[SoulPlus Info: Mark Explosion]\nDamage per mark: [696%]\nSuper Armor Break per mark: [511%]",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 4,
+          "ReqSPkr": 0
         }
       }
     },

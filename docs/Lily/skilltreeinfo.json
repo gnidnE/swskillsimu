@@ -1000,7 +1000,8 @@
       "3": {
         "Effect": "[Attribute Information: Direct Hit]\nDamage [4402%]\nSuper Armor Break [2892%]\n[Attribute Information: AOE Hit]\nDamage [1761%]\nSuper Armor Break [1157%]\n[Attribute Information]\nPenetration [+100%]",
         "RequiredLevel": 72,
-        "RequiredSP": 4
+        "RequiredSP": 4,
+          "ReqSPkr": 0
       }
     }
     },

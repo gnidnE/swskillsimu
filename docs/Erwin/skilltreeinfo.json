@@ -1018,7 +1018,8 @@
         "3": {
           "Effect": "[Attribute Information: Soul Launcher]\nDamage per Hit [268%]\nSuper Armor Break per Hit[238%]\n[Attribute Information: Focusing]\nTotal Damage: [5360%]\nTotal Super Armor Break: [4760%]",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 4,
+          "ReqSPkr": 0
         }
       }
     },

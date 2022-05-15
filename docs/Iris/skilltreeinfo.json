@@ -1131,7 +1131,8 @@
         "3": {
           "Effect": "[Attribute Information: Tracking Attack]\nDamage [1633%]\nSuper Armor Break [1118%]\n[Attribute Information: Final Attack]\nDamage [5512%]\nSuper Armor Break [3775%]",
           "RequiredLevel": 72,
-          "RequiredSP": 4
+          "RequiredSP": 4,
+          "ReqSPkr": 0
         }
       }
     },
