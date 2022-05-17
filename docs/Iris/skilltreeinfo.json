@@ -580,7 +580,7 @@
       "Visible": false,
       "Name": "Power Shot",
       "ID": 14,
-      "Icon": "../assets/SkillIcons/Iris/Skill06_Pulsefire_B.png",
+      "Icon": "../assets/SkillIcons/Iris/Skill06_PulseFire_B.png",
       "Levels": {
         "0": {
           "Description": "Fire long-range bullets",
@@ -589,7 +589,7 @@
           "RequiredSP": 0,
           "ReqSPkr": 0,
           "Preview": {
-            "Video": "../assets/SkillPreviews/Iris/Skill06_Pulsefire_B.{{auto}}"
+            "Video": "../assets/SkillPreviews/Iris/Skill06_PulseFire_B.{{auto}}"
           }
         },
         "1": {

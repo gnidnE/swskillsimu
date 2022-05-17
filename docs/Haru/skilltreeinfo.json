@@ -630,31 +630,31 @@
           }
         },
         "1": {
-          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[1%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[5%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Team]\nBuff: Damage +[1%]\nBuff duration: [20sec]\n\n[Buff Info: Self]\nBuff: Damage +[5%]\nBuff duration: [20sec]\n\nBuff-Area Duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 17,
           "RequiredSP": 1,
           "ReqSPkr": 0
         },
         "2": {
-          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[2%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[6%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Team]\nBuff: Damage +[2%]\nBuff duration: [20sec]\n\n[Buff Info: Self]\nBuff: Damage +[6%]\nBuff duration: [20sec]\n\nBuff-Area Duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 22,
           "RequiredSP": 1,
           "ReqSPkr": 0
         },
         "3": {
-          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[3%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[7%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Team]\nBuff: Damage +[3%]\nBuff duration: [20sec]\n\n[Buff Info: Self]\nBuff: Damage +[7%]\nBuff duration: [20sec]\n\nBuff-Area Duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 27,
           "RequiredSP": 2,
           "ReqSPkr": 0
         },
         "4": {
-          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[4%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[8%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Team]\nBuff: Damage +[4%]\nBuff duration: [20sec]\n\n[Buff Info: Self]\nBuff: Damage +[8%]\nBuff duration: [20sec]\n\nBuff-Area Duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 32,
           "RequiredSP": 2,
           "ReqSPkr": 0
         },
         "5": {
-          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Buff]\nBuff: Damage +[5%]\nBuff duration: [20sec]\n\n[Buff Info: Personal]\nBuff: Damage +[10%]\nBuff duration: [20sec]\n\nBuff duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
+          "Effect": "[Skill Info]\nDamage: [100%]\nSuper Armor Break: [100%]\n\n[Buff Info: Team]\nBuff: Damage +[5%]\nBuff duration: [20sec]\n\n[Buff Info: Self]\nBuff: Damage +[10%]\nBuff duration: [20sec]\n\nBuff-Area Duration: [10sec]\nSG Consumption: [50]\nCooldown: [45sec]",
           "RequiredLevel": 37,
           "RequiredSP": 3,
           "ReqSPkr": 0
