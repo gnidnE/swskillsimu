@@ -1279,7 +1279,7 @@
           }
         },
         "1": {
-          "Effect": "[Skill Info: CS Attack]\nDamage per Hit: [?%]\nSuper Armor Break per Hit: [?%]\n\n[Skill Info: Finishing Attack]\nDamage per Hit: [?%]\nSuper Armor Break per Hit: [?%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1206%]\nBuff Additional Super Armor Break: [1071%]\nSG Consumption: [3]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: CS Attack]\nDamage per Hit: [2775%]\nSuper Armor Break per Hit: [2878%]\n\n[Skill Info: Finishing Attack]\nDamage per Hit: [1850%]\nSuper Armor Break per Hit: [1918%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1206%]\nBuff Additional Super Armor Break: [1071%]\nSG Consumption: [3]\nCooldown: [40sec]",
           "RequiredLevel": 72,
           "RequiredSP":0,
           "ReqSPkr": 0
