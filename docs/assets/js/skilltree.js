@@ -199,55 +199,7 @@ SkillTreeCore.prototype.inner_gettotalspex = function (a) {
                 return 2;
             }
         }
-        else if(Server.selectedIndex == 1) {
-            switch (a) {
-            case 0:
-            case 1:
-            case 2:
-            case 3:
-                return 0;
-            case 4:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 61:
-            case 62:
-            case 63:
-            case 64:
-            case 66:
-            case 67:
-            case 68:
-            case 69:
-            case 71:
-            case 72:
-            case 73:
-            case 74:
-            case 75:
-            case 76:
-                return 1;
-            case 5:
-            case 65:
-            case 70:
-                return 3;
-            case 10:
-            case 15:
-            case 25:
-            case 30:
-            case 35:
-            case 45:
-            case 50:
-            case 55:
-            case 60:
-                return 5;
-            case 20:
-            case 40:
-                return 10;
-            default:
-                return 2;
-            }
-        }
-        else if(Server.selectedIndex == 2) {
+        else if(Server.selectedIndex == 1 || Server.selectedIndex == 2) {
             switch (a) {
                 case 1: 
                     return 1;
@@ -291,14 +243,6 @@ SkillTreeCore.prototype.GenerateLink = function (showSkillAssignment) {
     var selectedclassindex = this.GetSelectedClassIndex();
     if (selectedclassindex !== this.GetAvailableClassIndex())
         arrayString.append("c", selectedclassindex);
-/*
-    let selectedserver = document.getElementById("glbSwitch").checked;
-    if (selectedserver) {
-        arrayString.append("glb", "1")
-    } else {
-        arrayString.append("glb", "0")
-    }
-    */
 
     let selectedserver = document.getElementById("selectServerlist").selectedIndex;
     if (selectedserver <= 0 || selectedserver > 2) {
@@ -472,13 +416,13 @@ SkillTreeCore.prototype.ReadTree = function (loadingCallback, loadedCallback) {
             myself.SetJSON(json);
             if (json.MaxLevel && !isNaN(json.MaxLevel)) {
                 Object.defineProperty(myself, "maxCharacterLevel", {
-                    value: (Server.selectedIndex == 2 ? 79: 76),
+                    value: (Server.selectedIndex == 1 || Server.selectedIndex == 2 ? 79 : 76),
                     writable: false,
                     configurable: false
                 });
             } else {
                 Object.defineProperty(myself, "maxCharacterLevel", {
-                    value: (Server.selectedIndex == 2 ? 79: 76),
+                    value: (Server.selectedIndex == 1 || Server.selectedIndex == 2 ? 79 : 76),
                     writable: false,
                     configurable: true
                 });

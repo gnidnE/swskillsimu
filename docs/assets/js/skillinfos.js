@@ -77,7 +77,7 @@ SkillInfo.prototype.readInfos = function (ob) {
         }
 
         let Server = document.getElementById("selectServerlist");
-        this.Levels.push(new LevelInfo(tmp.RequiredLevel, (Server.selectedIndex == 2 ? tmp.ReqSPkr: tmp.RequiredSP), tmp.Effect, lastDescription, lastpreviewinfo));
+        this.Levels.push(new LevelInfo(tmp.RequiredLevel, (Server.selectedIndex == 1 || Server.selectedIndex == 2 ? tmp.ReqSPkr : tmp.RequiredSP), tmp.Effect, lastDescription, lastpreviewinfo));
 
         
     };
