@@ -11,6 +11,8 @@ The tree is developed with information source mainly from the Steam/Japanese and
   - ~~Changing the looks~~ ✔
   - ~~Adding mobile compatibility~~ ✔
   - ~~Adding Server Selection~~ ✔
+  - Adding language selection
+  - Adding Season 2 Mastery table
   - Cleaning up & organizing
   - **Secret Idea**
 
