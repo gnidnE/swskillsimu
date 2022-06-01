@@ -1,1 +1,5 @@
 docs/* linguist-documentation=false
+docs/assets/* linguist-documentation=false
+docs/assets/css/* linguist-documentation=false
+docs/assets/js/* linguist-documentation=false
+docs/assets/sakura/* linguist-documentation=false
