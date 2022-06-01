@@ -1,9 +1,8 @@
-
 # Common settings that generally should always be used with your language specific settings
 
 # Auto detect text files and perform LF normalization
 *          text=auto
-
+* linguist-detectable=true
 #
 # The above will handle all files NOT found below
 #
@@ -58,7 +57,7 @@
 *.ps1      text eol=crlf
 
 # Serialisation
-*.json     text linguist-language=JavaScript
+*.json     text
 *.toml     text
 *.xml      text
 *.yaml     text
@@ -74,6 +73,14 @@
 # Text files where line endings should be preserved
 *.patch    -text
 
+#
+# Exclude files from exporting
+#
+
+.gitattributes export-ignore
+.gitignore     export-ignore
+.gitkeep       export-ignore
+
 # Java sources
 *.java          text diff=java
 *.kt            text diff=kotlin
@@ -83,13 +90,13 @@
 *.gradle.kts    text diff=kotlin
 
 # These files are text and should be normalized (Convert crlf => lf)
-*.css           text diff=css linguist-language=CSS
+*.css           text diff=css
 *.scss          text diff=css
 *.sass          text
 *.df            text
-*.htm           text diff=html 
-*.html          text diff=html linguist-language=HTML
-*.js            text linguist-language=JavaScript
+*.htm           text diff=html
+*.html          text diff=html
+*.js            text
 *.jsp           text
 *.jspf          text
 *.jspx          text
@@ -97,7 +104,7 @@
 *.tld           text
 *.tag           text
 *.tagx          text
-*.xml           text linguist-language=XML
+*.xml           text
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
@@ -108,11 +115,3 @@
 *.so            binary
 *.war           binary
 *.jks           binary
-
-#
-# Exclude files from exporting
-#
-
-.gitattributes export-ignore
-.gitignore     export-ignore
-.gitkeep       export-ignore
