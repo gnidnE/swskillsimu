@@ -4,7 +4,7 @@ The tree is developed with information source mainly from the Steam/Japanese and
 
 [Use the simulator released on Github Pages!](https://eden333.github.io/swskillsimu/).
 
-[CHANGELOG](https://github.com/Eden333/swskillsimu/blob/master/CHANGELOG)
+If you'd like to know what's new, go click here -> [CHANGELOG](https://github.com/Eden333/swskillsimu/blob/master/CHANGELOG.md)
 
 # Priorities/Milestones
 - Updating to the latest patch and keeping everything up to date.
@@ -23,7 +23,7 @@ Content is available under [Commons Attribution-NonCommercial-ShareAlike](https:
 Official Art, Game Content and Screenshots are trademarks and copyrights of [Lion Games](http://www.liongames.co.kr/Front/) and the game's publishers.
 
 # Credits:
-Special thanks to [Leayal](https://github.com/Leayal) and the people who helped on this simulator. [See details](https://eden333.github.io/swskillsimu/).
+Special thanks to [Leayal](https://github.com/Leayal) and the people who helped on this simulator. [See details](https://Eden333.github.io/swskillsimu/).
 
 # Dependencies:
 - [JQuery v3.6.0](https://jquery.com)
