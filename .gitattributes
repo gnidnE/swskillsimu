@@ -1,4 +1,13 @@
 docs/* linguist-documentation=false
+docs/Haru/* linguist-documentation=false
+docs/Erwin/* linguist-documentation=false
+docs/Lily/* linguist-documentation=false
+docs/Stella/* linguist-documentation=false
+docs/Jin/* linguist-documentation=false
+docs/Iris/* linguist-documentation=false
+docs/Chii/* linguist-documentation=false
+docs/Ephnel/* linguist-documentation=false
+docs/Nabi/* linguist-documentation=false
 docs/assets/* linguist-documentation=false
 docs/assets/css/* linguist-documentation=false
 docs/assets/js/* linguist-documentation=false
