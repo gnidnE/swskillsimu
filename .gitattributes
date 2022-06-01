@@ -58,7 +58,7 @@
 *.ps1      text eol=crlf
 
 # Serialisation
-*.json     text
+*.json     text linguist-language=JavaScript
 *.toml     text
 *.xml      text
 *.yaml     text
@@ -83,13 +83,13 @@
 *.gradle.kts    text diff=kotlin
 
 # These files are text and should be normalized (Convert crlf => lf)
-*.css           text diff=css
+*.css           text diff=css linguist-language=CSS
 *.scss          text diff=css
 *.sass          text
 *.df            text
-*.htm           text diff=html
-*.html          text diff=html
-*.js            text
+*.htm           text diff=html 
+*.html          text diff=html linguist-language=HTML
+*.js            text linguist-language=JavaScript
 *.jsp           text
 *.jspf          text
 *.jspx          text
@@ -97,7 +97,7 @@
 *.tld           text
 *.tag           text
 *.tagx          text
-*.xml           text
+*.xml           text linguist-language=XML
 
 # These files are binary and should be left untouched
 # (binary is a macro for -text -diff)
