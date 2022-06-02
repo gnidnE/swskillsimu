@@ -1,6 +1,7 @@
 # 02.June.2022
 - Added [Jin's](https://eden333.github.io/swskillsimu/Jin) Lvl 72 Skill Damage numbers for level 1
 - Changed the [CHANGELOG](https://github.com/Eden333/swskillsimu/blob/master/CHANGELOG.md) to Look a bit nicer & added Hyperlinks
+- Fixed a typo on [Haru's](https://eden333.github.io/swskillsimu/Haru) Lvl 42 Ext. Description
 
 # 27.May.2022    
 - Changed the Japanese server to Season 2 behavior.

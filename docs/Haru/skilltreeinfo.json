@@ -1013,7 +1013,7 @@
       "Icon": "../assets/SkillIcons/Haru/Skill13_BladeShower_A.png",
       "Levels": {
         "0": {
-          "Description": "As the attacl speed becomes faster, the number of hits increases and the Destructive Strike's number of hits and range increases as well.\nYou can use the Destructive Strike immeduately by clicking the right mouse button.",
+          "Description": "As the attack speed becomes faster, the number of hits increases and the Destructive Strike's number of hits and range increases as well.\nYou can use the Destructive Strike immeduately by clicking the right mouse button.",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
