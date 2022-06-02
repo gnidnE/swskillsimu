@@ -1306,7 +1306,7 @@
           }
         },
         "1": {
-          "Effect": "[Skill Info: Strike]\nDamage: [?%]\nSuper Armor Break: [?%]\n\n[Skill Info: Ground Strike]\nDamage per Hit: [?%]\nSuper Armor Break per Hit: [?%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1137%]\nBuff Additional Super Armor Break: [1209%]\nSG Consumption: [35]\nCooldown: [40sec]",
+          "Effect": "[Skill Info: Strike]\nDamage: [2962%]\nSuper Armor Break: [2613%]\n\n[Skill Info: Ground Strike]\nDamage per Hit: [87%]\nSuper Armor Break per Hit: [77%]\n\n[Skill Info: Basic]\nBuff Effect: Level 42 Skill Buffed once\nBuff Additional Damage: [1137%]\nBuff Additional Super Armor Break: [1209%]\nSG Consumption: [35]\nCooldown: [40sec]",
           "RequiredLevel": 72,
           "RequiredSP":0,
           "ReqSPkr": 0
