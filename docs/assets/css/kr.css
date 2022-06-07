@@ -891,3 +891,10 @@ ul#skillbuttons{
     0% {opacity:0;}
     100% {opacity:0.4;}
 }
+
+.ArrowUp {
+    letter-spacing:55px;
+    padding-left: 8px;
+    font-size: x-large;
+    color: #5f5f5f;
+}

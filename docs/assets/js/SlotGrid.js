@@ -219,26 +219,19 @@ SlotGrid.prototype.GetRender = function () {
     return $("<div>").append(
         $("<ul>").addClass("liststyle-none").append([
             $("<li>").append(
-                $("<div>").addClass("row").append(this.printfloor(floor[0]))
-            ),
-            $("<li>").append($("<i>").addClass("fas fa-arrow-up")),
-            $("<li>").append(
                 $("<span>").text(window.SkillTreeData.Localization.SkillSlot.SkillChainEffectHeader_ThirdChain + " "),
-                $("<select>").attr("id", "select3rdchaineffect").append([
+                $("<select>").attr("id","select3rdchaineffect").append([
                     this.getoption("3_1", window.SkillTreeData.Localization.SkillSlot.SkillChainEffect_DamageUp.fformat(window.SkillTreeData.Localization.SkillSlot.SkillChainEffect3rd_DamageValue)),
                     this.getoption("3_2", window.SkillTreeData.Localization.SkillSlot.SkillChainEffect_CooldownReduce.fformat(window.SkillTreeData.Localization.SkillSlot.SkillChainEffect3rd_CooldownValue)),
                     this.getoption("3_3", window.SkillTreeData.Localization.SkillSlot.SkillChainEffect_SGCostReduce.fformat(window.SkillTreeData.Localization.SkillSlot.SkillChainEffect3rd_SGCostValue))
                 ]).val(myself.effect3rd).change(function () {
                     myself.effect3rd = $(this).val();
-                })
-            ),
-            //<i class="fas fa-arrow-up"></i>
-            $("<li>").append($("<i>").addClass("fas fa-arrow-up")),
+                }),
+            ).addClass("custom-select3"),
             $("<li>").append(
-                $("<div>").addClass("row").append(this.printfloor(floor[1]))
-                // $("<ul>").addClass(["liststyle-none", "list-inline"]).append(this.printfloor(floor[1]))
+                $("<br><div>").addClass("row").append(this.printfloor(floor[0]))
             ),
-            $("<li>").append($("<i>").addClass("fas fa-arrow-up")),
+            $("<li>").append().text("🡅🡅🡅🡅🡅🡅").addClass("ArrowUp"),
             $("<li>").append(
                 $("<span>").text(window.SkillTreeData.Localization.SkillSlot.SkillChainEffectHeader_SecondChain + " "),
                 $("<select>").attr("id", "select2ndchaineffect").append([
@@ -247,13 +240,20 @@ SlotGrid.prototype.GetRender = function () {
                     this.getoption("2_3", window.SkillTreeData.Localization.SkillSlot.SkillChainEffect_SGCostReduce.fformat(window.SkillTreeData.Localization.SkillSlot.SkillChainEffect2nd_SGCostValue))
                 ]).val(myself.effect2nd).change(function () {
                     myself.effect2nd = $(this).val();
-                })
+                }),
+            ).addClass("custom-select3"),
+            //<i class="fas fa-arrow-up"></i>
+            //$("<li>").append($("<i>").addClass("fas fa-arrow-up")),
+            $("<li>").append(
+                $("<br><div>").addClass("row").append(this.printfloor(floor[1]))
+                // $("<ul>").addClass(["liststyle-none", "list-inline"]).append(this.printfloor(floor[1]))
             ),
-            $("<li>").append($("<i>").addClass("fas fa-arrow-up")),
+            $("<li>").append().text("🡅🡅🡅🡅🡅🡅").addClass("ArrowUp"),,
             $("<li>").append(
                 $("<div>").addClass("row").append(this.printfloor(floor[2]))
                 // $("<ul>").addClass(["liststyle-none", "list-inline"]).append(this.printfloor(floor[2]))
             ),
+            
             $("<li>").append($("<span>").text(window.SkillTreeData.Localization.SkillSlot.SmallGuideText_HowToAssignASkill)),
         ])
     );

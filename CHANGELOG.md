@@ -1,3 +1,6 @@
+# 07.June.2022
+- Changed the look of the Skill Slot Assignment to match ingame's look (I never realized it like that)
+
 # 02.June.2022
 - Added [Jin's](https://eden333.github.io/swskillsimu/Jin) Lvl 72 Skill Damage numbers for level 1
 - Changed the [CHANGELOG](https://github.com/Eden333/swskillsimu/blob/master/CHANGELOG.md) to Look a bit nicer & added Hyperlinks

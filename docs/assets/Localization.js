@@ -75,8 +75,8 @@
             SmallGuideText_HowToAssignASkill: "(Click the boxes to assign skill)",
             SmallGuideText_HowToSelectASkill: "Click the box to select skill",
 
-            SkillChainEffectHeader_SecondChain: "Step-2 Bonus:",
-            SkillChainEffectHeader_ThirdChain: "Step-3 Bonus:",
+            SkillChainEffectHeader_SecondChain: "2nd Stage Bonus:",
+            SkillChainEffectHeader_ThirdChain: "3rd Stage Bonus:",
 
             // {0}: the value of the effect. See effect value below
             SkillChainEffect_DamageUp: "Damage +{0}",
