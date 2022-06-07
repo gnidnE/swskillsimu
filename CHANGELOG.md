@@ -1,5 +1,6 @@
 # 07.June.2022
 - Changed the look of the Skill Slot Assignment to match ingame's look (I never realized it like that)
+- Updated the Character Selection Banners for [Stella](https://eden333.github.io/swskillsimu/Stella), [Jin](https://eden333.github.io/swskillsimu/Jin) & [Iris](https://eden333.github.io/swskillsimu/Iris) (Thanks to Myleia ❤)
 
 # 02.June.2022
 - Added [Jin's](https://eden333.github.io/swskillsimu/Jin) Lvl 72 Skill Damage numbers for level 1

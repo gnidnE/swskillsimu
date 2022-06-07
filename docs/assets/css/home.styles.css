@@ -72,7 +72,7 @@ body {
     opacity: 1 !important;
     border: 2px solid #f6b318;
     /*border: 2px solid rgba(246, 181, 24);*/
-    /* cursor: pointer; */
+    /* cursor: pointer;*/
 }
 
 .characterimage {
@@ -83,6 +83,28 @@ body {
     border: 2px solid #f6b31800;
 }
 
+/* .characterimage {
+    height: 99%;
+    -webkit-clip-path: polygon(25% 0, 75% 0, 50% 100%, 0% 100%);
+    clip-path: polygon(25% 0, 75% 0, 50% 100%, 0% 100%);
+    transition: all .1s ease-in-out;
+    opacity: 0.75 !important;
+}
+
+
+
+.characterimage:hover {
+    height: 100%;
+    -webkit-clip-path: polygon(25% 0, 75% 0, 50% 100%, 0% 100%);
+    clip-path: polygon(25% 0, 75% 0, 50% 100%, 0% 100%);
+    opacity: 1 !important;
+}
+
+.col-md-1 {
+    position: inherit;
+
+}
+ */
 .hideaway {
     display: none;
     width: 0px;

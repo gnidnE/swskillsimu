@@ -220,3 +220,6 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 tb_Skill_Script_KR.json
+tb_Skill_Script_JP.json
+tb_Skill_Script_TWN.json
+tb_Skill_Script_ENG.json
