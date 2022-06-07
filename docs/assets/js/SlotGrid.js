@@ -254,7 +254,7 @@ SlotGrid.prototype.GetRender = function () {
                 // $("<ul>").addClass(["liststyle-none", "list-inline"]).append(this.printfloor(floor[2]))
             ),
             
-            $("<li>").append($("<span>").text(window.SkillTreeData.Localization.SkillSlot.SmallGuideText_HowToAssignASkill)),
+            $("<li><br>").append($("<span>").text(window.SkillTreeData.Localization.SkillSlot.SmallGuideText_HowToAssignASkill)),
         ])
     );
 }
